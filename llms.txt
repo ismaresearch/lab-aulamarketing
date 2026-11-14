@@ -1,0 +1,26 @@
+# aulamarketing.digital · lab
+
+> Laboratorio abierto y gratuito para construir un plan de marketing digital paso a paso, basado en el libro «Desde cero hasta el éxito. Plan de Marketing Digital: Guía práctica con asistencia IA» (Dykinson, 2026; DOI https://doi.org/10.14679/4978; licencia CC BY-NC-ND 4.0). Autores: Ismael Traba Outes, Alexander Aguirre Montero, Diego Gómez Carmona, Pedro Pablo Marín Dueñas.
+
+## Planes
+- [Mi plan estratégico](https://lab.aulamarketing.digital/planes/estrategico/): Analizarás tu mercado y fijarás el rumbo estratégico de tu plan: DAFO, buyer persona, objetivos SMART y 4 Ps.
+- [Mi plan de design thinking](https://lab.aulamarketing.digital/planes/design-thinking/): Aplicarás el design thinking paso a paso para innovar poniendo a tu cliente en el centro, con apoyo de IA.
+- [Mi customer journey map](https://lab.aulamarketing.digital/planes/customer-journey/): Construirás el Customer Journey Map de tu buyer persona para dar sentido y coherencia a todas tus acciones.
+- [Mi plan de marca](https://lab.aulamarketing.digital/planes/marca/): Definirás el ADN de tu marca: su identidad conceptual, verbal y visual, con ayuda de la IA.
+- [Mi plan web](https://lab.aulamarketing.digital/planes/web/): Pondrás en marcha tu sitio web como centro de tu ecosistema digital, preparado para captar leads y convertir.
+- [Mi plan SEO](https://lab.aulamarketing.digital/planes/seo/): Diseñarás tu estrategia de posicionamiento orgánico para que te encuentren los buscadores y te citen las IA.
+- [Mi plan de social media](https://lab.aulamarketing.digital/planes/social-media/): Convertirás tus redes sociales en una palanca para captar atención, construir comunidad y generar leads, con ayuda de la IA.
+- [Mi plan de email marketing](https://lab.aulamarketing.digital/planes/email/): Construirás tu propia audiencia por email y diseñarás un funnel que convierta el interés en relación duradera.
+- [Mi plan SEM](https://lab.aulamarketing.digital/planes/sem/): Diseñarás campañas de anuncios en buscadores rentables, medibles y de bajo riesgo, con apoyo de la IA.
+- [Mi plan de Social Ads](https://lab.aulamarketing.digital/planes/social-ads/): Crearás campañas de publicidad en redes sociales basadas en investigación, con creativos que conviertan y presupuesto bien invertido.
+- [Mi plan de influencers y UGC](https://lab.aulamarketing.digital/planes/influencers/): Diseñarás una estrategia de colaboración con influencers y UGC que transfiera credibilidad real a tu marca.
+- [Mi plan de reseñas](https://lab.aulamarketing.digital/planes/resenas/): Diseñarás un sistema de reseñas auténtico que convierta las opiniones de tus clientes en confianza, visibilidad y mejoras.
+- [Mi plan de reputación](https://lab.aulamarketing.digital/planes/reputacion/): Gestionarás tu reputación digital como un sistema que construye confianza, protege tu marca y convierte.
+- [Mi plan de medición](https://lab.aulamarketing.digital/planes/medicion/): Montarás el cuadro de mandos de tu plan para medir, diagnosticar, corregir a tiempo y escalar lo que funciona.
+
+## Recursos
+- [Biblioteca de prompts](https://lab.aulamarketing.digital/prompts/)
+- [Directorio de herramientas](https://lab.aulamarketing.digital/herramientas/)
+- [Glosario](https://lab.aulamarketing.digital/glosario/)
+- [Antes de empezar: conceptos de IA](https://lab.aulamarketing.digital/antes-de-empezar/)
+- [Acerca del libro](https://lab.aulamarketing.digital/acerca/)
