@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TextoLibro from '../components/TextoLibro.astro';
+import PromptCard from '../components/PromptCard.astro';
+import Pendiente from '../components/Pendiente.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { antesDeEmpezar as a } from '../lib/datos';
+import { pad2 } from '../lib/texto';
+import { abs, LIBRO, ORG } from '../lib/seo';
+const ld = [{ '@context': 'https://schema.org', '@type': 'LearningResource', name: 'Antes de empezar: conceptos de inteligencia artificial', url: abs('/antes-de-empezar/'), inLanguage: 'es-ES', isAccessibleForFree: true, provider: ORG, isBasedOn: LIBRO, teaches: a.objetivos_aprendizaje }];
+---
+<Layout titulo="Antes de empezar" descripcion={a.promesa ?? 'Conceptos de inteligencia artificial para el marketing: cómo escribir buenos prompts, tokens y qué modelo elegir.'} jsonLd={ld} migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Antes de empezar' }]}
+  esquema={{ titulo: 'Antes de empezar', url: '/antes-de-empezar/', pasos: a.pasos.map((p) => ({ n: p.n, titulo: p.titulo, url: p.url })) }}>
+  <p class="c-overline">Transversal · Capítulo {pad2(a.capitulo)}</p>
+  <h1>Antes de empezar</h1>
+  <p class="c-lead">{a.titulo_capitulo}</p>
+  {a.promesa ? <p class="c-idea">{a.promesa}</p> : <p><Pendiente que="promesa (capas/resumenes)" /></p>}
+  {a.resumen_capitulo && <p>{a.resumen_capitulo}</p>}
+  {a.objetivos_aprendizaje.length > 0 && <details class="c-details"><summary>En este capítulo aprenderás cómo… (texto del libro)</summary><div class="c-details__body"><ul>{a.objetivos_aprendizaje.map((o) => <li>{o}</li>)}</ul></div></details>}
+  <nav aria-label="Apartados"><ol class="c-steps">{a.pasos.map((p) => <li><a href={`#${p.slug}`}><span class="c-steps__n">{pad2(p.n)}.</span> {p.titulo}</a></li>)}</ol></nav>
+  {a.pasos.map((p) => (
+    <section id={p.slug} aria-labelledby={`${p.slug}-t`}>
+      <h2 id={`${p.slug}-t`}>{pad2(p.n)}. {p.titulo}</h2>
+      {p.idea_clave ? <p class="c-idea">{p.idea_clave}</p> : <p><Pendiente que="idea clave (capas/resumenes)" /></p>}
+      {p.resumen ? <p>{p.resumen}</p> : <p><Pendiente que="resumen (capas/resumenes)" /></p>}
+      <details class="c-details"><summary>Leer el texto completo del libro{p.pagina_libro && ` · pág. ${p.pagina_libro}`}</summary>
+        <div class="c-details__body">{p.texto.map((t) => <>{t.titulo && <h3>{t.numero}. {t.titulo}</h3>}<TextoLibro texto={t.texto} /></>)}</div></details>
+      {p.prompts.map((pr) => <PromptCard prompt={pr} />)}
+      {p.herramientas.length > 0 && <details class="c-details"><summary>Herramientas citadas ({p.herramientas.length})</summary><div class="c-details__body c-grid c-grid--2">{p.herramientas.map((h) => <ToolCard nombre={h.nombre} slug={h.slug} tipo={h.tipo} compacta />)}</div></details>}
+    </section>
+  ))}
+</Layout>

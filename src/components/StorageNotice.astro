@@ -1,0 +1,19 @@
+---
+import Icon from './Icon.astro';
+interface Props { compacto?: boolean; titulo?: string }
+const { compacto = false, titulo = 'Tus datos viven solo en este navegador' } = Astro.props;
+---
+<section class="c-card c-privacidad" aria-label="Dónde se guardan tus datos">
+  <div class="c-privacidad__cab">
+    <span class="c-privacidad__ico" aria-hidden="true"><Icon nombre="escudo" /></span>
+    <div>
+      <p class="c-privacidad__t">{titulo}</p>
+      <p class="c-overline c-overline--ok">Sin registro · sin servidores</p>
+    </div>
+  </div>
+  <p class="c-privacidad__txt"><strong>Se guarda solo en este navegador.</strong>{!compacto ? ' No hay cuentas ni servidores: si borras los datos del navegador o cambias de dispositivo, no estarán. Descarga una copia para llevártela.' : ' Descarga una copia para no perderlos.'}</p>
+  <div class="c-acciones c-privacidad__acc">
+    <button type="button" class="c-btn c-btn--gris c-btn--peq" data-js="descargar-copia"><Icon nombre="descargar" />Descargar copia (.json)</button>
+    <label class="c-btn c-btn--gris c-btn--peq"><Icon nombre="subir" />Cargar una copia<input type="file" accept="application/json,.json" data-js="cargar-copia" class="sr-only" /></label>
+  </div>
+</section>

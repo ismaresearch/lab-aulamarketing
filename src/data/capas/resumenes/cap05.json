@@ -1,0 +1,149 @@
+{
+  "id": "c05",
+  "promesa": "Definirás el ADN de tu marca: su identidad conceptual, verbal y visual, con ayuda de la IA.",
+  "al_terminar_tendras": [
+    "Tu propuesta de valor, misión y visión redactadas y refinadas con IA",
+    "La historia y los valores de tu marca, incluida una versión memorable",
+    "Tu identidad verbal: nombre evaluado, eslogan y tono de voz",
+    "Propuestas de logotipo, símbolo, tipografía y paleta de color para tu identidad visual",
+    "Un enfoque de comunicación 360º para que tu marca cuente la misma historia en todos los canales"
+  ],
+  "historia_ana": null,
+  "resumen_capitulo": "Una marca es mucho más que un nombre o un logotipo: es la emoción que despierta, la promesa que cumple y la historia que cuenta. En un mercado lleno de opciones casi idénticas, el branding es el proceso estratégico y emocional que construye esa diferencia. Este capítulo te guía para definir el ADN de tu marca en tres capas. La identidad conceptual responde a para qué existe tu marca: propuesta de valor, misión, visión, historia y valores. La identidad verbal le da voz: nombre, eslogan y tono. La identidad visual la hace reconocible a simple vista: tipografía, imagen, color y elementos gráficos. En cada paso ves cómo lo aplica aulamarketing.digital con ChatGPT, herramientas de logotipos e IA generativa de imagen, refinando los prompts hasta lograr un resultado atractivo. Por último, aprendes a comunicar tu marca de forma integral en todos los puntos de contacto, online y offline, con una estrategia transmedia. La idea que lo resume: tu marca no es lo que tú dices que es, sino lo que los demás sienten.",
+  "secciones": {
+    "c05-s1": {
+      "idea_clave": "El branding construye percepciones y emociones en la mente de las personas; las grandes marcas venden experiencias, no solo productos.",
+      "resumen": "Las marcas más conocidas no venden lo que fabrican: venden lo que te hacen sentir. Nike vende superación, Apple creatividad y pertenencia, y Spotify identidad personal. Un buen branding genera diferenciación, recuerdo y, al final, preferencia en el momento de compra. Por eso no es solo un logotipo bonito o un anuncio viral: es la cultura de una marca, su historia, su identidad y las percepciones que construye, comunicadas de forma consistente. Como resume Marty Neumeier, el branding es lo que otros sienten sobre tu marca. Hoy las marcas compiten en la mente del consumidor, donde colores, sonidos y experiencias se asocian a emociones concretas. Las más memorables venden un estilo de vida o una forma de ver el mundo, hasta convertir a sus clientes en embajadores. Y ninguna nació por casualidad: desde el primer día diseñaron una estrategia de branding integral, desde su propósito hasta su tono en redes. A ese conjunto de elementos se le llama ADN de marca o brand identity.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c05-s2": {
+      "idea_clave": "El ADN de una marca se construye en tres capas: identidad conceptual (el alma), identidad verbal (la voz) e identidad visual (la imagen).",
+      "resumen": "La identidad de una marca la forman tres elementos que le dan personalidad y la hacen única. La identidad conceptual es su alma: responde a para qué existe, qué hace por la gente y qué impacto quiere tener. Incluye la propuesta de valor, con beneficios racionales y emocionales; la misión, que explica qué problema resuelves, para quién y por qué tú; la visión, un futuro aspiracional pero alcanzable; la historia, base del storytelling; y los valores, los principios no negociables de la marca. La identidad verbal es su voz: el nombre, el eslogan y el tono. La identidad visual es su ADN gráfico: logotipo y tipografía, imagen (isotipo, imagotipo o isologo), color y elementos gráficos. El libro aplica cada elemento a aulamarketing.digital con ayuda de la IA. Refina varias veces los prompts para obtener una misión breve y emocional, opciones de visión, una historia de origen, valores en versión memorable, propuestas de eslogan (se adopta \"Marketing real. Sin humo.\") y propuestas de logotipo e identidad visual.",
+      "subsecciones": {
+        "c05-s2.1": {
+          "idea_clave": "Define el alma de tu marca: propuesta de valor, misión, visión, historia y valores, y refínalos con IA hasta que emocionen."
+        },
+        "c05-s2.2": {
+          "idea_clave": "Dale voz a tu marca con un nombre bien elegido, un eslogan breve y memorable y un tono coherente con tu audiencia."
+        },
+        "c05-s2.3": {
+          "idea_clave": "Haz tu marca reconocible a simple vista con una tipografía, una imagen, unos colores y unos elementos gráficos coherentes con su identidad."
+        }
+      },
+      "minutos_lectura_integro": 58
+    },
+    "c05-s3": {
+      "idea_clave": "No puedes no comunicar: orquesta todos los puntos de contacto, online y offline, para que cuenten la misma historia.",
+      "resumen": "Con la identidad definida, falta comunicarla: una marca sin comunicación es como un gran producto guardado en un cajón. La gestión comunicacional es el puente entre lo que la marca es y lo que la audiencia percibe. Además, todo comunica: el packaging, el tono de los emails o cómo respondes a una crítica en redes. La comunicación 360º orquesta todos los puntos de contacto con cuatro pilares: consistencia en todos los medios, coherencia con la identidad conceptual, integración omnicanal y sinergia entre canales. Entre los medios digitales, el libro destaca las redes sociales como espacios de conversación, la web como el único espacio que controlas al 100 %, el email marketing por su retorno, el SEO y el SEM, los podcasts, y los influencers y el UGC. Entre los tradicionales, la televisión, la radio, la prensa, la publicidad exterior, la publicidad en el punto de venta y el marketing directo. La clave es una estrategia transmedia: una historia central con extensiones por canal, como en el ejemplo de StepGreen.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 7
+    }
+  },
+  "apartados": {
+    "c05-s2.1.A": {
+      "idea_clave": "Tu propuesta de valor combina beneficios racionales y emocionales y responde a qué problema resuelves mejor que nadie.",
+      "resumen": "Lo primero que debe definir cualquier marca es qué ofrece al mercado: su propuesta de valor. Esta propuesta tiene dos capas. Los beneficios racionales son las características objetivas y tangibles del producto o servicio, lo que se puede tocar, medir o verificar; el libro lo ilustra con anuncios de Chupa Chups y 3M. Los beneficios emocionales pertenecen al mundo simbólico de la marca: los sentimientos, aspiraciones y pasiones que despierta en sus públicos, como hacen Harley-Davidson y BMW al vender libertad y aventura en lugar de motos o coches. Al fijar tu propuesta de valor, tienes que definir qué encontrará el público en tu oferta que le motive a comprarte. Debería ser algo único, que la competencia no pueda ofrecer, y con fuerza suficiente para que la gente quiera tu marca. Como resume Philip Kotler, tu propuesta de valor debe responder a una pregunta: ¿qué problema resuelves mejor que nadie?",
+      "minutos_lectura_integro": 2
+    },
+    "c05-s2.1.B": {
+      "idea_clave": "La misión convierte tu propuesta de valor en una frase breve y emocional: qué problema resuelves, para quién y por qué tú.",
+      "resumen": "La misión pone en palabras tu propuesta de valor. No es una lista de características ni una descripción de lo que vendes: responde a qué obtendrá alguien al elegir tu marca. Una buena misión explica tres cosas (qué problema resuelves, para quién y por qué solo tú puedes hacerlo así) y lo hace en una frase breve y memorable. Los ejemplos de Google, Tesla, Airbnb y Duolingo tienen algo en común: ninguno habla de vender o de ganar dinero, todos hablan de impacto. Para aulamarketing.digital, el libro parte de la propuesta de valor del capítulo 1 y pide a ChatGPT una misión atractiva. El primer resultado no es una misión propiamente dicha, así que refina el prompt para obtener una cita breve; como esa versión no emociona lo suficiente, vuelve a pedirle un tono más emocional e inspirador. Así llega a la misión final: transformar el aprendizaje en experiencia para que el talento se convierta en éxito profesional.",
+      "minutos_lectura_integro": 2
+    },
+    "c05-s2.1.C": {
+      "idea_clave": "La visión dibuja el futuro aspiracional y alcanzable de tu marca: la brújula que orienta y motiva a todo el equipo.",
+      "resumen": "Con la visión defines la imagen del futuro que buscas con tus esfuerzos actuales: qué quiere llegar a ser tu marca y adónde quiere llegar. No debe ser una fantasía, sino una meta factible que motive e inspire al equipo y que este comparta. Funciona como norte y brújula para líderes y colaboradores en la mejora continua, y recoge los objetivos más ambiciosos de la organización. La pregunta guía es qué quieres que sea tu organización en los próximos años; el libro aporta una tabla con ejemplos de visión. En el caso de aulamarketing.digital se usa un prompt literal: se pide a ChatGPT, como especialista en comunicación de marca, que defina la visión a partir de la propuesta de valor y de la misión ya obtenida, y que sea inspiradora, motivadora y alcanzable. Tras una primera propuesta, se le pide una versión más breve y aspiracional, y el resultado son cinco opciones que podrían usarse sin problema.",
+      "minutos_lectura_integro": 2
+    },
+    "c05-s2.1.D": {
+      "idea_clave": "La historia de tu marca, contada con emoción y anclada en sus valores, es la base de un storytelling auténtico.",
+      "resumen": "La historia recoge los hitos y momentos clave de tu organización y le da personalidad a partir de su biografía. Es la base de un storytelling y un brandtelling relevantes: transmitir mensajes y valores mediante relatos escritos, sonoros o audiovisuales, que impactan más que la publicidad convencional. Para componerla, busca acontecimientos especiales y únicos, como unos orígenes sorprendentes o un suceso conmovedor vivido por fundadores o trabajadores; el garaje donde nació Apple es el ejemplo clásico. No se trata de enumerar datos, sino de transmitir la pasión y la visión que dieron origen al negocio. La narrativa debe ser además aspiracional, mostrar cómo la marca ayuda a sus clientes a ser una mejor versión de sí mismos y apoyarse en sus valores. Así la marca se percibe auténtica y transparente y gana lealtad. Si no hay una historia atractiva, Lorente recomienda inventarla a partir de los valores. La historia de aulamarketing.digital, creada con ChatGPT, nace de estudiantes que dominan la teoría pero no saben afrontar el mercado real.",
+      "minutos_lectura_integro": 4
+    },
+    "c05-s2.1.E": {
+      "idea_clave": "Los valores son los principios no negociables que guían cómo actúa, decide y comunica tu marca, incluso cuando nadie mira.",
+      "resumen": "Los valores son los principios rectores no negociables de tu marca, su GPS moral: guían sus acciones, sus decisiones y su comunicación hoy y en el futuro. Definen quién eres cuando nadie está mirando y aquello en lo que tu marca cree de verdad, más allá del marketing y las ventas. Por eso no pueden quedarse en un documento olvidado: tienen que compartirse, vivirse y difundirse en cada interacción. El libro cita ejemplos como la transparencia, el respeto, el cumplimiento de los compromisos, la cooperación, la sostenibilidad, la innovación, la pasión o la integridad. Para aulamarketing.digital, pide a la IA unos valores basados en el propósito de la marca y en toda la identidad construida en la conversación, y después una versión más memorable para usarla en comunicación, con valores como «Aprender haciendo» o «Cercanía humana». Con la identidad conceptual cerrada, el siguiente paso es construir la identidad verbal y visual, que la traducen a palabras e imágenes para que tu marca sea reconocible, memorable y coherente.",
+      "minutos_lectura_integro": 2
+    },
+    "c05-s2.2.A": {
+      "idea_clave": "El nombre acompaña a tu marca toda su vida: elígelo con un proceso estratégico de naming, no por ocurrencia.",
+      "resumen": "Una marca no existe hasta que tiene nombre: es lo que la hace comunicable, reconocible y memorizable y, a diferencia del logotipo, se mantiene toda la vida del negocio. Incluso sin publicidad, funciona como un anuncio permanente. Elegirlo es tarea del naming, el proceso sistemático para nombrar empresas, productos o líneas. Antes era casi una ocurrencia, como cuenta la leyenda de Zara; desde mediados de los años 70 es una disciplina profesional que combina creatividad, investigación, análisis lingüístico, estudios de mercado y aspectos legales. El proceso es un embudo: de cientos de propuestas se descartan las que no cumplen los objetivos, no diferencian, ya existen o no se pueden registrar, hasta quedar entre 4 y 6 finalistas. El libro propone nueve principios, del propósito a la validación previa, y ocho características: brevedad, pronunciación fácil, eufonía, evocación, memorabilidad, positividad, atemporalidad y registrabilidad. También advierte de los errores: nombres largos, crípticos, impronunciables, parecidos a la competencia o no registrables.",
+      "minutos_lectura_integro": 12
+    },
+    "c05-s2.2.B": {
+      "idea_clave": "Tu eslogan es tu grito de guerra: una frase breve que complementa el nombre, te diferencia, se pega y deja huella.",
+      "resumen": "La palabra eslogan viene del grito de guerra con el que los clanes escoceses se animaban antes de la batalla, y su función sigue siendo la misma: condensar identidad y propósito en una frase memorable. Es una frase corta e impactante que sintetiza la esencia y la propuesta de valor de tu marca. No es un adorno: define su forma de ser, comunica su filosofía, la diferencia de la competencia, puede crear valor por sí misma y elimina ambigüedades sobre lo que hace. El libro resume seis claves de un eslogan eficaz, con ejemplos como «Just Do It», «Think Different» o «Te da alas»: debe complementar al nombre, diferenciarte, ser breve, ser original, ser pegajoso y fácil de repetir, e impactar. Frases genéricas como «Calidad y servicio» o «Estamos aquí para servirle» no cumplen ninguna. Para aulamarketing.digital, ChatGPT propone cinco eslóganes, y el que se usa después es «Marketing real. Sin humo.»",
+      "minutos_lectura_integro": 5
+    },
+    "c05-s2.2.C": {
+      "idea_clave": "El tono es la personalidad de tu marca hecha lenguaje: coherente en su esencia y adaptado a cada canal y situación.",
+      "resumen": "El tono es el tercer pilar de la identidad verbal: no es qué dices, sino cómo lo dices, con tus palabras, tu estilo, tu ritmo y tu actitud. Puede diferenciar tanto como el logotipo. El libro distingue tres conceptos: la voz, la personalidad estable de la marca (¿quién es como persona?); el tono, la modulación de esa voz según el canal, la situación o el mensaje; y el estilo, las convenciones formales del lenguaje, como el léxico o la longitud de las frases. Para definir tu tono, parte de tres pilares: conocer a fondo a tu audiencia (cómo habla, qué códigos usa, qué le emociona), analizar los valores y la personalidad de tu marca y estudiar cómo hablan tus competidores para encontrar huecos. Debe ser coherente en todos los canales sin perder su esencia. Hay muchos tonos posibles, del profesional al provocador o el aspiracional, y se suelen combinar. Banco Sabadell suena institucional sin ser frío; la agencia Putos Modernos, provocadora e irreverente.",
+      "minutos_lectura_integro": 5
+    },
+    "c05-s2.3.A": {
+      "idea_clave": "La tipografía es la voz gráfica de tu marca: cada familia y cada ajuste transmiten personalidad antes de leer el nombre.",
+      "resumen": "Si el logotipo es la firma visual de tu marca, la tipografía es su voz gráfica y el componente principal del logotipo. No es neutral: cada familia transmite códigos culturales y emocionales. Las serif, con remates, comunican arraigo, solidez y elegancia. Las sans, sin remates, transmiten limpieza, modernidad y simplicidad, y se leen mejor en pantalla. Las script imitan la escritura a mano y humanizan la marca, aunque pierden legibilidad en tamaños pequeños. Las display son expresivas y llamativas, pensadas para impactar. Después llegan los ajustes finos: peso, forma, interlineado, altura de las minúsculas, kerning y tracking, posición y tamaño. Para elegir bien, conecta con tu público, refleja tus valores, ten en cuenta el contexto de uso y cuida la legibilidad y el contraste. Y evita cuatro errores: usar Comic Sans en marcas serias, combinar más de dos o tres familias, sacrificar la legibilidad por originalidad e ignorar las licencias. El libro incluye una tabla de recursos para buscar tipografías.",
+      "minutos_lectura_integro": 6
+    },
+    "c05-s2.3.B": {
+      "idea_clave": "El símbolo muestra quién eres sin palabras: elige entre isotipo, imagotipo o isologo y apóyate en la IA para explorar opciones.",
+      "resumen": "La imagen es la representación visual de tu marca que funciona sin texto: el signo que acompaña o sustituye a la grafía, como la manzana de Apple o el swoosh de Nike. Hay tres grandes formas de relacionar texto e imagen. El isotipo es el símbolo solo; puede ser un monograma, un símbolo o una mascota, pero exige décadas de consistencia e inversión, y casi solo lo logran las grandes marcas globales. El imagotipo combina logotipo y símbolo diferenciados, que pueden funcionar por separado. El isologo los funde en un único elemento inseparable. Un buen símbolo es simple, relevante, perdurable, distintivo, memorable y adaptable a cualquier formato. La IA facilita hoy explorar opciones. Para aulamarketing.digital, el libro prueba LogoAI (nombre y eslogan, industria, colores fríos y tipografía moderna) y después NANOBANANA de Gemini, con un prompt que presenta la propuesta de valor y pide logotipo, símbolo y colores; obtiene cuatro propuestas, cada una con su concepto.",
+      "minutos_lectura_integro": 11
+    },
+    "c05-s2.3.C": {
+      "idea_clave": "El color es el lenguaje silencioso de tu marca: elige una paleta sencilla, coherente con tus valores y distinta de tu competencia.",
+      "resumen": "El color es el elemento más inmediato y emocional de la identidad visual: te impacta antes de que seas consciente de estar mirando. Cumple cuatro funciones: aporta connotaciones estéticas (lujo, juventud, delicadeza), evoca emociones (el rojo excita, el azul calma y da confianza, el verde habla de naturaleza), añade fuerza óptica, porque unos colores destacan más que otros, y te diferencia de la competencia, como ocurre entre las operadoras de telecomunicaciones en España. Por eso conviene apoyarse en la psicología del color y tener en cuenta que su significado cambia entre culturas. En la gestión del color corporativo se distinguen los colores principales, presentes en logotipo, web o packaging, y los secundarios, que los complementan. El libro repasa cinco combinaciones: monocromática, complementaria, tríada, tétrada y análoga. Y cierra con claves para elegir: conoce a tu público, sé coherente con tus valores, entiende la cultura, prueba en distintos medios, limítate a dos o tres colores planos y diferénciate de los colores típicos de tu categoría.",
+      "minutos_lectura_integro": 6
+    },
+    "c05-s2.3.D": {
+      "idea_clave": "Patrones, ilustraciones, formas e iconos completan tu identidad visual y le dan coherencia en todos los soportes.",
+      "resumen": "Los elementos gráficos son la última variable de la identidad visual: componentes que complementan y refuerzan tu marca, conectan todo el diseño y le aportan coherencia y personalidad. Se aplican en muchos soportes: papelería corporativa, publicidad, redes sociales, señalética, productos y packaging. El libro distingue cuatro tipos. Los patrones son diseños repetitivos, abstractos, geométricos o inspirados en motivos de la marca, que dan textura y continuidad. Las ilustraciones aportan un toque único y auténtico, diferencian a la marca y sirven para contar historias visuales que conectan emocionalmente. Las líneas y formas geométricas enmarcan contenidos, dividen secciones y destacan elementos clave, como precios o descripciones, en la tienda, la web o los catálogos. Por último, los iconos y pictogramas son representaciones simples y universales que transmiten ideas con rapidez. Cada tipo se ilustra con una figura de ejemplo.",
+      "minutos_lectura_integro": 2
+    }
+  },
+  "propuesta_agrupacion": [
+    {
+      "grupo": "Misión y visión",
+      "apartados": [
+        "c05-s2.1.B",
+        "c05-s2.1.C"
+      ],
+      "minutos_lectura_integro": 4,
+      "justificacion": "Son dos declaraciones breves de la identidad conceptual que se trabajan igual: un prompt y refinados sucesivos en la misma conversación con ChatGPT (c05-p01…p05). La visión usa la misión ya obtenida como entrada, y los dos apartados son cortos (2 min cada uno).",
+      "opcional": {
+        "apartado": "c05-s2.1.A",
+        "motivo": "«A qué nos dedicamos» es muy corto (2 min) y su producto, la propuesta de valor, ya se obtiene en el cap. 1 (c01-p06): puede ir como recordatorio al inicio de este paso en lugar de ser un paso propio."
+      }
+    },
+    {
+      "grupo": "Historia y valores",
+      "apartados": [
+        "c05-s2.1.D",
+        "c05-s2.1.E"
+      ],
+      "minutos_lectura_integro": 6,
+      "justificacion": "Cierran la identidad conceptual y comparten mecánica: la IA los genera a partir de toda la identidad construida en la misma conversación (c05-p06…p08). El propio resumen del capítulo los entrega juntos («La historia y los valores de tu marca»). Los valores son cortos (2 min)."
+    },
+    {
+      "grupo": "Color y elementos gráficos",
+      "apartados": [
+        "c05-s2.3.C",
+        "c05-s2.3.D"
+      ],
+      "minutos_lectura_integro": 8,
+      "justificacion": "Elementos gráficos es el apartado más corto del capítulo (2 min), no tiene paso con IA y completa el sistema visual que fija la paleta: ambos definen cómo se aplica la identidad en todos los soportes."
+    },
+    {
+      "grupo": "Sin agrupar (se recomienda paso propio)",
+      "apartados": [
+        "c05-s2.2.A",
+        "c05-s2.2.B",
+        "c05-s2.2.C",
+        "c05-s2.3.A",
+        "c05-s2.3.B"
+      ],
+      "justificacion": "Nombre (12 min) e Imagen (11 min) son largos; la imagen incluye además toda la práctica de LogoAI y NANOBANANA. Eslogan y tono son de la misma capa verbal, pero el tono alimenta la variable de perfil {tono} y conviene que el alumno lo defina en un paso propio. Grafía (6 min) tiene contenido propio suficiente."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+---
+import Icon from './Icon.astro';
+interface Props { nombre: string; slug: string | null; tipo: 'ia' | 'digital' | null; descripcion?: string | null; meta?: string | null; compacta?: boolean; url?: string | null; capitulos?: number[]; bloque?: string | null }
+const { nombre, slug, tipo, descripcion, meta, compacta = false, url, capitulos = [], bloque } = Astro.props;
+const mono = nombre.replace(/[^A-Za-zÀ-ÿ0-9]/g, '').slice(0, 2).toUpperCase() || '·';
+// color del monograma por inicial (solo decorativo; el texto va siempre sobre un fondo con contraste AA)
+const tonos = ['indigo', 'terracota', 'verde', 'gris'];
+const tono = tonos[(nombre.charCodeAt(0) || 0) % tonos.length];
+let dominio: string | null = null;
+try { dominio = url ? new URL(url).hostname.replace(/^www\./, '') : null; } catch { dominio = null; }
+---
+<div class:list={['c-tool', compacta && 'c-tool--compacta']}>
+  <div class="c-tool__cab">
+    <span class:list={['c-tool__mono', `c-tool__mono--${tono}`]} aria-hidden="true">{mono}</span>
+    <div class="c-tool__id">
+      <p class="c-tool__name">{slug ? <a href={`/herramientas/${slug}/`}>{nombre}</a> : nombre}</p>
+      {dominio && !compacta && <p class="c-tool__dom">{dominio}</p>}
+    </div>
+  </div>
+  {(tipo || bloque || capitulos.length > 0) && (
+    <p class="c-tool__chips">
+      {tipo && <span class:list={['c-chip', tipo === 'ia' && 'c-chip--proyecto']}>{tipo === 'ia' ? 'Nativa IA' : 'Herramienta digital'}</span>}
+      {bloque && <span class="c-chip c-chip--book">{bloque}</span>}
+      {capitulos.length > 0 && <span class="c-chip c-chip--mono">{capitulos.map((c) => `Cap. ${c}`).join(' · ')}</span>}
+    </p>
+  )}
+  {!compacta && descripcion && <p class="c-tool__desc">{descripcion}</p>}
+  {compacta && descripcion && <p class="c-tool__desc c-tool__desc--1">{descripcion}</p>}
+  {meta && <p class="c-meta">{meta}</p>}
+  {!compacta && (slug || url) && (
+    <p class="c-tool__pie">
+      {slug && <a class="c-enlace-flecha" href={`/herramientas/${slug}/`} aria-label={`Ver ficha de ${nombre}`}>Ver ficha <Icon nombre="chevron" /></a>}
+      {url && <a class="c-btn c-btn--peq" href={url} target="_blank" rel="noopener noreferrer">Visitar web<Icon nombre="externo" /><span class="sr-only"> de {nombre} (pestaña nueva)</span></a>}
+    </p>
+  )}
+</div>

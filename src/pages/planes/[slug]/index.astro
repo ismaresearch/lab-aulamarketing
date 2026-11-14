@@ -1,0 +1,158 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import PrereqBox from '../../../components/PrereqBox.astro';
+import Pendiente from '../../../components/Pendiente.astro';
+import Icon from '../../../components/Icon.astro';
+import { getPlanes, getRepaso, getPrompt, type Plan } from '../../../lib/datos';
+import { pad2 } from '../../../lib/texto';
+import { abs, LIBRO, ORG } from '../../../lib/seo';
+export function getStaticPaths() {
+  return getPlanes().map((plan) => ({ params: { slug: plan.slug }, props: { plan } }));
+}
+const { plan } = Astro.props as { plan: Plan };
+const desc = plan.promesa ?? `${plan.titulo}: plan basado en el capítulo ${plan.capitulo} del libro, «${plan.titulo_capitulo}».`;
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'Course', '@id': abs(plan.url) + '#curso', name: plan.titulo, description: desc,
+  url: abs(plan.url), inLanguage: 'es-ES', isAccessibleForFree: true, provider: ORG, isBasedOn: LIBRO,
+  teaches: plan.objetivos_aprendizaje, educationalLevel: 'Iniciación',
+  hasPart: plan.pasos.map((p) => ({ '@type': 'LearningResource', name: p.titulo, url: abs(p.url), position: p.n })),
+}];
+const esquema = { titulo: plan.titulo, url: plan.url, plan: plan.slug, pasos: plan.pasos.map((p) => ({ n: p.n, titulo: p.titulo, url: p.url, slug: p.slug })) };
+const alTerminar = plan.al_terminar.length ? plan.al_terminar : plan.entregables.map((e) => e.titulo);
+const pasosCta = plan.pasos.map((p) => ({ s: p.slug, u: p.url, n: p.n }));
+// herramientas con ficha citadas en los pasos del plan (sin repetir), en orden de aparición
+const herr = [...new Map(plan.pasos.flatMap((p) => p.herramientas).filter((h) => h.slug).map((h) => [h.slug, h])).values()];
+const repaso = getRepaso(plan.capitulo);
+---
+<Layout titulo={plan.titulo} ancho descripcion={desc} jsonLd={ld} esquema={esquema} migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Planes', url: '/planes/' }, { nombre: plan.titulo }]}>
+  <header class="c-card c-portada">
+    <div class="c-portada__main">
+      <nav class="c-breadcrumbs" aria-label="Migas de pan"><ol><li><a href="/planes/">Planes</a></li><li><span>Capítulo {pad2(plan.capitulo)} · {plan.categoria}</span></li><li><span aria-current="page">{plan.titulo}</span></li></ol></nav>
+      <p class="c-portada__chips"><span class="c-overline c-overline--primario c-overline--caja">Plan vertical · Capítulo {pad2(plan.capitulo)}</span><span class="c-estado" data-js="estado-plan" data-plan={plan.slug} data-total={plan.pasos.length}>Sin empezar</span></p>
+      <h1 class="c-display">{plan.titulo}</h1>
+      <p class="c-lead">{plan.titulo_capitulo}</p>
+    </div>
+    <div class="c-portada__prog">
+      <div data-js="progreso-plan" data-plan={plan.slug} data-total={plan.pasos.length} role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label={`Progreso de ${plan.titulo}`}>
+        <p class="c-overline c-portada__prog-cab"><span>Progreso del plan</span><span class="c-overline--primario" data-js="progreso-plan-pct" data-plan={plan.slug} data-total={plan.pasos.length}></span></p>
+        <div class="c-progress"><span data-js="barra"></span></div>
+        <p class="c-meta" data-js="texto">0 de {plan.pasos.length} pasos</p>
+      </div>
+      {plan.pasos[0] && <a class="c-btn c-btn--bloque" href={plan.pasos[0].url} data-js="cta-plan" data-plan={plan.slug} data-portada={plan.url} data-pasos={JSON.stringify(pasosCta)}><span data-js="cta-txt">Empezar el plan</span><Icon nombre="flecha" /></a>}
+      <a class="c-btn c-btn--blanco c-btn--bloque c-btn--peq" href="/mis-planes/"><Icon nombre="descargar" />Descargar en Word desde Mis planes</a>
+    </div>
+  </header>
+
+  <div class="l-dos">
+    <div class="l-dos__main">
+      <section class="c-card" aria-labelledby="que-t">
+        <h2 id="que-t" class="c-overline">¿Qué conseguirás con este plan?</h2>
+        {plan.promesa ? <p class="c-idea">{plan.promesa}</p> : <p><Pendiente que="promesa del plan (capas/resumenes)" /></p>}
+        {plan.resumen_capitulo && <p class="c-texto-sec">{plan.resumen_capitulo}</p>}
+        {plan.objetivos_aprendizaje.length > 0 && (
+          <details class="c-details c-details--hundido">
+            <summary><Icon nombre="libro" />En este capítulo aprenderás cómo… (texto del libro)</summary>
+            <div class="c-details__body"><ul>{plan.objetivos_aprendizaje.map((o) => <li>{o}</li>)}</ul></div>
+          </details>
+        )}
+      </section>
+
+      {plan.historia_ana && (
+        <section class="c-card c-caso" aria-labelledby="ana-t">
+          <span class="c-caso__avatar" aria-hidden="true">A</span>
+          <div>
+            <p class="c-overline c-overline--book">Caso de estudio guiado · libro, cap. {pad2(plan.capitulo)}</p>
+            <h2 id="ana-t" class="c-caso__t">La historia de Ana en aulamarketing.digital</h2>
+            <p class="c-caso__txt">{plan.historia_ana}</p>
+          </div>
+        </section>
+      )}
+
+      <PrereqBox plan={plan.slug} prerrequisitos={plan.prerrequisitos} />
+
+      <section class="c-card" aria-labelledby="fin-t">
+        <div class="c-seccion__cab">
+          <div><p class="c-overline">Lo que te llevas</p><h2 id="fin-t" class="c-titulo-2">Al terminar este plan tendrás</h2></div>
+          {alTerminar.length > 0 && <span class="c-chip c-chip--mono">{alTerminar.length} {alTerminar.length === 1 ? 'entregable' : 'entregables'}</span>}
+        </div>
+        {alTerminar.length ? <ul class="c-entregables">{alTerminar.map((x) => <li><Icon nombre="check-circulo" /><span>{x}</span></li>)}</ul> : <p><Pendiente que="entregables del plan" /></p>}
+      </section>
+
+      <section aria-labelledby="pasos-t" class="c-seccion">
+        <div class="c-seccion__cab">
+          <div><p class="c-overline">Ruta del plan</p><h2 id="pasos-t" class="c-titulo-2">Pasos del plan</h2></div>
+          <p class="c-seccion__extra">{plan.pasos.length} pasos en total</p>
+        </div>
+        <ol class="c-steps" data-js="lista-pasos" data-plan={plan.slug}>
+          {plan.pasos.map((p) => (
+            <li data-paso-item={p.slug}><a href={p.url}>
+              <span class="c-steps__marca" aria-hidden="true"><span class="c-steps__num">{pad2(p.n)}</span><Icon nombre="check" class="c-steps__ok" /></span>
+              <span class="c-steps__cuerpo">
+                <span class="c-steps__n">Paso {pad2(p.n)}<span class="c-steps__sig"> · siguiente</span></span>
+                <span class="c-steps__t">{p.titulo}</span>
+                <span class="c-steps__meta">
+                  {p.minutos && <span><Icon nombre="reloj" />{p.minutos} min</span>}
+                  {p.prompts.length > 0 && <span><Icon nombre="prompts" />{p.prompts.length} {p.prompts.length === 1 ? 'prompt' : 'prompts'}</span>}
+                  {p.es_ejemplo && <span class="c-chip c-chip--book">Ejemplo del libro</span>}
+                </span>
+              </span>
+              <span class="c-steps__estado c-chip" data-js="estado-paso" data-plan={plan.slug} data-paso={p.slug}>Sin empezar</span>
+            </a></li>
+          ))}
+        </ol>
+      </section>
+
+      <div class="c-acciones">
+        {plan.pasos[0] && <a class="c-btn" href={plan.pasos[0].url}>Empezar por el paso 1<Icon nombre="flecha" /></a>}
+        <a class="c-btn c-btn--blanco" href={`/prompts/?plan=${plan.slug}`}><Icon nombre="prompts" />Ver solo los prompts</a>
+      </div>
+
+      {repaso.length > 0 && (
+        <section aria-labelledby="repaso-t" class="c-seccion">
+          <div class="c-seccion__cab"><div><p class="c-overline">Repaso activo</p><h2 id="repaso-t" class="c-titulo-2">Repasa este plan</h2></div><p class="c-seccion__extra">{repaso.length} tarjetas</p></div>
+          <div class="c-repaso">{repaso.map((t, i) => <details class="c-flashcard"><summary><span class="c-overline c-overline--primario">Tarjeta {i + 1} de {repaso.length}</span><span class="c-flashcard__q">{t.pregunta}</span><span class="c-flashcard__ver">Mostrar respuesta</span></summary><p class="c-flashcard__a">{t.respuesta}</p></details>)}</div>
+        </section>
+      )}
+      {plan.autoria && <p class="c-meta">Autoría del capítulo: {plan.autoria}</p>}
+    </div>
+
+    <aside class="l-dos__aside" aria-label="Recursos del plan">
+      {plan.cadenas.length > 0 && (
+        <section class="c-card c-card--terminal" aria-labelledby="cad-t">
+          <h2 id="cad-t" class="c-terminal-cab"><Icon nombre="prompts" />{plan.cadenas.length === 1 ? 'Cadena de prompts' : `${plan.cadenas.length} cadenas de prompts`}</h2>
+          <p class="c-terminal-txt">La respuesta de cada prompt se usa como entrada del siguiente.</p>
+          {plan.cadenas.map((c) => (
+            <div class="c-mini-cadena">
+              <p class="c-mini-cadena__t">{c.titulo}{c.derivada && <> · <Pendiente que="cadena provisional" /></>}</p>
+              <ol class="c-mini-cadena__nodos" data-js="cadena" data-cadena={c.id}>
+                {c.nodos.map((n, i) => {
+                  const pr = n.prompt ? getPrompt(n.prompt) : null;
+                  return <li data-js="nodo-cadena" data-prompt={n.prompt ?? ''} data-estado={pr ? 'pendiente' : 'hito'}><span class="c-mini-cadena__n">P{i + 1}</span><span class="c-mini-cadena__nom">{n.titulo}</span><span class="c-mini-cadena__est" data-js="nodo-estado">{pr ? '' : 'Libro'}</span></li>;
+                })}
+              </ol>
+              <a class="c-btn c-btn--terminal c-btn--peq c-btn--bloque" href={c.url}>Ver la cadena completa <Icon nombre="flecha" /></a>
+            </div>
+          ))}
+        </section>
+      )}
+      {herr.length > 0 && (
+        <section class="c-card" aria-labelledby="herr-t">
+          <p class="c-overline">Herramientas del libro</p>
+          <h2 id="herr-t" class="c-headline">Herramientas vinculadas</h2>
+          <ul class="c-lista-herr">
+            {herr.slice(0, 6).map((h) => (
+              <li><a href={`/herramientas/${h.slug}/`}><span class="c-tool__mono c-tool__mono--peq" aria-hidden="true">{h.nombre.replace(/[^A-Za-zÀ-ÿ0-9]/g, '').slice(0, 2).toUpperCase()}</span><span class="c-lista-herr__txt"><span class="c-lista-herr__n">{h.nombre}</span>{h.descripcion && <span class="c-lista-herr__d">{h.descripcion}</span>}</span><Icon nombre="chevron" /></a></li>
+            ))}
+          </ul>
+          {herr.length > 6 && <p class="c-meta">Y {herr.length - 6} más en los pasos del plan.</p>}
+        </section>
+      )}
+      <section class="c-card" aria-labelledby="desc-t">
+        <p class="c-overline">Tu expediente</p>
+        <h2 id="desc-t" class="c-headline">Entregables de este plan</h2>
+        <div class="c-archivo"><Icon nombre="documento" /><div><p class="c-archivo__n">{plan.titulo} (.docx)</p><p class="c-meta" data-js="entregables-plan" data-plan={plan.slug}>Aún no has guardado entregables</p></div></div>
+        <a class="c-btn c-btn--book c-btn--peq c-btn--bloque" href="/mis-planes/"><Icon nombre="descargar" />Ir a Mis planes para descargar en Word</a>
+      </section>
+    </aside>
+  </div>
+</Layout>

@@ -1,0 +1,6 @@
+---
+// ÚNICO lugar donde se avisa de que falta la capa de visibilidad de herramientas (P1).
+import Pendiente from './Pendiente.astro';
+import { capas } from '../lib/datos';
+---
+{!capas.visibilidad && <p><Pendiente que="vigencia y nombres actuales de las herramientas (capas/herramientas/visibilidad.json); de momento se muestran todas las del libro" /></p>}

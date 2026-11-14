@@ -1,0 +1,11 @@
+---
+// Texto íntegro y literal del libro, por párrafos.
+import { parrafos } from '../lib/texto';
+import TextoMarcado from './TextoMarcado.astro';
+interface Props { texto: string; terminos?: any[]; usados?: Set<string> }
+const { texto, terminos = [], usados } = Astro.props;
+const ps = parrafos(texto);
+---
+<div class="c-texto-libro">
+  {ps.map((p) => p.tipo === 'bloque' ? <h4 class="c-overline">{p.texto}</h4> : <p><TextoMarcado texto={p.texto} terminos={terminos} usados={usados} /></p>)}
+</div>

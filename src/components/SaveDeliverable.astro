@@ -1,0 +1,23 @@
+---
+import Icon from './Icon.astro';
+interface Props { plan: string; planTitulo: string; paso: string; titulo: string; prompts: string[]; n?: number }
+const { plan, planTitulo, paso, titulo, prompts, n } = Astro.props;
+const id = `entregable-${plan}-${paso}`;
+---
+<section class="c-card c-guardar" data-js="entregable" data-plan={plan} data-paso={paso} data-titulo={titulo} data-prompts={JSON.stringify(prompts)} aria-labelledby={`${id}-t`}>
+  <div class="c-guardar__cab">
+    <div>
+      <h2 id={`${id}-t`} class="c-guardar__t"><Icon nombre="check-circulo" />Guarda tu resultado en {planTitulo}</h2>
+      <p class="c-meta">Pega aquí lo que te devolvió la IA para consolidarlo en tu plan (se exporta a Word desde Mis planes).</p>
+    </div>
+    {n && <span class="c-chip c-chip--mono">Entregable · paso {n}</span>}
+  </div>
+  <label for={id} class="c-guardar__lbl">Pega aquí la respuesta de la IA o escribe tu entregable de este paso</label>
+  <textarea id={id} rows="7"></textarea>
+  <p class="c-aviso-local" data-js="entregable-estado" role="status"></p>
+  <div class="c-acciones">
+    <button type="button" class="c-btn c-btn--peq" data-js="entregable-guardar"><Icon nombre="guardar" />Guardar en mi plan</button>
+    {prompts.length > 0 && <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="entregable-respuestas">Añadir las respuestas de los prompts de este paso</button>}
+  </div>
+</section>
+<script>import '../client/entregable';</script>

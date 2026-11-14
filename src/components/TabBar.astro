@@ -1,0 +1,11 @@
+---
+import Icon from './Icon.astro';
+import { NAV, activo } from './NavItems';
+const path = Astro.url.pathname;
+---
+<nav class="c-tabbar" aria-label="Navegación principal">
+  {NAV.map((n) => {
+    const on = activo(path, n.href);
+    return <a href={n.href} aria-current={on ? 'page' : undefined}><span class="c-tabbar__ico"><Icon nombre={n.icono} relleno={on} /></span><span>{n.etiqueta}</span></a>;
+  })}
+</nav>

@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PromptCard from '../../components/PromptCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getPrompts, tituloPlan, urlPlan, type Prompt } from '../../lib/datos';
+import { abs, LIBRO, recortar } from '../../lib/seo';
+export function getStaticPaths() {
+  return getPrompts().map((prompt) => ({ params: { id: prompt.id }, props: { prompt } }));
+}
+const { prompt: p } = Astro.props as { prompt: Prompt };
+const migas = [{ nombre: 'Prompts', url: '/prompts/' }, { nombre: p.titulo }];
+const ld = [{ '@context': 'https://schema.org', '@type': 'LearningResource', name: `Prompt: ${p.titulo}`, url: abs(`/prompts/${p.id}/`), inLanguage: 'es-ES', learningResourceType: 'Prompt de IA', isBasedOn: LIBRO, text: p.texto_literal }];
+---
+<Layout noindex={p.es_propuesta} titulo={p.es_propuesta ? `Propuesta de prompt: ${p.titulo}` : `Prompt: ${p.titulo}`} descripcion={recortar(p.es_propuesta ? `Prompt propuesto por la plataforma (pendiente de revisión) a partir del capítulo ${p.capitulo} del libro: ${p.cita_libro ?? p.texto_literal}` : `Prompt del capítulo ${p.capitulo} del libro: ${p.texto_literal}`)} migas={migas} jsonLd={ld}>
+  <Breadcrumbs items={migas} />
+  <p class="c-overline c-overline--primario">{p.es_propuesta ? 'Propuesta de la plataforma' : 'Prompt del libro'} · capítulo {String(p.capitulo).padStart(2, '0')}</p>
+  <h1>{p.titulo}</h1>
+  <p class="c-meta">Capítulo {p.capitulo} · {p.plan && <a href={urlPlan(p.plan)!}>{tituloPlan(p.plan)}</a>}{p.paso_url && <> · <a href={p.paso_url}>Ver el paso del libro</a></>}</p>
+  {p.contexto_previo && <p><strong>Cómo lo presenta el libro:</strong> «{p.contexto_previo}»</p>}
+  {p.es_propuesta && p.basado_en && <p class="c-meta">Propuesta basada en el prompt descrito en el libro: <a href={`/prompts/${p.basado_en}/`}>{p.basado_en}</a>.</p>}
+  <PromptCard prompt={p} nivel="h2" />
+</Layout>

@@ -1,0 +1,87 @@
+{
+ "descripcion": "Herramientas citadas en bloques ✐ de los capítulos que faltan en el kit del cap. 16.",
+ "herramientas": [
+  {
+   "id": "x-001",
+   "nombre": "Google Forms",
+   "variantes_en_libro": [
+    "Google Forms"
+   ],
+   "menciones": [
+    "c02-h09"
+   ],
+   "capitulos": [
+    2
+   ],
+   "url_oficial": null,
+   "mostrar": true,
+   "nota": "Citada en un bloque ✐ de capítulo pero sin entrada en el kit del cap. 16. No figura en investigacion/estado_herramientas.json: url_oficial = null (pendiente de verificar)."
+  },
+  {
+   "id": "x-002",
+   "nombre": "X Pro",
+   "variantes_en_libro": [
+    "XPro"
+   ],
+   "menciones": [
+    "c08-h14"
+   ],
+   "capitulos": [
+    8
+   ],
+   "url_oficial": null,
+   "mostrar": true,
+   "nota": "Citada en un bloque ✐ de capítulo pero sin entrada en el kit del cap. 16. No figura en investigacion/estado_herramientas.json: url_oficial = null (pendiente de verificar)."
+  },
+  {
+   "id": "x-003",
+   "nombre": "SpyFu",
+   "variantes_en_libro": [
+    "SpyFu"
+   ],
+   "menciones": [
+    "c10-h36"
+   ],
+   "capitulos": [
+    10
+   ],
+   "url_oficial": null,
+   "mostrar": true,
+   "nota": "Citada en un bloque ✐ de capítulo pero sin entrada en el kit del cap. 16. No figura en investigacion/estado_herramientas.json: url_oficial = null (pendiente de verificar)."
+  },
+  {
+   "id": "x-004",
+   "nombre": "Kustomer",
+   "variantes_en_libro": [
+    "Kustomer"
+   ],
+   "menciones": [
+    "c13-h23"
+   ],
+   "capitulos": [
+    13
+   ],
+   "url_oficial": null,
+   "mostrar": true,
+   "nota": "Citada en un bloque ✐ de capítulo pero sin entrada en el kit del cap. 16. No figura en investigacion/estado_herramientas.json: url_oficial = null (pendiente de verificar)."
+  },
+  {
+   "id": "x-005",
+   "nombre": "Manus AI",
+   "variantes_en_libro": [
+    "Manus AI"
+   ],
+   "menciones": [
+    "c15-h33",
+    "c15-h66"
+   ],
+   "capitulos": [
+    15
+   ],
+   "url_oficial": null,
+   "mostrar": true,
+   "nota": "Citada en un bloque ✐ de capítulo pero sin entrada en el kit del cap. 16. No figura en investigacion/estado_herramientas.json: url_oficial = null (pendiente de verificar). En investigacion/herramientas_a_revisar.md aparece https://manus.im/ (no está en estado_herramientas.json).",
+   "url_sugerida_no_verificada": "https://manus.im/"
+  }
+ ]
+}

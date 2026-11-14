@@ -1,0 +1,4915 @@
+{
+  "capitulos": [
+    {
+      "id": "c01",
+      "numero": 1,
+      "parte": "Parte 1: ESTRATEGIA Y BRANDING — ANÁLISIS ESTRATÉGICO",
+      "titulo": "Planificación estratégica",
+      "paginas_pdf": [
+        16,
+        28
+      ],
+      "paginas_libro": [
+        11,
+        23
+      ],
+      "archivo": "cap01.json",
+      "secciones": [
+        {
+          "id": "c01-s1",
+          "titulo": "Análisis entorno general y específico"
+        },
+        {
+          "id": "c01-s2",
+          "titulo": "Análisis DAFO"
+        },
+        {
+          "id": "c01-s3",
+          "titulo": "Identificar la fase del Ciclo de Vida"
+        },
+        {
+          "id": "c01-s4",
+          "titulo": "Caracterización de nuestro cliente potencial"
+        },
+        {
+          "id": "c01-s5",
+          "titulo": "Establecer los objetivos SMART del Plan de Marketing Digital"
+        },
+        {
+          "id": "c01-s6",
+          "titulo": "Definir nuestra propuesta de valor y estrategia de posicionamiento"
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "numero": 2,
+      "parte": "Parte 1: ESTRATEGIA Y BRANDING — ESTRATEGIA DIGITAL y BRANDING",
+      "titulo": "Idea a éxito: design thinking aplicado",
+      "paginas_pdf": [
+        32,
+        45
+      ],
+      "paginas_libro": [
+        27,
+        40
+      ],
+      "archivo": "cap02.json",
+      "secciones": [
+        {
+          "id": "c02-s1",
+          "titulo": "Definiciones clave y tendencias del design thinking"
+        },
+        {
+          "id": "c02-s2",
+          "titulo": "Las cinco fases del design thinking"
+        },
+        {
+          "id": "c02-s3",
+          "titulo": "¿Cómo implementar la metodología design thinking?"
+        },
+        {
+          "id": "c02-s4",
+          "titulo": "Herramientas y asistencia IA para cada etapa"
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "numero": 3,
+      "parte": "Parte 1: ESTRATEGIA Y BRANDING — ESTRATEGIA DIGITAL y BRANDING",
+      "titulo": "Anatomía de una decisión: el Customer Journey Map",
+      "paginas_pdf": [
+        46,
+        54
+      ],
+      "paginas_libro": [
+        41,
+        49
+      ],
+      "archivo": "cap03.json",
+      "secciones": [
+        {
+          "id": "c03-s1",
+          "titulo": "Definición y bases del CJM"
+        },
+        {
+          "id": "c03-s2",
+          "titulo": "Usos y aplicaciones prácticas del customer journey map"
+        },
+        {
+          "id": "c03-s3",
+          "titulo": "Componentes esenciales en el customer journey map"
+        },
+        {
+          "id": "c03-s4",
+          "titulo": "Fases del customer journey map"
+        },
+        {
+          "id": "c03-s5",
+          "titulo": "Herramientas y asistencia IA para la generación del customer journey map"
+        },
+        {
+          "id": "c03-s6",
+          "titulo": "Construyendo el customer journey map de aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "numero": 4,
+      "parte": "Parte 1: ESTRATEGIA Y BRANDING",
+      "titulo": "Conceptos de inteligencia artificial: tu nuevo asistente de marketing",
+      "paginas_pdf": [
+        56,
+        63
+      ],
+      "paginas_libro": [
+        51,
+        58
+      ],
+      "archivo": "cap04.json",
+      "secciones": [
+        {
+          "id": "c04-s1",
+          "titulo": "Tendencias en inteligencia artificial"
+        },
+        {
+          "id": "c04-s2",
+          "titulo": "Conceptos fundamentales sobre IA"
+        },
+        {
+          "id": "c04-s3",
+          "titulo": "Gestión de recursos y tokens"
+        },
+        {
+          "id": "c04-s4",
+          "titulo": "Modelos de lenguaje rápidos o modelos profundos"
+        },
+        {
+          "id": "c04-s5",
+          "titulo": "Diferencias entre familias de modelos: Chat GPT, Claude y Gemini"
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "numero": 5,
+      "parte": "Parte 1: ESTRATEGIA Y BRANDING",
+      "titulo": "Branding: el ADN de tu marca",
+      "paginas_pdf": [
+        64,
+        107
+      ],
+      "paginas_libro": [
+        59,
+        99
+      ],
+      "archivo": "cap05.json",
+      "secciones": [
+        {
+          "id": "c05-s1",
+          "titulo": "Branding: una introducción al concepto"
+        },
+        {
+          "id": "c05-s2",
+          "titulo": "El proceso de Branding: el ADN de marca"
+        },
+        {
+          "id": "c05-s3",
+          "titulo": "Branding integral de la comunicación de marca, tu legado"
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "numero": 6,
+      "parte": "PARTE 2: ACCIONES OPERATIVAS — MEDIOS PROPIOS",
+      "titulo": "Adiós escaparates: diseñando sitios web que convierten",
+      "paginas_pdf": [
+        108,
+        118
+      ],
+      "paginas_libro": [
+        103,
+        113
+      ],
+      "archivo": "cap06.json",
+      "secciones": [
+        {
+          "id": "c06-s1",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id": "c06-s2",
+          "titulo": "Elementos clave para la creación de un sitio web"
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "numero": 7,
+      "parte": "PARTE 2: ACCIONES OPERATIVAS — MEDIOS PROPIOS",
+      "titulo": "Visibilidad inevitable: estrategias para el posicionamiento orgánico",
+      "paginas_pdf": [
+        120,
+        131
+      ],
+      "paginas_libro": [
+        115,
+        126
+      ],
+      "archivo": "cap07.json",
+      "secciones": [
+        {
+          "id": "c07-s1",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id": "c07-s2",
+          "titulo": "SEO OnPage"
+        },
+        {
+          "id": "c07-s3",
+          "titulo": "SEO OffPage"
+        },
+        {
+          "id": "c07-s4",
+          "titulo": "SEO técnico"
+        },
+        {
+          "id": "c07-s5",
+          "titulo": "Herramientas IA para SEO"
+        },
+        {
+          "id": "c07-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "numero": 8,
+      "parte": "PARTE 2: ACCIONES OPERATIVAS — MEDIOS PROPIOS",
+      "titulo": "Social media exponencial: de seguidores a clientes",
+      "paginas_pdf": [
+        132,
+        146
+      ],
+      "paginas_libro": [
+        127,
+        141
+      ],
+      "archivo": "cap08.json",
+      "secciones": [
+        {
+          "id": "c08-s1",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id": "c08-s2",
+          "titulo": "Anatomía de un algoritmo"
+        },
+        {
+          "id": "c08-s3",
+          "titulo": "Tipos de usuarios"
+        },
+        {
+          "id": "c08-s4",
+          "titulo": "Contenido, narrativas y copywriting orientado a la audiencia"
+        },
+        {
+          "id": "c08-s5",
+          "titulo": "Herramientas y asistencia IA para Social Media."
+        },
+        {
+          "id": "c08-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c09",
+      "numero": 9,
+      "parte": "MEDIOS PROPIOS",
+      "titulo": "Email marketing: construye tu propia audiencia",
+      "paginas_pdf": [
+        148,
+        157
+      ],
+      "paginas_libro": [
+        143,
+        152
+      ],
+      "archivo": "cap09.json",
+      "secciones": [
+        {
+          "id": "c09-s1",
+          "titulo": "Definiciones clave y tendencias actualizadas"
+        },
+        {
+          "id": "c09-s2",
+          "titulo": "Terminología esencial en email marketing"
+        },
+        {
+          "id": "c09-s3",
+          "titulo": "Implicación del email en el Customer Journey Map"
+        },
+        {
+          "id": "c09-s4",
+          "titulo": "Herramientas y asistencia IA en email marketing"
+        },
+        {
+          "id": "c09-s5",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "numero": 10,
+      "parte": "MEDIOS PAGADOS",
+      "titulo": "Estrategias SEM optimizadas: rentabilizando la intención de búsqueda",
+      "paginas_pdf": [
+        160,
+        171
+      ],
+      "paginas_libro": [
+        155,
+        166
+      ],
+      "archivo": "cap10.json",
+      "secciones": [
+        {
+          "id": "c10-s1",
+          "titulo": "¿Por qué el SEM sigue siendo una estrategia clave?"
+        },
+        {
+          "id": "c10-s2",
+          "titulo": "Definiciones básicas y tendencias"
+        },
+        {
+          "id": "c10-s3",
+          "titulo": "Google Ads"
+        },
+        {
+          "id": "c10-s4",
+          "titulo": "Microsoft Advertising"
+        },
+        {
+          "id": "c10-s5",
+          "titulo": "Herramientas y asistencia IA para la gestión SEM"
+        },
+        {
+          "id": "c10-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "numero": 11,
+      "parte": "MEDIOS PAGADOS",
+      "titulo": "Social ADS: atención a intención en un clic",
+      "paginas_pdf": [
+        172,
+        186
+      ],
+      "paginas_libro": [
+        167,
+        181
+      ],
+      "archivo": "cap11.json",
+      "secciones": [
+        {
+          "id": "c11-s1",
+          "titulo": "¿Por qué sigue siendo clave hacer Social Ads?"
+        },
+        {
+          "id": "c11-s2",
+          "titulo": "Definiciones clave y tendencias actualizadas"
+        },
+        {
+          "id": "c11-s3",
+          "titulo": "Aspectos estratégicos en Social Ads"
+        },
+        {
+          "id": "c11-s4",
+          "titulo": "Meta Ads y Advantage +"
+        },
+        {
+          "id": "c11-s5",
+          "titulo": "Google Ads | Youtube"
+        },
+        {
+          "id": "c11-s6",
+          "titulo": "Herramientas y asistencia IA para producción de contenido y gestión de Social Ads"
+        },
+        {
+          "id": "c11-s7",
+          "titulo": "Ejemplo completo de Social Ads para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "numero": 12,
+      "parte": "MEDIOS GANADOS",
+      "titulo": "Influencers y UGC: estrategias digitales para la creators economy",
+      "paginas_pdf": [
+        190,
+        196
+      ],
+      "paginas_libro": [
+        185,
+        191
+      ],
+      "archivo": "cap12.json",
+      "secciones": [
+        {
+          "id": "c12-s1",
+          "titulo": "¿Por qué sigue siendo clave el Influencer Marketing?"
+        },
+        {
+          "id": "c12-s2",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id": "c12-s3",
+          "titulo": "Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing"
+        },
+        {
+          "id": "c12-s4",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "numero": 13,
+      "parte": "PARTE 2: ACCIONES OPERATIVAS",
+      "titulo": "Lo que dicen de ti, vende: diseñando un sistema de reseñas",
+      "paginas_pdf": [
+        198,
+        206
+      ],
+      "paginas_libro": [
+        193,
+        201
+      ],
+      "archivo": "cap13.json",
+      "secciones": [
+        {
+          "id": "c13-s1",
+          "titulo": "¿Por qué siguen siendo relevantes las reseñas?"
+        },
+        {
+          "id": "c13-s2",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id": "c13-s3",
+          "titulo": "Tendencias en la gestión de reseñas"
+        },
+        {
+          "id": "c13-s4",
+          "titulo": "Aspectos de valor en la gestión de reseñas"
+        },
+        {
+          "id": "c13-s5",
+          "titulo": "El proceso de planificación de reseñas"
+        },
+        {
+          "id": "c13-s6",
+          "titulo": "Herramientas y asistencia IA para la gestión de reseñas"
+        },
+        {
+          "id": "c13-s7",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "numero": 14,
+      "parte": "PARTE 2: ACCIONES OPERATIVAS",
+      "titulo": "Reputación digital: gestión de la percepción de marca",
+      "paginas_pdf": [
+        208,
+        216
+      ],
+      "paginas_libro": [
+        203,
+        211
+      ],
+      "archivo": "cap14.json",
+      "secciones": [
+        {
+          "id": "c14-s1",
+          "titulo": "¿Por qué sigue siendo clave la gestión de la reputación online?"
+        },
+        {
+          "id": "c14-s2",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id": "c14-s3",
+          "titulo": "Aspectos de valor de la gestión de reputación"
+        },
+        {
+          "id": "c14-s4",
+          "titulo": "Sistema de gestión de reputación"
+        },
+        {
+          "id": "c14-s5",
+          "titulo": "Herramientas y asistencia IA para la gestión de reputación"
+        },
+        {
+          "id": "c14-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "numero": 15,
+      "parte": "PARTE 3: CONTROLLING Y HERRAMIENTAS IA",
+      "titulo": "Controlling: el cuadro de mandos estratégico de tu marca",
+      "paginas_pdf": [
+        220,
+        234
+      ],
+      "paginas_libro": [
+        215,
+        229
+      ],
+      "archivo": "cap15.json",
+      "secciones": [
+        {
+          "id": "c15-s1",
+          "titulo": "¿Por qué debemos tener una etapa de controlling en nuestro plan de marketing digital?"
+        },
+        {
+          "id": "c15-s2",
+          "titulo": "Aspectos clave del controlling"
+        },
+        {
+          "id": "c15-s3",
+          "titulo": "Terminología esencial, tipologías y ejemplos"
+        },
+        {
+          "id": "c15-s4",
+          "titulo": "Implementación técnica: Píxeles y Google Tag Manager"
+        },
+        {
+          "id": "c15-s5",
+          "titulo": "Métricas clave"
+        },
+        {
+          "id": "c15-s6",
+          "titulo": "Optimización de la operativa del plan de marketing"
+        },
+        {
+          "id": "c15-s7",
+          "titulo": "Planificación"
+        },
+        {
+          "id": "c15-s8",
+          "titulo": "Herramientas y asistencia IA para planificación y controlling"
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "numero": 16,
+      "parte": "PARTE 3: CONTROLLING Y HERRAMIENTAS IA",
+      "titulo": "Kit de herramientas digitales y asistencia en inteligencia artificial",
+      "paginas_pdf": [
+        236,
+        261
+      ],
+      "paginas_libro": [
+        231,
+        255
+      ],
+      "archivo": "cap16.json",
+      "secciones": [
+        {
+          "id": "c16-s1",
+          "titulo": "Herramientas digitales"
+        },
+        {
+          "id": "c16-s2",
+          "titulo": "Herramientas nativas IA"
+        },
+        {
+          "id": "c16-s3",
+          "titulo": "Referencias"
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c01-p01",
+      "archivo": "cap01.json",
+      "seccion": "c01-s1",
+      "pagina_pdf": 17,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista de Tendencias e Inteligencia de Mercado. Revisa todas las fuentes d",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c01-p02",
+      "archivo": "cap01.json",
+      "seccion": "c01-s2",
+      "pagina_pdf": 19,
+      "origen": "texto",
+      "inicio": "Actúa como un analista estratégico. Revisa todas las fuentes incluidas en este cuaderno y ",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c01-p03",
+      "archivo": "cap01.json",
+      "seccion": "c01-s3",
+      "pagina_pdf": 21,
+      "origen": "texto",
+      "inicio": "Actúa como un analista de mercado y estrategia. Revisa todas las fuentes incluidas en este",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c01-p04",
+      "archivo": "cap01.json",
+      "seccion": "c01-s4",
+      "pagina_pdf": 22,
+      "origen": "texto",
+      "inicio": "Actúa como un analista de mercado y comportamiento del consumidor. Revisa todas las fuente",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c01-p05",
+      "archivo": "cap01.json",
+      "seccion": "c01-s5",
+      "pagina_pdf": 24,
+      "origen": "texto",
+      "inicio": "Actúa como un consultor de marketing digital. Revisa todas las fuentes incluidas en este c",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c01-p06",
+      "archivo": "cap01.json",
+      "seccion": "c01-s6",
+      "pagina_pdf": 26,
+      "origen": "texto",
+      "inicio": "Actúa como un consultor de marketing estratégico. Revisa todas las fuentes incluidas en es",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p01",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "origen": "texto",
+      "inicio": "Actúa como un facilitador experto en Design Thinking e Innovación Disruptiva. Nuestro equi",
+      "marcadores": [
+        "[Describe el problema]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p02",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "origen": "texto",
+      "inicio": "Actúa como un estratega de innovación corporativa. Estamos buscando nuevas formas de abord",
+      "marcadores": [
+        "[Describe el problema]",
+        "[Ej: Alta costura, Cadena de suministro automotriz, Videojuegos multijugador]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p03",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "origen": "texto",
+      "inicio": "Actúa como un experto en Biomímesis y Diseño de Producto. Nuestro reto central es: [Descri",
+      "marcadores": [
+        "[Describe el desafío técnico o de experiencia]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p04",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "origen": "texto",
+      "inicio": "Actúa como un especialista en UX/UI y estratega de producto. Genera 20 ideas accionables p",
+      "marcadores": [
+        "[Ej: el abandono de carritos de compra]",
+        "[Categoría/Sector]",
+        "[Describe la audiencia]",
+        "[Presupuesto]",
+        "[Tecnología/Plataforma]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p05",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "origen": "texto",
+      "inicio": "Actúa como un Director de Innovación. Queremos iterar y mejorar nuestro concepto o product",
+      "marcadores": [
+        "[Describe tu producto/servicio actual]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p06",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "origen": "texto",
+      "inicio": "Actúa como un panel de consultores de clase mundial. Nuestro desafío es: [Describe el prob",
+      "marcadores": [
+        "[Describe el problema]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p07",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "origen": "texto",
+      "inicio": "Actúa como un Product Manager senior. Del output anterior, vamos a seleccionar la idea núm",
+      "marcadores": [
+        "[Número]",
+        "[Breve descripción de la idea]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c02-p08",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "origen": "texto",
+      "inicio": "A high-fidelity product photograph of an elegant [SPECIFY DEVICE TYPE, EG: wrist-worn devi",
+      "marcadores": [
+        "[SPECIFY DEVICE TYPE, EG: wrist-worn device]",
+        "[TARGET AUDIENCE, EG: senior citizens]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p09",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "origen": "texto",
+      "inicio": "An immersive interior photograph of a futuristic [SPECIFY SPACE, EG: coffee shop]. The des",
+      "marcadores": [
+        "[SPECIFY SPACE, EG: coffee shop]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p10",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "origen": "texto",
+      "inicio": "A clean 4-panel storyboard illustration, presented as a single sequential grid. It depicts",
+      "marcadores": [
+        "[DESCRIBE THE SERVICE, EG: a digital health concierge]",
+        "[SPECIFY COLOR, EG: blue]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p11",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "origen": "texto",
+      "inicio": "Actúa como un Investigador UX (User Research) Senior. A continuación te proporcionaré las ",
+      "marcadores": [
+        "[NÚMERO]",
+        "[TEMA O CONTEXTO DE LA INVESTIGACIÓN]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p12",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "origen": "texto",
+      "inicio": "Actúa como un Estratega de Experiencia de Usuario y Psicólogo Conductual. Basándote únicam",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p13",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "origen": "texto",
+      "inicio": "Actúa como un Service Designer Senior. Toma las observaciones e insights de investigación ",
+      "marcadores": [
+        "[INSERTA EL NOMBRE DE TU PERSONA O TIPO DE USUARIO]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p14",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "origen": "texto",
+      "inicio": "Actúa como un Facilitador de Innovación y Design Thinking. Hemos sintetizado los problemas",
+      "marcadores": [
+        "[INSERTA AQUÍ TUS INSIGHTS O RESUMEN DE FRUSTRACIONES]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p15",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "origen": "texto",
+      "inicio": "Actúa como un Lead Product Designer. Necesito que generes el diseño de la interfaz princip",
+      "marcadores": [
+        "[INSERTA AQUÍ TU HMW O PROPUESTA DE VALOR]",
+        "[INSERTA AQUÍ EL RESUMEN DE TU USER PERSONA]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p16",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "origen": "texto",
+      "inicio": "Actúa como un Senior Frontend Developer experto en React, Tailwind CSS y diseño centrado e",
+      "marcadores": [
+        "[INSERTA AQUÍ LA IDEA, SERVICIO O PRODUCTO A VALIDAR]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p17",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "origen": "texto",
+      "inicio": "Actúa como un UX Researcher Senior. Basándote exclusivamente en los archivos de audio/tran",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p18",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista de Datos de Producto. Revisa detenidamente todas las sesiones de te",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c02-p19",
+      "archivo": "cap02.json",
+      "seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "origen": "texto",
+      "inicio": "Actúa como un Product Manager ágil. Toma como base los puntos de fricción y problemas de u",
+      "marcadores": [
+        "[Describe el problema detectado en el test]",
+        "[Por qué creemos que el usuario se confundió]",
+        "[Qué elemento de la UI, texto o flujo vamos a cambiar exactamente para solucionarlo en la v2]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c03-p01",
+      "archivo": "cap03.json",
+      "seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "origen": "texto",
+      "inicio": "Actúa como un Lead UX Researcher y Estratega de Marketing de Respuesta Directa. Necesito d",
+      "marcadores": [
+        "[Ej: B2B SaaS de suscripción mensual / B2C E-commerce de venta directa]",
+        "[Describe qué vendes exactamente]",
+        "[Qué problema resuelves y qué te hace diferente/mejor]",
+        "[Ej: Lanzamiento (buscamos early adopters) / Crecimiento / Madurez (buscamos robar cuota de mercado)]",
+        "[Ej: Tono rebelde y cercano / Tono premium y exclusivo / Tono técnico y corporativo]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c03-p02",
+      "archivo": "cap03.json",
+      "seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "origen": "texto",
+      "inicio": "Actúa como un Especialista en Experiencia de Usuario (UX) y Estratega de Negocios Digitale",
+      "marcadores": [
+        "[Ej: B2C E-commerce, Servicios locales B2B, Suscripción...]",
+        "[Describe brevemente qué vendes y su precio medio]",
+        "[Describe a tu cliente ideal: edad, dolores, deseos, nivel digital]",
+        "[Ej: Solo Instagram y una web básica, o WhatsApp y Email]",
+        "[Ej: 300€/mes en anuncios y 5 horas semanales mías]",
+        "[Nombre de la Fase]",
+        "[ Completa aquí: ____________ ]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c03-p03",
+      "archivo": "cap03.json",
+      "seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "origen": "texto",
+      "inicio": "Actúa como un Growth Hacker y experto en Respuesta Directa. Olvida los Customer Journeys l",
+      "marcadores": [
+        "[Inserta producto y precio]",
+        "[Inserta el dolor principal del cliente y quién es]",
+        "[Inserta presupuesto y herramientas disponibles]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c03-p04",
+      "archivo": "cap03.json",
+      "seccion": "c03-s5",
+      "pagina_pdf": 51,
+      "origen": "texto",
+      "inicio": "Actúa como un especialista en Diseño de Infografías Profesionales y Visualización de Datos",
+      "marcadores": [
+        "[modelo de negocio]",
+        "[texto a completar]",
+        "[ Rellenar: Mi Gancho Principal ]",
+        "[producto o servicio]",
+        "[ Rellenar: Mi Prueba Social ]",
+        "[ Rellenar: Mi Oferta de Bienvenida ]",
+        "[probando el producto o servicio]",
+        "[ Rellenar: Mi Programa de Puntos ]",
+        "[ ]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c04-p01",
+      "archivo": "cap04.json",
+      "seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "origen": "texto",
+      "inicio": "hazme un texto sobre esto",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c04-p02",
+      "archivo": "cap04.json",
+      "seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "origen": "texto",
+      "inicio": "redacta un email de seguimiento comercial para clientes B2B, tono formal, máximo 180 palab",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c04-p03",
+      "archivo": "cap04.json",
+      "seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "origen": "texto",
+      "inicio": "sin texto en imagen",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c04-p04",
+      "archivo": "cap04.json",
+      "seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "origen": "texto",
+      "inicio": "sin estética cartoon",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c04-p05",
+      "archivo": "cap04.json",
+      "seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "origen": "texto",
+      "inicio": "una imagen profesional",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c05-p01",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.B",
+      "pagina_pdf": 67,
+      "origen": "texto",
+      "inicio": "Le damos la información clave y le pedimos (creando un prompt básico) que nos diseñe una m",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p02",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.B",
+      "pagina_pdf": 67,
+      "origen": "texto",
+      "inicio": "refinamos nuestro prompt y le pedimos a ChatGPT que resuma esa información en una cita bre",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p03",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.B",
+      "pagina_pdf": 68,
+      "origen": "texto",
+      "inicio": "volvemos a refinar nuestro prompt y le pedimos a la herramienta que adapte el contenido co",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p04",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.C",
+      "pagina_pdf": 69,
+      "origen": "texto",
+      "inicio": "como un especialista de éxito en comunicación de marca, define la visión para la marca aul",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p05",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.C",
+      "pagina_pdf": 69,
+      "origen": "texto",
+      "inicio": "le pedimos a la herramienta que la refine un poco más, con una propuesta más breve y aspir",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p06",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.D",
+      "pagina_pdf": 71,
+      "origen": "imagen",
+      "inicio": "a continuación, y basado en toda la información y contexto que te he dado sobre la marca, ",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p07",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.E",
+      "pagina_pdf": 72,
+      "origen": "texto",
+      "inicio": "Con un sencillo prompt, en el que le pedimos que defina unos valores a partir de la inform",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p08",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.1.E",
+      "pagina_pdf": 72,
+      "origen": "texto",
+      "inicio": "Le pedimos también una versión más memorable que luego podamos usar en nuestra comunicació",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p09",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.2.B",
+      "pagina_pdf": 80,
+      "origen": "texto",
+      "inicio": "Ahora vamos a ver qué propuestas de eslogan nos ofrece nuestro compañero de viaje en este ",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c05-p10",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.3.B",
+      "pagina_pdf": 92,
+      "origen": "texto",
+      "inicio": "En primer lugar, nos pide el nombre de marca y el eslogan en caso de que lo tenga. Vamos a",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c05-p11",
+      "archivo": "cap05.json",
+      "seccion": "c05-s2.3.B",
+      "pagina_pdf": 95,
+      "origen": "imagen",
+      "inicio": "eres un especialista en diseño gráfico altamente creativo y y profesional, y te han encarg",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c06-p01",
+      "archivo": "cap06.json",
+      "seccion": "c06-s2.4",
+      "pagina_pdf": 116,
+      "origen": "texto",
+      "inicio": "Como experto en diseño y desarrollo web, crea un prompt detallado para una plataforma tipo",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c06-p02",
+      "archivo": "cap06.json",
+      "seccion": "c06-s2.4",
+      "pagina_pdf": 117,
+      "origen": "texto",
+      "inicio": "Estoy desarrollando un sitio web y quiero que me des apoyo como copywriter SEO experto par",
+      "marcadores": [
+        "[PÁGINA]",
+        "[KEYWORD]",
+        "[OBJETIVO]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c06-p03",
+      "archivo": "cap06.json",
+      "seccion": "c06-s2.4",
+      "pagina_pdf": 118,
+      "origen": "texto",
+      "inicio": "[Bloque 1] Fotografía callejera documental de un personaje (por ejemplo: una persona joven",
+      "marcadores": [
+        "[Bloque 1]",
+        "[Bloque 2]",
+        "[Bloque 3]",
+        "[Bloque 4]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c07-p01",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "origen": "texto",
+      "inicio": "Actúa como un analista de mercado experto en el sector [X]. Identifica los 5 foros, subred",
+      "marcadores": [
+        "[X]",
+        "[tu tipo de producto/servicio]",
+        "[año]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c07-p02",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "origen": "texto",
+      "inicio": "Busca y resume las tendencias clave del informe de tendencias de consumo de [año] para el ",
+      "marcadores": [
+        "[año]",
+        "[X]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c07-p03",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "origen": "texto",
+      "inicio": "Analiza el posicionamiento de [Nombre del Competidor]. Basándote en su comunicación públic",
+      "marcadores": [
+        "[Nombre del Competidor]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c07-p04",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "origen": "texto",
+      "inicio": "Actúa como un estratega de contenido especializado en AEO (Answer Engine Optimization). Ba",
+      "marcadores": [
+        "[Pega aquí los puntos de dolor o el análisis previo de NotebookLM]",
+        "[Cercano / Profesional / Técnico / Amable]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c07-p05",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "origen": "texto",
+      "inicio": "Actúa como un Productor de Contenido Senior y Especialista en Arquitectura de Información.",
+      "marcadores": [
+        "[Insertar el elegido: Cercano/Profesional]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c07-p06",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "origen": "texto",
+      "inicio": "Actúa como un Editor de Precisión especializado en AEO (Answer Engine Optimization). Tu mi",
+      "marcadores": [
+        "[Pegar el texto del artículo aquí o anotar el nombre del documento adjunto]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c07-p07",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "origen": "texto",
+      "inicio": "Actúa como un Arquitecto de Datos Estructurados y Especialista en SEO Técnico. Tu tarea es",
+      "marcadores": [
+        "[Copia y pega aquí los Nodos de Resolución que generamos en el paso anterior]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c07-p08",
+      "archivo": "cap07.json",
+      "seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista Crítico de Algoritmos Generativos. Tu objetivo es realizar una Audi",
+      "marcadores": [
+        "[Pegar el borrador final aquí]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p01",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 140,
+      "origen": "texto",
+      "inicio": "Actúa como un Productor de Podcasts y Director de Contenidos. Te proporcionaré el esquema ",
+      "marcadores": [
+        "[Pegar H1 y H2s del artículo]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p02",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 140,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista de Tendencias de Social Media experto en el sector [Tu Sector]. Tu ",
+      "marcadores": [
+        "[Tu Sector]",
+        "[Tu Marca]",
+        "[Tu Buyer Persona]",
+        "[Temática de tu producto]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p03",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 140,
+      "origen": "texto",
+      "inicio": "Perfecto. Toma el punto de dolor #[Elegido]. Actúa ahora como un Productor de Contenidos. ",
+      "marcadores": [
+        "[Elegido]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p04",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 141,
+      "origen": "texto",
+      "inicio": "Actúa como un Guionista experto en retención para TikTok e Instagram Reels. Toma el Bloque",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p05",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 141,
+      "origen": "texto",
+      "inicio": "[Bloque 1] La persona joven levanta lentamente la botella hacia su rostro y toma un pequeñ",
+      "marcadores": [
+        "[Bloque 1]",
+        "[Bloque 2]",
+        "[logotipo]",
+        "[Bloque 3]",
+        "[Bloque 4]",
+        "[Bloque 5]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p06",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 142,
+      "origen": "texto",
+      "inicio": "[Bloque 1] Plano en primera persona (POV) de unas manos tecleando fluidamente en un ordena",
+      "marcadores": [
+        "[Bloque 1]",
+        "[Bloque 2]",
+        "[Bloque 3]",
+        "[Bloque 4]",
+        "[Bloque 5]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p07",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 143,
+      "origen": "texto",
+      "inicio": "Chill Hip-Hop Lo-fi de finales de los 90. Piano eléctrico Rhodes suave, ritmo de batería '",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p08",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 143,
+      "origen": "texto",
+      "inicio": "Synthwave moderno con toques de Nu-Disco. Sintetizadores brillantes de los 80, bajo funk b",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p09",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 143,
+      "origen": "texto",
+      "inicio": "Actúa como un Copywriter especializado en retención algorítmica para [Red Social, ej: Inst",
+      "marcadores": [
+        "[Red Social, ej: Instagram / LinkedIn]",
+        "[Pegar transcripción o texto de tu blog]",
+        "[Número]",
+        "[Problema principal]",
+        "[Objetivo algorítmico, ej: Guardados / Comentarios]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p10",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 143,
+      "origen": "texto",
+      "inicio": "Actúa como un Diseñador de UX Content. Tu objetivo es simplificar este apartado técnico: [",
+      "marcadores": [
+        "[Pegar sección del texto]",
+        "[modelo de imagen]",
+        "[90s / Minimalista / Industrial]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p11",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 143,
+      "origen": "texto",
+      "inicio": "Actúa como un Líder de Opinión en LinkedIn experto en [Tu Sector]. Toma el dato disruptivo",
+      "marcadores": [
+        "[Tu Sector]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p12",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 143,
+      "origen": "texto",
+      "inicio": "Actúa como un creador viral de X (Twitter). Transforma los 5 puntos clave de nuestra escal",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p13",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 143,
+      "origen": "texto",
+      "inicio": "Actúa como un Experto en Crecimiento en YouTube. Basándote en este [Artículo/Escaleta: Peg",
+      "marcadores": [
+        "[Artículo/Escaleta: Pegar texto]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p14",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 144,
+      "origen": "texto",
+      "inicio": "Actúa como un Social Media Manager especializado en vídeo vertical. Toma el Bloque [X] de ",
+      "marcadores": [
+        "[X]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c08-p15",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 144,
+      "origen": "texto",
+      "inicio": "[URL_O ADJUNTO_DE_TU_IMAGEN_REFERENCIA.jpg] A young person looking up with a surprised exp",
+      "marcadores": [
+        "[URL_O ADJUNTO_DE_TU_IMAGEN_REFERENCIA.jpg]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p16",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 144,
+      "origen": "texto",
+      "inicio": "Extreme close-up of a male presenter with an exaggerated expression of disbelief, wide eye",
+      "marcadores": [
+        "[URL_O_ADJUNTO_FOTO_DEL_PRESENTADOR.jpg]",
+        "[URL_FOTO_O_ADJUNTO_ESTILO_CANAL.jpg]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p17",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 144,
+      "origen": "texto",
+      "inicio": "Flat lay top-down view of a minimalist workspace. An open laptop displaying abstract AI ne",
+      "marcadores": [
+        "[INSERTA TUS COLORES, ej: navy blue and soft gray]",
+        "[URL_O_ADJUNTO_FOTO.jpg]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c08-p18",
+      "archivo": "cap08.json",
+      "seccion": "c08-s5",
+      "pagina_pdf": 144,
+      "origen": "texto",
+      "inicio": "Actúa como un Director de Arte de una agencia de publicidad. Necesito imágenes estáticas p",
+      "marcadores": [
+        "[Tema]",
+        "[el modelo de generación de imágenes]",
+        "[Tus colores corporativos]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c09-p01",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "origen": "texto",
+      "inicio": "Actúa como un Estratega de Email Marketing experto en psicología del consumidor. Basándote",
+      "marcadores": [
+        "[Nombre de la Marca]",
+        "[Temática/Sector]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p02",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "origen": "texto",
+      "inicio": "Analiza el dossier de la competencia que te he adjuntado. Tu objetivo es encontrar el 'Con",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p03",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "origen": "texto",
+      "inicio": "Dado que el email es un espacio personal sagrado, necesitamos un motivo de peso para que [",
+      "marcadores": [
+        "[Buyer Persona]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c09-p04",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "origen": "texto",
+      "inicio": "Define la 'Personalidad de Envío' de mi marca. Si mi marca fuera una persona que escribe u",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c09-p05",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "origen": "texto",
+      "inicio": "Actúa como un Director de Estrategia Digital. Basándote en la investigación previa que hem",
+      "marcadores": [
+        "[buyer persona]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p06",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "origen": "texto",
+      "inicio": "Actúa como un Copywriter Senior de Respuesta Directa. Basándote en la Matriz Estratégica q",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p07",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "origen": "texto",
+      "inicio": "Redacta el Email 1 (TOFU). Usa como referencia la primera fila de nuestra Matriz. Objetivo",
+      "marcadores": [
+        "[Lead Magnet]",
+        "[Insertar estado de la matriz]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p08",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "origen": "texto",
+      "inicio": "Redacta los Emails 2 y 3 (MOFU). Utiliza la información de las filas correspondientes de l",
+      "marcadores": [
+        "[buyer persona]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p09",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "origen": "texto",
+      "inicio": "Redacta los Emails 4 y 5 (BOFU). Estamos al final del 'Arco Narrativo' de nuestra matriz. ",
+      "marcadores": [
+        "[Indicar métrica de la matriz, ej: clic en reserva]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p10",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "origen": "texto",
+      "inicio": "Actúa como un Senior Conversion Optimizer. Voy a proporcionarte los borradores de mis 5 co",
+      "marcadores": [
+        "[buyer persona]",
+        "[Pegar los borradores de los correos obtenidos en la fase anterior]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c09-p11",
+      "archivo": "cap09.json",
+      "seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "origen": "texto",
+      "inicio": "Actúa como un Data Scientist especializado en Email Marketing y Retención. He adjuntado un",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c10-p01",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 168,
+      "origen": "texto",
+      "inicio": "Actúa como un Especialista en SEM y Planificación de Medios. Mi negocio es [Nombre/Sector,",
+      "marcadores": [
+        "[Nombre/Sector, ej: aulamarketing.digital]",
+        "[Ej: captar alumnos para un máster de IA / vender botellas de deporte]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c10-p02",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 168,
+      "origen": "texto",
+      "inicio": "Actúa como un experto en Diseño de Landing Pages y CRO (Conversion Rate Optimization). Uti",
+      "marcadores": [
+        "[Insertar Keyword,]",
+        "[plataforma (p.ej. Base44)]",
+        "[Tu Producto/Servicio]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c10-p03",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 169,
+      "origen": "texto",
+      "inicio": "Actúa como un Senior Copywriter especializado en Google Ads. Utilizando las palabras clave",
+      "marcadores": [
+        "[Nombre de tu marca]",
+        "[Elegir: Profesional/Cercano/Disruptivo]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c10-p04",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 169,
+      "origen": "texto",
+      "inicio": "Ahora, genera 4 Extensiones de Enlace de Sitio (Sitelinks) con sus descripciones para diri",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c10-p05",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 169,
+      "origen": "texto",
+      "inicio": "Un [Describir perfil de tu Buyer Persona] realizando la acción de [Describir acción de éxi",
+      "marcadores": [
+        "[Describir perfil de tu Buyer Persona]",
+        "[Describir acción de éxito o alivio vinculada a tu solución]",
+        "[Nombre del producto o dispositivo con el servicio visible]",
+        "[Describir entorno: ej. oficina moderna, entorno natural, hogar minimalista]",
+        "[Tipo de luz: ej. natural de mañana, cinematográfica cálida]",
+        "[Insertar tus colores de marca]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c10-p06",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 169,
+      "origen": "texto",
+      "inicio": "Un [Persona o modelo] utilizando el [Producto] de forma dinámica, enfatizando la facilidad",
+      "marcadores": [
+        "[Persona o modelo]",
+        "[Producto]",
+        "[Característica única: ej. pantalla, costuras, acabado metálico]",
+        "[Elegir: color sólido neutro / entorno contextualizado]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c10-p07",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 169,
+      "origen": "texto",
+      "inicio": "Un [Describir sujeto] interactuando con fluidez mientras [Describir acción dinámica: ej. d",
+      "marcadores": [
+        "[Describir sujeto]",
+        "[Describir acción dinámica: ej. desliza el dedo por una pantalla, corre hacia la meta, abre un paquete]",
+        "[Nombre del producto]",
+        "[Describir localización]",
+        "[Concepto: ej. innovación, calma, energía]",
+        "[Elegir: Slow Zoom-in / Smooth Pan / Tracking shot]",
+        "[Ej. minimalista, documental, vibrante]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c10-p08",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 170,
+      "origen": "texto",
+      "inicio": "Añadir calidez humana y luz natural",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c10-p09",
+      "archivo": "cap10.json",
+      "seccion": "c10-s5",
+      "pagina_pdf": 170,
+      "origen": "texto",
+      "inicio": "Estética de película de grano fino",
+      "marcadores": [],
+      "encadenado": false
+    },
+    {
+      "id": "c11-p01",
+      "archivo": "cap11.json",
+      "seccion": "c11-s6",
+      "pagina_pdf": 182,
+      "origen": "texto",
+      "inicio": "Actúa como un Media Buyer Senior y Director Estratégico. Vamos a lanzar una campaña en [Pl",
+      "marcadores": [
+        "[Plataforma, ej. Meta Ads / LinkedIn Ads]",
+        "[Descripción breve del producto/servicio]",
+        "[Descripción del Buyer Persona]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c11-p02",
+      "archivo": "cap11.json",
+      "seccion": "c11-s6",
+      "pagina_pdf": 183,
+      "origen": "texto",
+      "inicio": "Ahora vamos a redactar los textos (Copy) para los anuncios. Basándote estrictamente en la ",
+      "marcadores": [
+        "[Estímulo: ej. Curiosidad]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c11-p03",
+      "archivo": "cap11.json",
+      "seccion": "c11-s6",
+      "pagina_pdf": 183,
+      "origen": "texto",
+      "inicio": "Ahora vamos a diseñar la imagen para el anuncio del Grupo de Anuncios [Indicar TOFU, MOFU ",
+      "marcadores": [
+        "[Indicar TOFU, MOFU o BOFU, ej. BOFU - Decisión]",
+        "[Bloque 1: Sujeto principal y acción]",
+        "[Bloque 2: Detalle del producto clave]",
+        "[Bloque 3: Entorno]",
+        "[Bloque 4: Parámetros estéticos y técnicos]",
+        "[Indicar colores]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c11-p04",
+      "archivo": "cap11.json",
+      "seccion": "c11-s6",
+      "pagina_pdf": 183,
+      "origen": "texto",
+      "inicio": "Para el Grupo de Anuncios [Indicar etapa, ej. TOFU - Descubrimiento], vamos a crear un Vid",
+      "marcadores": [
+        "[Indicar etapa, ej. TOFU - Descubrimiento]",
+        "[Subject & Fluid Action]",
+        "[Central Element/Product]",
+        "[Environment]",
+        "[Camera Motion]",
+        "[Aesthetic Parameters]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c11-p05",
+      "archivo": "cap11.json",
+      "seccion": "c11-s6",
+      "pagina_pdf": 184,
+      "origen": "texto",
+      "inicio": "Actúa como un Creador de Contenido UGC y experto en Performance Ads para TikTok e Instagra",
+      "marcadores": [
+        "[Indicar etapa, ej. MOFU - Consideración]",
+        "[Tu Producto/Servicio]",
+        "[Elegir uno: POV / Unboxing / Testimonial de coche / Hablando a cámara en la habitación]",
+        "[Subject & Fluid Action]",
+        "[Central Element/Product]",
+        "[Environment]",
+        "[Camera Motion]",
+        "[Aesthetic Parameters]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c12-p01",
+      "archivo": "cap12.json",
+      "seccion": "c12-s3",
+      "pagina_pdf": 194,
+      "origen": "texto",
+      "inicio": "Actúa como un Director de Influencer Marketing experto en auditoría de creadores de conten",
+      "marcadores": [
+        "[Describe brevemente tu producto/servicio]",
+        "[Describe a tu cliente ideal, ej. mujeres de 25-35 años interesadas en productividad]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c12-p02",
+      "archivo": "cap12.json",
+      "seccion": "c12-s3",
+      "pagina_pdf": 194,
+      "origen": "texto",
+      "inicio": "Actúa como un Estratega Digital experto en embudos de conversión y Social Media. Ya he sel",
+      "marcadores": [
+        "[Micro/Macro]",
+        "[Tu sector]",
+        "[Tu producto/servicio]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c12-p03",
+      "archivo": "cap12.json",
+      "seccion": "c12-s3",
+      "pagina_pdf": 195,
+      "origen": "texto",
+      "inicio": "Actúa como un Director Creativo de una agencia de Influencer Marketing. Basándote en la es",
+      "marcadores": [
+        "[Tu producto/servicio]",
+        "[Tu Buyer Persona]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c12-p04",
+      "archivo": "cap12.json",
+      "seccion": "c12-s3",
+      "pagina_pdf": 195,
+      "origen": "texto",
+      "inicio": "Actúa como un Copywriter especializado en Conversión (CRO) y E-commerce. Acabamos de reali",
+      "marcadores": [
+        "[Nombre del influencer o arquetipo, ej. experto en tecnología]",
+        "[Tu producto]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c13-p01",
+      "archivo": "cap13.json",
+      "seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "origen": "texto",
+      "inicio": "Actúa como un Customer Happiness Manager experto en comunicación asíncrona. Basándote en n",
+      "marcadores": [
+        "[Nombre de tu marca/producto]",
+        "[Elegir: cercano/autoritario/entusiasta]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c13-p02",
+      "archivo": "cap13.json",
+      "seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista de Datos de Marketing. Te voy a proporcionar [varias capturas de pa",
+      "marcadores": [
+        "[varias capturas de pantalla / un documento]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c13-p03",
+      "archivo": "cap13.json",
+      "seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "origen": "texto",
+      "inicio": "Ahora, actúa como un Analista de Business Intelligence. Utiliza la clasificación por Pilar",
+      "marcadores": [
+        "[Mes]",
+        "[Pilar]",
+        "[Valencia Media]",
+        "[Volumen de Reseñas]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c14-p01",
+      "archivo": "cap14.json",
+      "seccion": "c14-s5",
+      "pagina_pdf": 214,
+      "origen": "texto",
+      "inicio": "Actúa como un Estratega de Reputación Online. Mi empresa se dedica a [Sector/Producto] y m",
+      "marcadores": [
+        "[Sector/Producto]",
+        "[Nombre]",
+        "[Perfil Buyer Persona]",
+        "[buyer persona]",
+        "[buyer]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c14-p02",
+      "archivo": "cap14.json",
+      "seccion": "c14-s5",
+      "pagina_pdf": 214,
+      "origen": "texto",
+      "inicio": "Actúa como un Auditor de Marca. Voy a proporcionarte una serie de comentarios y reseñas. E",
+      "marcadores": [
+        "[Insertar valores: ej. Transparencia, Innovación, Cercanía]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c14-p03",
+      "archivo": "cap14.json",
+      "seccion": "c14-s5",
+      "pagina_pdf": 215,
+      "origen": "texto",
+      "inicio": "Actúa como un Experto en Comunicación de Crisis y Reputación. Basándote en el análisis que",
+      "marcadores": [
+        "[Indicar el Valor afectado, ej: Transparencia]",
+        "[Producto o Actitud/Ética]",
+        "[buyer persona]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c14-p04",
+      "archivo": "cap14.json",
+      "seccion": "c14-s5",
+      "pagina_pdf": 215,
+      "origen": "texto",
+      "inicio": "Basado en todos los análisis de reputación realizados en esta sesión, actúa como un Analis",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c14-p05",
+      "archivo": "cap14.json",
+      "seccion": "c14-s5",
+      "pagina_pdf": 215,
+      "origen": "texto",
+      "inicio": "Actúa como un Estratega de Gestión de Crisis. Tu objetivo es ponerme a prueba con una simu",
+      "marcadores": [
+        "[Nombre/Sector]",
+        "[perfil de nuestro buyer persona]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c14-p06",
+      "archivo": "cap14.json",
+      "seccion": "c14-s5",
+      "pagina_pdf": 215,
+      "origen": "texto",
+      "inicio": "Actúa como un usuario preguntando a un asistente de IA: '¿Es fiable comprar en [Tu Empresa",
+      "marcadores": [
+        "[Tu Empresa]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c14-p07",
+      "archivo": "cap14.json",
+      "seccion": "c14-s5",
+      "pagina_pdf": 216,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista de AEO (Answer Engine Optimization). Realiza una búsqueda/análisis ",
+      "marcadores": [
+        "[Nombre]"
+      ],
+      "encadenado": false
+    },
+    {
+      "id": "c15-p01",
+      "archivo": "cap15.json",
+      "seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "origen": "texto",
+      "inicio": "Actúa como un Director de Marketing (CMO) altamente analítico. He adjuntado nuestro Plan d",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c15-p02",
+      "archivo": "cap15.json",
+      "seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "origen": "texto",
+      "inicio": "Ahora vamos a hacer zoom y actuarás como un Digital Strategy Lead. Toma el Semestre 1 que ",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c15-p03",
+      "archivo": "cap15.json",
+      "seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "origen": "texto",
+      "inicio": "Actúa como un Project Manager implacable con la ejecución. Toma el Mes 1 que acabamos de d",
+      "marcadores": [
+        "[buyer persona]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c15-p04",
+      "archivo": "cap15.json",
+      "seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista de Datos y Head of Growth. Basándote en el Plan de Marketing Digita",
+      "marcadores": [
+        "[Insertar nombre de tu Buyer Persona, ej: Ana]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c15-p05",
+      "archivo": "cap15.json",
+      "seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "origen": "texto",
+      "inicio": "Actúa como un Analista de Datos Multimodal (Data Engineer). He adjuntado varias capturas d",
+      "marcadores": [],
+      "encadenado": true
+    },
+    {
+      "id": "c15-p06",
+      "archivo": "cap15.json",
+      "seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "origen": "texto",
+      "inicio": "Actúa como un Auditor de Datos y Estratega de Marketing (Growth Hacker). Ha terminado el '",
+      "marcadores": [
+        "[Instrucción: Pega aquí tus métricas, ej: 'Hemos gastado 500€, hemos conseguido 50 leads a 10€ (el objetivo era 5€), el CR de la web es del 1%, y la Valencia de Reputación es de 8/10']",
+        "[Insertar tu ticket medio, ej: 30€]"
+      ],
+      "encadenado": true
+    },
+    {
+      "id": "c15-p07",
+      "archivo": "cap15.json",
+      "seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "origen": "texto",
+      "inicio": "Actúa como un Lead Data Scientist y Desarrollador Front-End. A continuación, te proporcion",
+      "marcadores": [
+        "[marca]",
+        "[Inserta tu Ticket Medio, ej: 30€]"
+      ],
+      "encadenado": true
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c01-d01",
+      "termino": "Análisis DAFO",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d02",
+      "termino": "Análisis DAFO",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d03",
+      "termino": "Ciclo de vida del producto o servicio",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d04",
+      "termino": "Buyer persona",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d05",
+      "termino": "Objetivos SMART",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d06",
+      "termino": "Marketing Mix (4 P’s)",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d07",
+      "termino": "Producto (Product)",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d08",
+      "termino": "Precio (Price)",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d09",
+      "termino": "Estrategia freemium",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d10",
+      "termino": "Punto de Venta, Lugar o Distribución (Place)",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-d11",
+      "termino": "Promoción (Promotion)",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c02-d01",
+      "termino": "Design thinking",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d02",
+      "termino": "Design thinking (Tim Brown)",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d03",
+      "termino": "Design sprints",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d04",
+      "termino": "Sustainable design thinking",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d05",
+      "termino": "Empatía como core",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d06",
+      "termino": "Experimentación iterativa",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d07",
+      "termino": "Colaboración multidisciplinar",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d08",
+      "termino": "Orientación a la acción",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d09",
+      "termino": "Optimismo constructivo",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d10",
+      "termino": "Empatizar",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d11",
+      "termino": "Definir",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d12",
+      "termino": "Idear",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d13",
+      "termino": "Prototipar",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d14",
+      "termino": "Testear",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d15",
+      "termino": "Design thinking vs. Lean Startup",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d16",
+      "termino": "Design thinking vs. Metodologías Ágiles",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d17",
+      "termino": "Design thinking vs. Business Model Canvas",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d18",
+      "termino": "Entrevistas en profundidad",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d19",
+      "termino": "Observación etnográfica",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d20",
+      "termino": "Shadowing",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d21",
+      "termino": "Diarios de usuario",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d22",
+      "termino": "Mapas de empatía",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d23",
+      "termino": "Personas",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d24",
+      "termino": "Customer Journey Maps",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d25",
+      "termino": "Brainstorming clásico",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d26",
+      "termino": "Brainstorming individual seguido de compartir",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d27",
+      "termino": "SCAMPER",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d28",
+      "termino": "Analogías y transferencia",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d29",
+      "termino": "Worst Possible Idea",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d30",
+      "termino": "Prototipos de exploración",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d31",
+      "termino": "Prototipos de validación",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d32",
+      "termino": "Prototipos de refinamiento",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d33",
+      "termino": "Introducción",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d34",
+      "termino": "Tareas contextualizadas",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d35",
+      "termino": "Observación activa",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d36",
+      "termino": "Preguntas de seguimiento",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d37",
+      "termino": "Piloto",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d38",
+      "termino": "Escalabilidad",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d39",
+      "termino": "Institucionalización",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d40",
+      "termino": "How Might We (HMW)",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c02-d41",
+      "termino": "Principio de fidelidad mínima viable",
+      "archivo": "cap02.json"
+    },
+    {
+      "id": "c03-d01",
+      "termino": "Customer Journey Map (CJM)",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d02",
+      "termino": "Fases del viaje del usuario",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d03",
+      "termino": "Buyer Persona",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d04",
+      "termino": "Fases del viaje",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d05",
+      "termino": "Puntos de contacto (Touchpoints)",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d06",
+      "termino": "Acciones del cliente",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d07",
+      "termino": "Pensamientos y emociones",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d08",
+      "termino": "Puntos de dolor",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d09",
+      "termino": "Oportunidades de mejora",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d10",
+      "termino": "Fase de Conciencia",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d11",
+      "termino": "Fase de Consideración",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d12",
+      "termino": "Fase de Compra",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d13",
+      "termino": "Fase de Fidelización",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-d14",
+      "termino": "Fase de Recomendación",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c04-d01",
+      "termino": "Multimodalidad",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d02",
+      "termino": "Vibe-coding",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d03",
+      "termino": "Estrategias multi-modelo",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d04",
+      "termino": "IA agéntica",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d05",
+      "termino": "AI Act",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d06",
+      "termino": "IA (en términos empresariales)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d07",
+      "termino": "Prompt",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d08",
+      "termino": "Prompt como micro-especificación de trabajo",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d09",
+      "termino": "Elementos de la calidad de un prompt",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d10",
+      "termino": "Estructura general de un prompt",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d11",
+      "termino": "Prompt de texto (elementos)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d12",
+      "termino": "Prompt de imagen (elementos)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d13",
+      "termino": "Prompt de vídeo (elementos)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d14",
+      "termino": "Error más frecuente en prompts de texto",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d15",
+      "termino": "Error más frecuente en prompts de imagen",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d16",
+      "termino": "Mayor reto en prompts de vídeo",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d17",
+      "termino": "Flujo de revisión por fases (vídeo)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d18",
+      "termino": "Iteración de prompts",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d19",
+      "termino": "Token",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d20",
+      "termino": "Uso personal frente a uso empresarial (tokens)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d21",
+      "termino": "Límites de contexto",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d22",
+      "termino": "Bloques de consumo de tokens",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d23",
+      "termino": "Eficiencia en las interacciones con la IA",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d24",
+      "termino": "Modelo rápido",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d25",
+      "termino": "Modelo de razonamiento profundo",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d26",
+      "termino": "Haiku, Sonnet y Opus (Claude)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d27",
+      "termino": "Perplexity",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d28",
+      "termino": "Atlas",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d29",
+      "termino": "Comet",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d30",
+      "termino": "GPT (asistentes específicos de ChatGPT)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d31",
+      "termino": "MCP",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c04-d32",
+      "termino": "Carpetas contextuales / proyectos (Claude)",
+      "archivo": "cap04.json"
+    },
+    {
+      "id": "c05-d01",
+      "termino": "Branding",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d02",
+      "termino": "Branding (qué es y qué no es)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d03",
+      "termino": "ADN de marca / Brand Identity",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d04",
+      "termino": "Identidad conceptual",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d05",
+      "termino": "Beneficios racionales",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d06",
+      "termino": "Beneficios emocionales",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d07",
+      "termino": "Misión",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d08",
+      "termino": "Visión",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d09",
+      "termino": "Historia (de marca)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d10",
+      "termino": "Storytelling",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d11",
+      "termino": "Valores",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d12",
+      "termino": "Identidad verbal",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d13",
+      "termino": "Naming",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d14",
+      "termino": "Eslogan",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d15",
+      "termino": "Eslogan efectivo (ecuación)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d16",
+      "termino": "Tono de marca (brand tone o brand voice)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d17",
+      "termino": "Voz de marca (Brand Voice)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d18",
+      "termino": "Tono de marca (Brand Tone)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d19",
+      "termino": "Estilo de marca (Brand Style)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d20",
+      "termino": "Identidad visual",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d21",
+      "termino": "Logotipo",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d22",
+      "termino": "Tipografía",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d23",
+      "termino": "Tipografía SERIF",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d24",
+      "termino": "Tipografía SANS",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d25",
+      "termino": "Tipografías SCRIPT",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d26",
+      "termino": "Tipografías DISPLAY",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d27",
+      "termino": "Kerning y tracking",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d28",
+      "termino": "Imagen (de marca)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d29",
+      "termino": "Isotipo",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d30",
+      "termino": "Monograma o letra",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d31",
+      "termino": "Símbolos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d32",
+      "termino": "Mascotas o personajes",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d33",
+      "termino": "Imagotipo o logo-símbolo",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d34",
+      "termino": "Isologo",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d35",
+      "termino": "Psicología del color",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d36",
+      "termino": "Colores principales",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d37",
+      "termino": "Colores secundarios",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d38",
+      "termino": "Combinación monocromática",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d39",
+      "termino": "Combinación complementaria",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d40",
+      "termino": "Combinación tríada",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d41",
+      "termino": "Combinación tétrada",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d42",
+      "termino": "Combinación de colores análogos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d43",
+      "termino": "Elementos gráficos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d44",
+      "termino": "Patrones",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d45",
+      "termino": "Ilustraciones",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d46",
+      "termino": "Líneas y formas geométricas",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d47",
+      "termino": "Iconos y pictogramas",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d48",
+      "termino": "Gestión comunicacional",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-d49",
+      "termino": "Comunicación 360º",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c06-d01",
+      "termino": "Sitio web",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d02",
+      "termino": "Marcas customer-centric",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d03",
+      "termino": "Dominio y hosting",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d04",
+      "termino": "Dominio",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d05",
+      "termino": "SLD o Second Level Domain",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d06",
+      "termino": "TLD o Top Level Domain",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d07",
+      "termino": "Estado del dominio: Disponible",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d08",
+      "termino": "Estado del dominio: Registrado",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d09",
+      "termino": "Estado del dominio: Activo",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d10",
+      "termino": "Estado del dominio: En periodo de gracia, castigo o eliminación",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d11",
+      "termino": "Hosting",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d12",
+      "termino": "Hosting compartido",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d13",
+      "termino": "Hosting dedicado",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d14",
+      "termino": "VPS o Virtual Private Server",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d15",
+      "termino": "CMS (Content Management System) o Sistema de Gestión de Contenidos",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d16",
+      "termino": "Frontend y backend",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d17",
+      "termino": "Elementor (maquetador de contenido)",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d18",
+      "termino": "Funcionalidades",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d19",
+      "termino": "Adaptabilidad móvil (Mobile-First)",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d20",
+      "termino": "UX y UI",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d21",
+      "termino": "Optimización SEO (Search Engine Optimization)",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d22",
+      "termino": "Core Web Vitals",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c06-d23",
+      "termino": "Generadores visuales (generador de imágenes con IA)",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c07-d01",
+      "termino": "SEO (Search Engine Optimization)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d02",
+      "termino": "GEO u Optimización para Motores Generativos",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d03",
+      "termino": "AEO u Optimización para Motores de Respuesta",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d04",
+      "termino": "E-E-A-T",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d05",
+      "termino": "SEO OnPage",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d06",
+      "termino": "Keyword Research",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d07",
+      "termino": "Short-tail keywords o body keywords",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d08",
+      "termino": "Mid-tail keywords o de cola media",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d09",
+      "termino": "Long-tail keywords o de cola larga",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d10",
+      "termino": "Intención de búsqueda informacional",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d11",
+      "termino": "Intención de búsqueda navegacional",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d12",
+      "termino": "Intención de búsqueda comercial o de investigación comercial",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d13",
+      "termino": "Intención de búsqueda transaccional",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d14",
+      "termino": "SERPS (Search Engine Results Page)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d15",
+      "termino": "Arquitectura de contenido y encabezados (H1, H2, H3)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d16",
+      "termino": "Contenido de calidad y relevancia",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d17",
+      "termino": "URLs optimizadas",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d18",
+      "termino": "Metadatos (Meta Título y Meta Descripción)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d19",
+      "termino": "Interlinking (Enlazado Interno)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d20",
+      "termino": "Experiencia de usuario (UX) en SEO OnPage",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d21",
+      "termino": "SEO OffPage",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d22",
+      "termino": "Backlinks (Enlaces Externos)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d23",
+      "termino": "Autoridad de dominio",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d24",
+      "termino": "Backlinks follow y no-follow",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d25",
+      "termino": "SEO técnico",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d26",
+      "termino": "Rastreo e indexación (sitemap, robots.txt)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d27",
+      "termino": "Core Web Vitals y WPO (Web Performance Optimization)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d28",
+      "termino": "LCP, FID y CLS",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d29",
+      "termino": "Marcado Schema",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d30",
+      "termino": "Curación de contenido",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-d31",
+      "termino": "Auditoría de citabilidad",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c08-d01",
+      "termino": "Social Media",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d02",
+      "termino": "Grafo de intereses",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d03",
+      "termino": "Social SEO",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d04",
+      "termino": "Information gain",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d05",
+      "termino": "Creadores de contenido",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d06",
+      "termino": "Consumidores pasivos",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d07",
+      "termino": "Comunicadores sociales",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d08",
+      "termino": "Evaluadores y críticos o influenciados",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d09",
+      "termino": "Activistas",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d10",
+      "termino": "Buscadores de información",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d11",
+      "termino": "Baby Boomers (1946-1964)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d12",
+      "termino": "Generación X (1965-1980)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d13",
+      "termino": "Millennials (1981-1996)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d14",
+      "termino": "Generación Z (1997-2012)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d15",
+      "termino": "Generación Alfa (2013-presente)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d16",
+      "termino": "Narrativas emocionales",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d17",
+      "termino": "Copywriting",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d18",
+      "termino": "AIDA (Atención, Interés, Deseo, Acción)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d19",
+      "termino": "PAS (Problema, Agitación, Solución)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d20",
+      "termino": "Storytelling",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d21",
+      "termino": "BFP (Beneficio, Característica, Prueba)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d22",
+      "termino": "Antes-Después-Puente",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d23",
+      "termino": "Storydoing vs. Storytelling",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d24",
+      "termino": "Big content, small pieces (estrategia de producción)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d25",
+      "termino": "Contenido etéreo",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d26",
+      "termino": "Image-to-video",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-d27",
+      "termino": "B-roll",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c09-d01",
+      "termino": "Email marketing",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d02",
+      "termino": "Copywriting",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d03",
+      "termino": "Lead magnet",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d04",
+      "termino": "Lead",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d05",
+      "termino": "Inbound marketing",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d06",
+      "termino": "Funnel de conversión o embudo de ventas",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d07",
+      "termino": "Omnicanalidad",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d08",
+      "termino": "Tasa de apertura",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d09",
+      "termino": "Tasa de clics o CTR / CTA (Call To Action)",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d10",
+      "termino": "Tasa de bajas o desuscripción",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d11",
+      "termino": "Emails de captación",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d12",
+      "termino": "Emails de confirmación",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d13",
+      "termino": "Emails de gracias",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d14",
+      "termino": "Emails para ampliar información | Nurturing",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d15",
+      "termino": "Emails recordatorio",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d16",
+      "termino": "Emails de satisfacción",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d17",
+      "termino": "Emails de up-sell y cross-sell",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d18",
+      "termino": "TOFU (Top of the Funnel) | Conciencia",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d19",
+      "termino": "MOFU (Middle of the Funnel) | Evaluación",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d20",
+      "termino": "BOFU (Bottom of the Funnel) | Conversión",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d21",
+      "termino": "Nurturing emails",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d22",
+      "termino": "Niveles de conciencia (Schwartz)",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d23",
+      "termino": "Tests A/B",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-d24",
+      "termino": "Segmentación dinámica",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c10-d01",
+      "termino": "SEM (Search Engine Marketing)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d02",
+      "termino": "Sistema de pujas y machine learning (funcionamiento del SEM)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d03",
+      "termino": "Retargeting o remarketing",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d04",
+      "termino": "SERP | Search Engine Result Pages",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d05",
+      "termino": "Keywords | Palabras Clave",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d06",
+      "termino": "PPC | Pay Per Click y CPC | Coste Por Clic",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d07",
+      "termino": "ROAS | Return on Advertisement Spent",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d08",
+      "termino": "CPM | Coste por mil impresiones",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d09",
+      "termino": "CPA | Coste por Adquisición o CPL | Coste por Lead",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d10",
+      "termino": "Impresiones",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d11",
+      "termino": "Clics",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d12",
+      "termino": "CTR | Click Through Rate",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d13",
+      "termino": "Quality Score | Nivel de Calidad",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d14",
+      "termino": "Landing Page",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d15",
+      "termino": "Sin fricciones",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d16",
+      "termino": "Palabras clave | Keywords (campañas)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d17",
+      "termino": "Palabras clave negativas",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d18",
+      "termino": "Tipos de concordancia de palabras clave",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d19",
+      "termino": "Concordancia amplia",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d20",
+      "termino": "Concordancia de frase",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d21",
+      "termino": "Concordancia exacta",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d22",
+      "termino": "Texto del anuncio",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d23",
+      "termino": "Titular",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d24",
+      "termino": "URL de visualización",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d25",
+      "termino": "Descripción",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d26",
+      "termino": "Activos del anuncio / Extensiones",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d27",
+      "termino": "Puja",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d28",
+      "termino": "Puja máxima (factor de subasta)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d29",
+      "termino": "Calidad del anuncio (factor de subasta)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d30",
+      "termino": "Impacto del anuncio y el formato (factor de subasta)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d31",
+      "termino": "Umbrales de clasificación de anuncios (factor de subasta)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d32",
+      "termino": "Contexto del anuncio (factor de subasta)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d33",
+      "termino": "Competitividad de la subasta (factor de subasta)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d34",
+      "termino": "Campañas de búsqueda",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d35",
+      "termino": "Campañas de display",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d36",
+      "termino": "Campañas de Shopping",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d37",
+      "termino": "Campañas de vídeo",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d38",
+      "termino": "Performance Max",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d39",
+      "termino": "Cuenta (estructura Google Ads)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d40",
+      "termino": "Campañas (estructura Google Ads)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d41",
+      "termino": "Grupos de anuncios (estructura Google Ads)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d42",
+      "termino": "Palabras clave (estructura Google Ads)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d43",
+      "termino": "Anuncios (estructura Google Ads)",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c10-d44",
+      "termino": "Microsoft Advertising",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c11-d01",
+      "termino": "Social ads (por definición)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d02",
+      "termino": "Social Ads | Publicidad en redes sociales",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d03",
+      "termino": "Publicaciones orgánicas",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d04",
+      "termino": "Segmentación de audiencia",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d05",
+      "termino": "Retargeting",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d06",
+      "termino": "Anuncio (Ad)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d07",
+      "termino": "Landing page",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d08",
+      "termino": "Retargeting (segunda definición en la lista)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d09",
+      "termino": "Copywriting persuasivo",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d10",
+      "termino": "UGC en anuncios en redes sociales (tendencia)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d11",
+      "termino": "Estructura jerárquica",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d12",
+      "termino": "Segmentación avanzada",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d13",
+      "termino": "Selección de ubicaciones",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d14",
+      "termino": "A/B Testing",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d15",
+      "termino": "Metodología de 4 Pasos — Paso 1: Investigación de clientes y competencia",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d16",
+      "termino": "Dolores o síntomas",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d17",
+      "termino": "Intenciones reales",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d18",
+      "termino": "Soluciones fallidas",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d19",
+      "termino": "Objeciones de compra",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d20",
+      "termino": "El disparador final",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d21",
+      "termino": "Metodología de 4 Pasos — Paso 2: Identificación de los bloques creativos",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d22",
+      "termino": "Metodología de 4 Pasos — Paso 3: Fórmulas persuasivas",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d23",
+      "termino": "Problema-solución (fórmula)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d24",
+      "termino": "Ángulo de autoridad (fórmula)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d25",
+      "termino": "Storytelling (fórmula)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d26",
+      "termino": "Antes/después (fórmula)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d27",
+      "termino": "Estilo de vida (fórmula)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d28",
+      "termino": "Metodología de 4 Pasos — Paso 4: Diversidad de formatos",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d29",
+      "termino": "Meta Business Manager",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d30",
+      "termino": "Administrador de Anuncios",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d31",
+      "termino": "Campañas de reconocimiento (objetivo Meta)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d32",
+      "termino": "Campañas de tráfico (objetivo Meta)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d33",
+      "termino": "Campañas de interacción (objetivo Meta)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d34",
+      "termino": "Promoción de aplicación (objetivo Meta)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d35",
+      "termino": "Campañas de clientes potenciales (objetivo Meta)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d36",
+      "termino": "Campaña de ventas (objetivo Meta)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d37",
+      "termino": "Audiencia guardada",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d38",
+      "termino": "Audiencia personalizada",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d39",
+      "termino": "Audiencias similares o lookalike",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d40",
+      "termino": "Meta Advantage+",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d41",
+      "termino": "Advantage+ Shopping Campaigns",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d42",
+      "termino": "Advantage+ Creative",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d43",
+      "termino": "Campañas para aplicaciones con Advantage+",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d44",
+      "termino": "Crear (pilar de YouTube)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d45",
+      "termino": "Conectar (pilar de YouTube)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d46",
+      "termino": "Medición (pilar de YouTube)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d47",
+      "termino": "Anuncios In-stream (TrueView saltables y no saltables)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d48",
+      "termino": "Anuncios Bumper Ads",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d49",
+      "termino": "Anuncios de Vídeo In-feed",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d50",
+      "termino": "Anuncios de Shorts",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d51",
+      "termino": "Anuncios de Display (YouTube)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d52",
+      "termino": "Anuncios Masthead",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d53",
+      "termino": "Otros formatos (YouTube Ads)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d54",
+      "termino": "Performance Max (en YouTube)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-d55",
+      "termino": "IA Max",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c12-d01",
+      "termino": "Influencer Marketing",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d02",
+      "termino": "Nano-influencers (1K-10K seguidores)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d03",
+      "termino": "Micro-influencers (10K-100K seguidores)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d04",
+      "termino": "Macro-influencers (100K-1M seguidores)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d05",
+      "termino": "Mega-influencers (+1M seguidores)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d06",
+      "termino": "Prescriptores profesionales",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d07",
+      "termino": "Engagement Rate",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d08",
+      "termino": "Alcance vs. Impresiones",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d09",
+      "termino": "CPM | Coste por mil impresiones",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d10",
+      "termino": "UGC | User Generated Content",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d11",
+      "termino": "Embajador de marca",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d12",
+      "termino": "Código de afiliado",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d13",
+      "termino": "Mentions vs. Tags",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d14",
+      "termino": "Social commerce y shoppable content",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d15",
+      "termino": "Integración multiplataforma",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d16",
+      "termino": "Micro-nichos especializados",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d17",
+      "termino": "Co-creación de contenido",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d18",
+      "termino": "Influencers virtuales",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d19",
+      "termino": "Valor de credibilidad y confianza",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d20",
+      "termino": "Valor de segmentación precisa",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d21",
+      "termino": "Valor de contenido nativo",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d22",
+      "termino": "Valor de prueba social",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d23",
+      "termino": "Valor de alcance cualificado",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d24",
+      "termino": "Valor de longevidad",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d25",
+      "termino": "Branded Content",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d26",
+      "termino": "Product Placement",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d27",
+      "termino": "Sponsored Links",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d28",
+      "termino": "Calculadoras algorítmicas de remuneración o fee",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-d29",
+      "termino": "Estructura \"Antes-Después-Puente\"",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c13-d01",
+      "termino": "e-WOM",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d02",
+      "termino": "Gestión de reseñas",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d03",
+      "termino": "Reseñas de Google Business Profile (GBP)",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d04",
+      "termino": "Reseñas de Facebook, Instagram y TikTok Shop",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d05",
+      "termino": "Reseñas en LinkedIn",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d06",
+      "termino": "Reseñas en plataformas",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d07",
+      "termino": "Testimonio",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d08",
+      "termino": "NPS | Net Promoter Score",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d09",
+      "termino": "Rating promedio",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d10",
+      "termino": "Review velocity",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d11",
+      "termino": "Response rate",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d12",
+      "termino": "Sentiment score",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d13",
+      "termino": "Review authenticity score",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c13-d14",
+      "termino": "Review-to-content",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c14-d01",
+      "termino": "ORM | Online Reputation Management",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d02",
+      "termino": "SERM (Search Engine Reputation Management)",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d03",
+      "termino": "Reputación digital",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d04",
+      "termino": "Análisis de sentimientos",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d05",
+      "termino": "Brand safety",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d06",
+      "termino": "Dark social",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d07",
+      "termino": "Créditos o puntuación reputacional",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d08",
+      "termino": "Crisis de reputación",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d09",
+      "termino": "Fake news y deepfakes",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d10",
+      "termino": "Derecho al olvido",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d11",
+      "termino": "ESG | Environmental, Social and Governance",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d12",
+      "termino": "Gestión proactiva, defensiva y de recuperación (según el tipo de estrategia)",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d13",
+      "termino": "Reputación corporativa, de producto o servicio y de marca personal (según el área de marca)",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d14",
+      "termino": "Omnicanalidad reputacional",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c14-d15",
+      "termino": "Activos reputacionales (propios, ganados, prestados e internos)",
+      "archivo": "cap14.json"
+    },
+    {
+      "id": "c15-d01",
+      "termino": "Controlling (definición de la apertura)",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d02",
+      "termino": "Controlling (etapa)",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d03",
+      "termino": "Ingeniería inversa",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d04",
+      "termino": "Señal de alerta negativa",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d05",
+      "termino": "Señal neutra",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d06",
+      "termino": "Señal positiva",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d07",
+      "termino": "Controlling",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d08",
+      "termino": "KPI",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d09",
+      "termino": "Dashboard de métricas",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d10",
+      "termino": "CPL",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d11",
+      "termino": "LTV",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d12",
+      "termino": "CAC",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d13",
+      "termino": "ROI",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d14",
+      "termino": "Píxeles",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d15",
+      "termino": "Google Tag Manager (GTM)",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-d16",
+      "termino": "Planificación",
+      "archivo": "cap15.json"
+    }
+  ],
+  "figuras_tablas": [
+    {
+      "id": "c01-f01",
+      "numero": "Tabla 1",
+      "titulo": "Análisis DAFO aulamarketing.digital",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c03-f01",
+      "numero": "Tabla 1",
+      "titulo": "Descripción de elementos del customer journey map",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c05-f01",
+      "numero": "Figura 1",
+      "titulo": "Ejemplos de publicidad racional de CHUPACHUPS (izquierda) y 3M (derecha)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f02",
+      "numero": "Figura 2",
+      "titulo": "Ejemplos de publicidad emocional de HARLEY DAVISON (izquierda) y BMW (derecha)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f03",
+      "numero": "Figura 3",
+      "titulo": "Ejemplos de publicidad de BAYER",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f04",
+      "numero": "Figura 4",
+      "titulo": "Misión propuesta por ChatGPT",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f05",
+      "numero": "Figura 5",
+      "titulo": "Misión refinada propuesta por ChatGPT",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f06",
+      "numero": "Figura 6",
+      "titulo": "Misión emocional e inspiradora propuesta por ChatGPT",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f07",
+      "numero": "Tabla 1",
+      "titulo": "Ejemplos de visión",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f08",
+      "numero": "Figura 7",
+      "titulo": "Visión propuesta por ChatGPT",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f09",
+      "numero": "Figura 8",
+      "titulo": "Visión emocional e inspiradora propuesta por ChatGPT",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f10",
+      "numero": "Figura 9",
+      "titulo": "Prompt para construir la historia de la marca y respuesta",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f11",
+      "numero": "Figura 10",
+      "titulo": "Propuesta de valores",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f12",
+      "numero": "Figura 11",
+      "titulo": "Propuesta de valores memorables",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f13",
+      "numero": "Figura 12",
+      "titulo": "Nombres de la marca FRIGO en el mercado internacional",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f14",
+      "numero": "Figura 13",
+      "titulo": "Propuestas de eslogans de ChatGPT",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f15",
+      "numero": "Tabla 2",
+      "titulo": "Ejemplos de tono",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f16",
+      "numero": "Figura 14",
+      "titulo": "Ejemplo de mensajes de PUTOS MODERNOS",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f17",
+      "numero": "Figura 15",
+      "titulo": "Ejemplo de logotipos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f18",
+      "numero": "Figura 16",
+      "titulo": "Tipografía Serif",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f19",
+      "numero": "Tabla 3",
+      "titulo": "Ejemplos de marcas con tipografías serif",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f20",
+      "numero": "Figura 17",
+      "titulo": "Tipografía Sans",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f21",
+      "numero": "Tabla 4",
+      "titulo": "Ejemplos de marcas con tipografías sans",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f22",
+      "numero": "Figura 18",
+      "titulo": "Tipografía Script",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f23",
+      "numero": "Figura 19",
+      "titulo": "Tipografía Display",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f24",
+      "numero": "Tabla 5",
+      "titulo": "Recursos para elegir tipografía",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f25",
+      "numero": "Figura 20",
+      "titulo": "Isotipos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f26",
+      "numero": "Figura 21",
+      "titulo": "Isotipos: monogramas",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f27",
+      "numero": "Figura 22",
+      "titulo": "Isotipos: símbolos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f28",
+      "numero": "Tabla 6",
+      "titulo": "Isotipos: Mascotas",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f29",
+      "numero": "Figura 23",
+      "titulo": "Imagotipos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f30",
+      "numero": "Figura 24",
+      "titulo": "Isologos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f31",
+      "numero": "Tabla 7",
+      "titulo": "Sitios para desarrollo identidad visual",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f32",
+      "numero": "Figura 25",
+      "titulo": "LOGOAI. Paso 1",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f33",
+      "numero": "Figura 26",
+      "titulo": "LOGOAI. Paso 2",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f34",
+      "numero": "Figura 27",
+      "titulo": "LOGOAI. Paso 3",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f35",
+      "numero": "Figura 28",
+      "titulo": "LOGOAI. Paso 4",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f36",
+      "numero": "Figura 29",
+      "titulo": "LOGOAI. Resultados",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f37",
+      "numero": "Figura 30",
+      "titulo": "Ejemplo de prompt",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f38",
+      "numero": "Figura 31",
+      "titulo": "Propuesta 1 de la IA",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f39",
+      "numero": "Figura 32",
+      "titulo": "Propuesta 2 de la IA",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f40",
+      "numero": "Figura 33",
+      "titulo": "Propuesta 3 de la IA",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f41",
+      "numero": "Figura 34",
+      "titulo": "Propuesta 4 de la IA",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f42",
+      "numero": "Figura 35",
+      "titulo": "Psicología del color",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f43",
+      "numero": "Figura 36",
+      "titulo": "Combinación monocromática",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f44",
+      "numero": "Figura 37",
+      "titulo": "Combinación complementaria",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f45",
+      "numero": "Figura 38",
+      "titulo": "Combinación tríada",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f46",
+      "numero": "Figura 39",
+      "titulo": "Combinación tétrada",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f47",
+      "numero": "Figura 40",
+      "titulo": "Combinación de colores análogos",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f48",
+      "numero": "Figura 41",
+      "titulo": "Patrones",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f49",
+      "numero": "Figura 42",
+      "titulo": "Ilustraciones",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f50",
+      "numero": "Figura 43",
+      "titulo": "Líneas y formas geométricas",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-f51",
+      "numero": "Figura 44",
+      "titulo": "Pictogramas",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c06-f01",
+      "numero": "Tabla 1",
+      "titulo": "Análisis CMS",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c10-f01",
+      "numero": "Tabla 1",
+      "titulo": "Ejemplos Ads aulamarketing.digital",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c11-f01",
+      "numero": "Tabla 1",
+      "titulo": "Tipos de anuncios en Social Ads",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-f02",
+      "numero": "Tabla 2",
+      "titulo": "Fuentes e insights para Social Ads",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-f03",
+      "numero": "Tabla 3",
+      "titulo": "Fórmula problema / solución para campañas social ads",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c13-f01",
+      "numero": "Tabla 1",
+      "titulo": "Ejemplo preguntas guiadas en la gestión de reseñas",
+      "archivo": "cap13.json"
+    },
+    {
+      "id": "c15-f01",
+      "numero": "Tabla 1",
+      "titulo": "Métricas web e e-commerce",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-f02",
+      "numero": "Tabla 2",
+      "titulo": "Métricas social media",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-f03",
+      "numero": "Tabla 3",
+      "titulo": "Métricas SEO",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-f04",
+      "numero": "Tabla 4",
+      "titulo": "Métricas social ads y SEM",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-f05",
+      "numero": "Tabla 5",
+      "titulo": "Métricas email marketing",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-f06",
+      "numero": "Tabla 6",
+      "titulo": "Métricas reseñas, influencers y UGC",
+      "archivo": "cap15.json"
+    },
+    {
+      "id": "c15-f07",
+      "numero": "Tabla 7",
+      "titulo": "Ejemplos de diagnóstico basado en métricas",
+      "archivo": "cap15.json"
+    }
+  ],
+  "entregables": [
+    {
+      "id": "c01-e01",
+      "titulo": "Tendencias detectadas con NotebookLM para aulamarketing.digital",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-e02",
+      "titulo": "Análisis DAFO de aulamarketing.digital (Tabla 1 + síntesis)",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-e03",
+      "titulo": "Fase del ciclo de vida (introducción) y estrategias de lanzamiento de aulamarketing.digital",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-e04",
+      "titulo": "Buyer persona \"Ana, la profesional en ascenso\"",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-e05",
+      "titulo": "Objetivos SMART del Plan de Marketing Digital de aulamarketing.digital",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-e06",
+      "titulo": "Propuesta de valor y posicionamiento de aulamarketing.digital",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c01-e07",
+      "titulo": "Marketing Mix (4 Ps) de aulamarketing.digital: Producto, Precio, Place y Promoción",
+      "archivo": "cap01.json"
+    },
+    {
+      "id": "c03-e01",
+      "titulo": "Aplicaciones del CJM ilustradas con Ana en el ecosistema de aulamarketing.digital",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e02",
+      "titulo": "Introducción a la construcción del CJM de aulamarketing.digital",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e03",
+      "titulo": "Paso 1: Construcción del Buyer Persona - Conociendo a Ana en profundidad",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e04",
+      "titulo": "Paso 2: Mapeo de las Etapas de Ana (introducción)",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e05",
+      "titulo": "Etapa de Soñar | Inspiración / Conciencia",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e06",
+      "titulo": "Etapa de Planificar | Consideración / Investigación",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e07",
+      "titulo": "Etapa de Reservar | Decisión / Compra",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e08",
+      "titulo": "Etapa de Experimentar | Retención / Servicio",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e09",
+      "titulo": "Etapa de Recordar | Fidelización / Promoción",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c03-e10",
+      "titulo": "Paso 3: Identificación de puntos de dolor y oportunidades",
+      "archivo": "cap03.json"
+    },
+    {
+      "id": "c05-e01",
+      "titulo": "Misión de aulamarketing.digital (versión final, Figura 6)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-e02",
+      "titulo": "Visión de aulamarketing.digital (Figuras 7 y 8)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-e03",
+      "titulo": "Historia de la marca aulamarketing.digital (Figura 9)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-e04",
+      "titulo": "Valores corporativos de aulamarketing.digital (Figura 10)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-e05",
+      "titulo": "Valores de aulamarketing.digital (versión memorable, Figura 11)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-e06",
+      "titulo": "Propuestas de eslogan (Figura 13) y eslogan adoptado",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-e07",
+      "titulo": "Propuestas de logotipo generadas con LogoAI (Figura 29)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c05-e08",
+      "titulo": "Propuestas de identidad visual de NANOBANANA (Figuras 31-34)",
+      "archivo": "cap05.json"
+    },
+    {
+      "id": "c06-e01",
+      "titulo": "Estructura de páginas del sitio de aulamarketing.digital, con objetivo y keyword asociada",
+      "archivo": "cap06.json"
+    },
+    {
+      "id": "c07-e01",
+      "titulo": "Paso 1 | Planificación estratégica y mapa de entidades",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-e02",
+      "titulo": "Paso 2 | SEO On-Page: artículos pilar, nodos AEO y auditoría de citabilidad",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-e03",
+      "titulo": "Paso 3 | SEO técnico y marcado semántico (JSON-LD, FAQPage, Speakable, LCP móvil)",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c07-e04",
+      "titulo": "Paso 4 | SEO Off-Page y autoridad E-E-A-T",
+      "archivo": "cap07.json"
+    },
+    {
+      "id": "c08-e01",
+      "titulo": "El desafío y selección de formatos y plataformas (TikTok, Instagram Reels, YouTube Shorts)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-e02",
+      "titulo": "Contenido pilar \"Cómo elaborar un Plan de Marketing Digital\" y su fragmentación (guiones de vídeo vertical, infografías, plantillas)",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-e03",
+      "titulo": "Copywriting PAS/AIDA: ejemplos de titulares, ganchos, deseo y CTA",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-e04",
+      "titulo": "Narrativas emocionales, storydoing, calendario editorial flexible (15 % de improvisación) y publicación cruzada",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c08-e05",
+      "titulo": "Herramientas del ejemplo: Metricool, Chat GPT 5.2, NotebookLM, Napkin/Gamma.io, ElevenLabs, HeyGen",
+      "archivo": "cap08.json"
+    },
+    {
+      "id": "c09-e01",
+      "titulo": "Email 1 | Confirmación de suscripción y entrega de lead magnet",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e02",
+      "titulo": "Email 2 | 3 días después: Ampliación de contenido de valor",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e03",
+      "titulo": "Email 3 | Una semana después: Invitación a webinar",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e04",
+      "titulo": "Email 4 | 24h post-webinar: Oferta de curso y testimonio",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e05",
+      "titulo": "Email 5 | Recordatorio antes de que expire la oferta: Urgencia y beneficio",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e06",
+      "titulo": "Email 6 | Confirmación de compra y bienvenida al curso",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e07",
+      "titulo": "Email 7 | Solicitud de satisfacción",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e08",
+      "titulo": "Email 8 | Actualizaciones de contenido y potenciales cross-sell/up-sell",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c09-e09",
+      "titulo": "Email 9 | Felicitación y testimonio",
+      "archivo": "cap09.json"
+    },
+    {
+      "id": "c10-e01",
+      "titulo": "Tabla 1. Ejemplos Ads aulamarketing.digital (anuncio de búsqueda para \"curso marketing digital IA\")",
+      "archivo": "cap10.json"
+    },
+    {
+      "id": "c11-e01",
+      "titulo": "Paso 1: Investigación de mercado (dolores, soluciones fallidas, objeciones y disparador de Ana)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-e02",
+      "titulo": "Pasos 2 y 3: Bloques creativos y fórmulas persuasivas",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-e03",
+      "titulo": "Tabla 3. Fórmula problema / solución para campañas social ads (anuncio para Ana)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-e04",
+      "titulo": "Paso 4: Diversidad de formatos (POV/demostración y vídeo de ventas estilo tutorial)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-e05",
+      "titulo": "Herramientas IA de la campaña (Advantage+, ChatGPT/Gemini)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c11-e06",
+      "titulo": "Configuración técnica de campaña y medición (Lookalike, ubicaciones, A/B testing, ROAS, CPL, CTR)",
+      "archivo": "cap11.json"
+    },
+    {
+      "id": "c12-e01",
+      "titulo": "Perfil de influencer seleccionado para Ana (micro-nicho: \"estudiante influencer\" / \"emprendedor transparente\")",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-e02",
+      "titulo": "Estrategia de colaboración a largo plazo y co-creación de contenido",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-e03",
+      "titulo": "Antes (estructura Antes-Después-Puente)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-e04",
+      "titulo": "Después (estructura Antes-Después-Puente)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-e05",
+      "titulo": "Puente (estructura Antes-Después-Puente)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-e06",
+      "titulo": "Fase de decisión, Brand Ambassador y medición (código de afiliado, GRIN, CPA sobre CPM)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c12-e07",
+      "titulo": "Verificación, análisis de audiencia, co-creación de guiones y monitorización (HypeAuditor, Audiense, Jasper.ai, Brand24)",
+      "archivo": "cap12.json"
+    },
+    {
+      "id": "c13-e01",
+      "titulo": "Plantilla opcional de preguntas guiadas para la solicitud de reseña (Tabla 1. Ejemplo preguntas guiadas en la gestión de reseñas; ver c13-f01)",
+      "archivo": "cap13.json"
+    }
+  ]
+}

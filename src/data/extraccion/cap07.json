@@ -1,0 +1,1494 @@
+{
+  "id": "c07",
+  "numero": 7,
+  "parte": "PARTE 2: ACCIONES OPERATIVAS — MEDIOS PROPIOS",
+  "titulo": "Visibilidad inevitable: estrategias para el posicionamiento orgánico",
+  "paginas_pdf": [
+    120,
+    131
+  ],
+  "paginas_libro": [
+    115,
+    126
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "Lo hemos mencionado en varias ocasiones en el capítulo anterior pero ¿conocías el término? En este capítulo queremos profundizar en el papel fundamental del SEO (Search Engine Optimization) como una estrategia esencial dentro de un plan de marketing digital integral, especialmente en un contexto marcado por la irrupción y consolidación de la Inteligencia Artificial en el campo, la incorporación de los nuevos resultados de IA generativa en las SERPS (listado de contenidos mostrados en la búsqueda en el navegador) y el cambio en los patrones de búsqueda de los usuarios.\nSer profesional de marketing digital hoy es todo un reto, te lo decimos por experiencia. El marketing digital actual exige una visión integral del negocio y una ejecución detallada que va mucho más allá de lo que llevamos años llamando presencia online. En este entorno, comprender el comportamiento de los consumidores, segmentar audiencias y seleccionar y conectar los canales adecuados son desafíos constantes. El SEO, como disciplina, se mantiene como una piedra angular para la visibilidad online a largo plazo, complementando a las estrategias de tráfico y construyendo una base sólida. Para comprender por qué el SEO es ahora más importante que hace tan solo unos meses atrás, continuamos analizando la historia de Ana, ¿la recuerdas?\nAna es consciente de que ser visible en el entorno digital es sinónimo de éxito profesional. Su comportamiento de búsqueda ha evolucionado, ya que la Generación Z ha disminuido sus búsquedas de productos en Google en un 40%, utilizando plataformas como TikTok e Instagram para buscar información. Cuando Ana se plantea aprender SEO no lo hace porque considere que es una habilidad técnica, actualmente ya es consciente de que se trata de una propuesta estratégica para posicionar su marca personal y los proyectos de las marcas con las que trabaja, asegurando que su contenido o servicios sean fácilmente localizados por su público objetivo. Por eso tras haber navegado en el buscador analizando alternativas formativas, y viendo que aulamarketing.digital se posiciona para keywords relevantes, accede a la web para saber cómo diseñar y poner en práctica su propia estrategia de posicionamiento SEO efectiva.",
+    "pagina_pdf": 120,
+    "narrativa_ana": "Ser profesional de marketing digital hoy es todo un reto, te lo decimos por experiencia. El marketing digital actual exige una visión integral del negocio y una ejecución detallada que va mucho más allá de lo que llevamos años llamando presencia online. En este entorno, comprender el comportamiento de los consumidores, segmentar audiencias y seleccionar y conectar los canales adecuados son desafíos constantes. El SEO, como disciplina, se mantiene como una piedra angular para la visibilidad online a largo plazo, complementando a las estrategias de tráfico y construyendo una base sólida. Para comprender por qué el SEO es ahora más importante que hace tan solo unos meses atrás, continuamos analizando la historia de Ana, ¿la recuerdas?\nAna es consciente de que ser visible en el entorno digital es sinónimo de éxito profesional. Su comportamiento de búsqueda ha evolucionado, ya que la Generación Z ha disminuido sus búsquedas de productos en Google en un 40%, utilizando plataformas como TikTok e Instagram para buscar información. Cuando Ana se plantea aprender SEO no lo hace porque considere que es una habilidad técnica, actualmente ya es consciente de que se trata de una propuesta estratégica para posicionar su marca personal y los proyectos de las marcas con las que trabaja, asegurando que su contenido o servicios sean fácilmente localizados por su público objetivo. Por eso tras haber navegado en el buscador analizando alternativas formativas, y viendo que aulamarketing.digital se posiciona para keywords relevantes, accede a la web para saber cómo diseñar y poner en práctica su propia estrategia de posicionamiento SEO efectiva."
+  },
+  "objetivos_aprendizaje": [
+    "Atraer tráfico orgánico de calidad, que traducido al lenguaje natural significa atraer usuarios con una intención de búsqueda específica que pueden convertirse en leads o clientes.",
+    "Reducir la dependencia de la publicidad pagada a largo plazo, optimizando la inversión y asegurando un crecimiento sostenible.",
+    "Garantizar la visibilidad del contenido y propuestas en los motores de búsqueda y redes sociales.",
+    "Construir autoridad y credibilidad, siendo visto como una referente en temas de marketing digital, o herramientas de inteligencia artificial aplicadas al marketing."
+  ],
+  "secciones": [
+    {
+      "id": "c07-s1",
+      "numero": "1",
+      "titulo": "Definiciones clave y tendencias",
+      "pagina_pdf": 121,
+      "pagina_libro": 116,
+      "texto": "El SEO (Search Engine Optimization) se define como el conjunto de estrategias y acciones destinadas a mejorar la visibilidad de un sitio web en los resultados orgánicos de los motores de búsqueda como Google, atrayendo tráfico sin un coste directo por clic. Su objetivo es obtener y mantener a largo plazo los primeros puestos en los buscadores más utilizados por los clientes potenciales cuando estos introducen frases de búsqueda relacionadas con la información, actividades, productos o servicios que se ofrecen en el sitio web.\nLa relevancia del SEO ha experimentado una transformación con la incorporación de los denominados motores generativos y el cambio en el comportamiento del consumidor digital. La aparición de capacidades generativas de IA, complementarias a los motores de búsqueda tradicionales, está redefiniendo el SEO al ofrecer respuestas directas, específicas y concretas, sin tener que acceder a ningún sitio web. Esto implica una evolución en la experiencia de búsqueda y, por ende, en las estrategias de optimización. Entre las tendencias clave que refuerzan la vigencia del SEO y su evolución podemos destacar un claro dominio de la inteligencia artificial. Hemos pasado de un ecosistema basado en la competición por posiciones y el análisis del CTR a uno donde el éxito se define por la capacidad de ofrecer soluciones procesadas. El usuario actual ya no desea navegar por una lista de enlaces para encontrar una respuesta; busca que la tecnología le entregue el conocimiento ya sintetizado. Esta transición del buscador convencional al motor generativo se articula hoy sobre dos ejes estratégicos que han redefinido nuestra disciplina: el GEO y el AEO.\nEl GEO u Optimización para Motores Generativos, representa la evolución natural de nuestra labor hacia la era de los modelos de lenguaje. Mientras que el SEO clásico se centraba en satisfacer algoritmos de clasificación, el GEO se especializa en los algoritmos de síntesis. En términos prácticos, consiste en estructurar la información y proyectar la autoridad de una marca para que los modelos de IA no solo procesen nuestro contenido, sino que lo seleccionen como la fuente de mayor confianza al redactar sus respuestas. Si antes el objetivo era lograr que Google colocara nuestra tienda en su escaparate principal, el GEO busca que el asistente inteligente recomiende activamente nuestra marca cuando un cliente solicita una solución. En este nuevo tablero, la clave es la citación: si la inteligencia artificial no utiliza tus datos para construir su respuesta, tu presencia digital es inexistente.\nComplementando esta visión, el AEO u Optimización para Motores de Respuesta se enfoca en la resolución inmediata. Es el sucesor sofisticado de los antiguos fragmentos destacados, diseñado para dar respuesta a la demanda de precisión que exigen las búsquedas por voz y las consultas directas. El AEO es, en esencia, el SEO de respuesta única, donde la métrica crítica ya no es el volumen de visitas a la web, sino la cuota de mención o Citation Share. Su ejecución requiere una arquitectura de contenido tan nítida y estructurada que los motores puedan extraer la información sin rastro de ambigüedad. Integrar estas piezas es el gran reto de la estrategia actual. El SEO clásico se mantiene como el cimiento técnico indispensable, ocupándose de la indexabilidad y la velocidad para atraer tráfico mediante estructuras jerárquicas. Sin embargo, el GEO añade la capa de contexto y autoridad necesaria para que la IA nos considere referentes, mientras que el AEO aporta la estructura de respuesta directa que domina el consumo inmediato de información.\nEn otro espectro de acción observamos cómo crece el SEO para vídeos como formato principal de contenido. El imparable crecimiento del contenido en video debe ser optimizado para su descubrimiento aprovechando que las plataformas sociales recompensan el tiempo de interacción, lo que impulsa el contenido a nuevas audiencias. Los vídeos cortos y verticales son actualmente el formato con mejor rendimiento, generando más vistas e interacción, donde sigue muy de cerca el contenido de video de formato largo (webinars, podcasts, videos de YouTube) que sigue vigente, generando 10 veces más interacción que las publicaciones de blog. Como gran consumidora de redes sociales, la Generación Z además busca productos y marcas directamente en plataformas como TikTok e Instagram, lo que ha provocado una disminución del 40% en las búsquedas de productos en Google por parte de esta generación. ¿Cuál es la consecuencia natural? Ahora es crucial optimizar el contenido para la búsqueda social, utilizando la barra de búsqueda de TikTok para encontrar palabras clave de tendencia, añadiendo texto que se pueda buscar en videos y optimizando hashtags específicos de la plataforma. Esto amplía el alcance del SEO más allá de los motores de búsqueda tradicionales. El último insight se centra en el usuario. Los planes de marketing deben ser flexibles y ágiles, con mediciones constantes para optimizar y personalizar en tiempo real. El usuario debe estar en el centro de todas las decisiones, simplificando sus procesos de navegación y compra, ofreciendo una experiencia sin fricciones. Esto implica que el SEO no solo debe enfocarse en el posicionamiento técnico, tal y como nos indican las publicaciones de John Mueller, debe tener siempre la mirada puesta en satisfacer la intención de búsqueda y la experiencia del usuario.\nPor último, es necesario anotar que, aunque ya no sea una tendencia como tal sino una dinámica constante, Google evalúa nuestro contenido en base a una estructura que llaman E-E-A-T. El acrónimo significa experiencia, expertise, autoridad y confianza (siglas en inglés). Aunque todo comienza en el año 2014 y se reformula en el año 2018 con el fin de que todos los creadores de contenido tengamos muy claro cómo debemos generar nuestro tipo de contenido, sigue completamente vigente. Digamos que, en esencia, este acrónimo define el valor de una web, pasando desde un marcador muy bajo hasta un marcador muy alto. De esa forma, y aunque sea una métrica invisible para nosotros porque no aparece como tal en ningún sitio, realmente son los aspectos clave en los que debemos enfocarnos a la hora de gestionar nuestro sitio web para aportar el máximo valor posible al usuario.\nEl SEO sigue siendo fundamental porque bien ejecutado proporciona tráfico orgánico sostenible y de alta calidad, construye autoridad y confianza para la marca y se adapta a las nuevas formas de búsqueda del consumidor digital, integrando el contenido y la experiencia del usuario como elementos centrales. A continuación te hablaremos de sus tres pilares fundamentales, el SEO OnPage, OffPage y el SEO técnico. Todos ellos deben ser optimizados de manera conjunta para facilitar un nivel de visibilidad superior y una experiencia de usuario óptima.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c07-d01",
+        "c07-d02",
+        "c07-d03",
+        "c07-d04"
+      ]
+    },
+    {
+      "id": "c07-s2",
+      "numero": "2",
+      "titulo": "SEO OnPage",
+      "pagina_pdf": 122,
+      "pagina_libro": 117,
+      "texto": "El SEO OnPage se refiere a las acciones que se realizan directamente dentro de un sitio web para mejorar su posicionamiento en los resultados de búsqueda. Estas optimizaciones incluyen elementos de contenido y estructura que son visibles para el usuario y para los motores de búsqueda.",
+      "subsecciones": [
+        {
+          "id": "c07-s2.1",
+          "numero": "2.1",
+          "titulo": "Keyword Research",
+          "pagina_pdf": 122,
+          "pagina_libro": 117,
+          "texto": "La base de la visibilidad antes de iniciar cualquier proyecto web. Este proceso consiste en identificar los términos o frases que los usuarios introducen en los motores de búsqueda para encontrar información, productos o servicios. Es crucial porque nos permite conectar con lo que los usuarios están buscando y optimizar nuestro contenido para que los motores generativos y de búsqueda lo encuentren. Las palabras clave que revelan las intenciones de búsqueda se clasifican según su especificidad y longitud:\nShort-tail keywords o body keywords: Expresiones de una o dos palabras, muy genéricas, con alto volumen de búsqueda y competitividad, pero con intención menos específica. Ejemplo: \"marketing digital\" donde la intención es muy amplia.\nMid-tail keywords o de cola media: Términos de tres o cuatro palabras, más específicas y con una intención de búsqueda más acotada. Ejemplo: \"plan de marketing digital\" y aquí el usuario busca algo más concreto.\nLong-tail keywords o de cola larga: Frases más largas y específicas, con menor volumen individual pero alta intención de búsqueda precisa, lo que aumenta la probabilidad de conversión. Ejemplo: \"cómo hacer un plan de marketing digital con inteligencia artificial\", donde se observa que el usuario está en una fase avanzada de su customer journey. Estas palabras son exactamente las que los usuarios le dictan a asistentes de voz como Siri o escriben en los LLM. Dominar las Long-tail es el primer paso para dominar el AEO predominante.\nAdemás de la longitud, es fundamental comprender la intención de búsqueda detrás de cada palabra clave :\nInformacional: El usuario busca aprender o encontrar una respuesta. Ejemplo: \"qué es el marketing digital\".\nNavegacional: El usuario busca un sitio web o una página específica. Ejemplo: \"sitio web aulamarketing.digital\".\nComercial o de investigación comercial: El usuario investiga opciones antes de comprar. Ejemplo: \"comparativa cursos marketing digital online\".\nTransaccional: El usuario tiene una clara intención de realizar una acción (compra, reserva). Ejemplo: \"comprar curso SEO avanzado aulamarketing.digital\".\n¿Cómo sé inicialmente qué palabras clave son las más idóneas si nunca he hecho un análisis? Esta pregunta es muy habitual cuando estamos dando nuestros primeros pasos en el SEO. En este caso iniciaremos nosotros la búsqueda como usuarios en las SERPS (Search Engine Results Page) de Google, ya que es el buscador más utilizado, con más del 89% de las búsquedas mundiales.\nInicialmente comenzaremos con los términos básicos que definen la propuesta de valor o el beneficio que ofrece el producto. Con esta búsqueda podremos analizar cuáles son los competidores mejor posicionados para ellas y además los formatos con los que el buscador está dando respuesta a la pregunta. Tengamos en cuenta que no es lo mismo una respuesta como ubicación en un mapa, como tarjeta de receta o como sugerencia de vuelos o alojamientos. Ejemplo: “curso marketing digital”. A continuación le añadiremos complementos para convertirlo en una pregunta, añadiendo así una variante habitual de búsqueda que los usuarios suelen utilizar cuando están más interesados en la marca, producto o servicio. Ejemplo: “¿en qué consiste un curso de marketing digital?” Por último completaremos la búsqueda con términos de compra como “comprar”, “reservar”, “alquilar”, “precio”, “matrícula”, “inscribirme”, “suscribirme” o similares. Estos términos generarán un resultado más transaccional o cercano a la compra, por lo que podremos conocer qué competidores y formatos están posicionando para usuarios más interesados. Ejemplo: “matricularme en curso de marketing digital”.\nDurante el proceso de análisis podemos ir anotando en un documento los resultados con los datos de los competidores, las url de las páginas posicionadas, los formatos que aparecen, los datos que muestran, un ranking de posiciones e incluso nuestras impresiones sobre cada uno de los resultados. A partir de aquí ya podemos trabajar de forma más informada y enfocada con una de las herramientas que mostramos a continuación.\n✐ Herramientas clave para el keyword research\nSi estás empezando tu primer proyecto, lo ideal es comenzar con Ubersuggest, ya que su interfaz es muy intuitiva y te permitirá sentir que avanzas con mayor facilidad. A continuación un siguiente paso podría ser utilizar Keyword Planner de Google, que está pensada para dar soporte a los usuarios de campañas de Google Ads, la plataforma de anuncios de Google, pero al hacerlo con información sobre la intención de búsqueda nos dará datos útiles para nuestro keyword research.\nDamos un paso más en complejidad cuando avanzamos hacia SE Ranking, Ahrefs o Semrush, con un sistema con múltiples funcionalidades y un espectro informativo sobre el keyword research y otras áreas mucho más completo. Las tres son herramientas profesionales con un coste por suscripción elevado pero la buena noticia es que disponen de facilidades de acceso a las versiones de uso gratuito o trial por tiempo limitado.\nTodas ellas ofrecen datos sobre volumen de búsquedas, dificultad o competitividad e intención. También es útil Answer the Public para preguntas frecuentes, ya que su interfaz amigable muestra de forma rápida las combinaciones de preguntas que los usuarios formulan en base a una keyword, por ejemplo, con “marketing digital” nos mostrará opciones como ¿qué es marketing digital y para qué sirve?, ¿cómo hacer marketing digital para principiantes?, ¿cuál es la mejor estrategia de marketing digital para mi negocio?, ¿por qué invertir en marketing digital?\nEste es un buen momento para recordarte que en nuestra biblioteca de vídeos dentro de aulamarketing.digital puedes encontrar los vídeos en los que te enseñamos de forma práctica cómo utilizar estas herramientas digitales de SEO / AEO en su versión totalmente gratuita."
+        },
+        {
+          "id": "c07-s2.2",
+          "numero": "2.2",
+          "titulo": "Acciones de SEO OnPage",
+          "pagina_pdf": 124,
+          "pagina_libro": 119,
+          "texto": "Una vez hemos definido nuestro grupo de keywords, ya estamos en disposición de comenzar a redactar nuestro contenido pero antes, debemos conocer algunos detalles más sobre cómo y dónde es óptimo ubicar los términos que dan respuesta a la intención de búsqueda del usuario. Recordemos que con las acciones de SEO OnPage buscamos optimizar el contenido y la estructura del sitio para los motores de búsqueda, los motores generativos y, fundamentalmente, para el usuario. Por tanto, ¿qué más debemos tener en cuenta?\nArquitectura de contenido y encabezados: La estructura del contenido es crucial. Los encabezados (marcados como H1, H2, H3, etc.) organizan el texto, facilitando el escaneo y la interpretación por los motores de búsqueda. El H1 es el título principal de la página, el más importante, y debe contener la palabra clave principal. Solo debe haber un H1 por página y debe ser único. Los H2 son subtítulos principales que estructuran el contenido en secciones lógicas, pudiendo incluir palabras clave relevantes. Los H3 (y H4, H5, H6) son subtítulos para divisiones más específicas, proporcionando mayor detalle. Un ejemplo podría ser un H1 \"Marketing Digital: Guía Completa para Profesionales\", con H2 como \"¿Qué es el Marketing Digital?\" y H3 como \"SEO en Marketing Digital\". Un truco avanzado pero muy fácil de aplicar es que justo debajo de estos H2 o H3 en forma de pregunta, redacta un párrafo corto y directo de unas 50 palabras con la respuesta exacta. Esto no solo facilita la lectura al usuario, sino que es el formato favorito de la Inteligencia Artificial para extraer respuestas directas (lo que llamamos AEO).\nContenido de calidad y relevancia: El contenido debe ser valioso, relevante y optimizado para atraer tráfico orgánico y satisfacer las expectativas del usuario. Se trata de responder a las intenciones de búsqueda de los usuarios y generar autoridad en la temática. Implica crear guías, blogs, artículos informativos, vídeos y fotografías que inspiren e informen, o contenidos formativos sobre marketing digital, inteligencia artificial y planes de marketing. Un blog de calidad con temas de interés para estudiantes y profesionales es fundamental. Debe estar bien estructurado, con encabezados claros, imágenes optimizadas y uso estratégico de palabras clave. La redacción SEO optimizada y el storytelling son clave. Priorizar formatos de alto engagement como vídeos (cortos y largos), podcasts, ebooks y newsletters.\nURLs optimizadas: Deben ser claras, descriptivas y contener palabras clave relevantes para mejorar la experiencia del usuario y el posicionamiento. Google recomienda no más de tres niveles de profundidad. Un ejemplo podría ser: www.aulamarketing.digital/cursos/seo-avanzado-marketing-digital en lugar de www.aulamarketing.digital/p=123.\nMetadatos (Meta Título y Meta Descripción): Información no visible directamente en la página, pero crucial para los motores de búsqueda, ya que se muestran en los resultados (SERP). El Meta Título (Title) es uno de los elementos con más peso en SEO y debe contener la palabra clave principal. La Meta Descripción es un breve resumen que aparece en la SERP, y debe ser atractiva para incentivar el clic (CTR). Aunque no influye directamente en el ranking, sí afecta al CTR. A modo de ejemplo: Título: \"SEO Avanzado: Posicionamiento Web y Estrategias | aulamarketing.digital\". Descripción: \"Aprende las técnicas más actuales de SEO OnPage, OffPage y Técnico con aulamarketing.digital.\"\nInterlinking (Enlazado Interno): Creación de enlaces entre diferentes páginas internas de un mismo sitio web. Mejora la navegación, distribuye autoridad (link juice) y ayuda a los motores de búsqueda a entender la estructura. Se utilizan clusters de contenido temáticamente relacionados. El anchor text (texto ancla) debe ser contextual y descriptivo, incluyendo palabras clave. Los menús de navegación tienen gran peso, transmitiendo mayor relevancia a las páginas enlazadas. Ejemplo: Desde \"Plan de Marketing Digital\", enlazaremos a \"Customer Journey\" usando \"etapas del customer journey\" como texto ancla.\nExperiencia de usuario (UX): Impactan directamente en el SEO OnPage. Google evalúa métricas de UX como la tasa de rebote y el tiempo promedio en el sitio. Un diseño intuitivo y navegación fluida son esenciales. La velocidad de carga, medida por los Core Web Vitals (que trataremos a continuación), es fundamental para la satisfacción del usuario y el posicionamiento.\nSi te ha sorprendido encontrar algunos términos que no conoces todavía, como link juice o clusters de contenido, tenemos un artículo en la biblioteca de artículos SEO en aulamarketing.digital, además de un vídeo donde podrás ver cómo estos conceptos se traducen en acciones prácticas en un proyecto web real. ¡Seguimos con el SEO OffPage!"
+        }
+      ],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c07-h12",
+        "c07-h13",
+        "c07-h14",
+        "c07-h15",
+        "c07-h16",
+        "c07-h17",
+        "c07-h18",
+        "c07-h19"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c07-d05",
+        "c07-d06",
+        "c07-d07",
+        "c07-d08",
+        "c07-d09",
+        "c07-d10",
+        "c07-d11",
+        "c07-d12",
+        "c07-d13",
+        "c07-d14",
+        "c07-d15",
+        "c07-d16",
+        "c07-d17",
+        "c07-d18",
+        "c07-d19",
+        "c07-d20"
+      ]
+    },
+    {
+      "id": "c07-s3",
+      "numero": "3",
+      "titulo": "SEO OffPage",
+      "pagina_pdf": 125,
+      "pagina_libro": 120,
+      "texto": "El SEO OffPage se centra en las estrategias externas al sitio web para mejorar su autoridad y relevancia en los motores de búsqueda. La principal acción de SEO OffPage es la construcción de backlinks.\nBacklinks (Enlaces Externos): Un backlink es un enlace desde otro sitio web que apunta a nuestra página. Son una señal de autoridad y confianza para los motores de búsqueda. La calidad del backlink es más importante que la cantidad, ya que la autoridad del sitio que enlaza (dominio de referencia) influye directamente en la reputación de nuestra página. La autoridad de dominio es una métrica que refleja la relevancia y confianza de un sitio web. Los backlinks pueden ser follow o no-follow: los follow transmiten autoridad, mientras que los no-follow no lo hacen o lo hacen con menor relevancia. Buscamos una estrategia de backlinks sana, con enlaces naturales de fuentes relevantes y de alta autoridad. La generación de backlinks se logra construyendo relaciones con blogs y portales que redirijan tráfico, o colaborando con medios especializados en educación, tecnología o marketing digital, o con microinfluencers. En estos ejemplos lo vemos más claro: Un backlink desde un blog universitario de prestigio en marketing o una revista especializada en IA es de alta calidad y autoridad. Enlaces desde nuestras propias redes sociales o correos electrónicos también son parte del SEO OffPage.\nMarketing de contenidos: La distribución y promoción de contenido de valor tiene un impacto OffPage. La creación y distribución de contenido valioso es clave para atraer a otros sitios a enlazar el nuestro de forma natural. Una marca que educa y entretiene puede generar confianza y atraer backlinks orgánicamente.\nRedes Sociales: Canales clave para interactuar con potenciales clientes y promocionar servicios. Compartir contenido visual, responder comentarios y utilizar anuncios segmentados puede generar visibilidad, menciones y enlaces indirectos. La búsqueda social en plataformas como TikTok e Instagram es un nuevo vector para el descubrimiento de contenido y marcas.\nGestión de reseñas y reputación online: Las opiniones de usuarios en plataformas de reseñas y redes sociales influyen en la reputación, lo que puede generar confianza y, a su vez, backlinks o menciones positivas.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c07-d21",
+        "c07-d22",
+        "c07-d23",
+        "c07-d24"
+      ]
+    },
+    {
+      "id": "c07-s4",
+      "numero": "4",
+      "titulo": "SEO técnico",
+      "pagina_pdf": 125,
+      "pagina_libro": 120,
+      "texto": "El SEO técnico se ocupa de aspectos no relacionados con el contenido, sino con la infraestructura y configuración del sitio web, que influyen en la capacidad de los motores de búsqueda para rastrear e indexar el sitio, así como en la experiencia del usuario.\nRastreo e indexación: Los motores de búsqueda llamados \"bots\" o \"arañas\", deben poder encontrar y clasificar las páginas de un sitio. Es esencial crear un mapa del sitio (sitemap), que lista todas las URLs, y un archivo robots.txt, que indica a los bots qué páginas pueden o no rastrear. Esto asegura que el contenido relevante sea descubierto y catalogado por Google.\nCore Web Vitals y WPO (Web Performance Optimization): Conjunto de métricas de Google que miden la experiencia del usuario en velocidad de carga, interactividad y estabilidad visual. Un sitio web rápido y con buena experiencia es fundamental para el posicionamiento. Las más destacas son Largest Contentful Paint (LCP) que mide el tiempo de carga del elemento de contenido más grande; First Input Delay (FID) que mide el tiempo de respuesta a la primera interacción del usuario y Cumulative Layout Shift (CLS) que muestra la estabilidad visual de la página. Una velocidad de carga lenta o elementos visuales inestables pueden generar altas tasas de rebote, perjudicando la experiencia del usuario y el posicionamiento.\nMarcado Schema: Este marcado es el lenguaje de datos estructurados que actúa como el traductor definitivo entre tu sitio web y los algoritmos de búsqueda. Su valor reside en su capacidad para transformar el contenido ambiguo en entidades con significado propio, permitiendo que los motores de búsqueda comprendan qué dice una frase y qué representa (un autor, un producto o una respuesta académica). Al implementar este código estamos facilitando la indexación y desbloqueando resultados enriquecidos que incrementan el CTR y aseguran que nuestro contenido sea procesado con prioridad por las IAs generativas y los motores de respuesta.\nOptimización multimedia: Imágenes y vídeos deben ser optimizados para reducir su peso sin comprometer la calidad, mejorando la velocidad de carga. Respecto a las imágenes, podemos comprimir, reescalar a tamaños adecuados (400-800 píxeles para móvil) y utilizar formatos modernos como .webp. Plugins de caché pueden ayudar con la carga a través de funciones como el Lazy Load. En relación a los vídeos, no se recomienda alojar vídeos directamente en el hosting. Deben incrustarse o embeberse desde plataformas externas como YouTube, Vimeo o Wistia. El video es un formato clave pero no debe convertirse en un problema para la navegación.\nHosting: La elección del hosting es vital para la velocidad y seguridad. Un hosting con alta disponibilidad y soporte técnico 24/7, ubicado lo más cerca posible del público objetivo, es crucial. De todo esto ya hablamos en el anterior capítulo, que si no lo has leído, ¡echa un vistazo!\nAdaptabilidad móvil (Mobile-First): Aunque ya estamos muy habituados a diseñar pensando en los dispositivos móviles, debemos incluir igualmente en la lista que dado que la mayoría de las búsquedas se realizan desde dispositivos móviles, un sitio web debe estar adaptado para funcionar correctamente en cualquier pantalla. Google prioriza los sitios mobile-friendly.\nSeguridad: La implementación de protocolos de seguridad como HTTPS es fundamental para proteger la información y transacciones, generando confianza. Los certificados SSL son esenciales.\nDe nuevo te recordamos que puedes ver más sobre esta información (que descrita podría parecer abrumadora por los términos técnicos) en los vídeos de la biblioteca de contenido en aulamarketing.digital si buscas el término SEO. Por suerte para todos, este espectro de complejidad es posible convertirlo en algo mucho más practicable gracias a diferentes herramientas. Sobre ellas también podrás ver algunos vídeos en la web, y si ves que no hemos generado alguno de ellos, anótalo en el chat de la web y lo actualizaremos ASAP.\n✐ Herramientas para SEO técnico\nSi queremos optimizar los aspectos técnicos utilizaremos varias herramientas que nos permitirán auditar el sitio, optimizar la carga y optimizar el contenido multimedia. La primera herramienta recomendada es Google Search Console, que nos permitirá visualizar informes de rendimiento, errores de rastreo e indexación de nuestra web. Es ideal conectar tu sitio cuando ya hayas completado la primera etapa de creación de contenido y lo hayas publicado, ya que te permite obtener un reporte sobre cómo Google comprende la arquitectura de tu web. Otra de las formas de comprobar cuál es el estado técnico de tu sitio es generar una auditoría. Para ello, puedes utilizar las siguientes herramientas, cualquiera de ellas puede generar una auditoría de todos los aspectos que hemos mencionado en el punto anterior: Screaming Frog, Semrush, Ahrefs o SE Ranking. La revisión del marcado Schema puedes hacerlo directamente en la prueba de resultados enriquecidos de Google. Para la optimización de carga, compresión de código y gestión de caché que te ayudarán a optimizar la velocidad puedes usar Google Page Speed y Lite Speed Cache o WP Fastest Cache en tu sitio web. La optimización de imágenes, es decir las tareas de escalado, compresión y conversión de imágenes a formatos más ligeros como.webp puedes hacerlo con Smush en el sitio web o de forma externa con Imagify o ILoveIMG.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c07-h20",
+        "c07-h21",
+        "c07-h22",
+        "c07-h23",
+        "c07-h24",
+        "c07-h25",
+        "c07-h26",
+        "c07-h27",
+        "c07-h28",
+        "c07-h29",
+        "c07-h30",
+        "c07-h31",
+        "c07-h32",
+        "c07-h33",
+        "c07-h34"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c07-d25",
+        "c07-d26",
+        "c07-d27",
+        "c07-d28",
+        "c07-d29"
+      ]
+    },
+    {
+      "id": "c07-s5",
+      "numero": "5",
+      "titulo": "Herramientas IA para SEO",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "texto": "En el anterior capítulo destacamos el uso de la IA para la creación de contenido y le dimos un contexto basado en la optimización SEO gracias a las palabras clave. A continuación destacaremos varios casos de uso e integraremos una secuencia completa como ejemplo.\nComenzaremos con un primer análisis de contexto con NotebookLM a modo de escucha digital. Utilizaremos esta herramienta para procesar informes sectoriales, transcripciones de foros o análisis de la competencia. Si no lo has hecho nunca, un primer paso puede ser utilizar Gemini 3.1 Pro en modo razonamiento o Chat GPT 5.2 en modo razonamiento y anotarle los siguientes prompts sustituyendo la información sobre tu marca: “Actúa como un analista de mercado experto en el sector [X]. Identifica los 5 foros, subreddits y plataformas de nicho más activos donde los usuarios reales discuten sus problemas y quejas sobre [tu tipo de producto/servicio] en [año]. Resume los puntos de dolor más comunes que mencionan.”, o también podrías ampliarlo con “Busca y resume las tendencias clave del informe de tendencias de consumo de [año] para el sector [X]. Enfócate especialmente en cambios de comportamiento del consumidor y nuevas tecnologías que están afectando a las pequeñas empresas.”. Para abordar un primer análisis de competencia puedes solicitar: “Analiza el posicionamiento de [Nombre del Competidor]. Basándote en su comunicación pública y estructura de catálogo, ¿cuál parece ser su propuesta de valor principal y a qué segmento de cliente están ignorando? Genera una tabla comparativa de sus fortalezas y debilidades percibidas por los usuarios en reseñas.”. Una vez descargada esta información puedes completarla con otros pdf que hayas leído sobre el sector, competencia o alguna newsletter que sigas. Ahora nos llevamos todos los documentos a NotebookLM para identificar tendencias emergentes y necesidades reales del cliente que a menudo no aparecen en las herramientas de SEO tradicionales. Al sintetizar estos documentos, obtendrás una base de conceptos y términos clave que reflejan lo que tu audiencia está buscando.\nCon un enfoque claro, disponemos de la posibilidad de aplicar la ingeniería de datos utilizando herramientas como Surfer SEO que nos permiten analizar el contenido que ya está dominando las primeras posiciones. Mediante procesamiento de lenguaje natural (PLN), esta plataforma te indicará la longitud ideal del texto, la densidad de palabras clave secundarias y la estructura exacta de encabezados necesaria para competir al más alto nivel. Es el paso final para asegurar que tu texto sea semánticamente adecuado para los algoritmos actuales.\nA continuación, buscamos generar ideas y arquitectura. Una vez que tienes el contexto, trasladamos esta información a un LLM como ChatGPT, Gemini o Claude. Aquí el objetivo es expandir tu lista de palabras clave y, sobre todo, descifrar la intención de búsqueda. Pídeles que sugieran estructuras de contenido completas y secciones de preguntas frecuentes (FAQs) que ataquen directamente los puntos de dolor detectados. Lo que buscamos es que tu estrategia de contenido sea relevante para Google y para las respuestas directas (AEO). ¿Cuál sería el prompt más adecuado? Te recomendamos utilizar el siguiente, verás que combina gran parte de lo que hemos ido aprendiendo en este capítulo: “Actúa como un estratega de contenido especializado en AEO (Answer Engine Optimization). Basándote en los puntos de dolor detectados que te proporciono a continuación: [Pega aquí los puntos de dolor o el análisis previo de NotebookLM], realiza las siguientes tareas: 1. Diseño de Estructura Narrativa (GEO): Crea un esquema de artículo tipo 'pilar' que conecte estos problemas con soluciones reales. Utiliza encabezados (H1, H2, H3) que reflejen entidades semánticas ricas y lenguaje natural de expertos. 2. Bloques de Respuesta Directa (AEO): Para cada sección, redacta un párrafo de máximo 50 palabras que responda de forma nítida y resolutiva a la duda principal. Este párrafo debe estar diseñado para que un modelo de lenguaje pueda extraerlo como una 'respuesta única'. 3. Sección de FAQs Estratégica: Genera una lista de 5 preguntas frecuentes basadas exclusivamente en las frustraciones reales del usuario. Las respuestas deben seguir el formato: Pregunta directa + Respuesta concisa + Valor añadido de la marca. 4. Identificación de Entidades: Enumera 10 conceptos o términos técnicos relacionados que deben aparecer en el texto para que una IA nos considere una autoridad en la materia. Tono de voz: [Cercano / Profesional / Técnico / Amable] Objetivo: Que el usuario sienta que entendemos su problema mejor que nadie y que la IA nos elija como la fuente más fiable.”\nAhora ya podemos pasar a la creación y optimización de contenido y para hacerlo disponemos de dos alternativas, asistencia IA en LLM o asistencia en plataformas. En el ejemplo mostrado al detalle en el capítulo anterior, utilizamos un LLM para la generación de los textos de la web por lo que comenzaremos accediendo a nuestro LLM de confianza para crear, estructurar y optimizar el contenido con el fin de que sea fácilmente rastreable por los motores generativos, permitiendo que nuestro contenido sea utilizado como fuente de información para respuestas directas. Te recomendamos que utilices el siguiente prompt: “Actúa como un Productor de Contenido Senior y Especialista en Arquitectura de Información. Basándote en la estructura narrativa y las entidades definidas previamente, redacta el contenido final siguiendo estas directrices técnicas: 1. Redacción y Etiquetado Semántico: Escribe el cuerpo del contenido utilizando Markdown. Asegúrate de que los encabezados (H1, H2, H3) contengan las entidades clave. Utiliza negritas para resaltar conceptos fundamentales que faciliten el escaneo tanto a humanos como a bots. 2. Integración de Nodos AEO: Inserta de forma natural los 'Bloques de Respuesta Directa' que diseñamos. Asegúrate de que estén destacados (puedes sugerir un diseño de 'cuadro de respuesta' o 'resumen rápido'). 3. Estrategia de Activos Visuales (Multimodalidad): Sugerencia de Fotografía/Infografía: Para cada sección principal, describe qué tipo de imagen sería necesaria (ej: 'Gráfico comparativo de X vs Y' o 'Fotografía de estilo documental de X'). Explica por qué ese activo refuerza la entidad semántica del texto. Sugerencia de Vídeo (Shorts/Reels): Identifica un punto crítico del texto que podría convertirse en un vídeo corto de 30 segundos. Define el guion rápido (hook, valor, CTA) para capturar el tráfico de búsqueda visual. Etiquetado Alt y Metadatos: Para cada sugerencia visual, redacta el texto ALT optimizado para SEO/GEO, asegurándote de que describa la imagen mientras refuerza las palabras clave de oportunidad. Llamadas a la Acción (CTA) de Contexto: Diseña un CTA final que no sea genérico, sino que resuelva la siguiente duda lógica que el usuario tendría tras leer este contenido. Tono: Mantén el tono [Insertar el elegido: Cercano/Profesional] y asegúrate de que la lectura fluya de forma orgánica entre los bloques técnicos.” Este proceso puede replicarse tantas veces como sea necesario para la generación de contenido para nuestro sitio web.\nSi hemos iniciado el análisis de keywords con una plataforma como SERanking, Semrush, Ahrefs o plataformas similares, es posible que quieras utilizar los editores de contenido nativos. Estas herramientas asistidas por IA, permiten crear contenido aprovechando palabras clave, optimizando estructura, enlazado, contribuyendo a la comprensión semántica y sugiriendo mejoras. La ventaja es que si canalizamos toda nuestra estrategia en una de ellas, la información almacenada en el keyword research o en las auditorías nos será útil en la creación de contenido. Habitualmente te permitirán descargarla en formato markdown o html para poder llevártela a Wordpress o a tu sitio web en desarrollo.\nPor último nos gustaría hablarte sobre las herramientas de redacción con IA diseñadas a medida y que te permitirán completar el proceso con una interfaz amigable. Si estás dando tus primeros pasos tal vez consideres más idóneo empezar con alguna de ellas e ir tomando inercia. Estas son nuestras recomendaciones:\n✐ Herramientas de redacción de textos\nJasper.ai | Frase.io | Marketmuse | Writesonic | Copy.ai | Rytr | Frase | Hypothenuse.ai | QuillBot LongShot AI | TextCortex\n¿Y si ya tienes contenido en tu web que actualmente apenas recibe tráfico? En la redacción de contenido hacemos algo que se llama curación y que no lo hemos inventado en marketing, realmente proviene de los curadores de libros o arte. En cualquier caso las técnicas de curación están pensadas para reformular el contenido y responder técnicamente mejor a las búsquedas. Utiliza este prompt y voilá! tu página tiene una nueva vida.\n“Actúa como un Editor de Precisión especializado en AEO (Answer Engine Optimization). Tu misión es auditar el siguiente artículo extenso: [Pegar el texto del artículo aquí o anotar el nombre del documento adjunto] para identificar y extraer 'nodos de resolución' que nos posicionen como respuesta única en motores generativos y búsquedas por voz. Para cada sección clave del texto, realiza lo siguiente: 1. Identificación de Intención: Define la pregunta específica (long-tail) que el usuario está tratando de resolver en ese fragmento. 2. Redacción del Nodo de Resolución: Redacta una respuesta directa de máximo 45-50 palabras. La respuesta debe ser autosuficiente, empezar con una afirmación clara y evitar introducciones vacías (como 'en este sentido...' o 'es importante saber...'). 3. Optimización de 'Cita Directa': Asegúrate de que el lenguaje sea natural pero técnico, incluyendo las entidades clave necesarias para que un LLM reconozca tu autoridad inmediata sobre el tema. 4. Ubicación Sugerida: Indica en qué parte del artículo original debería insertarse este nodo (preferiblemente al inicio de una sección o bajo un H3 en formato de pregunta) para maximizar su rastreabilidad. Objetivo Final: Que el fragmento resultante sea tan preciso y valioso que la IA prefiera citarlo textualmente antes que generar su propia versión resumida.”\nEn el plano más técnico, la IA se convierte en tu arquitecto de datos estructurados. Antes nos pasábamos horas creando bloques de contenido organizado para el marcado pero ahora ya podemos delegar en la IA la creación de esquemas JSON-LD complejos que traduzcan tu contenido al lenguaje de las máquinas. Al proporcionar este marcado eliminas cualquier ambigüedad, permitiendo que los asistentes inteligentes entiendan quién eres, qué vendes y por qué tu respuesta es la más válida técnica y semánticamente. Te recomendamos que utilices este prompt para que se genere el marcado de tus páginas: “Actúa como un Arquitecto de Datos Estructurados y Especialista en SEO Técnico. Tu tarea es transformar los 'Nodos de Resolución AEO' generados previamente en un bloque de código JSON-LD técnicamente perfecto. Directrices Técnicas: Tipo de Schema: Utiliza fundamentalmente FAQPage para las preguntas y respuestas. Enriquecimiento de Entidades (GEO): Para cada respuesta, identifica la entidad principal y añade la propiedad mainEntity o mentions vinculándola a URLs de autoridad (como Wikipedia o DBpedia) si es posible. Optimización Speakable: Incluye la propiedad Speakable de schema.org utilizando selectores CSS (IDs o Clases) que correspondan a los bloques de respuesta rápida, para facilitar la lectura en asistentes de voz. Atribución de Autoría: Integra el marcado Author y Publisher para reforzar el E-E-A-T del contenido académico/profesional. Formato de Salida: Entrega el código en un bloque único de JSON-LD, limpio, validado y listo para ser insertado en el <head> de la página o en un bloque de HTML personalizado en WordPress. Entrada de datos: [Copia y pega aquí los Nodos de Resolución que generamos en el paso anterior]. Objetivo: Eliminar cualquier ambigüedad semántica y forzar a los motores de búsqueda y motores generativos a reconocer estos fragmentos como la 'Respuesta Canónica' sobre el tema.” Si estás creando tu proyecto o ya está publicado en WordPress puedes añadir el código que te devolverá de la siguiente forma: En el editor de WordPress (Gutenberg), añade un bloque de HTML personalizado, pega el código <script>...</script> directamente ahí. No se verá nada en la web para el usuario, pero los motores de búsqueda lo leerán al rastrear el post.\nFinalmente, el uso más avanzado y práctico es la auditoría de citabilidad. Antes de publicar, pasamos el contenido por la IA para que actúe como \"abogado del diablo\". Le preguntamos directamente qué valor nuevo aporta nuestro texto que merezca ser citado por otro modelo de lenguaje. Si el análisis revela que solo estamos repitiendo lo que ya existe, la IA nos ayuda a inyectar datos originales o perspectivas únicas. Es este último filtro el que garantiza que no solo estemos indexados, sino que seamos una parte activa de la conversación que la IA mantiene con tus clientes potenciales. Utiliza este prompt antes de pasar tu contenido a producción: “Actúa como un Analista Crítico de Algoritmos Generativos. Tu objetivo es realizar una Auditoría de Citabilidad del siguiente texto para determinar si merece ser referenciado como fuente única o si es redundante. Tareas de Auditoría: Test de Redundancia: Compara este texto con el conocimiento estándar que ya posees en tu base de datos sobre el tema. ¿Qué porcentaje del contenido es información que ya 'sabes' de memoria? Identificación de 'Information Gain': Detecta si existe algún dato, conexión entre entidades, ángulo crítico o perspectiva original que NO sea común en otros artículos. Análisis de Citabilidad (AEO): Si un usuario le preguntara a un motor generativo sobre este tema, ¿qué frase específica de este texto sería 'irresistible' de citar para la IA? Si no encuentras ninguna, indícalo. Inyección de Valor Original: Si el texto es redundante, sugiere 3 puntos de vista disruptivos, datos específicos o analogías nuevas que conviertan este artículo en una fuente de obligada mención. Texto a auditar: [Pegar el borrador final aquí]. Objetivo: No quiero que el texto sea 'bueno', quiero que sea 'necesario'.”\nEs posible que te preguntes qué tipo de herramientas con asistencia IA podrían ayudarlos en el proceso de auditoría de nuestro sitio y lo cierto es que, aunque hay plataformas basadas en IA que pueden ayudarlos en el proceso, todavía sigue siendo mucho mejor el resultado obtenido por las plataformas que te hemos recomendado. Te seguiremos informando de novedades si aparece alguna nueva herramienta. Ahora es momento de poner en práctica estas herramientas con prompts específicos y buscando resultados reales.",
+      "subsecciones": [],
+      "ids_prompts": [
+        "c07-p01",
+        "c07-p02",
+        "c07-p03",
+        "c07-p04",
+        "c07-p05",
+        "c07-p06",
+        "c07-p07",
+        "c07-p08"
+      ],
+      "ids_herramientas": [
+        "c07-h01",
+        "c07-h02",
+        "c07-h03",
+        "c07-h04",
+        "c07-h05",
+        "c07-h06",
+        "c07-h07",
+        "c07-h08",
+        "c07-h09",
+        "c07-h10",
+        "c07-h11",
+        "c07-h35",
+        "c07-h36",
+        "c07-h37",
+        "c07-h38",
+        "c07-h39",
+        "c07-h40",
+        "c07-h41",
+        "c07-h42",
+        "c07-h43",
+        "c07-h44",
+        "c07-h45",
+        "c07-h46"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c07-d30",
+        "c07-d31"
+      ]
+    },
+    {
+      "id": "c07-s6",
+      "numero": "6",
+      "titulo": "Ejemplo completo para aulamarketing.digital",
+      "pagina_pdf": 130,
+      "pagina_libro": 125,
+      "texto": "Llegados a este punto, es el momento de aterrizar la teoría. Hemos diseñado un mapa de ruta práctico para aulamarketing.digital aplicando nuestra metodología de IA, GEO y AEO. Nuestro objetivo es conectar aulamarketing.digital con el customer journey de Ana, quien además de buscar en Google, interactúa constantemente con asistentes de voz y chats generativos. En lugar de un enfoque tradicional, utilizaremos nuestro ecosistema de prompts para garantizar que aulamarketing.digital se posicione y sea citada como fuente de autoridad.\nEl primer paso es la planificación estratégica y mapa de entidades en la que buscamos captar a Ana en su fase de descubrimiento y decisión, asegurando que los motores generativos recomienden nuestra academia. En lugar de centrarnos tan solo en las listas de palabras, usamos NotebookLM o al asistente integrado en Semrush para mapear el grafo de conocimiento de Ana. El resultado es que nos centraremos en las entidades core: \"Marketing Digital\" e \"Inteligencia Artificial\" y utilizaremos como entidades puente lo que consideremos el dolor de Ana: \"Incertidumbre laboral\", \"Curva de aprendizaje de IA\". El último paso será descubrir la intención conversacional y para ello usamos el LLM que nos ayudará a descifrar qué le pregunta Ana a ChatGPT. Como resultado localizamos preguntas relacionadas con: \"¿Qué herramientas de IA debo aprender para empezar en marketing digital desde cero?\". Estas preguntas formarán la base de nuestra arquitectura.\nEl siguiente paso es enfocarnos en el SEO On-Page. Aplicamos el prompt de Estratega AEO para diseñar artículos pilar. Por ejemplo: una \"Guía de Supervivencia SEO con IA para Principiantes\". Dentro de cada guía, insertaremos los bloques de 50 palabras generados por nuestro Editor de Precisión. Si Ana pregunta a Siri \"¿Qué es un plan de marketing?\", nuestro nodo estará optimizado para ser la respuesta única que el asistente lea en voz alta. Para no ser un contenido más, aplicaremos la Auditoría de Citabilidad. Incluiremos datos propios de aulamarketing.digital como que \"El 85% de nuestros alumnos junior dominan prompts de IA en 3 semanas\", forzando a los modelos generativos a citarnos por aportar datos originales. Por cada nodo AEO crítico, incrustaremos un YouTube Short con una micro-píldora formativa directamente en el blog, reteniendo al usuario y dando señales de máxima relevancia visual a Google.\nEl tercer paso es optimizar el SEO técnico y el marcado semántico. Más allá del clásico WPO y el HTTPS, el núcleo de nuestra estrategia técnica será el JSON-LD. Implementaremos marcado FAQPage y Speakable en todos los nodos AEO, entregándole a los rastreadores el contenido. Sabiendo que Ana consume el 90% del contenido desde su smartphone, la prioridad absoluta será el LCP en móvil, asegurando que la carga de la web sea instantánea para evitar rebotes.\nEl punto final lo pondremos con acciones de SEO Off-Page potenciando la autoridad E-E-A-T. No buscaremos solo enlaces. Queremos que la entidad aulamarketing.digital aparezca junto a conceptos de \"innovación\" e \"IA\" en medios del sector. Utilizaremos Digital PR para aparecer en newsletters tecnológicas y foros donde los LLMs extraen sus datos de entrenamiento. Incentivaremos a ex alumnos a compartir en LinkedIn y TikTok sus proyectos finales usando IA, etiquetándonos. Esto genera una señal de confianza que los motores de búsqueda valoran por encima de los enlaces artificiales.\n¿Qué te ha parecido este capítulo? Acabamos de transitar por un gran bloque de nuevos términos y definiciones técnicas, por lo que tal vez sea buena idea darnos un respiro. Es importante que puedas tomarte un momento para reflexionar sobre el impacto del SEO en la estrategia de marketing digital. El objetivo fundamental: conectar con las necesidades reales de tu buyer persona, ofreciéndole contenido relevante y accesible justo en el momento y lugar en que lo busca. Conecta este punto de partida con la optimización del sitio web con un copywriting persuasivo, captadores de leads y CTA efectivos y conseguiremos generar una comunidad sólida que sienta interés por el contenido y por el acceso a formación de valor sobre marketing digital e inteligencia artificial para el futuro.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c07-h47",
+        "c07-h48",
+        "c07-h49",
+        "c07-h50"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c07-d01",
+      "termino": "SEO (Search Engine Optimization)",
+      "definicion": "El SEO (Search Engine Optimization) se define como el conjunto de estrategias y acciones destinadas a mejorar la visibilidad de un sitio web en los resultados orgánicos de los motores de búsqueda como Google, atrayendo tráfico sin un coste directo por clic. Su objetivo es obtener y mantener a largo plazo los primeros puestos en los buscadores más utilizados por los clientes potenciales cuando estos introducen frases de búsqueda relacionadas con la información, actividades, productos o servicios que se ofrecen en el sitio web.",
+      "id_seccion": "c07-s1",
+      "pagina_pdf": 121,
+      "pagina_libro": 116
+    },
+    {
+      "id": "c07-d02",
+      "termino": "GEO u Optimización para Motores Generativos",
+      "definicion": "El GEO u Optimización para Motores Generativos, representa la evolución natural de nuestra labor hacia la era de los modelos de lenguaje. Mientras que el SEO clásico se centraba en satisfacer algoritmos de clasificación, el GEO se especializa en los algoritmos de síntesis. En términos prácticos, consiste en estructurar la información y proyectar la autoridad de una marca para que los modelos de IA no solo procesen nuestro contenido, sino que lo seleccionen como la fuente de mayor confianza al redactar sus respuestas. Si antes el objetivo era lograr que Google colocara nuestra tienda en su escaparate principal, el GEO busca que el asistente inteligente recomiende activamente nuestra marca cuando un cliente solicita una solución. En este nuevo tablero, la clave es la citación: si la inteligencia artificial no utiliza tus datos para construir su respuesta, tu presencia digital es inexistente.",
+      "id_seccion": "c07-s1",
+      "pagina_pdf": 121,
+      "pagina_libro": 116
+    },
+    {
+      "id": "c07-d03",
+      "termino": "AEO u Optimización para Motores de Respuesta",
+      "definicion": "el AEO u Optimización para Motores de Respuesta se enfoca en la resolución inmediata. Es el sucesor sofisticado de los antiguos fragmentos destacados, diseñado para dar respuesta a la demanda de precisión que exigen las búsquedas por voz y las consultas directas. El AEO es, en esencia, el SEO de respuesta única, donde la métrica crítica ya no es el volumen de visitas a la web, sino la cuota de mención o Citation Share. Su ejecución requiere una arquitectura de contenido tan nítida y estructurada que los motores puedan extraer la información sin rastro de ambigüedad.",
+      "id_seccion": "c07-s1",
+      "pagina_pdf": 121,
+      "pagina_libro": 116
+    },
+    {
+      "id": "c07-d04",
+      "termino": "E-E-A-T",
+      "definicion": "Google evalúa nuestro contenido en base a una estructura que llaman E-E-A-T. El acrónimo significa experiencia, expertise, autoridad y confianza (siglas en inglés).",
+      "id_seccion": "c07-s1",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    },
+    {
+      "id": "c07-d05",
+      "termino": "SEO OnPage",
+      "definicion": "El SEO OnPage se refiere a las acciones que se realizan directamente dentro de un sitio web para mejorar su posicionamiento en los resultados de búsqueda. Estas optimizaciones incluyen elementos de contenido y estructura que son visibles para el usuario y para los motores de búsqueda.",
+      "id_seccion": "c07-s2",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    },
+    {
+      "id": "c07-d06",
+      "termino": "Keyword Research",
+      "definicion": "Este proceso consiste en identificar los términos o frases que los usuarios introducen en los motores de búsqueda para encontrar información, productos o servicios.",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    },
+    {
+      "id": "c07-d07",
+      "termino": "Short-tail keywords o body keywords",
+      "definicion": "Expresiones de una o dos palabras, muy genéricas, con alto volumen de búsqueda y competitividad, pero con intención menos específica. Ejemplo: \"marketing digital\" donde la intención es muy amplia.",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    },
+    {
+      "id": "c07-d08",
+      "termino": "Mid-tail keywords o de cola media",
+      "definicion": "Términos de tres o cuatro palabras, más específicas y con una intención de búsqueda más acotada. Ejemplo: \"plan de marketing digital\" y aquí el usuario busca algo más concreto.",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    },
+    {
+      "id": "c07-d09",
+      "termino": "Long-tail keywords o de cola larga",
+      "definicion": "Frases más largas y específicas, con menor volumen individual pero alta intención de búsqueda precisa, lo que aumenta la probabilidad de conversión. Ejemplo: \"cómo hacer un plan de marketing digital con inteligencia artificial\", donde se observa que el usuario está en una fase avanzada de su customer journey. Estas palabras son exactamente las que los usuarios le dictan a asistentes de voz como Siri o escriben en los LLM. Dominar las Long-tail es el primer paso para dominar el AEO predominante.",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    },
+    {
+      "id": "c07-d10",
+      "termino": "Intención de búsqueda informacional",
+      "definicion": "El usuario busca aprender o encontrar una respuesta. Ejemplo: \"qué es el marketing digital\".",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118
+    },
+    {
+      "id": "c07-d11",
+      "termino": "Intención de búsqueda navegacional",
+      "definicion": "El usuario busca un sitio web o una página específica. Ejemplo: \"sitio web aulamarketing.digital\".",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118
+    },
+    {
+      "id": "c07-d12",
+      "termino": "Intención de búsqueda comercial o de investigación comercial",
+      "definicion": "El usuario investiga opciones antes de comprar. Ejemplo: \"comparativa cursos marketing digital online\".",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118
+    },
+    {
+      "id": "c07-d13",
+      "termino": "Intención de búsqueda transaccional",
+      "definicion": "El usuario tiene una clara intención de realizar una acción (compra, reserva). Ejemplo: \"comprar curso SEO avanzado aulamarketing.digital\".",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118
+    },
+    {
+      "id": "c07-d14",
+      "termino": "SERPS (Search Engine Results Page)",
+      "definicion": "las SERPS (Search Engine Results Page) de Google, ya que es el buscador más utilizado, con más del 89% de las búsquedas mundiales.",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118
+    },
+    {
+      "id": "c07-d15",
+      "termino": "Arquitectura de contenido y encabezados (H1, H2, H3)",
+      "definicion": "La estructura del contenido es crucial. Los encabezados (marcados como H1, H2, H3, etc.) organizan el texto, facilitando el escaneo y la interpretación por los motores de búsqueda. El H1 es el título principal de la página, el más importante, y debe contener la palabra clave principal. Solo debe haber un H1 por página y debe ser único. Los H2 son subtítulos principales que estructuran el contenido en secciones lógicas, pudiendo incluir palabras clave relevantes. Los H3 (y H4, H5, H6) son subtítulos para divisiones más específicas, proporcionando mayor detalle. Un ejemplo podría ser un H1 \"Marketing Digital: Guía Completa para Profesionales\", con H2 como \"¿Qué es el Marketing Digital?\" y H3 como \"SEO en Marketing Digital\". Un truco avanzado pero muy fácil de aplicar es que justo debajo de estos H2 o H3 en forma de pregunta, redacta un párrafo corto y directo de unas 50 palabras con la respuesta exacta. Esto no solo facilita la lectura al usuario, sino que es el formato favorito de la Inteligencia Artificial para extraer respuestas directas (lo que llamamos AEO).",
+      "id_seccion": "c07-s2.2",
+      "pagina_pdf": 124,
+      "pagina_libro": 119
+    },
+    {
+      "id": "c07-d16",
+      "termino": "Contenido de calidad y relevancia",
+      "definicion": "El contenido debe ser valioso, relevante y optimizado para atraer tráfico orgánico y satisfacer las expectativas del usuario. Se trata de responder a las intenciones de búsqueda de los usuarios y generar autoridad en la temática. Implica crear guías, blogs, artículos informativos, vídeos y fotografías que inspiren e informen, o contenidos formativos sobre marketing digital, inteligencia artificial y planes de marketing. Un blog de calidad con temas de interés para estudiantes y profesionales es fundamental. Debe estar bien estructurado, con encabezados claros, imágenes optimizadas y uso estratégico de palabras clave. La redacción SEO optimizada y el storytelling son clave. Priorizar formatos de alto engagement como vídeos (cortos y largos), podcasts, ebooks y newsletters.",
+      "id_seccion": "c07-s2.2",
+      "pagina_pdf": 124,
+      "pagina_libro": 119
+    },
+    {
+      "id": "c07-d17",
+      "termino": "URLs optimizadas",
+      "definicion": "Deben ser claras, descriptivas y contener palabras clave relevantes para mejorar la experiencia del usuario y el posicionamiento. Google recomienda no más de tres niveles de profundidad. Un ejemplo podría ser: www.aulamarketing.digital/cursos/seo-avanzado-marketing-digital en lugar de www.aulamarketing.digital/p=123.",
+      "id_seccion": "c07-s2.2",
+      "pagina_pdf": 124,
+      "pagina_libro": 119
+    },
+    {
+      "id": "c07-d18",
+      "termino": "Metadatos (Meta Título y Meta Descripción)",
+      "definicion": "Información no visible directamente en la página, pero crucial para los motores de búsqueda, ya que se muestran en los resultados (SERP). El Meta Título (Title) es uno de los elementos con más peso en SEO y debe contener la palabra clave principal. La Meta Descripción es un breve resumen que aparece en la SERP, y debe ser atractiva para incentivar el clic (CTR). Aunque no influye directamente en el ranking, sí afecta al CTR. A modo de ejemplo: Título: \"SEO Avanzado: Posicionamiento Web y Estrategias | aulamarketing.digital\". Descripción: \"Aprende las técnicas más actuales de SEO OnPage, OffPage y Técnico con aulamarketing.digital.\"",
+      "id_seccion": "c07-s2.2",
+      "pagina_pdf": 124,
+      "pagina_libro": 119
+    },
+    {
+      "id": "c07-d19",
+      "termino": "Interlinking (Enlazado Interno)",
+      "definicion": "Creación de enlaces entre diferentes páginas internas de un mismo sitio web. Mejora la navegación, distribuye autoridad (link juice) y ayuda a los motores de búsqueda a entender la estructura. Se utilizan clusters de contenido temáticamente relacionados. El anchor text (texto ancla) debe ser contextual y descriptivo, incluyendo palabras clave. Los menús de navegación tienen gran peso, transmitiendo mayor relevancia a las páginas enlazadas. Ejemplo: Desde \"Plan de Marketing Digital\", enlazaremos a \"Customer Journey\" usando \"etapas del customer journey\" como texto ancla.",
+      "id_seccion": "c07-s2.2",
+      "pagina_pdf": 124,
+      "pagina_libro": 119
+    },
+    {
+      "id": "c07-d20",
+      "termino": "Experiencia de usuario (UX) en SEO OnPage",
+      "definicion": "Impactan directamente en el SEO OnPage. Google evalúa métricas de UX como la tasa de rebote y el tiempo promedio en el sitio. Un diseño intuitivo y navegación fluida son esenciales. La velocidad de carga, medida por los Core Web Vitals (que trataremos a continuación), es fundamental para la satisfacción del usuario y el posicionamiento.",
+      "id_seccion": "c07-s2.2",
+      "pagina_pdf": 124,
+      "pagina_libro": 119
+    },
+    {
+      "id": "c07-d21",
+      "termino": "SEO OffPage",
+      "definicion": "El SEO OffPage se centra en las estrategias externas al sitio web para mejorar su autoridad y relevancia en los motores de búsqueda. La principal acción de SEO OffPage es la construcción de backlinks.",
+      "id_seccion": "c07-s3",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "id": "c07-d22",
+      "termino": "Backlinks (Enlaces Externos)",
+      "definicion": "Un backlink es un enlace desde otro sitio web que apunta a nuestra página. Son una señal de autoridad y confianza para los motores de búsqueda. La calidad del backlink es más importante que la cantidad, ya que la autoridad del sitio que enlaza (dominio de referencia) influye directamente en la reputación de nuestra página. La autoridad de dominio es una métrica que refleja la relevancia y confianza de un sitio web. Los backlinks pueden ser follow o no-follow: los follow transmiten autoridad, mientras que los no-follow no lo hacen o lo hacen con menor relevancia. Buscamos una estrategia de backlinks sana, con enlaces naturales de fuentes relevantes y de alta autoridad. La generación de backlinks se logra construyendo relaciones con blogs y portales que redirijan tráfico, o colaborando con medios especializados en educación, tecnología o marketing digital, o con microinfluencers. En estos ejemplos lo vemos más claro: Un backlink desde un blog universitario de prestigio en marketing o una revista especializada en IA es de alta calidad y autoridad. Enlaces desde nuestras propias redes sociales o correos electrónicos también son parte del SEO OffPage.",
+      "id_seccion": "c07-s3",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "id": "c07-d23",
+      "termino": "Autoridad de dominio",
+      "definicion": "La autoridad de dominio es una métrica que refleja la relevancia y confianza de un sitio web.",
+      "id_seccion": "c07-s3",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "id": "c07-d24",
+      "termino": "Backlinks follow y no-follow",
+      "definicion": "Los backlinks pueden ser follow o no-follow: los follow transmiten autoridad, mientras que los no-follow no lo hacen o lo hacen con menor relevancia.",
+      "id_seccion": "c07-s3",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "id": "c07-d25",
+      "termino": "SEO técnico",
+      "definicion": "El SEO técnico se ocupa de aspectos no relacionados con el contenido, sino con la infraestructura y configuración del sitio web, que influyen en la capacidad de los motores de búsqueda para rastrear e indexar el sitio, así como en la experiencia del usuario.",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "id": "c07-d26",
+      "termino": "Rastreo e indexación (sitemap, robots.txt)",
+      "definicion": "Los motores de búsqueda llamados \"bots\" o \"arañas\", deben poder encontrar y clasificar las páginas de un sitio. Es esencial crear un mapa del sitio (sitemap), que lista todas las URLs, y un archivo robots.txt, que indica a los bots qué páginas pueden o no rastrear. Esto asegura que el contenido relevante sea descubierto y catalogado por Google.",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "id": "c07-d27",
+      "termino": "Core Web Vitals y WPO (Web Performance Optimization)",
+      "definicion": "Conjunto de métricas de Google que miden la experiencia del usuario en velocidad de carga, interactividad y estabilidad visual. Un sitio web rápido y con buena experiencia es fundamental para el posicionamiento. Las más destacas son Largest Contentful Paint (LCP) que mide el tiempo de carga del elemento de contenido más grande; First Input Delay (FID) que mide el tiempo de respuesta a la primera interacción del usuario y Cumulative Layout Shift (CLS) que muestra la estabilidad visual de la página. Una velocidad de carga lenta o elementos visuales inestables pueden generar altas tasas de rebote, perjudicando la experiencia del usuario y el posicionamiento.",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "id": "c07-d28",
+      "termino": "LCP, FID y CLS",
+      "definicion": "Las más destacas son Largest Contentful Paint (LCP) que mide el tiempo de carga del elemento de contenido más grande; First Input Delay (FID) que mide el tiempo de respuesta a la primera interacción del usuario y Cumulative Layout Shift (CLS) que muestra la estabilidad visual de la página.",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121
+    },
+    {
+      "id": "c07-d29",
+      "termino": "Marcado Schema",
+      "definicion": "Este marcado es el lenguaje de datos estructurados que actúa como el traductor definitivo entre tu sitio web y los algoritmos de búsqueda. Su valor reside en su capacidad para transformar el contenido ambiguo en entidades con significado propio, permitiendo que los motores de búsqueda comprendan qué dice una frase y qué representa (un autor, un producto o una respuesta académica). Al implementar este código estamos facilitando la indexación y desbloqueando resultados enriquecidos que incrementan el CTR y aseguran que nuestro contenido sea procesado con prioridad por las IAs generativas y los motores de respuesta.",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121
+    },
+    {
+      "id": "c07-d30",
+      "termino": "Curación de contenido",
+      "definicion": "En la redacción de contenido hacemos algo que se llama curación y que no lo hemos inventado en marketing, realmente proviene de los curadores de libros o arte. En cualquier caso las técnicas de curación están pensadas para reformular el contenido y responder técnicamente mejor a las búsquedas.",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123
+    },
+    {
+      "id": "c07-d31",
+      "termino": "Auditoría de citabilidad",
+      "definicion": "Finalmente, el uso más avanzado y práctico es la auditoría de citabilidad. Antes de publicar, pasamos el contenido por la IA para que actúe como \"abogado del diablo\". Le preguntamos directamente qué valor nuevo aporta nuestro texto que merezca ser citado por otro modelo de lenguaje. Si el análisis revela que solo estamos repitiendo lo que ya existe, la IA nos ayuda a inyectar datos originales o perspectivas únicas.",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "pagina_libro": 124
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c07-p01",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Actúa como un analista de mercado experto en el sector [X]. Identifica los 5 foros, subreddits y plataformas de nicho más activos donde los usuarios reales discuten sus problemas y quejas sobre [tu tipo de producto/servicio] en [año]. Resume los puntos de dolor más comunes que mencionan.",
+      "contexto_previo": "Si no lo has hecho nunca, un primer paso puede ser utilizar Gemini 3.1 Pro en modo razonamiento o Chat GPT 5.2 en modo razonamiento y anotarle los siguientes prompts sustituyendo la información sobre tu marca:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "Gemini 3.1 Pro (modo razonamiento)",
+        "Chat GPT 5.2 (modo razonamiento)"
+      ],
+      "marcadores_variables": [
+        "[X]",
+        "[tu tipo de producto/servicio]",
+        "[año]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "ids_prompts_origen": null,
+      "nota_cadena": "Paso 1 de la cadena (escucha digital): foros y puntos de dolor."
+    },
+    {
+      "id": "c07-p02",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Busca y resume las tendencias clave del informe de tendencias de consumo de [año] para el sector [X]. Enfócate especialmente en cambios de comportamiento del consumidor y nuevas tecnologías que están afectando a las pequeñas empresas.",
+      "contexto_previo": "o también podrías ampliarlo con",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "Gemini 3.1 Pro (modo razonamiento)",
+        "Chat GPT 5.2 (modo razonamiento)"
+      ],
+      "marcadores_variables": [
+        "[año]",
+        "[X]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "ids_prompts_origen": null,
+      "nota_cadena": "Paso 2 de la cadena: tendencias del sector."
+    },
+    {
+      "id": "c07-p03",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Analiza el posicionamiento de [Nombre del Competidor]. Basándote en su comunicación pública y estructura de catálogo, ¿cuál parece ser su propuesta de valor principal y a qué segmento de cliente están ignorando? Genera una tabla comparativa de sus fortalezas y debilidades percibidas por los usuarios en reseñas.",
+      "contexto_previo": "Para abordar un primer análisis de competencia puedes solicitar:",
+      "contexto_posterior": "Una vez descargada esta información puedes completarla con otros pdf que hayas leído sobre el sector, competencia o alguna newsletter que sigas. Ahora nos llevamos todos los documentos a NotebookLM para identificar tendencias emergentes y necesidades reales del cliente que a menudo no aparecen en las herramientas de SEO tradicionales. Al sintetizar estos documentos, obtendrás una base de conceptos y términos clave que reflejan lo que tu audiencia está buscando.",
+      "herramienta_ia_indicada": [
+        "Gemini 3.1 Pro (modo razonamiento)",
+        "Chat GPT 5.2 (modo razonamiento)"
+      ],
+      "marcadores_variables": [
+        "[Nombre del Competidor]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "ids_prompts_origen": null,
+      "nota_cadena": "Paso 3 de la cadena: análisis de competencia. Sus resultados (con p01-p02 y otros pdf/newsletters) se llevan a NotebookLM (paso sin prompt literal)."
+    },
+    {
+      "id": "c07-p04",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Actúa como un estratega de contenido especializado en AEO (Answer Engine Optimization). Basándote en los puntos de dolor detectados que te proporciono a continuación: [Pega aquí los puntos de dolor o el análisis previo de NotebookLM], realiza las siguientes tareas: 1. Diseño de Estructura Narrativa (GEO): Crea un esquema de artículo tipo 'pilar' que conecte estos problemas con soluciones reales. Utiliza encabezados (H1, H2, H3) que reflejen entidades semánticas ricas y lenguaje natural de expertos. 2. Bloques de Respuesta Directa (AEO): Para cada sección, redacta un párrafo de máximo 50 palabras que responda de forma nítida y resolutiva a la duda principal. Este párrafo debe estar diseñado para que un modelo de lenguaje pueda extraerlo como una 'respuesta única'. 3. Sección de FAQs Estratégica: Genera una lista de 5 preguntas frecuentes basadas exclusivamente en las frustraciones reales del usuario. Las respuestas deben seguir el formato: Pregunta directa + Respuesta concisa + Valor añadido de la marca. 4. Identificación de Entidades: Enumera 10 conceptos o términos técnicos relacionados que deben aparecer en el texto para que una IA nos considere una autoridad en la materia. Tono de voz: [Cercano / Profesional / Técnico / Amable] Objetivo: Que el usuario sienta que entendemos su problema mejor que nadie y que la IA nos elija como la fuente más fiable.",
+      "contexto_previo": "¿Cuál sería el prompt más adecuado? Te recomendamos utilizar el siguiente, verás que combina gran parte de lo que hemos ido aprendiendo en este capítulo:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ],
+      "marcadores_variables": [
+        "[Pega aquí los puntos de dolor o el análisis previo de NotebookLM]",
+        "[Cercano / Profesional / Técnico / Amable]"
+      ],
+      "referencia_a_salida_previa": "Basándote en los puntos de dolor detectados que te proporciono a continuación: [Pega aquí los puntos de dolor o el análisis previo de NotebookLM]",
+      "salida_mostrada_en_libro": "No se muestra la salida. Su aplicación se describe en el ejemplo (sección 6, c07-e02: \"Aplicamos el prompt de Estratega AEO para diseñar artículos pilar\", p. ej. \"Guía de Supervivencia SEO con IA para Principiantes\").",
+      "ids_prompts_origen": [
+        "c07-p01",
+        "c07-p02",
+        "c07-p03"
+      ],
+      "nota_cadena": "Paso 5: usa los puntos de dolor o el análisis de NotebookLM (síntesis de c07-p01 a p03)."
+    },
+    {
+      "id": "c07-p05",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Actúa como un Productor de Contenido Senior y Especialista en Arquitectura de Información. Basándote en la estructura narrativa y las entidades definidas previamente, redacta el contenido final siguiendo estas directrices técnicas: 1. Redacción y Etiquetado Semántico: Escribe el cuerpo del contenido utilizando Markdown. Asegúrate de que los encabezados (H1, H2, H3) contengan las entidades clave. Utiliza negritas para resaltar conceptos fundamentales que faciliten el escaneo tanto a humanos como a bots. 2. Integración de Nodos AEO: Inserta de forma natural los 'Bloques de Respuesta Directa' que diseñamos. Asegúrate de que estén destacados (puedes sugerir un diseño de 'cuadro de respuesta' o 'resumen rápido'). 3. Estrategia de Activos Visuales (Multimodalidad): Sugerencia de Fotografía/Infografía: Para cada sección principal, describe qué tipo de imagen sería necesaria (ej: 'Gráfico comparativo de X vs Y' o 'Fotografía de estilo documental de X'). Explica por qué ese activo refuerza la entidad semántica del texto. Sugerencia de Vídeo (Shorts/Reels): Identifica un punto crítico del texto que podría convertirse en un vídeo corto de 30 segundos. Define el guion rápido (hook, valor, CTA) para capturar el tráfico de búsqueda visual. Etiquetado Alt y Metadatos: Para cada sugerencia visual, redacta el texto ALT optimizado para SEO/GEO, asegurándote de que describa la imagen mientras refuerza las palabras clave de oportunidad. Llamadas a la Acción (CTA) de Contexto: Diseña un CTA final que no sea genérico, sino que resuelva la siguiente duda lógica que el usuario tendría tras leer este contenido. Tono: Mantén el tono [Insertar el elegido: Cercano/Profesional] y asegúrate de que la lectura fluya de forma orgánica entre los bloques técnicos.",
+      "contexto_previo": "En el ejemplo mostrado al detalle en el capítulo anterior, utilizamos un LLM para la generación de los textos de la web por lo que comenzaremos accediendo a nuestro LLM de confianza para crear, estructurar y optimizar el contenido con el fin de que sea fácilmente rastreable por los motores generativos, permitiendo que nuestro contenido sea utilizado como fuente de información para respuestas directas. Te recomendamos que utilices el siguiente prompt:",
+      "contexto_posterior": "Este proceso puede replicarse tantas veces como sea necesario para la generación de contenido para nuestro sitio web.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Insertar el elegido: Cercano/Profesional]"
+      ],
+      "referencia_a_salida_previa": "Basándote en la estructura narrativa y las entidades definidas previamente",
+      "salida_mostrada_en_libro": null,
+      "ids_prompts_origen": [
+        "c07-p04"
+      ],
+      "nota_cadena": "Paso 6: redacta a partir de la estructura narrativa, entidades y Bloques de Respuesta Directa de c07-p04."
+    },
+    {
+      "id": "c07-p06",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "pagina_libro": 124,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Actúa como un Editor de Precisión especializado en AEO (Answer Engine Optimization). Tu misión es auditar el siguiente artículo extenso: [Pegar el texto del artículo aquí o anotar el nombre del documento adjunto] para identificar y extraer 'nodos de resolución' que nos posicionen como respuesta única en motores generativos y búsquedas por voz. Para cada sección clave del texto, realiza lo siguiente: 1. Identificación de Intención: Define la pregunta específica (long-tail) que el usuario está tratando de resolver en ese fragmento. 2. Redacción del Nodo de Resolución: Redacta una respuesta directa de máximo 45-50 palabras. La respuesta debe ser autosuficiente, empezar con una afirmación clara y evitar introducciones vacías (como 'en este sentido...' o 'es importante saber...'). 3. Optimización de 'Cita Directa': Asegúrate de que el lenguaje sea natural pero técnico, incluyendo las entidades clave necesarias para que un LLM reconozca tu autoridad inmediata sobre el tema. 4. Ubicación Sugerida: Indica en qué parte del artículo original debería insertarse este nodo (preferiblemente al inicio de una sección o bajo un H3 en formato de pregunta) para maximizar su rastreabilidad. Objetivo Final: Que el fragmento resultante sea tan preciso y valioso que la IA prefiera citarlo textualmente antes que generar su propia versión resumida.",
+      "contexto_previo": "En cualquier caso las técnicas de curación están pensadas para reformular el contenido y responder técnicamente mejor a las búsquedas. Utiliza este prompt y voilá! tu página tiene una nueva vida.",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Pegar el texto del artículo aquí o anotar el nombre del documento adjunto]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": "No se muestra la salida. Su aplicación se describe en el ejemplo (c07-e02: \"insertaremos los bloques de 50 palabras generados por nuestro Editor de Precisión\").",
+      "ids_prompts_origen": null,
+      "nota_cadena": "Paso 7 (curación): trabaja sobre un artículo ya existente con poco tráfico; produce los \"nodos de resolución\"."
+    },
+    {
+      "id": "c07-p07",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "pagina_libro": 124,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Actúa como un Arquitecto de Datos Estructurados y Especialista en SEO Técnico. Tu tarea es transformar los 'Nodos de Resolución AEO' generados previamente en un bloque de código JSON-LD técnicamente perfecto. Directrices Técnicas: Tipo de Schema: Utiliza fundamentalmente FAQPage para las preguntas y respuestas. Enriquecimiento de Entidades (GEO): Para cada respuesta, identifica la entidad principal y añade la propiedad mainEntity o mentions vinculándola a URLs de autoridad (como Wikipedia o DBpedia) si es posible. Optimización Speakable: Incluye la propiedad Speakable de schema.org utilizando selectores CSS (IDs o Clases) que correspondan a los bloques de respuesta rápida, para facilitar la lectura en asistentes de voz. Atribución de Autoría: Integra el marcado Author y Publisher para reforzar el E-E-A-T del contenido académico/profesional. Formato de Salida: Entrega el código en un bloque único de JSON-LD, limpio, validado y listo para ser insertado en el <head> de la página o en un bloque de HTML personalizado en WordPress. Entrada de datos: [Copia y pega aquí los Nodos de Resolución que generamos en el paso anterior]. Objetivo: Eliminar cualquier ambigüedad semántica y forzar a los motores de búsqueda y motores generativos a reconocer estos fragmentos como la 'Respuesta Canónica' sobre el tema.",
+      "contexto_previo": "Te recomendamos que utilices este prompt para que se genere el marcado de tus páginas:",
+      "contexto_posterior": "Si estás creando tu proyecto o ya está publicado en WordPress puedes añadir el código que te devolverá de la siguiente forma: En el editor de WordPress (Gutenberg), añade un bloque de HTML personalizado, pega el código <script>...</script> directamente ahí. No se verá nada en la web para el usuario, pero los motores de búsqueda lo leerán al rastrear el post.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Copia y pega aquí los Nodos de Resolución que generamos en el paso anterior]"
+      ],
+      "referencia_a_salida_previa": "Entrada de datos: [Copia y pega aquí los Nodos de Resolución que generamos en el paso anterior].",
+      "salida_mostrada_en_libro": "No se muestra el JSON-LD resultante. Aplicación en el ejemplo (c07-e03: marcado FAQPage y Speakable en todos los nodos AEO).",
+      "ids_prompts_origen": [
+        "c07-p06"
+      ],
+      "nota_cadena": "Paso 8: convierte en JSON-LD los \"Nodos de Resolución AEO\" generados en c07-p06."
+    },
+    {
+      "id": "c07-p08",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "pagina_libro": 124,
+      "origen": "texto",
+      "bloque": null,
+      "texto": "Actúa como un Analista Crítico de Algoritmos Generativos. Tu objetivo es realizar una Auditoría de Citabilidad del siguiente texto para determinar si merece ser referenciado como fuente única o si es redundante. Tareas de Auditoría: Test de Redundancia: Compara este texto con el conocimiento estándar que ya posees en tu base de datos sobre el tema. ¿Qué porcentaje del contenido es información que ya 'sabes' de memoria? Identificación de 'Information Gain': Detecta si existe algún dato, conexión entre entidades, ángulo crítico o perspectiva original que NO sea común en otros artículos. Análisis de Citabilidad (AEO): Si un usuario le preguntara a un motor generativo sobre este tema, ¿qué frase específica de este texto sería 'irresistible' de citar para la IA? Si no encuentras ninguna, indícalo. Inyección de Valor Original: Si el texto es redundante, sugiere 3 puntos de vista disruptivos, datos específicos o analogías nuevas que conviertan este artículo en una fuente de obligada mención. Texto a auditar: [Pegar el borrador final aquí]. Objetivo: No quiero que el texto sea 'bueno', quiero que sea 'necesario'.",
+      "contexto_previo": "Utiliza este prompt antes de pasar tu contenido a producción:",
+      "contexto_posterior": "Es posible que te preguntes qué tipo de herramientas con asistencia IA podrían ayudarlos en el proceso de auditoría de nuestro sitio y lo cierto es que, aunque hay plataformas basadas en IA que pueden ayudarlos en el proceso, todavía sigue siendo mucho mejor el resultado obtenido por las plataformas que te hemos recomendado.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Pegar el borrador final aquí]"
+      ],
+      "referencia_a_salida_previa": "Texto a auditar: [Pegar el borrador final aquí].",
+      "salida_mostrada_en_libro": "No se muestra la salida. Aplicación en el ejemplo (c07-e02: \"aplicaremos la Auditoría de Citabilidad. Incluiremos datos propios de aulamarketing.digital como que \\\"El 85% de nuestros alumnos junior dominan prompts de IA en 3 semanas\\\"\").",
+      "ids_prompts_origen": [
+        "c07-p05"
+      ],
+      "nota_cadena": "Paso 9 (antes de publicar): audita el borrador final (p. ej. el texto de c07-p05)."
+    }
+  ],
+  "herramientas_mencionadas": [
+    {
+      "id": "c07-h01",
+      "nombre": "Jasper.ai",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h02",
+      "nombre": "Frase.io",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h03",
+      "nombre": "Marketmuse",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h04",
+      "nombre": "Writesonic",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h05",
+      "nombre": "Copy.ai",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h06",
+      "nombre": "Rytr",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h07",
+      "nombre": "Frase",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h08",
+      "nombre": "Hypothenuse.ai",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h09",
+      "nombre": "QuillBot",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h10",
+      "nombre": "LongShot AI",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h11",
+      "nombre": "TextCortex",
+      "bloque": "Herramientas de redacción de textos",
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h12",
+      "nombre": "Google",
+      "bloque": null,
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "En este caso iniciaremos nosotros la búsqueda como usuarios en las SERPS (Search Engine Results Page) de Google, ya que es el buscador más utilizado, con más del 89% de las búsquedas mundiales.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h13",
+      "nombre": "Ubersuggest",
+      "bloque": "Herramientas clave para el keyword research",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "Si estás empezando tu primer proyecto, lo ideal es comenzar con Ubersuggest, ya que su interfaz es muy intuitiva y te permitirá sentir que avanzas con mayor facilidad.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h14",
+      "nombre": "Keyword Planner de Google",
+      "bloque": "Herramientas clave para el keyword research",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "A continuación un siguiente paso podría ser utilizar Keyword Planner de Google, que está pensada para dar soporte a los usuarios de campañas de Google Ads, la plataforma de anuncios de Google, pero al hacerlo con información sobre la intención de búsqueda nos dará datos útiles para nuestro keyword research.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h15",
+      "nombre": "Google Ads",
+      "bloque": "Herramientas clave para el keyword research",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "A continuación un siguiente paso podría ser utilizar Keyword Planner de Google, que está pensada para dar soporte a los usuarios de campañas de Google Ads, la plataforma de anuncios de Google, pero al hacerlo con información sobre la intención de búsqueda nos dará datos útiles para nuestro keyword research.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h16",
+      "nombre": "SE Ranking",
+      "bloque": "Herramientas clave para el keyword research",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "Damos un paso más en complejidad cuando avanzamos hacia SE Ranking, Ahrefs o Semrush, con un sistema con múltiples funcionalidades y un espectro informativo sobre el keyword research y otras áreas mucho más completo.",
+      "es_ia": null,
+      "gratuita_o_pago": "Las tres son herramientas profesionales con un coste por suscripción elevado pero la buena noticia es que disponen de facilidades de acceso a las versiones de uso gratuito o trial por tiempo limitado.",
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h17",
+      "nombre": "Ahrefs",
+      "bloque": "Herramientas clave para el keyword research",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "Damos un paso más en complejidad cuando avanzamos hacia SE Ranking, Ahrefs o Semrush, con un sistema con múltiples funcionalidades y un espectro informativo sobre el keyword research y otras áreas mucho más completo.",
+      "es_ia": null,
+      "gratuita_o_pago": "Las tres son herramientas profesionales con un coste por suscripción elevado pero la buena noticia es que disponen de facilidades de acceso a las versiones de uso gratuito o trial por tiempo limitado.",
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h18",
+      "nombre": "Semrush",
+      "bloque": "Herramientas clave para el keyword research",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "Damos un paso más en complejidad cuando avanzamos hacia SE Ranking, Ahrefs o Semrush, con un sistema con múltiples funcionalidades y un espectro informativo sobre el keyword research y otras áreas mucho más completo.",
+      "es_ia": null,
+      "gratuita_o_pago": "Las tres son herramientas profesionales con un coste por suscripción elevado pero la buena noticia es que disponen de facilidades de acceso a las versiones de uso gratuito o trial por tiempo limitado.",
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h19",
+      "nombre": "Answer the Public",
+      "bloque": "Herramientas clave para el keyword research",
+      "id_seccion": "c07-s2.1",
+      "pagina_pdf": 123,
+      "pagina_libro": 118,
+      "descripcion_libro": "También es útil Answer the Public para preguntas frecuentes, ya que su interfaz amigable muestra de forma rápida las combinaciones de preguntas que los usuarios formulan en base a una keyword, por ejemplo, con “marketing digital” nos mostrará opciones como ¿qué es marketing digital y para qué sirve?, ¿cómo hacer marketing digital para principiantes?, ¿cuál es la mejor estrategia de marketing digital para mi negocio?, ¿por qué invertir en marketing digital?",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h20",
+      "nombre": "Google Search Console",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "La primera herramienta recomendada es Google Search Console, que nos permitirá visualizar informes de rendimiento, errores de rastreo e indexación de nuestra web.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h21",
+      "nombre": "Screaming Frog",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "Para ello, puedes utilizar las siguientes herramientas, cualquiera de ellas puede generar una auditoría de todos los aspectos que hemos mencionado en el punto anterior: Screaming Frog, Semrush, Ahrefs o SE Ranking.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h22",
+      "nombre": "Semrush",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "Para ello, puedes utilizar las siguientes herramientas, cualquiera de ellas puede generar una auditoría de todos los aspectos que hemos mencionado en el punto anterior: Screaming Frog, Semrush, Ahrefs o SE Ranking.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h23",
+      "nombre": "Ahrefs",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "Para ello, puedes utilizar las siguientes herramientas, cualquiera de ellas puede generar una auditoría de todos los aspectos que hemos mencionado en el punto anterior: Screaming Frog, Semrush, Ahrefs o SE Ranking.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h24",
+      "nombre": "SE Ranking",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "Para ello, puedes utilizar las siguientes herramientas, cualquiera de ellas puede generar una auditoría de todos los aspectos que hemos mencionado en el punto anterior: Screaming Frog, Semrush, Ahrefs o SE Ranking.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h25",
+      "nombre": "Prueba de resultados enriquecidos de Google",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "La revisión del marcado Schema puedes hacerlo directamente en la prueba de resultados enriquecidos de Google.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h26",
+      "nombre": "Google Page Speed",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Para la optimización de carga, compresión de código y gestión de caché que te ayudarán a optimizar la velocidad puedes usar Google Page Speed y Lite Speed Cache o WP Fastest Cache en tu sitio web.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h27",
+      "nombre": "Lite Speed Cache",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Para la optimización de carga, compresión de código y gestión de caché que te ayudarán a optimizar la velocidad puedes usar Google Page Speed y Lite Speed Cache o WP Fastest Cache en tu sitio web.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h28",
+      "nombre": "WP Fastest Cache",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Para la optimización de carga, compresión de código y gestión de caché que te ayudarán a optimizar la velocidad puedes usar Google Page Speed y Lite Speed Cache o WP Fastest Cache en tu sitio web.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h29",
+      "nombre": "Smush",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "La optimización de imágenes, es decir las tareas de escalado, compresión y conversión de imágenes a formatos más ligeros como.webp puedes hacerlo con Smush en el sitio web o de forma externa con Imagify o ILoveIMG.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h30",
+      "nombre": "Imagify",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "La optimización de imágenes, es decir las tareas de escalado, compresión y conversión de imágenes a formatos más ligeros como.webp puedes hacerlo con Smush en el sitio web o de forma externa con Imagify o ILoveIMG.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h31",
+      "nombre": "ILoveIMG",
+      "bloque": "Herramientas para SEO técnico",
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "La optimización de imágenes, es decir las tareas de escalado, compresión y conversión de imágenes a formatos más ligeros como.webp puedes hacerlo con Smush en el sitio web o de forma externa con Imagify o ILoveIMG.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h32",
+      "nombre": "YouTube",
+      "bloque": null,
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "Deben incrustarse o embeberse desde plataformas externas como YouTube, Vimeo o Wistia.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h33",
+      "nombre": "Vimeo",
+      "bloque": null,
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "Deben incrustarse o embeberse desde plataformas externas como YouTube, Vimeo o Wistia.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h34",
+      "nombre": "Wistia",
+      "bloque": null,
+      "id_seccion": "c07-s4",
+      "pagina_pdf": 126,
+      "pagina_libro": 121,
+      "descripcion_libro": "Deben incrustarse o embeberse desde plataformas externas como YouTube, Vimeo o Wistia.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h35",
+      "nombre": "NotebookLM",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Comenzaremos con un primer análisis de contexto con NotebookLM a modo de escucha digital.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h36",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Si no lo has hecho nunca, un primer paso puede ser utilizar Gemini 3.1 Pro en modo razonamiento o Chat GPT 5.2 en modo razonamiento y anotarle los siguientes prompts sustituyendo la información sobre tu marca: “Actúa como un analista de mercado experto en el sector [X].",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h37",
+      "nombre": "Chat GPT 5.2",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Si no lo has hecho nunca, un primer paso puede ser utilizar Gemini 3.1 Pro en modo razonamiento o Chat GPT 5.2 en modo razonamiento y anotarle los siguientes prompts sustituyendo la información sobre tu marca: “Actúa como un analista de mercado experto en el sector [X].",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h38",
+      "nombre": "NotebookLM",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Ahora nos llevamos todos los documentos a NotebookLM para identificar tendencias emergentes y necesidades reales del cliente que a menudo no aparecen en las herramientas de SEO tradicionales.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h39",
+      "nombre": "Surfer SEO",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Con un enfoque claro, disponemos de la posibilidad de aplicar la ingeniería de datos utilizando herramientas como Surfer SEO que nos permiten analizar el contenido que ya está dominando las primeras posiciones.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h40",
+      "nombre": "ChatGPT",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Una vez que tienes el contexto, trasladamos esta información a un LLM como ChatGPT, Gemini o Claude.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h41",
+      "nombre": "Gemini",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Una vez que tienes el contexto, trasladamos esta información a un LLM como ChatGPT, Gemini o Claude.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h42",
+      "nombre": "Claude",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 127,
+      "pagina_libro": 122,
+      "descripcion_libro": "Una vez que tienes el contexto, trasladamos esta información a un LLM como ChatGPT, Gemini o Claude.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h43",
+      "nombre": "SERanking (editor de contenido nativo)",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": "Si hemos iniciado el análisis de keywords con una plataforma como SERanking, Semrush, Ahrefs o plataformas similares, es posible que quieras utilizar los editores de contenido nativos.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h44",
+      "nombre": "Semrush (editor de contenido nativo)",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": "Si hemos iniciado el análisis de keywords con una plataforma como SERanking, Semrush, Ahrefs o plataformas similares, es posible que quieras utilizar los editores de contenido nativos.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h45",
+      "nombre": "Ahrefs (editor de contenido nativo)",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 128,
+      "pagina_libro": 123,
+      "descripcion_libro": "Si hemos iniciado el análisis de keywords con una plataforma como SERanking, Semrush, Ahrefs o plataformas similares, es posible que quieras utilizar los editores de contenido nativos.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h46",
+      "nombre": "WordPress (Gutenberg)",
+      "bloque": null,
+      "id_seccion": "c07-s5",
+      "pagina_pdf": 129,
+      "pagina_libro": 124,
+      "descripcion_libro": "En el editor de WordPress (Gutenberg), añade un bloque de HTML personalizado, pega el código <script>...</script> directamente ahí. No se verá nada en la web para el usuario, pero los motores de búsqueda lo leerán al rastrear el post.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h47",
+      "nombre": "NotebookLM",
+      "bloque": null,
+      "id_seccion": "c07-s6",
+      "pagina_pdf": 130,
+      "pagina_libro": 125,
+      "descripcion_libro": "En lugar de centrarnos tan solo en las listas de palabras, usamos NotebookLM o al asistente integrado en Semrush para mapear el grafo de conocimiento de Ana.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h48",
+      "nombre": "Asistente integrado en Semrush",
+      "bloque": null,
+      "id_seccion": "c07-s6",
+      "pagina_pdf": 130,
+      "pagina_libro": 125,
+      "descripcion_libro": "En lugar de centrarnos tan solo en las listas de palabras, usamos NotebookLM o al asistente integrado en Semrush para mapear el grafo de conocimiento de Ana.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h49",
+      "nombre": "ChatGPT",
+      "bloque": null,
+      "id_seccion": "c07-s6",
+      "pagina_pdf": 130,
+      "pagina_libro": 125,
+      "descripcion_libro": "El último paso será descubrir la intención conversacional y para ello usamos el LLM que nos ayudará a descifrar qué le pregunta Ana a ChatGPT.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c07-h50",
+      "nombre": "YouTube Short",
+      "bloque": null,
+      "id_seccion": "c07-s6",
+      "pagina_pdf": 130,
+      "pagina_libro": 125,
+      "descripcion_libro": "Por cada nodo AEO crítico, incrustaremos un YouTube Short con una micro-píldora formativa directamente en el blog, reteniendo al usuario y dando señales de máxima relevancia visual a Google.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    }
+  ],
+  "figuras_tablas": [],
+  "ejemplo_aulamarketing": {
+    "id_seccion": "c07-s6",
+    "titulo": "Ejemplo completo para aulamarketing.digital",
+    "pagina_pdf": 130,
+    "texto": "Llegados a este punto, es el momento de aterrizar la teoría. Hemos diseñado un mapa de ruta práctico para aulamarketing.digital aplicando nuestra metodología de IA, GEO y AEO. Nuestro objetivo es conectar aulamarketing.digital con el customer journey de Ana, quien además de buscar en Google, interactúa constantemente con asistentes de voz y chats generativos. En lugar de un enfoque tradicional, utilizaremos nuestro ecosistema de prompts para garantizar que aulamarketing.digital se posicione y sea citada como fuente de autoridad.\nEl primer paso es la planificación estratégica y mapa de entidades en la que buscamos captar a Ana en su fase de descubrimiento y decisión, asegurando que los motores generativos recomienden nuestra academia. En lugar de centrarnos tan solo en las listas de palabras, usamos NotebookLM o al asistente integrado en Semrush para mapear el grafo de conocimiento de Ana. El resultado es que nos centraremos en las entidades core: \"Marketing Digital\" e \"Inteligencia Artificial\" y utilizaremos como entidades puente lo que consideremos el dolor de Ana: \"Incertidumbre laboral\", \"Curva de aprendizaje de IA\". El último paso será descubrir la intención conversacional y para ello usamos el LLM que nos ayudará a descifrar qué le pregunta Ana a ChatGPT. Como resultado localizamos preguntas relacionadas con: \"¿Qué herramientas de IA debo aprender para empezar en marketing digital desde cero?\". Estas preguntas formarán la base de nuestra arquitectura.\nEl siguiente paso es enfocarnos en el SEO On-Page. Aplicamos el prompt de Estratega AEO para diseñar artículos pilar. Por ejemplo: una \"Guía de Supervivencia SEO con IA para Principiantes\". Dentro de cada guía, insertaremos los bloques de 50 palabras generados por nuestro Editor de Precisión. Si Ana pregunta a Siri \"¿Qué es un plan de marketing?\", nuestro nodo estará optimizado para ser la respuesta única que el asistente lea en voz alta. Para no ser un contenido más, aplicaremos la Auditoría de Citabilidad. Incluiremos datos propios de aulamarketing.digital como que \"El 85% de nuestros alumnos junior dominan prompts de IA en 3 semanas\", forzando a los modelos generativos a citarnos por aportar datos originales. Por cada nodo AEO crítico, incrustaremos un YouTube Short con una micro-píldora formativa directamente en el blog, reteniendo al usuario y dando señales de máxima relevancia visual a Google.\nEl tercer paso es optimizar el SEO técnico y el marcado semántico. Más allá del clásico WPO y el HTTPS, el núcleo de nuestra estrategia técnica será el JSON-LD. Implementaremos marcado FAQPage y Speakable en todos los nodos AEO, entregándole a los rastreadores el contenido. Sabiendo que Ana consume el 90% del contenido desde su smartphone, la prioridad absoluta será el LCP en móvil, asegurando que la carga de la web sea instantánea para evitar rebotes.\nEl punto final lo pondremos con acciones de SEO Off-Page potenciando la autoridad E-E-A-T. No buscaremos solo enlaces. Queremos que la entidad aulamarketing.digital aparezca junto a conceptos de \"innovación\" e \"IA\" en medios del sector. Utilizaremos Digital PR para aparecer en newsletters tecnológicas y foros donde los LLMs extraen sus datos de entrenamiento. Incentivaremos a ex alumnos a compartir en LinkedIn y TikTok sus proyectos finales usando IA, etiquetándonos. Esto genera una señal de confianza que los motores de búsqueda valoran por encima de los enlaces artificiales.\n¿Qué te ha parecido este capítulo? Acabamos de transitar por un gran bloque de nuevos términos y definiciones técnicas, por lo que tal vez sea buena idea darnos un respiro. Es importante que puedas tomarte un momento para reflexionar sobre el impacto del SEO en la estrategia de marketing digital. El objetivo fundamental: conectar con las necesidades reales de tu buyer persona, ofreciéndole contenido relevante y accesible justo en el momento y lugar en que lo busca. Conecta este punto de partida con la optimización del sitio web con un copywriting persuasivo, captadores de leads y CTA efectivos y conseguiremos generar una comunidad sólida que sienta interés por el contenido y por el acceso a formación de valor sobre marketing digital e inteligencia artificial para el futuro.",
+    "entregables": [
+      {
+        "id": "c07-e01",
+        "titulo": "Paso 1 | Planificación estratégica y mapa de entidades",
+        "texto": "El primer paso es la planificación estratégica y mapa de entidades en la que buscamos captar a Ana en su fase de descubrimiento y decisión, asegurando que los motores generativos recomienden nuestra academia. En lugar de centrarnos tan solo en las listas de palabras, usamos NotebookLM o al asistente integrado en Semrush para mapear el grafo de conocimiento de Ana. El resultado es que nos centraremos en las entidades core: \"Marketing Digital\" e \"Inteligencia Artificial\" y utilizaremos como entidades puente lo que consideremos el dolor de Ana: \"Incertidumbre laboral\", \"Curva de aprendizaje de IA\". El último paso será descubrir la intención conversacional y para ello usamos el LLM que nos ayudará a descifrar qué le pregunta Ana a ChatGPT. Como resultado localizamos preguntas relacionadas con: \"¿Qué herramientas de IA debo aprender para empezar en marketing digital desde cero?\". Estas preguntas formarán la base de nuestra arquitectura.",
+        "pagina_pdf": 130,
+        "pagina_libro": 125
+      },
+      {
+        "id": "c07-e02",
+        "titulo": "Paso 2 | SEO On-Page: artículos pilar, nodos AEO y auditoría de citabilidad",
+        "texto": "El siguiente paso es enfocarnos en el SEO On-Page. Aplicamos el prompt de Estratega AEO para diseñar artículos pilar. Por ejemplo: una \"Guía de Supervivencia SEO con IA para Principiantes\". Dentro de cada guía, insertaremos los bloques de 50 palabras generados por nuestro Editor de Precisión. Si Ana pregunta a Siri \"¿Qué es un plan de marketing?\", nuestro nodo estará optimizado para ser la respuesta única que el asistente lea en voz alta. Para no ser un contenido más, aplicaremos la Auditoría de Citabilidad. Incluiremos datos propios de aulamarketing.digital como que \"El 85% de nuestros alumnos junior dominan prompts de IA en 3 semanas\", forzando a los modelos generativos a citarnos por aportar datos originales. Por cada nodo AEO crítico, incrustaremos un YouTube Short con una micro-píldora formativa directamente en el blog, reteniendo al usuario y dando señales de máxima relevancia visual a Google.",
+        "pagina_pdf": 130,
+        "pagina_libro": 125
+      },
+      {
+        "id": "c07-e03",
+        "titulo": "Paso 3 | SEO técnico y marcado semántico (JSON-LD, FAQPage, Speakable, LCP móvil)",
+        "texto": "El tercer paso es optimizar el SEO técnico y el marcado semántico. Más allá del clásico WPO y el HTTPS, el núcleo de nuestra estrategia técnica será el JSON-LD. Implementaremos marcado FAQPage y Speakable en todos los nodos AEO, entregándole a los rastreadores el contenido. Sabiendo que Ana consume el 90% del contenido desde su smartphone, la prioridad absoluta será el LCP en móvil, asegurando que la carga de la web sea instantánea para evitar rebotes.",
+        "pagina_pdf": 130,
+        "pagina_libro": 125
+      },
+      {
+        "id": "c07-e04",
+        "titulo": "Paso 4 | SEO Off-Page y autoridad E-E-A-T",
+        "texto": "El punto final lo pondremos con acciones de SEO Off-Page potenciando la autoridad E-E-A-T. No buscaremos solo enlaces. Queremos que la entidad aulamarketing.digital aparezca junto a conceptos de \"innovación\" e \"IA\" en medios del sector. Utilizaremos Digital PR para aparecer en newsletters tecnológicas y foros donde los LLMs extraen sus datos de entrenamiento. Incentivaremos a ex alumnos a compartir en LinkedIn y TikTok sus proyectos finales usando IA, etiquetándonos. Esto genera una señal de confianza que los motores de búsqueda valoran por encima de los enlaces artificiales.",
+        "pagina_pdf": 130,
+        "pagina_libro": 125
+      }
+    ]
+  },
+  "remisiones_aulamarketing": [
+    {
+      "texto": "Este es un buen momento para recordarte que en nuestra biblioteca de vídeos dentro de aulamarketing.digital puedes encontrar los vídeos en los que te enseñamos de forma práctica cómo utilizar estas herramientas digitales de SEO / AEO en su versión totalmente gratuita.",
+      "recurso": "vídeo",
+      "tema": "Uso de herramientas digitales de SEO / AEO en su versión gratuita",
+      "pagina_pdf": 124,
+      "pagina_libro": 119
+    },
+    {
+      "texto": "Si te ha sorprendido encontrar algunos términos que no conoces todavía, como link juice o clusters de contenido, tenemos un artículo en la biblioteca de artículos SEO en aulamarketing.digital, además de un vídeo donde podrás ver cómo estos conceptos se traducen en acciones prácticas en un proyecto web real.",
+      "recurso": "artículo y vídeo",
+      "tema": "Link juice y clusters de contenido (SEO OnPage)",
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "texto": "De nuevo te recordamos que puedes ver más sobre esta información (que descrita podría parecer abrumadora por los términos técnicos) en los vídeos de la biblioteca de contenido en aulamarketing.digital si buscas el término SEO.",
+      "recurso": "vídeo",
+      "tema": "SEO técnico",
+      "pagina_pdf": 126,
+      "pagina_libro": 121
+    },
+    {
+      "texto": "Sobre ellas también podrás ver algunos vídeos en la web, y si ves que no hemos generado alguno de ellos, anótalo en el chat de la web y lo actualizaremos ASAP.",
+      "recurso": "vídeo / chat",
+      "tema": "Herramientas de SEO técnico",
+      "pagina_pdf": 126,
+      "pagina_libro": 121
+    }
+  ],
+  "remisiones_internas": [
+    {
+      "texto": "Lo hemos mencionado en varias ocasiones en el capítulo anterior pero ¿conocías el término?",
+      "capitulo_destino": 6,
+      "pagina_pdf": 120,
+      "pagina_libro": 115
+    },
+    {
+      "texto": "La velocidad de carga, medida por los Core Web Vitals (que trataremos a continuación), es fundamental para la satisfacción del usuario y el posicionamiento.",
+      "capitulo_destino": 7,
+      "pagina_pdf": 125,
+      "pagina_libro": 120
+    },
+    {
+      "texto": "De todo esto ya hablamos en el anterior capítulo, que si no lo has leído, ¡echa un vistazo!",
+      "capitulo_destino": 6,
+      "pagina_pdf": 126,
+      "pagina_libro": 121
+    },
+    {
+      "texto": "En el anterior capítulo destacamos el uso de la IA para la creación de contenido y le dimos un contexto basado en la optimización SEO gracias a las palabras clave.",
+      "capitulo_destino": 6,
+      "pagina_pdf": 127,
+      "pagina_libro": 122
+    },
+    {
+      "texto": "En el ejemplo mostrado al detalle en el capítulo anterior, utilizamos un LLM para la generación de los textos de la web por lo que comenzaremos accediendo a nuestro LLM de confianza para crear, estructurar y optimizar el contenido con el fin de que sea fácilmente rastreable por los motores generativos, permitiendo que nuestro contenido sea utilizado como fuente de información para respuestas directas.",
+      "capitulo_destino": 6,
+      "pagina_pdf": 128,
+      "pagina_libro": 123
+    }
+  ],
+  "citas_y_referencias": [
+    {
+      "texto": "Esto implica que el SEO no solo debe enfocarse en el posicionamiento técnico, tal y como nos indican las publicaciones de John Mueller, debe tener siempre la mirada puesta en satisfacer la intención de búsqueda y la experiencia del usuario.",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    }
+  ],
+  "recursos_externos": [
+    {
+      "texto": "schema.org",
+      "pagina_pdf": 129,
+      "pagina_libro": 124,
+      "url_hipervinculo": "http://schema.org/",
+      "nota": "Hipervínculo incrustado en el PDF (pág. 129, dentro del prompt c07-p07)"
+    },
+    {
+      "texto": "www.aulamarketing.digital/cursos/seo-avanzado-marketing-digital",
+      "pagina_pdf": 124,
+      "pagina_libro": 119,
+      "nota": "URL de ejemplo citada en el texto (SEO OnPage, URLs optimizadas)"
+    },
+    {
+      "texto": "www.aulamarketing.digital/p=123",
+      "pagina_pdf": 124,
+      "pagina_libro": 119,
+      "nota": "URL de ejemplo citada en el texto (SEO OnPage, URLs optimizadas)"
+    }
+  ],
+  "otros": [
+    {
+      "descripcion": "Frase introductoria de los objetivos de aprendizaje",
+      "texto": "En este capítulo descubriremos juntos y aprenderás cómo:",
+      "pagina_pdf": 120,
+      "pagina_libro": 115
+    },
+    {
+      "descripcion": "Definición de SERPS dada en la apertura (fuera de sección; la definición c07-d14 está en 2.1)",
+      "texto": "En este capítulo queremos profundizar en el papel fundamental del SEO (Search Engine Optimization) como una estrategia esencial dentro de un plan de marketing digital integral, especialmente en un contexto marcado por la irrupción y consolidación de la Inteligencia Artificial en el campo, la incorporación de los nuevos resultados de IA generativa en las SERPS (listado de contenidos mostrados en la búsqueda en el navegador) y el cambio en los patrones de búsqueda de los usuarios.",
+      "pagina_pdf": 120,
+      "pagina_libro": 115
+    },
+    {
+      "descripcion": "Dato cuantitativo sin fuente citada (apertura)",
+      "texto": "Su comportamiento de búsqueda ha evolucionado, ya que la Generación Z ha disminuido sus búsquedas de productos en Google en un 40%, utilizando plataformas como TikTok e Instagram para buscar información.",
+      "pagina_pdf": 120,
+      "pagina_libro": 115
+    },
+    {
+      "descripcion": "Dato cuantitativo sin fuente citada",
+      "texto": "Los vídeos cortos y verticales son actualmente el formato con mejor rendimiento, generando más vistas e interacción, donde sigue muy de cerca el contenido de video de formato largo (webinars, podcasts, videos de YouTube) que sigue vigente, generando 10 veces más interacción que las publicaciones de blog.",
+      "pagina_pdf": 121,
+      "pagina_libro": 116
+    },
+    {
+      "descripcion": "Dato cuantitativo sin fuente citada (repite el de la apertura)",
+      "texto": "Como gran consumidora de redes sociales, la Generación Z además busca productos y marcas directamente en plataformas como TikTok e Instagram, lo que ha provocado una disminución del 40% en las búsquedas de productos en Google por parte de esta generación.",
+      "pagina_pdf": 121,
+      "pagina_libro": 116
+    },
+    {
+      "descripcion": "Dato histórico de E-E-A-T (2014, 2018) sin fuente citada",
+      "texto": "Aunque todo comienza en el año 2014 y se reformula en el año 2018 con el fin de que todos los creadores de contenido tengamos muy claro cómo debemos generar nuestro tipo de contenido, sigue completamente vigente.",
+      "pagina_pdf": 122,
+      "pagina_libro": 117
+    },
+    {
+      "descripcion": "Dato cuantitativo sin fuente citada (cuota de Google)",
+      "texto": "En este caso iniciaremos nosotros la búsqueda como usuarios en las SERPS (Search Engine Results Page) de Google, ya que es el buscador más utilizado, con más del 89% de las búsquedas mundiales.",
+      "pagina_pdf": 123,
+      "pagina_libro": 118
+    },
+    {
+      "descripcion": "Ejemplos de búsquedas para un primer análisis manual de keywords en las SERPS",
+      "texto": "Ejemplo: “curso marketing digital”.",
+      "pagina_pdf": 123,
+      "pagina_libro": 118
+    },
+    {
+      "descripcion": "Paso de la cadena de prompts sin prompt literal: síntesis en NotebookLM",
+      "texto": "Ahora nos llevamos todos los documentos a NotebookLM para identificar tendencias emergentes y necesidades reales del cliente que a menudo no aparecen en las herramientas de SEO tradicionales.",
+      "pagina_pdf": 127,
+      "pagina_libro": 122
+    },
+    {
+      "descripcion": "Instrucción descrita (no prompt literal) para el LLM en la fase de ideas y arquitectura",
+      "texto": "Pídeles que sugieran estructuras de contenido completas y secciones de preguntas frecuentes (FAQs) que ataquen directamente los puntos de dolor detectados.",
+      "pagina_pdf": 127,
+      "pagina_libro": 122
+    },
+    {
+      "descripcion": "Instrucción descrita (no prompt literal) para la auditoría de citabilidad",
+      "texto": "Le preguntamos directamente qué valor nuevo aporta nuestro texto que merezca ser citado por otro modelo de lenguaje.",
+      "pagina_pdf": 129,
+      "pagina_libro": 124
+    },
+    {
+      "descripcion": "Dato propio de aulamarketing.digital propuesto en el ejemplo (sin fuente)",
+      "texto": "Incluiremos datos propios de aulamarketing.digital como que \"El 85% de nuestros alumnos junior dominan prompts de IA en 3 semanas\", forzando a los modelos generativos a citarnos por aportar datos originales.",
+      "pagina_pdf": 130,
+      "pagina_libro": 125
+    },
+    {
+      "descripcion": "Dato sobre Ana (buyer persona) en el ejemplo",
+      "texto": "Sabiendo que Ana consume el 90% del contenido desde su smartphone, la prioridad absoluta será el LCP en móvil, asegurando que la carga de la web sea instantánea para evitar rebotes.",
+      "pagina_pdf": 130,
+      "pagina_libro": 125
+    },
+    {
+      "descripcion": "Cierre del capítulo",
+      "texto": "¿Qué te ha parecido este capítulo? Acabamos de transitar por un gran bloque de nuevos términos y definiciones técnicas, por lo que tal vez sea buena idea darnos un respiro. Es importante que puedas tomarte un momento para reflexionar sobre el impacto del SEO en la estrategia de marketing digital. El objetivo fundamental: conectar con las necesidades reales de tu buyer persona, ofreciéndole contenido relevante y accesible justo en el momento y lugar en que lo busca. Conecta este punto de partida con la optimización del sitio web con un copywriting persuasivo, captadores de leads y CTA efectivos y conseguiremos generar una comunidad sólida que sienta interés por el contenido y por el acceso a formación de valor sobre marketing digital e inteligencia artificial para el futuro.",
+      "pagina_pdf": 131,
+      "pagina_libro": 126
+    }
+  ],
+  "control": {
+    "num_secciones": 6,
+    "num_subsecciones": 2,
+    "num_prompts": 8,
+    "num_herramientas": 50,
+    "num_herramientas_unicas": 44,
+    "num_figuras_tablas": 0,
+    "num_definiciones": 31,
+    "num_entregables": 4,
+    "paginas_revisadas": [
+      120,
+      131
+    ],
+    "incidencias": [
+      "Cobertura de palabras (multiconjunto de tokens del .txt fuente sin marcas de página ni pies de número, frente a apertura+objetivos+títulos+textos de sección+contenido de tablas+otros): 7420/7420 = 100.00%. Caracteres no blancos: fuente 40172, salida 40161 (ratio 1.000). Tokens no cubiertos: ninguno. Tokens sobrantes en salida: ninguno.",
+      "Prompts: 8, todos en texto (cursiva), sin capturas: c07-p01 foros/puntos de dolor [X] [tu tipo de producto/servicio] [año]; c07-p02 tendencias [año] [X]; c07-p03 competencia [Nombre del Competidor]; (paso NotebookLM sin prompt literal, en \"otros\"); c07-p04 estratega AEO [Pega aquí…] [Cercano / Profesional / Técnico / Amable]; c07-p05 redacción (Productor de Contenido Senior) [Insertar el elegido: Cercano/Profesional]; c07-p06 curación (Editor de Precisión); c07-p07 JSON-LD (Arquitecto de Datos Estructurados); c07-p08 auditoría de citabilidad. Campos adicionales en cada prompt: ids_prompts_origen (prompts cuya salida consume) y nota_cadena.",
+      "referencia_a_salida_previa: p04 (puntos de dolor / análisis previo de NotebookLM), p05 (estructura narrativa y entidades definidas previamente; también inserta \"los 'Bloques de Respuesta Directa' que diseñamos\"), p07 (\"los Nodos de Resolución que generamos en el paso anterior\"), p08 (borrador final). p06 pide pegar un artículo existente (no salida de un prompt anterior): null.",
+      "herramienta_ia_indicada: p01-p03 por el texto (\"Gemini 3.1 Pro en modo razonamiento o Chat GPT 5.2 en modo razonamiento\"); p04 \"un LLM como ChatGPT, Gemini o Claude\"; p05 solo \"nuestro LLM de confianza\"; p06-p08 sin herramienta indicada: listas vacías.",
+      "Bloques ✐: \"Herramientas clave para el keyword research\" y \"Herramientas para SEO técnico\" son bloques de texto corrido (sin lista |); sus herramientas se recogen como menciones con bloque. \"Herramientas de redacción de textos\" es lista | (falta separador entre \"QuillBot\" y \"LongShot AI\"; \"Frase.io\" y \"Frase\" aparecen ambas, literal). El bloque de redacción se da por cerrado tras su lista: los prompts y menciones posteriores (curación, JSON-LD, auditoría, ejemplo) llevan bloque null.",
+      "Herramientas repetidas a propósito por contexto: Semrush, Ahrefs y SE Ranking (keyword research / auditoría técnica / editores de contenido nativos), NotebookLM (escucha digital / síntesis / ejemplo), ChatGPT. Redes sociales (TikTok, Instagram, LinkedIn) y Siri no se registran como herramientas; YouTube, Vimeo y Wistia sí (incrustación de vídeo).",
+      "No hay figuras ni tablas; páginas PDF 120-131 sin imágenes (pdfimages vacío). Único hipervínculo: http://schema.org/ (pág. 129).",
+      "Ejemplo (sección 6): cuatro pasos recogidos como entregables c07-e01 a e04 (literal).",
+      "Erratas literales conservadas: \"Las más destacas son\", \"siendo visto como una referente\", \"podrían ayudarlos\", \"formatos más ligeros como.webp\", \"voilá!\"."
+    ],
+    "num_prompts_imagen": 0
+  }
+}

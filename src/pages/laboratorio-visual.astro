@@ -1,0 +1,56 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+// Página reservada (fase L1). Vista previa NO interactiva de la estructura prevista: solo los nombres de los grupos
+// que ya figuran en la planificación (estructuras de prompt de imagen y vídeo de los capítulos 6 y 8). Sin opciones inventadas.
+const grupos = [
+  { t: 'Tipo de plano', s: 'Composición', ico: 'camara' },
+  { t: 'Lente', s: 'Focal', ico: 'nodo' },
+  { t: 'Enfoque', s: 'Profundidad de campo', ico: 'buscar' },
+  { t: 'Luz', s: 'Atmósfera', ico: 'bombilla' },
+  { t: 'Contraste y color', s: 'Paleta', ico: 'paleta' },
+  { t: 'Movimiento de cámara', s: 'Solo vídeo', ico: 'videocam' },
+];
+---
+<Layout titulo="Laboratorio visual" ancho descripcion="Constructor de prompts de imagen y vídeo (plano, lente, luz, movimiento de cámara). Próximamente." migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Laboratorio visual' }]}>
+  <header class="c-cabecera">
+    <div>
+      <p class="c-overline c-overline--primario"><Icon nombre="chispa" />Estudio creativo · capítulos 6 y 8</p>
+      <h1>Laboratorio visual</h1>
+      <p class="c-lead">Elige cómo quieres que se vea y te construiremos el prompt para tu herramienta de imagen o vídeo.</p>
+    </div>
+    <p class="c-pastilla c-pastilla--prox"><Icon nombre="proximamente" />Próximamente</p>
+  </header>
+  <section class="c-card c-card--info c-lab-aviso" aria-label="Estado de esta sección">
+    <p><strong>Esta página está reservada.</strong> Lo que ves debajo es solo la estructura prevista (vista previa, no funciona todavía). Tendrá, a partir de las estructuras de prompt de imagen y vídeo de los capítulos 6 y 8:</p>
+    <ul>
+      <li>Selector «Imagen | Vídeo».</li>
+      <li>Grupos de opciones: plano, lente, enfoque, luz, contraste y color, y movimiento de cámara (solo vídeo).</li>
+      <li>Campo «¿Qué quieres mostrar?».</li>
+      <li>Prompt resultante listo para copiar o abrir en tu herramienta.</li>
+    </ul>
+  </section>
+
+  <div class="c-lab" aria-hidden="true" inert>
+    <div class="c-lab__col">
+      <div class="c-lab__seg"><span class="c-lab__seg-on"><Icon nombre="camara" />Imagen</span><span><Icon nombre="videocam" />Vídeo</span></div>
+      <div class="c-card c-lab__lienzo"><span class="c-lab__badge">Próximamente</span><Icon nombre="camara" tam={48} /><span class="c-lab__lienzo-txt">Vista previa de la composición</span></div>
+      <div class="c-card c-lab__sujeto"><p class="c-headline"><Icon nombre="editar" />¿Qué quieres mostrar en tu escena?</p><div class="c-lab__campo"></div></div>
+    </div>
+    <div class="c-lab__col">
+      {grupos.map((g) => (
+        <div class="c-lab__grupo">
+          <p class="c-lab__grupo-cab"><span class="c-headline"><Icon nombre={g.ico as any} />{g.t}</span><span class="c-meta">{g.s}</span></p>
+          <div class="c-lab__opciones"><span></span><span></span><span></span><span></span></div>
+        </div>
+      ))}
+      <div class="c-card c-card--terminal c-lab__term">
+        <p class="c-terminal-cab"><span class="c-prompt__luces"><i></i><i></i><i></i></span>Prompt resultante</p>
+        <div class="c-lab__lineas"><span></span><span></span><span></span><span></span></div>
+        <p class="c-terminal-txt">Aparecerá aquí cuando el laboratorio esté listo.</p>
+      </div>
+    </div>
+  </div>
+  <div data-js="laboratorio-visual" hidden></div>
+  <p class="c-acciones"><a class="c-btn" href="/prompts/"><Icon nombre="prompts" />Mientras tanto, ver la biblioteca de prompts</a></p>
+</Layout>

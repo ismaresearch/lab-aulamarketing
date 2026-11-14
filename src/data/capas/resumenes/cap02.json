@@ -1,0 +1,46 @@
+{
+  "id": "c02",
+  "promesa": "Aplicarás el design thinking paso a paso para innovar poniendo a tu cliente en el centro, con apoyo de IA.",
+  "al_terminar_tendras": [
+    "Un reto de innovación acotado y un equipo multidisciplinar preparado para abordarlo",
+    "Tu problema formulado como enunciado \"¿Cómo podríamos...?\" (HMW) con criterios de éxito",
+    "Una selección de 2-5 conceptos surgidos de la ideación, listos para prototipar",
+    "Un plan de prototipado y testeo con usuarios reales",
+    "Las herramientas digitales y de IA adecuadas para cada fase del proceso"
+  ],
+  "historia_ana": null,
+  "resumen_capitulo": "Las pymes necesitan innovar sin grandes inversiones, y el design thinking les ofrece una forma de hacerlo. Es una metodología centrada en el usuario: primero comprende a fondo a las personas, define bien el problema y solo después explora soluciones mediante experimentación y prototipos rápidos. Es flexible, escalable y apta para equipos pequeños. En este capítulo conoces su definición, sus tendencias (como la incorporación de la IA en cada fase o los design sprints) y sus principios: empatía, experimentación iterativa, colaboración multidisciplinar, orientación a la acción y optimismo constructivo. Repasas las cinco fases del modelo de la D.school de Stanford, casos reales como Airbnb o GE Healthcare y su relación con lean startup, las metodologías ágiles y el Business Model Canvas. Después sigues una guía práctica de implementación, desde la preparación hasta la puesta en marcha. Por último, dispones de herramientas digitales, asistentes de IA y prompts para cada etapa. El capítulo termina invitándote a diseñar tu customer journey.",
+  "secciones": {
+    "c02-s1": {
+      "idea_clave": "El design thinking invierte la lógica tradicional: empieza por comprender a las personas y busca el equilibrio entre deseabilidad, factibilidad y viabilidad.",
+      "resumen": "El design thinking es una metodología de innovación centrada en el usuario que combina pensamiento analítico y creativo. En lugar de partir de la viabilidad técnica o financiera, empieza por las necesidades, deseos y frustraciones de las personas, en línea con el enfoque customer centric. Tim Brown, de IDEO, lo sitúa en el punto de encuentro entre lo que las personas necesitan, lo que la tecnología permite y lo que es sostenible para el negocio. Entre sus tendencias actuales destacan: la IA como apoyo en cada fase, sin reemplazar la creatividad humana; un enfoque más inclusivo; los design sprints de Google Ventures, que condensan el proceso en cinco días; el pensamiento sistémico y el sustainable design thinking; y una mayor atención a la implementación, que era su punto débil. Sus principios son cinco. Empatía como base, construida con investigación y contacto directo. Experimentación iterativa en lugar de buscar la solución perfecta. Colaboración entre perfiles diversos. Orientación a la acción mediante prototipos. Y optimismo constructivo: siempre se puede mejorar.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 5
+    },
+    "c02-s2": {
+      "idea_clave": "El modelo de Stanford organiza el design thinking en cinco fases: empatizar, definir, idear, prototipar y testear, que se repiten y se solapan.",
+      "resumen": "Existen muchas variantes del proceso, pero el modelo más adoptado es el de la D.school de Stanford, con cinco fases. Empatizar: observar, entrevistar y sumergirse en la realidad del usuario para descubrir lo que necesita de verdad, aunque no sepa expresarlo. Definir: sintetizar esos hallazgos en un enunciado del problema con el formato \"¿Cómo podríamos...?\", concreto para guiar la acción pero abierto para no imponer la solución; un problema mal planteado lleva a soluciones inadecuadas. Idear: generar muchas soluciones con técnicas como el brainstorming, SCAMPER o las analogías, primando la cantidad y aplazando el juicio, para seleccionar después las más prometedoras. Prototipar: convertir las ideas en algo tangible, desde un boceto en papel hasta una simulación digital, con el fin de obtener feedback. Testear: poner los prototipos en manos de usuarios reales para aprender qué funciona y qué no. Las fases no son estrictamente secuenciales: los equipos iteran, retroceden o trabajan varias a la vez.",
+      "subsecciones": {
+        "c02-s2.1": {
+          "idea_clave": "Airbnb, GE Healthcare, Netflix y EcoAlf muestran que la empatía con el usuario genera soluciones simples con gran impacto."
+        },
+        "c02-s2.2": {
+          "idea_clave": "El design thinking descubre qué resolver; lean startup, las metodologías ágiles y el Business Model Canvas lo complementan validando, ejecutando y dando viabilidad."
+        }
+      },
+      "minutos_lectura_integro": 6
+    },
+    "c02-s3": {
+      "idea_clave": "Implanta el design thinking en siete fases, desde preparar al equipo hasta implementar y medir, con recursos ajustados a una pyme.",
+      "resumen": "El libro propone una guía práctica para pymes. Preparación: liderazgo implicado, un reto complejo pero acotado, un equipo de 5-8 personas diversas y tiempo protegido. Empatizar: define a tu usuario, incluidos los extremos, e investiga con entrevistas en profundidad, observación, shadowing y diarios; sintetiza con mapas de empatía, personas y customer journey maps. Con pocos recursos, mejor 5-8 entrevistas profundas que 100 encuestas superficiales. Definir: agrupa hallazgos por afinidad, detecta necesidades subyacentes, formula el HMW, fija criterios de éxito y valídalo con los stakeholders. Idear: suspende el juicio, usa el \"Sí, y...\" y técnicas como brainstorming, SCAMPER, analogías o la peor idea posible; después converge en 2-5 conceptos. Prototipar: con fidelidad mínima viable y las hipótesis a validar claras. Testear: con 5-8 usuarios, tareas realistas y observación activa, para mejorar la idea, no para defenderla. Implementación: valida la viabilidad con el Business Model Canvas, traza un roadmap (piloto, escalabilidad, institucionalización), gestiona el cambio y mide el éxito.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 11
+    },
+    "c02-s4": {
+      "idea_clave": "Cada fase del design thinking tiene herramientas digitales e IA que aceleran la investigación, la síntesis, la ideación, el prototipado y el testeo.",
+      "resumen": "El capítulo cierra con un mapa de herramientas por fase. Para empatizar, gestores de investigación cualitativa y plataformas de encuestas; para definir e idear, herramientas de mapeo y brainstorming colaborativo; para prototipar, herramientas de diseño; para testear, plataformas de usabilidad y de análisis de feedback. En el terreno de la IA, los LLM generan cientos de ideas en minutos y ayudan a romper bloqueos; el libro aporta prompts por tipo: específicos, por técnicas, por roles e iterativos. La IA generativa de imagen permite crear prototipos visuales de objetos, espacios o storyboards. NotebookLM agiliza la fase de definir porque trabaja solo con tus fuentes: genera enunciados HMW, personas, journeys y análisis temáticos. Para prototipar hay herramientas que crean interfaces y código, y otras que generan contenido realista o variantes para A/B testing. En el testeo, NotebookLM procesa los audios de las sesiones, detecta emociones y prioriza problemas. El mensaje final: empieza hoy, con un reto concreto y un equipo pequeño, porque el design thinking se aprende haciendo.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 17
+    }
+  }
+}

@@ -1,0 +1,9 @@
+---
+import { marcarTerminos } from '../lib/texto';
+interface Props { texto: string; terminos?: { termino: string; slug: string; definicion: string }[]; usados?: Set<string> }
+const { texto, terminos = [], usados = new Set<string>() } = Astro.props;
+const piezas = terminos.length ? marcarTerminos(texto, terminos, usados) : [{ t: 'txt', v: texto } as const];
+---
+{piezas.map((p) => p.t === 'txt' ? p.v : (
+  <span class="c-term"><a href={`/glosario/${p.slug}/`}>{p.v}</a><span class="c-term__tip" role="tooltip">{p.def} <a href={`/glosario/${p.slug}/`}>Ver en el glosario</a></span></span>
+))}

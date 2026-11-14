@@ -1,0 +1,24 @@
+{
+  "url": "https://lab.aulamarketing.digital",
+  "nombre": "aulamarketing.digital · lab",
+  "nombre_corto": "lab",
+  "descripcion": "Construye tu plan de marketing digital paso a paso con el libro «Desde cero hasta el éxito» y con IA. Gratis, abierto y sin registro.",
+  "idioma": "es-ES",
+  "storage_key": "lab-aulamarketing:v1",
+  "web_principal": "https://aulamarketing.digital",
+  "videoteca_url": "https://aulamarketing.digital",
+  "libro": {
+    "titulo": "Desde cero hasta el éxito. Plan de Marketing Digital: Guía práctica con asistencia IA",
+    "editorial": "Dykinson",
+    "lugar": "Madrid",
+    "anio": 2026,
+    "isbn": "979-13-7047-292-4",
+    "doi": "https://doi.org/10.14679/4978",
+    "licencia": "CC BY-NC-ND 4.0",
+    "licencia_nombre": "Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional",
+    "licencia_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es",
+    "editores": ["Alexander Aguirre Montero", "Ismael Traba Outes"],
+    "autores": ["Ismael Traba Outes", "Alexander Aguirre Montero", "Diego Gómez Carmona", "Pedro Pablo Marín Dueñas"],
+    "cita_apa": "Traba Outes, I., Aguirre Montero, A., Gómez Carmona, D. y Marín Dueñas, P. P. (2026). Desde cero hasta el éxito. Plan de Marketing Digital: Guía práctica con asistencia IA (A. Aguirre Montero e I. Traba Outes, Eds.). Dykinson. https://doi.org/10.14679/4978"
+  }
+}

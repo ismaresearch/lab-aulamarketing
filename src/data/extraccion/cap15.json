@@ -1,0 +1,1964 @@
+{
+  "id": "c15",
+  "numero": 15,
+  "parte": "PARTE 3: CONTROLLING Y HERRAMIENTAS IA",
+  "titulo": "Controlling: el cuadro de mandos estratégico de tu marca",
+  "paginas_pdf": [
+    220,
+    234
+  ],
+  "paginas_libro": [
+    215,
+    229
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "Hagamos un sencillo ejercicio de reflexión, piensa en el plan de marketing digital que acabas de diseñar y que está en pleno proceso de ejecución. Has invertido en anuncios, has creado contenido para posicionarte en buscadores y has diseñado una estrategia de email marketing. Ahora, al ver tu lista de recursos, ¿sabrías evaluar dónde se están utilizando o retornando de forma idónea? ¿Consideras que tienes la capacidad de reacción si descubres que el 40% de los usuarios abandona el sitio web en los primeros diez segundos? Los planes rígidos a un año vista son cosa del pasado. Hoy necesitamos una mentalidad ágil y donde la IA, como asistente, sea un pilar de apoyo. A partir de ahora debes dejar de ver el plan de control o controlling como una tarea burocrática para comprobar que se trata de una necesidad estratégica. De forma sencilla podríamos definir el controlling como la disciplina que nos permite conocer a través de los KPI o métricas clave, cómo manipular las diferentes acciones de nuestro plan de marketing digital para optimizar nuestros resultados o reducir fricciones.\nEsto es posible gracias al análisis de información en tiempo real y al potencial de transformar esta información en decisiones estratégicas fundamentadas en datos. En nuestro caso, el controlling es la herramienta que nos permite verificar si realmente estamos simplificando el proceso de compra de Ana y ofreciéndole una experiencia de no fricción en cada una de las etapas del CJM. Desde una perspectiva experimental, es el laboratorio donde identificamos, por ejemplo, si un anuncio está optimizado para la captación o si un contenido es lo suficientemente saludable para retener a nuestros usuarios.",
+    "narrativa_ana": "En nuestro caso, el controlling es la herramienta que nos permite verificar si realmente estamos simplificando el proceso de compra de Ana y ofreciéndole una experiencia de no fricción en cada una de las etapas del CJM.",
+    "pagina_pdf": 220
+  },
+  "objetivos_aprendizaje": [
+    "Establecer el framing mental adecuado para la etapa de controlling, entendiendo la lógica de la ingeniería inversa en la optimización de las acciones operativas.",
+    "Dominar la terminología esencial y los KPIs fundamentales para cada canal .",
+    "Identificar las señales clave que indican cuándo debemos medir para potenciar o para corregir cuanto antes.",
+    "Utilizar las herramientas de controlling esenciales para asegurar que el proyecto evoluciona en positivo."
+  ],
+  "secciones": [
+    {
+      "id": "c15-s1",
+      "numero": "1",
+      "titulo": "¿Por qué debemos tener una etapa de controlling en nuestro plan de marketing digital?",
+      "pagina_pdf": 220,
+      "pagina_libro": 215,
+      "texto": "El controlling se refiere a esa etapa de control sobre la planificación y la ejecución de la estrategia y de cada acción operativa a través de métricas específicas asociadas a las acciones operativas. La razón principal por la que lo implementamos es pragmática, buscamos evitar una pérdida de recursos, económicos, de tiempo o, fundamentalmente, el desgaste de energía de los recursos humanos. Volvemos a recordar a nuestra querida Ana. Busca una formación que le genere un retorno claro en su carrera profesional. Si nuestras campañas no son medidas y ajustadas constantemente, podríamos estar liberando presupuesto en anuncios que no le llegan o en contenido que no le interesa, desperdiciando recursos valiosos y poniendo en riesgo la rentabilidad del negocio.\nAl establecer objetivos que son medibles (M de SMART), proporcionamos una base sólida para evaluar el éxito o no éxito de nuestras acciones operativas. El controlling nos da la capacidad de reacción a la realidad apoyada en los datos obtenidos. Si el plan de marketing no es revisable y ágil, y no se retroalimenta constantemente de datos en tiempo real, corre el riesgo de quedarse rezagado en un nuevo panorama mucho más cambiante que la década pasada. Por otra parte, las acciones operativas combinadas definen nuestra propuesta estratégica y al medirlas, podemos manipular las diferentes acciones para generar un resultado óptimo o, por lo menos, eliminar problemas.\nAdemás dado que el nuestro es un plan customer-centric, donde el buyer persona debe estar en el centro de todas las decisiones y el controlling es la herramienta que nos permite verificar si realmente estamos simplificando su proceso de compra y ofreciéndole una experiencia óptima constante. Si el usuario abandona la web, si no interactúa con el contenido, si no hace clic en la CTA de un anuncio, las métricas del controlling nos dirán dónde está el problema, permitiéndonos ajustar el diseño, el mensaje o el proceso de pago.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c15-d02"
+      ]
+    },
+    {
+      "id": "c15-s2",
+      "numero": "2",
+      "titulo": "Aspectos clave del controlling",
+      "pagina_pdf": 221,
+      "pagina_libro": 216,
+      "texto": "Para abordar la lectura de resultados con éxito, es fundamental establecer un framing mental adecuado. El controlling además de tener un core de data cuantitativa, es un ciclo continuo de diagnóstico, ajuste y acción, garantizando que nuestra ejecución siga alineada con nuestros objetivos estratégicos. Debemos comprender que las acciones operativas, como la creación de un anuncio, se componen de múltiples elementos susceptibles de ajuste. Por ejemplo, en un anuncio, la imagen puede captar la atención, mientras que el texto busca generar interés o deseo. El script del vídeo, la planificación de imágenes, el ángulo de enfoque y el texto de acompañamiento, todos influyen en el impacto. La fase de controlling nos permite identificar estos puntos de manipulación para generar un resultado óptimo.\nEste framing del que hablamos se representa con el concepto de ingeniería inversa, que consiste en visualizar un objeto y dar pasos atrás describiendo qué ha llevado a la creación de ese objeto. Si imaginamos una mesa de madera con cuatro patas, la ingeniería inversa nos dirá que si separamos los elementos obtendremos un tablero y cuatro estacas rectangulares de madera que han sido pintados y lacados para un acabado decorativo. Si nos vamos más atrás podremos ver que ese tablero y sus patas tienen unas medidas concretas, por lo que una persona o una máquina ha tenido que medirlas y eso significa que pertenecieron a piezas inicialmente más grandes. Así seguiríamos hasta llegar al árbol que da lugar a la madera y a las semillas y proceso de cultivo que permitieron dar lugar al árbol.\n¿Cómo relacionamos esto con nuestra estrategia de marketing digital? Al presentar, por ejemplo, un anuncio formado por diferentes elementos o estímulos, seremos conscientes de que si no tenemos suficientes clics puede ser porque la fotografía, vídeo o contenido no están alineados con las necesidades del público objetivo, por tanto no son persuasivos, otra alternativa podría ser porque el texto no presenta de forma adecuada el ángulo sobre el problema o que el enlace de la CTA no funciona. Este mismo framing es aplicable a cualquier acción de marketing y son las métricas y su lectura combinada lo que nos permite identificar dónde localizar los problemas potenciales.\nEl aspecto más crucial del controlling es identificar en cada una de las acciones operativas cuáles son las métricas fundamentales que nos darán una señal, y el objetivo debe ser medir para potenciar o para corregir cuanto antes:\n✓ Señal de alerta negativa: Indica un problema o un rendimiento por debajo de lo esperado, como en el caso de una tasa de rebote alta.\n✓ Señal neutra: Indica que la acción está funcionando como se esperaba, pero sin gran impacto, como en el caso de un CTR promedio.\n✓ Señal positiva: Indica un rendimiento excepcional que debe ser potenciado y escalado, como ocurre con un alto tiempo de retención en página. A continuación y tras la terminología, podrás observar ejemplos de aplicación de las diferentes acciones del plan de controlling para cada una de tus acciones operativas.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c15-d03",
+        "c15-d04",
+        "c15-d05",
+        "c15-d06"
+      ]
+    },
+    {
+      "id": "c15-s3",
+      "numero": "3",
+      "titulo": "Terminología esencial, tipologías y ejemplos",
+      "pagina_pdf": 222,
+      "pagina_libro": 217,
+      "texto": "Ahora que ya comenzamos a profundizar sobre el verdadero impacto que tiene nuestro plan de control, debemos familiarizarnos con los términos que vamos a encontrar en la documentación disponible en las plataformas y en el desarrollo del contenido de este capítulo.\nControlling: Fase de supervisión y evaluación de la planificación estratégica y de las acciones operativas, cuyo objetivo es medir resultados, corregir desviaciones y optimizar recursos. Incluye el análisis periódico de indicadores clave para garantizar que las decisiones se mantienen alineadas con los objetivos. Ejemplo: se revisa trimestralmente si la inversión en Social Ads se ajusta al Coste por Lead (CPL) previsto.\nKPI: Acrónimo de Key Performance Indicator que utilizamos como indicador clave y que nos permite medir el rendimiento de una acción, estrategia o proceso y evaluar si se están cumpliendo los objetivos fijados. Los KPIs deben ser específicos, medibles y relevantes para la toma de decisiones. Ejemplo: el Engagement Rate superior al 8 % en Instagram Reels o el Lifetime Value (LTV) medio de los estudiantes.\nDashboard de métricas: Panel visual que reúne y organiza en tiempo real los principales indicadores de rendimiento (KPIs) de una estrategia de marketing o proyecto digital. Permite monitorizar resultados, detectar desviaciones, facilitar la toma de decisiones y comunicar el desempeño a equipos o directivos. Suele integrar datos de distintas fuentes, como Google Analytics, redes sociales, CRM o plataformas de automatización, y presenta las métricas de forma gráfica, mediante tablas, gráficas, embudos o mapas de calor. Ejemplo: un dashboard para aulamarketing.digital muestra en una sola pantalla el número de leads generados, el CPL, el ROI de campañas en Meta Ads, el engagement en Instagram y la evolución del LTV por cohortes de estudiantes.\nCPL: Acrónimo de Coste por Lead que utilizamos como indicador que mide cuánto dinero invierte una marca para conseguir un lead, es decir, un usuario que muestra interés y proporciona sus datos de contacto. Se calcula dividiendo el gasto en una campaña o acción de captación entre el número total de leads obtenidos. Es una métrica clave para evaluar la eficiencia económica de estrategias de marketing digital y debe compararse con el LTV y el ROI para determinar su rentabilidad. Ejemplo: si aulamarketing.digital invierte 600 € en una campaña de Meta Ads y obtiene 120 leads, el CPL es de 5 €. Si el LTV medio por estudiante es de 1.200 €, el coste se considera eficiente.\nLTV: Acrónimo de Lifetime Value o Customer Lifetime Value que hace referencia al valor económico total que un cliente aporta a una marca durante toda su relación como consumidor. Se calcula estimando los ingresos generados a lo largo del tiempo menos los costes asociados a su captación y fidelización. Es clave para determinar cuánto se puede invertir de forma rentable en atraer y retener clientes. Ejemplo: si un estudiante permanece en aulamarketing.digital durante dos cursos, compra formaciones adicionales y su aportación media total es de 1.200 €, ese valor se utiliza como referencia para fijar límites al CAC o evaluar la rentabilidad de campañas de retención.\nCAC: Acrónimo de Coste de Adquisición de Cliente que utilizamos para conocer la inversión total en marketing y ventas necesaria para captar un nuevo cliente. Es clave para evaluar la rentabilidad del proceso de captación y debe compararse con el LTV del cliente. Ejemplo: el CAC de un estudiante de aulamarketing.digital debe representar menos de un tercio de su LTV para garantizar rentabilidad.\nROI: Acrónimo de Return on Investment que utilizamos como indicador para medir la rentabilidad total de una acción o inversión, comparando los beneficios obtenidos con los costes asumidos. A diferencia del ROAS, centrado solo en publicidad, el ROI incluye todos los costes asociados como tecnología, personal, producción o tiempo invertido y evalúa el impacto económico global de la estrategia. Ejemplo: si aulamarketing.digital invierte 5.000 € en un curso online con costes de docencia, software, publicidad y gestión y obtiene 12.000 € en matrículas, el ROI permite calcular si el proyecto es rentable y en qué proporción.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c15-h35",
+        "c15-h36",
+        "c15-h37"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c15-d07",
+        "c15-d08",
+        "c15-d09",
+        "c15-d10",
+        "c15-d11",
+        "c15-d12",
+        "c15-d13"
+      ]
+    },
+    {
+      "id": "c15-s4",
+      "numero": "4",
+      "titulo": "Implementación técnica: Píxeles y Google Tag Manager",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "texto": "Una vez que tenemos claros los KPIs y la terminología esencial, debemos comprender cómo capturar correctamente los datos desde el origen. Porque sin una captación precisa de datos, todo nuestro sistema de controlling será inútil. Las métricas son la consecuencia de las acciones que nuestros usuarios realizan en su viaje. Cada clic en Instagram, cada segundo en nuestra landing page, cada apertura de email genera datos que necesitan ser capturados, procesados y conectados mediante píxeles de seguimiento.",
+      "subsecciones": [
+        {
+          "id": "c15-s4.1",
+          "numero": "4.1",
+          "titulo": "El ecosistema interconectado y los píxeles esenciales",
+          "pagina_pdf": 223,
+          "pagina_libro": 218,
+          "texto": "Nuestro plan de marketing digital no funciona como compartimentos estancos. Todos los canales convergen en el sitio web, donde se canaliza el interés para la conversión final. En nuestro caso, cuando Ana ve un reel, hace clic y aterriza en nuestra web, toda esa secuencia debe quedar registrada mediante píxeles, pequeñas piezas de código que cada plataforma proporciona y que actúan como sensores invisibles. Los píxeles fundamentales que necesitas implementar son:\n✓ Píxel de Meta: Rastrea conversiones de Facebook, Instagram, WhatsApp y Threads. Además, alimenta el algoritmo para optimizar automáticamente tus campañas mostrando anuncios a personas similares a quienes ya han pasado de usuarios a leads.\n✓ Google Analytics 4: Herramienta fundamental para comprender el comportamiento dentro de tu sitio: páginas visitadas, tiempo de permanencia, dispositivos o rutas de conversión entre otras muchas métricas valiosas.\n✓ Google Search Console: Proporciona datos sobre rendimiento en búsquedas orgánicas: consultas que llevan tráfico, posiciones, CTR orgánico y problemas técnicos de indexación.\n✓ Píxel de Google Ads: Rastrea conversiones desde publicidad en Google y YouTube, permitiendo calcular el ROAS real y optimizar pujas basándose en conversiones efectivas.",
+          "ids_prompts": [],
+          "ids_herramientas": [
+            "c15-h39",
+            "c15-h40",
+            "c15-h41",
+            "c15-h42",
+            "c15-h43",
+            "c15-h44",
+            "c15-h45",
+            "c15-h46",
+            "c15-h47"
+          ],
+          "ids_figuras": [],
+          "ids_definiciones": [
+            "c15-d14"
+          ]
+        },
+        {
+          "id": "c15-s4.2",
+          "numero": "4.2",
+          "titulo": "Google Tag Manager",
+          "pagina_pdf": 223,
+          "pagina_libro": 218,
+          "texto": "Instalar múltiples píxeles directamente en tu web puede generar dos problemas: ralentizar la velocidad de carga, afectando tu tasa de rebote y SEO y puede complicar la gestión, ya que cada modificación requiere tocar el código del sitio con riesgo de errores. Google Tag Manager (GTM) resuelve ambos problemas ya que instalas un único código de GTM en tu sitio y después gestionas todos los píxeles como etiquetas desde su interfaz web, sin tocar nuevamente tu código. Las ventajas son una mejora el rendimiento al cargar etiquetas de forma asíncrona optimizada, la facilidad de añadir o modificar píxeles en minutos desde la interfaz visual, permite control granular mediante activadores que definen cuándo se dispara cada etiqueta e incluye modo de vista previa para probar todo antes de publicar en producción.",
+          "ids_prompts": [],
+          "ids_herramientas": [
+            "c15-h48"
+          ],
+          "ids_figuras": [],
+          "ids_definiciones": [
+            "c15-d15"
+          ]
+        }
+      ],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c15-h38"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c15-s5",
+      "numero": "5",
+      "titulo": "Métricas clave",
+      "pagina_pdf": 224,
+      "pagina_libro": 219,
+      "texto": "El verdadero valor del controlling está en establecer métricas en cada acción y para cada área. En la base encontramos las métricas operativas, los sensores específicos de cada canal, que nos permiten validar la eficacia de cada canal de forma aislada. Estas métricas de primer nivel son cruciales, ya que nos indican, por ejemplo, si nuestro CTR es más efectivo en redes sociales o en SEO o si el tiempo de retención en página es saludable. Sin embargo, la verdadera magia para la toma de decisiones estratégicas radica en la interdependencia y la lectura combinada de todas las métricas. Al integrar esta visión de micro a macro, el controlling se transforma en una palanca que nos permite manipular las acciones en términos positivos y garantizar que el esfuerzo operativo elimine la fricción en el customer journey, impulsando así la optimización continua y el éxito general del negocio.\n[Tabla 1. Métricas web e e-commerce — transcrita en c15-f01]\n[Tabla 2. Métricas social media — transcrita en c15-f02]\n[Tabla 3. Métricas SEO — transcrita en c15-f03]\n[Tabla 4. Métricas social ads y SEM — transcrita en c15-f04]\n[Tabla 5. Métricas email marketing — transcrita en c15-f05]\n[Tabla 6. Métricas reseñas, influencers y UGC — transcrita en c15-f06]",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c15-h68",
+        "c15-h69",
+        "c15-h70",
+        "c15-h71"
+      ],
+      "ids_figuras": [
+        "c15-f01",
+        "c15-f02",
+        "c15-f03",
+        "c15-f04",
+        "c15-f05",
+        "c15-f06"
+      ],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c15-s6",
+      "numero": "6",
+      "titulo": "Optimización de la operativa del plan de marketing",
+      "pagina_pdf": 227,
+      "pagina_libro": 222,
+      "texto": "Una vez que diseñamos nuestro plan de control nos surge habitualmente una de las grandes preguntas del plan de marketing digital, ¿cómo leer las métricas y dónde aplicar cambios? La verdadera magia del controlling radica en la lectura combinada de las métricas. Los datos aislados no nos dicen la historia completa. Necesitamos una visión holística para diagnosticar la causa raíz de un problema y aplicar el cambio justo y necesario. Este enfoque es la esencia de la mentalidad ágil y de experimentación que proponemos mostrando un ejemplo de análisis basado en el customer journey map.",
+      "subsecciones": [
+        {
+          "id": "c15-s6.1",
+          "numero": "6.1",
+          "titulo": "Diagnóstico basado en la combinación de métricas",
+          "pagina_pdf": 228,
+          "pagina_libro": 223,
+          "texto": "[Tabla 7. Ejemplos de diagnóstico basado en métricas — transcrita en c15-f07]",
+          "ids_prompts": [],
+          "ids_herramientas": [],
+          "ids_figuras": [
+            "c15-f07"
+          ],
+          "ids_definiciones": []
+        },
+        {
+          "id": "c15-s6.2",
+          "numero": "6.2",
+          "titulo": "La lógica de la escalabilidad",
+          "pagina_pdf": 228,
+          "pagina_libro": 223,
+          "texto": "Dentro de las potenciales acciones, las métricas nos ayudan a identificar qué funciona mejor en nuestras acciones operativas. A continuación, anotamos tres ideas que pueden ayudarte a enfocar e identificar qué áreas de tu plan de marketing está funcionando mejor y escalarlo.\n✓ Validación de contenido: Primero, se valida el formato, el tipo de contenido y el ángulo de la propuesta de valor antes de publicarlo en cualquier plataforma.\n✓ Escalabilidad práctica: Si descubrimos que los vídeos cortos con storytelling que muestran el detrás de cámaras de generan un tiempo de visualización elevado, la acción inmediata es hacer más de ese buen contenido e incrementar el volumen de publicación.\n✓ Ajuste de presupuesto en Ads: Si un anuncio específico en Meta comienza a funcionar de manera óptima, con un alto CTR y bajo CPL, la optimización consiste en escalar el presupuesto en márgenes de entre un 20% y 30% más, en periodos de tiempo controlados y dentro de los márgenes previstos de inversión publicitaria, una vez que el algoritmo ha encontrado el público objetivo idóneo.",
+          "ids_prompts": [],
+          "ids_herramientas": [
+            "c15-h49"
+          ],
+          "ids_figuras": [],
+          "ids_definiciones": []
+        }
+      ],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c15-s7",
+      "numero": "7",
+      "titulo": "Planificación",
+      "pagina_pdf": 229,
+      "pagina_libro": 224,
+      "texto": "Una de las debilidades más frecuentes en la elaboración de planes de marketing digital consiste en confundir estrategia con listado de acciones. Definimos canales, proponemos herramientas y enumeramos tácticas, pero no siempre se explicita cuánto tiempo requiere cada fase, quién debe ejecutarla, con qué recursos se desarrollará y en qué secuencia se implementará. Desde una perspectiva aplicada, especialmente en pequeñas empresas, la planificación adquiere valor cuando se transforma en un sistema de trabajo realista, secuenciado y evaluable. La planificación debe entenderse como un proceso de asignación de tiempos, recursos, roles y calendario a las distintas etapas del proyecto, alineado con los objetivos del negocio y con la capacidad real del equipo. Seguir esta lógica facilita que podamos evitar dos errores habituales, diseñar planes técnicamente correctos pero irrealizables, o ejecutar acciones aisladas sin una lógica de prioridad, dependencia y control.\nEl punto de partida corresponde al análisis estratégico o fase de diagnóstico. En esta etapa construiremos la base del plan y alinearemos los objetivos del negocio con lo que se pretende alcanzar. Para equipos pequeños, una dedicación aproximada de entre una y dos horas diarias durante 10–15 días puede resultar adecuada para redactar y ordenar esta fase. En este periodo clarificamos qué se quiere conseguir, con qué recursos contamos, qué limitaciones existen y qué condiciones internas y externas condicionarán la ejecución del plan. La utilidad de esta fase reside en que reduce la improvisación posterior y permite que las decisiones tácticas respondan a una lógica de negocio. Una vez definida la base estratégica, la planificación se desplaza hacia el diseño de las acciones operativas, manteniendo la misma disciplina de trabajo: tiempo asignado, responsables, entregables y relación con objetivos. Dentro de esta etapa, el customer journey map ocupa un lugar central, ya que traduce los objetivos del negocio a un recorrido de interacción desde la perspectiva del buyer persona previamente definido. Cuando se trabaja con equipo, conviene dedicar al menos dos jornadas completas a esta construcción, con el propósito de elaborar un mapa útil para la toma de decisiones y no una mera descripción teórica del recorrido del cliente. Este trabajo permite identificar momentos críticos de atención, confianza, duda, comparación, conversión y fidelización. A partir del customer journey, la identificación de canales deja de plantearse como una decisión aislada y pasa a derivarse de la lógica del recorrido del cliente. La cuestión no es únicamente en qué canales estar presente, ahora valoramos con qué frecuencia, con qué intensidad y con qué función debe activarse cada uno para que el sistema facilite un acercamiento progresivo a la compra o a la captación del lead. Este enfoque ayuda a evitar la dispersión y favorece una planificación más selectiva, especialmente necesaria en negocios con recursos limitados. En lugar de estar en todos los canales posibles, la planificación se orienta a construir un sistema coherente de puntos de contacto.\nDentro de ese sistema, el sitio web o e-commerce constituye el núcleo operativo del plan. Es el espacio en el que convergen la propuesta de valor, la experiencia digital y la estrategia de conversión, por lo que resulta metodológicamente correcto situarlo como primer punto clave de desarrollo. La planificación debe conectar el sitio web con el SEO fundamental y con una estrategia clara de conversión, incorporando criterios como arquitectura, claridad de mensajes, llamadas a la acción, reducción de fricción y elementos de confianza. En términos prácticos, esta prioridad evita una situación muy común, intensificar la captación en canales externos sin haber preparado adecuadamente el entorno donde se producirá la conversión. La estrategia de social media debe planificarse de forma descendente, desde una visión amplia hacia una ejecución controlada. Una secuencia recomendable consiste en comenzar por hitos anuales, descender después a bloques semestrales o mensuales y finalmente, identificar oportunidades concretas de creación de contenido que permitan diversificar formatos y mantener consistencia. Esta forma de planificar nos aporta dos ventajas, mantiene la conexión con objetivos de largo plazo y al mismo tiempo, facilita la gestión operativa diaria sin perder dirección. Además, permite integrar campañas, temporalidades comerciales, estacionalidad y necesidades de posicionamiento de marca. En términos de dedicación, la construcción de este mapa general de planificación puede requerir entre dos y tres jornadas de trabajo cuando se dispone de equipo y coordinación entre perfiles. Cuando se trata de empresas unipersonales, una alternativa viable consiste en dedicar al menos una hora diaria durante una semana o diez días para consolidar progresivamente los bloques del plan. En ambos casos, resulta recomendable trabajar con un horizonte de entre seis meses y un año, ya que este periodo suele ofrecer un equilibrio razonable entre visión estratégica y capacidad de adaptación. Cuando existe urgencia o alta presión temporal, también puede optarse por una modalidad de una o dos sesiones intensivas mensuales que permitan mantener la alineación entre objetivos, acciones y resultados sin perder continuidad.\nUna vez estructurado el núcleo del sistema, diagnóstico, customer journey, canales, web/e-commerce y social media, puede abordarse con mayor consistencia la estrategia de email marketing y la revisión de resultados en términos de medios ganados. Esta secuencia es metodológicamente adecuada porque email marketing y activación de recomendaciones, menciones o reseñas suelen funcionar mejor cuando ya existe una base mínima de captación, una propuesta de valor clara y una experiencia digital suficientemente ordenada. Del mismo modo, la entrada en medios pagados adquiere mayor sentido cuando el resto del sistema está preparado para recibir tráfico, convertir y medir resultados.\nEsta propuesta es flexible en el sentido de que los proyectos que funcionan bajo un marco más ágil buscan reducir al máximo los tiempos, por lo que cualquier nota derivada de esta planificación no encajaría del todo bien en esa estructura. En esos casos es posible que ante un menor tiempo y un mayor potencial de inversión publicitaria puedan basar toda su estrategia inicial en un funnel desde los ads. En cualquier caso la recomendación es crear una mínima estructura donde la publicidad sea complementaria y no el canal más relevante de nuestra estrategia. La planificación de medios pagados exige una aproximación vinculada a recursos totales y criterios de rentabilidad esperada. Antes de activar campañas, conviene definir el coste máximo por lead (CPL) asumible en función de la propuesta de valor, analizar el Lifetime Value (LTV) para estimar cuánto valor puede generar la relación con el cliente en el tiempo y evaluar qué volumen de captación externa es sostenible. Sobre esta base, la empresa podrá valorar con mayor criterio campañas de Social Ads, acciones dirigidas a intención de búsqueda o formatos como YouTube Ads, según su contexto, oferta y madurez digital. Para planificar una campaña estacional realista, imaginemos una empresa que cuenta con un presupuesto publicitario de 1.000 € y busca vender un producto con un precio final de 50 €. El equipo de marketing establece desde el principio un límite de rentabilidad, fijando un coste por lead (CPL) máximo de 5 €. Siguiendo esta premisa, la inversión de 1.000 € permitirá captar un total de 200 leads cualificados. Para conseguir este volumen de contactos con un embudo optimizado, calculamos que será necesario atraer aproximadamente a 5.000 visitantes a la landing page. Esto supone alcanzar una tasa de conversión de usuario a lead del 4%, una cifra muy sólida y realista si la web ofrece una buena experiencia de usuario y una propuesta de valor clara. Subiendo un escalón más en el embudo para entender el esfuerzo publicitario necesario, debemos calcular a cuánta gente hay que mostrarle los anuncios para lograr esas 5.000 visitas. Si asumimos un porcentaje de clics (CTR) promedio del 1%, la campaña necesitará impactar y mostrarse a unos 500.000 usuarios. Este volumen nos deja un coste por clic (CPC) resultante de 0,20 €, una métrica totalmente viable en plataformas como Meta Ads o Google Display. Finalmente, el éxito de la campaña dependerá del cierre comercial de esos 200 leads obtenidos, si el equipo de ventas o el sistema automatizado logra convertir al 20% de esos contactos en compradores se generarán 40 clientes y la empresa generará una facturación total de 2.000 €. De este modo, la campaña duplica el presupuesto invertido logrando un ROAS de 2, con un coste por adquisición final (CPA) de 25 € por cliente.\nFinalmente y aunque estamos en el capítulo de controlling y planificación, recordamos que un plan de marketing digital bien diseñado debe incorporar desde el inicio una planificación temporal y de métricas. Es necesario definir qué se medirá en cada etapa, con qué frecuencia, quién será responsable de esa medición y cómo se utilizará la información para tomar decisiones. Para facilitar esta gestión, resulta recomendable trabajar con herramientas de calendarización y seguimiento, como diagramas de Gantt y plataformas de productividad como Asana, Instagant o Monday que permitan visualizar fases, dependencias, responsables y momentos de revisión, además de automatizar el envío de mensajes relacionados a las tareas y a los diferentes roles.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c15-h50",
+        "c15-h51",
+        "c15-h52",
+        "c15-h53",
+        "c15-h54",
+        "c15-h55",
+        "c15-h56"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c15-d16"
+      ]
+    },
+    {
+      "id": "c15-s8",
+      "numero": "8",
+      "titulo": "Herramientas y asistencia IA para planificación y controlling",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "texto": "La planificación y el controlling requieren herramientas que centralicen los datos y permitan una visión clara para la toma de decisiones informadas y ágiles. Para ello utilizaremos herramientas específicas para cada canal y plataformas que nos permitan crear un dashboard completamente a medida. Recomendamos trabajar con Looker Studio que además incorpora una capa de IA con Gemini y nos facilitará ciertas gestiones. Para ayudarte a crear tu propio dashboard con todas las plataformas conectadas y todas las métricas hemos creado un vídeo que podrás encontrar en la biblioteca de aulamarketing.digital.\n✐ Herramientas de planificación\nAsana | Notion | Trello | Monday | Instagant | Jira | Clickup | Smartsheet | Wrike | Microsoft Project\n✐ Herramientas de monitorización centralizada\nLooker Studio | Power BI | Tableau\n✐ Herramientas de monitorización web y auditoría técnica\nGA4 | Google Search Console | Google Page Speed | Pingdom | GTMetrix\n✐ Herramientas de monitorización social media\nMetricool | Hootsuite | Brand24 | Late | Buffer | SproutSocial | Meta Business Suite | TikTok Analytics | Youtube Studio | X Analytics\n✐ Herramientas IA de planificación y controlling\nGemini 3.1 Pro | ChatGPT 5.2 | Claude 4.6 Sonnet | Grok 4.2 | Manus AI | Base44\nEl inicio de todo plan debe diseñarse con una planificación ajustada a objetivos y recursos, por lo que en primer lugar solicitaremos asistencia IA para que nos apoye en nuestra planificación. Previamente hemos tenido que generar nuestro plan de marketing completo o por áreas de acción. Estos serán los documentos de contexto que aportaremos a nuestro LLM para luego lanzarle tres prompt en una secuencia que llamaremos la técnica de la cascada. Esta técnica obliga a la IA a ir de lo macro (el año) a lo micro (la semana), asegurando que cada tarea operativa es un paso exacto dentro del mapa de experiencia del cliente. Recuerda subir tu documento a tu asistente antes de ejecutar los siguientes prompts en el mismo chat, uno detrás de otro, esperando la respuesta entre cada uno. Recomendamos trabajar en Claude 4.6 Sonnet por su eficiencia en el análisis y planificación pero también podríamos utilizar Gemini 3.1 Pro en modo razonamiento, ya que para esta etapa necesitaremos generar múltiples interacciones secuenciales y se trata de un modelo más económico que nos facilitará más consultas.\nEl primer prompt será “Actúa como un Director de Marketing (CMO) altamente analítico. He adjuntado nuestro Plan de Marketing Digital maestro. Tu primera tarea es asimilar este documento por completo, prestando atención milimétrica a nuestros objetivos de negocio, a nuestro Buyer Persona y a nuestro Customer Journey Map. Basándote estrictamente en el documento adjunto (no inventes estrategias externas), genera un Roadmap Estratégico de 2 Semestres. Para cada semestre, define: El Objetivo Principal: (ej. Captación en el S1, Fidelización y Reputación en el S2). Hitos Clave (Modelo PESO): Qué gran hito debemos lograr en Medios Propios, Compartidos, Ganados y Pagados en este periodo. Bloqueo del Customer Journey: ¿En qué fase del embudo de Ana nos vamos a centrar predominantemente en cada semestre? Confírmame que has entendido el plan general resumiendo en una frase cuál es la conversión final que buscamos.”. A continuación le solicitaremos el segundo con el objetivo de generar roadmap específicos “Ahora vamos a hacer zoom y actuarás como un Digital Strategy Lead. Toma el Semestre 1 que acabas de definir y desglósalo en una Planificación Trimestral y Mensual (Mes 1, Mes 2 y Mes 3). Mantén un rigor absoluto con nuestro Customer Journey Map adjunto en el documento original. Para cada mes, detalla: Foco de la Campaña: ¿Qué estamos comunicando este mes? Mapeo del Journey: ¿Qué dolor o necesidad específica de nuestro Buyer Persona estamos resolviendo este mes? (Cita la fase exacta del Customer Journey). Asignación de Canales: Basado en el modelo PESO, qué canal activamos (ej. SEO para web, Instagram para alcance, Meta Ads para conversión). KPIs de Éxito: Si el objetivo de este mes se cumple, ¿qué 2 métricas exactas deben haber subido? (ej. CPL, ROAS, Tráfico web, Volumen de Reseñas). Presenta esta información en formato de tabla para que pueda visualizar la progresión de los tres meses.”. Finalmente la tercera instrucción nos permitirá planear secuencias operativas de cuatro semanas “Actúa como un Project Manager implacable con la ejecución. Toma el Mes 1 que acabamos de diseñar y rómpelo en una Secuencia Operativa de 4 Semanas. Necesito saber exactamente qué tiene que hacer el equipo cada semana para que el mes sea un éxito y avancemos hacia el objetivo anual. Para la Semana 1, Semana 2, Semana 3 y Semana 4, especifica: Entregables Clave: ¿Qué pieza de contenido, campaña técnica o acción de reputación debe estar terminada el viernes de esa semana? Dependencias: ¿Qué tarea de la Semana 1 condiciona el éxito de la Semana 2? (ej. 'No podemos encender los Ads en la S2 si la Landing Page no está validada en la S1'). Auditoría de Cumplimiento: ¿Cómo nos aseguramos a final de semana de que esta acción está impactando directamente a [buyer persona] y no es solo 'trabajo por hacer'? Genera este desglose en un formato de 'Checklist' o 'Backlog' directamente ejecutable por un equipo pequeño o un profesional independiente.”\nUna vez generadas las acciones del plan por períodos, nos centraremos en solicitar apoyo con las métricas. Aunque previamente en el capítulo hemos destacado las métricas fundamentales que vas a necesitar, puedes asegurarte de que seleccionas solo las que encajen con tu plan si lo adjuntas al LLM y solicitas “Actúa como un Analista de Datos y Head of Growth. Basándote en el Plan de Marketing Digital maestro que hemos estado trabajando y en la secuencia del Modelo PESO que hemos definido, necesito que diseñes nuestro Cuadro de Mando Integral (Dashboard) Personalizado. No quiero un listado de métricas genéricas ni de vanidad. Quiero los indicadores exactos y realistas que nos dirán si estamos acercándonos a nuestro objetivo de negocio con [Insertar nombre de tu Buyer Persona, ej: Ana]. Para cada una de las 4 fases (Medios Propios, Compartidos, Ganados y Pagados), define de forma tabular: La Métrica Estrella (North Star Metric): El único número crítico que, si sube (o baja, como el CPL), significa que la estrategia en esta fase es un éxito rotundo. KPIs de Diagnóstico (Máximo 2 por fase): Métricas secundarias para entender el contexto si la métrica estrella falla. Fuente de Datos (Tech Stack): Revisa el documento adjunto e identifica en qué herramienta de las que ya hemos elegido en nuestro plan debemos consultar esta métrica. Solo en el caso de que el plan tenga un 'punto ciego' y no hayamos definido una herramienta para medir este KPI en concreto, sugiéreme una opción accesible y realista para nuestro tamaño de empresa. Frecuencia de Revisión: ¿Debo revisar este dato a diario, semanalmente o mensualmente para no volverme loco pero mantener el control? Justifica brevemente por qué has elegido la Métrica Estrella de los 'Medios Ganados' basándote en la importancia de nuestra reputación online.”\nComo punto final te recomendamos que saques todo el provecho de tu asistente solicitando una auditoría en cada cierre de periodo, eso sí, tú debes generar un resumen de todas las acciones y las métricas reales, de forma que el asistente disponga de una base clara. Para que sea sencillo, puedes hacer capturas de las pantallas de las plataformas de métricas como GA4, Search Console, Meta Ads Manager, pedidos web o cualquiera que muestre los resultados en base a objetivos. Con todas las capturas solicitas un informe global de métricas con la siguiente indicación “Actúa como un Analista de Datos Multimodal (Data Engineer). He adjuntado varias capturas de pantalla de mis herramientas de marketing correspondientes al cierre de este mes. Tu objetivo es procesar visualmente estas imágenes, extraer las métricas clave y consolidarlas en un Informe de Resultados Riguroso que utilizaré inmediatamente después para una auditoría estratégica. Realiza las siguientes tareas con precisión absoluta: Extracción y Estructuración PESO: Lee las imágenes y extrae los datos agrupándolos en las 4 fases de nuestro modelo (Medios Propios, Compartidos, Ganados y Pagados). Asigna cada dato al KPI correspondiente que definimos en nuestro Cuadro de Mando. Normalización de Datos: Si hay métricas financieras, unifícalas (ej. gasto total, coste por lead, ROAS). Si hay porcentajes (ej. Tasa de Conversión), indícalos claramente. Detección de Anomalías Visuales: Observa las gráficas de las capturas. ¿Detectas algún pico inusual de tráfico, una caída abrupta en la interacción o un gasto disparado en un día concreto? Si es así, anótalo como una 'Alerta de Variación'. Formato de Salida (Bloque de Auditoría): Genera el resultado en un bloque de texto limpio y esquemático (sin florituras ni conclusiones estratégicas aún). Este bloque debe estar formateado explícitamente para que yo pueda copiarlo y pegarlo en mi próximo prompt de Auditoría. Termina el informe con la frase: 'Datos consolidados. Listo para iniciar la Auditoría de Desviaciones.”.\nCon el informe de métricas ya redactado, continuaremos solicitando primero una auditoría con la siguiente consulta “Actúa como un Auditor de Datos y Estratega de Marketing (Growth Hacker). Ha terminado el 'Mes 1' de nuestra planificación operativa. Te voy a proporcionar los resultados reales que hemos obtenido en nuestros KPIs principales del modelo PESO. Tu objetivo es comparar estos resultados con los objetivos iniciales de nuestro Customer Journey y generar un Informe de Desviación y Corrección Rápida. [Instrucción: Pega aquí tus métricas, ej: 'Hemos gastado 500€, hemos conseguido 50 leads a 10€ (el objetivo era 5€), el CR de la web es del 1%, y la Valencia de Reputación es de 8/10']. En tu informe, necesito que estructures: El Diagnóstico del Cuello de Botella: ¿En qué fase exacta del modelo PESO y del Customer Journey se está atascando Ana? (ej. 'La reputación es buena y el anuncio funciona, pero el problema de conversión está en los Medios Propios: la web no convierte'). Alerta de Rentabilidad: Calcula si estamos perdiendo dinero con este CPL actual basándote en un ticket medio supuesto de [Insertar tu ticket medio, ej: 30€]. Plan de Acción Pivotante (Corrección): Dame 3 micro-tareas operativas urgentes para la 'Semana 1 del Mes 2' que corrijan esta desviación específica. ¿Qué debemos apagar, qué debemos optimizar y qué debemos escalar?”.\nPor último, aprovecharemos las habilidades de Claude 4.6 Sonnet, Gemini 3.1 Pro en modo canvas o incluso puedes hacer la misma petición en Manus AI o Base44 para generar un dashboard de métricas en el que además dispondremos de un espacio que nos permita saber cómo podríamos haber optimizado las acciones para mejorar resultados. Sube el informe y pega el siguiente prompt “Actúa como un Lead Data Scientist y Desarrollador Front-End. A continuación, te proporciono el informe de resultados de nuestro plan de marketing (Modelo PESO) del último mes para [marca]. Utilizando tus capacidades de generación de interfaz (Artifacts / UI Canvas), necesito que programes y renderices un Dashboard Interactivo y Visual (Single Page Application en React/Tailwind o HTML/JS). El dashboard no debe ser texto plano, debe ser una herramienta con la que yo pueda interactuar directamente en esta pantalla. El Dashboard debe contener estrictamente dos secciones: SECCIÓN 1: La Fotografía Actual (PESO) Un panel visual de tarjetas (cards) que muestre los datos reales que te he proporcionado, organizados por Medios Propios, Compartidos, Ganados y Pagados. Muestra el ROAS real, el CPL real y la Tasa de Conversión real de este mes. SECCIÓN 2: El Simulador de Optimización ('What-If Sandbox') Esta es la herramienta crítica. Crea un espacio interactivo con controles deslizantes (sliders) o campos de entrada (inputs) manipulables para las siguientes 5 variables clave: Inversión Publicitaria (Presupuesto). Alcance (Impresiones). Frecuencia (Veces que un usuario ve el anuncio). Volumen de Leads captados. Cierres/Ventas finales. Lógica del Simulador: Programa el código para que, cuando yo mueva uno de estos sliders (por ejemplo, si subo los leads pero mantengo la inversión, o si bajo la frecuencia para aumentar el alcance), las métricas de rentabilidad (CPL, CPA, Tasa de Conversión y ROAS) se recalculen dinámicamente en tiempo real en la pantalla. Asume un Ticket Medio de [Inserta tu Ticket Medio, ej: 30€] para el cálculo del ROAS. Módulo de Insights Dinámicos: Añade una pequeña caja de texto debajo del simulador que cambie automáticamente según lo que yo esté simulando. Por ejemplo, si subo mucho la 'Frecuencia', el texto debe advertir: 'Alerta: Estás saturando a la audiencia (Ad Fatigue). Podrías haber bajado la frecuencia al 2.5 y destinado ese presupuesto a Medios Ganados para mejorar la conversión'.”",
+      "subsecciones": [],
+      "ids_prompts": [
+        "c15-p01",
+        "c15-p02",
+        "c15-p03",
+        "c15-p04",
+        "c15-p05",
+        "c15-p06",
+        "c15-p07"
+      ],
+      "ids_herramientas": [
+        "c15-h01",
+        "c15-h02",
+        "c15-h03",
+        "c15-h04",
+        "c15-h05",
+        "c15-h06",
+        "c15-h07",
+        "c15-h08",
+        "c15-h09",
+        "c15-h10",
+        "c15-h11",
+        "c15-h12",
+        "c15-h13",
+        "c15-h14",
+        "c15-h15",
+        "c15-h16",
+        "c15-h17",
+        "c15-h18",
+        "c15-h19",
+        "c15-h20",
+        "c15-h21",
+        "c15-h22",
+        "c15-h23",
+        "c15-h24",
+        "c15-h25",
+        "c15-h26",
+        "c15-h27",
+        "c15-h28",
+        "c15-h29",
+        "c15-h30",
+        "c15-h31",
+        "c15-h32",
+        "c15-h33",
+        "c15-h34",
+        "c15-h57",
+        "c15-h58",
+        "c15-h59",
+        "c15-h60",
+        "c15-h61",
+        "c15-h62",
+        "c15-h63",
+        "c15-h64",
+        "c15-h65",
+        "c15-h66",
+        "c15-h67"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c15-d01",
+      "termino": "Controlling (definición de la apertura)",
+      "definicion": "De forma sencilla podríamos definir el controlling como la disciplina que nos permite conocer a través de los KPI o métricas clave, cómo manipular las diferentes acciones de nuestro plan de marketing digital para optimizar nuestros resultados o reducir fricciones.",
+      "id_seccion": "c15-apertura",
+      "pagina_pdf": 220,
+      "pagina_libro": 215
+    },
+    {
+      "id": "c15-d02",
+      "termino": "Controlling (etapa)",
+      "definicion": "El controlling se refiere a esa etapa de control sobre la planificación y la ejecución de la estrategia y de cada acción operativa a través de métricas específicas asociadas a las acciones operativas.",
+      "id_seccion": "c15-s1",
+      "pagina_pdf": 220,
+      "pagina_libro": 215
+    },
+    {
+      "id": "c15-d03",
+      "termino": "Ingeniería inversa",
+      "definicion": "Este framing del que hablamos se representa con el concepto de ingeniería inversa, que consiste en visualizar un objeto y dar pasos atrás describiendo qué ha llevado a la creación de ese objeto.",
+      "id_seccion": "c15-s2",
+      "pagina_pdf": 221,
+      "pagina_libro": 216
+    },
+    {
+      "id": "c15-d04",
+      "termino": "Señal de alerta negativa",
+      "definicion": "Indica un problema o un rendimiento por debajo de lo esperado, como en el caso de una tasa de rebote alta.",
+      "id_seccion": "c15-s2",
+      "pagina_pdf": 221,
+      "pagina_libro": 216
+    },
+    {
+      "id": "c15-d05",
+      "termino": "Señal neutra",
+      "definicion": "Indica que la acción está funcionando como se esperaba, pero sin gran impacto, como en el caso de un CTR promedio.",
+      "id_seccion": "c15-s2",
+      "pagina_pdf": 221,
+      "pagina_libro": 216
+    },
+    {
+      "id": "c15-d06",
+      "termino": "Señal positiva",
+      "definicion": "Indica un rendimiento excepcional que debe ser potenciado y escalado, como ocurre con un alto tiempo de retención en página. A continuación y tras la terminología, podrás observar ejemplos de aplicación de las diferentes acciones del plan de controlling para cada una de tus acciones operativas.",
+      "id_seccion": "c15-s2",
+      "pagina_pdf": 221,
+      "pagina_libro": 216
+    },
+    {
+      "id": "c15-d07",
+      "termino": "Controlling",
+      "definicion": "Fase de supervisión y evaluación de la planificación estratégica y de las acciones operativas, cuyo objetivo es medir resultados, corregir desviaciones y optimizar recursos. Incluye el análisis periódico de indicadores clave para garantizar que las decisiones se mantienen alineadas con los objetivos. Ejemplo: se revisa trimestralmente si la inversión en Social Ads se ajusta al Coste por Lead (CPL) previsto.",
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217
+    },
+    {
+      "id": "c15-d08",
+      "termino": "KPI",
+      "definicion": "Acrónimo de Key Performance Indicator que utilizamos como indicador clave y que nos permite medir el rendimiento de una acción, estrategia o proceso y evaluar si se están cumpliendo los objetivos fijados. Los KPIs deben ser específicos, medibles y relevantes para la toma de decisiones. Ejemplo: el Engagement Rate superior al 8 % en Instagram Reels o el Lifetime Value (LTV) medio de los estudiantes.",
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217
+    },
+    {
+      "id": "c15-d09",
+      "termino": "Dashboard de métricas",
+      "definicion": "Panel visual que reúne y organiza en tiempo real los principales indicadores de rendimiento (KPIs) de una estrategia de marketing o proyecto digital. Permite monitorizar resultados, detectar desviaciones, facilitar la toma de decisiones y comunicar el desempeño a equipos o directivos. Suele integrar datos de distintas fuentes, como Google Analytics, redes sociales, CRM o plataformas de automatización, y presenta las métricas de forma gráfica, mediante tablas, gráficas, embudos o mapas de calor. Ejemplo: un dashboard para aulamarketing.digital muestra en una sola pantalla el número de leads generados, el CPL, el ROI de campañas en Meta Ads, el engagement en Instagram y la evolución del LTV por cohortes de estudiantes.",
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217
+    },
+    {
+      "id": "c15-d10",
+      "termino": "CPL",
+      "definicion": "Acrónimo de Coste por Lead que utilizamos como indicador que mide cuánto dinero invierte una marca para conseguir un lead, es decir, un usuario que muestra interés y proporciona sus datos de contacto. Se calcula dividiendo el gasto en una campaña o acción de captación entre el número total de leads obtenidos. Es una métrica clave para evaluar la eficiencia económica de estrategias de marketing digital y debe compararse con el LTV y el ROI para determinar su rentabilidad. Ejemplo: si aulamarketing.digital invierte 600 € en una campaña de Meta Ads y obtiene 120 leads, el CPL es de 5 €. Si el LTV medio por estudiante es de 1.200 €, el coste se considera eficiente.",
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217
+    },
+    {
+      "id": "c15-d11",
+      "termino": "LTV",
+      "definicion": "Acrónimo de Lifetime Value o Customer Lifetime Value que hace referencia al valor económico total que un cliente aporta a una marca durante toda su relación como consumidor. Se calcula estimando los ingresos generados a lo largo del tiempo menos los costes asociados a su captación y fidelización. Es clave para determinar cuánto se puede invertir de forma rentable en atraer y retener clientes. Ejemplo: si un estudiante permanece en aulamarketing.digital durante dos cursos, compra formaciones adicionales y su aportación media total es de 1.200 €, ese valor se utiliza como referencia para fijar límites al CAC o evaluar la rentabilidad de campañas de retención.",
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217
+    },
+    {
+      "id": "c15-d12",
+      "termino": "CAC",
+      "definicion": "Acrónimo de Coste de Adquisición de Cliente que utilizamos para conocer la inversión total en marketing y ventas necesaria para captar un nuevo cliente. Es clave para evaluar la rentabilidad del proceso de captación y debe compararse con el LTV del cliente. Ejemplo: el CAC de un estudiante de aulamarketing.digital debe representar menos de un tercio de su LTV para garantizar rentabilidad.",
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217
+    },
+    {
+      "id": "c15-d13",
+      "termino": "ROI",
+      "definicion": "Acrónimo de Return on Investment que utilizamos como indicador para medir la rentabilidad total de una acción o inversión, comparando los beneficios obtenidos con los costes asumidos. A diferencia del ROAS, centrado solo en publicidad, el ROI incluye todos los costes asociados como tecnología, personal, producción o tiempo invertido y evalúa el impacto económico global de la estrategia. Ejemplo: si aulamarketing.digital invierte 5.000 € en un curso online con costes de docencia, software, publicidad y gestión y obtiene 12.000 € en matrículas, el ROI permite calcular si el proyecto es rentable y en qué proporción.",
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217
+    },
+    {
+      "id": "c15-d14",
+      "termino": "Píxeles",
+      "definicion": "píxeles, pequeñas piezas de código que cada plataforma proporciona y que actúan como sensores invisibles.",
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218
+    },
+    {
+      "id": "c15-d15",
+      "termino": "Google Tag Manager (GTM)",
+      "definicion": "Google Tag Manager (GTM) resuelve ambos problemas ya que instalas un único código de GTM en tu sitio y después gestionas todos los píxeles como etiquetas desde su interfaz web, sin tocar nuevamente tu código.",
+      "id_seccion": "c15-s4.2",
+      "pagina_pdf": 223,
+      "pagina_libro": 218
+    },
+    {
+      "id": "c15-d16",
+      "termino": "Planificación",
+      "definicion": "La planificación debe entenderse como un proceso de asignación de tiempos, recursos, roles y calendario a las distintas etapas del proyecto, alineado con los objetivos del negocio y con la capacidad real del equipo.",
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 229,
+      "pagina_libro": 224
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c15-p01",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "origen": "texto",
+      "texto": "Actúa como un Director de Marketing (CMO) altamente analítico. He adjuntado nuestro Plan de Marketing Digital maestro. Tu primera tarea es asimilar este documento por completo, prestando atención milimétrica a nuestros objetivos de negocio, a nuestro Buyer Persona y a nuestro Customer Journey Map. Basándote estrictamente en el documento adjunto (no inventes estrategias externas), genera un Roadmap Estratégico de 2 Semestres. Para cada semestre, define: El Objetivo Principal: (ej. Captación en el S1, Fidelización y Reputación en el S2). Hitos Clave (Modelo PESO): Qué gran hito debemos lograr en Medios Propios, Compartidos, Ganados y Pagados en este periodo. Bloqueo del Customer Journey: ¿En qué fase del embudo de Ana nos vamos a centrar predominantemente en cada semestre? Confírmame que has entendido el plan general resumiendo en una frase cuál es la conversión final que buscamos.",
+      "contexto_previo": "Recuerda subir tu documento a tu asistente antes de ejecutar los siguientes prompts en el mismo chat, uno detrás de otro, esperando la respuesta entre cada uno. Recomendamos trabajar en Claude 4.6 Sonnet por su eficiencia en el análisis y planificación pero también podríamos utilizar Gemini 3.1 Pro en modo razonamiento, ya que para esta etapa necesitaremos generar múltiples interacciones secuenciales y se trata de un modelo más económico que nos facilitará más consultas. El primer prompt será",
+      "contexto_posterior": "A continuación le solicitaremos el segundo con el objetivo de generar roadmap específicos",
+      "herramienta_ia_indicada": [
+        "Claude 4.6 Sonnet",
+        "Gemini 3.1 Pro"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": "He adjuntado nuestro Plan de Marketing Digital maestro.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c15-p02",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "pagina_libro": 227,
+      "origen": "texto",
+      "texto": "Ahora vamos a hacer zoom y actuarás como un Digital Strategy Lead. Toma el Semestre 1 que acabas de definir y desglósalo en una Planificación Trimestral y Mensual (Mes 1, Mes 2 y Mes 3). Mantén un rigor absoluto con nuestro Customer Journey Map adjunto en el documento original. Para cada mes, detalla: Foco de la Campaña: ¿Qué estamos comunicando este mes? Mapeo del Journey: ¿Qué dolor o necesidad específica de nuestro Buyer Persona estamos resolviendo este mes? (Cita la fase exacta del Customer Journey). Asignación de Canales: Basado en el modelo PESO, qué canal activamos (ej. SEO para web, Instagram para alcance, Meta Ads para conversión). KPIs de Éxito: Si el objetivo de este mes se cumple, ¿qué 2 métricas exactas deben haber subido? (ej. CPL, ROAS, Tráfico web, Volumen de Reseñas). Presenta esta información en formato de tabla para que pueda visualizar la progresión de los tres meses.",
+      "contexto_previo": "A continuación le solicitaremos el segundo con el objetivo de generar roadmap específicos",
+      "contexto_posterior": "Finalmente la tercera instrucción nos permitirá planear secuencias operativas de cuatro semanas",
+      "herramienta_ia_indicada": [
+        "Claude 4.6 Sonnet",
+        "Gemini 3.1 Pro"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": "Toma el Semestre 1 que acabas de definir y desglósalo en una Planificación Trimestral y Mensual (Mes 1, Mes 2 y Mes 3).",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c15-p03",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "pagina_libro": 227,
+      "origen": "texto",
+      "texto": "Actúa como un Project Manager implacable con la ejecución. Toma el Mes 1 que acabamos de diseñar y rómpelo en una Secuencia Operativa de 4 Semanas. Necesito saber exactamente qué tiene que hacer el equipo cada semana para que el mes sea un éxito y avancemos hacia el objetivo anual. Para la Semana 1, Semana 2, Semana 3 y Semana 4, especifica: Entregables Clave: ¿Qué pieza de contenido, campaña técnica o acción de reputación debe estar terminada el viernes de esa semana? Dependencias: ¿Qué tarea de la Semana 1 condiciona el éxito de la Semana 2? (ej. 'No podemos encender los Ads en la S2 si la Landing Page no está validada en la S1'). Auditoría de Cumplimiento: ¿Cómo nos aseguramos a final de semana de que esta acción está impactando directamente a [buyer persona] y no es solo 'trabajo por hacer'? Genera este desglose en un formato de 'Checklist' o 'Backlog' directamente ejecutable por un equipo pequeño o un profesional independiente.",
+      "contexto_previo": "Finalmente la tercera instrucción nos permitirá planear secuencias operativas de cuatro semanas",
+      "contexto_posterior": "Una vez generadas las acciones del plan por períodos, nos centraremos en solicitar apoyo con las métricas.",
+      "herramienta_ia_indicada": [
+        "Claude 4.6 Sonnet",
+        "Gemini 3.1 Pro"
+      ],
+      "marcadores_variables": [
+        "[buyer persona]"
+      ],
+      "referencia_a_salida_previa": "Toma el Mes 1 que acabamos de diseñar y rómpelo en una Secuencia Operativa de 4 Semanas.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c15-p04",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "pagina_libro": 227,
+      "origen": "texto",
+      "texto": "Actúa como un Analista de Datos y Head of Growth. Basándote en el Plan de Marketing Digital maestro que hemos estado trabajando y en la secuencia del Modelo PESO que hemos definido, necesito que diseñes nuestro Cuadro de Mando Integral (Dashboard) Personalizado. No quiero un listado de métricas genéricas ni de vanidad. Quiero los indicadores exactos y realistas que nos dirán si estamos acercándonos a nuestro objetivo de negocio con [Insertar nombre de tu Buyer Persona, ej: Ana]. Para cada una de las 4 fases (Medios Propios, Compartidos, Ganados y Pagados), define de forma tabular: La Métrica Estrella (North Star Metric): El único número crítico que, si sube (o baja, como el CPL), significa que la estrategia en esta fase es un éxito rotundo. KPIs de Diagnóstico (Máximo 2 por fase): Métricas secundarias para entender el contexto si la métrica estrella falla. Fuente de Datos (Tech Stack): Revisa el documento adjunto e identifica en qué herramienta de las que ya hemos elegido en nuestro plan debemos consultar esta métrica. Solo en el caso de que el plan tenga un 'punto ciego' y no hayamos definido una herramienta para medir este KPI en concreto, sugiéreme una opción accesible y realista para nuestro tamaño de empresa. Frecuencia de Revisión: ¿Debo revisar este dato a diario, semanalmente o mensualmente para no volverme loco pero mantener el control? Justifica brevemente por qué has elegido la Métrica Estrella de los 'Medios Ganados' basándote en la importancia de nuestra reputación online.",
+      "contexto_previo": "Aunque previamente en el capítulo hemos destacado las métricas fundamentales que vas a necesitar, puedes asegurarte de que seleccionas solo las que encajen con tu plan si lo adjuntas al LLM y solicitas",
+      "contexto_posterior": "Como punto final te recomendamos que saques todo el provecho de tu asistente solicitando una auditoría en cada cierre de periodo, eso sí, tú debes generar un resumen de todas las acciones y las métricas reales, de forma que el asistente disponga de una base clara.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Insertar nombre de tu Buyer Persona, ej: Ana]"
+      ],
+      "referencia_a_salida_previa": "Basándote en el Plan de Marketing Digital maestro que hemos estado trabajando y en la secuencia del Modelo PESO que hemos definido",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c15-p05",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "pagina_libro": 228,
+      "origen": "texto",
+      "texto": "Actúa como un Analista de Datos Multimodal (Data Engineer). He adjuntado varias capturas de pantalla de mis herramientas de marketing correspondientes al cierre de este mes. Tu objetivo es procesar visualmente estas imágenes, extraer las métricas clave y consolidarlas en un Informe de Resultados Riguroso que utilizaré inmediatamente después para una auditoría estratégica. Realiza las siguientes tareas con precisión absoluta: Extracción y Estructuración PESO: Lee las imágenes y extrae los datos agrupándolos en las 4 fases de nuestro modelo (Medios Propios, Compartidos, Ganados y Pagados). Asigna cada dato al KPI correspondiente que definimos en nuestro Cuadro de Mando. Normalización de Datos: Si hay métricas financieras, unifícalas (ej. gasto total, coste por lead, ROAS). Si hay porcentajes (ej. Tasa de Conversión), indícalos claramente. Detección de Anomalías Visuales: Observa las gráficas de las capturas. ¿Detectas algún pico inusual de tráfico, una caída abrupta en la interacción o un gasto disparado en un día concreto? Si es así, anótalo como una 'Alerta de Variación'. Formato de Salida (Bloque de Auditoría): Genera el resultado en un bloque de texto limpio y esquemático (sin florituras ni conclusiones estratégicas aún). Este bloque debe estar formateado explícitamente para que yo pueda copiarlo y pegarlo en mi próximo prompt de Auditoría. Termina el informe con la frase: 'Datos consolidados. Listo para iniciar la Auditoría de Desviaciones.",
+      "contexto_previo": "Para que sea sencillo, puedes hacer capturas de las pantallas de las plataformas de métricas como GA4, Search Console, Meta Ads Manager, pedidos web o cualquiera que muestre los resultados en base a objetivos. Con todas las capturas solicitas un informe global de métricas con la siguiente indicación",
+      "contexto_posterior": "Con el informe de métricas ya redactado, continuaremos solicitando primero una auditoría con la siguiente consulta",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": "He adjuntado varias capturas de pantalla de mis herramientas de marketing correspondientes al cierre de este mes. [...] Asigna cada dato al KPI correspondiente que definimos en nuestro Cuadro de Mando.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c15-p06",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "pagina_libro": 228,
+      "origen": "texto",
+      "texto": "Actúa como un Auditor de Datos y Estratega de Marketing (Growth Hacker). Ha terminado el 'Mes 1' de nuestra planificación operativa. Te voy a proporcionar los resultados reales que hemos obtenido en nuestros KPIs principales del modelo PESO. Tu objetivo es comparar estos resultados con los objetivos iniciales de nuestro Customer Journey y generar un Informe de Desviación y Corrección Rápida. [Instrucción: Pega aquí tus métricas, ej: 'Hemos gastado 500€, hemos conseguido 50 leads a 10€ (el objetivo era 5€), el CR de la web es del 1%, y la Valencia de Reputación es de 8/10']. En tu informe, necesito que estructures: El Diagnóstico del Cuello de Botella: ¿En qué fase exacta del modelo PESO y del Customer Journey se está atascando Ana? (ej. 'La reputación es buena y el anuncio funciona, pero el problema de conversión está en los Medios Propios: la web no convierte'). Alerta de Rentabilidad: Calcula si estamos perdiendo dinero con este CPL actual basándote en un ticket medio supuesto de [Insertar tu ticket medio, ej: 30€]. Plan de Acción Pivotante (Corrección): Dame 3 micro-tareas operativas urgentes para la 'Semana 1 del Mes 2' que corrijan esta desviación específica. ¿Qué debemos apagar, qué debemos optimizar y qué debemos escalar?",
+      "contexto_previo": "Con el informe de métricas ya redactado, continuaremos solicitando primero una auditoría con la siguiente consulta",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Instrucción: Pega aquí tus métricas, ej: 'Hemos gastado 500€, hemos conseguido 50 leads a 10€ (el objetivo era 5€), el CR de la web es del 1%, y la Valencia de Reputación es de 8/10']",
+        "[Insertar tu ticket medio, ej: 30€]"
+      ],
+      "referencia_a_salida_previa": "[Instrucción: Pega aquí tus métricas, ej: 'Hemos gastado 500€, hemos conseguido 50 leads a 10€ (el objetivo era 5€), el CR de la web es del 1%, y la Valencia de Reputación es de 8/10']",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c15-p07",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "pagina_libro": 228,
+      "origen": "texto",
+      "texto": "Actúa como un Lead Data Scientist y Desarrollador Front-End. A continuación, te proporciono el informe de resultados de nuestro plan de marketing (Modelo PESO) del último mes para [marca]. Utilizando tus capacidades de generación de interfaz (Artifacts / UI Canvas), necesito que programes y renderices un Dashboard Interactivo y Visual (Single Page Application en React/Tailwind o HTML/JS). El dashboard no debe ser texto plano, debe ser una herramienta con la que yo pueda interactuar directamente en esta pantalla. El Dashboard debe contener estrictamente dos secciones: SECCIÓN 1: La Fotografía Actual (PESO) Un panel visual de tarjetas (cards) que muestre los datos reales que te he proporcionado, organizados por Medios Propios, Compartidos, Ganados y Pagados. Muestra el ROAS real, el CPL real y la Tasa de Conversión real de este mes. SECCIÓN 2: El Simulador de Optimización ('What-If Sandbox') Esta es la herramienta crítica. Crea un espacio interactivo con controles deslizantes (sliders) o campos de entrada (inputs) manipulables para las siguientes 5 variables clave: Inversión Publicitaria (Presupuesto). Alcance (Impresiones). Frecuencia (Veces que un usuario ve el anuncio). Volumen de Leads captados. Cierres/Ventas finales. Lógica del Simulador: Programa el código para que, cuando yo mueva uno de estos sliders (por ejemplo, si subo los leads pero mantengo la inversión, o si bajo la frecuencia para aumentar el alcance), las métricas de rentabilidad (CPL, CPA, Tasa de Conversión y ROAS) se recalculen dinámicamente en tiempo real en la pantalla. Asume un Ticket Medio de [Inserta tu Ticket Medio, ej: 30€] para el cálculo del ROAS. Módulo de Insights Dinámicos: Añade una pequeña caja de texto debajo del simulador que cambie automáticamente según lo que yo esté simulando. Por ejemplo, si subo mucho la 'Frecuencia', el texto debe advertir: 'Alerta: Estás saturando a la audiencia (Ad Fatigue). Podrías haber bajado la frecuencia al 2.5 y destinado ese presupuesto a Medios Ganados para mejorar la conversión'.",
+      "contexto_previo": "Por último, aprovecharemos las habilidades de Claude 4.6 Sonnet, Gemini 3.1 Pro en modo canvas o incluso puedes hacer la misma petición en Manus AI o Base44 para generar un dashboard de métricas en el que además dispondremos de un espacio que nos permita saber cómo podríamos haber optimizado las acciones para mejorar resultados. Sube el informe y pega el siguiente prompt",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "Claude 4.6 Sonnet",
+        "Gemini 3.1 Pro",
+        "Manus AI",
+        "Base44"
+      ],
+      "marcadores_variables": [
+        "[marca]",
+        "[Inserta tu Ticket Medio, ej: 30€]"
+      ],
+      "referencia_a_salida_previa": "A continuación, te proporciono el informe de resultados de nuestro plan de marketing (Modelo PESO) del último mes para [marca].",
+      "salida_mostrada_en_libro": null
+    }
+  ],
+  "herramientas_mencionadas": [
+    {
+      "id": "c15-h01",
+      "nombre": "Asana",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d019"
+    },
+    {
+      "id": "c15-h02",
+      "nombre": "Notion",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d162"
+    },
+    {
+      "id": "c15-h03",
+      "nombre": "Trello",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d220"
+    },
+    {
+      "id": "c15-h04",
+      "nombre": "Monday",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d156"
+    },
+    {
+      "id": "c15-h05",
+      "nombre": "Instagant",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d115"
+    },
+    {
+      "id": "c15-h06",
+      "nombre": "Jira",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d119"
+    },
+    {
+      "id": "c15-h07",
+      "nombre": "Clickup",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d045"
+    },
+    {
+      "id": "c15-h08",
+      "nombre": "Smartsheet",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d196"
+    },
+    {
+      "id": "c15-h09",
+      "nombre": "Wrike",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d249"
+    },
+    {
+      "id": "c15-h10",
+      "nombre": "Microsoft Project",
+      "bloque": "Herramientas de planificación",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d153"
+    },
+    {
+      "id": "c15-h11",
+      "nombre": "Looker Studio",
+      "bloque": "Herramientas de monitorización centralizada",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d136"
+    },
+    {
+      "id": "c15-h12",
+      "nombre": "Power BI",
+      "bloque": "Herramientas de monitorización centralizada",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d179"
+    },
+    {
+      "id": "c15-h13",
+      "nombre": "Tableau",
+      "bloque": "Herramientas de monitorización centralizada",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d213"
+    },
+    {
+      "id": "c15-h14",
+      "nombre": "GA4",
+      "bloque": "Herramientas de monitorización web y auditoría técnica",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d082"
+    },
+    {
+      "id": "c15-h15",
+      "nombre": "Google Search Console",
+      "bloque": "Herramientas de monitorización web y auditoría técnica",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d088"
+    },
+    {
+      "id": "c15-h16",
+      "nombre": "Google Page Speed",
+      "bloque": "Herramientas de monitorización web y auditoría técnica",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d086"
+    },
+    {
+      "id": "c15-h17",
+      "nombre": "Pingdom",
+      "bloque": "Herramientas de monitorización web y auditoría técnica",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d175"
+    },
+    {
+      "id": "c15-h18",
+      "nombre": "GTMetrix",
+      "bloque": "Herramientas de monitorización web y auditoría técnica",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d094"
+    },
+    {
+      "id": "c15-h19",
+      "nombre": "Metricool",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d151"
+    },
+    {
+      "id": "c15-h20",
+      "nombre": "Hootsuite",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d098"
+    },
+    {
+      "id": "c15-h21",
+      "nombre": "Brand24",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d030"
+    },
+    {
+      "id": "c15-h22",
+      "nombre": "Late",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d128"
+    },
+    {
+      "id": "c15-h23",
+      "nombre": "Buffer",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d037"
+    },
+    {
+      "id": "c15-h24",
+      "nombre": "SproutSocial",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d206"
+    },
+    {
+      "id": "c15-h25",
+      "nombre": "Meta Business Suite",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d150"
+    },
+    {
+      "id": "c15-h26",
+      "nombre": "TikTok Analytics",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d218"
+    },
+    {
+      "id": "c15-h27",
+      "nombre": "Youtube Studio",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d258"
+    },
+    {
+      "id": "c15-h28",
+      "nombre": "X Analytics",
+      "bloque": "Herramientas de monitorización social media",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d250"
+    },
+    {
+      "id": "c15-h29",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": "Herramientas IA de planificación y controlling",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    },
+    {
+      "id": "c15-h30",
+      "nombre": "ChatGPT 5.2",
+      "bloque": "Herramientas IA de planificación y controlling",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia009"
+    },
+    {
+      "id": "c15-h31",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": "Herramientas IA de planificación y controlling",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia012"
+    },
+    {
+      "id": "c15-h32",
+      "nombre": "Grok 4.2",
+      "bloque": "Herramientas IA de planificación y controlling",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia031"
+    },
+    {
+      "id": "c15-h33",
+      "nombre": "Manus AI",
+      "bloque": "Herramientas IA de planificación y controlling",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h34",
+      "nombre": "Base44",
+      "bloque": "Herramientas IA de planificación y controlling",
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia005"
+    },
+    {
+      "id": "c15-h35",
+      "nombre": "Instagram Reels",
+      "bloque": null,
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217,
+      "descripcion_libro": "Ejemplo: el Engagement Rate superior al 8 % en Instagram Reels o el Lifetime Value (LTV) medio de los estudiantes.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d116"
+    },
+    {
+      "id": "c15-h36",
+      "nombre": "Google Analytics",
+      "bloque": null,
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217,
+      "descripcion_libro": "Suele integrar datos de distintas fuentes, como Google Analytics, redes sociales, CRM o plataformas de automatización, y presenta las métricas de forma gráfica, mediante tablas, gráficas, embudos o mapas de calor.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d082"
+    },
+    {
+      "id": "c15-h37",
+      "nombre": "Meta Ads",
+      "bloque": null,
+      "id_seccion": "c15-s3",
+      "pagina_pdf": 222,
+      "pagina_libro": 217,
+      "descripcion_libro": "Ejemplo: un dashboard para aulamarketing.digital muestra en una sola pantalla el número de leads generados, el CPL, el ROI de campañas en Meta Ads, el engagement en Instagram y la evolución del LTV por cohortes de estudiantes.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h38",
+      "nombre": "Instagram",
+      "bloque": null,
+      "id_seccion": "c15-s4",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "Cada clic en Instagram, cada segundo en nuestra landing page, cada apertura de email genera datos que necesitan ser capturados, procesados y conectados mediante píxeles de seguimiento.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d116"
+    },
+    {
+      "id": "c15-h39",
+      "nombre": "Píxel de Meta",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Píxel de Meta: Rastrea conversiones de Facebook, Instagram, WhatsApp y Threads.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h40",
+      "nombre": "Facebook",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Píxel de Meta: Rastrea conversiones de Facebook, Instagram, WhatsApp y Threads.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d063"
+    },
+    {
+      "id": "c15-h41",
+      "nombre": "Instagram",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Píxel de Meta: Rastrea conversiones de Facebook, Instagram, WhatsApp y Threads.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d116"
+    },
+    {
+      "id": "c15-h42",
+      "nombre": "WhatsApp",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Píxel de Meta: Rastrea conversiones de Facebook, Instagram, WhatsApp y Threads.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h43",
+      "nombre": "Threads",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Píxel de Meta: Rastrea conversiones de Facebook, Instagram, WhatsApp y Threads.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d215"
+    },
+    {
+      "id": "c15-h44",
+      "nombre": "Google Analytics 4",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Google Analytics 4: Herramienta fundamental para comprender el comportamiento dentro de tu sitio: páginas visitadas, tiempo de permanencia, dispositivos o rutas de conversión entre otras muchas métricas valiosas.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d082"
+    },
+    {
+      "id": "c15-h45",
+      "nombre": "Google Search Console",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Google Search Console: Proporciona datos sobre rendimiento en búsquedas orgánicas: consultas que llevan tráfico, posiciones, CTR orgánico y problemas técnicos de indexación.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d088"
+    },
+    {
+      "id": "c15-h46",
+      "nombre": "Píxel de Google Ads",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Píxel de Google Ads: Rastrea conversiones desde publicidad en Google y YouTube, permitiendo calcular el ROAS real y optimizar pujas basándose en conversiones efectivas.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h47",
+      "nombre": "YouTube",
+      "bloque": null,
+      "id_seccion": "c15-s4.1",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "✓ Píxel de Google Ads: Rastrea conversiones desde publicidad en Google y YouTube, permitiendo calcular el ROAS real y optimizar pujas basándose en conversiones efectivas.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h48",
+      "nombre": "Google Tag Manager",
+      "bloque": null,
+      "id_seccion": "c15-s4.2",
+      "pagina_pdf": 223,
+      "pagina_libro": 218,
+      "descripcion_libro": "Google Tag Manager (GTM) resuelve ambos problemas ya que instalas un único código de GTM en tu sitio y después gestionas todos los píxeles como etiquetas desde su interfaz web, sin tocar nuevamente tu código.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h49",
+      "nombre": "Meta",
+      "bloque": null,
+      "id_seccion": "c15-s6.2",
+      "pagina_pdf": 229,
+      "pagina_libro": 224,
+      "descripcion_libro": "✓ Ajuste de presupuesto en Ads: Si un anuncio específico en Meta comienza a funcionar de manera óptima, con un alto CTR y bajo CPL, la optimización consiste en escalar el presupuesto en márgenes de entre un 20% y 30% más, en periodos de tiempo controlados y dentro de los márgenes previstos de inversión publicitaria, una vez que el algoritmo ha encontrado el público objetivo idóneo.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h50",
+      "nombre": "Social Ads",
+      "bloque": null,
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 230,
+      "pagina_libro": 225,
+      "descripcion_libro": "Sobre esta base, la empresa podrá valorar con mayor criterio campañas de Social Ads, acciones dirigidas a intención de búsqueda o formatos como YouTube Ads, según su contexto, oferta y madurez digital.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h51",
+      "nombre": "YouTube Ads",
+      "bloque": null,
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 230,
+      "pagina_libro": 225,
+      "descripcion_libro": "Sobre esta base, la empresa podrá valorar con mayor criterio campañas de Social Ads, acciones dirigidas a intención de búsqueda o formatos como YouTube Ads, según su contexto, oferta y madurez digital.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h52",
+      "nombre": "Meta Ads",
+      "bloque": null,
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 230,
+      "pagina_libro": 225,
+      "descripcion_libro": "Este volumen nos deja un coste por clic (CPC) resultante de 0,20 €, una métrica totalmente viable en plataformas como Meta Ads o Google Display.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h53",
+      "nombre": "Google Display",
+      "bloque": null,
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 230,
+      "pagina_libro": 225,
+      "descripcion_libro": "Este volumen nos deja un coste por clic (CPC) resultante de 0,20 €, una métrica totalmente viable en plataformas como Meta Ads o Google Display.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h54",
+      "nombre": "Asana",
+      "bloque": null,
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": "Para facilitar esta gestión, resulta recomendable trabajar con herramientas de calendarización y seguimiento, como diagramas de Gantt y plataformas de productividad como Asana, Instagant o Monday que permitan visualizar fases, dependencias, responsables y momentos de revisión, además de automatizar el envío de mensajes relacionados a las tareas y a los diferentes roles.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d019"
+    },
+    {
+      "id": "c15-h55",
+      "nombre": "Instagant",
+      "bloque": null,
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": "Para facilitar esta gestión, resulta recomendable trabajar con herramientas de calendarización y seguimiento, como diagramas de Gantt y plataformas de productividad como Asana, Instagant o Monday que permitan visualizar fases, dependencias, responsables y momentos de revisión, además de automatizar el envío de mensajes relacionados a las tareas y a los diferentes roles.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d115"
+    },
+    {
+      "id": "c15-h56",
+      "nombre": "Monday",
+      "bloque": null,
+      "id_seccion": "c15-s7",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": "Para facilitar esta gestión, resulta recomendable trabajar con herramientas de calendarización y seguimiento, como diagramas de Gantt y plataformas de productividad como Asana, Instagant o Monday que permitan visualizar fases, dependencias, responsables y momentos de revisión, además de automatizar el envío de mensajes relacionados a las tareas y a los diferentes roles.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d156"
+    },
+    {
+      "id": "c15-h57",
+      "nombre": "Looker Studio",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": "Recomendamos trabajar con Looker Studio que además incorpora una capa de IA con Gemini y nos facilitará ciertas gestiones.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d136"
+    },
+    {
+      "id": "c15-h58",
+      "nombre": "Gemini",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": "Recomendamos trabajar con Looker Studio que además incorpora una capa de IA con Gemini y nos facilitará ciertas gestiones.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    },
+    {
+      "id": "c15-h59",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": "Recomendamos trabajar en Claude 4.6 Sonnet por su eficiencia en el análisis y planificación pero también podríamos utilizar Gemini 3.1 Pro en modo razonamiento, ya que para esta etapa necesitaremos generar múltiples interacciones secuenciales y se trata de un modelo más económico que nos facilitará más consultas.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia012"
+    },
+    {
+      "id": "c15-h60",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 231,
+      "pagina_libro": 226,
+      "descripcion_libro": "Recomendamos trabajar en Claude 4.6 Sonnet por su eficiencia en el análisis y planificación pero también podríamos utilizar Gemini 3.1 Pro en modo razonamiento, ya que para esta etapa necesitaremos generar múltiples interacciones secuenciales y se trata de un modelo más económico que nos facilitará más consultas.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    },
+    {
+      "id": "c15-h61",
+      "nombre": "GA4",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "pagina_libro": 227,
+      "descripcion_libro": "Para que sea sencillo, puedes hacer capturas de las pantallas de las plataformas de métricas como GA4, Search Console, Meta Ads Manager, pedidos web o cualquiera que muestre los resultados en base a objetivos.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d082"
+    },
+    {
+      "id": "c15-h62",
+      "nombre": "Search Console",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "pagina_libro": 227,
+      "descripcion_libro": "Para que sea sencillo, puedes hacer capturas de las pantallas de las plataformas de métricas como GA4, Search Console, Meta Ads Manager, pedidos web o cualquiera que muestre los resultados en base a objetivos.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d088"
+    },
+    {
+      "id": "c15-h63",
+      "nombre": "Meta Ads Manager",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 232,
+      "pagina_libro": 227,
+      "descripcion_libro": "Para que sea sencillo, puedes hacer capturas de las pantallas de las plataformas de métricas como GA4, Search Console, Meta Ads Manager, pedidos web o cualquiera que muestre los resultados en base a objetivos.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d149"
+    },
+    {
+      "id": "c15-h64",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "pagina_libro": 228,
+      "descripcion_libro": "Por último, aprovecharemos las habilidades de Claude 4.6 Sonnet, Gemini 3.1 Pro en modo canvas o incluso puedes hacer la misma petición en Manus AI o Base44 para generar un dashboard de métricas en el que además dispondremos de un espacio que nos permita saber cómo podríamos haber optimizado las acciones para mejorar resultados.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia012"
+    },
+    {
+      "id": "c15-h65",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "pagina_libro": 228,
+      "descripcion_libro": "Por último, aprovecharemos las habilidades de Claude 4.6 Sonnet, Gemini 3.1 Pro en modo canvas o incluso puedes hacer la misma petición en Manus AI o Base44 para generar un dashboard de métricas en el que además dispondremos de un espacio que nos permita saber cómo podríamos haber optimizado las acciones para mejorar resultados.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    },
+    {
+      "id": "c15-h66",
+      "nombre": "Manus AI",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "pagina_libro": 228,
+      "descripcion_libro": "Por último, aprovecharemos las habilidades de Claude 4.6 Sonnet, Gemini 3.1 Pro en modo canvas o incluso puedes hacer la misma petición en Manus AI o Base44 para generar un dashboard de métricas en el que además dispondremos de un espacio que nos permita saber cómo podríamos haber optimizado las acciones para mejorar resultados.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h67",
+      "nombre": "Base44",
+      "bloque": null,
+      "id_seccion": "c15-s8",
+      "pagina_pdf": 233,
+      "pagina_libro": 228,
+      "descripcion_libro": "Por último, aprovecharemos las habilidades de Claude 4.6 Sonnet, Gemini 3.1 Pro en modo canvas o incluso puedes hacer la misma petición en Manus AI o Base44 para generar un dashboard de métricas en el que además dispondremos de un espacio que nos permita saber cómo podríamos haber optimizado las acciones para mejorar resultados.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia005"
+    },
+    {
+      "id": "c15-h68",
+      "nombre": "Google Page Speed",
+      "bloque": null,
+      "id_seccion": "c15-s5",
+      "pagina_pdf": 224,
+      "pagina_libro": 219,
+      "descripcion_libro": "Optimizar WPO y validar con Google Page Speed, alinear diseño y texto de la landing page con la promesa del anuncio. (Tabla 1, c15-f01)",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d086"
+    },
+    {
+      "id": "c15-h69",
+      "nombre": "Google Ads",
+      "bloque": null,
+      "id_seccion": "c15-s5",
+      "pagina_pdf": 226,
+      "pagina_libro": 221,
+      "descripcion_libro": "Coste que pagamos por cada clic. Fundamental en SEM (Google Ads). (Tabla 4, c15-f04)",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d079"
+    },
+    {
+      "id": "c15-h70",
+      "nombre": "Advantage+",
+      "bloque": null,
+      "id_seccion": "c15-s5",
+      "pagina_pdf": 226,
+      "pagina_libro": 221,
+      "descripcion_libro": "Refinar la segmentación con IA (Advantage+, Performance Max), validar el mensaje del anuncio. (Tabla 4, c15-f04)",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c15-h71",
+      "nombre": "Performance Max",
+      "bloque": null,
+      "id_seccion": "c15-s5",
+      "pagina_pdf": 226,
+      "pagina_libro": 221,
+      "descripcion_libro": "Refinar la segmentación con IA (Advantage+, Performance Max), validar el mensaje del anuncio. (Tabla 4, c15-f04)",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    }
+  ],
+  "figuras_tablas": [
+    {
+      "id": "c15-f01",
+      "tipo": "tabla",
+      "numero": "Tabla 1",
+      "titulo": "Métricas web e e-commerce",
+      "pagina_pdf": 224,
+      "pagina_libro": 219,
+      "contenido": {
+        "columnas": [
+          "Métrica clave",
+          "Por qué es fundamental",
+          "Señal positiva",
+          "Dónde aplicar cambios"
+        ],
+        "filas": [
+          [
+            "Tasa de rebote",
+            "Mide si la página cumple la expectativa del usuario y la velocidad de carga.",
+            "Porcentaje bajo (ej. < 40%).",
+            "Optimizar WPO y validar con Google Page Speed, alinear diseño y texto de la landing page con la promesa del anuncio."
+          ],
+          [
+            "Tiempo de retención en página",
+            "Mide el interés y la calidad del contenido. Mayor tiempo = mayor interés.",
+            "Superior a 3 minutos.",
+            "Aumentar la longitud y calidad del contenido, mejorar la estructura (encabezados, multimedia)."
+          ],
+          [
+            "Sesiones vs. Usuarios",
+            "Indica si el contenido es tan interesante que el usuario regresa. El ratio idóneo sería: Sesiones > Usuarios.",
+            "Que el número de sesiones media supere al número de usuarios.",
+            "Potenciar estrategias para fomentar el regreso y el retargeting."
+          ],
+          [
+            "Clics",
+            "Mide la interacción dentro de la página como los clics en CTAs o los enlaces internos.",
+            "Entre 3 y 8 clics por sesión con un tiempo de retención saludable.",
+            "Alinear enlaces internos con el contenido temático."
+          ],
+          [
+            "Leads",
+            "Conversión directa de visitantes a contactos interesados.",
+            "Alto volumen de suscripciones a la newsletter o descargas de lead magnets.",
+            "Optimizar el captador a través de mejoras en diseño, oferta de valor o ubicación y probar diferentes lead magnets."
+          ],
+          [
+            "Productos añadidos a carrito",
+            "Métrica de alta intención de compra para e-commerce o web con pasarela de pago.",
+            "Alto número de productos añadidos antes del pago o selección de productos de alto valor.",
+            "Reducir fricciones en el proceso de compra, mejorar la claridad de precios/envíos y características de pago."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c15-s5"
+    },
+    {
+      "id": "c15-f02",
+      "tipo": "tabla",
+      "numero": "Tabla 2",
+      "titulo": "Métricas social media",
+      "pagina_pdf": 225,
+      "pagina_libro": 220,
+      "contenido": {
+        "columnas": [
+          "Métrica clave",
+          "Relevancia",
+          "Señal positiva",
+          "Dónde aplicar cambios"
+        ],
+        "filas": [
+          [
+            "Alcance | Reach",
+            "Número de cuentas únicas a las que llegamos.",
+            "Alto volumen de cuentas impactadas.",
+            "Trabajar hashtags de tendencia, optimización para búsqueda social (SEO en redes)."
+          ],
+          [
+            "Visualizaciones | Tiempo de visualización",
+            "Indica si el contenido es lo suficientemente atractivo para detener el scroll.",
+            "Alto ratio de Visualizaciones / Alcance.",
+            "Mejorar el hook o gancho visual o hablado, en los primeros 3 a 5 segundos."
+          ],
+          [
+            "Engagement Rate",
+            "Mide la interacción a través de comentarios, compartidos, guardados.",
+            "Superior al 8% en publicaciones clave.",
+            "Usar narrativas emocionales, fomentar el UGC o contenido generado por el usuario, invitar a la conversación."
+          ],
+          [
+            "CTR orgánico",
+            "Mide la efectividad del contenido para madurar el interés e impulsar el tráfico hacia el medio propio.",
+            "Un CTR entre un 1% y un 3%.",
+            "Asegurar que el mensaje en la red social se alinee con la landing page de destino."
+          ],
+          [
+            "ROI",
+            "Rentabilidad del canal orgánico (frente al coste de producción/gestión).",
+            "Positivo, demostrando que el canal genera beneficios sin inversión directa en ads.",
+            "Escalar el volumen de contenido que ya ha demostrado funcionar."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c15-s5"
+    },
+    {
+      "id": "c15-f03",
+      "tipo": "tabla",
+      "numero": "Tabla 3",
+      "titulo": "Métricas SEO",
+      "pagina_pdf": 225,
+      "pagina_libro": 220,
+      "contenido": {
+        "columnas": [
+          "Métrica clave",
+          "Relevancia",
+          "Señal positiva",
+          "Dónde aplicar cambios"
+        ],
+        "filas": [
+          [
+            "Posición en SERP",
+            "Indica dónde aparece nuestro resultado para una keyword específica.",
+            "Posición 1-3 o resultados en primera página.",
+            "Optimizar el contenido para la intención de búsqueda, o usar estrategias laterales si el contenido es nuevo."
+          ],
+          [
+            "CTR Orgánico",
+            "Mide si el Meta Título y la Meta Descripción son atractivos para el usuario.",
+            "Entre un 1% y un 3% de media y un 20% y 30% para primeros resultados, aunque depende del volumen total de URLs.",
+            "Optimizar Meta Título (H1) y Meta Descripción con palabras clave y copywriting persuasivo."
+          ],
+          [
+            "Core Web Vitals",
+            "Métricas que miden la experiencia de usuario (velocidad, interactividad, estabilidad).",
+            "LCP, FID y CLS óptimos.",
+            "Revisar y mejorar la optimización técnica, el hosting, la compresión de imágenes y el uso de plugins de caché."
+          ],
+          [
+            "Autoridad de backlinks",
+            "Número y calidad de los enlaces dofollow que apuntan a nuestra web.",
+            "Alto número de backlinks de sitios con alta autoridad (ej. Universidades).",
+            "Enfocarse en la colaboración con medios especializados y creación de contenido de alto valor (link-bait)."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c15-s5"
+    },
+    {
+      "id": "c15-f04",
+      "tipo": "tabla",
+      "numero": "Tabla 4",
+      "titulo": "Métricas social ads y SEM",
+      "pagina_pdf": 226,
+      "pagina_libro": 221,
+      "contenido": {
+        "columnas": [
+          "Métrica clave",
+          "Relevancia",
+          "Señal positiva",
+          "Dónde aplicar cambios"
+        ],
+        "filas": [
+          [
+            "ROAS",
+            "Mide la eficiencia y rentabilidad de la inversión directa.",
+            "ROAS alto (ej. 1:3 o superior).",
+            "Manipular el presupuesto (escalar o reducir), ajustar la segmentación, probar nuevos formatos/mensajes."
+          ],
+          [
+            "CPC",
+            "Coste que pagamos por cada clic. Fundamental en SEM (Google Ads).",
+            "CPC bajo, que demuestre una puja eficiente y una alta calidad del anuncio.",
+            "Revisar el nivel de competencia de las keywords, mejorar la calidad del anuncio y landing page."
+          ],
+          [
+            "CPL",
+            "Coste para capturar un contacto cualificado.",
+            "CPL optimizado, bajo el umbral predefinido (ej. 5€/lead).",
+            "Refinar la segmentación con IA (Advantage+, Performance Max), validar el mensaje del anuncio."
+          ],
+          [
+            "CTR de Anuncio",
+            "Mide si el anuncio y su mensaje están resonando con el público objetivo.",
+            "Alto, indicando que el mensaje es relevante para el segmento.",
+            "Si es bajo, fallan el mensaje, el ángulo, o el público; hacer una reflexión profunda sobre el buyer persona y el script."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c15-s5"
+    },
+    {
+      "id": "c15-f05",
+      "tipo": "tabla",
+      "numero": "Tabla 5",
+      "titulo": "Métricas email marketing",
+      "pagina_pdf": 226,
+      "pagina_libro": 221,
+      "contenido": {
+        "columnas": [
+          "Métrica clave",
+          "Relevancia",
+          "Señal positiva",
+          "Dónde aplicar cambios"
+        ],
+        "filas": [
+          [
+            "Tasa de Apertura",
+            "Mide la efectividad del Asunto y la confianza en el Remitente.",
+            "Superior al 35%.",
+            "Optimizar el asunto, garantizar que el correo no caiga en spam (autentificación), ajustar el horario de envío."
+          ],
+          [
+            "Porcentaje de Scroll",
+            "Indica cuánto contenido del email está consumiendo el usuario.",
+            "Llegar hasta el 75% o 90% del correo.",
+            "Acortar los correos, asegurar que el primer 25% responde al asunto, y que el contenido es valioso."
+          ],
+          [
+            "CTR (Correo)",
+            "Mide si el contenido ha motivado al usuario a hacer clic en la llamada a la acción interna.",
+            "Superior al 2%.",
+            "Optimizar la ubicación del CTA, mejorar el copy del correo para generar deseo."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c15-s5"
+    },
+    {
+      "id": "c15-f06",
+      "tipo": "tabla",
+      "numero": "Tabla 6",
+      "titulo": "Métricas reseñas, influencers y UGC",
+      "pagina_pdf": 227,
+      "pagina_libro": 222,
+      "contenido": {
+        "columnas": [
+          "Métrica clave",
+          "Relevancia",
+          "Señal positiva",
+          "Dónde aplicar cambios"
+        ],
+        "filas": [
+          [
+            "Interacciones en Contenido de Influencers",
+            "Mide la calidad de la colaboración y la confianza que la audiencia tiene en el creador.",
+            "Alto engagement, mostrando resultados \"tres veces mejores\" que la publicidad tradicional.",
+            "Trabajar con microinfluencers alineados con el nicho y el valor de la marca."
+          ],
+          [
+            "Volumen de UGC (Contenido Generado por el Usuario)",
+            "Indica la lealtad y el compromiso de la comunidad.",
+            "Los estudiantes comparten activamente sus proyectos usando el hashtag #aulamarketing.digital.",
+            "Incentivar la participación con desafíos y programas de fidelización."
+          ],
+          [
+            "Valoración Media / Volumen de Reseñas",
+            "Refleja la reputación online, influenciando la confianza de nuevos usuarios.",
+            "Puntuación alta y crecimiento constante en el número de reseñas.",
+            "Solicitar activamente feedback y reseñas a los alumnos satisfechos."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c15-s5"
+    },
+    {
+      "id": "c15-f07",
+      "tipo": "tabla",
+      "numero": "Tabla 7",
+      "titulo": "Ejemplos de diagnóstico basado en métricas",
+      "pagina_pdf": 228,
+      "pagina_libro": 223,
+      "contenido": {
+        "columnas": [
+          "Combinación de métricas",
+          "Diagnóstico clave",
+          "Acción de optimización"
+        ],
+        "filas": [
+          [
+            "Alto CTR (SEO/Ads) + Alta Tasa de Rebote",
+            "Hay una disonancia entre la promesa (anuncio/título) y la realidad (contenido de la página).",
+            "Optimización del Sitio Web/Landing Page (UX/WPO): Mejorar la velocidad de carga (Core Web Vitals), simplificar la interfaz, o reescribir el contenido de la página para que cumpla lo prometido en el titular."
+          ],
+          [
+            "Alto Alcance (Social) + Bajas Visualizaciones",
+            "El contenido está llegando, pero el gancho visual o el formato no es lo suficientemente atractivo para detener el scroll de Ana.",
+            "Optimización del Contenido Creativo (Social Media): Reforzar la estrategia de hooks visuales, probar ángulos más auténticos o hiperrealistas (menos editados). Si el contenido es bueno, incrementar el volumen de publicación."
+          ],
+          [
+            "Bajo Posicionamiento SEO (Página 2-3) + Bajo CTR",
+            "El contenido no está respondiendo óptimamente a la intención de búsqueda.",
+            "Optimización SEO OnPage y OffPage: Revisar si el H1 contiene la keyword principal, buscar activamente backlinks de calidad, utilizar estrategias laterales para generar señales positivas al bot."
+          ],
+          [
+            "Alto CTR de Anuncio + Bajo % de Leads",
+            "El anuncio es atractivo y la segmentación es correcta, pero el lead magnet o el formulario de captación presenta demasiada fricción.",
+            "Optimización del Proceso de Conversión: Simplificar el formulario de captación, asegurar que la oferta (regalo/descuento) justifique la entrega del correo, o realizar A/B testing en la landing page."
+          ],
+          [
+            "Bajo CTR de Anuncio + Bajo ROAS",
+            "El presupuesto se está gastando sin atraer al público adecuado o el mensaje no resuena.",
+            "Optimización de segmentación y mensaje (Ads): Revisar a fondo el Buyer Persona para afinar los intereses y datos psicográficos, probar mensajes más orientados a la solución (modelo PAS), o usar la IA para optimizar la segmentación en tiempo real."
+          ],
+          [
+            "Baja Tasa de Apertura (Email) + Baja Tasa de Clics",
+            "El email no se está entregando correctamente o el Asunto es deficiente, impidiendo que el usuario acceda al contenido de valor.",
+            "Optimización del buzón y asunto: Revisar la reputación del buzón de envío, optimizar la redacción del Asunto para generar interés e intriga (no solo venta)."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c15-s6.1"
+    }
+  ],
+  "ejemplo_aulamarketing": {
+    "id_seccion": null,
+    "texto": "Ejemplo: un dashboard para aulamarketing.digital muestra en una sola pantalla el número de leads generados, el CPL, el ROI de campañas en Meta Ads, el engagement en Instagram y la evolución del LTV por cohortes de estudiantes.\nEjemplo: si aulamarketing.digital invierte 600 € en una campaña de Meta Ads y obtiene 120 leads, el CPL es de 5 €. Si el LTV medio por estudiante es de 1.200 €, el coste se considera eficiente.\nEjemplo: si un estudiante permanece en aulamarketing.digital durante dos cursos, compra formaciones adicionales y su aportación media total es de 1.200 €, ese valor se utiliza como referencia para fijar límites al CAC o evaluar la rentabilidad de campañas de retención.\nEjemplo: el CAC de un estudiante de aulamarketing.digital debe representar menos de un tercio de su LTV para garantizar rentabilidad.\nEjemplo: si aulamarketing.digital invierte 5.000 € en un curso online con costes de docencia, software, publicidad y gestión y obtiene 12.000 € en matrículas, el ROI permite calcular si el proyecto es rentable y en qué proporción.",
+    "fragmentos": [
+      {
+        "texto": "Ejemplo: un dashboard para aulamarketing.digital muestra en una sola pantalla el número de leads generados, el CPL, el ROI de campañas en Meta Ads, el engagement en Instagram y la evolución del LTV por cohortes de estudiantes.",
+        "pagina_pdf": 222,
+        "id_seccion": "c15-s3"
+      },
+      {
+        "texto": "Ejemplo: si aulamarketing.digital invierte 600 € en una campaña de Meta Ads y obtiene 120 leads, el CPL es de 5 €. Si el LTV medio por estudiante es de 1.200 €, el coste se considera eficiente.",
+        "pagina_pdf": 222,
+        "id_seccion": "c15-s3"
+      },
+      {
+        "texto": "Ejemplo: si un estudiante permanece en aulamarketing.digital durante dos cursos, compra formaciones adicionales y su aportación media total es de 1.200 €, ese valor se utiliza como referencia para fijar límites al CAC o evaluar la rentabilidad de campañas de retención.",
+        "pagina_pdf": 222,
+        "id_seccion": "c15-s3"
+      },
+      {
+        "texto": "Ejemplo: el CAC de un estudiante de aulamarketing.digital debe representar menos de un tercio de su LTV para garantizar rentabilidad.",
+        "pagina_pdf": 222,
+        "id_seccion": "c15-s3"
+      },
+      {
+        "texto": "Ejemplo: si aulamarketing.digital invierte 5.000 € en un curso online con costes de docencia, software, publicidad y gestión y obtiene 12.000 € en matrículas, el ROI permite calcular si el proyecto es rentable y en qué proporción.",
+        "pagina_pdf": 223,
+        "id_seccion": "c15-s3"
+      },
+      {
+        "texto": "Los estudiantes comparten activamente sus proyectos usando el hashtag #aulamarketing.digital.",
+        "pagina_pdf": 227,
+        "id_seccion": "c15-s5",
+        "nota": "celda de la Tabla 6 (c15-f06)"
+      }
+    ],
+    "entregables": [],
+    "nota": "El capítulo no tiene una sección de ejemplo aulamarketing.digital; el ejemplo aparece repartido en los \"Ejemplo:\" de la terminología (sección 3) y en la Tabla 6."
+  },
+  "remisiones_aulamarketing": [
+    {
+      "texto": "Para ayudarte a crear tu propio dashboard con todas las plataformas conectadas y todas las métricas hemos creado un vídeo que podrás encontrar en la biblioteca de aulamarketing.digital.",
+      "recurso": "vídeo",
+      "tema": "Dashboard de métricas en Looker Studio",
+      "pagina_pdf": 231
+    }
+  ],
+  "remisiones_internas": [
+    {
+      "texto": "Al establecer objetivos que son medibles (M de SMART), proporcionamos una base sólida para evaluar el éxito o no éxito de nuestras acciones operativas.",
+      "capitulo_destino": 1,
+      "pagina_pdf": 221,
+      "nota": "objetivos SMART: cap. 1, sección 5"
+    },
+    {
+      "texto": "A continuación y tras la terminología, podrás observar ejemplos de aplicación de las diferentes acciones del plan de controlling para cada una de tus acciones operativas.",
+      "capitulo_destino": 15,
+      "seccion_destino": "c15-s5",
+      "pagina_pdf": 222
+    },
+    {
+      "texto": "Aunque previamente en el capítulo hemos destacado las métricas fundamentales que vas a necesitar, puedes asegurarte de que seleccionas solo las que encajen con tu plan si lo adjuntas al LLM",
+      "capitulo_destino": 15,
+      "seccion_destino": "c15-s5",
+      "pagina_pdf": 232
+    },
+    {
+      "texto": "Previamente hemos tenido que generar nuestro plan de marketing completo o por áreas de acción.",
+      "capitulo_destino": null,
+      "pagina_pdf": 231,
+      "nota": "remite al plan elaborado a lo largo de los capítulos anteriores"
+    }
+  ],
+  "citas_y_referencias": [],
+  "recursos_externos": [],
+  "otros": [
+    {
+      "descripcion": "Título del capítulo tal como aparece en la página de apertura",
+      "texto": "Capítulo 15 Controlling: el cuadro de mandos estratégico de tu marca",
+      "pagina_pdf": 220
+    },
+    {
+      "descripcion": "Frase introductoria de los objetivos de aprendizaje",
+      "texto": "En este capítulo descubriremos juntos y aprenderás cómo:",
+      "pagina_pdf": 220
+    },
+    {
+      "descripcion": "Tipos de señal de las métricas (alerta negativa, neutra, positiva) — sección 2",
+      "texto": "El aspecto más crucial del controlling es identificar en cada una de las acciones operativas cuáles son las métricas fundamentales que nos darán una señal, y el objetivo debe ser medir para potenciar o para corregir cuanto antes:",
+      "pagina_pdf": 221
+    },
+    {
+      "descripcion": "Ventajas de Google Tag Manager (sección 4.2)",
+      "texto": "Las ventajas son una mejora el rendimiento al cargar etiquetas de forma asíncrona optimizada, la facilidad de añadir o modificar píxeles en minutos desde la interfaz visual, permite control granular mediante activadores que definen cuándo se dispara cada etiqueta e incluye modo de vista previa para probar todo antes de publicar en producción.",
+      "pagina_pdf": 223
+    },
+    {
+      "descripcion": "Ejemplo numérico de planificación de una campaña estacional (presupuesto 1.000 €, CPL máximo 5 €, ROAS 2, CPA 25 €) — sección 7",
+      "texto": "Para planificar una campaña estacional realista, imaginemos una empresa que cuenta con un presupuesto publicitario de 1.000 € y busca vender un producto con un precio final de 50 €. El equipo de marketing establece desde el principio un límite de rentabilidad, fijando un coste por lead (CPL) máximo de 5 €. Siguiendo esta premisa, la inversión de 1.000 € permitirá captar un total de 200 leads cualificados. Para conseguir este volumen de contactos con un embudo optimizado, calculamos que será necesario atraer aproximadamente a 5.000 visitantes a la landing page. Esto supone alcanzar una tasa de conversión de usuario a lead del 4%, una cifra muy sólida y realista si la web ofrece una buena experiencia de usuario y una propuesta de valor clara. Subiendo un escalón más en el embudo para entender el esfuerzo publicitario necesario, debemos calcular a cuánta gente hay que mostrarle los anuncios para lograr esas 5.000 visitas. Si asumimos un porcentaje de clics (CTR) promedio del 1%, la campaña necesitará impactar y mostrarse a unos 500.000 usuarios. Este volumen nos deja un coste por clic (CPC) resultante de 0,20 €, una métrica totalmente viable en plataformas como Meta Ads o Google Display. Finalmente, el éxito de la campaña dependerá del cierre comercial de esos 200 leads obtenidos, si el equipo de ventas o el sistema automatizado logra convertir al 20% de esos contactos en compradores se generarán 40 clientes y la empresa generará una facturación total de 2.000 €. De este modo, la campaña duplica el presupuesto invertido logrando un ROAS de 2, con un coste por adquisición final (CPA) de 25 € por cliente.",
+      "pagina_pdf": 230
+    },
+    {
+      "descripcion": "Dedicación orientativa por fase de la planificación: diagnóstico (sección 7)",
+      "texto": "Para equipos pequeños, una dedicación aproximada de entre una y dos horas diarias durante 10–15 días puede resultar adecuada para redactar y ordenar esta fase.",
+      "pagina_pdf": 229
+    },
+    {
+      "descripcion": "Dedicación orientativa por fase de la planificación: customer journey map (sección 7)",
+      "texto": "Cuando se trabaja con equipo, conviene dedicar al menos dos jornadas completas a esta construcción, con el propósito de elaborar un mapa útil para la toma de decisiones y no una mera descripción teórica del recorrido del cliente.",
+      "pagina_pdf": 229
+    },
+    {
+      "descripcion": "Dedicación orientativa por fase de la planificación: mapa general de social media (sección 7)",
+      "texto": "En términos de dedicación, la construcción de este mapa general de planificación puede requerir entre dos y tres jornadas de trabajo cuando se dispone de equipo y coordinación entre perfiles. Cuando se trata de empresas unipersonales, una alternativa viable consiste en dedicar al menos una hora diaria durante una semana o diez días para consolidar progresivamente los bloques del plan. En ambos casos, resulta recomendable trabajar con un horizonte de entre seis meses y un año, ya que este periodo suele ofrecer un equilibrio razonable entre visión estratégica y capacidad de adaptación. Cuando existe urgencia o alta presión temporal, también puede optarse por una modalidad de una o dos sesiones intensivas mensuales que permitan mantener la alineación entre objetivos, acciones y resultados sin perder continuidad.",
+      "pagina_pdf": 230
+    },
+    {
+      "descripcion": "Secuencia de planificación: email marketing, medios ganados y medios pagados (sección 7)",
+      "texto": "Una vez estructurado el núcleo del sistema, diagnóstico, customer journey, canales, web/e-commerce y social media, puede abordarse con mayor consistencia la estrategia de email marketing y la revisión de resultados en términos de medios ganados. Esta secuencia es metodológicamente adecuada porque email marketing y activación de recomendaciones, menciones o reseñas suelen funcionar mejor cuando ya existe una base mínima de captación, una propuesta de valor clara y una experiencia digital suficientemente ordenada. Del mismo modo, la entrada en medios pagados adquiere mayor sentido cuando el resto del sistema está preparado para recibir tráfico, convertir y medir resultados.",
+      "pagina_pdf": 230
+    },
+    {
+      "descripcion": "Técnica de la cascada (secuencia de tres prompts de lo macro a lo micro) — sección 8",
+      "texto": "Estos serán los documentos de contexto que aportaremos a nuestro LLM para luego lanzarle tres prompt en una secuencia que llamaremos la técnica de la cascada. Esta técnica obliga a la IA a ir de lo macro (el año) a lo micro (la semana), asegurando que cada tarea operativa es un paso exacto dentro del mapa de experiencia del cliente. Recuerda subir tu documento a tu asistente antes de ejecutar los siguientes prompts en el mismo chat, uno detrás de otro, esperando la respuesta entre cada uno.",
+      "pagina_pdf": 231
+    },
+    {
+      "descripcion": "Lógica de la escalabilidad: tres ideas (validación de contenido, escalabilidad práctica, ajuste de presupuesto en Ads) — sección 6.2",
+      "texto": "✓ Validación de contenido: Primero, se valida el formato, el tipo de contenido y el ángulo de la propuesta de valor antes de publicarlo en cualquier plataforma.\n✓ Escalabilidad práctica: Si descubrimos que los vídeos cortos con storytelling que muestran el detrás de cámaras de generan un tiempo de visualización elevado, la acción inmediata es hacer más de ese buen contenido e incrementar el volumen de publicación.\n✓ Ajuste de presupuesto en Ads: Si un anuncio específico en Meta comienza a funcionar de manera óptima, con un alto CTR y bajo CPL, la optimización consiste en escalar el presupuesto en márgenes de entre un 20% y 30% más, en periodos de tiempo controlados y dentro de los márgenes previstos de inversión publicitaria, una vez que el algoritmo ha encontrado el público objetivo idóneo.",
+      "pagina_pdf": 228
+    },
+    {
+      "descripcion": "Nota: el capítulo no contiene un cronograma, diagrama de Gantt ni tabla de planificación; la sección 7 (Planificación) es solo texto. Las páginas PDF 224 y 228 contienen Tablas 1 y 7 (texto nativo, no imágenes).",
+      "texto": null,
+      "pagina_pdf": null
+    }
+  ],
+  "control": {
+    "num_secciones": 8,
+    "num_subsecciones": 4,
+    "num_prompts": 7,
+    "num_herramientas": 71,
+    "num_herramientas_distintas": 54,
+    "num_figuras_tablas": 7,
+    "num_definiciones": 16,
+    "num_entregables": 0,
+    "paginas_revisadas": [
+      220,
+      235
+    ],
+    "incidencias": [
+      "No hay imágenes en las páginas PDF 220–235 (pdfimages no lista ninguna; imagenes_por_pagina.txt tampoco). Las 7 tablas son texto nativo; se transcribieron desde la capa de texto y se verificaron Tablas 1 (pág. PDF 224) y 7 (pág. PDF 228) contra el render de página. origen = \"texto\".",
+      "No existe cronograma, diagrama de Gantt ni tabla de planificación en el capítulo: la sección 7 (Planificación) es íntegramente texto (dedicaciones por fase y ejemplo numérico de campaña); las págs. PDF 224 y 228 contienen las Tablas 1 y 7. El libro solo recomienda \"diagramas de Gantt y plataformas de productividad\".",
+      "No hay fórmulas tipografiadas: los cálculos (CPL = gasto / leads; ejemplo 600 € / 120 leads = 5 €; campaña estacional 1.000 € → 200 leads → 5.000 visitas (4 %) → 500.000 impresiones (CTR 1 %) → CPC 0,20 € → 40 clientes (20 %) → 2.000 € → ROAS 2, CPA 25 €) se expresan en prosa y se recogen literales en las definiciones (c15-d10) y en \"otros\".",
+      "En el texto de las secciones las tablas se sustituyen por marcadores \"[Tabla N. ... — transcrita en c15-fNN]\"; las transcripciones literales completas (filas × columnas) están en figuras_tablas.",
+      "Bloques ✐: 5 (sección 8): Herramientas de planificación; Herramientas de monitorización centralizada; Herramientas de monitorización web y auditoría técnica; Herramientas de monitorización social media; Herramientas IA de planificación y controlling. \"Microsoft Project\" se parte en dos líneas en el PDF; se registra como una sola herramienta.",
+      "Prompts: 7, todos en texto corrido (sección 8), entre comillas y en cursiva; ninguno en imagen. c15-p01–p03 forman la \"técnica de la cascada\" (Claude 4.6 Sonnet o Gemini 3.1 Pro en el mismo chat); c15-p04 (dashboard/KPIs) y c15-p05–p06 (informe multimodal y auditoría) sin modelo explícito; c15-p07 (dashboard interactivo) con Claude 4.6 Sonnet, Gemini 3.1 Pro en modo canvas, Manus AI o Base44.",
+      "c15-p05 termina con comilla simple sin cerrar: \"...la frase: 'Datos consolidados. Listo para iniciar la Auditoría de Desviaciones.”\" (literal). c15-p06 cita \"la Valencia de Reputación\" (probable errata de \"Valoración\"/\"valencia\" de sentimiento; literal).",
+      "El capítulo no tiene sección de ejemplo aulamarketing.digital ni bloques ✓ de entregables; ejemplo_aulamarketing recoge los fragmentos \"Ejemplo:\" de la terminología (sección 3) y la celda de la Tabla 6.",
+      "Erratas literales conservadas: \"canal .\" (espacio antes del punto, objetivo 2); \"Las ventajas son una mejora el rendimiento\"; \"el detrás de cámaras de generan\" (sección 6.2); \"qué áreas de tu plan de marketing está funcionando\"; \"Instagant\" (probablemente Instagantt); \"1:3\" como ROAS alto (Tabla 4).",
+      "Herramientas sin entrada en el kit del cap. 16 (id_kit = null): Manus AI (figura en el bloque ✐ IA), Google Tag Manager, Píxel de Meta, Píxel de Google Ads, WhatsApp, YouTube, Meta, Meta Ads, Social Ads, YouTube Ads, Google Display, Advantage+ y Performance Max. Las menciones en tablas (Google Page Speed, Google Ads, Advantage+, Performance Max) se registran con id_seccion c15-s5 y referencia a la tabla.",
+      "La página PDF 235 está en blanco. El libro no muestra salidas de IA para los prompts de este capítulo.",
+      "Cobertura: 40927/40927 caracteres sin espacios de cap15.txt localizados en el JSON (100.00 %)."
+    ]
+  }
+}

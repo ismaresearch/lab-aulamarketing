@@ -1,0 +1,45 @@
+{
+  "id": "c09",
+  "promesa": "Construirás tu propia audiencia por email y diseñarás un funnel que convierta el interés en relación duradera.",
+  "al_terminar_tendras": [
+    "Un lead magnet de alto valor para captar el email de tu buyer persona",
+    "Un funnel de email TOFU-MOFU-BOFU alineado con los niveles de conciencia de tu cliente",
+    "Una secuencia de emails de captación, nurturing, conversión y fidelización",
+    "Tus emails redactados y auditados con prompts de IA: asuntos, cuerpo y CTA",
+    "Criterios para elegir plataforma, automatizar envíos y medir apertura, clics y bajas"
+  ],
+  "historia_ana": "Ana domina las redes y el vídeo, pero necesita convertir el interés casual en una relación duradera sin depender de algoritmos. Busca un canal íntimo, directo y controlado para fidelizar a su audiencia y posicionarse como referente de confianza: el email marketing.",
+  "resumen_capitulo": "El email es un espacio personal donde solo entra quien aporta valor. Por eso, antes de pedir un correo, debes responder a dos preguntas: por qué te lo darían y cómo aportar valor sin un intercambio económico. Vender a un cliente satisfecho es más sencillo que captar uno nuevo, y ahí reside la fuerza del email marketing. En este capítulo entiendes qué es y por qué es un canal privado y con gran potencial de conversión, apoyado en un copywriting ético. Conoces sus tendencias: contenido de nicho, confianza y transparencia, funnels dinámicos e integración con la IA. Aprendes la terminología clave (lead magnet, inbound marketing, funnel, omnicanalidad, tasa de apertura, CTR y bajas) y los tipos de email. Después ves cómo el email acompaña cada fase del funnel TOFU-MOFU-BOFU según los niveles de conciencia. Por último, eliges plataforma y usas la IA para investigar, planificar, redactar, auditar y automatizar. Cierra el capítulo una secuencia completa de nueve emails para Ana.",
+  "secciones": {
+    "c09-s1": {
+      "idea_clave": "El email es un canal privado, sin distracciones y con gran potencial de conversión; su éxito depende de un copywriting ético y de valor.",
+      "resumen": "El email marketing usa el correo de forma estratégica para establecer, nutrir y mantener relaciones con tu público, y alcanzar así objetivos como captar leads, convertir, vender y fidelizar. Suele situarse en las fases intermedias o finales del customer journey. Su gran ventaja es que se trata de un canal privado, sin estímulos externos que distraigan, lo que lo convierte en uno de los de mayor potencial de conversión; según el estudio que cita el libro, el 73 % de las empresas considera excelente o bueno su retorno. Para que tus correos se abran, se lean y generen clics necesitas copywriting: persuadir con ética, sin manipular, con contenido veraz y promesas que se cumplan. Entre las tendencias destacan el contenido de valor contextualizado y de nicho, porque los usuarios solo ceden sus datos si perciben mucho valor; la confianza, la transparencia y la ética como diferenciadores; los funnels de conversión dinámicos y omnicanal; y la IA para personalizar, elegir el momento de envío y generar borradores, siempre con revisión humana final.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 5
+    },
+    "c09-s2": {
+      "idea_clave": "Domina los conceptos clave (lead magnet, inbound, funnel, omnicanalidad, métricas) y los tipos de email según su función en el customer journey.",
+      "resumen": "Antes de actuar, el libro fija los conceptos básicos. Un lead magnet es un contenido gratuito de alto valor que ofreces a cambio del email, como una guía de SEO o un kit de plantillas; un lead es un usuario que ha mostrado interés con alguna acción. El inbound marketing atrae al cliente con contenido de valor en lugar de perseguirlo con publicidad intrusiva. El funnel de conversión es la secuencia de mensajes orientada a una conversión final, y el email es ideal para automatizarlo. La omnicanalidad integra el email con la web y las redes para ofrecer una experiencia coherente. Las métricas clave son la tasa de apertura y la tasa de clics (CTR) sobre la llamada a la acción; el libro cita una media del 22,86 % y del 3,71 %, y una tasa de bajas en torno al 0,21 %. Por último, cada email tiene un propósito: captación, confirmación, agradecimiento, nurturing para ampliar información, recordatorio, satisfacción y up-sell o cross-sell para aumentar el valor del cliente.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c09-s3": {
+      "idea_clave": "El email acompaña al usuario por el funnel: capta en TOFU, nutre en MOFU y convierte en BOFU según su nivel de conciencia.",
+      "resumen": "El email marketing no es un conjunto de mensajes sueltos, sino una arquitectura de comunicación que acompaña al usuario desde el desconocimiento hasta la lealtad. Para diseñarla, el libro se apoya en los niveles de conciencia de Schwartz, descritos en su libro \"Breakthrough Advertising\". TOFU (conciencia): el usuario apenas es consciente del problema; el email capta leads mediante lead magnets y educa sin vender. Por ejemplo, Ana lee un artículo, se suscribe y recibe una guía de automatización. MOFU (evaluación): ya es consciente del problema o de la solución; los nurturing emails cualifican al lead con consejos, casos de estudio, preguntas frecuentes o invitaciones a webinars, generando deseo. Ana recibe emails sobre herramientas, casos de éxito y una invitación a un webinar. BOFU (conversión): sabe que tu producto resuelve su problema; es el momento de las ofertas directas, los testimonios, las demostraciones, el up-sell y el cross-sell, además de los emails de confirmación de compra. Ana recibe un testimonio y una oferta especial para inscribirse en el curso.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    },
+    "c09-s4": {
+      "idea_clave": "Elige una plataforma de email y apóyate en la IA para investigar, planificar el funnel, redactar, auditar y automatizar tus envíos.",
+      "resumen": "Las plataformas de email marketing comparten casi todas sus funciones y se diferencian por la interfaz y por sus versiones gratuitas. El libro destaca el potencial de Brevo y la reputación de ActiveCampaign. Sus funciones clave son: gestión y segmentación de listas, diseño de emails sin programar, automatización de flujos según las acciones del usuario, personalización con contenido dinámico, tests A/B, informes de métricas e integraciones con CRM, e-commerce o CMS. Con la IA, Ana gana eficiencia y personalización, sin renunciar a la autenticidad. El proceso arranca con una investigación en NotebookLM, a partir de tu buyer persona, tu marca y un dossier de la competencia, con cuatro prompts: de qué hablar, cómo diferenciarte, qué ganchos usar y qué tono adoptar. Después planificas el funnel TOFU-MOFU-BOFU con un LLM, redactas asuntos, cuerpo y CTA para cada etapa y auditas los borradores antes de enviarlos. Por último, automatizas con segmentación dinámica, horarios óptimos, flujos de nurturing y campañas de reactivación, y analizas tus datos para predecir conversiones o bajas.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 14
+    },
+    "c09-s5": {
+      "idea_clave": "Una secuencia de nueve emails lleva a Ana de descargar una guía gratuita a inscribirse en un curso y convertirse en embajadora.",
+      "resumen": "El ejemplo muestra el email como hilo conductor de la experiencia de Ana. Captación (TOFU): Ana ve en LinkedIn un post sobre las tendencias de 2026, lee el artículo y deja su email a cambio de una guía gratuita de plan de marketing digital para pymes. Email 1: bienvenida y entrega de la guía. Nurturing (MOFU): email 2, tres días después, con un caso de estudio real; email 3, una semana después, con la invitación a un webinar gratuito sobre IA para marketers. Conversión (BOFU): email 4, 24 horas después del webinar, con la apertura de inscripciones al curso, un 20 % de descuento y un testimonio; email 5, un recordatorio de las últimas 24 horas que usa la aversión a la pérdida de forma ética. Fidelización: email 6 de confirmación y bienvenida; email 7 para pedir su opinión tras un módulo; email 8 con novedades de contenido y propuestas de up-sell o cross-sell; y email 9 de felicitación con invitación a dejar su testimonio. Todo, con una comunicación honesta y coherente con lo prometido.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 5
+    }
+  }
+}

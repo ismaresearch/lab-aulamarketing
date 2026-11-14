@@ -1,0 +1,49 @@
+{
+  "id": "c12",
+  "promesa": "Diseñarás una estrategia de colaboración con influencers y UGC que transfiera credibilidad real a tu marca.",
+  "al_terminar_tendras": [
+    "El perfil de influencer adecuado para tu comunidad, según tamaño, nicho y engagement",
+    "Una estrategia de colaboración a largo plazo con co-creación de contenido y UGC reutilizable",
+    "Un formato táctico (branded content, product placement o sponsored links) y una base objetiva para negociar el fee",
+    "Guiones y textos para la campaña conectados con tu propio contenido",
+    "Un sistema para verificar la audiencia, detectar fraude y medir con CPA, código de afiliado y menciones"
+  ],
+  "historia_ana": "Como te ocurre a ti, Ana ya no confía solo en los anuncios tradicionales. Necesita la validación de personas reales que hayan probado de primera mano lo que una marca ofrece.",
+  "resumen_capitulo": "Piensa en tu feed: probablemente consumes más contenido creado por personas que contenido sobre productos. El marketing de influencers seguirá siendo una de las estrategias más rentables, porque los consumidores necesitan la validación de personas reales y las marcas se convierten en creadoras de contenido. En este capítulo entiendes por qué sigue siendo clave: la crisis de confianza hacia las marcas y el mejor rendimiento de los microinfluencers. Conoces los tipos de influencers, desde nano hasta mega y prescriptores profesionales, y conceptos como engagement rate, CPA, UGC, embajador de marca o código de afiliado. Ves las tendencias: menos alcance y más autenticidad, social commerce, contenido educativo, micronichos, co-creación e influencers virtuales. Descubres el valor que aportan (credibilidad, segmentación, contenido nativo, prueba social, alcance cualificado y longevidad) y cómo contactar con ellos, elegir formatos y negociar con datos. Por último, usas herramientas e IA para descubrir, evaluar, gestionar y medir, y ves cómo aulamarketing.digital construye credibilidad ante Ana con un microinfluencer de largo plazo.",
+  "secciones": {
+    "c12-s1": {
+      "idea_clave": "Ante la crisis de confianza en las marcas, los influencers, sobre todo los micro y nano, aportan credibilidad y engagement auténticos.",
+      "resumen": "El influencer marketing sigue siendo clave por un cambio psicológico y social profundo: la crisis de confianza hacia las marcas tradicionales. Los consumidores, sobre todo la Generación Z, confían menos en ellas, y la saturación publicitaria y la proliferación de contenido generado por IA han provocado fatiga digital. Según el libro, colaborar con microinfluencers triplica los resultados, porque su audiencia ya confía en ellos gracias a interacciones auténticas y a una comunicación bidireccional. Los datos que cita refuerzan su relevancia: la inversión en marketing de influencers alcanzaría 32,55 mil millones de dólares a finales de 2025, y los nanoinfluencers representan el 75,9 % de los creadores en Instagram, con un engagement muy superior al de los perfiles de marca. Además, generan UGC reutilizable en otros canales. A lo largo del embudo funcionan como testimonios públicos: en el descubrimiento despiertan curiosidad, en la consideración aportan prueba social y en la decisión impulsan la conversión con códigos de descuento o demostraciones. Para Ana son una ventana a experiencias reales y aplicables.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    },
+    "c12-s2": {
+      "idea_clave": "Elige el tipo de influencer según su alcance y credibilidad, apóyate en las tendencias y construye relaciones genuinas que complementen tu comunicación.",
+      "resumen": "El influencer marketing aprovecha la credibilidad de los creadores para conectar marcas con audiencias específicas; forma parte de los medios ganados, porque la recomendación nace de la credibilidad del creador. Hay nanoinfluencers (1K-10K seguidores), microinfluencers (10K-100K, el segmento más valorado en 2026), macroinfluencers, megainfluencers y prescriptores profesionales. Conviene dominar conceptos como engagement rate (aulamarketing.digital prioriza más del 3 % en Instagram y del 6 % en TikTok), alcance frente a impresiones, CPM y CPA, UGC, embajador de marca, código de afiliado y menciones frente a etiquetas. Las tendencias apuntan a creadores pequeños, social commerce, transparencia, contenido educativo, multiplataforma, micronichos, co-creación e influencers virtuales. Su valor es múltiple (credibilidad, segmentación, contenido nativo, prueba social, alcance cualificado y longevidad), pero complementa tu comunicación, no la sustituye: actúa sobre todo en TOFU. Por último, trata a los creadores como personas, no como vallas publicitarias: elige el formato táctico, negocia con datos de interacción real y prioriza su expertise sobre su fama.",
+      "subsecciones": {
+        "c12-s2.1": {
+          "idea_clave": "Las marcas apuestan por creadores pequeños, contenido educativo, micronichos, social commerce, co-creación e incluso influencers virtuales."
+        },
+        "c12-s2.2": {
+          "idea_clave": "Los influencers aportan credibilidad, segmentación, contenido nativo, prueba social, alcance cualificado y longevidad, pero no sustituyen tu estrategia."
+        },
+        "c12-s2.3": {
+          "idea_clave": "Trata a los influencers como personas, elige el formato táctico, negocia el fee con datos de interacción y prioriza su expertise sobre su fama."
+        }
+      },
+      "minutos_lectura_integro": 8
+    },
+    "c12-s3": {
+      "idea_clave": "Usa herramientas para descubrir, evaluar, gestionar y medir influencers, y prompts de IA para definir el perfil, el embudo y los guiones.",
+      "resumen": "Una gestión profesional del influencer marketing necesita herramientas para cada fase: descubrir creadores, analizarlos y evaluarlos, gestionar las campañas, medir resultados, analizar el rendimiento y detectar fraudes. La IA te ayuda a idear, automatizar procesos y obtener insights. El libro propone empezar con un LLM en modo razonamiento para encontrar el perfil de colaboración idóneo, alineado con tu propuesta de valor, y después validar la calidad y el coste de los candidatos con las herramientas de evaluación. En el mismo LLM defines qué contenidos grabar y cómo llevarán a la audiencia del descubrimiento a la consideración de compra. Aunque muchos influencers gestionan su línea editorial de forma autónoma y no siempre les darás un guion, conviene tenerlo preparado: te aporta seguridad y podrás compartirlo si hace falta. Además, como en paralelo crearás contenido propio en tu web o e-commerce, es importante conectar el mensaje del influencer con ese contenido; para ello el libro aporta prompts de dirección creativa y de copywriting orientado a la conversión.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c12-s4": {
+      "idea_clave": "aulamarketing.digital colabora a largo plazo con un microinfluencer que documenta su aprendizaje, ofrece un código de afiliado y se convierte en embajador.",
+      "resumen": "Ana necesita pruebas de que la formación es práctica y genera resultados, y el influencer se convierte en el puente hacia la consideración y la decisión. La clave es el micronicho y la autenticidad: perfiles como el \"estudiante influencer\" o el \"emprendedor transparente\", que reflejan sus aspiraciones, con prioridad para micro y nanoinfluencers; mejor 1.000 seguidores comprometidos que 100.000 genéricos. No habrá promociones esporádicas, sino una colaboración a largo plazo en la que el influencer documenta cómo aplica un curso avanzado y co-crea vídeos verticales educativos para TikTok e Instagram, generando UGC reutilizable. La narrativa sigue la estructura Antes-Después-Puente con storydoing. En la fase de decisión ofrece un código de afiliado con una CTA clara, y después pasa a ser embajador de marca, con la relación gestionada en una plataforma específica y total transparencia. Se mide el CPA por encima del CPM. Antes de firmar, se detecta el fraude y se comprueba que su audiencia coincide con el perfil de Ana; después, se co-crean guiones y se monitorizan las menciones y el sentimiento.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    }
+  }
+}

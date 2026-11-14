@@ -1,0 +1,51 @@
+{
+  "id": "c03",
+  "promesa": "Construirás el Customer Journey Map de tu buyer persona para dar sentido y coherencia a todas tus acciones.",
+  "al_terminar_tendras": [
+    "El recorrido de tu buyer persona dividido en etapas, con sus acciones, pensamientos y emociones",
+    "Los puntos de contacto y las estrategias de tu marca para cada etapa del viaje",
+    "Un diagnóstico de puntos de dolor y oportunidades con una solución para cada uno",
+    "Ideas para segmentar y personalizar campañas según el momento del cliente",
+    "Tu CJM trabajado en una herramienta digital con apoyo de prompts de IA"
+  ],
+  "historia_ana": "Ana siente la presión de entregar resultados medibles, mantenerse al día y conectar con una audiencia exigente. Rodeada de métricas, canales y competencia, no necesita más complejidad, sino dar sentido a sus acciones. Así descubre el Customer Journey Map.",
+  "resumen_capitulo": "Conectar con las personas no es inmediato: requiere compartir momentos de sorpresa, duda, interés y deseo. El Customer Journey Map (CJM) te ayuda a llevar esa idea al marketing digital. Es una representación visual de la experiencia del cliente con tu marca, pero sobre todo es un ejercicio de empatía. En este capítulo descubres para qué sirve: detectar huecos, crear productos centrados en el usuario, segmentar por comportamiento, personalizar campañas, mejorar la experiencia de usuario y optimizar el embudo. Conoces sus componentes, desde el buyer persona hasta los puntos de dolor y las oportunidades, y las fases del viaje: conciencia, consideración, compra, fidelización y recomendación. Después trabajas con herramientas digitales y prompts de IA para generar el buyer persona, elegir canales e incluso visualizar el mapa, sin renunciar a tu propio criterio. Por último, construyes paso a paso el CJM de aulamarketing.digital siguiendo a Ana, desde que descubre un reel en TikTok hasta que se convierte en embajadora de la marca.",
+  "secciones": {
+    "c03-s1": {
+      "idea_clave": "El CJM es la representación visual de la experiencia de tu cliente con la marca y, sobre todo, un ejercicio de empatía.",
+      "resumen": "Un Customer Journey Map es un diagrama que muestra cada paso, emoción, canal y momento de interacción entre un usuario y una marca. Pero no es solo un esquema: su valor no está en el gráfico final, sino en sus elementos y en el proceso de construirlo desde los ojos del usuario. Por eso conecta con el design thinking, una metodología centrada en las personas que, como recuerda Tim Brown, empieza con la empatía y con la comprensión profunda de sus necesidades y motivaciones. Como cualquier mapa, el CJM se divide en tramos, que aquí son las fases del viaje del usuario: conciencia, consideración, compra, retención, fidelización y recomendación. En la literatura encontrarás más etapas según el sector y el tipo de cliente, porque el mapa es flexible. Una vez entiendas los conceptos, tienes libertad para adaptarlo a tu marca.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    },
+    "c03-s2": {
+      "idea_clave": "El CJM es una herramienta viva para decidir: revela huecos, inspira productos, segmenta, personaliza campañas y elimina fricciones.",
+      "resumen": "El libro muestra siete aplicaciones del CJM con el ejemplo de Ana y aulamarketing.digital. Detección de huecos: momentos en que Ana busca una solución y no la encuentra, como cuando comenta que se siente insegura al aplicar lo aprendido. Creación de productos: ese vacío puede inspirar talleres, mentorías o plantillas basadas en una necesidad real. Segmentación por comportamiento: por ejemplo, quienes asistieron a un webinar pero no se inscribieron reciben un retargeting distinto. Hiperpersonalización: secuencias de email diferentes, audiencias personalizadas con testimonios en la fase de consideración u ofertas específicas en SEM. Mejora de la experiencia de usuario: con métricas en cada etapa ves qué pasos funcionan y cuáles generan fricción. Detección de puntos de dolor: formularios largos, costes que aparecen tarde o una interfaz poco clara en el móvil, desde donde se realiza el 65 % del comercio digital. Optimización del embudo: cada etapa se alinea con TOFU, MOFU o BOFU, y un abandono alto te obliga a revisar tu propuesta, tu contenido y tu navegación.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    },
+    "c03-s3": {
+      "idea_clave": "Un CJM útil combina siete piezas: buyer persona, fases, puntos de contacto, acciones, pensamientos y emociones, puntos de dolor y oportunidades.",
+      "resumen": "Para que el CJM te dé una visión de 360 grados de la experiencia del usuario, necesita varios componentes que encajan como piezas de un puzle. La tabla del libro los describe uno a uno. El buyer persona enfoca el mapa en un arquetipo concreto, como Ana. Las fases del viaje estructuran la narrativa, porque sus necesidades cambian cuando descubre un problema y cuando está a punto de comprar. Los puntos de contacto son todas las interacciones con la marca en cada canal: web, redes, email o chatbot. Las acciones del cliente muestran lo que hace, como buscar en Google o añadir al carrito, y permiten analizar la usabilidad. Los pensamientos y emociones son el corazón del mapa: entenderlos permite diseñar experiencias que, además de funcionar, conecten. Los puntos de dolor son las fricciones que hay que resolver con urgencia. Y las oportunidades de mejora convierten el diagnóstico en un plan de acción.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 1
+    },
+    "c03-s4": {
+      "idea_clave": "Cada fase del viaje refleja un estado del cliente y te indica qué contenido publicar y en qué canal: es tu mejor briefing.",
+      "resumen": "Cada etapa corresponde a un estado del usuario que te permite anticiparte. Conciencia: tu buyer persona tiene un problema pero no conoce la solución; le llegas por redes sociales, publicidad o recomendaciones, y el SEO de tu web conecta con tu propuesta. Consideración: ya conoce la marca y compara opciones, así que necesita profundidad y pruebas de autoridad: credibilidad en la web, contenido SEO de valor, newsletter y secuencias de email, colaboraciones con expertos, testimonios, reseñas y retargeting en SEM o Social Ads. Compra: está a punto de decidirse; tus páginas de venta deben ser claras y persuasivas, con demostraciones, testimonios, llamadas a la acción directas y pagos seguros sin fricciones. Fidelización: ya es cliente; busca que exprima el producto y se sienta parte de la comunidad, con las redes como foro y el email como canal de valor más allá de la compra. Recomendación: está satisfecha y quiere compartirlo; invítala a dejar reseñas, ofrécele programas de referidos y contenido fácil de compartir que refuerce tu prueba social.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c03-s5": {
+      "idea_clave": "Apóyate en herramientas digitales y prompts de IA para crear buyer persona, canales y CJM, pero sin renunciar a tu criterio.",
+      "resumen": "Una vez trabajado el CJM en papel, el libro te propone pasarlo a herramientas digitales específicas para crear el mapa y el buyer persona. También te ayuda la IA. Primero, con un LLM como Gemini 3.1 Pro o ChatGPT, generas tu buyer persona a partir de tu modelo de negocio y tu propuesta de valor. Después, indicando los canales en los que estás o quieres estar, le pides que valore cuáles son los más adecuados para llegar a él. Si quieres un plan más directo y a corto plazo, hay un prompt con enfoque de growth hacker. Incluso puedes llevar el resultado a un modelo de imagen, como Nano Banana 2 en Gemini, para obtener una infografía del recorrido. Aun así, el libro recomienda trabajar el mapa en herramientas como Miro o Smaply para consolidar lo aprendido y añadir capas o canales. La IA sirve para reducir tiempos, nunca para sustituir tu criterio: si no estás de acuerdo con su respuesta, pídele más información hasta que tenga sentido.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 9
+    },
+    "c03-s6": {
+      "idea_clave": "Sigue a Ana en sus cinco etapas, de descubrir a recomendar, y convierte sus puntos de dolor en estrategias concretas.",
+      "resumen": "El libro construye paso a paso el CJM de aulamarketing.digital. Paso 1: partir del buyer persona de Ana definido en el capítulo 1. Paso 2: mapear sus etapas con acciones, pensamientos, emociones y estrategias. Soñar: descubre un reel de un microinfluencer y siente curiosidad y algo de ansiedad; la marca responde con contenido \"snack\", microinfluencers y SEO informativo. Planificar: visita la web, investiga a los profesores y descarga una guía; siente interés y escepticismo, y recibe webinars gratuitos, una página de equipo transparente, contenido profundo y una secuencia de 3 emails. Reservar: decide inscribirse en un taller; necesita un pago móvil sencillo, CTA claras, prueba social y un retargeting ético. Experimentar: asiste y se une a la comunidad; la marca debe cumplir su promesa y comunicarse de forma proactiva. Recordar: aplica lo aprendido, deja una reseña y comparte su experiencia; se fomentan el UGC, la fidelización y una newsletter de valor. Paso 3: frente a la fatiga de la IA y la poca atención, hiperrealismo y contenido dual; como oportunidades, formación práctica y audiencias propias.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 7
+    }
+  }
+}

@@ -1,0 +1,1364 @@
+{
+  "id": "c13",
+  "numero": 13,
+  "parte": "PARTE 2: ACCIONES OPERATIVAS",
+  "titulo": "Lo que dicen de ti, vende: diseñando un sistema de reseñas",
+  "paginas_pdf": [
+    198,
+    206
+  ],
+  "paginas_libro": [
+    193,
+    201
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "Un término asociado al éxito en marketing, ya sea digital u offline, es el “boca a boca” o “boca oreja. Si un usuario sin influencia de ningún otro elemento externo al margen del impacto del producto, servicio o de cualquier elemento de marca, publica una reseña positiva, está aportando un extraordinario intangible directamente relacionado con la confianza, con la credibilidad y con un alto impacto en la estrategia de captación de nuevos clientes. Cuando hablamos de boca a boca nos referimos a las interacciones entre consumidores o comentarios entre un consumidor y un perfil que todavía no lo es. En el mundo online se denominan e-Wom y dado que se trata de un proceso digital, no es necesario que los individuos se ubiquen en tiempo y espacio de forma síncrona, o dicho de otro modo, no es necesario que se encuentren juntos a la misma hora, ni siquiera es un requisito que se conozcan, ¿lo habías reflexionado alguna vez de este modo?\nInicialmente las reseñas comenzaron por ser comentarios en artículos o en fichas de producto, en marketplace de segunda mano a modo de referencias pero con el tiempo el formato se ha ido sofisticando y en 2026 las reseñas son uno de los aspectos fundamentales de una estrategia de marketing digital. Las reseñas online han dejado de ser simples \"comentarios\" para convertirse en el activo estratégico central de cualquier marca en 2026. Son, simultáneamente, un reductor de incertidumbre y una palanca de visibilidad que opera bajo una lógica asíncrona: una experiencia compartida por un cliente hace dos años puede ser el detonante de la compra de un cliente hoy. A diferencia del boca a boca tradicional, el e-WOM es persistente, escalable y, lo más importante, es indexable.",
+    "narrativa_ana": null,
+    "pagina_pdf": 198
+  },
+  "objetivos_aprendizaje": [
+    "Comprender el poder estratégico de las reseñas como evolución del boca a boca tradicional hacia el e-WOM, entendiendo su impacto en la confianza, la credibilidad y la captación de clientes en entornos digitales.",
+    "Analizar por qué las reseñas son clave en la decisión de compra, cómo influyen en el posicionamiento SEO y cómo actúan como prueba social persistente que reduce la incertidumbre del usuario.",
+    "Aprender a diseñar y gestionar un sistema de reseñas eficaz, desde la solicitud hasta la respuesta y el análisis, integrándolo como parte del sistema de calidad y de la estrategia de marketing digital.",
+    "Descubrir tendencias, métricas y herramientas actuales, incluyendo el uso de IA, reseñas en vídeo, análisis de sentimiento y automatización, para convertir las opiniones de clientes en activos estratégicos de crecimiento."
+  ],
+  "secciones": [
+    {
+      "id": "c13-s1",
+      "numero": "1",
+      "titulo": "¿Por qué siguen siendo relevantes las reseñas?",
+      "pagina_pdf": 198,
+      "pagina_libro": 193,
+      "texto": "Las reseñas han evolucionado de simples opiniones a convertirse en el factor decisivo más importante en el proceso de compra. En la actualidad constituyen uno de los elementos más influyentes en el proceso de compra. Según datos de DemandSage (2025), 93 % de los consumidores leen reseñas antes de comprar y 93 % afirma que estas influyen en su decisión de compra. Cerca del 53 % confía tanto en las reseñas online como en las recomendaciones personales, y 62 % evita empresas que censuran opiniones. Observamos también que un gran porcentaje de los consumidores (más de un 90%) buscan negocios locales a través de internet y leen una media de siete reseñas antes de confiar en una empresa. Según el estudio de Luca (2016), cada estrella adicional en una plataforma como Yelp puede incrementar los ingresos en hasta un 9 % y de igual forma, un negocio con puntuaciones de 1‑2 estrellas ve rechazado al 86 % de los clientes potenciales. Si todos estos argumentos todavía no son suficientes para que empieces hoy a trabajar en una estrategia de gestión de reseñas, te daremos algunos más para que puedas poner en práctica los aprendizajes de este capítulo.\nPrimero, las reseñas funcionan como prueba social instantánea. En el caso de aulamarketing.digital, cuando Ana busca \"formación marketing digital práctica\", los primeros resultados con 4.8 estrellas en Google y testimonios detallados de estudiantes que han conseguido promociones laborales tras completar nuestros cursos, generan confianza inmediata antes incluso de visitar nuestro sitio web. Las reseñas también impactan directamente el SEO local y orgánico. Google prioriza negocios con reseñas positivas frecuentes y diversas. Para aulamarketing.digital esto significa que una estrategia consistente de generación y gestión de reseñas mejora nuestro posicionamiento en búsquedas como \"curso marketing digital\" o \"formación IA marketing online\". Por otra parte, la gestión proactiva de reseñas permite convertir experiencias positivas en activos de marketing duraderos. Por ejemplo, un estudiante satisfecho que deja una reseña detallada explicando cómo aplicó los conocimientos de Customer Journey Mapping en su empresa y logró aumentar conversiones en un 40%, puede convertirse en un caso de éxito que continúe atrayendo estudiantes similares durante meses. Además, proporcionan feedback valioso para mejora continua. Nuestros clientes además de buscar validación, buscan señales de que nuestra marca realmente resuelve problemas de forma efectiva. Las reseñas que detallan aprendizajes específicos, herramientas dominadas y resultados profesionales obtenidos, comunican valor de manera más efectiva que cualquier copy publicitario.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c13-h32",
+        "c13-h33"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c13-s2",
+      "numero": "2",
+      "titulo": "Definiciones clave y tendencias",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "texto": "La gestión de reseñas se define como el proceso estratégico y sistemático de facilitar, monitorizar, responder y aprovechar las opiniones de usuarios, leads y clientes en plataformas digitales para construir reputación, optimizar la experiencia y generar medios ganados más sostenibles. En el marketing digital se consideran medios ganados porque son generadas por terceros y no están bajo el control directo de la marca.\nReseñas de Google Business Profile (GBP): Son clave para SEO local y en la etapa de descubrimiento. En nuestro caso aparecen cuando alguien busca nuestra localización o ubicaciones específicas.\nReseñas de Facebook, Instagram y TikTok Shop: Integradas en el ecosistema social, permiten compartir fácilmente y generar conversaciones. Ideales para mostrar el aspecto humano y comunitario.\nReseñas en LinkedIn: Especialmente valiosas para aulamarketing.digital dada nuestra audiencia profesional. Las recomendaciones de estudiantes que han progresado profesionalmente tienen peso especial en esta plataforma.\nReseñas en plataformas: En nuestro caso, podría tratarse de plataformas como Coursera, Udemy, y plataformas especializadas donde las reseñas incluyen detalles sobre metodología, calidad de los docentes y aplicabilidad práctica del contenido. Aplica para las plataformas de cada sector, Booking, Tripadvisor o Amazon entre otras.\nTestimonio: Declaración voluntaria, generalmente positiva, utilizada por la marca para mostrar satisfacción. Al finalizar cada curso invitaremos a los alumnos a una sesión de entrega de certificaciones en la que esperamos puedan compartir sus testimoniales.\nNPS | Net Promoter Score: Métrica que mide la probabilidad de que un cliente recomiende un producto. El objetivo es mantener entre un 60 y un 80 de NPS por cada cien alumnos.\nRating promedio: Puntuación numérica media (1-5 estrellas). Para aulamarketing.digital, mantenemos objetivo de 4.6+ estrellas, indicando mejora consistente con margen de mejora.\nReview velocity: Frecuencia de nuevas reseñas. Objetivo: 15-20 reseñas mensuales distribuidas entre plataformas, indicando flujo constante de estudiantes satisfechos.\nResponse rate: Porcentaje de reseñas que reciben respuesta. Buscamos mantenernos al 100% para demostrar que valoramos cada opinión y estamos comprometidos con la experiencia estudiantil.\nSentiment score: Análisis emocional automatizado de contenido de reseñas. Monitoreamos trends de sentimientos para identificar cambios en la percepción y contribuir a mejorar la experiencia de los alumnos.\nReview authenticity score: Métrica que indica probabilidad de que la reseña sea genuina vs. fabricada/incentivada artificialmente.\nComo ves, todas las reseñas son necesarias y valiosas para generar credibilidad en los canales en los que hemos decidido tener presencia. Son especialmente favorables las reseñas en Google, las que curamos para publicarlas en nuestra web y son muy impactantes las que nos dejan en marketplaces de servicios, sobre todo si son plataformas en las que tenemos una importante presencia. En alguna ocasión nos han consultado sobre si debemos dejar que sea el propio sistema del marketplace el que gestione el proceso y aunque las plataformas funcionan bien en ese sentido, siempre que sea posible tener contacto directo con el cliente y tengamos la certeza de que está satisfecho, solicitemos reseña y ayudémosle a que sepa cómo y dónde publicarla. En una sección posterior te hablaremos de todo este proceso y cómo planificarlo.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c13-h34",
+        "c13-h35",
+        "c13-h36",
+        "c13-h37",
+        "c13-h38",
+        "c13-h39",
+        "c13-h40",
+        "c13-h41",
+        "c13-h42",
+        "c13-h43"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c13-d02",
+        "c13-d03",
+        "c13-d04",
+        "c13-d05",
+        "c13-d06",
+        "c13-d07",
+        "c13-d08",
+        "c13-d09",
+        "c13-d10",
+        "c13-d11",
+        "c13-d12",
+        "c13-d13"
+      ]
+    },
+    {
+      "id": "c13-s3",
+      "numero": "3",
+      "titulo": "Tendencias en la gestión de reseñas",
+      "pagina_pdf": 200,
+      "pagina_libro": 195,
+      "texto": "Los consumidores han cambiado de formato y aunque las reseñas publicadas en Google son especialmente relevantes, ahora prefieren reseñas en video que muestran el producto o servicio en uso real. Se intensifica la generación de reseñas en vídeo en TikTok, Instagram Reels y YouTube Shorts. Los consumidores buscan demostraciones reales y la tasa de influencia de estos vídeos es especialmente alta entre la generación Z, por lo que si este es tu principal público, es interesante buscar dinámicas donde los clientes se vean incentivados a grabar un vídeo de su experiencia. Una tendencia muy asociada a la falta de tiempo y a los consumos de nicho, son las reseñas específicas sobre aspectos puntuales. En el caso de una de nuestras alumnas podría ser \"la sección de IA fue excelente, pero sería genial añadir algún profesor más en el módulo de SEO técnico para atender dudas\". Nuestra buyer valora este nivel de detalle para tomar decisiones informadas. Aunque pueda parecer una reseña negativa, lo cierto es que este tipo de comentarios naturales si son respondidos de una forma amable y cercana serán percibidos como una empatía y proactividad por el cliente, aspecto de gran valor en una época en la que el usuario busca la autenticidad de marca.\nObservamos también un auge de plataformas que implementan sistemas de verificación y que confirman que el reviewer realmente utilizó el producto o servicio. El uso de este tipo de herramientas como TrustPilot o similares permite que se genere un clima de credibilidad para ambas partes ya que la empresa dispone de un sello de certificación y veracidad y el usuario también. Una decisión estratégica muy inteligente que ha generado gran popularidad son los chatbot para solicitar reseñas. Las marcas utilizan chatbots en WhatsApp o Facebook Messenger para solicitar reseñas de forma personalizada tras la compra. Del otro lado, los asistentes de voz leen reseñas cuando el usuario consulta sobre una marca y se genera un círculo virtuoso de confianza en el que gana competitividad la empresa que comprende la relevancia de este tipo de acciones. ¿No tienes tiempo para responder las reseñas porque tienes un ecommerce con cientos de productos? Tal vez puedas sumarte a las marcas que utilizan la IA como asistente y preparar tus propios agentes que generen respuestas personalizadas a reseñas, manteniendo tono de marca mientras ahorra tiempo de gestión. En el área de control también encontramos tendencias realmente interesantes para pequeñas empresas, ya que siguen creciendo las herramientas de análisis de sentimientos que identifican emociones específicas en reseñas, no solo positivo/negativo, sino entusiasmo, confianza, sorpresa, etc. Por último debes saber que ya tenemos la posibilidad de que todas nuestras reseñas se sincronicen automáticamente entre plataformas, maximizando visibilidad y coherencia de reputación.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c13-h44",
+        "c13-h45",
+        "c13-h46",
+        "c13-h47",
+        "c13-h48",
+        "c13-h49"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c13-s4",
+      "numero": "4",
+      "titulo": "Aspectos de valor en la gestión de reseñas",
+      "pagina_pdf": 201,
+      "pagina_libro": 196,
+      "texto": "La gestión efectiva de reseñas genera múltiples capas de valor que trascienden la simple validación social. A continuación mostramos algunos ejemplos aplicados:\n✓ Valor de conversión directa: Las reseñas actúan como vendedores virtuales 24/7. Una reseña de María José (Analista Marketing Jr.) explicando cómo el curso de Customer Journey Mapping le ayudó a obtener una promoción, es más persuasiva que cualquier copy publicitario porque incluye resultado tangible y contexto profesional específico.\n✓ Valor de diferenciación competitiva: En un mercado saturado de cursos online, las reseñas específicas y detalladas nos diferencian. Mientras los competidores reciben reseñas genéricas como \"Muy buen curso\", nosotros trabajamos para conseguir reseñas que detallan metodología práctica, calidad de profesores universitarios y aplicabilidad inmediata.\n✓ Valor de feedback accionable: Las reseñas proporcionan insights directos para mejora de producto. Comentarios recurrentes sobre necesidad de más casos prácticos nos permiten iterar rápidamente nuestra propuesta de valor, manteniéndonos alineados con demandas reales del mercado.\n✓ Valor de contenido orgánico: Reseñas auténticas se convierten en contenido de marketing orgánico. Utilizamos extractos de reseñas en posts de redes sociales, newsletters, y landing pages, reduciendo la necesidad de crear contenido desde cero.\n✓ Valor de SEO y descubrimiento: Reseñas que mencionan términos específicos como \"mejor curso IA marketing\" o \"formación práctica digital marketing\", mejoran nuestro posicionamiento para keywords long-tail que Ana utiliza en sus búsquedas.\n✓ Valor de retención y lealtad: Estudiantes que dejan reseñas se sienten más conectados con nuestra comunidad. El acto de revisar refuerza su experiencia positiva y aumenta la probabilidad de recomendar a colegas o inscribirse en cursos avanzados.\n✓ Valor de hiring de talento: Profesores y colaboradores potenciales evalúan reseñas para entender nuestra cultura educativa y estándares de calidad. Reseñas positivas sobre profesorado atraen mejores docentes.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c13-s5",
+      "numero": "5",
+      "titulo": "El proceso de planificación de reseñas",
+      "pagina_pdf": 201,
+      "pagina_libro": 196,
+      "texto": "Una de las principales barreras que encontramos es conseguir organizar la captación de reseñas de calidad gracias a un sistema de trabajo realista, sostenible y compatible con los recursos disponibles. Por eso proponemos los primeros pasos de un protocolo de implantación diseñado para integrar las reseñas en tu estrategia de marketing digital sin caer en improvisación, prácticas cuestionables o automatizaciones sin control. El enfoque de este protocolo se apoya en tres principios. El primero es que la reseña debe tratarse como una salida del sistema de calidad, no como un elemento aislado de reputación. El segundo es que la captación de reseñas debe plantearse bajo criterios de autenticidad, neutralidad y con las mínimas fricciones, en línea con las políticas de plataformas como Google, que prohíben la manipulación, la incentivación engañosa y las solicitudes sesgadas. El tercer principio es que las reseñas deben integrarse en la arquitectura de confianza de las plataformas para apoyar la reducción de incertidumbre y la toma de decisiones a lo largo del customer journey. Esta propuesta está pensada para que sea ejecutada en periodos semanales, de forma que no sea demasiado intrusiva para el equipo ni para los clientes.",
+      "subsecciones": [
+        {
+          "id": "c13-s5.1",
+          "numero": "5.1",
+          "titulo": "Diseño del sistema y preparación operativa",
+          "pagina_pdf": 202,
+          "pagina_libro": 197,
+          "texto": "La primera semana debe centrarse en construir las condiciones del sistema, no en pedir reseñas “de la forma que sea”. El error habitual en esta fase es comenzar por la solicitud sin haber definido criterios, responsables ni puntos de contacto. La primera tarea es redactar una política interna de reseñas de una página. Esta política debe dejar claro que la empresa solicitará reseñas únicamente a clientes reales, no ofrecerá incentivos condicionados a valoraciones positivas, no filtrará clientes para evitar opiniones negativas y no indicará qué puntuación debe asignarse ni qué contenido debe escribirse. Buscamos proteger la credibilidad de la empresa y el cumplimiento de políticas de plataforma. Recuerda que las reseñas en ciertas plataformas refuerzan el posicionamiento pero la sospecha de falta de autenticidad también podría suponer lo contrario. La segunda tarea consiste en identificar los puntos de cierre de valor del servicio, es decir, los momentos en los que el cliente está en mejor posición para emitir una reseña útil. Por ejemplo, en empresas de servicios, estos momentos suelen coincidir con la finalización de una servicio, la resolución de una incidencia, la entrega de un resultado o la confirmación de un servicio satisfactorio. En aulamarketing.digital pueden ser la finalización de un módulo, la aplicación práctica de una herramienta o una tutoría de alto valor percibido.\nLa tercera tarea es seleccionar el canal principal de solicitud y, si es posible, un canal secundario. La decisión debe responder a la conducta real del cliente. Un ejemplo puede ser WhatsApp si la relación es directa y frecuente, email si el proceso es más formal o tal vez un QR si existe atención presencial. Lo importante no es la sofisticación tecnológica, recuerda que buscamos la reducción de fricción y la consistencia de uso. La cuarta tarea es preparar los enlaces y los elementos de solicitud. En este punto debemos generar el enlace directo a la plataforma prioritaria, que podría ser Google Business Profile, verificar que el acceso es correcto y preparar versiones listas para usar en email, WhatsApp, QR y web. Si gestionamos varios servicios o ubicaciones, conviene registrar internamente a qué servicio o área se asocia cada solicitud para facilitar el análisis posterior. La quinta tarea es definir roles y tiempos de gestión. Es fundamental saber quién solicita, quién responde, quién revisa semanalmente, quién decide mejoras. En pequeños negocios estos roles pueden concentrarse en una o dos personas, pero la claridad de responsabilidades es muy importante para evitar que el sistema se diluya o que los procesos se repitan y puedan llegar a suponer una mala experiencia final del cliente.",
+          "ids_prompts": [],
+          "ids_herramientas": [
+            "c13-h50",
+            "c13-h51"
+          ],
+          "ids_figuras": [],
+          "ids_definiciones": []
+        },
+        {
+          "id": "c13-s5.2",
+          "numero": "5.2",
+          "titulo": "Activación del sistema y prueba del mensaje",
+          "pagina_pdf": 202,
+          "pagina_libro": 197,
+          "texto": "La segunda semana se dedica a la activación controlada del sistema de solicitud de reseñas. Comenzaremos con una fase de prueba con clientes recientes para ajustar guiones, timing y canal, podemos empezar con una muestra pequeña y manejable de clientes reales, de 10 a 20 casos recientes distribuidos entre distintos tipos de servicio si el negocio tiene varias líneas. El objetivo es observar la respuesta, si se generan fricciones y validar la calidad del contenido. El mensaje de solicitud debe ser breve, neutro, contextualizado y respetuoso. Conviene evitar formulaciones que presionen como “por favor, pon 5 estrellas” o incluso que sugieran contenido. También es recomendable no justificar demasiado la petición, ya que puede generar desconfianza. Cuanto más simple y claro sea el mensaje, mayor tasa de respuesta. A continuación te mostramos algunos mensajes que pueden ser ejemplos sencillos para utilizar como punto de partida. Este es un mensaje de WhatsApp post-servicio: “Hola, [Nombre]. Gracias por confiar en [Empresa]. Si te apetece, nos ayudaría mucho que compartieras tu experiencia en esta reseña. Tu opinión nos sirve para mejorar y para que otras personas conozcan cómo trabajamos: [enlace]. Muchas gracias.”; este otro es un email tras la entrega “Asunto: [Nombre], gracias por tu confianza en [Empresa] Mensaje: Hola, [Nombre]: Gracias por haber contado con nosotros para [servicio]. Si deseas dejar una reseña sobre tu experiencia, puedes hacerlo aquí: [enlace]. Tu opinión nos ayuda a mejorar y orienta a otras personas en su decisión.Un saludo,[Firma]”. Incluso es altamente recomendable solicitar una reseña tras reconducir una incidencia, un ejemplo podría ser “Hola, [Nombre]. Gracias por tu tiempo estos días. Nos alegra haber podido resolver [incidencia/proceso]. Si quieres compartir cómo ha sido la experiencia, puedes dejar tu reseña aquí: [enlace]. Nos ayuda mucho a seguir mejorando.”",
+          "ids_prompts": [],
+          "ids_herramientas": [],
+          "ids_figuras": [],
+          "ids_definiciones": []
+        },
+        {
+          "id": "c13-s5.3",
+          "numero": "5.3",
+          "titulo": "Proceso de respuesta y recuperación",
+          "pagina_pdf": 203,
+          "pagina_libro": 198,
+          "texto": "La tercera semana buscamos construir una práctica adecuada en la generación de respuestas y en caso de que sea necesario de recuperación de servicio. Se recomienda, como mínimo, distinguir cinco tipos: reseña positiva genérica, reseña positiva específica, reseña mixta (elogio + objeción), reseña crítica recuperable y reseña conflictiva o potencialmente improcedente. Para cada tipología conviene definir objetivo de respuesta, tono, tiempo máximo y, cuando sea necesario, derivación interna. En reseñas positivas genéricas, el objetivo es agradecer y reforzar el vínculo. En reseñas positivas específicas, el objetivo añade un componente de validación del atributo mencionado, podría ser rapidez, trato o calidad entre muchos otros. En reseñas mixtas, la respuesta debe reconocer tanto el aspecto positivo como la objeción, mostrando escucha y predisposición hacia la mejora. En reseñas críticas recuperables, la prioridad es reducir la tensión, reconocer la experiencia percibida sin discutir públicamente detalles sensibles y abrir una vía de resolución. En reseñas conflictivas, el objetivo es mantener profesionalidad, documentar y si fuera necesario, reconducir internamente. Google recomienda responder a reseñas y subraya que hacerlo ayuda a mostrar que la empresa valora el feedback, lo que refuerza la pertinencia de este protocolo como parte del sistema de gestión. A continuación tienes un ejemplo de cada uno de los casos para que puedas reformularlas según lo que necesites:\n✓ Reseña positiva genérica: “Muchas gracias por compartir tu experiencia y por confiar en [Empresa]. Valoramos mucho tu comentario. Seguiremos trabajando para ofrecer un servicio de calidad.”\n✓ Reseña positiva específica: “Muchas gracias, [Nombre], por tu reseña y por destacar [atributo mencionado: p. ej., la claridad de la explicación / la rapidez de atención]. Nos alegra saber que tu experiencia fue positiva. Comentarios como el tuyo nos ayudan a reforzar aquello que más valoráis.”\n✓ Reseña mixta (positiva con objeción): “Gracias por tu reseña y por señalar tanto los aspectos positivos como el punto de mejora que mencionas sobre [tema]. Valoramos especialmente este tipo de comentarios porque nos ayudan a revisar el servicio y seguir mejorando.”\n✓ Reseña crítica recuperable: “Gracias por compartir tu experiencia. Lamentamos que no haya sido la esperada en [tema]. Nos tomamos este tipo de comentarios con mucha seriedad. Nos gustaría revisar tu caso y darte una respuesta adecuada. Si te parece, puedes escribirnos a [canal] para ayudarte de forma más directa.”\n✓ Reseña conflictiva o potencialmente improcedente: “Gracias por tu comentario. Queremos revisar lo ocurrido con detalle para comprender la situación correctamente. Si puedes contactar con nosotros en [canal], estaremos encantados de atenderte. Nuestro objetivo es gestionar cada caso con rigor y respeto.”",
+          "ids_prompts": [],
+          "ids_herramientas": [],
+          "ids_figuras": [],
+          "ids_definiciones": []
+        },
+        {
+          "id": "c13-s5.4",
+          "numero": "5.4",
+          "titulo": "Mejoras e integración",
+          "pagina_pdf": 203,
+          "pagina_libro": 198,
+          "texto": "La cuarta semana es en la que nos enfocaremos en convertir el sistema en una herramienta de gestión. En esta fase analizaremos las reseñas recibidas y las históricas disponibles para identificar patrones, fricciones y oportunidades. Primero, se crea una categoría básica de temas como la atención, tiempos, claridad, precio percibido, facilidad de contacto, resultado, trato, postventa, etc. Luego clasificamos las reseñas por tema principal y por el nivel de relevancia. A continuación identificamos patrones de recurrencia y diferenciamos incidencias aisladas. Con toda esta información priorizamos entre una y tres mejoras operativas que puedan implementarse de forma ágil y documentamos los cambios con el objetivo de que podamos evaluar a futuro si los cambios impactan en reseñas futuras.\nEn paralelo, durante esta semana aprovecharemos toda esta información para una integración on site. Utilizaremos las reseñas seleccionadas para darles presencia en tres puntos impactantes, la página de inicio, la página de servicio principal y las landing con formulario de contacto o captación. El criterio de selección no debe ser únicamente “las más elogiosas”, sino las más útiles para responder objeciones y reducir incertidumbre. Es importante que prestemos atención a que la integración debe alinearse con las necesidades de decisión del usuario, ya que por ejemplo en la home es conveniente mostrar reseñas de confianza general, en los servicios las reseñas con detalle técnico o de experiencia y en contacto o conversión es altamente recomendable mostrar reseñas que refuercen seguridad, trato y cumplimiento de promesas.",
+          "ids_prompts": [],
+          "ids_herramientas": [],
+          "ids_figuras": [],
+          "ids_definiciones": []
+        }
+      ],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c13-s6",
+      "numero": "6",
+      "titulo": "Herramientas y asistencia IA para la gestión de reseñas",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "texto": "La gestión de reseñas requiere un stack que nos permita automatizar ciertos procesos repetitivos y mantener personalización y autenticidad en las interacciones:\n✐ Herramientas de solicitud y gestión de respuestas\nGoogle Business Profile | Trustpilot | Revi | wiReply | BirdEye | Podium | Yext | EmbedSocial Revi | ReviewTrackers | Zendesk | Yotpo | Reputation.com | Mention | InMoment | TrueReview Grade.us\nLa inteligencia artificial nos permitirá profundizar en el análisis de los sentimientos de las reseñas, mejorando así la propuesta de valor. Como ocurre con otras plataformas, las herramientas de gestión de reseñas han incluido integraciones de IA que nos facilitará la generación de automatizaciones personalizadas, optimizando el flujo y la velocidad de la información.\n✐ Herramientas IA de generación y categorización de respuestas\nChatGPT 5.2 | Gemini 3.1 Pro | Claude 4.6 Sonnet | Jasper.ai | Writesonic | Kustomer\nPreviamente hemos creado varias plantillas para la generación de respuestas pero es importante que puedas disponer de diferentes adaptaciones, en función del tipo de negocio, del producto o servicio y del tipo de respuestas, ya que tendremos plantillas básicas pero debemos disponer de varios modelos para combinar y alternativas a reseñas inusuales. Comenzaremos por ir en esta ocasión a Gemini 3.1 Pro y solicitar asistencia para disponer de plantillas adaptadas con este prompt “Actúa como un Customer Happiness Manager experto en comunicación asíncrona. Basándote en nuestra marca [Nombre de tu marca/producto], necesito una Matriz de Respuestas a Reseñas con un tono humano, profesionas y empáticas. Genera 3 plantillas para cada uno de los siguientes escenarios: Reseña 5 estrellas (Sin texto): Cómo agradecer el apoyo de forma breve pero cálida. Reseña 5 estrellas (Con detalle positivo): Cómo reforzar los puntos fuertes que el cliente menciona (función de diagnóstico). Reseña 3 estrellas (Constructiva): Cómo agradecer el feedback y mostrar compromiso de mejora sin sonar defensivo. Reseña 1 estrella (Crítica por servicio/producto): Cómo aplicar el protocolo de 'recuperación de servicio': validación de la emoción, disculpa sincera y traslado de la conversación a un canal privado (email/DM). Restricción: Usa un tono [Elegir: cercano/autoritario/entusiasta] y asegúrate de que cada respuesta invite a Ana a seguir formando parte de nuestra comunidad.”.\nAhora pasamos al siguiente nivel, la categorización de las respuestas. Tanto si tienes reseñas de una etapa en la que no organizaste una gestión activa como para una etapa post desarrollo del protocolo que hemos descrito, dispones de cierta información sobre qué opinan los clientes. En este caso para comenzar con la revisión tenemos dos opciones, la primera es generar capturas de pantalla de todas las reseñas en todas las plataformas y la segunda es copiarlas y pasarlas a un documento, anotando de dónde provienen. Si sigues el primer camino, ten en cuenta que en función del modelo de LLM que utilices podrías encontrarte con alguna limitación, si dispones entre 10 y 20 capturas, no deberías tener problemas. Preferentemente utilizaremos ChatGPT 5.2 o Gemini 3.1 Pro en modo razonamiento y adjuntaremos las imágenes sin discriminar el tipo de plataforma de la que provienen, buscamos heterogeneidad para la clasificación. Idealmente el número de reseñas debe estar entre 50 a 100 aunque si tenemos entre 30 y 50 pero queremos comenzar a analizar, podría ser un punto de partida. El prompt con el que lo consultaremos es “Actúa como un Analista de Datos de Marketing. Te voy a proporcionar [varias capturas de pantalla / un documento] con reseñas de clientes. Tu objetivo es crear un Sistema de Etiquetado (Tagging) para categorizarlas automáticamente. Identifica las 5 categorías principales de las que hablan los usuarios (ej. Calidad del profesorado, Usabilidad de la plataforma, Precio, Soporte técnico, Resultados laborales). Clasifica cada reseña en una o varias de estas categorías.”\nAmbos prompt están asociados a una etapa inicial de la gestión de reseñas, aunque es recomendable que periódicamente se repita esta clasificación, ya que con el tiempo vamos observando diferencias entre lo que pueden valorar los clientes y es interesante que estos cambios se vean reflejados en nuestro protocolo. Recordemos que se trata de una herramienta de gestión de calidad.\n✐ Herramientas IA de análisis de respuestas\nClaude 4.6 Sonnet | ChatGPT 5.2 | Gemini 3.1 Pro | Perplexity | MonkeyLearn | Lexalytics Clarabridge | Qualtrics XM\nUna vez tengamos la clasificación, buscamos un análisis profundo de lo que los clientes opinan de nuestros productos o servicios. Lo cierto es que con 30 reseñas podríamos leerlas y fácilmente clasificarlas. Lo interesante de esta dinámica es repetirla cada mes o cada trimestre y comparar con las situaciones anteriores, habiendo acumulado un volumen trimestral de decenas de reseñas. En este caso vamos a cambiar de modelo y nos iremos a uno que es especialista en análisis y gráficas, ahora utilizaremos Claude 4.6 Sonnet y le facilitaremos el siguiente prompt: “Ahora, actúa como un Analista de Business Intelligence. Utiliza la clasificación por Pilares Estratégicos y las categorías que acabas de generar para profundizar en un análisis de datos avanzado. Necesito que generes un Informe de Evolución y Sentimiento con la siguiente estructura: Matriz de Sentimiento por Pilar: Crea una tabla donde cruces los 5 pilares identificados con su Valencia Numérica media (del 1 al 10). Dime qué pilar es el 'motor de confianza' y cuál es el 'punto de fuga' de reputación. Análisis de Correlación Temporal: Si los datos incluyen fechas, agrupa el sentimiento por meses/trimestres y describe la tendencia (ej. 'El sentimiento en el pilar Soporte ha bajado un 20% desde marzo'). Si no hay fechas, identifica si los puntos de dolor son eventos aislados o problemas sistémicos. Resumen de Palabras Clave (Nube de Conceptos): Extrae los 3 conceptos más repetidos por cada sentimiento (Positivo, Neutro, Negativo) para entender el lenguaje exacto que usa nuestro buyer persona al hablar de nosotros. Dataset para Visualización: Genera un bloque de datos en formato tabla (listo para copiar a Excel/Sheets) con las columnas: [Mes], [Pilar], [Valencia Media], [Volumen de Reseñas]. Objetivo: Con esta información quiero crear una gráfica que me permita ver visualmente cómo evoluciona la percepción de mi marca en cada área estratégica.”.",
+      "subsecciones": [],
+      "ids_prompts": [
+        "c13-p01",
+        "c13-p02",
+        "c13-p03"
+      ],
+      "ids_herramientas": [
+        "c13-h01",
+        "c13-h02",
+        "c13-h03",
+        "c13-h04",
+        "c13-h05",
+        "c13-h06",
+        "c13-h07",
+        "c13-h08",
+        "c13-h09",
+        "c13-h10",
+        "c13-h11",
+        "c13-h12",
+        "c13-h13",
+        "c13-h14",
+        "c13-h15",
+        "c13-h16",
+        "c13-h17",
+        "c13-h18",
+        "c13-h19",
+        "c13-h20",
+        "c13-h21",
+        "c13-h22",
+        "c13-h23",
+        "c13-h24",
+        "c13-h25",
+        "c13-h26",
+        "c13-h27",
+        "c13-h28",
+        "c13-h29",
+        "c13-h30",
+        "c13-h31",
+        "c13-h52",
+        "c13-h53",
+        "c13-h54",
+        "c13-h55"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c13-s7",
+      "numero": "7",
+      "titulo": "Ejemplo completo para aulamarketing.digital",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "texto": "Cuando puedes tomarte el tiempo de reflexionar acerca del impacto que tienen las opiniones de tus clientes en el proceso de captación, terminas por aceptar que no diseñar un proceso desde la organización puede estar constando muchos más recursos de lo que parece. Tal vez ahora veas que no tienes tiempo “extra” para hacerlo o consideras que en el equipo no pueden integrar estas pero ya hemos podido comprobar que podrías estar perdiendo la oportunidad de aprovechar esta extraordinaria herramienta de credibilidad y captación de clientes. Con el fin de seguir derribando objeciones, queremos compartir contigo cómo desarrollaremos nuestra propuesta. Al finalizar cada curso, enviamos un email personalizado solicitando una reseña que incluye una plantilla opcional con preguntas específicas sobre aspectos más valiosos aprendidos y aplicación práctica en el trabajo actual. Incentivaremos reseñas que incluyan contexto profesional previo y logros posteriores específicos, creando narrativas de transformación que resuenen con estudiantes potenciales. Las mejores reseñas pasarán a ser casos de estudio expandidos, contactando a reviewers para desarrollar historias completas incluyendo métricas específicas y estrategias implementadas con el objetivo de aumentar la review velocity a más de veinte reseñas verificadas mensuales, maximizando el valor de conversión directa y la diferenciación competitiva. Utilizaremos Revi para solicitar automáticamente las reseñas, asegurando que solo los estudiantes que realmente completaron la formación de aulamarketing.digital puedan dejar una opinión, garantizando una reseña verificada con prueba. La solicitud de reseña se envía 3 días después de la entrega de la certificación del curso. El sistema está diseñado en dos pasos, el primero es recopilar feedback interno, y solo si es positivo, invitaremos a dejar una reseña pública. Diseñaremos una plantilla opcional en la solicitud que guía al estudiante a crear una narrativa de transformación profesional que aborde los puntos de valor clave de aulamarketing.digital.\n[Tabla 1. Ejemplo preguntas guiadas en la gestión de reseñas — transcrita en c13-f01]\nUna vez tenemos las reseñas pasamos por el proceso de evaluación con Claude 4.6 Sonnet y generamos un análisis de sentimientos identificando \"entusiasmo por aplicabilidad\" o \"confianza en metodología\". El equipo usará Gemini 3.1 Pro para generar respuestas que mantienen el tono de marca y referencian los logros específicos mencionados por el reviewer, en la búsqueda de una tasa de respuesta del 100%. Las mejores reseñas que mencionan keywords long-tail como \"mejor curso de IA para marketing predictivo\" se usan para la integración de la reseña con el contenido, lo que denominamos review-to-content, optimizando el SEO y buscando impactar en la confianza de Ana antes de elegir una formación con nosotros.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c13-h56",
+        "c13-h57",
+        "c13-h58"
+      ],
+      "ids_figuras": [
+        "c13-f01"
+      ],
+      "ids_definiciones": [
+        "c13-d14"
+      ]
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c13-d01",
+      "termino": "e-WOM",
+      "definicion": "Cuando hablamos de boca a boca nos referimos a las interacciones entre consumidores o comentarios entre un consumidor y un perfil que todavía no lo es. En el mundo online se denominan e-Wom y dado que se trata de un proceso digital, no es necesario que los individuos se ubiquen en tiempo y espacio de forma síncrona, o dicho de otro modo, no es necesario que se encuentren juntos a la misma hora, ni siquiera es un requisito que se conozcan, ¿lo habías reflexionado alguna vez de este modo?",
+      "id_seccion": "c13-apertura",
+      "pagina_pdf": 198,
+      "pagina_libro": 193
+    },
+    {
+      "id": "c13-d02",
+      "termino": "Gestión de reseñas",
+      "definicion": "La gestión de reseñas se define como el proceso estratégico y sistemático de facilitar, monitorizar, responder y aprovechar las opiniones de usuarios, leads y clientes en plataformas digitales para construir reputación, optimizar la experiencia y generar medios ganados más sostenibles. En el marketing digital se consideran medios ganados porque son generadas por terceros y no están bajo el control directo de la marca.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194
+    },
+    {
+      "id": "c13-d03",
+      "termino": "Reseñas de Google Business Profile (GBP)",
+      "definicion": "Son clave para SEO local y en la etapa de descubrimiento. En nuestro caso aparecen cuando alguien busca nuestra localización o ubicaciones específicas.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194
+    },
+    {
+      "id": "c13-d04",
+      "termino": "Reseñas de Facebook, Instagram y TikTok Shop",
+      "definicion": "Integradas en el ecosistema social, permiten compartir fácilmente y generar conversaciones. Ideales para mostrar el aspecto humano y comunitario.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194
+    },
+    {
+      "id": "c13-d05",
+      "termino": "Reseñas en LinkedIn",
+      "definicion": "Especialmente valiosas para aulamarketing.digital dada nuestra audiencia profesional. Las recomendaciones de estudiantes que han progresado profesionalmente tienen peso especial en esta plataforma.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194
+    },
+    {
+      "id": "c13-d06",
+      "termino": "Reseñas en plataformas",
+      "definicion": "En nuestro caso, podría tratarse de plataformas como Coursera, Udemy, y plataformas especializadas donde las reseñas incluyen detalles sobre metodología, calidad de los docentes y aplicabilidad práctica del contenido. Aplica para las plataformas de cada sector, Booking, Tripadvisor o Amazon entre otras.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194
+    },
+    {
+      "id": "c13-d07",
+      "termino": "Testimonio",
+      "definicion": "Declaración voluntaria, generalmente positiva, utilizada por la marca para mostrar satisfacción. Al finalizar cada curso invitaremos a los alumnos a una sesión de entrega de certificaciones en la que esperamos puedan compartir sus testimoniales.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194
+    },
+    {
+      "id": "c13-d08",
+      "termino": "NPS | Net Promoter Score",
+      "definicion": "Métrica que mide la probabilidad de que un cliente recomiende un producto. El objetivo es mantener entre un 60 y un 80 de NPS por cada cien alumnos.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194
+    },
+    {
+      "id": "c13-d09",
+      "termino": "Rating promedio",
+      "definicion": "Puntuación numérica media (1-5 estrellas). Para aulamarketing.digital, mantenemos objetivo de 4.6+ estrellas, indicando mejora consistente con margen de mejora.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 200,
+      "pagina_libro": 195
+    },
+    {
+      "id": "c13-d10",
+      "termino": "Review velocity",
+      "definicion": "Frecuencia de nuevas reseñas. Objetivo: 15-20 reseñas mensuales distribuidas entre plataformas, indicando flujo constante de estudiantes satisfechos.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 200,
+      "pagina_libro": 195
+    },
+    {
+      "id": "c13-d11",
+      "termino": "Response rate",
+      "definicion": "Porcentaje de reseñas que reciben respuesta. Buscamos mantenernos al 100% para demostrar que valoramos cada opinión y estamos comprometidos con la experiencia estudiantil.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 200,
+      "pagina_libro": 195
+    },
+    {
+      "id": "c13-d12",
+      "termino": "Sentiment score",
+      "definicion": "Análisis emocional automatizado de contenido de reseñas. Monitoreamos trends de sentimientos para identificar cambios en la percepción y contribuir a mejorar la experiencia de los alumnos.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 200,
+      "pagina_libro": 195
+    },
+    {
+      "id": "c13-d13",
+      "termino": "Review authenticity score",
+      "definicion": "Métrica que indica probabilidad de que la reseña sea genuina vs. fabricada/incentivada artificialmente.",
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 200,
+      "pagina_libro": 195
+    },
+    {
+      "id": "c13-d14",
+      "termino": "Review-to-content",
+      "definicion": "Las mejores reseñas que mencionan keywords long-tail como \"mejor curso de IA para marketing predictivo\" se usan para la integración de la reseña con el contenido, lo que denominamos review-to-content,",
+      "id_seccion": "c13-s7",
+      "pagina_pdf": 206,
+      "pagina_libro": 201
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c13-p01",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "origen": "texto",
+      "texto": "Actúa como un Customer Happiness Manager experto en comunicación asíncrona. Basándote en nuestra marca [Nombre de tu marca/producto], necesito una Matriz de Respuestas a Reseñas con un tono humano, profesionas y empáticas. Genera 3 plantillas para cada uno de los siguientes escenarios: Reseña 5 estrellas (Sin texto): Cómo agradecer el apoyo de forma breve pero cálida. Reseña 5 estrellas (Con detalle positivo): Cómo reforzar los puntos fuertes que el cliente menciona (función de diagnóstico). Reseña 3 estrellas (Constructiva): Cómo agradecer el feedback y mostrar compromiso de mejora sin sonar defensivo. Reseña 1 estrella (Crítica por servicio/producto): Cómo aplicar el protocolo de 'recuperación de servicio': validación de la emoción, disculpa sincera y traslado de la conversación a un canal privado (email/DM). Restricción: Usa un tono [Elegir: cercano/autoritario/entusiasta] y asegúrate de que cada respuesta invite a Ana a seguir formando parte de nuestra comunidad.",
+      "contexto_previo": "Comenzaremos por ir en esta ocasión a Gemini 3.1 Pro y solicitar asistencia para disponer de plantillas adaptadas con este prompt",
+      "contexto_posterior": "Ahora pasamos al siguiente nivel, la categorización de las respuestas.",
+      "herramienta_ia_indicada": [
+        "Gemini 3.1 Pro"
+      ],
+      "marcadores_variables": [
+        "[Nombre de tu marca/producto]",
+        "[Elegir: cercano/autoritario/entusiasta]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c13-p02",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "origen": "texto",
+      "texto": "Actúa como un Analista de Datos de Marketing. Te voy a proporcionar [varias capturas de pantalla / un documento] con reseñas de clientes. Tu objetivo es crear un Sistema de Etiquetado (Tagging) para categorizarlas automáticamente. Identifica las 5 categorías principales de las que hablan los usuarios (ej. Calidad del profesorado, Usabilidad de la plataforma, Precio, Soporte técnico, Resultados laborales). Clasifica cada reseña en una o varias de estas categorías.",
+      "contexto_previo": "Preferentemente utilizaremos ChatGPT 5.2 o Gemini 3.1 Pro en modo razonamiento y adjuntaremos las imágenes sin discriminar el tipo de plataforma de la que provienen, buscamos heterogeneidad para la clasificación. Idealmente el número de reseñas debe estar entre 50 a 100 aunque si tenemos entre 30 y 50 pero queremos comenzar a analizar, podría ser un punto de partida. El prompt con el que lo consultaremos es",
+      "contexto_posterior": "Ambos prompt están asociados a una etapa inicial de la gestión de reseñas, aunque es recomendable que periódicamente se repita esta clasificación, ya que con el tiempo vamos observando diferencias entre lo que pueden valorar los clientes y es interesante que estos cambios se vean reflejados en nuestro protocolo.",
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro"
+      ],
+      "marcadores_variables": [
+        "[varias capturas de pantalla / un documento]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c13-p03",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "origen": "texto",
+      "texto": "Ahora, actúa como un Analista de Business Intelligence. Utiliza la clasificación por Pilares Estratégicos y las categorías que acabas de generar para profundizar en un análisis de datos avanzado. Necesito que generes un Informe de Evolución y Sentimiento con la siguiente estructura: Matriz de Sentimiento por Pilar: Crea una tabla donde cruces los 5 pilares identificados con su Valencia Numérica media (del 1 al 10). Dime qué pilar es el 'motor de confianza' y cuál es el 'punto de fuga' de reputación. Análisis de Correlación Temporal: Si los datos incluyen fechas, agrupa el sentimiento por meses/trimestres y describe la tendencia (ej. 'El sentimiento en el pilar Soporte ha bajado un 20% desde marzo'). Si no hay fechas, identifica si los puntos de dolor son eventos aislados o problemas sistémicos. Resumen de Palabras Clave (Nube de Conceptos): Extrae los 3 conceptos más repetidos por cada sentimiento (Positivo, Neutro, Negativo) para entender el lenguaje exacto que usa nuestro buyer persona al hablar de nosotros. Dataset para Visualización: Genera un bloque de datos en formato tabla (listo para copiar a Excel/Sheets) con las columnas: [Mes], [Pilar], [Valencia Media], [Volumen de Reseñas]. Objetivo: Con esta información quiero crear una gráfica que me permita ver visualmente cómo evoluciona la percepción de mi marca en cada área estratégica.",
+      "contexto_previo": "En este caso vamos a cambiar de modelo y nos iremos a uno que es especialista en análisis y gráficas, ahora utilizaremos Claude 4.6 Sonnet y le facilitaremos el siguiente prompt:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "Claude 4.6 Sonnet"
+      ],
+      "marcadores_variables": [
+        "[Mes]",
+        "[Pilar]",
+        "[Valencia Media]",
+        "[Volumen de Reseñas]"
+      ],
+      "referencia_a_salida_previa": "Utiliza la clasificación por Pilares Estratégicos y las categorías que acabas de generar para profundizar en un análisis de datos avanzado.",
+      "salida_mostrada_en_libro": null
+    }
+  ],
+  "herramientas_mencionadas": [
+    {
+      "id": "c13-h01",
+      "nombre": "Google Business Profile",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d083"
+    },
+    {
+      "id": "c13-h02",
+      "nombre": "Trustpilot",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d223"
+    },
+    {
+      "id": "c13-h03",
+      "nombre": "Revi",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d186"
+    },
+    {
+      "id": "c13-h04",
+      "nombre": "wiReply",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d241"
+    },
+    {
+      "id": "c13-h05",
+      "nombre": "BirdEye",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d027"
+    },
+    {
+      "id": "c13-h06",
+      "nombre": "Podium",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d178"
+    },
+    {
+      "id": "c13-h07",
+      "nombre": "Yext",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d254"
+    },
+    {
+      "id": "c13-h08",
+      "nombre": "EmbedSocial",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d061"
+    },
+    {
+      "id": "c13-h09",
+      "nombre": "Revi",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d186"
+    },
+    {
+      "id": "c13-h10",
+      "nombre": "ReviewTrackers",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d188"
+    },
+    {
+      "id": "c13-h11",
+      "nombre": "Zendesk",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d260"
+    },
+    {
+      "id": "c13-h12",
+      "nombre": "Yotpo",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d256"
+    },
+    {
+      "id": "c13-h13",
+      "nombre": "Reputation.com",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d185"
+    },
+    {
+      "id": "c13-h14",
+      "nombre": "Mention",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d148"
+    },
+    {
+      "id": "c13-h15",
+      "nombre": "InMoment",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d114"
+    },
+    {
+      "id": "c13-h16",
+      "nombre": "TrueReview",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d222"
+    },
+    {
+      "id": "c13-h17",
+      "nombre": "Grade.us",
+      "bloque": "Herramientas de solicitud y gestión de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d090"
+    },
+    {
+      "id": "c13-h18",
+      "nombre": "ChatGPT 5.2",
+      "bloque": "Herramientas IA de generación y categorización de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia009"
+    },
+    {
+      "id": "c13-h19",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": "Herramientas IA de generación y categorización de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    },
+    {
+      "id": "c13-h20",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": "Herramientas IA de generación y categorización de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia012"
+    },
+    {
+      "id": "c13-h21",
+      "nombre": "Jasper.ai",
+      "bloque": "Herramientas IA de generación y categorización de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia036"
+    },
+    {
+      "id": "c13-h22",
+      "nombre": "Writesonic",
+      "bloque": "Herramientas IA de generación y categorización de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia077"
+    },
+    {
+      "id": "c13-h23",
+      "nombre": "Kustomer",
+      "bloque": "Herramientas IA de generación y categorización de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h24",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia012"
+    },
+    {
+      "id": "c13-h25",
+      "nombre": "ChatGPT 5.2",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia009"
+    },
+    {
+      "id": "c13-h26",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    },
+    {
+      "id": "c13-h27",
+      "nombre": "Perplexity",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia056"
+    },
+    {
+      "id": "c13-h28",
+      "nombre": "MonkeyLearn",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia049"
+    },
+    {
+      "id": "c13-h29",
+      "nombre": "Lexalytics",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d130"
+    },
+    {
+      "id": "c13-h30",
+      "nombre": "Clarabridge",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d044"
+    },
+    {
+      "id": "c13-h31",
+      "nombre": "Qualtrics XM",
+      "bloque": "Herramientas IA de análisis de respuestas",
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": null,
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d182"
+    },
+    {
+      "id": "c13-h32",
+      "nombre": "Yelp",
+      "bloque": null,
+      "id_seccion": "c13-s1",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Según el estudio de Luca (2016), cada estrella adicional en una plataforma como Yelp puede incrementar los ingresos en hasta un 9 % y de igual forma, un negocio con puntuaciones de 1‑2 estrellas ve rechazado al 86 % de los clientes potenciales.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d253"
+    },
+    {
+      "id": "c13-h33",
+      "nombre": "Google",
+      "bloque": null,
+      "id_seccion": "c13-s1",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "En el caso de aulamarketing.digital, cuando Ana busca \"formación marketing digital práctica\", los primeros resultados con 4.8 estrellas en Google y testimonios detallados de estudiantes que han conseguido promociones laborales tras completar nuestros cursos, generan confianza inmediata antes incluso de visitar nuestro sitio web.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h34",
+      "nombre": "Google Business Profile",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Reseñas de Google Business Profile (GBP): Son clave para SEO local y en la etapa de descubrimiento.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d083"
+    },
+    {
+      "id": "c13-h35",
+      "nombre": "Facebook",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Reseñas de Facebook, Instagram y TikTok Shop: Integradas en el ecosistema social, permiten compartir fácilmente y generar conversaciones.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d063"
+    },
+    {
+      "id": "c13-h36",
+      "nombre": "Instagram",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Reseñas de Facebook, Instagram y TikTok Shop: Integradas en el ecosistema social, permiten compartir fácilmente y generar conversaciones.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d116"
+    },
+    {
+      "id": "c13-h37",
+      "nombre": "TikTok Shop",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Reseñas de Facebook, Instagram y TikTok Shop: Integradas en el ecosistema social, permiten compartir fácilmente y generar conversaciones.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h38",
+      "nombre": "LinkedIn",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Reseñas en LinkedIn: Especialmente valiosas para aulamarketing.digital dada nuestra audiencia profesional.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h39",
+      "nombre": "Coursera",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Reseñas en plataformas: En nuestro caso, podría tratarse de plataformas como Coursera, Udemy, y plataformas especializadas donde las reseñas incluyen detalles sobre metodología, calidad de los docentes y aplicabilidad práctica del contenido.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h40",
+      "nombre": "Udemy",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Reseñas en plataformas: En nuestro caso, podría tratarse de plataformas como Coursera, Udemy, y plataformas especializadas donde las reseñas incluyen detalles sobre metodología, calidad de los docentes y aplicabilidad práctica del contenido.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h41",
+      "nombre": "Booking",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Aplica para las plataformas de cada sector, Booking, Tripadvisor o Amazon entre otras.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h42",
+      "nombre": "Tripadvisor",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Aplica para las plataformas de cada sector, Booking, Tripadvisor o Amazon entre otras.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d221"
+    },
+    {
+      "id": "c13-h43",
+      "nombre": "Amazon",
+      "bloque": null,
+      "id_seccion": "c13-s2",
+      "pagina_pdf": 199,
+      "pagina_libro": 194,
+      "descripcion_libro": "Aplica para las plataformas de cada sector, Booking, Tripadvisor o Amazon entre otras.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h44",
+      "nombre": "TikTok",
+      "bloque": null,
+      "id_seccion": "c13-s3",
+      "pagina_pdf": 200,
+      "pagina_libro": 195,
+      "descripcion_libro": "Se intensifica la generación de reseñas en vídeo en TikTok, Instagram Reels y YouTube Shorts.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h45",
+      "nombre": "Instagram Reels",
+      "bloque": null,
+      "id_seccion": "c13-s3",
+      "pagina_pdf": 200,
+      "pagina_libro": 195,
+      "descripcion_libro": "Se intensifica la generación de reseñas en vídeo en TikTok, Instagram Reels y YouTube Shorts.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d116"
+    },
+    {
+      "id": "c13-h46",
+      "nombre": "YouTube Shorts",
+      "bloque": null,
+      "id_seccion": "c13-s3",
+      "pagina_pdf": 200,
+      "pagina_libro": 195,
+      "descripcion_libro": "Se intensifica la generación de reseñas en vídeo en TikTok, Instagram Reels y YouTube Shorts.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h47",
+      "nombre": "TrustPilot",
+      "bloque": null,
+      "id_seccion": "c13-s3",
+      "pagina_pdf": 200,
+      "pagina_libro": 195,
+      "descripcion_libro": "El uso de este tipo de herramientas como TrustPilot o similares permite que se genere un clima de credibilidad para ambas partes ya que la empresa dispone de un sello de certificación y veracidad y el usuario también.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d223"
+    },
+    {
+      "id": "c13-h48",
+      "nombre": "WhatsApp",
+      "bloque": null,
+      "id_seccion": "c13-s3",
+      "pagina_pdf": 200,
+      "pagina_libro": 195,
+      "descripcion_libro": "Las marcas utilizan chatbots en WhatsApp o Facebook Messenger para solicitar reseñas de forma personalizada tras la compra.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h49",
+      "nombre": "Facebook Messenger",
+      "bloque": null,
+      "id_seccion": "c13-s3",
+      "pagina_pdf": 200,
+      "pagina_libro": 195,
+      "descripcion_libro": "Las marcas utilizan chatbots en WhatsApp o Facebook Messenger para solicitar reseñas de forma personalizada tras la compra.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h50",
+      "nombre": "WhatsApp",
+      "bloque": null,
+      "id_seccion": "c13-s5.1",
+      "pagina_pdf": 202,
+      "pagina_libro": 197,
+      "descripcion_libro": "Un ejemplo puede ser WhatsApp si la relación es directa y frecuente, email si el proceso es más formal o tal vez un QR si existe atención presencial.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h51",
+      "nombre": "Google Business Profile",
+      "bloque": null,
+      "id_seccion": "c13-s5.1",
+      "pagina_pdf": 202,
+      "pagina_libro": 197,
+      "descripcion_libro": "En este punto debemos generar el enlace directo a la plataforma prioritaria, que podría ser Google Business Profile, verificar que el acceso es correcto y preparar versiones listas para usar en email, WhatsApp, QR y web.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d083"
+    },
+    {
+      "id": "c13-h52",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 204,
+      "pagina_libro": 199,
+      "descripcion_libro": "Comenzaremos por ir en esta ocasión a Gemini 3.1 Pro y solicitar asistencia para disponer de plantillas adaptadas con este prompt “Actúa como un Customer Happiness Manager experto en comunicación asíncrona.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    },
+    {
+      "id": "c13-h53",
+      "nombre": "ChatGPT 5.2",
+      "bloque": null,
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": "Preferentemente utilizaremos ChatGPT 5.2 o Gemini 3.1 Pro en modo razonamiento y adjuntaremos las imágenes sin discriminar el tipo de plataforma de la que provienen, buscamos heterogeneidad para la clasificación.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia009"
+    },
+    {
+      "id": "c13-h54",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": null,
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": "En este caso vamos a cambiar de modelo y nos iremos a uno que es especialista en análisis y gráficas, ahora utilizaremos Claude 4.6 Sonnet y le facilitaremos el siguiente prompt: “Ahora, actúa como un Analista de Business Intelligence.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia012"
+    },
+    {
+      "id": "c13-h55",
+      "nombre": "Excel/Sheets",
+      "bloque": null,
+      "id_seccion": "c13-s6",
+      "pagina_pdf": 205,
+      "pagina_libro": 200,
+      "descripcion_libro": "Dataset para Visualización: Genera un bloque de datos en formato tabla (listo para copiar a Excel/Sheets) con las columnas: [Mes], [Pilar], [Valencia Media], [Volumen de Reseñas].",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": null
+    },
+    {
+      "id": "c13-h56",
+      "nombre": "Revi",
+      "bloque": null,
+      "id_seccion": "c13-s7",
+      "pagina_pdf": 206,
+      "pagina_libro": 201,
+      "descripcion_libro": "Utilizaremos Revi para solicitar automáticamente las reseñas, asegurando que solo los estudiantes que realmente completaron la formación de aulamarketing.digital puedan dejar una opinión, garantizando una reseña verificada con prueba.",
+      "es_ia": false,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-d186"
+    },
+    {
+      "id": "c13-h57",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": null,
+      "id_seccion": "c13-s7",
+      "pagina_pdf": 206,
+      "pagina_libro": 201,
+      "descripcion_libro": "Una vez tenemos las reseñas pasamos por el proceso de evaluación con Claude 4.6 Sonnet y generamos un análisis de sentimientos identificando \"entusiasmo por aplicabilidad\" o \"confianza en metodología\".",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia012"
+    },
+    {
+      "id": "c13-h58",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "id_seccion": "c13-s7",
+      "pagina_pdf": 206,
+      "pagina_libro": 201,
+      "descripcion_libro": "El equipo usará Gemini 3.1 Pro para generar respuestas que mantienen el tono de marca y referencian los logros específicos mencionados por el reviewer, en la búsqueda de una tasa de respuesta del 100%.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "id_kit": "k-ia027"
+    }
+  ],
+  "figuras_tablas": [
+    {
+      "id": "c13-f01",
+      "tipo": "tabla",
+      "numero": "Tabla 1",
+      "titulo": "Ejemplo preguntas guiadas en la gestión de reseñas",
+      "pagina_pdf": 206,
+      "pagina_libro": 201,
+      "contenido": {
+        "columnas": [
+          "Elemento narrativo",
+          "Pregunta guía",
+          "Valor extraído"
+        ],
+        "filas": [
+          [
+            "Antes (Problema/Dolor)",
+            "¿Cuál era tu mayor desafío profesional o la métrica que no podías optimizar antes de iniciar el curso?",
+            "Confianza en la marca y UGC de alta calidad."
+          ],
+          [
+            "Puente (Metodología/Clave)",
+            "¿Qué herramienta, profesor o aspecto de nuestra metodología práctica te dio el insight clave?",
+            "Mención de profesores universitarios y aplicabilidad inmediata."
+          ],
+          [
+            "Después (Resultado Tangible)",
+            "¿Qué resultado específico, medible o promoción obtuviste gracias al conocimiento aplicado?",
+            "Valor de Conversión Directa y Prueba Social."
+          ]
+        ]
+      },
+      "origen": "texto",
+      "id_seccion": "c13-s7"
+    }
+  ],
+  "ejemplo_aulamarketing": {
+    "id_seccion": "c13-s7",
+    "texto": "Cuando puedes tomarte el tiempo de reflexionar acerca del impacto que tienen las opiniones de tus clientes en el proceso de captación, terminas por aceptar que no diseñar un proceso desde la organización puede estar constando muchos más recursos de lo que parece. Tal vez ahora veas que no tienes tiempo “extra” para hacerlo o consideras que en el equipo no pueden integrar estas pero ya hemos podido comprobar que podrías estar perdiendo la oportunidad de aprovechar esta extraordinaria herramienta de credibilidad y captación de clientes. Con el fin de seguir derribando objeciones, queremos compartir contigo cómo desarrollaremos nuestra propuesta. Al finalizar cada curso, enviamos un email personalizado solicitando una reseña que incluye una plantilla opcional con preguntas específicas sobre aspectos más valiosos aprendidos y aplicación práctica en el trabajo actual. Incentivaremos reseñas que incluyan contexto profesional previo y logros posteriores específicos, creando narrativas de transformación que resuenen con estudiantes potenciales. Las mejores reseñas pasarán a ser casos de estudio expandidos, contactando a reviewers para desarrollar historias completas incluyendo métricas específicas y estrategias implementadas con el objetivo de aumentar la review velocity a más de veinte reseñas verificadas mensuales, maximizando el valor de conversión directa y la diferenciación competitiva. Utilizaremos Revi para solicitar automáticamente las reseñas, asegurando que solo los estudiantes que realmente completaron la formación de aulamarketing.digital puedan dejar una opinión, garantizando una reseña verificada con prueba. La solicitud de reseña se envía 3 días después de la entrega de la certificación del curso. El sistema está diseñado en dos pasos, el primero es recopilar feedback interno, y solo si es positivo, invitaremos a dejar una reseña pública. Diseñaremos una plantilla opcional en la solicitud que guía al estudiante a crear una narrativa de transformación profesional que aborde los puntos de valor clave de aulamarketing.digital.\n[Tabla 1. Ejemplo preguntas guiadas en la gestión de reseñas — transcrita en c13-f01]\nUna vez tenemos las reseñas pasamos por el proceso de evaluación con Claude 4.6 Sonnet y generamos un análisis de sentimientos identificando \"entusiasmo por aplicabilidad\" o \"confianza en metodología\". El equipo usará Gemini 3.1 Pro para generar respuestas que mantienen el tono de marca y referencian los logros específicos mencionados por el reviewer, en la búsqueda de una tasa de respuesta del 100%. Las mejores reseñas que mencionan keywords long-tail como \"mejor curso de IA para marketing predictivo\" se usan para la integración de la reseña con el contenido, lo que denominamos review-to-content, optimizando el SEO y buscando impactar en la confianza de Ana antes de elegir una formación con nosotros.",
+    "entregables": [
+      {
+        "id": "c13-e01",
+        "titulo": "Plantilla opcional de preguntas guiadas para la solicitud de reseña (Tabla 1. Ejemplo preguntas guiadas en la gestión de reseñas; ver c13-f01)",
+        "texto": "Elemento narrativo | Pregunta guía | Valor extraído\nAntes (Problema/Dolor) | ¿Cuál era tu mayor desafío profesional o la métrica que no podías optimizar antes de iniciar el curso? | Confianza en la marca y UGC de alta calidad.\nPuente (Metodología/Clave) | ¿Qué herramienta, profesor o aspecto de nuestra metodología práctica te dio el insight clave? | Mención de profesores universitarios y aplicabilidad inmediata.\nDespués (Resultado Tangible) | ¿Qué resultado específico, medible o promoción obtuviste gracias al conocimiento aplicado? | Valor de Conversión Directa y Prueba Social.",
+        "pagina_pdf": 206
+      }
+    ]
+  },
+  "remisiones_aulamarketing": [],
+  "remisiones_internas": [
+    {
+      "texto": "En una sección posterior te hablaremos de todo este proceso y cómo planificarlo.",
+      "capitulo_destino": 13,
+      "seccion_destino": "c13-s5",
+      "pagina_pdf": 200
+    },
+    {
+      "texto": "Previamente hemos creado varias plantillas para la generación de respuestas pero es importante que puedas disponer de diferentes adaptaciones, en función del tipo de negocio, del producto o servicio y del tipo de respuestas, ya que tendremos plantillas básicas pero debemos disponer de varios modelos para combinar y alternativas a reseñas inusuales.",
+      "capitulo_destino": 13,
+      "seccion_destino": "c13-s5.3",
+      "pagina_pdf": 204
+    },
+    {
+      "texto": "Tanto si tienes reseñas de una etapa en la que no organizaste una gestión activa como para una etapa post desarrollo del protocolo que hemos descrito, dispones de cierta información sobre qué opinan los clientes.",
+      "capitulo_destino": 13,
+      "seccion_destino": "c13-s5",
+      "pagina_pdf": 204
+    }
+  ],
+  "citas_y_referencias": [
+    {
+      "texto": "Según datos de DemandSage (2025), 93 % de los consumidores leen reseñas antes de comprar y 93 % afirma que estas influyen en su decisión de compra.",
+      "pagina_pdf": 198,
+      "id_referencia_final": "ref011"
+    },
+    {
+      "texto": "Según el estudio de Luca (2016), cada estrella adicional en una plataforma como Yelp puede incrementar los ingresos en hasta un 9 % y de igual forma, un negocio con puntuaciones de 1‑2 estrellas ve rechazado al 86 % de los clientes potenciales.",
+      "pagina_pdf": 199,
+      "id_referencia_final": "ref034"
+    },
+    {
+      "texto": "Google recomienda responder a reseñas y subraya que hacerlo ayuda a mostrar que la empresa valora el feedback, lo que refuerza la pertinencia de este protocolo como parte del sistema de gestión.",
+      "pagina_pdf": 203,
+      "id_referencia_final": null
+    }
+  ],
+  "recursos_externos": [],
+  "otros": [
+    {
+      "descripcion": "Título del capítulo tal como aparece en la página de apertura",
+      "texto": "Capítulo 13: Lo que dicen de ti, vende: diseñando un sistema de reseñas",
+      "pagina_pdf": 198
+    },
+    {
+      "descripcion": "Frase introductoria de los objetivos de aprendizaje",
+      "texto": "En este capítulo aprenderemos juntos y aprenderás cómo:",
+      "pagina_pdf": 198
+    },
+    {
+      "descripcion": "Plantilla de mensaje de solicitud de reseña por WhatsApp post-servicio (mensaje a clientes, no prompt de IA) — sección 5.2",
+      "texto": "Este es un mensaje de WhatsApp post-servicio: “Hola, [Nombre]. Gracias por confiar en [Empresa]. Si te apetece, nos ayudaría mucho que compartieras tu experiencia en esta reseña. Tu opinión nos sirve para mejorar y para que otras personas conozcan cómo trabajamos: [enlace]. Muchas gracias.”",
+      "pagina_pdf": 202
+    },
+    {
+      "descripcion": "Plantilla de email de solicitud de reseña tras la entrega (mensaje a clientes, no prompt de IA) — sección 5.2",
+      "texto": "este otro es un email tras la entrega “Asunto: [Nombre], gracias por tu confianza en [Empresa] Mensaje: Hola, [Nombre]: Gracias por haber contado con nosotros para [servicio]. Si deseas dejar una reseña sobre tu experiencia, puedes hacerlo aquí: [enlace]. Tu opinión nos ayuda a mejorar y orienta a otras personas en su decisión.Un saludo,[Firma]”",
+      "pagina_pdf": 202
+    },
+    {
+      "descripcion": "Plantilla de mensaje de solicitud de reseña tras reconducir una incidencia (mensaje a clientes, no prompt de IA) — sección 5.2",
+      "texto": "Incluso es altamente recomendable solicitar una reseña tras reconducir una incidencia, un ejemplo podría ser “Hola, [Nombre]. Gracias por tu tiempo estos días. Nos alegra haber podido resolver [incidencia/proceso]. Si quieres compartir cómo ha sido la experiencia, puedes dejar tu reseña aquí: [enlace]. Nos ayuda mucho a seguir mejorando.”",
+      "pagina_pdf": 202
+    },
+    {
+      "descripcion": "Plantilla de respuesta: reseña positiva genérica (sección 5.3)",
+      "texto": "✓ Reseña positiva genérica: “Muchas gracias por compartir tu experiencia y por confiar en [Empresa]. Valoramos mucho tu comentario. Seguiremos trabajando para ofrecer un servicio de calidad.”",
+      "pagina_pdf": 203
+    },
+    {
+      "descripcion": "Plantilla de respuesta: reseña positiva específica (sección 5.3)",
+      "texto": "✓ Reseña positiva específica: “Muchas gracias, [Nombre], por tu reseña y por destacar [atributo mencionado: p. ej., la claridad de la explicación / la rapidez de atención]. Nos alegra saber que tu experiencia fue positiva. Comentarios como el tuyo nos ayudan a reforzar aquello que más valoráis.”",
+      "pagina_pdf": 203
+    },
+    {
+      "descripcion": "Plantilla de respuesta: reseña mixta (sección 5.3)",
+      "texto": "✓ Reseña mixta (positiva con objeción): “Gracias por tu reseña y por señalar tanto los aspectos positivos como el punto de mejora que mencionas sobre [tema]. Valoramos especialmente este tipo de comentarios porque nos ayudan a revisar el servicio y seguir mejorando.”",
+      "pagina_pdf": 203
+    },
+    {
+      "descripcion": "Plantilla de respuesta: reseña crítica recuperable (sección 5.3)",
+      "texto": "✓ Reseña crítica recuperable: “Gracias por compartir tu experiencia. Lamentamos que no haya sido la esperada en [tema]. Nos tomamos este tipo de comentarios con mucha seriedad. Nos gustaría revisar tu caso y darte una respuesta adecuada. Si te parece, puedes escribirnos a [canal] para ayudarte de forma más directa.”",
+      "pagina_pdf": 203
+    },
+    {
+      "descripcion": "Plantilla de respuesta: reseña conflictiva o potencialmente improcedente (sección 5.3)",
+      "texto": "✓ Reseña conflictiva o potencialmente improcedente: “Gracias por tu comentario. Queremos revisar lo ocurrido con detalle para comprender la situación correctamente. Si puedes contactar con nosotros en [canal], estaremos encantados de atenderte. Nuestro objetivo es gestionar cada caso con rigor y respeto.”",
+      "pagina_pdf": 203
+    },
+    {
+      "descripcion": "Tres principios del protocolo de implantación de reseñas (sección 5)",
+      "texto": "El enfoque de este protocolo se apoya en tres principios. El primero es que la reseña debe tratarse como una salida del sistema de calidad, no como un elemento aislado de reputación. El segundo es que la captación de reseñas debe plantearse bajo criterios de autenticidad, neutralidad y con las mínimas fricciones, en línea con las políticas de plataformas como Google, que prohíben la manipulación, la incentivación engañosa y las solicitudes sesgadas. El tercer principio es que las reseñas deben integrarse en la arquitectura de confianza de las plataformas para apoyar la reducción de incertidumbre y la toma de decisiones a lo largo del customer journey.",
+      "pagina_pdf": 201
+    },
+    {
+      "descripcion": "Cinco tipologías de reseña para el protocolo de respuesta (sección 5.3)",
+      "texto": "Se recomienda, como mínimo, distinguir cinco tipos: reseña positiva genérica, reseña positiva específica, reseña mixta (elogio + objeción), reseña crítica recuperable y reseña conflictiva o potencialmente improcedente. Para cada tipología conviene definir objetivo de respuesta, tono, tiempo máximo y, cuando sea necesario, derivación interna.",
+      "pagina_pdf": 203
+    },
+    {
+      "descripcion": "Métricas objetivo del ejemplo aulamarketing.digital (sección 7)",
+      "texto": "con el objetivo de aumentar la review velocity a más de veinte reseñas verificadas mensuales, maximizando el valor de conversión directa y la diferenciación competitiva.",
+      "pagina_pdf": 206
+    }
+  ],
+  "control": {
+    "num_secciones": 7,
+    "num_subsecciones": 4,
+    "num_prompts": 3,
+    "num_herramientas": 58,
+    "num_herramientas_distintas": 44,
+    "num_figuras_tablas": 1,
+    "num_definiciones": 14,
+    "num_entregables": 1,
+    "paginas_revisadas": [
+      198,
+      206
+    ],
+    "incidencias": [
+      "No hay imágenes en las páginas PDF 198–206 (según imagenes_por_pagina.txt); la Tabla 1 (pág. PDF 206) es texto y se transcribió desde la capa de texto (verificada con render a 110 ppp).",
+      "En el texto de la sección 7 la tabla se sustituye por un marcador \"[Tabla 1 ... — transcrita en c13-f01]\" para conservar su posición; la transcripción literal está en figuras_tablas.",
+      "Hay 3 bloques ✐ (sección 6). En el bloque \"Herramientas de solicitud y gestión de respuestas\" Revi aparece dos veces (literal) y varios nombres van separados por salto de línea sin \"|\" (\"EmbedSocial\" / \"Revi\" al cambiar de línea) o sin \"|\" en la misma línea (\"TrueReview Grade.us\"): se separan como herramientas distintas (TrueReview y Grade.us, ambas con entrada propia en el kit).",
+      "es_ia se toma del título del bloque ✐ cuando contiene \"IA\"; fuera de bloques IA, de la clasificación del kit (cap. 16). Lexalytics y Clarabridge figuran en el bloque \"Herramientas IA de análisis de respuestas\" (es_ia=true) pero el kit las clasifica como \"Herramientas digitales\".",
+      "Kustomer (bloque \"Herramientas IA de generación y categorización de respuestas\") no tiene entrada en el kit del cap. 16; \"Qualtrics XM\" corresponde a \"Qualtrics\" en el kit.",
+      "Prompts: 3 (sección 6). Los mensajes entre comillas de las secciones 5.2 y 5.3 son plantillas de mensajes a clientes, no instrucciones para una IA: se registran en \"otros\" (y permanecen en el texto de la sección).",
+      "Prompt c13-p03 pide usar \"la clasificación por Pilares Estratégicos\" que no se genera en c13-p02 (que pide \"5 categorías principales\"); se transcribe literal.",
+      "Erratas literales conservadas: \"boca oreja\" sin comilla de cierre (apertura); \"profesionas y empáticas\" (c13-p01); \"puede estar constando\" (sección 7); \"no pueden integrar estas pero\" (sección 7); \"1‑2\" con guion no separable (U+2011).",
+      "La sección 7 (ejemplo) no contiene bloques ✓; el único entregable identificable es la plantilla de preguntas guiadas de la Tabla 1.",
+      "El libro no muestra salidas de IA para los prompts de este capítulo."
+    ]
+  }
+}

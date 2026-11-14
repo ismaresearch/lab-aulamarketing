@@ -1,0 +1,61 @@
+{
+  "id": "c14",
+  "promesa": "Gestionarás tu reputación digital como un sistema que construye confianza, protege tu marca y convierte.",
+  "al_terminar_tendras": [
+    "Un mapa de tus activos reputacionales: propios, ganados, prestados e internos",
+    "Un protocolo de 30 días para ordenar tu presencia, escuchar, responder y medir",
+    "Criterios de respuesta pública según cada situación: agradecer, aclarar, contener, reparar o escalar",
+    "Un cuadro de mando reputacional mínimo viable y un sistema de alertas tempranas",
+    "Prompts de IA para auditar tu reputación, simular crisis y revisar lo que la IA dice de tu marca"
+  ],
+  "historia_ana": null,
+  "resumen_capitulo": "Una marca puede desaparecer por un problema de reputación, y una marca personal es aún más frágil. La reputación online es el núcleo de la confianza y la sostenibilidad de cualquier organización, y atraviesa todas las acciones del plan. Muchas marcas la descuidan al principio, pero los buenos resultados llegan precedidos de una buena reputación. En este capítulo entiendes por qué es clave en un entorno de desconfianza, desinformación y deepfakes: genera confianza, influye en la decisión, protege en las crisis, diferencia por autenticidad, reduce costes y abre alianzas. Conoces el ORM y sus dimensiones, el SERM y conceptos como brand safety, dark social o derecho al olvido, además de los enfoques proactivo, defensivo y de recuperación. Ves las tendencias, el valor que aporta, su papel en el customer journey, los touchpoints y el ciclo ORM. El núcleo es un sistema de gestión para pequeñas empresas, con un protocolo de 30 días y un cuadro de mando. Por último, usas la IA para auditar, responder, prever y simular crisis, y ves cómo aulamarketing.digital da a Ana señales claras de credibilidad.",
+  "secciones": {
+    "c14-s1": {
+      "idea_clave": "La reputación es el activo más valioso y frágil de tu marca: genera confianza, protege en las crisis, abarata la captación y abre alianzas.",
+      "resumen": "Hoy confiamos menos en las marcas, entre tanta información, desinformación y deepfakes, y el público cree más a los creadores de contenido que a los mensajes de marca. El libro propone analizar la reputación a través de varios factores. Confianza: la reputación es uno de los activos más valiosos, complejos y frágiles, el núcleo que da legitimidad a la marca. Decisión: la compra ya no es lineal; Ana no solo evalúa la formación, sino si asociar su marca personal a la institución reforzará su proyección laboral, y según el libro más del 90 % de los profesionales investiga la reputación online antes de comprometerse con una formación. Protección: una reputación sólida protege en las crisis, aunque una crisis puede destruir en días lo construido en años. Autenticidad: en un entorno dominado por contenido de IA, es el valor diferencial, y los estudiantes buscan señales de humanidad. Rentabilidad: una buena reputación genera reseñas, menciones y UGC que reducen el coste de adquisición. Y alianzas: es requisito previo para colaborar con otras entidades y convierte a tus clientes en embajadores.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c14-s2": {
+      "idea_clave": "El ORM monitoriza, influye y protege la percepción online de tu marca en varias dimensiones, con enfoques proactivo, defensivo y de recuperación.",
+      "resumen": "El ORM (Online Reputation Management) es la práctica continua de monitorizar, influir y proteger la percepción online de tu marca. Tiene varias dimensiones: reputación de búsqueda, social, de autoridad, de experiencia y de crisis, además del SERM, que usa el SEO para promover contenido positivo y mitigar el negativo en los resultados. El libro define otros conceptos con ejemplos de aulamarketing.digital: reputación digital, análisis de sentimientos, brand safety, dark social (como cuando Ana recomienda un curso por WhatsApp), puntuación reputacional, crisis de reputación, fake news y deepfakes, derecho al olvido y criterios ESG. La gestión puede ser proactiva (construir credibilidad), defensiva (vigilar críticas antes de que escalen) o de recuperación (restaurar la confianza tras una crisis), y afecta a la reputación corporativa, a la de producto o servicio y a la marca personal. Entre las tendencias destacan la omnicanalidad reputacional, la excelencia en cada nicho, unos algoritmos que valoran la autenticidad, la IA para anticipar crisis, la transparencia, las posturas éticas y el marco legal del RGPD.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c14-s3": {
+      "idea_clave": "Una buena reputación atrae talento, socios y clientes, y actúa en cada etapa del customer journey; gestiónala en un ciclo continuo de mejora.",
+      "resumen": "La reputación genera valor tangible: atrae a profesionales de alto nivel, permite subir tarifas, abre oportunidades de co-marketing, consigue que te concedan el beneficio de la duda en una crisis, convierte al equipo en embajador, mejora la visibilidad orgánica y reduce costes de adquisición, mientras los clientes satisfechos generan medios ganados. Influye en todo el customer journey. En la conciencia, a través de las menciones espontáneas que capta el social listening y de una primera impresión de autenticidad. En la consideración, Ana busca pruebas de credibilidad, y las reseñas, la transparencia (incluso con críticas bien gestionadas) y la información clara sobre cursos y profesores son decisivas. En la poscompra, una buena experiencia convierte al cliente en embajador. Los touchpoints clave son las plataformas de reseñas, el UGC, la atención por mensajería y chatbots, y los foros y comunidades. La gestión sigue un ciclo continuo: monitorizar con social listening, analizar sentimiento e impacto con IA, definir la respuesta (reactiva o proactiva) y medir para aprender y ajustar.",
+      "subsecciones": {
+        "c14-s3.1": {
+          "idea_clave": "La reputación actúa en cada fase: autenticidad en la conciencia, pruebas de credibilidad en la consideración y embajadores en la fidelización."
+        },
+        "c14-s3.2": {
+          "idea_clave": "Vigila los puntos de contacto que forjan tu reputación: plataformas de reseñas, UGC, mensajería y chatbots, y foros o comunidades."
+        },
+        "c14-s3.3": {
+          "idea_clave": "Gestiona la reputación en un ciclo continuo: monitorizar, analizar con IA, responder o prevenir, y medir para mejorar."
+        }
+      },
+      "minutos_lectura_integro": 4
+    },
+    "c14-s4": {
+      "idea_clave": "Deja de reaccionar solo ante las crisis: gestiona tu reputación como un sistema con activos, protocolo de 30 días, alertas y cuadro de mando.",
+      "resumen": "Las pequeñas empresas suelen gestionar su reputación de forma reactiva, cuando aparece una crítica o baja una valoración. El libro propone entenderla como un sistema que integra experiencia de cliente, respuesta pública, consistencia operativa, presencia digital y mejora continua. El primer paso es identificar dónde está tu reputación: en activos propios (web, ficha de Google, redes, WhatsApp Business), ganados (reseñas, menciones, UGC), prestados (directorios, colaboraciones, medios) e internos (atención al cliente, tono del equipo, cultura de servicio). Después, conectarlos con el customer journey, porque cada contacto suma señales de confianza o de riesgo. Para ponerlo en marcha, un ciclo de 30 días: ordenar activos y detectar incoherencias, activar la escucha, aplicar un protocolo de respuesta pública con correcciones rápidas y fijar una rutina de medición. La respuesta pública exige criterios según la situación (agradecer, aclarar, contener, reparar o escalar) y, a veces, pasar al canal privado. Completa el sistema un mecanismo de alertas tempranas y un cuadro de mando reputacional mínimo viable con varias capas.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c14-s5": {
+      "idea_clave": "Monitoriza con herramientas especializadas y usa prompts de IA para auditar tu reputación, simular crisis y revisar qué dice la IA de ti.",
+      "resumen": "La reputación digital requiere herramientas para monitorizar, analizar, gestionar crisis y vigilar la reputación corporativa. La IA permite pasar de un enfoque reactivo a otro automatizado, integral y predictivo. El libro propone una secuencia de prompts en un mismo LLM, empezando por uno con buena capacidad de análisis. Primero, recopila información de todos tus canales y pide un análisis de tu reputación percibida. Después, una auditoría desde tus valores de marca. A continuación, propuestas de respuesta desde la comunicación de crisis y una interpretación global de todos los análisis. El siguiente nivel es un simulador de crisis para comprobar cómo reaccionarías; conviene probarlo con dos LLM distintos para obtener varias perspectivas, y tener en cuenta que las críticas que aparezcan apuntan a las mejoras de calidad que buscas. Por último, vigila tu \"sombra digital\": pregunta a la IA si tu empresa es fiable, analiza su respuesta y profundiza con un enfoque AEO para saber qué publicar en tu web y corregir posibles sesgos. Repite estas acciones cada uno o dos meses.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 7
+    },
+    "c14-s6": {
+      "idea_clave": "aulamarketing.digital construye su reputación con testimonios verificados, embajadores alumni, transparencia total con las críticas y métricas claras.",
+      "resumen": "Para Ana, cada decisión formativa es también una decisión reputacional, y se pregunta si los cursos generarán un impacto real en su carrera. El reto es mostrar la reputación a través de la transparencia, los testimonios verificados y una comunidad activa. aulamarketing.digital prioriza testimonios y casos de éxito verificados en LinkedIn de profesionales que muestran cómo aplicaron lo aprendido para ascender, porque Ana confía más en un antiguo alumno que en un eslogan. Profesores, estudiantes y alumni participan como embajadores, con UGC en primera persona, testimonios en LinkedIn y reseñas en Google Business Profile, justo donde Ana investiga. Los alumni se integran de forma permanente como embajadores. Se publican todas las reseñas, también las críticas, con respuestas públicas que muestran capacidad de mejora. El impacto se mide con un net sentiment score superior a +75, un 40 % de alumni que recomiendan activamente y menos de 6 horas para responder a una crítica viral. Se usan herramientas de alertas y de medición de medios ganados, un LLM para analizar la percepción y, de forma periódica, el simulador de crisis.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    }
+  }
+}

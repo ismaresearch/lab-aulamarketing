@@ -1,0 +1,30 @@
+---
+import type { Prerrequisito } from '../lib/datos';
+import Icon from './Icon.astro';
+interface Props { plan: string; prerrequisitos: Prerrequisito[] }
+const { plan, prerrequisitos } = Astro.props;
+---
+{prerrequisitos.length > 0 && (
+  <section class="c-card c-prereq" aria-labelledby="pre-t">
+    <span class="c-prereq__ico" aria-hidden="true"><Icon nombre="bombilla" /></span>
+    <div class="c-prereq__cuerpo">
+      <h2 id="pre-t" class="c-prereq__t">Antes de empezar</h2>
+      <p class="c-prereq__lead">Este plan rinde más si ya tienes lo siguiente. Ningún paso es obligatorio: también puedes seguir sin ello.</p>
+      <ul class="c-list-plain">
+        {prerrequisitos.map((r) => {
+          const clave = `${plan}:${r.plan}`;
+          return (
+            <li data-js="prerrequisitos" class="c-prereq__item">
+              <p><strong><a href={r.plan_url}>{r.plan_titulo}</a></strong>: {r.que_aporta}</p>
+              <p class="c-meta"><strong>Alternativa rápida:</strong>{' '}{r.alternativa_rapida}</p>
+              <div class="c-acciones">
+                <button type="button" class="c-btn c-btn--blanco c-btn--peq" data-js="prerrequisito-ok" data-clave={clave} aria-pressed="false"><Icon nombre="check" />Ya lo tengo</button>
+                <a class="c-btn c-btn--sec c-btn--peq" href="/mi-proyecto/">Hazlo en 3 minutos<Icon nombre="flecha" /></a>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  </section>
+)}

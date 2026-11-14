@@ -1,0 +1,77 @@
+{
+  "id": "c15",
+  "promesa": "Montarás el cuadro de mandos de tu plan para medir, diagnosticar, corregir a tiempo y escalar lo que funciona.",
+  "al_terminar_tendras": [
+    "Los KPI de cada canal con sus señales de alerta, neutras y positivas",
+    "Tus píxeles de seguimiento gestionados desde Google Tag Manager",
+    "Un sistema de diagnóstico basado en la lectura combinada de métricas",
+    "Una planificación con tiempos, responsables y secuencia de fases, y un cálculo de campaña desde el CPL",
+    "Una planificación anual, mensual y semanal, un informe de métricas y un dashboard creados con prompts de IA"
+  ],
+  "historia_ana": "En el caso de aulamarketing.digital, el controlling es la herramienta que permite comprobar si de verdad simplificamos el proceso de compra de Ana y le ofrecemos una experiencia sin fricciones en cada etapa de su customer journey.",
+  "resumen_capitulo": "Has invertido en anuncios, contenido y email. ¿Sabrías decir qué está funcionando? ¿Reaccionarías si el 40 % de tus visitas abandona la web en diez segundos? Los planes rígidos a un año vista son cosa del pasado: hoy necesitas una mentalidad ágil, con la IA como apoyo. El controlling no es burocracia, sino una necesidad estratégica: a través de los KPI te dice qué ajustar para mejorar resultados o reducir fricciones. En este capítulo entiendes por qué es imprescindible y adoptas el enfoque de la ingeniería inversa, que descompone cada acción en sus elementos para localizar el problema. Aprendes a leer señales negativas, neutras y positivas, y dominas términos como KPI, dashboard, CPL, LTV, CAC y ROI. Implantas los píxeles con Google Tag Manager, revisas las métricas clave por canal y diagnosticas combinando métricas para saber qué escalar. Después planificas tiempos, recursos, roles y secuencia, con un ejemplo de campaña calculada desde el CPL. Por último, usas la IA para planificar en cascada, elegir métricas, auditar resultados y crear tu dashboard.",
+  "secciones": {
+    "c15-s1": {
+      "idea_clave": "El controlling evita perder dinero, tiempo y energía: mide cada acción para reaccionar con datos y comprobar que tu cliente no encuentra fricciones.",
+      "resumen": "El controlling es la etapa de control de la planificación y la ejecución a través de métricas asociadas a cada acción operativa. Su razón es práctica: evitar perder recursos económicos, tiempo y, sobre todo, la energía del equipo. Si no mides ni ajustas tus campañas, podrías estar gastando en anuncios que no llegan a Ana o en contenido que no le interesa, poniendo en riesgo la rentabilidad. Por eso los objetivos deben ser medibles, la M de SMART: así puedes evaluar el éxito y reaccionar con datos. Un plan que no es revisable ni ágil, y que no se alimenta de datos en tiempo real, se queda atrás en un entorno mucho más cambiante que la década pasada. Además, como las acciones combinadas forman tu estrategia, medirlas te permite ajustarlas para lograr un resultado óptimo o, al menos, eliminar problemas. En un plan centrado en el cliente, el controlling verifica si de verdad le simplificas el proceso de compra. Si abandona la web, no interactúa o no hace clic, las métricas te dirán dónde está el problema.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    },
+    "c15-s2": {
+      "idea_clave": "Aplica la ingeniería inversa: descompón cada acción en sus elementos y lee sus métricas como señales para corregir o potenciar.",
+      "resumen": "El controlling no es solo datos: es un ciclo continuo de diagnóstico, ajuste y acción. Cada acción se compone de varios elementos que puedes ajustar; en un anuncio, la imagen capta la atención y el texto genera interés o deseo. Ese enfoque se resume en la ingeniería inversa: observar un resultado y dar pasos atrás para entender qué lo ha producido, como quien desmonta una mesa hasta llegar al árbol del que salió la madera. Aplicado al marketing, si un anuncio recibe pocos clics, puede deberse a que la imagen o el vídeo no conectan con tu público, a que el texto no plantea bien el problema o a que el enlace de la CTA no funciona. Son las métricas, leídas de forma combinada, las que te indican dónde buscar. Lo crucial es identificar en cada acción las métricas que dan señales, para potenciar o corregir cuanto antes: alerta negativa (como un rebote alto), neutra (un CTR promedio) o positiva (una retención alta, que conviene escalar).",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c15-s3": {
+      "idea_clave": "Domina los términos del controlling (KPI, dashboard, CPL, LTV, CAC y ROI) para evaluar si tus acciones son rentables.",
+      "resumen": "El libro define los términos clave con ejemplos de aulamarketing.digital. El controlling es la fase de supervisión que mide resultados, corrige desviaciones y optimiza recursos, por ejemplo revisando cada trimestre si los Social Ads cumplen el coste por lead previsto. Un KPI es un indicador clave que mide si se cumplen los objetivos. El dashboard es un panel visual que reúne en tiempo real los KPI de distintas fuentes para detectar desviaciones y decidir. El CPL es el coste por lead: el gasto dividido entre los leads obtenidos; con 600 € y 120 leads, el CPL es de 5 €, eficiente si el LTV medio es de 1.200 €. El LTV es el valor total que aporta un cliente durante toda su relación con la marca, y sirve para saber cuánto puedes invertir en captarlo y retenerlo. El CAC es la inversión total necesaria para captar un cliente; en el ejemplo, debe ser menos de un tercio del LTV. Y el ROI mide la rentabilidad global incluyendo todos los costes, a diferencia del ROAS, que solo considera la publicidad.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    },
+    "c15-s4": {
+      "idea_clave": "Sin una captura de datos precisa no hay controlling: instala los píxeles esenciales y gestiónalos desde Google Tag Manager.",
+      "resumen": "Sin una captura precisa de datos, todo el controlling es inútil. Cada clic, cada segundo en la landing y cada apertura de email generan datos que se recogen con píxeles de seguimiento. Tu plan funciona como un ecosistema conectado: todos los canales convergen en la web, donde se produce la conversión. Cuando Ana ve un reel, hace clic y llega a la web, esa secuencia debe quedar registrada. Los píxeles son pequeñas piezas de código que actúan como sensores invisibles. Los esenciales son el píxel de Meta, que rastrea conversiones y alimenta el algoritmo para optimizar campañas; Google Analytics 4, que muestra el comportamiento dentro de la web; Google Search Console, con datos de búsqueda orgánica e indexación; y el píxel de Google Ads, que rastrea conversiones de Google y YouTube para calcular el ROAS real. Instalarlos todos directamente puede ralentizar la web y complicar su gestión. Google Tag Manager lo resuelve: instalas un único código y gestionas los píxeles como etiquetas desde su interfaz, con activadores y modo de vista previa.",
+      "subsecciones": {
+        "c15-s4.1": {
+          "idea_clave": "Registra el recorrido de tu cliente con los píxeles esenciales: Meta, Google Analytics 4, Search Console y Google Ads."
+        },
+        "c15-s4.2": {
+          "idea_clave": "Con Google Tag Manager instalas un solo código y gestionas todos tus píxeles sin tocar la web ni ralentizarla."
+        }
+      },
+      "minutos_lectura_integro": 2
+    },
+    "c15-s5": {
+      "idea_clave": "Define métricas operativas para cada canal y, sobre todo, léelas en conjunto para tomar decisiones estratégicas.",
+      "resumen": "El valor del controlling está en fijar métricas para cada acción y cada área. En la base están las métricas operativas, los sensores de cada canal, que validan su eficacia de forma aislada; por ejemplo, si tu CTR funciona mejor en redes o en SEO, o si el tiempo de retención en la página es saludable. Pero las decisiones estratégicas surgen de su interdependencia y de su lectura combinada. Esa visión de lo micro a lo macro permite ajustar las acciones y eliminar fricciones del customer journey. El libro reúne en seis tablas las métricas clave de web y e-commerce, social media, SEO, Social Ads y SEM, email marketing, y reseñas, influencers y UGC. Para cada métrica explica por qué es fundamental, qué se considera una señal positiva y dónde aplicar cambios. En web, por ejemplo, una tasa de rebote inferior al 40 % o un tiempo de retención superior a 3 minutos son buenas señales, y se mejoran optimizando la velocidad o alineando la landing con la promesa del anuncio.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    },
+    "c15-s6": {
+      "idea_clave": "Diagnostica la causa raíz combinando métricas y escala lo que funciona: más volumen del buen contenido y más presupuesto en los anuncios ganadores.",
+      "resumen": "Los datos aislados no cuentan toda la historia: necesitas una visión de conjunto para encontrar la causa raíz y aplicar el cambio justo, en línea con la mentalidad ágil y de experimentación. El libro propone combinaciones de diagnóstico. Un CTR alto con un rebote alto indica que la página no cumple lo que promete el anuncio o el título: hay que mejorar la velocidad, la interfaz o el contenido. Mucho alcance con pocas visualizaciones significa que el gancho no detiene el scroll de Ana. Un mal posicionamiento con un CTR bajo indica que el contenido no responde a la intención de búsqueda. Un CTR de anuncio alto con pocos leads apunta a un formulario o un lead magnet con demasiada fricción. Para escalar, valida primero formato, contenido y ángulo; si un tipo de vídeo, como el storytelling de detrás de cámaras, retiene mucho, publica más; y si un anuncio logra un CTR alto y un CPL bajo, sube su presupuesto entre un 20 % y un 30 % en periodos controlados.",
+      "subsecciones": {
+        "c15-s6.1": {
+          "idea_clave": "Combina métricas para diagnosticar: un CTR alto con un rebote alto revela que tu página no cumple lo que promete el anuncio."
+        },
+        "c15-s6.2": {
+          "idea_clave": "Valida antes de publicar, repite lo que funciona y sube un 20-30 % el presupuesto de los anuncios ganadores."
+        }
+      },
+      "minutos_lectura_integro": 2
+    },
+    "c15-s7": {
+      "idea_clave": "Planificar es asignar tiempos, recursos, roles y secuencia: primero diagnóstico, CJM, canales y web; después social, email, medios ganados y pagados.",
+      "resumen": "Un error frecuente es confundir estrategia con una lista de acciones. La planificación convierte el plan en un sistema realista y evaluable. Diagnóstico: en equipos pequeños, de una a dos horas diarias durante 10-15 días. Customer journey map: con equipo, al menos dos jornadas completas; de él se derivan los canales, su frecuencia y su función, sin estar en todos. Web o e-commerce: el núcleo, que debes preparar con SEO y conversión antes de intensificar la captación externa. Social media: de forma descendente, de los hitos anuales a bloques mensuales y oportunidades concretas, con dos o tres jornadas en equipo, o una hora diaria durante una semana o diez días si trabajas solo, y un horizonte de seis meses a un año. Después llegan el email, los medios ganados y, por último, los pagados, que deben ser complementarios. El libro calcula una campaña: con 1.000 € y un CPL máximo de 5 € se captan 200 leads; si el 20 % compra un producto de 50 €, se facturan 2.000 €, con un ROAS de 2.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 8
+    },
+    "c15-s8": {
+      "idea_clave": "Centraliza tus datos en un dashboard y usa la IA en cascada para planificar del año a la semana, elegir métricas, auditar y visualizar resultados.",
+      "resumen": "La planificación y el controlling necesitan herramientas que centralicen los datos: de planificación, de monitorización centralizada (el libro recomienda Looker Studio, que integra IA), de web y auditoría técnica, y de social media. Con la IA, el libro propone partir de tu plan completo como documento de contexto y aplicar la técnica de la cascada: tres prompts seguidos en el mismo chat que obligan a la IA a ir de lo macro a lo micro, del año a la semana, para que cada tarea encaje en el mapa de experiencia del cliente. Para esta fase recomienda un modelo eficiente en análisis o uno más económico que permita más consultas. Primero, la planificación anual; después, roadmaps específicos; y por último, secuencias operativas de cuatro semanas. Luego le pides que seleccione solo las métricas que encajan con tu plan. Al cerrar cada periodo, resume tus acciones y resultados reales y aporta capturas de tus plataformas de métricas para obtener un informe global, una auditoría y, finalmente, un dashboard que muestre también cómo podrías haber optimizado tus acciones.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 11
+    }
+  }
+}

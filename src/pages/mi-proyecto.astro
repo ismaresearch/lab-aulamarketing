@@ -1,0 +1,123 @@
+---
+import Layout from '../layouts/Layout.astro';
+import StorageNotice from '../components/StorageNotice.astro';
+import Pendiente from '../components/Pendiente.astro';
+import Sugerencias from '../components/Sugerencias.astro';
+import Icon from '../components/Icon.astro';
+import { getVariables, capas, type Variable } from '../lib/datos';
+const todos = getVariables().filter((v) => v.ambito === 'proyecto');
+// esenciales: nivel "obligatoria_inicio" de capas/prompts/variables.json; sin capa, todo lo que no sea "bajo_demanda"
+const hayNiveles = todos.some((v) => v.nivel);
+const esencial = (v: Variable) => (hayNiveles ? v.obligatoria : v.nivel !== 'bajo_demanda');
+const campos = todos.filter(esencial);
+const extra = todos.filter((v) => !esencial(v));
+const grupos = [{ lista: campos, obligatoria: true }, { lista: extra, obligatoria: false }];
+const usos = (v: Variable) => (v.usos > 0 ? `Se usa en ${v.usos} prompt${v.usos === 1 ? '' : 's'}` : null);
+---
+<Layout titulo="Mi proyecto" ancho descripcion="Tu punto de partida: con estos datos se adaptan todos los prompts del laboratorio. Se guarda solo en tu navegador." migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Mi proyecto' }]} noindex>
+  <header class="c-cabecera">
+    <div>
+      <p class="c-overline c-overline--primario">Mi proyecto · configuración<span class="c-dot c-dot--ok" aria-hidden="true"></span></p>
+      <h1>Tu punto de partida</h1>
+      <p class="c-lead">Con estos datos adaptamos todos los prompts. Empieza por los {campos.length} datos esenciales; el resto te lo pediremos cuando un plan lo necesite.</p>
+    </div>
+    <p class="c-pastilla c-pastilla--ok"><span class="c-dot c-dot--ok" aria-hidden="true"></span>Guardado en este navegador</p>
+  </header>
+  {!capas.variables && <p><Pendiente que="lista definitiva de datos del proyecto (capas/prompts/variables.json)" /></p>}
+  <p class="c-card c-card--aviso" data-js="aviso-modo" data-solo-modo="ejemplo">Estás en modo «Ejemplo del libro»: los prompts muestran los datos de aulamarketing.digital (debajo de cada campo verás el dato del ejemplo). Cambia a «Mi proyecto» en la barra superior para usar estos datos.</p>
+
+  <div class="l-dos">
+    <div class="l-dos__main">
+      <section class="c-card c-completitud" aria-label="Completitud del proyecto">
+        <div class="c-anillo" data-js="anillo-proyecto" data-esenciales={JSON.stringify(campos.map((v) => v.id))} role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Datos esenciales rellenados">
+          <span class="c-anillo__txt" data-js="anillo-txt">0 %</span><span class="c-anillo__sub" data-js="anillo-sub"></span>
+        </div>
+        <div class="c-contador" aria-live="polite">
+          <p class="c-overline c-overline--primario">Estado de tu proyecto</p>
+          <p class="c-contador__principal" data-js="contador" data-total={campos.length}></p>
+          <p class="c-meta" data-js="contador-opcionales" data-total={extra.length}></p>
+        </div>
+      </section>
+
+      <form data-js="form-proyecto" class="c-form-proyecto" novalidate>
+        {grupos.map(({ lista, obligatoria }) => {
+          const html = lista.map((v) => {
+            const id = `campo-${v.id}`;
+            return (
+              <div class="c-field c-field--proyecto">
+                <div class="c-field__fila">
+                  <label for={id}>{v.etiqueta}{obligatoria && <span class="c-esencial"> · esencial</span>}</label>
+                  {usos(v) && <span class="c-uso">{usos(v)}</span>}
+                </div>
+                {v.opciones ? (
+                  <select id={id} name={v.id} data-obligatoria={obligatoria ? 'true' : 'false'} aria-describedby={`${id}-ayuda`}><option value="">Elige…</option>{v.opciones.map((o) => <option>{o}</option>)}</select>
+                ) : v.tipo === 'texto_largo' ? (
+                  <textarea id={id} name={v.id} rows={v.sugerencias.length ? 6 : 4} data-obligatoria={obligatoria ? 'true' : 'false'} aria-describedby={`${id}-ayuda`}></textarea>
+                ) : (
+                  <input id={id} name={v.id} type={v.tipo === 'anio' ? 'number' : 'text'} inputmode={v.tipo === 'anio' ? 'numeric' : undefined} data-obligatoria={obligatoria ? 'true' : 'false'} aria-describedby={`${id}-ayuda`} />
+                )}
+                {v.sugerencias.length > 0 && <Sugerencias para={id} opciones={v.sugerencias} />}
+                <p class="c-field__ayuda" id={`${id}-ayuda`}>{v.ayuda}</p>
+                <p class="c-field__var">Variable de plantilla: {`{${v.id}}`}</p>
+                <p class="c-field__ayuda c-ejemplo-campo" data-solo-modo="ejemplo">
+                  <strong>Ejemplo del libro:</strong> {v.ejemplo_libro ?? 'el libro no da este dato para aulamarketing.digital (en modo Ejemplo queda vacío).'}
+                  {v.nota_ejemplo && <span class="c-nota-ejemplo"> {v.nota_ejemplo}.</span>}
+                </p>
+              </div>
+            );
+          });
+          return obligatoria ? (
+            <fieldset class="c-card c-fieldset">
+              <legend class="sr-only">Datos esenciales ({lista.length})</legend>
+              <div class="c-fieldset__cab" aria-hidden="true">
+                <span class="c-fieldset__ico"><Icon nombre="maletin" /></span>
+                <span><span class="c-fieldset__t">Datos esenciales ({lista.length})</span><span class="c-meta">Lo mínimo para que los prompts hablen de tu negocio.</span></span>
+                <span class="c-overline">Sección 01</span>
+              </div>
+              {html}
+            </fieldset>
+          ) : lista.length > 0 && (
+            <details class="c-details c-card c-fieldset c-fieldset--opc">
+              <summary>
+                <span class="c-fieldset__ico" aria-hidden="true"><Icon nombre="ajustes" /></span>
+                <span>Datos opcionales (te los pediremos cuando un plan los necesite) · {lista.length}</span>
+              </summary>
+              <div class="c-details__body">{html}</div>
+            </details>
+          );
+        })}
+        <div class="c-form-proyecto__pie">
+          <p class="c-aviso-local" data-js="guardado-estado" role="status">Se guarda automáticamente en este navegador.</p>
+          <button class="c-btn" type="submit"><Icon nombre="guardar" />Guardar</button>
+        </div>
+      </form>
+    </div>
+
+    <aside class="l-dos__aside" aria-label="Vista previa y datos">
+      <section class="c-card c-card--terminal c-vista" aria-labelledby="vista-t">
+        <div class="c-vista__barra" aria-hidden="true"><span class="c-prompt__luces"><i></i><i></i><i></i></span><span class="c-vista__vivo">En vivo<span class="c-dot c-dot--terminal"></span></span></div>
+        <h2 id="vista-t" class="c-terminal-cab">Así entran tus datos en los prompts</h2>
+        <dl class="c-vista__lista">
+          {campos.map((v) => <div><dt>&gt; {v.etiqueta}:</dt><dd><span class="c-varchip" data-js="valor-var" data-var={v.id} data-vacio="Falta: rellénalo en el formulario" data-ejemplo={v.ejemplo_libro ?? ''}>{`{${v.id}}`}</span></dd></div>)}
+        </dl>
+        <p class="c-terminal-txt" data-solo-modo="ejemplo">Modo «Ejemplo del libro»: ves los datos de aulamarketing.digital.</p>
+        <p class="c-terminal-txt" data-solo-modo="proyecto">Modo «Mi proyecto»: ves lo que has escrito en este formulario.</p>
+      </section>
+      <StorageNotice />
+      <section class="c-card c-entornos-card" aria-labelledby="ent-t">
+        <p class="c-overline" id="ent-t">Con qué datos trabajas</p>
+        <div class="c-entornos" role="group" aria-labelledby="ent-t" data-js="modo">
+          <button type="button" data-modo="proyecto" aria-pressed="false"><span class="c-entornos__ico" aria-hidden="true"><Icon nombre="maletin" /></span><span><span class="c-entornos__t">Mi proyecto</span><span class="c-entornos__s" data-js="proyecto-nombre">Mi proyecto</span></span></button>
+          <button type="button" data-modo="ejemplo" aria-pressed="true"><span class="c-entornos__ico" aria-hidden="true"><Icon nombre="libro" /></span><span><span class="c-entornos__t">Ejemplo del libro</span><span class="c-entornos__s">aulamarketing.digital</span></span></button>
+        </div>
+        <p class="c-meta">Puedes alternar cuando quieras para comparar tus respuestas con el caso del libro.</p>
+      </section>
+      <section class="c-card" aria-labelledby="borrar-t">
+        <h2 id="borrar-t" class="c-headline">Borrar mis datos</h2>
+        <p class="c-meta">Elimina de este navegador tu proyecto, respuestas, entregables y progreso.</p>
+        <button type="button" class="c-btn c-btn--peligro c-btn--peq" data-js="borrar-todo"><Icon nombre="borrar" />Borrar datos de este navegador</button>
+      </section>
+    </aside>
+  </div>
+  <script>import '../client/mi-proyecto';</script>
+</Layout>

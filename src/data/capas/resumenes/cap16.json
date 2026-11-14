@@ -1,0 +1,33 @@
+{
+  "id": "c16",
+  "promesa": "Tendrás un mapa ordenado de 337 herramientas para elegir con criterio las que necesitas en cada fase de tu plan.",
+  "al_terminar_tendras": [
+    "Un directorio alfabético de 260 herramientas digitales con su utilidad",
+    "Un directorio alfabético de 77 herramientas nativas de IA con su utilidad",
+    "Un criterio para distinguir herramientas digitales con funciones de IA de las herramientas nativas de IA",
+    "La base para construir tu propio entorno de trabajo, coherente y alineado con tu estrategia",
+    "Las referencias bibliográficas del libro"
+  ],
+  "historia_ana": "Ana se sienta a crear su primer negocio digital y, al buscar herramientas, encuentra cientos de \"soluciones definitivas\". Se agobia: ¿cuáles necesita, en qué orden, cómo no perder tiempo ni dinero? Entonces recuerda que tiene esta guía y empieza sin estrés.",
+  "resumen_capitulo": "Cuando empiezas un proyecto digital, cada búsqueda te devuelve cientos de aplicaciones y \"soluciones definitivas\" para diseñar tu web, gestionar redes, lanzar campañas, crear contenido, automatizar correos o analizar resultados. Es fácil agobiarse y saltar de herramienta en herramienta sin estrategia. Este capítulo nace para evitarlo. No pretende que uses las 337 herramientas que reúne, ni que las domines todas a la vez, sino ofrecerte un mapa ordenado del ecosistema digital del marketing para que elijas con criterio las piezas adecuadas en cada fase. Así podrás construir un entorno de trabajo propio, coherente, sostenible y alineado con tu estrategia. Las herramientas mencionadas a lo largo del libro aparecen en orden alfabético, con una descripción de su utilidad para que puedas localizarlas en el capítulo correspondiente. Se organizan en dos listas: herramientas digitales, cuyo valor principal no es la IA aunque puedan incorporarla, y herramientas nativas de IA. El capítulo, y el libro, se cierran con las referencias bibliográficas.",
+  "secciones": {
+    "c16-s1": {
+      "idea_clave": "260 herramientas digitales en orden alfabético cuyo valor principal no es la IA, aunque algunas la incorporen: consulta su utilidad y elige con criterio.",
+      "resumen": "La primera lista reúne, en orden alfabético, 260 herramientas y plataformas digitales. Incluye tanto soluciones tradicionales como productos que pueden incorporar funciones de IA, pero cuyo valor principal no es la propia IA. Cada entrada incluye una breve descripción de su utilidad, para que entiendas para qué sirve y la localices en el capítulo en el que se trabaja. Abarca todo el recorrido del plan: tipografías y diseño gráfico, edición de foto y vídeo, dominios, hosting y CMS para crear tu web, plugins de WordPress para seguridad, formularios, caché o SEO, pasarelas de pago, plataformas de email marketing y CRM, herramientas de SEO y analítica, gestión y programación de redes sociales, plataformas publicitarias y bibliotecas de anuncios, gestión de influencers, reseñas y reputación, investigación cualitativa y encuestas, mapeo colaborativo y prototipado, emisión en directo, planificación de proyectos y dashboards. No se trata de usarlas todas: el objetivo es que elijas las piezas que necesitas en cada fase para construir tu propio entorno de trabajo.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 45
+    },
+    "c16-s2": {
+      "idea_clave": "77 herramientas nativas de IA en orden alfabético, desde modelos de lenguaje hasta generadores de imagen, vídeo, voz, código y creatividades.",
+      "resumen": "La segunda lista recoge, también en orden alfabético, 77 herramientas nativas de IA: aquellas cuyo valor principal es la propia inteligencia artificial. Como en la lista anterior, cada una incluye una breve descripción de su utilidad para que sepas qué aporta y la encuentres en el capítulo donde se aplica. El libro reúne aquí los modelos de lenguaje y asistentes que acompañan todo el plan, como ChatGPT, Gemini, Claude, Perplexity o NotebookLM, junto a generadores de imagen, vídeo, voz y música, creadores de avatares y de UGC sintético, herramientas para recortar clips, plataformas para construir webs, aplicaciones y prototipos a partir de instrucciones en lenguaje natural, entornos de programación asistida, generadores de logotipos e identidad visual, herramientas de redacción y optimización de textos, y generadores de creatividades publicitarias. Igual que con las herramientas digitales, la idea no es dominarlas todas, sino elegir las que encajan con tu estrategia y con la tarea concreta de cada etapa.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 15
+    },
+    "c16-s3": {
+      "idea_clave": "Las referencias bibliográficas que respaldan los datos, estudios y fuentes citados a lo largo del libro.",
+      "resumen": "El libro termina con un apartado de referencias que reúne las 50 fuentes bibliográficas y documentales en las que se apoya. Aquí encontrarás los informes, estudios, artículos y documentación técnica de los que proceden los datos y afirmaciones citados en los distintos capítulos, como los estudios sobre email marketing o reseñas online y la documentación oficial de los modelos de IA mencionados. Muchas referencias incluyen su enlace web o DOI, para que puedas consultar la fuente original. Es un recurso útil si quieres profundizar en algún tema, comprobar un dato antes de usarlo en tu propio plan o citar la fuente en un trabajo académico o profesional. Junto a la plataforma aulamarketing.digital, donde el libro remite a vídeos y artículos para ponerlo todo en práctica, estas referencias completan los recursos de la guía para que sigas aprendiendo más allá de sus páginas.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    }
+  }
+}

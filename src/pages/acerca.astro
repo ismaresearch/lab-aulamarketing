@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import site from '../config/site.json';
+import { getCapitulos, getReferencias, capas } from '../lib/datos';
+import { LIBRO } from '../lib/seo';
+const caps = getCapitulos();
+const refs = getReferencias();
+const l = site.libro;
+---
+<Layout titulo="Acerca del libro" descripcion={`«${l.titulo}» (${l.editorial}, ${l.anio}). Autores, licencia ${l.licencia} y DOI.`} jsonLd={[{ '@context': 'https://schema.org', ...LIBRO }]} migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Acerca' }]}>
+  <h1>Acerca del libro y del laboratorio</h1>
+  <section class="c-card">
+    <h2 style="margin-top:0">{l.titulo}</h2>
+    <p><strong>Editores:</strong> {l.editores.join(' y ')}</p>
+    <p><strong>Autores:</strong> {l.autores.join(', ')}</p>
+    <p>{l.editorial}, {l.lugar}, {l.anio} · ISBN {l.isbn}</p>
+    <p><strong>DOI:</strong> <a href={l.doi}>{l.doi}</a></p>
+    <p><strong>Licencia:</strong> <a href={l.licencia_url} rel="license">{l.licencia_nombre} ({l.licencia})</a></p>
+    <p class="c-meta"><strong>Cómo citarlo:</strong> {l.cita_apa}</p>
+  </section>
+  <section class="c-card">
+    <h2 style="margin-top:0">¿Qué es este laboratorio?</h2>
+    <p>Una versión interactiva, abierta y gratuita del libro, enlazada desde <a href={site.web_principal}>aulamarketing.digital</a>. Convierte cada capítulo en un plan independiente con sus pasos, prompts y entregables. No ejecuta la IA: copia los prompts o los abre en ChatGPT, Claude o Gemini. No hay registro: tus datos se guardan solo en tu navegador y puedes descargar una copia.</p>
+    <p>El texto del libro se reproduce de forma literal; los resúmenes e ideas clave son textos de apoyo y están marcados como tales.</p>
+    <p>Cuando el libro solo describe un prompt sin transcribirlo, la plataforma ofrece un prompt redactado a partir de esa descripción. Va siempre marcado como «Propuesta de la plataforma · pendiente de revisión», junto a la cita del libro en la que se basa.</p>
+    <p class="c-meta">Tipografías Inter y JetBrains Mono, alojadas en este sitio bajo la SIL Open Font License 1.1 (<a href="/fonts/Inter-OFL.txt">licencia de Inter</a> · <a href="/fonts/JetBrainsMono-OFL.txt">licencia de JetBrains Mono</a>). Iconos: subconjunto de Material Symbols Rounded (© Google LLC), alojado en este sitio como SVG bajo la licencia Apache 2.0 (<a href="/licencias/material-symbols-LICENSE.txt">texto de la licencia</a>).</p>
+  </section>
+  <section class="c-card">
+    <h2 style="margin-top:0">Capítulos</h2>
+    <ol>{caps.map((c) => <li>{c.titulo}{c.autoria && <span class="c-meta"> · {c.autoria}</span>}</li>)}</ol>
+  </section>
+  <details class="c-details">
+    <summary>Referencias del libro ({refs.length})</summary>
+    <div class="c-details__body"><ul>{refs.map((r) => <li>{r.texto}{r.doi_o_url && <> <a href={r.doi_o_url.startsWith('http') ? r.doi_o_url : r.doi_o_url.startsWith('10.') ? `https://doi.org/${r.doi_o_url}` : `https://${r.doi_o_url}`}>{r.doi_o_url}</a></>}</li>)}</ul></div>
+  </details>
+  <details class="c-details">
+    <summary>Estado de las capas de datos (técnico)</summary>
+    <div class="c-details__body"><ul>{Object.entries(capas).map(([k, v]) => <li>{k}: {v ? 'disponible' : 'pendiente'}</li>)}</ul></div>
+  </details>
+</Layout>

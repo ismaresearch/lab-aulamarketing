@@ -1,0 +1,50 @@
+---
+import Icon from './Icon.astro';
+import Marca from './Marca.astro';
+import ProyectoActivo from './ProyectoActivo.astro';
+import { NAV, NAV_SECUNDARIA, activo, type Esquema } from './NavItems';
+import { pad2 } from '../lib/texto';
+interface Props { esquema?: Esquema | null }
+const { esquema = null } = Astro.props;
+const path = Astro.url.pathname;
+---
+<aside class="c-sidebar" aria-label="Barra lateral">
+  <Marca class="c-sidebar__brand" />
+  <p class="c-overline c-sidebar__titulo" id="nav-t">Navegación</p>
+  <nav aria-labelledby="nav-t">
+    <ul class="c-sidebar__lista">
+      {NAV.map((n) => (
+        <li><a class="c-nav-item" href={n.href} aria-current={activo(path, n.href) ? 'page' : undefined}><Icon nombre={n.icono} />{n.etiqueta}</a></li>
+      ))}
+    </ul>
+  </nav>
+  {esquema && (
+    <nav class="c-outline" aria-label={`Pasos de ${esquema.titulo}`}>
+      <p class="c-overline c-outline__cab"><span>En este plan</span>{esquema.plan && <span class="c-outline__pct" data-js="progreso-plan-pct" data-plan={esquema.plan} data-total={esquema.pasos.length}></span>}</p>
+      <a class="c-outline__plan" href={esquema.url} aria-current={path === esquema.url ? 'page' : undefined}>{esquema.titulo}</a>
+      {esquema.plan && (
+        <div class="c-outline__barra" data-js="progreso-plan" data-plan={esquema.plan} data-total={esquema.pasos.length} role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label={`Progreso de ${esquema.titulo}`}>
+          <div class="c-progress c-progress--fina"><span data-js="barra"></span></div>
+          <p class="sr-only" data-js="texto"></p>
+        </div>
+      )}
+      <ol>
+        {esquema.pasos.map((p) => (
+          <li><a href={p.url} aria-current={path === p.url ? 'page' : undefined} data-js={esquema.plan && p.slug ? 'paso-hecho' : undefined} data-plan={esquema.plan} data-paso={p.slug}>
+            <span class="c-outline__marca" aria-hidden="true"></span>
+            <span class="c-outline__n">{pad2(p.n)}.</span> <span class="c-outline__t">{p.titulo}</span>
+            {esquema.plan && p.slug && <span class="sr-only" data-js="paso-hecho-txt"></span>}
+          </a></li>
+        ))}
+      </ol>
+    </nav>
+  )}
+  <nav class="c-sidebar__secundaria" aria-label="Más">
+    <ul class="c-sidebar__lista">
+      {NAV_SECUNDARIA.map((n) => (
+        <li><a class="c-nav-item c-nav-item--sec" href={n.href} aria-current={path === n.href ? 'page' : undefined}><Icon nombre={n.icono} />{n.etiqueta}</a></li>
+      ))}
+    </ul>
+  </nav>
+  <ProyectoActivo />
+</aside>

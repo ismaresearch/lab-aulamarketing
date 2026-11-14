@@ -1,0 +1,38 @@
+---
+import type { Plan } from '../lib/datos';
+import { objetivosInicio } from '../lib/datos';
+import { pad2 } from '../lib/texto';
+import Icon from './Icon.astro';
+interface Props { plan: Plan; nivel?: 'h2' | 'h3' }
+const { plan, nivel = 'h3' } = Astro.props;
+const Tag = nivel;
+const tags = plan.entregables.slice(0, 3).map((e) => e.titulo.split(/[|(:]/)[0].trim()).filter(Boolean);
+const objetivos = objetivosInicio.filter((o) => o.planes.includes(plan.slug)).map((o) => o.id);
+const pasos = plan.pasos.map((p) => ({ s: p.slug, u: p.url, n: p.n }));
+---
+<article class="c-card c-plan-card" data-js="item" data-categoria={plan.categoria} data-objetivo={objetivos.join('|')} data-texto={`${plan.titulo} ${plan.titulo_capitulo} ${plan.objetivos_meta.join(' ')}`}>
+  <div class="c-plan-card__cab">
+    <p class="c-overline">Capítulo {pad2(plan.capitulo)} · <span class="c-overline__acento">{plan.categoria}</span></p>
+    <span class="c-estado" data-estado="sin" data-js="estado-plan" data-plan={plan.slug} data-total={plan.pasos.length}>Sin empezar</span>
+  </div>
+  <div class="c-plan-card__cuerpo">
+    <span class="c-plan-card__ico" aria-hidden="true"><Icon nombre={`cap-${plan.capitulo}` as any} /></span>
+    <div>
+      <Tag class="c-plan-card__t"><a href={plan.url}>{plan.titulo}</a></Tag>
+      <p class="c-plan-card__promesa">{plan.promesa ?? plan.titulo_capitulo}</p>
+    </div>
+  </div>
+  {tags.length > 0 && <ul class="c-tags" aria-label="Entregables del libro">{tags.map((t) => <li>{t}</li>)}</ul>}
+  <div class="c-plan-card__progreso" data-js="progreso-plan" data-plan={plan.slug} data-total={plan.pasos.length} role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label={`Progreso de ${plan.titulo}`}>
+    <p class="c-meta" data-js="texto">0 de {plan.pasos.length} pasos</p>
+    <div class="c-progress"><span data-js="barra"></span></div>
+  </div>
+  <div class="c-plan-card__pie">
+    <p class="c-metas">
+      <span><Icon nombre="lista" />{plan.pasos.length} pasos</span>
+      <span><Icon nombre="prompts" />{plan.prompts.length} {plan.prompts.length === 1 ? 'prompt' : 'prompts'}</span>
+      {plan.minutos && <span><Icon nombre="reloj" />~{plan.minutos} min de lectura</span>}
+    </p>
+    <a class="c-btn c-btn--sec c-btn--peq c-plan-card__cta" href={plan.url} data-js="cta-plan" data-plan={plan.slug} data-portada={plan.url} data-pasos={JSON.stringify(pasos)} aria-label={`Abrir ${plan.titulo}`}><span data-js="cta-txt">Empezar el plan</span><Icon nombre="flecha" /></a>
+  </div>
+</article>

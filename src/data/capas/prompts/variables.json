@@ -1,0 +1,531 @@
+{
+  "_descripcion": "Vocabulario controlado de variables de PERFIL del proyecto del alumno (P2). Las salidas de otros prompts y los datos puntuales van en prompts.json > entradas.",
+  "_convenciones": {
+    "marcador_variable": "{id_variable}",
+    "marcador_entrada": "{entrada:nombre}",
+    "origen_ejemplo": [
+      "caso_aulamarketing",
+      "derivado_del_caso",
+      "ejemplo_del_marcador",
+      "propuesta_del_libro",
+      null
+    ],
+    "tipo": [
+      "texto",
+      "texto_largo",
+      "opcion"
+    ],
+    "sugerencias_rapidas": "Opciones de un clic que rellenan el campo; el alumno puede ampliarlas o escribir su propio texto"
+  },
+  "variables": [
+    {
+      "id": "marca",
+      "etiqueta": "Nombre de la marca",
+      "pregunta_al_alumno": "¿Cómo se llama tu marca, empresa o proyecto?",
+      "ayuda": "El nombre tal y como quieres que aparezca en los textos (también se usa como texto del logotipo).",
+      "ejemplo_libro": "aulamarketing.digital",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "Proyecto de cabecera de todo el libro",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 12,
+      "nivel": "obligatoria_inicio",
+      "prompts": [
+        "c08-p02",
+        "c08-p05",
+        "c09-p01",
+        "c09-p08",
+        "c10-p01",
+        "c10-p03",
+        "c13-p01",
+        "c14-p01",
+        "c14-p05",
+        "c14-p06",
+        "c14-p07",
+        "c15-p07"
+      ],
+      "prompts_propuestos": [
+        "c05-p01-prop",
+        "c05-p02-prop",
+        "c05-p07-prop"
+      ],
+      "permite_otro": false
+    },
+    {
+      "id": "sector",
+      "etiqueta": "Sector o temática",
+      "pregunta_al_alumno": "¿En qué sector o temática trabaja tu proyecto?",
+      "ayuda": "Una expresión corta: «formación digital», «cosmética natural», «reformas del hogar»…",
+      "ejemplo_libro": "formación digital en marketing digital",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c01-s1: «el sector de la formación digital en España»",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 8,
+      "nivel": "obligatoria_inicio",
+      "prompts": [
+        "c02-p04",
+        "c07-p01",
+        "c07-p02",
+        "c08-p02",
+        "c08-p11",
+        "c09-p01",
+        "c12-p02",
+        "c14-p01"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "producto_servicio",
+      "etiqueta": "Producto o servicio",
+      "pregunta_al_alumno": "¿Qué vendes u ofreces exactamente?",
+      "ayuda": "Describe en una o dos frases el producto o servicio principal.",
+      "ejemplo_libro": "formación práctica y actualizada en marketing digital (cursos y talleres online con IA)",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c01-e06 (propuesta de valor), c03-e07 (taller práctico), c09-e05 (Curso de marketing digital con IA)",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 17,
+      "nivel": "obligatoria_inicio",
+      "prompts": [
+        "c02-p05",
+        "c02-p10",
+        "c03-p01",
+        "c03-p02",
+        "c03-p03",
+        "c03-p04",
+        "c07-p01",
+        "c10-p02",
+        "c10-p05",
+        "c10-p06",
+        "c10-p07",
+        "c11-p01",
+        "c11-p05",
+        "c12-p01",
+        "c12-p02",
+        "c12-p03",
+        "c12-p04"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "publico_objetivo",
+      "etiqueta": "Descripción del buyer persona",
+      "pregunta_al_alumno": "Describe a tu cliente ideal: quién es, edad, situación, qué le duele y qué desea.",
+      "ayuda": "Dos o tres líneas. Se inserta en los prompts que piden «describe a tu cliente ideal» o «perfil del buyer persona».",
+      "ejemplo_libro": "Ana, la profesional en ascenso: una persona de entre 22 y 35 años, recién graduada, estudiante universitaria avanzada o joven profesional en los primeros años de su carrera, con formación en marketing, comunicación, ADE u otras disciplinas afines, que busca una formación en marketing digital que complemente la teoría con sesiones prácticas y aplicadas para mejorar su empleabilidad, actualizar sus competencias o impulsar proyectos propios",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c01-e04 (síntesis literal del perfil de Ana)",
+      "tipo": "texto_largo",
+      "opciones": null,
+      "usos": 11,
+      "nivel": "obligatoria_inicio",
+      "prompts": [
+        "c02-p04",
+        "c02-p08",
+        "c03-p02",
+        "c03-p03",
+        "c08-p02",
+        "c10-p05",
+        "c11-p01",
+        "c12-p01",
+        "c12-p03",
+        "c14-p01",
+        "c14-p05"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "buyer_persona",
+      "etiqueta": "Nombre del buyer persona",
+      "pregunta_al_alumno": "¿Qué nombre le das a tu buyer persona?",
+      "ayuda": "Un nombre propio corto (como «Ana» en el libro). Se usa cuando el prompt habla de él/ella por su nombre.",
+      "ejemplo_libro": "Ana",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c01-e04",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 7,
+      "nivel": "obligatoria_inicio",
+      "prompts": [
+        "c09-p03",
+        "c09-p05",
+        "c09-p10",
+        "c14-p01",
+        "c14-p03",
+        "c15-p03",
+        "c15-p04"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "propuesta_valor",
+      "etiqueta": "Propuesta de valor",
+      "pregunta_al_alumno": "¿Qué problema resuelves y qué te hace diferente o mejor?",
+      "ayuda": "Puedes pegar la propuesta de valor obtenida en «Mi plan estratégico» (cap. 1, prompt c01-p06).",
+      "ejemplo_libro": "aulamarketing.digital ofrece a Ana una formación práctica y actualizada en marketing digital complementaria a las capacidades adquiridas en grados universitarios, formación profesional u otros cursos especializados. Permitiendo adquirir las habilidades demandadas por el mercado laboral y destacarse como un profesional único y altamente competente. A través de la implementación de las últimas tendencias (incluyendo la Inteligencia Artificial) y el acompañamiento constante, aulamarketing.digital garantiza una experiencia de aprendizaje interactiva, relevante y orientada a resultados tangibles. Resolvemos la frustración que crea el paso natural de la teoría a la práctica, preparando a nuestros usuarios para sobresalir en un entorno digital en constante evolución.",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c01-e06 (primer párrafo, literal)",
+      "tipo": "texto_largo",
+      "opciones": null,
+      "usos": 1,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c03-p01"
+      ],
+      "prompts_propuestos": [
+        "c05-p01-prop"
+      ],
+      "permite_otro": false
+    },
+    {
+      "id": "modelo_negocio",
+      "etiqueta": "Modelo de negocio",
+      "pregunta_al_alumno": "¿Cuál es tu modelo de negocio?",
+      "ayuda": "P. ej.: B2C e-commerce, servicios locales B2B, suscripción mensual, formación online…",
+      "ejemplo_libro": null,
+      "origen_ejemplo": null,
+      "ref_ejemplo": "El proyecto aulamarketing.digital no tiene modelo de negocio definido (confirmado por el autor, P2b)",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 3,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c03-p01",
+        "c03-p02",
+        "c03-p04"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "fase_ciclo_vida",
+      "etiqueta": "Fase del ciclo de vida",
+      "pregunta_al_alumno": "¿En qué fase del ciclo de vida está tu producto o marca?",
+      "ayuda": "Si no lo sabes, el prompt c01-p03 (Mi plan estratégico) te ayuda a identificarla.",
+      "ejemplo_libro": "Introducción",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c01-e03: «al tratarse de una marca en sus inicios, se sitúa claramente en la fase de introducción»",
+      "tipo": "opcion",
+      "opciones": [
+        "Introducción",
+        "Crecimiento",
+        "Madurez",
+        "Declive"
+      ],
+      "usos": 1,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c03-p01"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "tono",
+      "etiqueta": "Tono de voz",
+      "pregunta_al_alumno": "¿Cómo habla tu marca? Describe su tono de voz en varias dimensiones.",
+      "ayuda": "El tono es la personalidad de tu marca hecha lenguaje: no solo qué dice, sino cómo lo dice (palabras, estilo, ritmo, intención, actitud). Descríbelo en unas líneas: 1) Personalidad: dos o tres adjetivos (p. ej. cercano, provocador, empático, profesional…). 2) Registro: ¿tutea o trata de usted? ¿formal o informal? 3) Vocabulario y estilo: palabras y expresiones propias, frases cortas o largas, uso de humor o metáforas. 4) Lo que tu marca nunca diría. 5) Cómo se adapta según el canal (LinkedIn no es TikTok) sin dejar de sonar a ti. Para definirlo, piensa en tu audiencia (cómo habla y qué códigos usa), en los valores y la personalidad de tu marca y en cómo hablan tus competidores. Si tienes prisa, elige una sugerencia rápida y amplíala después.",
+      "ejemplo_libro": "rebelde y transparente («Marketing real. Sin humo.»), crítico con la infoxicación del sector; cercano y humano (enseñar es acompañar, escuchar y guiar), práctico, orientado a resultados y con disrupción con propósito",
+      "ejemplo_dimensiones": {
+        "personalidad": "rebelde y transparente; cercana y humana; práctica y orientada a resultados; disruptiva con propósito",
+        "registro": null,
+        "vocabulario_estilo": null,
+        "nunca_diria": null,
+        "adaptacion_canales": null,
+        "fuentes": "c05-e06 (eslogan adoptado «Marketing real. Sin humo.» y nota de la propuesta 2: «tono rebelde-transparente y la crítica a la infoxicación del sector»), c05-e05 (valores memorables: «Cercanía humana → Enseñar es acompañar, escuchar y guiar», «Resultados que importan», «Disrupción con propósito»), c05-e01 (misión: «enseñanza práctica, innovadora y humana»)",
+        "nota": "El cap. 5 no define para aulamarketing.digital el registro (tú/usted), el vocabulario, lo que nunca diría ni la adaptación por canal: esas dimensiones quedan en blanco."
+      },
+      "origen_ejemplo": "derivado_del_caso",
+      "ref_ejemplo": "Compuesto solo con lo que el cap. 5 dice de aulamarketing.digital: eslogan y su comentario (c05-e06), valores memorables (c05-e05) y misión (c05-e01). El marco de dimensiones sale de c05-s2.2.C (voz, tono y estilo; audiencia, valores y competencia; coherencia entre canales)",
+      "tipo": "texto_largo",
+      "opciones": null,
+      "sugerencias_rapidas": [
+        "Cercano",
+        "Profesional",
+        "Técnico",
+        "Amable"
+      ],
+      "usos": 5,
+      "nivel": "obligatoria_inicio",
+      "prompts": [
+        "c03-p01",
+        "c07-p04",
+        "c07-p05",
+        "c10-p03",
+        "c13-p01"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "canales",
+      "etiqueta": "Canales y herramientas disponibles",
+      "pregunta_al_alumno": "¿En qué canales y con qué herramientas tienes presencia hoy?",
+      "ayuda": "P. ej.: «solo Instagram y una web básica», «WhatsApp y email», «web en WordPress».",
+      "ejemplo_libro": "web aulamarketing.digital, newsletter por email, TikTok, Instagram Reels y YouTube Shorts",
+      "origen_ejemplo": "derivado_del_caso",
+      "ref_ejemplo": "c08-e01 (plataformas elegidas) y c09-s5 (newsletter)",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 2,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c02-p04",
+        "c03-p02"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "presupuesto",
+      "etiqueta": "Presupuesto y recursos",
+      "pregunta_al_alumno": "¿Con qué presupuesto y tiempo cuentas?",
+      "ayuda": "Dinero y horas disponibles; p. ej. «300 €/mes en anuncios y 5 horas semanales».",
+      "ejemplo_libro": "600 € en una campaña de Meta Ads",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c15-s3: «aulamarketing.digital invierte 600 € en una campaña de Meta Ads»",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 3,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c02-p04",
+        "c03-p02",
+        "c03-p03"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "ticket_medio",
+      "etiqueta": "Ticket medio",
+      "pregunta_al_alumno": "¿Cuál es el importe medio de una venta (ticket medio)?",
+      "ayuda": "Con moneda; p. ej. «30 €». Se usa para calcular rentabilidad y ROAS.",
+      "ejemplo_libro": "30 €",
+      "origen_ejemplo": "ejemplo_del_marcador",
+      "ref_ejemplo": "c15-p06 / c15-p07: «ej: 30€»",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 4,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c03-p02",
+        "c03-p03",
+        "c15-p06",
+        "c15-p07"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "competidor",
+      "etiqueta": "Competidor principal",
+      "pregunta_al_alumno": "¿Qué competidor quieres analizar?",
+      "ayuda": "Nombre de una marca competidora concreta (p. ej. otros proyectos formativos de profesorado universitario).",
+      "ejemplo_libro": null,
+      "origen_ejemplo": null,
+      "ref_ejemplo": "El proyecto aulamarketing.digital no tiene estudio de competencia (confirmado por el autor, P2b); el libro no nombra competidores",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 1,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c07-p03"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "anio",
+      "etiqueta": "Año de referencia",
+      "pregunta_al_alumno": "¿Para qué año buscas tendencias?",
+      "ayuda": "Normalmente el año en curso.",
+      "ejemplo_libro": "2026",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c03-e05: Ana busca «tendencias marketing digital 2026»",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 2,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c07-p01",
+        "c07-p02"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "colores_marca",
+      "etiqueta": "Colores de marca",
+      "pregunta_al_alumno": "¿Cuáles son los colores de tu marca?",
+      "ayuda": "Dos o tres colores con nombre (y código si lo tienes). Si aún no los has decidido, describe la paleta que estás valorando. En prompts escritos en inglés, escríbelos en inglés.",
+      "ejemplo_libro": "Colores fríos (propuesta de LogoAI); alternativas de NANOBANANA: azul marino, turquesa, gris claro y blanco; azul marino, azul y blanco; azul marino, magenta, naranja, cian y verde; o magenta, cian y verde lima.",
+      "origen_ejemplo": "propuesta_del_libro",
+      "ref_ejemplo": "c05-p10 (LogoAI, paso 3: «colores fríos»), c05-e07 (resultados de LogoAI) y c05-e08 / Figuras 31-34 (c05-f38…f41, propuestas 1-4 de NANOBANANA). Los códigos hexadecimales son ilegibles en el libro y no se dan",
+      "estado_ejemplo": "propuesta_no_definitiva",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 5,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c02-p10",
+        "c08-p17",
+        "c08-p18",
+        "c10-p05",
+        "c11-p03"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "estilo_visual",
+      "etiqueta": "Estética visual de la marca",
+      "pregunta_al_alumno": "¿Qué estética visual define a tu marca?",
+      "ayuda": "P. ej.: «años 90», «minimalista», «industrial», «documental».",
+      "ejemplo_libro": "estética de finales de los 90 (película Kodak Portra 400, grano analógico)",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c06-p03 y c08-p05 (imágenes y vídeo del ejemplo)",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 2,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c08-p10",
+        "c10-p07"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "valores_marca",
+      "etiqueta": "Valores de marca",
+      "pregunta_al_alumno": "¿Cuáles son los valores de tu marca?",
+      "ayuda": "Tres a seis valores; puedes pegar los de «Mi plan de marca» (cap. 5).",
+      "ejemplo_libro": "Aprender haciendo, Innovar siempre, Potenciar talento, Cercanía humana, Resultados que importan, Disrupción con propósito",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c05-e05 (versión memorable de los valores)",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 1,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c14-p02"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "modelo_imagen",
+      "etiqueta": "Generador de imágenes que usas",
+      "pregunta_al_alumno": "¿Qué herramienta de IA usas para generar imágenes?",
+      "ayuda": "El nombre del modelo o la herramienta (p. ej. Nano Banana 2).",
+      "ejemplo_libro": "Nano Banana 2",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c06-p03, c10-p05 (herramienta usada en el libro)",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 2,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c08-p10",
+        "c08-p18"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "objetivo_campania",
+      "etiqueta": "Objetivo principal de negocio o campaña",
+      "pregunta_al_alumno": "¿Cuál es el objetivo principal que quieres conseguir con tu campaña?",
+      "ayuda": "P. ej.: «captar alumnos para un máster de IA», «vender botellas de deporte».",
+      "ejemplo_libro": "captar alumnos para el Curso de marketing digital con IA",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c10-p01 (marcador) y c09-e05 / c10-e01 (curso anunciado)",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 1,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c10-p01"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "reto",
+      "etiqueta": "Reto o problema a resolver",
+      "pregunta_al_alumno": "¿Qué reto o problema concreto quieres resolver?",
+      "ayuda": "Una frase: el desafío de diseño, de experiencia o de negocio en el que estás bloqueado.",
+      "ejemplo_libro": "la frustración que crea el paso natural de la teoría a la práctica",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c01-e06: «Resolvemos la frustración que crea el paso natural de la teoría a la práctica»",
+      "tipo": "texto",
+      "opciones": null,
+      "usos": 5,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c02-p01",
+        "c02-p02",
+        "c02-p03",
+        "c02-p04",
+        "c02-p06"
+      ],
+      "prompts_propuestos": [],
+      "permite_otro": false
+    },
+    {
+      "id": "red_social",
+      "etiqueta": "Red social principal",
+      "pregunta_al_alumno": "¿En qué red social vas a publicar este contenido?",
+      "ayuda": "Una red: Instagram, LinkedIn, TikTok…",
+      "ejemplo_libro": "Instagram",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c08-e01 (Instagram Reels entre las plataformas elegidas)",
+      "tipo": "opcion",
+      "opciones": [
+        "Instagram",
+        "LinkedIn",
+        "TikTok",
+        "YouTube",
+        "X",
+        "Facebook"
+      ],
+      "permite_otro": true,
+      "usos": 1,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c08-p09"
+      ],
+      "prompts_propuestos": []
+    },
+    {
+      "id": "plataforma_anuncios",
+      "etiqueta": "Plataforma de anuncios",
+      "pregunta_al_alumno": "¿En qué plataforma de anuncios vas a lanzar la campaña?",
+      "ayuda": "P. ej.: Meta Ads, LinkedIn Ads, TikTok Ads.",
+      "ejemplo_libro": "Meta Ads",
+      "origen_ejemplo": "caso_aulamarketing",
+      "ref_ejemplo": "c11-e05 (Advantage+ de Meta) y c15-s3",
+      "tipo": "opcion",
+      "opciones": [
+        "Meta Ads",
+        "LinkedIn Ads",
+        "TikTok Ads",
+        "Google Ads",
+        "X Ads"
+      ],
+      "permite_otro": true,
+      "usos": 1,
+      "nivel": "bajo_demanda",
+      "prompts": [
+        "c11-p01"
+      ],
+      "prompts_propuestos": []
+    }
+  ]
+}

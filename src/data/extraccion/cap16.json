@@ -1,0 +1,166 @@
+{
+  "id": "c16",
+  "numero": 16,
+  "parte": "PARTE 3: CONTROLLING Y HERRAMIENTAS IA",
+  "titulo": "Kit de herramientas digitales y asistencia en inteligencia artificial",
+  "paginas_pdf": [
+    236,
+    261
+  ],
+  "paginas_libro": [
+    231,
+    255
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "Ha llegado el momento de que Ana se siente delante del ordenador para dar forma a su primer negocio digital y se le ha olvidado revisar esta guía antes de hacerlo, así que recurre a su buscador habitual y completa las búsquedas con su LLM de confianza. En cada búsqueda aparecen cientos de aplicaciones, plataformas y “soluciones definitivas” para diseñar una web, gestionar redes, lanzar campañas, crear contenidos, automatizar correos o analizar resultados, ¿te resulta familiar?. De inmediato Ana se siente abrumada con dudas como: ¿cuáles necesita realmente?, ¿en qué orden?, ¿cómo evitar perder tiempo y dinero saltando de herramienta en herramienta sin una estrategia clara? Al fin su mente hace clic y recuerda que dispone de esta guía, ahora sí puede comenzar sin estrés ni ruido.\nEste capítulo nace precisamente para acompañar a Ana y a quienes, como ella o como tú, están iniciando un proyecto o la primera línea de negocio. No pretendemos que utilices las 337 herramientas que presentamos, ni mucho menos que las domines todas a la vez. Nuestro objetivo es ofrecer un mapa ordenado del ecosistema digital disponible para el marketing, de forma que sea fácil elegir con criterio las piezas adecuadas en cada fase y, siguiendo la guía, construir un entorno de trabajo propio, coherente, sostenible y alineado con tu estrategia. A continuación, clasificaremos todas las herramientas mencionadas por orden alfabético para que puedas conocer la utilidad de cada una de ellas y localizarlas en el capítulo correspondiente. La primera lista se corresponde con herramientas y plataformas que incluyen tanto soluciones tradicionales como productos digitales que pueden incorporar funciones de IA, pero cuyo valor principal no es la propia IA , la segunda es una lista de herramientas nativas IA:",
+    "narrativa_ana": "Ha llegado el momento de que Ana se siente delante del ordenador para dar forma a su primer negocio digital y se le ha olvidado revisar esta guía antes de hacerlo, así que recurre a su buscador habitual y completa las búsquedas con su LLM de confianza. En cada búsqueda aparecen cientos de aplicaciones, plataformas y “soluciones definitivas” para diseñar una web, gestionar redes, lanzar campañas, crear contenidos, automatizar correos o analizar resultados, ¿te resulta familiar?. De inmediato Ana se siente abrumada con dudas como: ¿cuáles necesita realmente?, ¿en qué orden?, ¿cómo evitar perder tiempo y dinero saltando de herramienta en herramienta sin una estrategia clara? Al fin su mente hace clic y recuerda que dispone de esta guía, ahora sí puede comenzar sin estrés ni ruido. Este capítulo nace precisamente para acompañar a Ana y a quienes, como ella o como tú, están iniciando un proyecto o la primera línea de negocio.",
+    "pagina_pdf": 236
+  },
+  "objetivos_aprendizaje": [],
+  "secciones": [
+    {
+      "id": "c16-s1",
+      "numero": null,
+      "titulo": "Herramientas digitales",
+      "tipo": "bloque ✐",
+      "pagina_pdf": 236,
+      "pagina_libro": 231,
+      "paginas_pdf": [
+        236,
+        252
+      ],
+      "texto": "✐ Herramientas digitales",
+      "nota": "Lista alfabética de 260 herramientas ya extraída en extraccion/kit_herramientas.json (lista_herramientas_digitales, k-d001–k-d260); no se duplica aquí.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c16-s2",
+      "numero": null,
+      "titulo": "Herramientas nativas IA",
+      "tipo": "bloque ✐",
+      "pagina_pdf": 253,
+      "pagina_libro": 248,
+      "paginas_pdf": [
+        253,
+        258
+      ],
+      "texto": "✐ Herramientas nativas IA",
+      "nota": "Lista alfabética de 77 herramientas ya extraída en extraccion/kit_herramientas.json (lista_herramientas_ia, k-ia001–k-ia077); no se duplica aquí.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c16-s3",
+      "numero": null,
+      "titulo": "Referencias",
+      "tipo": "apartado final del libro",
+      "pagina_pdf": 259,
+      "pagina_libro": 254,
+      "paginas_pdf": [
+        259,
+        260
+      ],
+      "texto": "Referencias",
+      "nota": "50 referencias ya extraídas en extraccion/referencias.json (ref001–ref050); no se duplican aquí.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    }
+  ],
+  "definiciones": [],
+  "prompts": [],
+  "herramientas_mencionadas": [],
+  "figuras_tablas": [],
+  "ejemplo_aulamarketing": null,
+  "remisiones_aulamarketing": [
+    {
+      "texto": "Además cuentas con acceso a nuestra plataforma, aulamarketing.digital, donde dispones de vídeos que te ayudarán a ponerlo todo en práctica.",
+      "recurso": "vídeo",
+      "tema": "plataforma aulamarketing.digital (contracubierta)",
+      "pagina_pdf": 261
+    }
+  ],
+  "remisiones_internas": [
+    {
+      "texto": "A continuación, clasificaremos todas las herramientas mencionadas por orden alfabético para que puedas conocer la utilidad de cada una de ellas y localizarlas en el capítulo correspondiente.",
+      "capitulo_destino": null,
+      "pagina_pdf": 236,
+      "nota": "remite de forma genérica a los capítulos 1–15 donde se citan las herramientas"
+    }
+  ],
+  "citas_y_referencias": [],
+  "recursos_externos": [
+    {
+      "texto": "aulamarketing.digital | @aulamarketing.digital",
+      "pagina_pdf": 261
+    }
+  ],
+  "otros": [
+    {
+      "descripcion": "Título del capítulo tal como aparece en la página de apertura",
+      "texto": "Capítulo 16 Kit de herramientas digitales y asistencia en inteligencia artificial",
+      "pagina_pdf": 236
+    },
+    {
+      "descripcion": "Propósito del kit (literal, apertura)",
+      "texto": "No pretendemos que utilices las 337 herramientas que presentamos, ni mucho menos que las domines todas a la vez. Nuestro objetivo es ofrecer un mapa ordenado del ecosistema digital disponible para el marketing, de forma que sea fácil elegir con criterio las piezas adecuadas en cada fase y, siguiendo la guía, construir un entorno de trabajo propio, coherente, sostenible y alineado con tu estrategia.",
+      "pagina_pdf": 236
+    },
+    {
+      "descripcion": "Criterio de las dos listas (literal, apertura)",
+      "texto": "La primera lista se corresponde con herramientas y plataformas que incluyen tanto soluciones tradicionales como productos digitales que pueden incorporar funciones de IA, pero cuyo valor principal no es la propia IA , la segunda es una lista de herramientas nativas IA:",
+      "pagina_pdf": 236
+    },
+    {
+      "descripcion": "PUNTERO: kit de herramientas del capítulo 16 (bloques ✐ \"Herramientas digitales\" y \"Herramientas nativas IA\", págs. PDF 236–258)",
+      "texto": null,
+      "archivo": "extraccion/kit_herramientas.json",
+      "detalle": "260 herramientas digitales + 77 herramientas nativas IA = 337 (anunciado en el libro: 337).",
+      "pagina_pdf": 236
+    },
+    {
+      "descripcion": "PUNTERO: referencias bibliográficas finales del libro (\"Referencias\", págs. PDF 259–260)",
+      "texto": null,
+      "archivo": "extraccion/referencias.json",
+      "detalle": "50 referencias.",
+      "pagina_pdf": 259
+    },
+    {
+      "descripcion": "Contracubierta del libro (pág. PDF 261), incluida al final de cap16.txt",
+      "texto": "Desde CERO hasta el ÉXITO Plan de marketing digital Guía práctica con asistencia IA\nEsta guía existe porque nos inspiras. Si estás aprendiendo marketing digital o tienes una pequeña empresa, encontrarás una guía metodológica, conceptual y práctica que podrás seguir paso a paso para optimizar tu presencia online con asistencia de la inteligencia artificial. Con 337 herramientas puestas en práctica, prompts específicos para cada etapa del plan y un paso a paso a seguir para implementar de forma ágil tu propio plan de marketing digital. Además cuentas con acceso a nuestra plataforma, aulamarketing.digital, donde dispones de vídeos que te ayudarán a ponerlo todo en práctica. Súmate a nuestra comunidad y comenta qué opinas sobre aulamarketing.digital, estamos deseando conocerte.\naulamarketing.digital | @aulamarketing.digital",
+      "pagina_pdf": 261
+    }
+  ],
+  "control": {
+    "num_secciones": 3,
+    "num_subsecciones": 0,
+    "num_prompts": 0,
+    "num_herramientas": 0,
+    "num_herramientas_distintas": 0,
+    "num_figuras_tablas": 0,
+    "num_definiciones": 0,
+    "num_entregables": 0,
+    "paginas_revisadas": [
+      236,
+      261
+    ],
+    "incidencias": [
+      "Por indicación del encargo, el kit (bloques ✐ \"Herramientas digitales\" y \"Herramientas nativas IA\") y las referencias finales NO se rehacen: están en extraccion/kit_herramientas.json y extraccion/referencias.json. Este archivo recoge solo la apertura narrativa (Ana), el propósito del kit, el criterio de las dos listas, los títulos de bloque y la contracubierta.",
+      "El capítulo no tiene secciones numeradas, objetivos de aprendizaje, prompts, definiciones, figuras ni ejemplo aulamarketing.digital. Las \"secciones\" c16-s1–s3 corresponden a los dos bloques ✐ y al apartado \"Referencias\" (numero = null).",
+      "herramientas_mencionadas se deja vacío para no duplicar el kit; la apertura no nombra herramientas concretas (solo \"buscador habitual\" y \"LLM de confianza\").",
+      "Erratas literales conservadas: \"¿te resulta familiar?.\" (signo y punto); \"la propia IA , la segunda\" (espacio antes de la coma).",
+      "El pie de página impreso de las págs. PDF 259 y 260 es en ambos casos \"— 255 —\" (incoherencia de foliado del PDF); paginas_libro se da como [231, 255]. La pág. PDF 261 es la contracubierta, sin folio.",
+      "Cobertura (solo parte narrativa: líneas de título, apertura, títulos de bloque, encabezado \"Referencias\" y contracubierta): 2349/2349 caracteres sin espacios localizados (100.00 %). El resto de cap16.txt está cubierto por kit_herramientas.json y referencias.json."
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+---
+// Iconos Material Symbols Rounded (peso 400) servidos desde un sprite propio: public/iconos.svg
+// (subconjunto generado por informes/scripts_p6/iconos.py; © Google LLC, Apache 2.0). Sin fuentes ni CDN externos.
+import type { NombreIcono } from './iconos-ms';
+const V = 'p6-1'; // cambia al regenerar el sprite (rompe la caché de una semana de .htaccess)
+interface Props { nombre: NombreIcono; relleno?: boolean; tam?: number; class?: string }
+const { nombre, relleno = false, tam, class: clase } = Astro.props;
+const id = relleno ? `${nombre}-relleno` : nombre;
+---
+<svg class:list={['c-icon', clase]} width={tam} height={tam} fill="currentColor" aria-hidden="true" focusable="false"><use href={`/iconos.svg?v=${V}#${id}`} /></svg>

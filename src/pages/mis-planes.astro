@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import StorageNotice from '../components/StorageNotice.astro';
+import Icon from '../components/Icon.astro';
+import { getVariables } from '../lib/datos';
+const esenciales = getVariables().filter((v) => v.ambito === 'proyecto' && v.obligatoria).map((v) => v.id);
+---
+<Layout titulo="Mis planes" ancho descripcion="Tus planes de marketing digital: entregables guardados por plan y exportación a Word (.docx) editable." migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Mis planes' }]} noindex>
+  <header class="c-cabecera">
+    <div>
+      <p class="c-overline c-overline--primario">Expediente de trabajo</p>
+      <h1>Mis planes</h1>
+      <p class="c-lead" data-solo-modo="proyecto">Tus entregables, plan a plan. Descárgalos en Word para seguir editándolos.</p>
+      <p class="c-lead" data-solo-modo="ejemplo">Modo «Ejemplo del libro»: aquí tienes el plan modelo de aulamarketing.digital con los entregables del libro, de solo lectura y descargable.</p>
+    </div>
+    <p class="c-pastilla"><span class="c-dot" aria-hidden="true"></span><span data-solo-modo="proyecto">Modo Mi proyecto</span><span data-solo-modo="ejemplo">Modo Ejemplo del libro</span></p>
+  </header>
+
+  <div class="c-grid c-grid--2 c-mis-top">
+    <StorageNotice compacto titulo="Privacidad y almacenamiento local" />
+    <section class="c-card c-proyecto-resumen" aria-labelledby="pr-t">
+      <div class="c-proyecto-resumen__cab">
+        <span class="c-proyecto-resumen__ico" aria-hidden="true"><Icon nombre="maletin" /></span>
+        <div>
+          <p class="c-overline c-overline--book">Proyecto activo</p>
+          <h2 id="pr-t" class="c-headline"><span data-solo-modo="proyecto" data-js="proyecto-nombre">Mi proyecto</span><span data-solo-modo="ejemplo">aulamarketing.digital (ejemplo del libro)</span></h2>
+        </div>
+        <a class="c-btn c-btn--gris c-btn--peq" href="/mi-proyecto/"><Icon nombre="editar" />Editar</a>
+      </div>
+      <div data-solo-modo="proyecto" class="c-proyecto-resumen__prog">
+        <div class="c-anillo c-anillo--barra" data-js="anillo-proyecto" data-esenciales={JSON.stringify(esenciales)} role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Datos esenciales de Mi proyecto">
+          <p class="c-meta"><span>Datos esenciales rellenados</span> <strong data-js="anillo-sub"></strong> <span data-js="anillo-txt"></span></p>
+          <div class="c-progress"><span class="c-anillo__barra"></span></div>
+        </div>
+      </div>
+      <p class="c-meta" data-solo-modo="ejemplo">Los planes se muestran con los entregables que el libro construye para aulamarketing.digital.</p>
+    </section>
+  </div>
+
+  <div data-js="mis-planes">
+    <section data-slot="completo" class="c-completo" hidden aria-labelledby="completo-t">
+      <div class="c-completo__txt">
+        <p class="c-completo__chip"><Icon nombre="check-circulo" />Documento unificado</p>
+        <h2 id="completo-t" class="c-completo__t">Plan completo</h2>
+        <p>Une todos tus planes en un solo documento Word (.docx) editable.</p>
+      </div>
+      <div class="c-completo__acc">
+        <button type="button" class="c-btn c-btn--blanco" data-slot="descargar-completo"><Icon nombre="documento" />Descargar plan completo (.docx)</button>
+      </div>
+    </section>
+    <div class="c-seccion__cab c-seccion">
+      <div><h2 class="c-titulo-2">Expedientes de tus planes</h2><p class="c-meta">Cada plan se descarga por separado en Word.</p></div>
+    </div>
+    <div data-slot="lista" class="c-mis-lista" aria-live="polite"><p class="c-meta">Cargando tus planes…</p></div>
+    <div data-slot="vacio" class="c-estado-vacio c-card" hidden>
+      <Icon nombre="mis-planes" tam={40} />
+      <p>Aún no has empezado ningún plan.</p>
+      <a class="c-btn" href="/planes/">Elegir un plan</a>
+    </div>
+    <p class="c-aviso-local c-mis-pie"><span class="c-dot c-dot--ok" aria-hidden="true"></span>Guardado en este navegador · Última copia descargada: <span data-slot="ultima-copia">nunca</span></p>
+  </div>
+
+  <template id="tpl-plan">
+    <article class="c-card c-expediente">
+      <p class="c-overline" data-slot="overline"></p>
+      <h2 class="c-expediente__t"><a data-slot="titulo" href="#"></a></h2>
+      <p class="c-estado" data-slot="estado"></p>
+      <p class="c-overline c-expediente__sub">Entregables</p>
+      <div data-slot="entregables" class="c-expediente__ents"></div>
+      <div class="c-acciones"><button type="button" class="c-btn c-btn--peq" data-slot="descargar"><Icon nombre="descargar" />Descargar en Word (.docx)</button></div>
+    </article>
+  </template>
+  <template id="tpl-entregable">
+    <details class="c-details c-entregable">
+      <summary><Icon nombre="check" /><span data-slot="titulo"></span></summary>
+      <div class="c-details__body">
+        <p class="c-meta" data-slot="origen"></p>
+        <textarea rows="8" data-slot="contenido"></textarea>
+        <div class="c-acciones">
+          <button type="button" class="c-btn c-btn--sec c-btn--peq" data-slot="guardar">Guardar cambios</button>
+          <button type="button" class="c-btn c-btn--sec c-btn--peq" data-slot="copiar">Copiar</button>
+          <button type="button" class="c-btn c-btn--sec c-btn--peq" data-slot="quitar">Quitar</button>
+        </div>
+      </div>
+    </details>
+  </template>
+  <script>import '../client/mis-planes';</script>
+</Layout>

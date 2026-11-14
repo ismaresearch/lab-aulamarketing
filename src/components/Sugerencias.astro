@@ -1,0 +1,12 @@
+---
+// Botones de sugerencia rápida para un campo de texto (capas/prompts/variables.json → sugerencias_rapidas).
+// Al pulsar: si el campo está vacío inserta el texto; si ya tiene texto, lo añade al final (", …").
+// Comportamiento en src/client/sugerencias.ts (gancho data-js="sugerencias").
+interface Props { para: string; opciones: string[] }
+const { para, opciones } = Astro.props;
+---
+<div class="c-sugerencias" data-js="sugerencias" data-para={para} role="group" aria-label="Sugerencias rápidas">
+  <span class="c-field__ayuda" aria-hidden="true">Sugerencias rápidas:</span>
+  {opciones.map((o) => <button type="button" class="c-chip c-chip--btn" data-valor={o} aria-label={`Añadir «${o}»`}>+ {o}</button>)}
+</div>
+<script>import '../client/sugerencias';</script>

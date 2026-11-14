@@ -1,0 +1,1152 @@
+{
+  "_descripcion": "Secuencias de prompts (y pasos sin prompt) en que la salida de uno alimenta al siguiente (P2). Pasos con el mismo `orden` y la misma `alternativa` son opciones excluyentes.",
+  "cadenas": [
+    {
+      "id": "cad-c01-analisis-estrategico",
+      "titulo": "Análisis estratégico con NotebookLM (un solo cuaderno)",
+      "capitulo": 1,
+      "descripcion": "Los seis prompts se lanzan en el mismo cuaderno de NotebookLM sobre las mismas fuentes; cada salida alimenta el plan estratégico (y la propuesta de valor alimenta el cap. 5).",
+      "pasos": [
+        {
+          "orden": 1,
+          "paso_no_prompt": "Recopilar fuentes del mercado",
+          "produce": "fuentes_mercado",
+          "consume": [],
+          "texto_literal": "A) Recopilación de fuentes: reunimos una amplia cantidad y diversa de documentos relevantes sobre nuestro mercado objetivo, que obtenemos de distintas fuentes de datos secundarios, información existente y disponible en Internet, facilitada normalmente por entidades públicas o privadas, asociaciones profesionales y patronales, grandes consultoras o entidades bancarias entre otros, siempre buscaremos información de interés para alimentar nuestro análisis estratégico, para el caso de nuestro ejemplo:\n● Informes sectoriales y estadísticas de mercado, relacionadas con el sector de la formación digital en España.\n● Artículos de blogs especializados en marketing digital y tendencias.\n● Investigaciones sobre el comportamiento online del consumidor de este tipo de productos o servicios.\n● Análisis de la competencia.\n● Publicaciones o transcripciones de discusiones en comunidades y foros relevantes del nicho de mercado.\n● Documentos sobre avances tecnológicos que impactan el marketing digital.",
+          "fuente_literal": "extraccion/cap01.json#c01-s1.texto"
+        },
+        {
+          "orden": 2,
+          "paso_no_prompt": "Cargar las fuentes en un cuaderno de NotebookLM",
+          "produce": "cuaderno_notebooklm",
+          "consume": [
+            "fuentes_mercado"
+          ],
+          "texto_literal": "B) El paso posterior consiste en la carga y el procesamiento de las fuentes de información en NotebookLM. Para ello, se incorporan a la herramienta las distintas fuentes de información —artículos, informes, vídeos y audios, entre otros—, que son procesados por la IA con el objetivo de identificar temas clave, resumir contenidos y generar notas automáticas. Todo este proceso se desarrolla mediante la interacción con la IA a través del chat y la aplicación de distintos prompts, lo que permite realizar un análisis de tendencias de forma ágil y sistemática. Además, un aspecto diferencial clave de NotebookLM es que el análisis se limita exclusivamente a las fuentes previamente cargadas, evitando posibles “alucinaciones” derivadas del uso de información externa disponible en la red, lo que aporta un alto grado de control, rigor y fiabilidad al proceso, y convierte a esta herramienta en un asistente especialmente valioso para el análisis cualitativo.",
+          "fuente_literal": "extraccion/cap01.json#c01-s1.texto"
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c01-p01",
+          "produce": "tendencias",
+          "consume": [
+            "cuaderno_notebooklm"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c01-p02",
+          "produce": "dafo",
+          "consume": [
+            "cuaderno_notebooklm"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c01-p03",
+          "produce": "fase_ciclo_vida",
+          "consume": [
+            "cuaderno_notebooklm"
+          ]
+        },
+        {
+          "orden": 6,
+          "id_prompt": "c01-p04",
+          "produce": "perfil_cliente",
+          "consume": [
+            "cuaderno_notebooklm"
+          ]
+        },
+        {
+          "orden": 7,
+          "id_prompt": "c01-p05",
+          "produce": "objetivos_smart",
+          "consume": [
+            "cuaderno_notebooklm"
+          ]
+        },
+        {
+          "orden": 8,
+          "id_prompt": "c01-p06",
+          "produce": "propuesta_valor",
+          "consume": [
+            "cuaderno_notebooklm"
+          ]
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c02-definir",
+      "titulo": "Design Thinking · Definir: de las entrevistas a los HMW",
+      "capitulo": 2,
+      "descripcion": "Análisis de entrevistas en NotebookLM: temas de frustración, personas, journey As-Is y enunciados HMW.",
+      "pasos": [
+        {
+          "orden": 1,
+          "paso_no_prompt": "Cargar transcripciones y notas de entrevistas en NotebookLM",
+          "produce": "cuaderno_entrevistas",
+          "consume": [],
+          "texto_literal": "Ahora que podemos utilizar modelos de LLM para asistirnos en tareas específicas de definición del problema comenzaremos con NotebookLM ya que es la plataforma que saca el máximo partido exclusivamente con las fuentes proporcionadas.",
+          "fuente_literal": "extraccion/cap02.json#c02-s4.texto"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c02-p11",
+          "produce": "temas_frustracion",
+          "consume": [
+            "cuaderno_entrevistas"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c02-p12",
+          "produce": "user_personas",
+          "consume": [
+            "cuaderno_entrevistas",
+            "temas_frustracion"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c02-p13",
+          "produce": "journey_as_is",
+          "consume": [
+            "user_personas",
+            "cuaderno_entrevistas"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c02-p14",
+          "produce": "enunciados_hmw",
+          "consume": [
+            "temas_frustracion"
+          ]
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c02-idear",
+      "titulo": "Design Thinking · Idear: generar y desarrollar una idea",
+      "capitulo": 2,
+      "descripcion": "Se elige una técnica de ideación (alternativas) y la idea seleccionada se desarrolla en un documento de concepto.",
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c02-p01",
+          "produce": "lista_ideas",
+          "consume": [
+            "reto"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 1,
+          "id_prompt": "c02-p02",
+          "produce": "lista_ideas",
+          "consume": [
+            "reto"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 1,
+          "id_prompt": "c02-p03",
+          "produce": "lista_ideas",
+          "consume": [
+            "reto"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 1,
+          "id_prompt": "c02-p04",
+          "produce": "lista_ideas",
+          "consume": [
+            "reto"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 1,
+          "id_prompt": "c02-p05",
+          "produce": "lista_ideas",
+          "consume": [
+            "producto_servicio"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 1,
+          "id_prompt": "c02-p06",
+          "produce": "lista_ideas",
+          "consume": [
+            "reto"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c02-p07",
+          "produce": "documento_concepto",
+          "consume": [
+            "lista_ideas"
+          ],
+          "nota": "«Después del primer output, refina con…»"
+        }
+      ],
+      "consume_externo": [
+        "producto_servicio",
+        "reto"
+      ]
+    },
+    {
+      "id": "cad-c02-prototipar",
+      "titulo": "Design Thinking · Prototipar: interfaz y prototipo de fachada",
+      "capitulo": 2,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c02-p15",
+          "produce": "interfaz_prototipo",
+          "consume": [
+            "enunciados_hmw",
+            "user_personas"
+          ]
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c02-p16",
+          "produce": "prototipo_codigo",
+          "consume": [
+            "documento_concepto"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "documento_concepto",
+        "enunciados_hmw",
+        "user_personas"
+      ]
+    },
+    {
+      "id": "cad-c02-testear",
+      "titulo": "Design Thinking · Testear: análisis de sesiones e iteración v2",
+      "capitulo": 2,
+      "pasos": [
+        {
+          "orden": 1,
+          "paso_no_prompt": "Cargar en NotebookLM los audios de las sesiones de testeo",
+          "produce": "cuaderno_testeo",
+          "consume": [
+            "prototipo_codigo"
+          ],
+          "texto_literal": "Le facilitaremos tantos mp3 como audios de experiencia de usuario tengamos. Si dispones de sesiones de vídeo, puedes descargar el audio con herramientas como CapCut. Una vez que subimos como fuente los diferentes archivos de audio, le daremos la siguiente instrucción",
+          "fuente_literal": "extraccion/cap02.json#c02-p17.contexto_previo"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c02-p17",
+          "produce": "analisis_sesiones",
+          "consume": [
+            "cuaderno_testeo"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c02-p18",
+          "produce": "metricas_testeo",
+          "consume": [
+            "cuaderno_testeo"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c02-p19",
+          "produce": "iteracion_v2",
+          "consume": [
+            "analisis_sesiones",
+            "cuaderno_testeo"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "prototipo_codigo"
+      ]
+    },
+    {
+      "id": "cad-c03-customer-journey",
+      "titulo": "Del buyer persona al Customer Journey Map (y su infografía)",
+      "capitulo": 3,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c03-p01",
+          "produce": "buyer_personas",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c03-p02",
+          "produce": "customer_journey_map",
+          "consume": [
+            "buyer_personas"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c03-p03",
+          "produce": "customer_journey_map",
+          "consume": [
+            "buyer_personas"
+          ],
+          "alternativa": "A",
+          "nota": "Versión «camino más corto» hacia la primera venta"
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c03-p04",
+          "produce": "infografia_cjm",
+          "consume": [
+            "customer_journey_map"
+          ]
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c05-identidad-marca",
+      "titulo": "Identidad de marca en una misma conversación (misión, visión, historia, valores, eslogan, logo)",
+      "capitulo": 5,
+      "descripcion": "Conversación continuada con ChatGPT: cada petición refina la anterior o se apoya en todo el contexto acumulado.",
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c05-p01",
+          "produce": "mision_v1",
+          "consume": [
+            "propuesta_valor"
+          ]
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c05-p02",
+          "produce": "mision_v2",
+          "consume": [
+            "mision_v1"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c05-p03",
+          "produce": "mision",
+          "consume": [
+            "mision_v2"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c05-p04",
+          "produce": "vision_v1",
+          "consume": [
+            "mision"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c05-p05",
+          "produce": "vision",
+          "consume": [
+            "vision_v1"
+          ]
+        },
+        {
+          "orden": 6,
+          "id_prompt": "c05-p06",
+          "produce": "historia_marca",
+          "consume": [
+            "mision",
+            "vision"
+          ]
+        },
+        {
+          "orden": 7,
+          "id_prompt": "c05-p07",
+          "produce": "valores_v1",
+          "consume": [
+            "historia_marca"
+          ]
+        },
+        {
+          "orden": 8,
+          "id_prompt": "c05-p08",
+          "produce": "valores_memorables",
+          "consume": [
+            "valores_v1"
+          ]
+        },
+        {
+          "orden": 9,
+          "id_prompt": "c05-p09",
+          "produce": "eslogan",
+          "consume": [
+            "valores_memorables"
+          ]
+        },
+        {
+          "orden": 10,
+          "id_prompt": "c05-p10",
+          "produce": "propuestas_logotipo",
+          "consume": [
+            "eslogan"
+          ]
+        },
+        {
+          "orden": 11,
+          "id_prompt": "c05-p11",
+          "produce": "identidad_visual",
+          "consume": [
+            "propuesta_valor"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "propuesta_valor"
+      ]
+    },
+    {
+      "id": "cad-c06-web",
+      "titulo": "Construcción del sitio web con IA (estructura, textos e imágenes)",
+      "capitulo": 6,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c06-p01",
+          "produce": "prompt_plataforma_web",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "paso_no_prompt": "Llevar el prompt generado a una plataforma tipo Lovable (versión genérica del sitio)",
+          "produce": "sitio_web_base",
+          "consume": [
+            "prompt_plataforma_web"
+          ],
+          "texto_literal": "Tú puedes sustituir nuestra información por la de tu marca y utilizar tu LLM habitual o hacer pruebas con diferentes para comprobar qué enfoque aporta cada uno. Como se observa, esta primera petición es ligeramente extensa pero su respuesta lo será más, ya que el asistente dividirá el mensaje en secciones específicas. Un detalle muy importante es que solo con este prompt no conseguirás una versión de tu sitio, sino una versión totalmente genérica.",
+          "fuente_literal": "extraccion/cap06.json#c06-p01.contexto_posterior"
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c06-p02",
+          "produce": "textos_paginas",
+          "consume": [
+            "sitio_web_base"
+          ],
+          "nota": "Se repite con cada página y se guarda el contenido"
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c06-p03",
+          "produce": "imagen_producto",
+          "consume": []
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c06-c08-imagen-a-video",
+      "titulo": "De la imagen de la web al vídeo corto (image-to-video)",
+      "capitulo": 8,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c06-p03",
+          "produce": "imagen_producto",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c08-p05",
+          "produce": "video_corto",
+          "consume": [
+            "imagen_producto"
+          ]
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c07-contenido-aeo",
+      "titulo": "SEO/AEO: de la escucha digital al contenido citable",
+      "capitulo": 7,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c07-p01",
+          "produce": "foros_y_puntos_dolor",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c07-p02",
+          "produce": "tendencias_sector",
+          "consume": []
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c07-p03",
+          "produce": "analisis_competidor",
+          "consume": []
+        },
+        {
+          "orden": 4,
+          "paso_no_prompt": "Síntesis en NotebookLM con todos los documentos",
+          "produce": "puntos_dolor_notebooklm",
+          "consume": [
+            "foros_y_puntos_dolor",
+            "tendencias_sector",
+            "analisis_competidor"
+          ],
+          "texto_literal": "Ahora nos llevamos todos los documentos a NotebookLM para identificar tendencias emergentes y necesidades reales del cliente que a menudo no aparecen en las herramientas de SEO tradicionales.",
+          "fuente_literal": "extraccion/cap07.json#otros[Paso de la cadena de prompts sin prompt literal: síntesis en NotebookLM]"
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c07-p04",
+          "produce": "estructura_aeo",
+          "consume": [
+            "puntos_dolor_notebooklm"
+          ]
+        },
+        {
+          "orden": 6,
+          "id_prompt": "c07-p05",
+          "produce": "contenido_final",
+          "consume": [
+            "estructura_aeo"
+          ]
+        },
+        {
+          "orden": 7,
+          "id_prompt": "c07-p08",
+          "produce": "auditoria_citabilidad",
+          "consume": [
+            "contenido_final"
+          ],
+          "nota": "«Utiliza este prompt antes de pasar tu contenido a producción»"
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c07-curacion",
+      "titulo": "SEO/AEO: curación de un artículo existente y marcado JSON-LD",
+      "capitulo": 7,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c07-p06",
+          "produce": "nodos_resolucion",
+          "consume": [
+            "articulo_existente"
+          ]
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c07-p07",
+          "produce": "json_ld",
+          "consume": [
+            "nodos_resolucion"
+          ]
+        },
+        {
+          "orden": 3,
+          "paso_no_prompt": "Insertar el código en WordPress (bloque HTML personalizado)",
+          "produce": "pagina_marcada",
+          "consume": [
+            "json_ld"
+          ],
+          "texto_literal": "Si estás creando tu proyecto o ya está publicado en WordPress puedes añadir el código que te devolverá de la siguiente forma: En el editor de WordPress (Gutenberg), añade un bloque de HTML personalizado, pega el código <script>...</script> directamente ahí. No se verá nada en la web para el usuario, pero los motores de búsqueda lo leerán al rastrear el post.",
+          "fuente_literal": "extraccion/cap07.json#c07-p07.contexto_posterior"
+        }
+      ],
+      "consume_externo": [
+        "articulo_existente"
+      ]
+    },
+    {
+      "id": "cad-c08-escaleta",
+      "titulo": "Social media: escaleta maestra y fragmentación por redes",
+      "capitulo": 8,
+      "descripcion": "Peticiones encadenadas: se obtiene una escaleta maestra (desde el artículo pilar o desde los puntos de dolor) y se fragmenta en piezas por red social.",
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c08-p01",
+          "produce": "escaleta_maestra",
+          "consume": [
+            "contenido_final"
+          ],
+          "alternativa": "A",
+          "nota": "Si ya hiciste la investigación SEO del cap. 7"
+        },
+        {
+          "orden": 1,
+          "id_prompt": "c08-p02",
+          "produce": "puntos_dolor_social",
+          "consume": [],
+          "alternativa": "B",
+          "nota": "Si no has pasado por la etapa SEO"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c08-p03",
+          "produce": "escaleta_maestra",
+          "consume": [
+            "puntos_dolor_social"
+          ],
+          "alternativa": "B"
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c08-p04",
+          "produce": "guion_reel",
+          "consume": [
+            "escaleta_maestra"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c08-p11",
+          "produce": "post_linkedin",
+          "consume": [
+            "escaleta_maestra"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c08-p12",
+          "produce": "hilo_x",
+          "consume": [
+            "escaleta_maestra"
+          ]
+        },
+        {
+          "orden": 6,
+          "id_prompt": "c08-p13",
+          "produce": "metadatos_youtube",
+          "consume": [
+            "escaleta_maestra"
+          ]
+        },
+        {
+          "orden": 7,
+          "id_prompt": "c08-p14",
+          "produce": "captions_tiktok",
+          "consume": [
+            "escaleta_maestra"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "contenido_final"
+      ]
+    },
+    {
+      "id": "cad-c09-email",
+      "titulo": "Email marketing: de la investigación en NotebookLM a la secuencia TOFU-MOFU-BOFU",
+      "capitulo": 9,
+      "pasos": [
+        {
+          "orden": 1,
+          "paso_no_prompt": "Cargar en NotebookLM la información de marca, buyer persona y dossier de competencia",
+          "produce": "cuaderno_email",
+          "consume": [],
+          "texto_literal": "Proponemos comenzar con NotebookLM, facilitándole toda la información sobre nuestro buyer persona, propuesta de valor, marca, modelo de negocio y contenido que hemos obtenido previamente como los textos del sitio web, textos sobre productos, contenido de redes sociales, etc. En esta etapa incluso podríamos haber hecho un seguimiento de la competencia y crear un dossier de varias marcas competidoras que complemente nuestra estrategia de email marketing.",
+          "fuente_literal": "extraccion/cap09.json#c09-s4.texto"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c09-p01",
+          "produce": "tensiones_invisibles",
+          "consume": [
+            "cuaderno_email"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c09-p02",
+          "produce": "pilares_editoriales",
+          "consume": [
+            "cuaderno_email"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c09-p03",
+          "produce": "lead_magnets",
+          "consume": [
+            "cuaderno_email"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c09-p04",
+          "produce": "personalidad_envio",
+          "consume": [
+            "cuaderno_email"
+          ]
+        },
+        {
+          "orden": 6,
+          "paso_no_prompt": "Llevar los resultados a ChatGPT, Gemini o Claude en modo razonamiento",
+          "produce": "investigacion_email",
+          "consume": [
+            "tensiones_invisibles",
+            "pilares_editoriales",
+            "lead_magnets",
+            "personalidad_envio"
+          ],
+          "texto_literal": "Aunque podríamos continuar dentro de NotebookLM, proponemos llevar el resultado de estas interacciones a ChatGPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento. Si prefieres utilizar Perplexity, te recomendamos elegir cualquiera de los modelos mencionados.",
+          "fuente_literal": "extraccion/cap09.json#c09-s4.texto"
+        },
+        {
+          "orden": 7,
+          "id_prompt": "c09-p05",
+          "produce": "matriz_email",
+          "consume": [
+            "investigacion_email"
+          ]
+        },
+        {
+          "orden": 8,
+          "id_prompt": "c09-p06",
+          "produce": "plan_tono_ganchos",
+          "consume": [
+            "matriz_email"
+          ]
+        },
+        {
+          "orden": 9,
+          "id_prompt": "c09-p07",
+          "produce": "email_1",
+          "consume": [
+            "matriz_email",
+            "lead_magnets"
+          ]
+        },
+        {
+          "orden": 10,
+          "id_prompt": "c09-p08",
+          "produce": "emails_2_3",
+          "consume": [
+            "matriz_email"
+          ]
+        },
+        {
+          "orden": 11,
+          "id_prompt": "c09-p09",
+          "produce": "emails_4_5",
+          "consume": [
+            "matriz_email"
+          ]
+        },
+        {
+          "orden": 12,
+          "id_prompt": "c09-p10",
+          "produce": "auditoria_emails",
+          "consume": [
+            "email_1",
+            "emails_2_3",
+            "emails_4_5"
+          ]
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c10-sem",
+      "titulo": "SEM: keywords, landing y anuncio de búsqueda",
+      "capitulo": 10,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c10-p01",
+          "produce": "tabla_keywords",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "paso_no_prompt": "Evaluar costes (CPC) en el Planificador de palabras clave",
+          "produce": "keywords_elegidas",
+          "consume": [
+            "tabla_keywords"
+          ],
+          "texto_literal": "Con esta tabla nos iremos al planificador de palabras clave para evaluar los costes (CPC) en el área geográfica donde buscamos lanzar la campaña",
+          "fuente_literal": "extraccion/cap10.json#c10-p01.contexto_posterior"
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c10-p02",
+          "produce": "landing_page",
+          "consume": [
+            "keywords_elegidas",
+            "tabla_keywords"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c10-p03",
+          "produce": "anuncio_responsivo",
+          "consume": [
+            "keywords_elegidas"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c10-p04",
+          "produce": "sitelinks",
+          "consume": [
+            "anuncio_responsivo"
+          ]
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c10-video-iteracion",
+      "titulo": "SEM: iterar el vídeo publicitario",
+      "capitulo": 10,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c10-p07",
+          "produce": "video_campania",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c10-p08",
+          "produce": "video_campania_v2",
+          "consume": [
+            "video_campania"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c10-p09",
+          "produce": "video_campania_v2",
+          "consume": [
+            "video_campania"
+          ],
+          "alternativa": "A"
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c11-social-ads",
+      "titulo": "Social Ads: matriz de campaña, copys, imágenes y vídeos por etapa",
+      "capitulo": 11,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c11-p01",
+          "produce": "matriz_campania",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c11-p02",
+          "produce": "copys_anuncios",
+          "consume": [
+            "matriz_campania"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c11-p03",
+          "produce": "prompts_imagen_anuncio",
+          "consume": [
+            "matriz_campania"
+          ],
+          "nota": "Repetir por etapa para obtener 3–9 imágenes"
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c11-p04",
+          "produce": "prompts_video_anuncio",
+          "consume": [
+            "matriz_campania"
+          ],
+          "alternativa": "A"
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c11-p05",
+          "produce": "prompts_video_anuncio",
+          "consume": [],
+          "alternativa": "A",
+          "nota": "Variante UGC"
+        },
+        {
+          "orden": 5,
+          "paso_no_prompt": "Llevar los prompts finales a los modelos de generación de vídeo y editar",
+          "produce": "videos_anuncio",
+          "consume": [
+            "prompts_video_anuncio"
+          ],
+          "texto_literal": "Finalmente nos llevaremos los prompt finales a los modelos de generación de vídeo y descargaremos los resultados para pasar a la etapa de edición.",
+          "fuente_literal": "extraccion/cap11.json#c11-p04.contexto_posterior"
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c12-influencers",
+      "titulo": "Influencers: selección, plan de contenidos, briefing y aprovechamiento del UGC",
+      "capitulo": 12,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c12-p01",
+          "produce": "estrategia_seleccion",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "paso_no_prompt": "Buscar y evaluar influencers con las herramientas del capítulo",
+          "produce": "influencers_seleccionados",
+          "consume": [
+            "estrategia_seleccion"
+          ],
+          "texto_literal": "A partir de aquí debes comenzar a buscar y apoyarte en caso de duda en las herramientas facilitadas en el punto anterior para evaluar la calidad y el potencial coste de las colaboraciones",
+          "fuente_literal": "extraccion/cap12.json#c12-p01.contexto_posterior"
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c12-p02",
+          "produce": "plan_contenidos_4_semanas",
+          "consume": [
+            "influencers_seleccionados"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c12-p03",
+          "produce": "briefing_creativo",
+          "consume": [
+            "plan_contenidos_4_semanas"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c12-p04",
+          "produce": "textos_ugc_web",
+          "consume": [
+            "influencers_seleccionados"
+          ],
+          "nota": "Tras una colaboración ya realizada"
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c13-resenas",
+      "titulo": "Reseñas: plantillas de respuesta, etiquetado y análisis de sentimiento",
+      "capitulo": 13,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c13-p01",
+          "produce": "matriz_respuestas",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c13-p02",
+          "produce": "clasificacion_resenas",
+          "consume": [
+            "resenas"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c13-p03",
+          "produce": "informe_sentimiento",
+          "consume": [
+            "clasificacion_resenas"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "resenas"
+      ]
+    },
+    {
+      "id": "cad-c14-reputacion",
+      "titulo": "Reputación: escucha activa, auditoría por valores, respuesta y aprendizaje",
+      "capitulo": 14,
+      "descripcion": "«Continuaremos en el mismo LLM para mantener consistencia en las respuestas».",
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c14-p01",
+          "produce": "keywords_escucha",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c14-p02",
+          "produce": "auditoria_valores",
+          "consume": [
+            "comentarios_resenas"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c14-p03",
+          "produce": "respuesta_brecha",
+          "consume": [
+            "auditoria_valores"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c14-p04",
+          "produce": "informe_aprendizaje",
+          "consume": [
+            "auditoria_valores",
+            "respuesta_brecha"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "comentarios_resenas"
+      ]
+    },
+    {
+      "id": "cad-c14-sombra-digital",
+      "titulo": "Reputación: la «sombra digital» en las respuestas de la IA",
+      "capitulo": 14,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c14-p06",
+          "produce": "respuesta_ia_sobre_empresa",
+          "consume": []
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c14-p07",
+          "produce": "plan_puntos_ciegos",
+          "consume": [
+            "respuesta_ia_sobre_empresa"
+          ]
+        }
+      ],
+      "consume_externo": []
+    },
+    {
+      "id": "cad-c15-cascada",
+      "titulo": "Planificación: técnica de la cascada (año → trimestre → semana)",
+      "capitulo": 15,
+      "pasos": [
+        {
+          "orden": 1,
+          "paso_no_prompt": "Subir el Plan de Marketing Digital al asistente (mismo chat para los tres prompts)",
+          "produce": "plan_en_chat",
+          "consume": [
+            "plan_marketing_maestro"
+          ],
+          "texto_literal": "Estos serán los documentos de contexto que aportaremos a nuestro LLM para luego lanzarle tres prompt en una secuencia que llamaremos la técnica de la cascada. Esta técnica obliga a la IA a ir de lo macro (el año) a lo micro (la semana), asegurando que cada tarea operativa es un paso exacto dentro del mapa de experiencia del cliente. Recuerda subir tu documento a tu asistente antes de ejecutar los siguientes prompts en el mismo chat, uno detrás de otro, esperando la respuesta entre cada uno.",
+          "fuente_literal": "extraccion/cap15.json#otros[Técnica de la cascada (secuencia de tres prompts de lo macro a lo micro) — sección 8]"
+        },
+        {
+          "orden": 2,
+          "id_prompt": "c15-p01",
+          "produce": "roadmap_semestral",
+          "consume": [
+            "plan_en_chat"
+          ]
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c15-p02",
+          "produce": "plan_trimestral_mensual",
+          "consume": [
+            "roadmap_semestral"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c15-p03",
+          "produce": "secuencia_4_semanas",
+          "consume": [
+            "plan_trimestral_mensual"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "plan_marketing_maestro"
+      ]
+    },
+    {
+      "id": "cad-c15-medicion",
+      "titulo": "Medición: cuadro de mando, informe de cierre, auditoría y dashboard",
+      "capitulo": 15,
+      "pasos": [
+        {
+          "orden": 1,
+          "id_prompt": "c15-p04",
+          "produce": "cuadro_mando",
+          "consume": [
+            "plan_marketing_maestro"
+          ]
+        },
+        {
+          "orden": 2,
+          "paso_no_prompt": "Hacer capturas de GA4, Search Console, Meta Ads Manager y demás plataformas al cierre del mes",
+          "produce": "capturas_metricas",
+          "consume": [
+            "cuadro_mando"
+          ],
+          "texto_literal": "Para que sea sencillo, puedes hacer capturas de las pantallas de las plataformas de métricas como GA4, Search Console, Meta Ads Manager, pedidos web o cualquiera que muestre los resultados en base a objetivos. Con todas las capturas solicitas un informe global de métricas con la siguiente indicación",
+          "fuente_literal": "extraccion/cap15.json#c15-p05.contexto_previo"
+        },
+        {
+          "orden": 3,
+          "id_prompt": "c15-p05",
+          "produce": "informe_resultados",
+          "consume": [
+            "capturas_metricas",
+            "cuadro_mando"
+          ]
+        },
+        {
+          "orden": 4,
+          "id_prompt": "c15-p06",
+          "produce": "informe_desviacion",
+          "consume": [
+            "informe_resultados"
+          ]
+        },
+        {
+          "orden": 5,
+          "id_prompt": "c15-p07",
+          "produce": "dashboard_what_if",
+          "consume": [
+            "informe_resultados"
+          ]
+        }
+      ],
+      "consume_externo": [
+        "plan_marketing_maestro"
+      ]
+    }
+  ]
+}

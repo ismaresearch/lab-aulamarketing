@@ -1,0 +1,84 @@
+{
+  "id": "c11",
+  "promesa": "Crearás campañas de publicidad en redes sociales basadas en investigación, con creativos que conviertan y presupuesto bien invertido.",
+  "al_terminar_tendras": [
+    "Un objetivo de campaña SMART con métricas de retorno (ROAS, coste por lead)",
+    "La investigación de tu cliente: dolores, intenciones, soluciones fallidas, objeciones y disparador final",
+    "Creativos construidos con bloques y fórmulas persuasivas, en formatos diversos",
+    "Una campaña configurada con estructura, audiencias, ubicaciones y A/B testing",
+    "Textos, imágenes, vídeos y UGC para tus anuncios generados con prompts de IA"
+  ],
+  "historia_ana": "Ana pasa mucho tiempo en Instagram y TikTok. Mientras ve vídeos cortos, encuentra un anuncio de aulamarketing.digital sobre IA en la planificación de contenidos. No cerramos una venta, pero captamos su atención temprano y empezamos una relación que podremos nutrir después.",
+  "resumen_capitulo": "En redes sociales, lo auténtico diferencia a unas marcas de otras, y captar la atención es cada vez más difícil. Los Social Ads aceleran la visibilidad y superan las barreras iniciales de reconocimiento, pero su valor no está solo en vender: guían al usuario en las primeras fases del customer journey con contenidos nativos. En este capítulo descubres por qué siguen siendo clave en un escenario de alcance orgánico decreciente. Repasas los conceptos básicos y las tendencias: IA para optimizar campañas y crear contenido, vídeo vertical, UGC y realismo. Aprendes que el anuncio es solo la capa superficial: antes hay que investigar al usuario, fijar objetivos SMART y preparar una landing page sencilla. Ves la estructura, la segmentación y los tipos de anuncio por plataforma, y una metodología de 4 pasos para crear anuncios que vendan. Profundizas en Meta Ads y Advantage+, y en YouTube Ads con Google. Por último, usas la IA para idear, redactar y generar imágenes, vídeo y UGC, y ves la campaña que aulamarketing.digital lanza para captar el email de Ana.",
+  "secciones": {
+    "c11-s1": {
+      "idea_clave": "Los Social Ads aceleran la visibilidad, segmentan con precisión, generan familiaridad y leads, y compensan la caída del alcance orgánico.",
+      "resumen": "La inversión en publicidad en redes sigue creciendo, y el libro explica por qué conviene apostar por ella. Acelera la visibilidad y genera demanda, sobre todo en lanzamientos, por ejemplo con listas de reserva previas. Permite segmentar audiencias de forma muy específica por datos demográficos, intereses y comportamientos. Construye confianza: ver un anuncio entre 7 y 10 veces, espaciado en el tiempo, genera familiaridad con la marca. Te deja elegir la ubicación del mensaje, incluso lugares donde no llegarías de forma orgánica, como la bandeja de mensajes privados de usuarios segmentados. Ayuda a superar la caída del alcance orgánico, cada vez más impredecible, llegando más allá de tus seguidores. Es coste-efectiva, porque las plataformas ofrecen datos en tiempo real para seguir el ROAS y optimizar al momento. Y es un terreno fértil para generar leads: Meta ofrece el objetivo \"Clientes potenciales\" con formularios nativos, y puedes captar emails a cambio de valor para construir una audiencia propia.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c11-s2": {
+      "idea_clave": "Los Social Ads son publicaciones promocionadas para llegar más allá de tus seguidores; hoy mandan la IA, el vídeo vertical, el UGC y el realismo.",
+      "resumen": "Los Social Ads son publicaciones en redes que se promocionan con presupuesto para llegar más allá de los seguidores; las publicaciones orgánicas, en cambio, solo las ven quienes te siguen. El libro define también la segmentación, el retargeting, el anuncio (una pieza parecida a una publicación orgánica, pero identificada como publicidad), la landing page y el copywriting persuasivo, que en Social Ads es algo más agresivo y se centra en cómo resuelves el problema del usuario, con lenguaje sencillo. Entre las tendencias destaca la IA, que optimiza la segmentación y los costes en tiempo real con herramientas como Advantage+ o Performance Max, además de conectar datos propios y medir la incrementalidad. También crece la creación de contenido nativo asistido por IA. El vídeo sigue siendo el formato principal, con el vertical corto a la cabeza, y las marcas que combinan formatos cortos y largos convierten más. El UGC en anuncios se consolida. Y se premia el realismo: opiniones sinceras, detrás de cámaras y menos edición, frente a la saturación de contenido generado por IA.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    },
+    "c11-s3": {
+      "idea_clave": "El anuncio es solo la capa superficial: antes van la investigación del usuario, el objetivo SMART, la landing page y una metodología creativa.",
+      "resumen": "Uno de los mayores errores en Social Ads es centrarse solo en el anuncio. Antes debes estudiar al usuario y tu propuesta de valor, asociando a cada tipo de usuario un beneficio y un incentivo clave. El anuncio debe comunicar, desde su perspectiva, cómo resuelves su problema, y llevarle a una landing page limpia y sencilla donde se produce la conversión. Cada campaña necesita un objetivo SMART, normalmente ventas o leads, y métricas como el ROAS. En estructura, Meta organiza la publicidad en campañas, grupos de anuncios y anuncios; además, puedes segmentar por intereses, demografía, comportamiento y ubicación geográfica, elegir dónde aparecerán tus anuncios y, sobre todo, hacer A/B testing. Cada plataforma tiene sus formatos y reglas, y conocerlas evita errores con coste. Para no crear creativos al azar, el libro propone 4 pasos: investigar clientes y competencia (dolores, intenciones, soluciones fallidas, objeciones y disparador final); montar el anuncio con bloques creativos; ordenarlos con fórmulas persuasivas como problema-solución o storytelling; y diversificar formatos.",
+      "subsecciones": {
+        "c11-s3.1": {
+          "idea_clave": "Organiza campañas, grupos de anuncios y anuncios, segmenta con precisión, elige ubicaciones y no lances nada sin A/B testing."
+        },
+        "c11-s3.2": {
+          "idea_clave": "Cada red tiene sus propios formatos y reglas de anuncio; conocerlos bien te da ventaja, porque cada error tiene un coste."
+        },
+        "c11-s3.3": {
+          "idea_clave": "Investiga a tu cliente, monta el anuncio con bloques, ordénalo con una fórmula persuasiva y ejecútalo en formatos diversos."
+        }
+      },
+      "minutos_lectura_integro": 7
+    },
+    "c11-s4": {
+      "idea_clave": "En Meta Ads eliges objetivo y audiencia dentro de una estructura jerárquica, y Advantage+ automatiza con IA creatividades, presupuesto y entrega.",
+      "resumen": "Meta cuenta con uno de los ecosistemas de gestión más completos, con una capa de IA cada vez más importante. Para anunciarte necesitas una página de empresa en Facebook o un perfil de empresa en Instagram, y trabajas desde el Administrador de Anuncios. Como en Google Ads, la estructura es jerárquica: campañas, grupos de anuncios y anuncios, con un presupuesto de campaña que puedes ajustar. La primera decisión es el objetivo, entre seis opciones: reconocimiento, tráfico, interacción, promoción de aplicación, clientes potenciales (con formularios nativos) y ventas, que es la que el libro considera que realmente buscas por su relación directa con el retorno. Después eliges la audiencia: guardada, a partir de los datos de Meta; personalizada, con tus propios datos, para hacer retargeting; o similar (lookalike), parecida a una audiencia que ya conoces, para no impactar en tráfico completamente frío. Advantage+ reúne soluciones automatizadas con IA que generan y prueban variaciones creativas, ajustan el presupuesto hacia lo que mejor convierte y se aplican a e-commerce, creatividades y aplicaciones, aunque siguen necesitando tu supervisión.",
+      "subsecciones": {
+        "c11-s4.1": {
+          "idea_clave": "Meta ofrece seis objetivos de campaña; el de ventas es el que más se vincula al retorno de la inversión."
+        },
+        "c11-s4.2": {
+          "idea_clave": "Usa audiencias guardadas, personalizadas para retargeting o similares (lookalike) para no impactar en tráfico completamente frío."
+        },
+        "c11-s4.3": {
+          "idea_clave": "Advantage+ usa IA para probar creatividades, ajustar presupuesto y optimizar la entrega, aunque sigue necesitando tu supervisión."
+        }
+      },
+      "minutos_lectura_integro": 4
+    },
+    "c11-s5": {
+      "idea_clave": "Anúnciate en YouTube a través de Google Ads siguiendo tres pilares: crear buenos vídeos, conectar con tu audiencia y medir lo que importa.",
+      "resumen": "YouTube, la plataforma audiovisual líder, con más de mil millones de usuarios, permite anunciarse a través de Google Ads con una estrategia en tres pilares. Crear: anuncios de vídeo eficaces que cuenten la historia de la marca, incluso grabados con el móvil y con ayuda de la IA, además de un canal propio para interactuar con la comunidad. Conectar: encontrar a la audiencia en cualquier fase de su recorrido y decidir dónde y cuándo impactarla, con la IA de Google ayudando en los momentos clave. Medir: elegir las métricas importantes y optimizar el ROAS. Los formatos incluyen anuncios in-stream saltables, por los que solo pagas si se ven 30 segundos o completos y cuyo reto está en los primeros 5 segundos, y no saltables de hasta 30 segundos; bumper ads de hasta 6 segundos; in-feed; anuncios de Shorts; display; masthead en la página principal; y otros, como out-stream o audio. En el terreno de la IA, Performance Max multiplica conversiones en todos los canales de Google, y la IA Max para búsqueda amplía la cobertura con creatividades y páginas personalizadas.",
+      "subsecciones": {
+        "c11-s5.1": {
+          "idea_clave": "YouTube ofrece anuncios in-stream, bumper, in-feed, Shorts, display y masthead: elige según duración, ubicación y objetivo."
+        },
+        "c11-s5.2": {
+          "idea_clave": "La IA de Google, con Performance Max y la IA Max para búsqueda, amplía el alcance y las conversiones de tus campañas de vídeo."
+        }
+      },
+      "minutos_lectura_integro": 4
+    },
+    "c11-s6": {
+      "idea_clave": "Encadena prompts en un mismo LLM para idear la campaña, redactar copys y generar los prompts de imagen, vídeo y UGC de tus anuncios.",
+      "resumen": "Las campañas se crean y controlan dentro de las propias plataformas publicitarias, pero necesitas un kit de herramientas de planificación, edición de imagen y vídeo, investigación en bibliotecas de anuncios y gestión con IA integrada. A diferencia del social media orgánico, aquí los prompts se orientan a la rentabilidad y al impacto en cada etapa del customer journey. El libro propone trabajar en un mismo LLM en modo razonamiento. Primero, ideación: un prompt de estrategia para impactar en la parte alta del embudo, cuando el usuario está en modo descubrimiento. Después, el copy de los anuncios a partir de esa estrategia. Luego, imágenes: pides al LLM los prompts para cada etapa, obtienes entre 3 y 9 imágenes y adjuntas referencias del logotipo, personas o espacios. Para el vídeo, prompts en inglés, varias iteraciones porque el modelo alucina con facilidad, un storyboard como base y montaje final; conviene comparar varios modelos. También puedes generar UGC con un prompt maestro y completar con voz y música a partir de los textos de voz en off.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 11
+    },
+    "c11-s7": {
+      "idea_clave": "aulamarketing.digital aplica los 4 pasos en Meta Ads para captar el email de Ana con reels y stories de vídeo vertical.",
+      "resumen": "Como Ana no busca cursos en redes, el objetivo inicial es captar su email a cambio de valor con reels y stories en Meta Ads, y convertir después con retargeting. Paso 1, investigación: Ana está abrumada por la velocidad de las tendencias, quiere aplicar la IA con estrategia, ha probado formaciones sin impacto y teme la saturación de contenidos de IA; su gran objeción es la falta de tiempo y necesita que la formación sea práctica. La convencería un mecanismo único con prueba social creíble. Pasos 2 y 3: fórmula problema-solución con storytelling, organizada por bloques desde el gancho hasta la CTA. Paso 4: dos formatos de vídeo vertical, un POV de 15-30 segundos con un mentor que explica cómo usar Advantage+ para reducir costes, y un vídeo de ventas tipo tutorial de un minuto con clips generados por IA. La campaña usa Advantage+, un LLM para los guiones, una audiencia lookalike basada en los alumnos más comprometidos más intereses, ubicaciones en Reels y Stories, A/B testing y control de ROAS, coste por lead, CTR y conversión.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    }
+  }
+}

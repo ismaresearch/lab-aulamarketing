@@ -1,0 +1,7095 @@
+{
+ "descripcion": "Capa P1 de correcciones de erratas evidentes. Cada parche sustituye «original» (único en su campo) por «corregido» en extraccion/<archivo> → <ruta>. Se aplica en el build sobre una copia; el original se conserva en _original.",
+ "generado_por": "capas/correcciones/scripts/p1_generar.py",
+ "total_parches": 348,
+ "por_tipo_ocurrencias": {
+  "tipografía": 9,
+  "puntuación": 26,
+  "nombre_producto": 271,
+  "ortografía": 50,
+  "espaciado": 14,
+  "errata_marcador": 2
+ },
+ "parches": [
+  {
+   "id": "corr-0001",
+   "archivo": "cap02.json",
+   "ruta": "secciones[1].subsecciones[0].texto",
+   "id_elemento": "c02-s2.1",
+   "original": "en \"aventuras",
+   "corregido": "en “aventuras",
+   "tipo": "tipografía",
+   "pagina_pdf": 34,
+   "pagina_libro": 29,
+   "seccion": "2.1. Ejemplos de aplicación en empresas",
+   "motivo": "Comillas mezcladas (recta de apertura y tipográfica de cierre).",
+   "fragmentos": [
+    {
+     "antes": "\"",
+     "despues": "“",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0002",
+   "archivo": "cap02.json",
+   "ruta": "secciones[2].texto",
+   "id_elemento": "c02-s3",
+   "original": "siente?. De",
+   "corregido": "siente? De",
+   "tipo": "puntuación",
+   "pagina_pdf": 37,
+   "pagina_libro": 32,
+   "seccion": "3. ¿Cómo implementar la metodología design thinking?",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0003",
+   "archivo": "cap02.json",
+   "ruta": "secciones[2].texto",
+   "id_elemento": "c02-s3",
+   "original": "proceso,",
+   "corregido": "proceso”,",
+   "tipo": "puntuación",
+   "pagina_pdf": 37,
+   "pagina_libro": 32,
+   "seccion": "3. ¿Cómo implementar la metodología design thinking?",
+   "motivo": "Comilla de apertura sin cerrar.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": "”",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0004",
+   "archivo": "cap02.json",
+   "ruta": "secciones[2].texto",
+   "id_elemento": "c02-s3",
+   "original": "reales)?.\nAl",
+   "corregido": "reales)?\nAl",
+   "tipo": "puntuación",
+   "pagina_pdf": 38,
+   "pagina_libro": 33,
+   "seccion": "3. ¿Cómo implementar la metodología design thinking?",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0005",
+   "archivo": "cap02.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c02-s4",
+   "original": "Cauliflower | Nvivo | Qualtrics",
+   "corregido": "Cauliflower | NVivo | Qualtrics",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 40,
+   "pagina_libro": 35,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Grafía del producto como en el kit: NVivo.",
+   "fragmentos": [
+    {
+     "antes": "Nvivo",
+     "despues": "NVivo",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0006",
+   "archivo": "cap02.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c02-s4",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 40,
+   "pagina_libro": 35,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0007",
+   "archivo": "cap02.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c02-s4",
+   "original": "Cauliflower | Nvivo | Qualtrix",
+   "corregido": "Cauliflower | NVivo | Qualtrics",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 41,
+   "pagina_libro": 36,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Grafía del producto como en el kit: NVivo. / Nombre del producto: Qualtrics (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Nvivo",
+     "despues": "NVivo",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Qualtrix",
+     "despues": "Qualtrics",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0008",
+   "archivo": "cap02.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c02-s4",
+   "original": "AntiGravity",
+   "corregido": "Antigravity",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 44,
+   "pagina_libro": 39,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Nombre del producto: Google Antigravity (el libro usa ambas grafías).",
+   "fragmentos": [
+    {
+     "antes": "AntiGravity",
+     "despues": "Antigravity",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0009",
+   "archivo": "cap02.json",
+   "ruta": "definiciones[21].definicion",
+   "id_elemento": "c02-d22",
+   "original": "siente?. De",
+   "corregido": "siente? De",
+   "tipo": "puntuación",
+   "pagina_pdf": 37,
+   "pagina_libro": 32,
+   "seccion": "3. ¿Cómo implementar la metodología design thinking?",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0010",
+   "archivo": "cap02.json",
+   "ruta": "herramientas_mencionadas[4].nombre",
+   "id_elemento": "c02-h05",
+   "original": "Nvivo",
+   "corregido": "NVivo",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 40,
+   "pagina_libro": 35,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Grafía del producto como en el kit: NVivo.",
+   "fragmentos": [
+    {
+     "antes": "Nvivo",
+     "despues": "NVivo",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0011",
+   "archivo": "cap02.json",
+   "ruta": "herramientas_mencionadas[23].nombre",
+   "id_elemento": "c02-h24",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 40,
+   "pagina_libro": 35,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0012",
+   "archivo": "cap02.json",
+   "ruta": "herramientas_mencionadas[40].nombre",
+   "id_elemento": "c02-h41",
+   "original": "Nvivo",
+   "corregido": "NVivo",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 41,
+   "pagina_libro": 36,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Grafía del producto como en el kit: NVivo.",
+   "fragmentos": [
+    {
+     "antes": "Nvivo",
+     "despues": "NVivo",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0013",
+   "archivo": "cap02.json",
+   "ruta": "herramientas_mencionadas[41].nombre",
+   "id_elemento": "c02-h42",
+   "original": "Qualtrix",
+   "corregido": "Qualtrics",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 41,
+   "pagina_libro": 36,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Nombre del producto: Qualtrics (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Qualtrix",
+     "despues": "Qualtrics",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0014",
+   "archivo": "cap02.json",
+   "ruta": "herramientas_mencionadas[71].nombre",
+   "id_elemento": "c02-h72",
+   "original": "AntiGravity",
+   "corregido": "Antigravity",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 44,
+   "pagina_libro": 39,
+   "seccion": "4. Herramientas y asistencia IA para cada etapa",
+   "motivo": "Nombre del producto: Google Antigravity (el libro usa ambas grafías).",
+   "fragmentos": [
+    {
+     "antes": "AntiGravity",
+     "despues": "Antigravity",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0015",
+   "archivo": "cap03.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c03-s5",
+   "original": "| Hubspot CJM | BoardMix\n✐ Herramientas para la generación de un buyer persona\nHubspot |",
+   "corregido": "| HubSpot CJM | Boardmix\n✐ Herramientas para la generación de un buyer persona\nHubSpot |",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 49,
+   "pagina_libro": 44,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Grafía del producto como en el kit: HubSpot. / Grafía del producto como en el kit: Boardmix.",
+   "fragmentos": [
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "BoardMix",
+     "despues": "Boardmix",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0016",
+   "archivo": "cap03.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c03-s5",
+   "original": "Miró",
+   "corregido": "Miro",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 51,
+   "pagina_libro": 46,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Nombre del producto: Miro (sin tilde, como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Miró",
+     "despues": "Miro",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0017",
+   "archivo": "cap03.json",
+   "ruta": "prompts[3].contexto_posterior",
+   "id_elemento": "c03-p04",
+   "original": "Miró",
+   "corregido": "Miro",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 51,
+   "pagina_libro": 46,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Nombre del producto: Miro (sin tilde, como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Miró",
+     "despues": "Miro",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0018",
+   "archivo": "cap03.json",
+   "ruta": "herramientas_mencionadas[3].nombre",
+   "id_elemento": "c03-h04",
+   "original": "Hubspot",
+   "corregido": "HubSpot",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 49,
+   "pagina_libro": 44,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Grafía del producto como en el kit: HubSpot.",
+   "fragmentos": [
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0019",
+   "archivo": "cap03.json",
+   "ruta": "herramientas_mencionadas[4].nombre",
+   "id_elemento": "c03-h05",
+   "original": "BoardMix",
+   "corregido": "Boardmix",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 49,
+   "pagina_libro": 44,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Grafía del producto como en el kit: Boardmix.",
+   "fragmentos": [
+    {
+     "antes": "BoardMix",
+     "despues": "Boardmix",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0020",
+   "archivo": "cap03.json",
+   "ruta": "herramientas_mencionadas[5].nombre",
+   "id_elemento": "c03-h06",
+   "original": "Hubspot",
+   "corregido": "HubSpot",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 49,
+   "pagina_libro": 44,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Grafía del producto como en el kit: HubSpot.",
+   "fragmentos": [
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0021",
+   "archivo": "cap03.json",
+   "ruta": "herramientas_mencionadas[14].nombre",
+   "id_elemento": "c03-h15",
+   "original": "Miró",
+   "corregido": "Miro",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 51,
+   "pagina_libro": 46,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Nombre del producto: Miro (sin tilde, como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Miró",
+     "despues": "Miro",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0022",
+   "archivo": "cap03.json",
+   "ruta": "herramientas_mencionadas[14].descripcion_libro",
+   "id_elemento": "c03-h15",
+   "original": "Miró",
+   "corregido": "Miro",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 51,
+   "pagina_libro": 46,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Nombre del producto: Miro (sin tilde, como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Miró",
+     "despues": "Miro",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0023",
+   "archivo": "cap03.json",
+   "ruta": "herramientas_mencionadas[15].descripcion_libro",
+   "id_elemento": "c03-h16",
+   "original": "Miró",
+   "corregido": "Miro",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 51,
+   "pagina_libro": 46,
+   "seccion": "5. Herramientas y asistencia IA para la generación del customer journey map",
+   "motivo": "Nombre del producto: Miro (sin tilde, como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Miró",
+     "despues": "Miro",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0024",
+   "archivo": "cap03.json",
+   "ruta": "remisiones_internas[3].texto",
+   "id_elemento": null,
+   "original": "Miró",
+   "corregido": "Miro",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 51,
+   "pagina_libro": 46,
+   "seccion": "Remisiones internas",
+   "motivo": "Nombre del producto: Miro (sin tilde, como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Miró",
+     "despues": "Miro",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0025",
+   "archivo": "cap04.json",
+   "ruta": "secciones[0].texto",
+   "id_elemento": "c04-s1",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 57,
+   "pagina_libro": 52,
+   "seccion": "1. Tendencias en inteligencia artificial",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0026",
+   "archivo": "cap04.json",
+   "ruta": "secciones[4].titulo",
+   "id_elemento": "c04-s5",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 61,
+   "pagina_libro": 56,
+   "seccion": "5. Diferencias entre familias de modelos: Chat GPT, Claude y Gemini",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0027",
+   "archivo": "cap04.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c04-s5",
+   "original": "del mundo del IA",
+   "corregido": "del mundo de la IA",
+   "tipo": "ortografía",
+   "pagina_pdf": 62,
+   "pagina_libro": 57,
+   "seccion": "5. Diferencias entre familias de modelos: Chat GPT, Claude y Gemini",
+   "motivo": "Concordancia de género: «la IA».",
+   "fragmentos": [
+    {
+     "antes": "del mundo del IA",
+     "despues": "del mundo de la IA",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0028",
+   "archivo": "cap04.json",
+   "ruta": "definiciones[30].definicion",
+   "id_elemento": "c04-d31",
+   "original": "del mundo del IA",
+   "corregido": "del mundo de la IA",
+   "tipo": "ortografía",
+   "pagina_pdf": 62,
+   "pagina_libro": 57,
+   "seccion": "5. Diferencias entre familias de modelos: Chat GPT, Claude y Gemini",
+   "motivo": "Concordancia de género: «la IA».",
+   "fragmentos": [
+    {
+     "antes": "del mundo del IA",
+     "despues": "del mundo de la IA",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0029",
+   "archivo": "cap04.json",
+   "ruta": "herramientas_mencionadas[6].nombre",
+   "id_elemento": "c04-h07",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 57,
+   "pagina_libro": 52,
+   "seccion": "1. Tendencias en inteligencia artificial",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0030",
+   "archivo": "cap04.json",
+   "ruta": "herramientas_mencionadas[6].descripcion_libro",
+   "id_elemento": "c04-h07",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 57,
+   "pagina_libro": 52,
+   "seccion": "1. Tendencias en inteligencia artificial",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0031",
+   "archivo": "cap05.json",
+   "ruta": "secciones[1].subsecciones[0].apartados[0].texto",
+   "id_elemento": "c05-s2.1.A",
+   "original": "HARLEY DAVISON",
+   "corregido": "HARLEY DAVIDSON",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 66,
+   "pagina_libro": 61,
+   "seccion": "A qué nos dedicamos",
+   "motivo": "Nombre de la marca: Harley-Davidson.",
+   "fragmentos": [
+    {
+     "antes": "HARLEY DAVISON",
+     "despues": "HARLEY DAVIDSON",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0032",
+   "archivo": "cap05.json",
+   "ruta": "secciones[1].subsecciones[0].apartados[3].texto",
+   "id_elemento": "c05-s2.1.D",
+   "original": "Wosniak",
+   "corregido": "Wozniak",
+   "tipo": "ortografía",
+   "pagina_pdf": 70,
+   "pagina_libro": 65,
+   "seccion": "Historia",
+   "motivo": "Nombre propio: Steve Wozniak.",
+   "fragmentos": [
+    {
+     "antes": "Wosniak",
+     "despues": "Wozniak",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0033",
+   "archivo": "cap05.json",
+   "ruta": "secciones[1].subsecciones[1].apartados[1].texto",
+   "id_elemento": "c05-s2.2.B",
+   "original": "contrarriente",
+   "corregido": "contracorriente",
+   "tipo": "ortografía",
+   "pagina_pdf": 79,
+   "pagina_libro": 74,
+   "seccion": "El eslogan: del grito de guerra a la batalla por la mente del consumidor",
+   "motivo": "Errata: «contracorriente».",
+   "fragmentos": [
+    {
+     "antes": "contrarriente",
+     "despues": "contracorriente",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0034",
+   "archivo": "cap05.json",
+   "ruta": "secciones[1].subsecciones[2].apartados[1].texto",
+   "id_elemento": "c05-s2.3.B",
+   "original": "trata?. Si",
+   "corregido": "trata? Si",
+   "tipo": "puntuación",
+   "pagina_pdf": 88,
+   "pagina_libro": 83,
+   "seccion": "La imagen",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0035",
+   "archivo": "cap05.json",
+   "ruta": "secciones[1].subsecciones[2].apartados[1].texto",
+   "id_elemento": "c05-s2.3.B",
+   "original": "Saint-Exupéry \"Un",
+   "corregido": "Saint-Exupéry “Un",
+   "tipo": "tipografía",
+   "pagina_pdf": 91,
+   "pagina_libro": 86,
+   "seccion": "La imagen",
+   "motivo": "Comillas mezcladas (recta de apertura y tipográfica de cierre).",
+   "fragmentos": [
+    {
+     "antes": "\"",
+     "despues": "“",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0036",
+   "archivo": "cap05.json",
+   "ruta": "secciones[1].subsecciones[2].apartados[1].texto",
+   "id_elemento": "c05-s2.3.B",
+   "original": "Freepick",
+   "corregido": "Freepik",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 94,
+   "pagina_libro": 89,
+   "seccion": "La imagen",
+   "motivo": "Nombre del producto: Freepik (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Freepick",
+     "despues": "Freepik",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0037",
+   "archivo": "cap05.json",
+   "ruta": "herramientas_mencionadas[1].descripcion_libro",
+   "id_elemento": "c05-h02",
+   "original": "Freepick",
+   "corregido": "Freepik",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 94,
+   "pagina_libro": 89,
+   "seccion": "La imagen",
+   "motivo": "Nombre del producto: Freepik (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Freepick",
+     "despues": "Freepik",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0038",
+   "archivo": "cap05.json",
+   "ruta": "herramientas_mencionadas[2].descripcion_libro",
+   "id_elemento": "c05-h03",
+   "original": "Freepick",
+   "corregido": "Freepik",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 94,
+   "pagina_libro": 89,
+   "seccion": "La imagen",
+   "motivo": "Nombre del producto: Freepik (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Freepick",
+     "despues": "Freepik",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0039",
+   "archivo": "cap05.json",
+   "ruta": "herramientas_mencionadas[3].nombre",
+   "id_elemento": "c05-h04",
+   "original": "Freepick",
+   "corregido": "Freepik",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 94,
+   "pagina_libro": 89,
+   "seccion": "La imagen",
+   "motivo": "Nombre del producto: Freepik (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Freepick",
+     "despues": "Freepik",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0040",
+   "archivo": "cap05.json",
+   "ruta": "herramientas_mencionadas[3].descripcion_libro",
+   "id_elemento": "c05-h04",
+   "original": "Freepick",
+   "corregido": "Freepik",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 94,
+   "pagina_libro": 89,
+   "seccion": "La imagen",
+   "motivo": "Nombre del producto: Freepik (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Freepick",
+     "despues": "Freepik",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0041",
+   "archivo": "cap05.json",
+   "ruta": "figuras_tablas[1].titulo",
+   "id_elemento": "c05-f02",
+   "original": "HARLEY DAVISON",
+   "corregido": "HARLEY DAVIDSON",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 66,
+   "pagina_libro": 61,
+   "seccion": "A qué nos dedicamos",
+   "motivo": "Nombre de la marca: Harley-Davidson.",
+   "fragmentos": [
+    {
+     "antes": "HARLEY DAVISON",
+     "despues": "HARLEY DAVIDSON",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0042",
+   "archivo": "cap05.json",
+   "ruta": "figuras_tablas[14].contenido.filas[3][1]",
+   "id_elemento": "c05-f15",
+   "original": "comprometido\"",
+   "corregido": "comprometido",
+   "tipo": "tipografía",
+   "pagina_pdf": 81,
+   "pagina_libro": 76,
+   "seccion": "El tono: la voz que define tu identidad",
+   "motivo": "Comilla suelta sobrante en la celda.",
+   "fragmentos": [
+    {
+     "antes": "\"",
+     "despues": "",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0043",
+   "archivo": "cap05.json",
+   "ruta": "ejemplo_aulamarketing.texto",
+   "id_elemento": null,
+   "original": "Freepick",
+   "corregido": "Freepik",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 94,
+   "pagina_libro": 89,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Nombre del producto: Freepik (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Freepick",
+     "despues": "Freepik",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0044",
+   "archivo": "cap05.json",
+   "ruta": "citas_y_referencias[8].texto",
+   "id_elemento": null,
+   "original": "Saint-Exupéry \"Un",
+   "corregido": "Saint-Exupéry “Un",
+   "tipo": "tipografía",
+   "pagina_pdf": 91,
+   "pagina_libro": 86,
+   "seccion": "Citas",
+   "motivo": "Comillas mezcladas (recta de apertura y tipográfica de cierre).",
+   "fragmentos": [
+    {
+     "antes": "\"",
+     "despues": "“",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0045",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[0].texto",
+   "id_elemento": "c06-s2.1",
+   "original": "Siteground",
+   "corregido": "SiteGround",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 110,
+   "pagina_libro": 105,
+   "seccion": "2.1. Dominio y hosting",
+   "motivo": "Grafía del producto: SiteGround.",
+   "fragmentos": [
+    {
+     "antes": "Siteground",
+     "despues": "SiteGround",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0046",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[1].texto",
+   "id_elemento": "c06-s2.2",
+   "original": "Core Vitals",
+   "corregido": "Core Web Vitals",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 113,
+   "pagina_libro": 108,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Nombre de las métricas de Google: Core Web Vitals.",
+   "fragmentos": [
+    {
+     "antes": "Core Vitals",
+     "despues": "Core Web Vitals",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0047",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 113,
+   "pagina_libro": 108,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0048",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "reforzarán",
+   "corregido": "reforzará",
+   "tipo": "ortografía",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Concordancia de número con el sujeto («la estructura…»), como «mejorará».",
+   "fragmentos": [
+    {
+     "antes": "reforzarán",
+     "despues": "reforzará",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0049",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "Updraftplus",
+   "corregido": "UpdraftPlus",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del plugin: UpdraftPlus.",
+   "fragmentos": [
+    {
+     "antes": "Updraftplus",
+     "despues": "UpdraftPlus",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0050",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "Yoast Seo",
+   "corregido": "Yoast SEO",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: Yoast SEO.",
+   "fragmentos": [
+    {
+     "antes": "Yoast Seo",
+     "despues": "Yoast SEO",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0051",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "Lite Speed Caché o WP Fastest Caché",
+   "corregido": "LiteSpeed Cache o WP Fastest Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del plugin: LiteSpeed Cache. / Nombre del plugin: WP Fastest Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Caché",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "WP Fastest Caché",
+     "despues": "WP Fastest Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0052",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "JottForm",
+   "corregido": "Jotform",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del producto: Jotform (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "JottForm",
+     "despues": "Jotform",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0053",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "centrada",
+   "corregido": "centrado",
+   "tipo": "ortografía",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Concordancia de género con «el enfoque».",
+   "fragmentos": [
+    {
+     "antes": "centrada",
+     "despues": "centrado",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0054",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c06-s2.3",
+   "original": "RedSys",
+   "corregido": "Redsys",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: Redsys.",
+   "fragmentos": [
+    {
+     "antes": "RedSys",
+     "despues": "Redsys",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0055",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[3].texto",
+   "id_elemento": "c06-s2.4",
+   "original": "posee",
+   "corregido": "poseen",
+   "tipo": "ortografía",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Concordancia de número con «perfiles».",
+   "fragmentos": [
+    {
+     "antes": "posee",
+     "despues": "poseen",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0056",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[3].texto",
+   "id_elemento": "c06-s2.4",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0057",
+   "archivo": "cap06.json",
+   "ruta": "secciones[1].subsecciones[3].texto",
+   "id_elemento": "c06-s2.4",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 117,
+   "pagina_libro": 112,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0058",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[17].descripcion_libro",
+   "id_elemento": "c06-h18",
+   "original": "Siteground",
+   "corregido": "SiteGround",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 110,
+   "pagina_libro": 105,
+   "seccion": "2.1. Dominio y hosting",
+   "motivo": "Grafía del producto: SiteGround.",
+   "fragmentos": [
+    {
+     "antes": "Siteground",
+     "despues": "SiteGround",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0059",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[18].descripcion_libro",
+   "id_elemento": "c06-h19",
+   "original": "Siteground",
+   "corregido": "SiteGround",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 110,
+   "pagina_libro": 105,
+   "seccion": "2.1. Dominio y hosting",
+   "motivo": "Grafía del producto: SiteGround.",
+   "fragmentos": [
+    {
+     "antes": "Siteground",
+     "despues": "SiteGround",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0060",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[19].nombre",
+   "id_elemento": "c06-h20",
+   "original": "Siteground",
+   "corregido": "SiteGround",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 110,
+   "pagina_libro": 105,
+   "seccion": "2.1. Dominio y hosting",
+   "motivo": "Grafía del producto: SiteGround.",
+   "fragmentos": [
+    {
+     "antes": "Siteground",
+     "despues": "SiteGround",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0061",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[19].descripcion_libro",
+   "id_elemento": "c06-h20",
+   "original": "Siteground",
+   "corregido": "SiteGround",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 110,
+   "pagina_libro": 105,
+   "seccion": "2.1. Dominio y hosting",
+   "motivo": "Grafía del producto: SiteGround.",
+   "fragmentos": [
+    {
+     "antes": "Siteground",
+     "despues": "SiteGround",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0062",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[20].descripcion_libro",
+   "id_elemento": "c06-h21",
+   "original": "Siteground",
+   "corregido": "SiteGround",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 110,
+   "pagina_libro": 105,
+   "seccion": "2.1. Dominio y hosting",
+   "motivo": "Grafía del producto: SiteGround.",
+   "fragmentos": [
+    {
+     "antes": "Siteground",
+     "despues": "SiteGround",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0063",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[21].descripcion_libro",
+   "id_elemento": "c06-h22",
+   "original": "Siteground",
+   "corregido": "SiteGround",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 110,
+   "pagina_libro": 105,
+   "seccion": "2.1. Dominio y hosting",
+   "motivo": "Grafía del producto: SiteGround.",
+   "fragmentos": [
+    {
+     "antes": "Siteground",
+     "despues": "SiteGround",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0064",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[31].descripcion_libro",
+   "id_elemento": "c06-h32",
+   "original": "Updraftplus",
+   "corregido": "UpdraftPlus",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del plugin: UpdraftPlus.",
+   "fragmentos": [
+    {
+     "antes": "Updraftplus",
+     "despues": "UpdraftPlus",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0065",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[33].nombre",
+   "id_elemento": "c06-h34",
+   "original": "Updraftplus",
+   "corregido": "UpdraftPlus",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del plugin: UpdraftPlus.",
+   "fragmentos": [
+    {
+     "antes": "Updraftplus",
+     "despues": "UpdraftPlus",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0066",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[33].descripcion_libro",
+   "id_elemento": "c06-h34",
+   "original": "Updraftplus",
+   "corregido": "UpdraftPlus",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del plugin: UpdraftPlus.",
+   "fragmentos": [
+    {
+     "antes": "Updraftplus",
+     "despues": "UpdraftPlus",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0067",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[43].nombre",
+   "id_elemento": "c06-h44",
+   "original": "Yoast Seo",
+   "corregido": "Yoast SEO",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: Yoast SEO.",
+   "fragmentos": [
+    {
+     "antes": "Yoast Seo",
+     "despues": "Yoast SEO",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0068",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[43].descripcion_libro",
+   "id_elemento": "c06-h44",
+   "original": "Yoast Seo",
+   "corregido": "Yoast SEO",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: Yoast SEO.",
+   "fragmentos": [
+    {
+     "antes": "Yoast Seo",
+     "despues": "Yoast SEO",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0069",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[44].descripcion_libro",
+   "id_elemento": "c06-h45",
+   "original": "Yoast Seo",
+   "corregido": "Yoast SEO",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: Yoast SEO.",
+   "fragmentos": [
+    {
+     "antes": "Yoast Seo",
+     "despues": "Yoast SEO",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0070",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[45].nombre",
+   "id_elemento": "c06-h46",
+   "original": "Lite Speed Caché",
+   "corregido": "LiteSpeed Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del plugin: LiteSpeed Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Caché",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0071",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[45].descripcion_libro",
+   "id_elemento": "c06-h46",
+   "original": "Lite Speed Caché o WP Fastest Caché",
+   "corregido": "LiteSpeed Cache o WP Fastest Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del plugin: LiteSpeed Cache. / Nombre del plugin: WP Fastest Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Caché",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "WP Fastest Caché",
+     "despues": "WP Fastest Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0072",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[46].nombre",
+   "id_elemento": "c06-h47",
+   "original": "WP Fastest Caché",
+   "corregido": "WP Fastest Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del plugin: WP Fastest Cache.",
+   "fragmentos": [
+    {
+     "antes": "WP Fastest Caché",
+     "despues": "WP Fastest Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0073",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[46].descripcion_libro",
+   "id_elemento": "c06-h47",
+   "original": "Lite Speed Caché o WP Fastest Caché",
+   "corregido": "LiteSpeed Cache o WP Fastest Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del plugin: LiteSpeed Cache. / Nombre del plugin: WP Fastest Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Caché",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "WP Fastest Caché",
+     "despues": "WP Fastest Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0074",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[48].descripcion_libro",
+   "id_elemento": "c06-h49",
+   "original": "JottForm",
+   "corregido": "Jotform",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del producto: Jotform (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "JottForm",
+     "despues": "Jotform",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0075",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[49].descripcion_libro",
+   "id_elemento": "c06-h50",
+   "original": "JottForm",
+   "corregido": "Jotform",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del producto: Jotform (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "JottForm",
+     "despues": "Jotform",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0076",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[50].nombre",
+   "id_elemento": "c06-h51",
+   "original": "JottForm",
+   "corregido": "Jotform",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del producto: Jotform (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "JottForm",
+     "despues": "Jotform",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0077",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[50].descripcion_libro",
+   "id_elemento": "c06-h51",
+   "original": "JottForm",
+   "corregido": "Jotform",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del producto: Jotform (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "JottForm",
+     "despues": "Jotform",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0078",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[51].descripcion_libro",
+   "id_elemento": "c06-h52",
+   "original": "JottForm",
+   "corregido": "Jotform",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del producto: Jotform (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "JottForm",
+     "despues": "Jotform",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0079",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[52].descripcion_libro",
+   "id_elemento": "c06-h53",
+   "original": "JottForm",
+   "corregido": "Jotform",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Nombre del producto: Jotform (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "JottForm",
+     "despues": "Jotform",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0080",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[61].nombre",
+   "id_elemento": "c06-h62",
+   "original": "RedSys",
+   "corregido": "Redsys",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: Redsys.",
+   "fragmentos": [
+    {
+     "antes": "RedSys",
+     "despues": "Redsys",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0081",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[61].descripcion_libro",
+   "id_elemento": "c06-h62",
+   "original": "RedSys",
+   "corregido": "Redsys",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.3. Funcionalidades del sitio web",
+   "motivo": "Grafía del producto como en el kit: Redsys.",
+   "fragmentos": [
+    {
+     "antes": "RedSys",
+     "despues": "Redsys",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0082",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[63].descripcion_libro",
+   "id_elemento": "c06-h64",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0083",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[64].descripcion_libro",
+   "id_elemento": "c06-h65",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0084",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[65].descripcion_libro",
+   "id_elemento": "c06-h66",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0085",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[66].descripcion_libro",
+   "id_elemento": "c06-h67",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0086",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[67].descripcion_libro",
+   "id_elemento": "c06-h68",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0087",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[68].descripcion_libro",
+   "id_elemento": "c06-h69",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0088",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[69].descripcion_libro",
+   "id_elemento": "c06-h70",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 115,
+   "pagina_libro": 110,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0089",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[82].descripcion_libro",
+   "id_elemento": "c06-h83",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 117,
+   "pagina_libro": 112,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0090",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[83].nombre",
+   "id_elemento": "c06-h84",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 117,
+   "pagina_libro": 112,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0091",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[83].descripcion_libro",
+   "id_elemento": "c06-h84",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 117,
+   "pagina_libro": 112,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0092",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[84].descripcion_libro",
+   "id_elemento": "c06-h85",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 117,
+   "pagina_libro": 112,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0093",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[85].descripcion_libro",
+   "id_elemento": "c06-h86",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 117,
+   "pagina_libro": 112,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0094",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[86].descripcion_libro",
+   "id_elemento": "c06-h87",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 117,
+   "pagina_libro": 112,
+   "seccion": "2.4. Herramientas de IA para la creación del sitio web",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0095",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[102].nombre",
+   "id_elemento": "c06-h103",
+   "original": "Prestashop",
+   "corregido": "PrestaShop",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 112,
+   "pagina_libro": 107,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Grafía del producto como en el kit: PrestaShop.",
+   "fragmentos": [
+    {
+     "antes": "Prestashop",
+     "despues": "PrestaShop",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0096",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[102].descripcion_libro",
+   "id_elemento": "c06-h103",
+   "original": "Prestashop o",
+   "corregido": "PrestaShop o",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 112,
+   "pagina_libro": 107,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Grafía del producto como en el kit: PrestaShop.",
+   "fragmentos": [
+    {
+     "antes": "Prestashop",
+     "despues": "PrestaShop",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0097",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[102].descripcion_libro",
+   "id_elemento": "c06-h103",
+   "original": "complejos. Prestashop está",
+   "corregido": "complejos. PrestaShop está",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 112,
+   "pagina_libro": 107,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Grafía del producto como en el kit: PrestaShop.",
+   "fragmentos": [
+    {
+     "antes": "Prestashop",
+     "despues": "PrestaShop",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0098",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[103].descripcion_libro",
+   "id_elemento": "c06-h104",
+   "original": "Prestashop o",
+   "corregido": "PrestaShop o",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 112,
+   "pagina_libro": 107,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Grafía del producto como en el kit: PrestaShop.",
+   "fragmentos": [
+    {
+     "antes": "Prestashop",
+     "despues": "PrestaShop",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0099",
+   "archivo": "cap06.json",
+   "ruta": "herramientas_mencionadas[103].descripcion_libro",
+   "id_elemento": "c06-h104",
+   "original": "complejos. Prestashop está",
+   "corregido": "complejos. PrestaShop está",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 112,
+   "pagina_libro": 107,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Grafía del producto como en el kit: PrestaShop.",
+   "fragmentos": [
+    {
+     "antes": "Prestashop",
+     "despues": "PrestaShop",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0100",
+   "archivo": "cap06.json",
+   "ruta": "figuras_tablas[0].contenido.filas[3][0]",
+   "id_elemento": "c06-f01",
+   "original": "Prestashop o",
+   "corregido": "PrestaShop o",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 112,
+   "pagina_libro": 107,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Grafía del producto como en el kit: PrestaShop.",
+   "fragmentos": [
+    {
+     "antes": "Prestashop",
+     "despues": "PrestaShop",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0101",
+   "archivo": "cap06.json",
+   "ruta": "figuras_tablas[0].contenido.filas[3][0]",
+   "id_elemento": "c06-f01",
+   "original": "complejos. Prestashop está",
+   "corregido": "complejos. PrestaShop está",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 112,
+   "pagina_libro": 107,
+   "seccion": "2.2. CMS para la creación y diseño del sitio web",
+   "motivo": "Grafía del producto como en el kit: PrestaShop.",
+   "fragmentos": [
+    {
+     "antes": "Prestashop",
+     "despues": "PrestaShop",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0102",
+   "archivo": "cap06.json",
+   "ruta": "ejemplo_aulamarketing.texto",
+   "id_elemento": null,
+   "original": "reforzarán",
+   "corregido": "reforzará",
+   "tipo": "ortografía",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Concordancia de número con el sujeto («la estructura…»), como «mejorará».",
+   "fragmentos": [
+    {
+     "antes": "reforzarán",
+     "despues": "reforzará",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0103",
+   "archivo": "cap06.json",
+   "ruta": "remisiones_internas[1].texto",
+   "id_elemento": null,
+   "original": "Core Vitals",
+   "corregido": "Core Web Vitals",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 113,
+   "pagina_libro": 108,
+   "seccion": "Remisiones internas",
+   "motivo": "Nombre de las métricas de Google: Core Web Vitals.",
+   "fragmentos": [
+    {
+     "antes": "Core Vitals",
+     "despues": "Core Web Vitals",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0104",
+   "archivo": "cap06.json",
+   "ruta": "otros[5].texto",
+   "id_elemento": null,
+   "original": "Updraftplus",
+   "corregido": "UpdraftPlus",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 114,
+   "pagina_libro": 109,
+   "seccion": "Otros",
+   "motivo": "Grafía del plugin: UpdraftPlus.",
+   "fragmentos": [
+    {
+     "antes": "Updraftplus",
+     "despues": "UpdraftPlus",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0105",
+   "archivo": "cap07.json",
+   "ruta": "objetivos_aprendizaje[3]",
+   "id_elemento": null,
+   "original": "una referente",
+   "corregido": "un referente",
+   "tipo": "ortografía",
+   "pagina_pdf": 120,
+   "pagina_libro": 115,
+   "seccion": "Objetivos de aprendizaje",
+   "motivo": "Concordancia con «visto»: «un referente».",
+   "fragmentos": [
+    {
+     "antes": "una referente",
+     "despues": "un referente",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0106",
+   "archivo": "cap07.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c07-s4",
+   "original": "destacas",
+   "corregido": "destacadas",
+   "tipo": "ortografía",
+   "pagina_pdf": 126,
+   "pagina_libro": 121,
+   "seccion": "4. SEO técnico",
+   "motivo": "Errata: «destacadas».",
+   "fragmentos": [
+    {
+     "antes": "destacas",
+     "despues": "destacadas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0107",
+   "archivo": "cap07.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c07-s4",
+   "original": "Lite Speed Cache",
+   "corregido": "LiteSpeed Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Nombre del plugin: LiteSpeed Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Cache",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0108",
+   "archivo": "cap07.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c07-s4",
+   "original": "como.webp",
+   "corregido": "como .webp",
+   "tipo": "espaciado",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Falta espacio antes de la extensión .webp.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0109",
+   "archivo": "cap07.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c07-s5",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0110",
+   "archivo": "cap07.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c07-s5",
+   "original": "SERanking",
+   "corregido": "SE Ranking",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 128,
+   "pagina_libro": 123,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Grafía del producto como en el kit: SE Ranking.",
+   "fragmentos": [
+    {
+     "antes": "SERanking",
+     "despues": "SE Ranking",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0111",
+   "archivo": "cap07.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c07-s5",
+   "original": "Wordpress",
+   "corregido": "WordPress",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 128,
+   "pagina_libro": 123,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Grafía del producto como en el kit: WordPress.",
+   "fragmentos": [
+    {
+     "antes": "Wordpress",
+     "despues": "WordPress",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0112",
+   "archivo": "cap07.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c07-s5",
+   "original": "voilá!",
+   "corregido": "¡voilà!",
+   "tipo": "ortografía",
+   "pagina_pdf": 129,
+   "pagina_libro": 124,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Galicismo «voilà» (acento grave) y signo de apertura de exclamación.",
+   "fragmentos": [
+    {
+     "antes": "voilá!",
+     "despues": "¡voilà!",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0113",
+   "archivo": "cap07.json",
+   "ruta": "definiciones[26].definicion",
+   "id_elemento": "c07-d27",
+   "original": "destacas",
+   "corregido": "destacadas",
+   "tipo": "ortografía",
+   "pagina_pdf": 126,
+   "pagina_libro": 121,
+   "seccion": "4. SEO técnico",
+   "motivo": "Errata: «destacadas».",
+   "fragmentos": [
+    {
+     "antes": "destacas",
+     "despues": "destacadas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0114",
+   "archivo": "cap07.json",
+   "ruta": "definiciones[27].definicion",
+   "id_elemento": "c07-d28",
+   "original": "destacas",
+   "corregido": "destacadas",
+   "tipo": "ortografía",
+   "pagina_pdf": 126,
+   "pagina_libro": 121,
+   "seccion": "4. SEO técnico",
+   "motivo": "Errata: «destacadas».",
+   "fragmentos": [
+    {
+     "antes": "destacas",
+     "despues": "destacadas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0115",
+   "archivo": "cap07.json",
+   "ruta": "prompts[0].contexto_previo",
+   "id_elemento": "c07-p01",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0116",
+   "archivo": "cap07.json",
+   "ruta": "prompts[0].herramienta_ia_indicada[1]",
+   "id_elemento": "c07-p01",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0117",
+   "archivo": "cap07.json",
+   "ruta": "prompts[1].herramienta_ia_indicada[1]",
+   "id_elemento": "c07-p02",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0118",
+   "archivo": "cap07.json",
+   "ruta": "prompts[2].herramienta_ia_indicada[1]",
+   "id_elemento": "c07-p03",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0119",
+   "archivo": "cap07.json",
+   "ruta": "prompts[5].contexto_previo",
+   "id_elemento": "c07-p06",
+   "original": "voilá!",
+   "corregido": "¡voilà!",
+   "tipo": "ortografía",
+   "pagina_pdf": 129,
+   "pagina_libro": 124,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Galicismo «voilà» (acento grave) y signo de apertura de exclamación.",
+   "fragmentos": [
+    {
+     "antes": "voilá!",
+     "despues": "¡voilà!",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0120",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[25].descripcion_libro",
+   "id_elemento": "c07-h26",
+   "original": "Lite Speed Cache",
+   "corregido": "LiteSpeed Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Nombre del plugin: LiteSpeed Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Cache",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0121",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[26].nombre",
+   "id_elemento": "c07-h27",
+   "original": "Lite Speed Cache",
+   "corregido": "LiteSpeed Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Nombre del plugin: LiteSpeed Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Cache",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0122",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[26].descripcion_libro",
+   "id_elemento": "c07-h27",
+   "original": "Lite Speed Cache",
+   "corregido": "LiteSpeed Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Nombre del plugin: LiteSpeed Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Cache",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0123",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[27].descripcion_libro",
+   "id_elemento": "c07-h28",
+   "original": "Lite Speed Cache",
+   "corregido": "LiteSpeed Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Nombre del plugin: LiteSpeed Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Cache",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0124",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[28].descripcion_libro",
+   "id_elemento": "c07-h29",
+   "original": "como.webp",
+   "corregido": "como .webp",
+   "tipo": "espaciado",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Falta espacio antes de la extensión .webp.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0125",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[29].descripcion_libro",
+   "id_elemento": "c07-h30",
+   "original": "como.webp",
+   "corregido": "como .webp",
+   "tipo": "espaciado",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Falta espacio antes de la extensión .webp.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0126",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[30].descripcion_libro",
+   "id_elemento": "c07-h31",
+   "original": "como.webp",
+   "corregido": "como .webp",
+   "tipo": "espaciado",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "4. SEO técnico",
+   "motivo": "Falta espacio antes de la extensión .webp.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0127",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[35].descripcion_libro",
+   "id_elemento": "c07-h36",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0128",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[36].nombre",
+   "id_elemento": "c07-h37",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0129",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[36].descripcion_libro",
+   "id_elemento": "c07-h37",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 127,
+   "pagina_libro": 122,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0130",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[42].nombre",
+   "id_elemento": "c07-h43",
+   "original": "SERanking",
+   "corregido": "SE Ranking",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 128,
+   "pagina_libro": 123,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Grafía del producto como en el kit: SE Ranking.",
+   "fragmentos": [
+    {
+     "antes": "SERanking",
+     "despues": "SE Ranking",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0131",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[42].descripcion_libro",
+   "id_elemento": "c07-h43",
+   "original": "SERanking",
+   "corregido": "SE Ranking",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 128,
+   "pagina_libro": 123,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Grafía del producto como en el kit: SE Ranking.",
+   "fragmentos": [
+    {
+     "antes": "SERanking",
+     "despues": "SE Ranking",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0132",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[43].descripcion_libro",
+   "id_elemento": "c07-h44",
+   "original": "SERanking",
+   "corregido": "SE Ranking",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 128,
+   "pagina_libro": 123,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Grafía del producto como en el kit: SE Ranking.",
+   "fragmentos": [
+    {
+     "antes": "SERanking",
+     "despues": "SE Ranking",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0133",
+   "archivo": "cap07.json",
+   "ruta": "herramientas_mencionadas[44].descripcion_libro",
+   "id_elemento": "c07-h45",
+   "original": "SERanking",
+   "corregido": "SE Ranking",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 128,
+   "pagina_libro": 123,
+   "seccion": "5. Herramientas IA para SEO",
+   "motivo": "Grafía del producto como en el kit: SE Ranking.",
+   "fragmentos": [
+    {
+     "antes": "SERanking",
+     "despues": "SE Ranking",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0134",
+   "archivo": "cap08.json",
+   "ruta": "secciones[1].texto",
+   "id_elemento": "c08-s2",
+   "original": "utilizar Youtube y",
+   "corregido": "utilizar YouTube y",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 134,
+   "pagina_libro": 129,
+   "seccion": "2. Anatomía de un algoritmo",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0135",
+   "archivo": "cap08.json",
+   "ruta": "secciones[1].texto",
+   "id_elemento": "c08-s2",
+   "original": "de Youtube premia",
+   "corregido": "de YouTube premia",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 134,
+   "pagina_libro": 129,
+   "seccion": "2. Anatomía de un algoritmo",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0136",
+   "archivo": "cap08.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c08-s4",
+   "original": "la cursos",
+   "corregido": "los cursos",
+   "tipo": "ortografía",
+   "pagina_pdf": 137,
+   "pagina_libro": 132,
+   "seccion": "4. Contenido, narrativas y copywriting orientado a la audiencia",
+   "motivo": "Concordancia: «los cursos».",
+   "fragmentos": [
+    {
+     "antes": "la cursos",
+     "despues": "los cursos",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0137",
+   "archivo": "cap08.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c08-s4",
+   "original": "convierte",
+   "corregido": "convierten",
+   "tipo": "ortografía",
+   "pagina_pdf": 137,
+   "pagina_libro": 132,
+   "seccion": "4. Contenido, narrativas y copywriting orientado a la audiencia",
+   "motivo": "Concordancia de número con «estas propuestas».",
+   "fragmentos": [
+    {
+     "antes": "convierte",
+     "despues": "convierten",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0138",
+   "archivo": "cap08.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c08-s4",
+   "original": "conocernos",
+   "corregido": "conocemos",
+   "tipo": "ortografía",
+   "pagina_pdf": 138,
+   "pagina_libro": 133,
+   "seccion": "4. Contenido, narrativas y copywriting orientado a la audiencia",
+   "motivo": "Errata: «que conocemos».",
+   "fragmentos": [
+    {
+     "antes": "conocernos",
+     "despues": "conocemos",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0139",
+   "archivo": "cap08.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c08-s4",
+   "original": "un guión estructurado",
+   "corregido": "un guion estructurado",
+   "tipo": "ortografía",
+   "pagina_pdf": 138,
+   "pagina_libro": 133,
+   "seccion": "4. Contenido, narrativas y copywriting orientado a la audiencia",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0140",
+   "archivo": "cap08.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c08-s4",
+   "original": "Este guión se",
+   "corregido": "Este guion se",
+   "tipo": "ortografía",
+   "pagina_pdf": 138,
+   "pagina_libro": 133,
+   "seccion": "4. Contenido, narrativas y copywriting orientado a la audiencia",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0141",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "Buzzsumo | Sprinkler",
+   "corregido": "BuzzSumo | Sprinklr",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 139,
+   "pagina_libro": 134,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: BuzzSumo. / Nombre del producto: Sprinklr (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Buzzsumo",
+     "despues": "BuzzSumo",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Sprinkler",
+     "despues": "Sprinklr",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0142",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "Gimp",
+   "corregido": "GIMP",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: GIMP.",
+   "fragmentos": [
+    {
+     "antes": "Gimp",
+     "despues": "GIMP",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0143",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "Capcut | Filmora | Premiere Pro | Davinci",
+   "corregido": "CapCut | Filmora | Premiere Pro | DaVinci",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: CapCut. / Grafía del producto como en el kit: DaVinci Resolve.",
+   "fragmentos": [
+    {
+     "antes": "Capcut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Davinci",
+     "despues": "DaVinci",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0144",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "Webinarjam",
+   "corregido": "WebinarJam",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: WebinarJam.",
+   "fragmentos": [
+    {
+     "antes": "Webinarjam",
+     "despues": "WebinarJam",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0145",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "con Chat GPT 5.2.,",
+   "corregido": "con ChatGPT 5.2,",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro. / Punto sobrante antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0146",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "para Youtube que",
+   "corregido": "para YouTube que",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 141,
+   "pagina_libro": 136,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0147",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "en las herramienta IA",
+   "corregido": "en las herramientas IA",
+   "tipo": "ortografía",
+   "pagina_pdf": 141,
+   "pagina_libro": 136,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Concordancia de número.",
+   "fragmentos": [
+    {
+     "antes": "las herramienta",
+     "despues": "las herramientas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0148",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "el guión exacto",
+   "corregido": "el guion exacto",
+   "tipo": "ortografía",
+   "pagina_pdf": 141,
+   "pagina_libro": 136,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0149",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "Eleven Labs | Suno | Moses | Google Lyria 3 | Epidemic Sounds",
+   "corregido": "ElevenLabs | Suno | Moses | Google Lyria 3 | Epidemic Sound",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 142,
+   "pagina_libro": 137,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto: ElevenLabs (el libro usa ambas grafías). / Nombre del producto: Epidemic Sound (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Eleven Labs",
+     "despues": "ElevenLabs",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Epidemic Sounds",
+     "despues": "Epidemic Sound",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0150",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "fondo”Chill",
+   "corregido": "fondo “Chill",
+   "tipo": "tipografía",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Comilla de cierre usada como apertura y sin espacio previo.",
+   "fragmentos": [
+    {
+     "antes": "”",
+     "despues": " “",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0151",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "Pro, Chat GPT 5.2",
+   "corregido": "Pro, ChatGPT 5.2",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0152",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "un guión para",
+   "corregido": "un guion para",
+   "tipo": "ortografía",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0153",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "a Youtube,",
+   "corregido": "a YouTube,",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0154",
+   "archivo": "cap08.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c08-s5",
+   "original": "de Youtube:",
+   "corregido": "de YouTube:",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 144,
+   "pagina_libro": 139,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0155",
+   "archivo": "cap08.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c08-s6",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "6. Ejemplo completo para aulamarketing.digital",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0156",
+   "archivo": "cap08.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c08-s6",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "6. Ejemplo completo para aulamarketing.digital",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0157",
+   "archivo": "cap08.json",
+   "ruta": "prompts[0].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p01",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0158",
+   "archivo": "cap08.json",
+   "ruta": "prompts[1].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p02",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0159",
+   "archivo": "cap08.json",
+   "ruta": "prompts[2].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p03",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0160",
+   "archivo": "cap08.json",
+   "ruta": "prompts[3].texto",
+   "id_elemento": "c08-p04",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 141,
+   "pagina_libro": 136,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0161",
+   "archivo": "cap08.json",
+   "ruta": "prompts[8].texto",
+   "id_elemento": "c08-p09",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0162",
+   "archivo": "cap08.json",
+   "ruta": "prompts[8].contexto_previo",
+   "id_elemento": "c08-p09",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0163",
+   "archivo": "cap08.json",
+   "ruta": "prompts[8].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p09",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0164",
+   "archivo": "cap08.json",
+   "ruta": "prompts[9].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p10",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0165",
+   "archivo": "cap08.json",
+   "ruta": "prompts[10].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p11",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0166",
+   "archivo": "cap08.json",
+   "ruta": "prompts[11].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p12",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0167",
+   "archivo": "cap08.json",
+   "ruta": "prompts[12].contexto_previo",
+   "id_elemento": "c08-p13",
+   "original": "Youtube",
+   "corregido": "YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0168",
+   "archivo": "cap08.json",
+   "ruta": "prompts[12].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p13",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0169",
+   "archivo": "cap08.json",
+   "ruta": "prompts[13].herramienta_ia_indicada[1]",
+   "id_elemento": "c08-p14",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 146,
+   "pagina_libro": 141,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0170",
+   "archivo": "cap08.json",
+   "ruta": "prompts[15].contexto_previo",
+   "id_elemento": "c08-p16",
+   "original": "Youtube",
+   "corregido": "YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 144,
+   "pagina_libro": 139,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0171",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[10].nombre",
+   "id_elemento": "c08-h11",
+   "original": "Buzzsumo",
+   "corregido": "BuzzSumo",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 139,
+   "pagina_libro": 134,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: BuzzSumo.",
+   "fragmentos": [
+    {
+     "antes": "Buzzsumo",
+     "despues": "BuzzSumo",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0172",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[11].nombre",
+   "id_elemento": "c08-h12",
+   "original": "Sprinkler",
+   "corregido": "Sprinklr",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 139,
+   "pagina_libro": 134,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto: Sprinklr (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Sprinkler",
+     "despues": "Sprinklr",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0173",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[21].nombre",
+   "id_elemento": "c08-h22",
+   "original": "Gimp",
+   "corregido": "GIMP",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: GIMP.",
+   "fragmentos": [
+    {
+     "antes": "Gimp",
+     "despues": "GIMP",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0174",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[29].nombre",
+   "id_elemento": "c08-h30",
+   "original": "Capcut",
+   "corregido": "CapCut",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: CapCut.",
+   "fragmentos": [
+    {
+     "antes": "Capcut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0175",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[32].nombre",
+   "id_elemento": "c08-h33",
+   "original": "Davinci",
+   "corregido": "DaVinci",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: DaVinci Resolve.",
+   "fragmentos": [
+    {
+     "antes": "Davinci",
+     "despues": "DaVinci",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0176",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[47].nombre",
+   "id_elemento": "c08-h48",
+   "original": "Webinarjam",
+   "corregido": "WebinarJam",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Grafía del producto como en el kit: WebinarJam.",
+   "fragmentos": [
+    {
+     "antes": "Webinarjam",
+     "despues": "WebinarJam",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0177",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[75].nombre",
+   "id_elemento": "c08-h76",
+   "original": "Eleven Labs",
+   "corregido": "ElevenLabs",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 142,
+   "pagina_libro": 137,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto: ElevenLabs (el libro usa ambas grafías).",
+   "fragmentos": [
+    {
+     "antes": "Eleven Labs",
+     "despues": "ElevenLabs",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0178",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[79].nombre",
+   "id_elemento": "c08-h80",
+   "original": "Epidemic Sounds",
+   "corregido": "Epidemic Sound",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 142,
+   "pagina_libro": 137,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto: Epidemic Sound (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Epidemic Sounds",
+     "despues": "Epidemic Sound",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0179",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[124].descripcion_libro",
+   "id_elemento": "c08-h125",
+   "original": "Chat GPT 5.2.,",
+   "corregido": "ChatGPT 5.2,",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro. / Punto sobrante antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0180",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[125].nombre",
+   "id_elemento": "c08-h126",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0181",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[125].descripcion_libro",
+   "id_elemento": "c08-h126",
+   "original": "Chat GPT 5.2.,",
+   "corregido": "ChatGPT 5.2,",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro. / Punto sobrante antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0182",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[126].descripcion_libro",
+   "id_elemento": "c08-h127",
+   "original": "Chat GPT 5.2.,",
+   "corregido": "ChatGPT 5.2,",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro. / Punto sobrante antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0183",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[127].descripcion_libro",
+   "id_elemento": "c08-h128",
+   "original": "Chat GPT 5.2.,",
+   "corregido": "ChatGPT 5.2,",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro. / Punto sobrante antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0184",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[128].descripcion_libro",
+   "id_elemento": "c08-h129",
+   "original": "las herramienta",
+   "corregido": "las herramientas",
+   "tipo": "ortografía",
+   "pagina_pdf": 141,
+   "pagina_libro": 136,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Concordancia de número.",
+   "fragmentos": [
+    {
+     "antes": "las herramienta",
+     "despues": "las herramientas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0185",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[129].descripcion_libro",
+   "id_elemento": "c08-h130",
+   "original": "las herramienta",
+   "corregido": "las herramientas",
+   "tipo": "ortografía",
+   "pagina_pdf": 141,
+   "pagina_libro": 136,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Concordancia de número.",
+   "fragmentos": [
+    {
+     "antes": "las herramienta",
+     "despues": "las herramientas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0186",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[130].descripcion_libro",
+   "id_elemento": "c08-h131",
+   "original": "las herramienta",
+   "corregido": "las herramientas",
+   "tipo": "ortografía",
+   "pagina_pdf": 141,
+   "pagina_libro": 136,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Concordancia de número.",
+   "fragmentos": [
+    {
+     "antes": "las herramienta",
+     "despues": "las herramientas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0187",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[137].descripcion_libro",
+   "id_elemento": "c08-h138",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0188",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[138].nombre",
+   "id_elemento": "c08-h139",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0189",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[138].descripcion_libro",
+   "id_elemento": "c08-h139",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0190",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[139].descripcion_libro",
+   "id_elemento": "c08-h140",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 143,
+   "pagina_libro": 138,
+   "seccion": "5. Herramientas y asistencia IA para Social Media.",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0191",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[144].nombre",
+   "id_elemento": "c08-h145",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 146,
+   "pagina_libro": 141,
+   "seccion": "6. Ejemplo completo para aulamarketing.digital",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0192",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[144].descripcion_libro",
+   "id_elemento": "c08-h145",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "6. Ejemplo completo para aulamarketing.digital",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0193",
+   "archivo": "cap08.json",
+   "ruta": "herramientas_mencionadas[145].descripcion_libro",
+   "id_elemento": "c08-h146",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "6. Ejemplo completo para aulamarketing.digital",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0194",
+   "archivo": "cap08.json",
+   "ruta": "ejemplo_aulamarketing.texto",
+   "id_elemento": null,
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0195",
+   "archivo": "cap08.json",
+   "ruta": "ejemplo_aulamarketing.texto",
+   "id_elemento": null,
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0196",
+   "archivo": "cap08.json",
+   "ruta": "ejemplo_aulamarketing.entregables[1].texto",
+   "id_elemento": "c08-e02",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0197",
+   "archivo": "cap08.json",
+   "ruta": "ejemplo_aulamarketing.entregables[4].titulo",
+   "id_elemento": "c08-e05",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 146,
+   "pagina_libro": 141,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0198",
+   "archivo": "cap08.json",
+   "ruta": "ejemplo_aulamarketing.entregables[4].texto",
+   "id_elemento": "c08-e05",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 145,
+   "pagina_libro": 140,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0199",
+   "archivo": "cap08.json",
+   "ruta": "remisiones_internas[4].texto",
+   "id_elemento": null,
+   "original": "Chat GPT 5.2.,",
+   "corregido": "ChatGPT 5.2,",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "Remisiones internas",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro. / Punto sobrante antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0200",
+   "archivo": "cap09.json",
+   "ruta": "secciones[0].texto",
+   "id_elemento": "c09-s1",
+   "original": "este área",
+   "corregido": "esta área",
+   "tipo": "ortografía",
+   "pagina_pdf": 149,
+   "pagina_libro": 144,
+   "seccion": "1. Definiciones clave y tendencias actualizadas",
+   "motivo": "Demostrativo femenino ante «área» (RAE: «esta área»).",
+   "fragmentos": [
+    {
+     "antes": "este área",
+     "despues": "esta área",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0201",
+   "archivo": "cap09.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c09-s4",
+   "original": "| Active Campaign |",
+   "corregido": "| ActiveCampaign |",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 152,
+   "pagina_libro": 147,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Grafía del producto como en el kit: ActiveCampaign.",
+   "fragmentos": [
+    {
+     "antes": "Active Campaign",
+     "despues": "ActiveCampaign",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0202",
+   "archivo": "cap09.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c09-s4",
+   "original": "es Active Campaign.",
+   "corregido": "es ActiveCampaign.",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 152,
+   "pagina_libro": 147,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Grafía del producto como en el kit: ActiveCampaign.",
+   "fragmentos": [
+    {
+     "antes": "Active Campaign",
+     "despues": "ActiveCampaign",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0203",
+   "archivo": "cap09.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c09-s4",
+   "original": "etapa. Al",
+   "corregido": "etapa? Al",
+   "tipo": "puntuación",
+   "pagina_pdf": 154,
+   "pagina_libro": 149,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Pregunta abierta con «¿Qué acción específica…» sin signo de cierre.",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "?",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0204",
+   "archivo": "cap09.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c09-s4",
+   "original": "las de líneas",
+   "corregido": "las líneas",
+   "tipo": "ortografía",
+   "pagina_pdf": 154,
+   "pagina_libro": 149,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Palabra sobrante («las de líneas»).",
+   "fragmentos": [
+    {
+     "antes": "las de líneas",
+     "despues": "las líneas",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0205",
+   "archivo": "cap09.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c09-s4",
+   "original": "que [buyer persona] es",
+   "corregido": "que [marca] es",
+   "tipo": "errata_marcador",
+   "pagina_pdf": 154,
+   "pagina_libro": 149,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Marcador equivocado en el prompt c09-p08: se refiere a la marca, no al buyer persona (confirmado por el autor).",
+   "fragmentos": [
+    {
+     "antes": "[buyer persona]",
+     "despues": "[marca]",
+     "tipo": "errata_marcador"
+    }
+   ]
+  },
+  {
+   "id": "corr-0206",
+   "archivo": "cap09.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c09-s4",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 155,
+   "pagina_libro": 150,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0207",
+   "archivo": "cap09.json",
+   "ruta": "prompts[4].texto",
+   "id_elemento": "c09-p05",
+   "original": "etapa. Al",
+   "corregido": "etapa? Al",
+   "tipo": "puntuación",
+   "pagina_pdf": 154,
+   "pagina_libro": 149,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Pregunta abierta con «¿Qué acción específica…» sin signo de cierre.",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "?",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0208",
+   "archivo": "cap09.json",
+   "ruta": "prompts[7].texto",
+   "id_elemento": "c09-p08",
+   "original": "[buyer persona]",
+   "corregido": "[marca]",
+   "tipo": "errata_marcador",
+   "pagina_pdf": 154,
+   "pagina_libro": 149,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Marcador equivocado en el prompt c09-p08: se refiere a la marca, no al buyer persona (confirmado por el autor).",
+   "fragmentos": [
+    {
+     "antes": "[buyer persona]",
+     "despues": "[marca]",
+     "tipo": "errata_marcador"
+    }
+   ]
+  },
+  {
+   "id": "corr-0209",
+   "archivo": "cap09.json",
+   "ruta": "prompts[10].contexto_previo",
+   "id_elemento": "c09-p11",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 155,
+   "pagina_libro": 150,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0210",
+   "archivo": "cap09.json",
+   "ruta": "herramientas_mencionadas[1].nombre",
+   "id_elemento": "c09-h02",
+   "original": "Active Campaign",
+   "corregido": "ActiveCampaign",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 152,
+   "pagina_libro": 147,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Grafía del producto como en el kit: ActiveCampaign.",
+   "fragmentos": [
+    {
+     "antes": "Active Campaign",
+     "despues": "ActiveCampaign",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0211",
+   "archivo": "cap09.json",
+   "ruta": "herramientas_mencionadas[11].nombre",
+   "id_elemento": "c09-h12",
+   "original": "Active Campaign",
+   "corregido": "ActiveCampaign",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 152,
+   "pagina_libro": 147,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Grafía del producto como en el kit: ActiveCampaign.",
+   "fragmentos": [
+    {
+     "antes": "Active Campaign",
+     "despues": "ActiveCampaign",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0212",
+   "archivo": "cap09.json",
+   "ruta": "herramientas_mencionadas[11].descripcion_libro",
+   "id_elemento": "c09-h12",
+   "original": "Active Campaign",
+   "corregido": "ActiveCampaign",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 152,
+   "pagina_libro": 147,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Grafía del producto como en el kit: ActiveCampaign.",
+   "fragmentos": [
+    {
+     "antes": "Active Campaign",
+     "despues": "ActiveCampaign",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0213",
+   "archivo": "cap09.json",
+   "ruta": "herramientas_mencionadas[17].nombre",
+   "id_elemento": "c09-h18",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 155,
+   "pagina_libro": 150,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0214",
+   "archivo": "cap09.json",
+   "ruta": "herramientas_mencionadas[17].descripcion_libro",
+   "id_elemento": "c09-h18",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 155,
+   "pagina_libro": 150,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0215",
+   "archivo": "cap09.json",
+   "ruta": "herramientas_mencionadas[18].descripcion_libro",
+   "id_elemento": "c09-h19",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 155,
+   "pagina_libro": 150,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0216",
+   "archivo": "cap09.json",
+   "ruta": "herramientas_mencionadas[19].descripcion_libro",
+   "id_elemento": "c09-h20",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 155,
+   "pagina_libro": 150,
+   "seccion": "4. Herramientas y asistencia IA en email marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0217",
+   "archivo": "cap10.json",
+   "ruta": "secciones[1].subsecciones[1].texto",
+   "id_elemento": "c10-s2.2",
+   "original": "reales . ¡Inscríbete y destaca!.”\n✓",
+   "corregido": "reales. ¡Inscríbete y destaca!”\n✓",
+   "tipo": "espaciado",
+   "pagina_pdf": 164,
+   "pagina_libro": 159,
+   "seccion": "2.2. Terminología de campañas SEM",
+   "motivo": "Espacio antes del punto. / Tras el signo de cierre de exclamación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": " ",
+     "despues": "",
+     "tipo": "espaciado"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0218",
+   "archivo": "cap10.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c10-s5",
+   "original": "SERanking",
+   "corregido": "SE Ranking",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: SE Ranking.",
+   "fragmentos": [
+    {
+     "antes": "SERanking",
+     "despues": "SE Ranking",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0219",
+   "archivo": "cap10.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c10-s5",
+   "original": "Gimp",
+   "corregido": "GIMP",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: GIMP.",
+   "fragmentos": [
+    {
+     "antes": "Gimp",
+     "despues": "GIMP",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0220",
+   "archivo": "cap10.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c10-s5",
+   "original": "Capcut | Filmora | Premiere Pro | Davinci",
+   "corregido": "CapCut | Filmora | Premiere Pro | DaVinci",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: CapCut. / Grafía del producto como en el kit: DaVinci Resolve.",
+   "fragmentos": [
+    {
+     "antes": "Capcut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Davinci",
+     "despues": "DaVinci",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0221",
+   "archivo": "cap10.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c10-s5",
+   "original": "MozPro | SpyFu | Optmyzr | Amplitude | Hubspot |",
+   "corregido": "Moz Pro | SpyFu | Optmyzr | Amplitude | HubSpot |",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: Moz Pro. / Grafía del producto como en el kit: HubSpot.",
+   "fragmentos": [
+    {
+     "antes": "MozPro",
+     "despues": "Moz Pro",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0222",
+   "archivo": "cap10.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c10-s5",
+   "original": "| Hubspot\nAhora",
+   "corregido": "| HubSpot\nAhora",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 168,
+   "pagina_libro": 163,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: HubSpot.",
+   "fragmentos": [
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0223",
+   "archivo": "cap10.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c10-s5",
+   "original": "Eleven Labs | Suno | Moses | Google Lyria 3 | Epidemic Sounds",
+   "corregido": "ElevenLabs | Suno | Moses | Google Lyria 3 | Epidemic Sound",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 170,
+   "pagina_libro": 165,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Nombre del producto: ElevenLabs (el libro usa ambas grafías). / Nombre del producto: Epidemic Sound (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Eleven Labs",
+     "despues": "ElevenLabs",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Epidemic Sounds",
+     "despues": "Epidemic Sound",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0224",
+   "archivo": "cap10.json",
+   "ruta": "definiciones[24].definicion",
+   "id_elemento": "c10-d25",
+   "original": "reales . ¡Inscríbete y destaca!.”",
+   "corregido": "reales. ¡Inscríbete y destaca!”",
+   "tipo": "espaciado",
+   "pagina_pdf": 164,
+   "pagina_libro": 159,
+   "seccion": "2.2. Terminología de campañas SEM",
+   "motivo": "Espacio antes del punto. / Tras el signo de cierre de exclamación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": " ",
+     "despues": "",
+     "tipo": "espaciado"
+    },
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0225",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[0].nombre",
+   "id_elemento": "c10-h01",
+   "original": "SERanking",
+   "corregido": "SE Ranking",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: SE Ranking.",
+   "fragmentos": [
+    {
+     "antes": "SERanking",
+     "despues": "SE Ranking",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0226",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[13].nombre",
+   "id_elemento": "c10-h14",
+   "original": "Gimp",
+   "corregido": "GIMP",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: GIMP.",
+   "fragmentos": [
+    {
+     "antes": "Gimp",
+     "despues": "GIMP",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0227",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[21].nombre",
+   "id_elemento": "c10-h22",
+   "original": "Capcut",
+   "corregido": "CapCut",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: CapCut.",
+   "fragmentos": [
+    {
+     "antes": "Capcut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0228",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[24].nombre",
+   "id_elemento": "c10-h25",
+   "original": "Davinci",
+   "corregido": "DaVinci",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: DaVinci Resolve.",
+   "fragmentos": [
+    {
+     "antes": "Davinci",
+     "despues": "DaVinci",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0229",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[34].nombre",
+   "id_elemento": "c10-h35",
+   "original": "MozPro",
+   "corregido": "Moz Pro",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: Moz Pro.",
+   "fragmentos": [
+    {
+     "antes": "MozPro",
+     "despues": "Moz Pro",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0230",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[38].nombre",
+   "id_elemento": "c10-h39",
+   "original": "Hubspot",
+   "corregido": "HubSpot",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 167,
+   "pagina_libro": 162,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: HubSpot.",
+   "fragmentos": [
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0231",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[54].nombre",
+   "id_elemento": "c10-h55",
+   "original": "Hubspot",
+   "corregido": "HubSpot",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 168,
+   "pagina_libro": 163,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Grafía del producto como en el kit: HubSpot.",
+   "fragmentos": [
+    {
+     "antes": "Hubspot",
+     "despues": "HubSpot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0232",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[113].nombre",
+   "id_elemento": "c10-h114",
+   "original": "Eleven Labs",
+   "corregido": "ElevenLabs",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 170,
+   "pagina_libro": 165,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Nombre del producto: ElevenLabs (el libro usa ambas grafías).",
+   "fragmentos": [
+    {
+     "antes": "Eleven Labs",
+     "despues": "ElevenLabs",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0233",
+   "archivo": "cap10.json",
+   "ruta": "herramientas_mencionadas[117].nombre",
+   "id_elemento": "c10-h118",
+   "original": "Epidemic Sounds",
+   "corregido": "Epidemic Sound",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 170,
+   "pagina_libro": 165,
+   "seccion": "5. Herramientas y asistencia IA para la gestión SEM",
+   "motivo": "Nombre del producto: Epidemic Sound (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Epidemic Sounds",
+     "despues": "Epidemic Sound",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0234",
+   "archivo": "cap11.json",
+   "ruta": "secciones[3].titulo",
+   "id_elemento": "c11-s4",
+   "original": "Advantage +",
+   "corregido": "Advantage+",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 179,
+   "pagina_libro": 174,
+   "seccion": "4. Meta Ads y Advantage +",
+   "motivo": "Nombre del producto de Meta: Advantage+ (sin espacio).",
+   "fragmentos": [
+    {
+     "antes": "Advantage +",
+     "despues": "Advantage+",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0235",
+   "archivo": "cap11.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c11-s4",
+   "original": "un importante capa",
+   "corregido": "una importante capa",
+   "tipo": "ortografía",
+   "pagina_pdf": 179,
+   "pagina_libro": 174,
+   "seccion": "4. Meta Ads y Advantage +",
+   "motivo": "Concordancia de género.",
+   "fragmentos": [
+    {
+     "antes": "un importante capa",
+     "despues": "una importante capa",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0236",
+   "archivo": "cap11.json",
+   "ruta": "secciones[4].titulo",
+   "id_elemento": "c11-s5",
+   "original": "Youtube",
+   "corregido": "YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 180,
+   "pagina_libro": 175,
+   "seccion": "5. Google Ads | Youtube",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0237",
+   "archivo": "cap11.json",
+   "ruta": "secciones[4].subsecciones[1].texto",
+   "id_elemento": "c11-s5.2",
+   "original": "en Youtube.",
+   "corregido": "en YouTube.",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "5.2. IA en Google Ads para vídeo",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0238",
+   "archivo": "cap11.json",
+   "ruta": "secciones[4].subsecciones[1].texto",
+   "id_elemento": "c11-s5.2",
+   "original": "en Youtube arroja",
+   "corregido": "en YouTube arroja",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "5.2. IA en Google Ads para vídeo",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0239",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "| Talkwalker Sprinkler | Keyhole\n✐",
+   "corregido": "| Talkwalker Sprinklr | Keyhole\n✐",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto: Sprinklr (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Sprinkler",
+     "despues": "Sprinklr",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0240",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "Gimp",
+   "corregido": "GIMP",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: GIMP.",
+   "fragmentos": [
+    {
+     "antes": "Gimp",
+     "despues": "GIMP",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0241",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "Capcut | Filmora | Premiere Pro | Davinci",
+   "corregido": "CapCut | Filmora | Premiere Pro | DaVinci",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: CapCut. / Grafía del producto como en el kit: DaVinci Resolve.",
+   "fragmentos": [
+    {
+     "antes": "Capcut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Davinci",
+     "despues": "DaVinci",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0242",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "| Talkwalker Sprinkler | Keyhole\nHerramientas",
+   "corregido": "| Talkwalker Sprinklr | Keyhole\nHerramientas",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto: Sprinklr (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Sprinkler",
+     "despues": "Sprinklr",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0243",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0244",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "Cap Cut",
+   "corregido": "CapCut",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 183,
+   "pagina_libro": 178,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: CapCut.",
+   "fragmentos": [
+    {
+     "antes": "Cap Cut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0245",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "estructura:Duración",
+   "corregido": "estructura: Duración",
+   "tipo": "espaciado",
+   "pagina_pdf": 183,
+   "pagina_libro": 178,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Falta espacio tras los dos puntos.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0246",
+   "archivo": "cap11.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c11-s6",
+   "original": "Eleven Labs | Suno | Moses | Google Lyria 3 | Epidemic Sounds",
+   "corregido": "ElevenLabs | Suno | Moses | Google Lyria 3 | Epidemic Sound",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 184,
+   "pagina_libro": 179,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto: ElevenLabs (el libro usa ambas grafías). / Nombre del producto: Epidemic Sound (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Eleven Labs",
+     "despues": "ElevenLabs",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Epidemic Sounds",
+     "despues": "Epidemic Sound",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0247",
+   "archivo": "cap11.json",
+   "ruta": "secciones[6].texto",
+   "id_elemento": "c11-s7",
+   "original": "a través Reels",
+   "corregido": "a través de Reels",
+   "tipo": "ortografía",
+   "pagina_pdf": 185,
+   "pagina_libro": 180,
+   "seccion": "7. Ejemplo completo de Social Ads para aulamarketing.digital",
+   "motivo": "Falta la preposición «de».",
+   "fragmentos": [
+    {
+     "antes": "a través Reels",
+     "despues": "a través de Reels",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0248",
+   "archivo": "cap11.json",
+   "ruta": "definiciones[53].definicion",
+   "id_elemento": "c11-d54",
+   "original": "Youtube",
+   "corregido": "YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "5.2. IA en Google Ads para vídeo",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0249",
+   "archivo": "cap11.json",
+   "ruta": "prompts[0].herramienta_ia_indicada[0]",
+   "id_elemento": "c11-p01",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0250",
+   "archivo": "cap11.json",
+   "ruta": "prompts[1].herramienta_ia_indicada[0]",
+   "id_elemento": "c11-p02",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0251",
+   "archivo": "cap11.json",
+   "ruta": "prompts[2].herramienta_ia_indicada[0]",
+   "id_elemento": "c11-p03",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0252",
+   "archivo": "cap11.json",
+   "ruta": "prompts[3].texto",
+   "id_elemento": "c11-p04",
+   "original": "estructura:Duración",
+   "corregido": "estructura: Duración",
+   "tipo": "espaciado",
+   "pagina_pdf": 183,
+   "pagina_libro": 178,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Falta espacio tras los dos puntos.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0253",
+   "archivo": "cap11.json",
+   "ruta": "prompts[3].herramienta_ia_indicada[0]",
+   "id_elemento": "c11-p04",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0254",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[13].nombre",
+   "id_elemento": "c11-h14",
+   "original": "Sprinkler",
+   "corregido": "Sprinklr",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto: Sprinklr (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Sprinkler",
+     "despues": "Sprinklr",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0255",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[21].nombre",
+   "id_elemento": "c11-h22",
+   "original": "Gimp",
+   "corregido": "GIMP",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: GIMP.",
+   "fragmentos": [
+    {
+     "antes": "Gimp",
+     "despues": "GIMP",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0256",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[29].nombre",
+   "id_elemento": "c11-h30",
+   "original": "Capcut",
+   "corregido": "CapCut",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: CapCut.",
+   "fragmentos": [
+    {
+     "antes": "Capcut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0257",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[32].nombre",
+   "id_elemento": "c11-h33",
+   "original": "Davinci",
+   "corregido": "DaVinci",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: DaVinci Resolve.",
+   "fragmentos": [
+    {
+     "antes": "Davinci",
+     "despues": "DaVinci",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0258",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[52].nombre",
+   "id_elemento": "c11-h53",
+   "original": "Sprinkler",
+   "corregido": "Sprinklr",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto: Sprinklr (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Sprinkler",
+     "despues": "Sprinklr",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0259",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[110].nombre",
+   "id_elemento": "c11-h111",
+   "original": "Eleven Labs",
+   "corregido": "ElevenLabs",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 184,
+   "pagina_libro": 179,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto: ElevenLabs (el libro usa ambas grafías).",
+   "fragmentos": [
+    {
+     "antes": "Eleven Labs",
+     "despues": "ElevenLabs",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0260",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[114].nombre",
+   "id_elemento": "c11-h115",
+   "original": "Epidemic Sounds",
+   "corregido": "Epidemic Sound",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 184,
+   "pagina_libro": 179,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto: Epidemic Sound (como en el kit).",
+   "fragmentos": [
+    {
+     "antes": "Epidemic Sounds",
+     "despues": "Epidemic Sound",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0261",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[130].descripcion_libro",
+   "id_elemento": "c11-h131",
+   "original": "Youtube",
+   "corregido": "YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 181,
+   "pagina_libro": 176,
+   "seccion": "5.2. IA en Google Ads para vídeo",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0262",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[139].nombre",
+   "id_elemento": "c11-h140",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0263",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[139].descripcion_libro",
+   "id_elemento": "c11-h140",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0264",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[140].descripcion_libro",
+   "id_elemento": "c11-h141",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0265",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[141].descripcion_libro",
+   "id_elemento": "c11-h142",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 182,
+   "pagina_libro": 177,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0266",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[144].nombre",
+   "id_elemento": "c11-h145",
+   "original": "Cap Cut",
+   "corregido": "CapCut",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 183,
+   "pagina_libro": 178,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: CapCut.",
+   "fragmentos": [
+    {
+     "antes": "Cap Cut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0267",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[144].descripcion_libro",
+   "id_elemento": "c11-h145",
+   "original": "Cap Cut",
+   "corregido": "CapCut",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 183,
+   "pagina_libro": 178,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: CapCut.",
+   "fragmentos": [
+    {
+     "antes": "Cap Cut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0268",
+   "archivo": "cap11.json",
+   "ruta": "herramientas_mencionadas[145].descripcion_libro",
+   "id_elemento": "c11-h146",
+   "original": "Cap Cut",
+   "corregido": "CapCut",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 183,
+   "pagina_libro": 178,
+   "seccion": "6. Herramientas y asistencia IA para producción de contenido y gestión de Social Ads",
+   "motivo": "Grafía del producto como en el kit: CapCut.",
+   "fragmentos": [
+    {
+     "antes": "Cap Cut",
+     "despues": "CapCut",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0269",
+   "archivo": "cap11.json",
+   "ruta": "ejemplo_aulamarketing.texto",
+   "id_elemento": null,
+   "original": "a través Reels",
+   "corregido": "a través de Reels",
+   "tipo": "ortografía",
+   "pagina_pdf": 185,
+   "pagina_libro": 180,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Falta la preposición «de».",
+   "fragmentos": [
+    {
+     "antes": "a través Reels",
+     "despues": "a través de Reels",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0270",
+   "archivo": "cap12.json",
+   "ruta": "secciones[1].subsecciones[1].texto",
+   "id_elemento": "c12-s2.2",
+   "original": "1,000 seguidores",
+   "corregido": "1.000 seguidores",
+   "tipo": "tipografía",
+   "pagina_pdf": 193,
+   "pagina_libro": 188,
+   "seccion": "2.2. Aspectos de valor del Influencer Marketing",
+   "motivo": "Separador de millares en español: punto (como en el resto del libro).",
+   "fragmentos": [
+    {
+     "antes": "1,000 seguidores",
+     "despues": "1.000 seguidores",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0271",
+   "archivo": "cap12.json",
+   "ruta": "secciones[1].subsecciones[1].texto",
+   "id_elemento": "c12-s2.2",
+   "original": "100,000 seguidores",
+   "corregido": "100.000 seguidores",
+   "tipo": "tipografía",
+   "pagina_pdf": 193,
+   "pagina_libro": 188,
+   "seccion": "2.2. Aspectos de valor del Influencer Marketing",
+   "motivo": "Separador de millares en español: punto (como en el resto del libro).",
+   "fragmentos": [
+    {
+     "antes": "100,000 seguidores",
+     "despues": "100.000 seguidores",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0272",
+   "archivo": "cap12.json",
+   "ruta": "secciones[1].subsecciones[2].texto",
+   "id_elemento": "c12-s2.3",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 193,
+   "pagina_libro": 188,
+   "seccion": "2.3. El contacto con los influencers",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0273",
+   "archivo": "cap12.json",
+   "ruta": "secciones[2].texto",
+   "id_elemento": "c12-s3",
+   "original": "Social Bakers",
+   "corregido": "Socialbakers",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Grafía del producto como en el kit: Socialbakers.",
+   "fragmentos": [
+    {
+     "antes": "Social Bakers",
+     "despues": "Socialbakers",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0274",
+   "archivo": "cap12.json",
+   "ruta": "secciones[2].texto",
+   "id_elemento": "c12-s3",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0275",
+   "archivo": "cap12.json",
+   "ruta": "secciones[2].texto",
+   "id_elemento": "c12-s3",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 195,
+   "pagina_libro": 190,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0276",
+   "archivo": "cap12.json",
+   "ruta": "definiciones[22].definicion",
+   "id_elemento": "c12-d23",
+   "original": "1,000 seguidores",
+   "corregido": "1.000 seguidores",
+   "tipo": "tipografía",
+   "pagina_pdf": 193,
+   "pagina_libro": 188,
+   "seccion": "2.2. Aspectos de valor del Influencer Marketing",
+   "motivo": "Separador de millares en español: punto (como en el resto del libro).",
+   "fragmentos": [
+    {
+     "antes": "1,000 seguidores",
+     "despues": "1.000 seguidores",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0277",
+   "archivo": "cap12.json",
+   "ruta": "definiciones[22].definicion",
+   "id_elemento": "c12-d23",
+   "original": "100,000 seguidores",
+   "corregido": "100.000 seguidores",
+   "tipo": "tipografía",
+   "pagina_pdf": 193,
+   "pagina_libro": 188,
+   "seccion": "2.2. Aspectos de valor del Influencer Marketing",
+   "motivo": "Separador de millares en español: punto (como en el resto del libro).",
+   "fragmentos": [
+    {
+     "antes": "100,000 seguidores",
+     "despues": "100.000 seguidores",
+     "tipo": "tipografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0278",
+   "archivo": "cap12.json",
+   "ruta": "definiciones[24].definicion",
+   "id_elemento": "c12-d25",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 193,
+   "pagina_libro": 188,
+   "seccion": "2.3. El contacto con los influencers",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0279",
+   "archivo": "cap12.json",
+   "ruta": "prompts[0].herramienta_ia_indicada[0]",
+   "id_elemento": "c12-p01",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0280",
+   "archivo": "cap12.json",
+   "ruta": "prompts[1].herramienta_ia_indicada[0]",
+   "id_elemento": "c12-p02",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0281",
+   "archivo": "cap12.json",
+   "ruta": "prompts[2].herramienta_ia_indicada[0]",
+   "id_elemento": "c12-p03",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 195,
+   "pagina_libro": 190,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0282",
+   "archivo": "cap12.json",
+   "ruta": "prompts[3].herramienta_ia_indicada[0]",
+   "id_elemento": "c12-p04",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 195,
+   "pagina_libro": 190,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0283",
+   "archivo": "cap12.json",
+   "ruta": "herramientas_mencionadas[18].nombre",
+   "id_elemento": "c12-h19",
+   "original": "Social Bakers",
+   "corregido": "Socialbakers",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Grafía del producto como en el kit: Socialbakers.",
+   "fragmentos": [
+    {
+     "antes": "Social Bakers",
+     "despues": "Socialbakers",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0284",
+   "archivo": "cap12.json",
+   "ruta": "herramientas_mencionadas[43].nombre",
+   "id_elemento": "c12-h44",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0285",
+   "archivo": "cap12.json",
+   "ruta": "herramientas_mencionadas[43].descripcion_libro",
+   "id_elemento": "c12-h44",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0286",
+   "archivo": "cap12.json",
+   "ruta": "herramientas_mencionadas[44].descripcion_libro",
+   "id_elemento": "c12-h45",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0287",
+   "archivo": "cap12.json",
+   "ruta": "herramientas_mencionadas[45].descripcion_libro",
+   "id_elemento": "c12-h46",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 194,
+   "pagina_libro": 189,
+   "seccion": "3. Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0288",
+   "archivo": "cap13.json",
+   "ruta": "apertura.texto",
+   "id_elemento": null,
+   "original": "oreja.",
+   "corregido": "oreja”.",
+   "tipo": "puntuación",
+   "pagina_pdf": 198,
+   "pagina_libro": 193,
+   "seccion": "Apertura",
+   "motivo": "Comilla de apertura sin cerrar.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": "”",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0289",
+   "archivo": "cap13.json",
+   "ruta": "secciones[2].texto",
+   "id_elemento": "c13-s3",
+   "original": "TrustPilot",
+   "corregido": "Trustpilot",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 200,
+   "pagina_libro": 195,
+   "seccion": "3. Tendencias en la gestión de reseñas",
+   "motivo": "Grafía del producto como en el kit: Trustpilot.",
+   "fragmentos": [
+    {
+     "antes": "TrustPilot",
+     "despues": "Trustpilot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0290",
+   "archivo": "cap13.json",
+   "ruta": "secciones[4].subsecciones[1].texto",
+   "id_elemento": "c13-s5.2",
+   "original": "decisión.Un",
+   "corregido": "decisión. Un",
+   "tipo": "espaciado",
+   "pagina_pdf": 202,
+   "pagina_libro": 197,
+   "seccion": "5.2. Activación del sistema y prueba del mensaje",
+   "motivo": "Falta espacio tras el punto.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0291",
+   "archivo": "cap13.json",
+   "ruta": "secciones[6].texto",
+   "id_elemento": "c13-s7",
+   "original": "constando",
+   "corregido": "costando",
+   "tipo": "ortografía",
+   "pagina_pdf": 205,
+   "pagina_libro": 200,
+   "seccion": "7. Ejemplo completo para aulamarketing.digital",
+   "motivo": "Errata: «costando» (de costar).",
+   "fragmentos": [
+    {
+     "antes": "constando",
+     "despues": "costando",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0292",
+   "archivo": "cap13.json",
+   "ruta": "herramientas_mencionadas[46].nombre",
+   "id_elemento": "c13-h47",
+   "original": "TrustPilot",
+   "corregido": "Trustpilot",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 200,
+   "pagina_libro": 195,
+   "seccion": "3. Tendencias en la gestión de reseñas",
+   "motivo": "Grafía del producto como en el kit: Trustpilot.",
+   "fragmentos": [
+    {
+     "antes": "TrustPilot",
+     "despues": "Trustpilot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0293",
+   "archivo": "cap13.json",
+   "ruta": "herramientas_mencionadas[46].descripcion_libro",
+   "id_elemento": "c13-h47",
+   "original": "TrustPilot",
+   "corregido": "Trustpilot",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 200,
+   "pagina_libro": 195,
+   "seccion": "3. Tendencias en la gestión de reseñas",
+   "motivo": "Grafía del producto como en el kit: Trustpilot.",
+   "fragmentos": [
+    {
+     "antes": "TrustPilot",
+     "despues": "Trustpilot",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0294",
+   "archivo": "cap13.json",
+   "ruta": "ejemplo_aulamarketing.texto",
+   "id_elemento": null,
+   "original": "constando",
+   "corregido": "costando",
+   "tipo": "ortografía",
+   "pagina_pdf": 205,
+   "pagina_libro": 200,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Errata: «costando» (de costar).",
+   "fragmentos": [
+    {
+     "antes": "constando",
+     "despues": "costando",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0295",
+   "archivo": "cap13.json",
+   "ruta": "otros[3].texto",
+   "id_elemento": null,
+   "original": "decisión.Un",
+   "corregido": "decisión. Un",
+   "tipo": "espaciado",
+   "pagina_pdf": 202,
+   "pagina_libro": 197,
+   "seccion": "Otros",
+   "motivo": "Falta espacio tras el punto.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": " ",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0296",
+   "archivo": "cap14.json",
+   "ruta": "apertura.texto",
+   "id_elemento": null,
+   "original": "Este área",
+   "corregido": "Esta área",
+   "tipo": "ortografía",
+   "pagina_pdf": 208,
+   "pagina_libro": 203,
+   "seccion": "Apertura",
+   "motivo": "Demostrativo femenino ante «área» (RAE: «esta área»).",
+   "fragmentos": [
+    {
+     "antes": "Este área",
+     "despues": "Esta área",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0297",
+   "archivo": "cap14.json",
+   "ruta": "secciones[1].texto",
+   "id_elemento": "c14-s2",
+   "original": "Google?.\n✓",
+   "corregido": "Google?\n✓",
+   "tipo": "puntuación",
+   "pagina_pdf": 209,
+   "pagina_libro": 204,
+   "seccion": "2. Definiciones clave y tendencias",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0298",
+   "archivo": "cap14.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c14-s4",
+   "original": "va va formando",
+   "corregido": "va formando",
+   "tipo": "espaciado",
+   "pagina_pdf": 212,
+   "pagina_libro": 207,
+   "seccion": "4. Sistema de gestión de reputación",
+   "motivo": "Palabra repetida («se va va formando»).",
+   "fragmentos": [
+    {
+     "antes": " va",
+     "despues": "",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0299",
+   "archivo": "cap14.json",
+   "ruta": "secciones[3].texto",
+   "id_elemento": "c14-s4",
+   "original": "visible?.\nPara",
+   "corregido": "visible?\nPara",
+   "tipo": "puntuación",
+   "pagina_pdf": 213,
+   "pagina_libro": 208,
+   "seccion": "4. Sistema de gestión de reputación",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0300",
+   "archivo": "cap14.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c14-s5",
+   "original": "Inclusive",
+   "corregido": "Onclusive",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 214,
+   "pagina_libro": 209,
+   "seccion": "5. Herramientas y asistencia IA para la gestión de reputación",
+   "motivo": "Errata de «Onclusive» (no existe herramienta de monitorización llamada «Inclusive»).",
+   "fragmentos": [
+    {
+     "antes": "Inclusive",
+     "despues": "Onclusive",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0301",
+   "archivo": "cap14.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c14-s5",
+   "original": "Youscan",
+   "corregido": "YouScan",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 214,
+   "pagina_libro": 209,
+   "seccion": "5. Herramientas y asistencia IA para la gestión de reputación",
+   "motivo": "Grafía del producto como en el kit: YouScan.",
+   "fragmentos": [
+    {
+     "antes": "Youscan",
+     "despues": "YouScan",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0302",
+   "archivo": "cap14.json",
+   "ruta": "secciones[4].texto",
+   "id_elemento": "c14-s5",
+   "original": "concultarle",
+   "corregido": "consultarle",
+   "tipo": "ortografía",
+   "pagina_pdf": 216,
+   "pagina_libro": 211,
+   "seccion": "5. Herramientas y asistencia IA para la gestión de reputación",
+   "motivo": "Errata: «consultarle».",
+   "fragmentos": [
+    {
+     "antes": "concultarle",
+     "despues": "consultarle",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0303",
+   "archivo": "cap14.json",
+   "ruta": "secciones[5].texto",
+   "id_elemento": "c14-s6",
+   "original": "carrera?. Tenemos",
+   "corregido": "carrera? Tenemos",
+   "tipo": "puntuación",
+   "pagina_pdf": 216,
+   "pagina_libro": 211,
+   "seccion": "6. Ejemplo completo para aulamarketing.digital",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0304",
+   "archivo": "cap14.json",
+   "ruta": "definiciones[0].definicion",
+   "id_elemento": "c14-d01",
+   "original": "Google?.\n✓",
+   "corregido": "Google?\n✓",
+   "tipo": "puntuación",
+   "pagina_pdf": 209,
+   "pagina_libro": 204,
+   "seccion": "2. Definiciones clave y tendencias",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0305",
+   "archivo": "cap14.json",
+   "ruta": "prompts[6].contexto_previo",
+   "id_elemento": "c14-p07",
+   "original": "concultarle",
+   "corregido": "consultarle",
+   "tipo": "ortografía",
+   "pagina_pdf": 216,
+   "pagina_libro": 211,
+   "seccion": "5. Herramientas y asistencia IA para la gestión de reputación",
+   "motivo": "Errata: «consultarle».",
+   "fragmentos": [
+    {
+     "antes": "concultarle",
+     "despues": "consultarle",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0306",
+   "archivo": "cap14.json",
+   "ruta": "herramientas_mencionadas[5].nombre",
+   "id_elemento": "c14-h06",
+   "original": "Inclusive",
+   "corregido": "Onclusive",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 214,
+   "pagina_libro": 209,
+   "seccion": "5. Herramientas y asistencia IA para la gestión de reputación",
+   "motivo": "Errata de «Onclusive» (no existe herramienta de monitorización llamada «Inclusive»).",
+   "fragmentos": [
+    {
+     "antes": "Inclusive",
+     "despues": "Onclusive",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0307",
+   "archivo": "cap14.json",
+   "ruta": "herramientas_mencionadas[9].nombre",
+   "id_elemento": "c14-h10",
+   "original": "Youscan",
+   "corregido": "YouScan",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 214,
+   "pagina_libro": 209,
+   "seccion": "5. Herramientas y asistencia IA para la gestión de reputación",
+   "motivo": "Grafía del producto como en el kit: YouScan.",
+   "fragmentos": [
+    {
+     "antes": "Youscan",
+     "despues": "YouScan",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0308",
+   "archivo": "cap14.json",
+   "ruta": "herramientas_mencionadas[48].descripcion_libro",
+   "id_elemento": "c14-h49",
+   "original": "Google?.",
+   "corregido": "Google?",
+   "tipo": "puntuación",
+   "pagina_pdf": 209,
+   "pagina_libro": 204,
+   "seccion": "2. Definiciones clave y tendencias",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0309",
+   "archivo": "cap14.json",
+   "ruta": "ejemplo_aulamarketing.texto",
+   "id_elemento": null,
+   "original": "carrera?. Tenemos",
+   "corregido": "carrera? Tenemos",
+   "tipo": "puntuación",
+   "pagina_pdf": 216,
+   "pagina_libro": 211,
+   "seccion": "Ejemplo aulamarketing.digital",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0310",
+   "archivo": "cap15.json",
+   "ruta": "objetivos_aprendizaje[1]",
+   "id_elemento": null,
+   "original": "canal .",
+   "corregido": "canal.",
+   "tipo": "espaciado",
+   "pagina_pdf": 220,
+   "pagina_libro": 215,
+   "seccion": "Objetivos de aprendizaje",
+   "motivo": "Espacio antes del punto.",
+   "fragmentos": [
+    {
+     "antes": " ",
+     "despues": "",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0311",
+   "archivo": "cap15.json",
+   "ruta": "secciones[3].subsecciones[1].texto",
+   "id_elemento": "c15-s4.2",
+   "original": "mejora el rendimiento",
+   "corregido": "mejora del rendimiento",
+   "tipo": "ortografía",
+   "pagina_pdf": 223,
+   "pagina_libro": 218,
+   "seccion": "4.2. Google Tag Manager",
+   "motivo": "Falta la preposición: «una mejora del rendimiento».",
+   "fragmentos": [
+    {
+     "antes": "el",
+     "despues": "del",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0312",
+   "archivo": "cap15.json",
+   "ruta": "secciones[5].subsecciones[1].texto",
+   "id_elemento": "c15-s6.2",
+   "original": "está",
+   "corregido": "están",
+   "tipo": "ortografía",
+   "pagina_pdf": 228,
+   "pagina_libro": 223,
+   "seccion": "6.2. La lógica de la escalabilidad",
+   "motivo": "Concordancia de número con «áreas».",
+   "fragmentos": [
+    {
+     "antes": "está",
+     "despues": "están",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0313",
+   "archivo": "cap15.json",
+   "ruta": "secciones[5].subsecciones[1].texto",
+   "id_elemento": "c15-s6.2",
+   "original": "cámaras de generan",
+   "corregido": "cámaras que generan",
+   "tipo": "ortografía",
+   "pagina_pdf": 229,
+   "pagina_libro": 224,
+   "seccion": "6.2. La lógica de la escalabilidad",
+   "motivo": "Errata: «que generan».",
+   "fragmentos": [
+    {
+     "antes": "de",
+     "despues": "que",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0314",
+   "archivo": "cap15.json",
+   "ruta": "secciones[6].texto",
+   "id_elemento": "c15-s7",
+   "original": "Instagant",
+   "corregido": "Instagantt",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "7. Planificación",
+   "motivo": "Nombre del producto: Instagantt.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0315",
+   "archivo": "cap15.json",
+   "ruta": "secciones[7].texto",
+   "id_elemento": "c15-s8",
+   "original": "Instagant | Jira | Clickup",
+   "corregido": "Instagantt | Jira | ClickUp",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Nombre del producto: Instagantt. / Grafía del producto como en el kit: ClickUp.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Clickup",
+     "despues": "ClickUp",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0316",
+   "archivo": "cap15.json",
+   "ruta": "secciones[7].texto",
+   "id_elemento": "c15-s8",
+   "original": "GTMetrix",
+   "corregido": "GTmetrix",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Grafía del producto como en el kit: GTmetrix.",
+   "fragmentos": [
+    {
+     "antes": "GTMetrix",
+     "despues": "GTmetrix",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0317",
+   "archivo": "cap15.json",
+   "ruta": "secciones[7].texto",
+   "id_elemento": "c15-s8",
+   "original": "SproutSocial | Meta Business Suite | TikTok Analytics | Youtube",
+   "corregido": "Sprout Social | Meta Business Suite | TikTok Analytics | YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Grafía del producto como en el kit: Sprout Social. / Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "SproutSocial",
+     "despues": "Sprout Social",
+     "tipo": "nombre_producto"
+    },
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0318",
+   "archivo": "cap15.json",
+   "ruta": "secciones[7].texto",
+   "id_elemento": "c15-s8",
+   "original": "Desviaciones.”.\nCon",
+   "corregido": "Desviaciones.'”.\nCon",
+   "tipo": "puntuación",
+   "pagina_pdf": 233,
+   "pagina_libro": 228,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Comilla simple de apertura ('Datos consolidados…) sin cerrar.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": "'",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0319",
+   "archivo": "cap15.json",
+   "ruta": "prompts[4].texto",
+   "id_elemento": "c15-p05",
+   "original": "Desviaciones.",
+   "corregido": "Desviaciones.'",
+   "tipo": "puntuación",
+   "pagina_pdf": 233,
+   "pagina_libro": 228,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Comilla simple de apertura ('Datos consolidados…) sin cerrar.",
+   "fragmentos": [
+    {
+     "antes": "",
+     "despues": "'",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0320",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[4].nombre",
+   "id_elemento": "c15-h05",
+   "original": "Instagant",
+   "corregido": "Instagantt",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Nombre del producto: Instagantt.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0321",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[6].nombre",
+   "id_elemento": "c15-h07",
+   "original": "Clickup",
+   "corregido": "ClickUp",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Grafía del producto como en el kit: ClickUp.",
+   "fragmentos": [
+    {
+     "antes": "Clickup",
+     "despues": "ClickUp",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0322",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[17].nombre",
+   "id_elemento": "c15-h18",
+   "original": "GTMetrix",
+   "corregido": "GTmetrix",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Grafía del producto como en el kit: GTmetrix.",
+   "fragmentos": [
+    {
+     "antes": "GTMetrix",
+     "despues": "GTmetrix",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0323",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[23].nombre",
+   "id_elemento": "c15-h24",
+   "original": "SproutSocial",
+   "corregido": "Sprout Social",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Grafía del producto como en el kit: Sprout Social.",
+   "fragmentos": [
+    {
+     "antes": "SproutSocial",
+     "despues": "Sprout Social",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0324",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[26].nombre",
+   "id_elemento": "c15-h27",
+   "original": "Youtube",
+   "corregido": "YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0325",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[53].descripcion_libro",
+   "id_elemento": "c15-h54",
+   "original": "Instagant",
+   "corregido": "Instagantt",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "7. Planificación",
+   "motivo": "Nombre del producto: Instagantt.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0326",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[54].nombre",
+   "id_elemento": "c15-h55",
+   "original": "Instagant",
+   "corregido": "Instagantt",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "7. Planificación",
+   "motivo": "Nombre del producto: Instagantt.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0327",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[54].descripcion_libro",
+   "id_elemento": "c15-h55",
+   "original": "Instagant",
+   "corregido": "Instagantt",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "7. Planificación",
+   "motivo": "Nombre del producto: Instagantt.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0328",
+   "archivo": "cap15.json",
+   "ruta": "herramientas_mencionadas[55].descripcion_libro",
+   "id_elemento": "c15-h56",
+   "original": "Instagant",
+   "corregido": "Instagantt",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 231,
+   "pagina_libro": 226,
+   "seccion": "7. Planificación",
+   "motivo": "Nombre del producto: Instagantt.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0329",
+   "archivo": "cap15.json",
+   "ruta": "otros[3].texto",
+   "id_elemento": null,
+   "original": "mejora el rendimiento",
+   "corregido": "mejora del rendimiento",
+   "tipo": "ortografía",
+   "pagina_pdf": 223,
+   "pagina_libro": 218,
+   "seccion": "Otros",
+   "motivo": "Falta la preposición: «una mejora del rendimiento».",
+   "fragmentos": [
+    {
+     "antes": "el",
+     "despues": "del",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0330",
+   "archivo": "cap15.json",
+   "ruta": "otros[10].texto",
+   "id_elemento": null,
+   "original": "cámaras de generan",
+   "corregido": "cámaras que generan",
+   "tipo": "ortografía",
+   "pagina_pdf": 229,
+   "pagina_libro": 224,
+   "seccion": "Otros",
+   "motivo": "Errata: «que generan».",
+   "fragmentos": [
+    {
+     "antes": "de",
+     "despues": "que",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0331",
+   "archivo": "cap16.json",
+   "ruta": "apertura.texto",
+   "id_elemento": null,
+   "original": "familiar?. De",
+   "corregido": "familiar? De",
+   "tipo": "puntuación",
+   "pagina_pdf": 236,
+   "pagina_libro": 231,
+   "seccion": "Apertura",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0332",
+   "archivo": "cap16.json",
+   "ruta": "apertura.texto",
+   "id_elemento": null,
+   "original": "IA ,",
+   "corregido": "IA,",
+   "tipo": "espaciado",
+   "pagina_pdf": 236,
+   "pagina_libro": 231,
+   "seccion": "Apertura",
+   "motivo": "Espacio antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": " ",
+     "despues": "",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0333",
+   "archivo": "cap16.json",
+   "ruta": "apertura.narrativa_ana",
+   "id_elemento": null,
+   "original": "familiar?. De",
+   "corregido": "familiar? De",
+   "tipo": "puntuación",
+   "pagina_pdf": 236,
+   "pagina_libro": 231,
+   "seccion": "Apertura",
+   "motivo": "Tras el signo de cierre de interrogación no se escribe punto (RAE).",
+   "fragmentos": [
+    {
+     "antes": ".",
+     "despues": "",
+     "tipo": "puntuación"
+    }
+   ]
+  },
+  {
+   "id": "corr-0334",
+   "archivo": "cap16.json",
+   "ruta": "otros[2].texto",
+   "id_elemento": null,
+   "original": "IA ,",
+   "corregido": "IA,",
+   "tipo": "espaciado",
+   "pagina_pdf": 236,
+   "pagina_libro": 231,
+   "seccion": "Otros",
+   "motivo": "Espacio antes de la coma.",
+   "fragmentos": [
+    {
+     "antes": " ",
+     "despues": "",
+     "tipo": "espaciado"
+    }
+   ]
+  },
+  {
+   "id": "corr-0335",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_digitales[48].descripcion",
+   "id_elemento": "k-d049",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 239,
+   "pagina_libro": 234,
+   "seccion": "Kit · Herramientas digitales",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0336",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_digitales[69].nombre",
+   "id_elemento": "k-d070",
+   "original": "FontSquirrel",
+   "corregido": "Font Squirrel",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 241,
+   "pagina_libro": 236,
+   "seccion": "Kit · Herramientas digitales",
+   "motivo": "Nombre del producto: Font Squirrel.",
+   "fragmentos": [
+    {
+     "antes": "FontSquirrel",
+     "despues": "Font Squirrel",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0337",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_digitales[114].nombre",
+   "id_elemento": "k-d115",
+   "original": "Instagant",
+   "corregido": "Instagantt",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 244,
+   "pagina_libro": 239,
+   "seccion": "Kit · Herramientas digitales",
+   "motivo": "Nombre del producto: Instagantt.",
+   "fragmentos": [
+    {
+     "antes": "Instagant",
+     "despues": "Instagantt",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0338",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_digitales[131].nombre",
+   "id_elemento": "k-d132",
+   "original": "Lite Speed Caché",
+   "corregido": "LiteSpeed Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 245,
+   "pagina_libro": 240,
+   "seccion": "Kit · Herramientas digitales",
+   "motivo": "Nombre del plugin: LiteSpeed Cache.",
+   "fragmentos": [
+    {
+     "antes": "Lite Speed Caché",
+     "despues": "LiteSpeed Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0339",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_digitales[227].nombre",
+   "id_elemento": "k-d228",
+   "original": "Updraft Plus",
+   "corregido": "UpdraftPlus",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 251,
+   "pagina_libro": 246,
+   "seccion": "Kit · Herramientas digitales",
+   "motivo": "Grafía del plugin: UpdraftPlus.",
+   "fragmentos": [
+    {
+     "antes": "Updraft Plus",
+     "despues": "UpdraftPlus",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0340",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_digitales[245].nombre",
+   "id_elemento": "k-d246",
+   "original": "WP Fastest Caché",
+   "corregido": "WP Fastest Cache",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 252,
+   "pagina_libro": 247,
+   "seccion": "Kit · Herramientas digitales",
+   "motivo": "Nombre del plugin: WP Fastest Cache.",
+   "fragmentos": [
+    {
+     "antes": "WP Fastest Caché",
+     "despues": "WP Fastest Cache",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0341",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_ia[2].nombre",
+   "id_elemento": "k-ia003",
+   "original": "AntiGravity",
+   "corregido": "Antigravity",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 253,
+   "pagina_libro": 248,
+   "seccion": "Kit · Herramientas IA",
+   "motivo": "Nombre del producto: Google Antigravity (el libro usa ambas grafías).",
+   "fragmentos": [
+    {
+     "antes": "AntiGravity",
+     "despues": "Antigravity",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0342",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_ia[18].nombre",
+   "id_elemento": "k-ia019",
+   "original": "Eleven Labs",
+   "corregido": "ElevenLabs",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 254,
+   "pagina_libro": 249,
+   "seccion": "Kit · Herramientas IA",
+   "motivo": "Nombre del producto: ElevenLabs (el libro usa ambas grafías).",
+   "fragmentos": [
+    {
+     "antes": "Eleven Labs",
+     "despues": "ElevenLabs",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0343",
+   "archivo": "kit_herramientas.json",
+   "ruta": "lista_herramientas_ia[32].descripcion",
+   "id_elemento": "k-ia033",
+   "original": "guión",
+   "corregido": "guion",
+   "tipo": "ortografía",
+   "pagina_pdf": 255,
+   "pagina_libro": 250,
+   "seccion": "Kit · Herramientas IA",
+   "motivo": "«Guion» se escribe sin tilde (Ortografía RAE 2010); el libro usa ambas formas.",
+   "fragmentos": [
+    {
+     "antes": "guión",
+     "despues": "guion",
+     "tipo": "ortografía"
+    }
+   ]
+  },
+  {
+   "id": "corr-0344",
+   "archivo": "indice.json",
+   "ruta": "capitulos[3].secciones[4].titulo",
+   "id_elemento": "c04-s5",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 61,
+   "pagina_libro": 56,
+   "seccion": "Diferencias entre familias de modelos: Chat GPT, Claude y Gemini",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0345",
+   "archivo": "indice.json",
+   "ruta": "capitulos[10].secciones[3].titulo",
+   "id_elemento": "c11-s4",
+   "original": "Advantage +",
+   "corregido": "Advantage+",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 179,
+   "pagina_libro": 174,
+   "seccion": "Meta Ads y Advantage +",
+   "motivo": "Nombre del producto de Meta: Advantage+ (sin espacio).",
+   "fragmentos": [
+    {
+     "antes": "Advantage +",
+     "despues": "Advantage+",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0346",
+   "archivo": "indice.json",
+   "ruta": "capitulos[10].secciones[4].titulo",
+   "id_elemento": "c11-s5",
+   "original": "Youtube",
+   "corregido": "YouTube",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 180,
+   "pagina_libro": 175,
+   "seccion": "Google Ads | Youtube",
+   "motivo": "Grafía del producto: YouTube.",
+   "fragmentos": [
+    {
+     "antes": "Youtube",
+     "despues": "YouTube",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0347",
+   "archivo": "indice.json",
+   "ruta": "figuras_tablas[3].titulo",
+   "id_elemento": "c05-f02",
+   "original": "HARLEY DAVISON",
+   "corregido": "HARLEY DAVIDSON",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 66,
+   "pagina_libro": 61,
+   "seccion": "Figuras y tablas",
+   "motivo": "Nombre de la marca: Harley-Davidson.",
+   "fragmentos": [
+    {
+     "antes": "HARLEY DAVISON",
+     "despues": "HARLEY DAVIDSON",
+     "tipo": "nombre_producto"
+    }
+   ]
+  },
+  {
+   "id": "corr-0348",
+   "archivo": "indice.json",
+   "ruta": "entregables[34].titulo",
+   "id_elemento": "c08-e05",
+   "original": "Chat GPT",
+   "corregido": "ChatGPT",
+   "tipo": "nombre_producto",
+   "pagina_pdf": 140,
+   "pagina_libro": 135,
+   "seccion": "entregables",
+   "motivo": "Nombre del producto sin espacio («ChatGPT»); se conserva la versión indicada por el libro.",
+   "fragmentos": [
+    {
+     "antes": "Chat GPT",
+     "despues": "ChatGPT",
+     "tipo": "nombre_producto"
+    }
+   ]
+  }
+ ]
+}

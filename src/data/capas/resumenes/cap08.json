@@ -1,0 +1,51 @@
+{
+  "id": "c08",
+  "promesa": "Convertirás tus redes sociales en una palanca para captar atención, construir comunidad y generar leads, con ayuda de la IA.",
+  "al_terminar_tendras": [
+    "Las plataformas y formatos adecuados para tu buyer persona según el papel de cada red en el customer journey",
+    "Un contenido pilar fragmentado en vídeos medios, clips verticales, carruseles, infografías y lead magnets",
+    "Copys con estructuras persuasivas (AIDA, PAS, Antes-Después-Puente…) y narrativas emocionales o de storydoing",
+    "Un calendario editorial flexible con espacio para la improvisación y una estrategia de publicación cruzada",
+    "Un flujo de prompts de IA para guiones, vídeo, voz, música, textos, títulos y hashtags"
+  ],
+  "historia_ana": "Cuando Ana busca información, su primera parada son las redes sociales. Le encanta el vídeo vertical y sus sesiones superan los 30 minutos. Haciendo scroll, encuentra un vídeo de aulamarketing.digital en Instagram sobre IA y contenido: hemos captado una fracción de su atención.",
+  "resumen_capitulo": "Las redes sociales ya no son solo espacios de interacción: son canales estratégicos para captar atención, entretener, educar y construir comunidad. Su papel en tu plan no es vender en el primer contacto, sino acompañar las primeras fases del customer journey con contenido de valor. En este capítulo conoces las tendencias, como el vídeo corto y vertical, las narrativas emocionales, el UGC, la IA, la mensajería y la coherencia entre discurso y práctica. Entiendes cómo funcionan los algoritmos basados en el grafo de intereses, el Social SEO y el papel de cada plataforma en el embudo. Aprendes a clasificar a tus usuarios por comportamiento y generación. Después trabajas el contenido: diseño visual, narrativas, estructuras de copywriting, storydoing, planificación, calendario y la estrategia \"big content, small pieces\", que convierte una sola grabación en decenas de piezas. Por último, recorres las herramientas y un flujo completo de prompts de IA, y ves cómo aulamarketing.digital lo aplica para captar la atención de Ana en TikTok, Instagram y YouTube.",
+  "secciones": {
+    "c08-s1": {
+      "idea_clave": "Las redes premian el vídeo vertical, las historias emocionales, el contenido único de valor y la coherencia entre lo que la marca dice y hace.",
+      "resumen": "El social media reúne plataformas donde los usuarios crean, comparten y consumen contenido a la vez, como prosumidores. Para las marcas es una herramienta estratégica para construir relaciones, generar engagement y gestionar su reputación. El libro destaca varias tendencias. El vídeo corto y vertical se ha convertido en el estándar, sobre todo para las generaciones Z y Alfa. Las narrativas emocionales, el storytelling y el UGC humanizan a las marcas y activan la prueba social, y los microinfluencers siguen siendo clave por su credibilidad. La IA es ya indispensable para crear contenido, investigar y analizar métricas. Los algoritmos ya no priorizan las cuentas, sino el contenido, así que el reto es crear piezas únicas e hiperpersonalizadas. La mensajería instantánea, como WhatsApp o Telegram, se ha convertido en canal de soporte, contenido y comunidad. Y, como clásico renovado, la coherencia entre discurso y práctica: cuidar al usuario, evitar su sobreexposición y reducir la fatiga digital, porque los algoritmos favorecen a quien aporta valor real.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    },
+    "c08-s2": {
+      "idea_clave": "Los algoritmos ya no muestran lo que sigues, sino lo que retiene tu atención; cada red cumple un papel distinto en el embudo.",
+      "resumen": "Las redes han pasado de un grafo social, en el que veías a quien seguías, a un grafo de intereses que conecta a las personas con temáticas: al algoritmo le importa qué contenido retiene tu atención. A esto se suma el Social SEO: la Generación Z busca directamente en TikTok o Instagram, así que debes optimizar palabras clave, hashtags y subtítulos. El libro analiza el papel de cada plataforma. TikTok, en la parte alta del embudo, es el motor de descubrimiento: evalúa la retención en los primeros 15 minutos y pide ganchos potentes en los primeros 3 segundos. Instagram, en la parte media, es híbrido: los reels atraen a no seguidores, y las stories y los mensajes directos nutren la relación y captan leads. YouTube cubre todo el embudo: premia el CTR de la miniatura y el tiempo de sesión, y su contenido evergreen puede atraer clientes durante años. LinkedIn y X sirven para la autoridad de nicho y B2B, aportando tu ángulo propio. Pinterest es un buscador visual de planificación que genera tráfico sostenido.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    },
+    "c08-s3": {
+      "idea_clave": "Clasifica a tus usuarios por comportamiento y por generación para adaptar los ángulos y ganchos de tu comunicación.",
+      "resumen": "Tras entender cada red, el siguiente filtro es el tipo de usuario. Por comportamiento y motivación, el libro distingue seis perfiles. Creadores de contenido, que generan piezas auténticas y a menudo virales. Consumidores pasivos, que no interactúan pero, al detener el scroll, indican a la plataforma que tu contenido es relevante. Comunicadores sociales, que buscan mantener relaciones. Evaluadores y críticos, que dejan reseñas e influyen en la reputación. Activistas, aliados si tu marca tiene valores sociales o medioambientales. Y buscadores de información, que valoran el contenido educativo. También conviene tener en cuenta las generaciones. Los baby boomers prefieren Facebook y WhatsApp. La Generación X usa LinkedIn y Facebook y busca contenido de valor y reseñas. Los millennials, nativos digitales, valoran la estética con utilidad real y la autenticidad. La Generación Z, donde está Ana, usa TikTok e Instagram como su nuevo Google, huye de la publicidad tradicional y responde al UGC. La Generación Alfa, supervisada por sus padres, influye en la decisión de compra.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c08-s4": {
+      "idea_clave": "Crea contenido visual y emocional con copy persuasivo, planifícalo con un calendario flexible y multiplica cada pieza grande en muchas pequeñas.",
+      "resumen": "El impacto en redes depende del diseño, la redacción y la narrativa. Diseña contenido visual que despierte emociones y permita al usuario proyectarse en la experiencia. Apuesta por narrativas emocionales con historias reales de superación o transformación. Escribe con estructuras de copywriting como AIDA, PAS, storytelling, BFP o Antes-Después-Puente, y da un paso más con el storydoing: que los usuarios vivan la historia, por ejemplo en talleres donde crean sus propios proyectos. Planifica: objetivos, buyer persona, formato preferido y, después, plataforma. Usa un calendario editorial, porque la estrategia gana a la intuición. La estrategia de producción clave es \"big content, small pieces\": un contenido pilar de unas 3.000 palabras grabado como video-podcast de 45-60 minutos y publicado como artículo SEO; vídeos de 6 a 15 minutos para YouTube; unos 40 clips verticales con gancho en los primeros 3 segundos; y carruseles, infografías y plantillas como lead magnet. Publica en directo lo importante, programa lo informativo y deja espacio para la improvisación.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 11
+    },
+    "c08-s5": {
+      "idea_clave": "Encadena prompts concretos para pasar de la idea al guion, fragmentar el vídeo, generar imágenes, voz y música y adaptar textos a cada red.",
+      "resumen": "El libro reúne herramientas de planificación y métricas, de edición de imagen y vídeo, de emisión en directo y de gestión con IA integrada. Después propone un flujo de trabajo. Ideación y guiones: no pidas a la IA la estrategia de un semestre en un solo prompt; encadena peticiones concretas, porque cuantas más tareas metes en un prompt, más riesgo hay de una respuesta genérica. Si ya hiciste la escucha digital del capítulo de SEO, solo tienes que convertir ese material en un guion de contenido extenso. Vídeo: divide la grabación en piezas horizontales para YouTube y usa herramientas de recorte con IA para los clips. Para generar vídeo con IA, la fórmula por bloques es sujeto y acción, producto, entorno, movimiento de cámara y parámetros estéticos; con producto de marca, usa image-to-video y haz pruebas cortas antes del render final. Además, avatares y UGC con IA, y voz y música con prompts de género, instrumentos, atmósfera y tempo. Por último, textos adaptados a cada red, títulos, descripciones, hashtags y prompts para generar imágenes.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 17
+    },
+    "c08-s6": {
+      "idea_clave": "aulamarketing.digital se centra en el vídeo vertical donde está Ana y multiplica un contenido pilar en muchas piezas para captar su atención.",
+      "resumen": "El desafío: Ana no entra en redes buscando un curso, sino entretenimiento y contenido que resuelva sus dudas. Por eso aulamarketing.digital concentra sus esfuerzos en TikTok, Instagram Reels y YouTube Shorts, priorizando el vídeo vertical; X o Threads no son prioritarias al inicio. Parte de un artículo pilar de unas 2.000 palabras sobre cómo elaborar un plan de marketing digital, con H2 detallados. Cada H2 se convierte en guiones para vídeos de 15 a 30 segundos o de un minuto, y se completan con infografías, imágenes generadas con IA y plantillas descargables como lead magnet. El copy sigue estructuras PAS o AIDA, con historias de estudiantes que superaron retos y acciones de storydoing, como desafíos o proyectos reales. El calendario es flexible, con un 15 % de espacio para la improvisación. Lo importante se publica directamente en cada red y los vídeos se publican en varias plataformas en momentos distintos. Metricool programa y centraliza métricas, y diversas herramientas de IA ayudan con guiones, imágenes, voz y avatares. El siguiente paso: llevar a Ana a la web.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 5
+    }
+  }
+}

@@ -1,0 +1,86 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Pendiente from '../../components/Pendiente.astro';
+import Icon from '../../components/Icon.astro';
+import { getTerminos, getRepaso, getPlanes, capas } from '../../lib/datos';
+import { abs } from '../../lib/seo';
+const ts = getTerminos();
+const letra = (t: string) => { const c = t.normalize('NFKD').replace(/[̀-ͯ]/g, '').charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : '#'; };
+const grupos = new Map<string, typeof ts>();
+for (const t of ts) { const l = letra(t.termino); grupos.set(l, [...(grupos.get(l) ?? []), t]); }
+const ld = [{ '@context': 'https://schema.org', '@type': 'DefinedTermSet', '@id': abs('/glosario/') + '#glosario', name: 'Glosario de marketing digital del libro «Desde cero hasta el éxito»', url: abs('/glosario/'), inLanguage: 'es-ES',
+  hasDefinedTerm: ts.map((t) => ({ '@type': 'DefinedTerm', name: t.termino, url: abs(`/glosario/${t.slug}/`) })) }];
+const idL = (l: string) => `letra-${l === '#' ? 'otros' : l}`;
+// tarjetas de repaso: la primera pregunta de cada plan que tenga repaso (texto de capas/repaso)
+const repaso = getPlanes().map((p) => ({ plan: p, t: getRepaso(p.capitulo)[0] })).filter((x) => x.t).slice(0, 4);
+const ejemplo = ts.find((t) => t.corta);
+---
+<Layout titulo="Glosario" ancho descripcion={`${ts.length} términos de marketing digital e IA definidos en el libro «Desde cero hasta el éxito»: SEO, AEO, CPL, buyer persona, ROAS y más.`} jsonLd={ld} migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Glosario' }]}>
+  <header class="c-cabecera">
+    <div>
+      <p class="c-overline c-overline--primario"><Icon nombre="diccionario" />Recursos formativos · del libro</p>
+      <h1>Glosario y repaso</h1>
+      <p class="c-lead">{ts.length} términos con su definición literal del libro, su capítulo y su página, y tarjetas para repasar cada plan.</p>
+    </div>
+  </header>
+  {!capas.glosario && <p><Pendiente que="glosario unificado (capas/glosario); se muestran las definiciones literales de cada capítulo" /></p>}
+  <div data-js="filtro" data-singular="término" data-plural="términos">
+    <div class="c-barra-filtros">
+      <label class="c-buscador"><span class="sr-only">Buscar un término</span><Icon nombre="buscar" /><input type="search" data-filtro="texto" placeholder={`Busca entre ${ts.length} términos`} /></label>
+      <nav class="c-segmentos c-segmentos--compacto" aria-label="Vistas del glosario">
+        <a href="#terminos" aria-current="true"><Icon nombre="lista" />Todos los términos</a>
+        {repaso.length > 0 && <a href="#repaso"><Icon nombre="tarjetas" />Tarjetas de repaso</a>}
+      </nav>
+    </div>
+    <nav class="c-letras" aria-label="Índice alfabético"><span class="c-letras__lbl" aria-hidden="true">Índice:</span>{[...grupos.keys()].map((l) => <a href={`#${idL(l)}`}>{l}</a>)}</nav>
+    <p class="c-meta c-recuento" data-js="recuento" aria-live="polite"></p>
+    <div class="l-dos">
+      <div class="l-dos__main" id="terminos">
+        {[...grupos.entries()].map(([l, lista]) => (
+          <section data-js="grupo" aria-labelledby={idL(l)} class="c-glosario-grupo">
+            <h2 id={idL(l)} class="c-glosario-letra">{l}</h2>
+            <dl class="c-terminos">
+              {lista.map((t) => {
+                const d = t.definiciones[0];
+                const def = t.corta ?? `${(d?.texto ?? '').slice(0, 220)}${(d?.texto ?? '').length > 220 ? '…' : ''}`;
+                return (
+                  <div class="c-card c-termino" data-js="item" data-texto={`${t.termino} ${d?.texto ?? ''}`}>
+                    <dt class="c-termino__t"><a href={`/glosario/${t.slug}/`}>{t.termino}</a></dt>
+                    <dd class="c-termino__chips">{[...new Set(t.definiciones.map((x) => x.capitulo))].map((c) => { const pg = t.definiciones.find((x) => x.capitulo === c)?.pagina_libro; return <span class="c-chip c-chip--book">Cap. {c}{pg && ` · pág. ${pg}`}</span>; })}</dd>
+                    <dd class="c-termino__d">{def}</dd>
+                    {d?.paso_url && <dd class="c-termino__acc"><a class="c-btn c-btn--gris c-btn--peq" href={`/glosario/${t.slug}/`}>Ver definición completa</a><a class="c-btn c-btn--book-tint c-btn--peq" href={d.paso_url}><Icon nombre="libro" />Ver en el plan</a></dd>}
+                  </div>
+                );
+              })}
+            </dl>
+          </section>
+        ))}
+        <p class="c-estado-vacio" data-js="vacio" hidden>No encontramos <span data-js="vacio-q"></span>. <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="limpiar">Quitar filtros</button></p>
+      </div>
+      <aside class="l-dos__aside" aria-label="Repaso y lectura">
+        {repaso.length > 0 && (
+          <section class="c-card" id="repaso" aria-labelledby="rep-t">
+            <h2 id="rep-t" class="c-overline c-overline--primario"><span class="c-dot" aria-hidden="true"></span>Tarjetas de repaso</h2>
+            <div class="c-repaso c-repaso--col">
+              {repaso.map(({ plan, t }) => (
+                <details class="c-flashcard">
+                  <summary><span class="c-overline c-overline--primario">{plan.titulo} · cap. {plan.capitulo}</span><span class="c-flashcard__q">{t!.pregunta}</span><span class="c-flashcard__ver">Mostrar respuesta</span></summary>
+                  <p class="c-flashcard__a">{t!.respuesta}</p>
+                  <a class="c-enlace-flecha" href={`${plan.url}#repaso-t`}>Más tarjetas de este plan <Icon nombre="flecha" /></a>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
+        {ejemplo && (
+          <section class="c-card" aria-labelledby="lec-t">
+            <h2 id="lec-t" class="c-overline c-overline--book"><Icon nombre="libro" />Lectura con definiciones</h2>
+            <p class="c-meta">En los pasos de cada plan, los términos del glosario aparecen subrayados: pasa el cursor o enfócalos con el teclado para ver su definición (Esc la cierra).</p>
+            <p class="c-lectura-demo">Por ejemplo, <span class="c-term"><a href={`/glosario/${ejemplo.slug}/`}>{ejemplo.termino}</a><span class="c-term__tip" role="tooltip">{ejemplo.corta} <a href={`/glosario/${ejemplo.slug}/`}>Ver en el glosario</a></span></span>.</p>
+          </section>
+        )}
+      </aside>
+    </div>
+  </div>
+  <script>import '../../client/filtro';</script>
+</Layout>

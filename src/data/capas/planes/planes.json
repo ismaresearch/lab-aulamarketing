@@ -1,0 +1,1079 @@
+{
+  "version": 1,
+  "estado": "borrador P4 (13-11-2026) - validar con el autor",
+  "nota": "Pasos = secciones de primer nivel del capítulo (sus subsecciones se leen dentro del paso), salvo cuando la sección solo tiene una introducción breve (<500 caracteres) y subsecciones largas: entonces cada subsección es un paso y la introducción se muestra al inicio del primero. Textos de objetivos_meta y prerrequisitos_suaves redactados por P4 como propuesta.",
+  "categorias": [
+    "Estrategia",
+    "Medios propios",
+    "Medios pagados",
+    "Medios ganados",
+    "Medición"
+  ],
+  "objetivos": [
+    {
+      "id": "entender-mi-mercado",
+      "etiqueta": "Entender mi mercado",
+      "planes": [
+        "estrategico",
+        "customer-journey",
+        "design-thinking"
+      ]
+    },
+    {
+      "id": "crear-mi-marca",
+      "etiqueta": "Crear o mejorar mi marca",
+      "planes": [
+        "marca"
+      ]
+    },
+    {
+      "id": "web-que-convierta",
+      "etiqueta": "Tener una web que convierta",
+      "planes": [
+        "web"
+      ]
+    },
+    {
+      "id": "aparecer-en-google-y-la-ia",
+      "etiqueta": "Aparecer en Google y en la IA",
+      "planes": [
+        "seo",
+        "sem"
+      ]
+    },
+    {
+      "id": "crecer-en-redes",
+      "etiqueta": "Crecer en redes sociales",
+      "planes": [
+        "social-media",
+        "influencers",
+        "social-ads"
+      ]
+    },
+    {
+      "id": "mi-propia-audiencia",
+      "etiqueta": "Construir mi propia audiencia",
+      "planes": [
+        "email"
+      ]
+    },
+    {
+      "id": "vender-con-anuncios",
+      "etiqueta": "Vender con anuncios",
+      "planes": [
+        "sem",
+        "social-ads"
+      ]
+    },
+    {
+      "id": "cuidar-mi-reputacion",
+      "etiqueta": "Cuidar mi reputación",
+      "planes": [
+        "resenas",
+        "reputacion"
+      ]
+    },
+    {
+      "id": "medir-resultados",
+      "etiqueta": "Medir mis resultados",
+      "planes": [
+        "medicion"
+      ]
+    }
+  ],
+  "transversales": [
+    {
+      "id": "antes-de-empezar",
+      "titulo": "Antes de empezar",
+      "capitulo_origen": 4,
+      "ruta": "/antes-de-empezar/"
+    },
+    {
+      "id": "directorio",
+      "titulo": "Kit de herramientas",
+      "capitulo_origen": 16,
+      "ruta": "/herramientas/"
+    }
+  ],
+  "planes": [
+    {
+      "id": "estrategico",
+      "slug": "estrategico",
+      "titulo": "Mi plan estratégico",
+      "capitulo_origen": 1,
+      "titulo_capitulo": "Planificación estratégica",
+      "categoria": "Estrategia",
+      "objetivos_meta": [
+        "Entender mi mercado",
+        "Definir a mi cliente ideal",
+        "Fijar objetivos medibles"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c01-s1",
+          "titulo": "Análisis entorno general y específico"
+        },
+        {
+          "id_seccion": "c01-s2",
+          "titulo": "Análisis DAFO"
+        },
+        {
+          "id_seccion": "c01-s3",
+          "titulo": "Identificar la fase del Ciclo de Vida"
+        },
+        {
+          "id_seccion": "c01-s4",
+          "titulo": "Caracterización de nuestro cliente potencial"
+        },
+        {
+          "id_seccion": "c01-s5",
+          "titulo": "Establecer los objetivos SMART del Plan de Marketing Digital"
+        },
+        {
+          "id_seccion": "c01-s6",
+          "titulo": "Definir nuestra propuesta de valor y estrategia de posicionamiento"
+        }
+      ],
+      "entregables": [
+        "c01-e01",
+        "c01-e02",
+        "c01-e03",
+        "c01-e04",
+        "c01-e05",
+        "c01-e06",
+        "c01-e07"
+      ],
+      "prerrequisitos_suaves": [],
+      "prompts": [
+        "c01-p01",
+        "c01-p02",
+        "c01-p03",
+        "c01-p04",
+        "c01-p05",
+        "c01-p06"
+      ],
+      "cadenas": [
+        "cad-c01-analisis-estrategico"
+      ]
+    },
+    {
+      "id": "design-thinking",
+      "slug": "design-thinking",
+      "titulo": "Mi plan de design thinking",
+      "capitulo_origen": 2,
+      "titulo_capitulo": "Idea a éxito: design thinking aplicado",
+      "categoria": "Estrategia",
+      "objetivos_meta": [
+        "Innovar poniendo al cliente en el centro",
+        "Validar una idea antes de invertir"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c02-s1",
+          "titulo": "Definiciones clave y tendencias del design thinking"
+        },
+        {
+          "id_seccion": "c02-s2",
+          "titulo": "Las cinco fases del design thinking"
+        },
+        {
+          "id_seccion": "c02-s3",
+          "titulo": "¿Cómo implementar la metodología design thinking?"
+        },
+        {
+          "id_seccion": "c02-s4",
+          "titulo": "Herramientas y asistencia IA para cada etapa"
+        }
+      ],
+      "entregables": [],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "estrategico",
+          "que_aporta": "Tu buyer persona y el análisis de tu entorno para empatizar con datos.",
+          "alternativa_rapida": "Escribe en 'Mi proyecto' quién es tu cliente y qué problema tiene, en dos o tres frases."
+        }
+      ],
+      "prompts": [
+        "c02-p01",
+        "c02-p02",
+        "c02-p03",
+        "c02-p04",
+        "c02-p05",
+        "c02-p06",
+        "c02-p07",
+        "c02-p08",
+        "c02-p09",
+        "c02-p10",
+        "c02-p11",
+        "c02-p12",
+        "c02-p13",
+        "c02-p14",
+        "c02-p15",
+        "c02-p16",
+        "c02-p17",
+        "c02-p18",
+        "c02-p19"
+      ],
+      "cadenas": [
+        "cad-c02-definir",
+        "cad-c02-idear",
+        "cad-c02-prototipar",
+        "cad-c02-testear"
+      ]
+    },
+    {
+      "id": "customer-journey",
+      "slug": "customer-journey",
+      "titulo": "Mi customer journey map",
+      "capitulo_origen": 3,
+      "titulo_capitulo": "Anatomía de una decisión: el Customer Journey Map",
+      "categoria": "Estrategia",
+      "objetivos_meta": [
+        "Entender mi mercado",
+        "Detectar dónde pierdo clientes"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c03-s1",
+          "titulo": "Definición y bases del CJM"
+        },
+        {
+          "id_seccion": "c03-s2",
+          "titulo": "Usos y aplicaciones prácticas del customer journey map"
+        },
+        {
+          "id_seccion": "c03-s3",
+          "titulo": "Componentes esenciales en el customer journey map"
+        },
+        {
+          "id_seccion": "c03-s4",
+          "titulo": "Fases del customer journey map"
+        },
+        {
+          "id_seccion": "c03-s5",
+          "titulo": "Herramientas y asistencia IA para la generación del customer journey map"
+        },
+        {
+          "id_seccion": "c03-s6",
+          "titulo": "Construyendo el customer journey map de aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c03-e01",
+        "c03-e02",
+        "c03-e03",
+        "c03-e04",
+        "c03-e05",
+        "c03-e06",
+        "c03-e07",
+        "c03-e08",
+        "c03-e09",
+        "c03-e10"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "estrategico",
+          "que_aporta": "El buyer persona sobre el que se dibuja el recorrido.",
+          "alternativa_rapida": "Rellena en 'Mi proyecto' el público objetivo y sus puntos de dolor."
+        }
+      ],
+      "prompts": [
+        "c03-p01",
+        "c03-p02",
+        "c03-p03",
+        "c03-p04"
+      ],
+      "cadenas": [
+        "cad-c03-customer-journey"
+      ]
+    },
+    {
+      "id": "marca",
+      "slug": "marca",
+      "titulo": "Mi plan de marca",
+      "capitulo_origen": 5,
+      "titulo_capitulo": "Branding: el ADN de tu marca",
+      "categoria": "Estrategia",
+      "objetivos_meta": [
+        "Crear o mejorar mi marca",
+        "Definir misión, valores e identidad visual"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c05-s1",
+          "titulo": "Branding: una introducción al concepto"
+        },
+        {
+          "id_seccion": "c05-s2.1.A",
+          "titulo": "A qué nos dedicamos",
+          "apartados": [
+            "c05-s2.1.A"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.1.B",
+          "titulo": "Misión y visión",
+          "apartados": [
+            "c05-s2.1.B",
+            "c05-s2.1.C"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.1.D",
+          "titulo": "Historia y valores",
+          "apartados": [
+            "c05-s2.1.D",
+            "c05-s2.1.E"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.2.A",
+          "titulo": "El nombre corporativo",
+          "apartados": [
+            "c05-s2.2.A"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.2.B",
+          "titulo": "El eslogan: del grito de guerra a la batalla por la mente del consumidor",
+          "apartados": [
+            "c05-s2.2.B"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.2.C",
+          "titulo": "El tono: la voz que define tu identidad",
+          "apartados": [
+            "c05-s2.2.C"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.3.A",
+          "titulo": "Grafía: la voz gráfica de una marca",
+          "apartados": [
+            "c05-s2.3.A"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.3.B",
+          "titulo": "La imagen",
+          "apartados": [
+            "c05-s2.3.B"
+          ]
+        },
+        {
+          "id_seccion": "c05-s2.3.C",
+          "titulo": "El color y los elementos gráficos",
+          "apartados": [
+            "c05-s2.3.C",
+            "c05-s2.3.D"
+          ]
+        },
+        {
+          "id_seccion": "c05-s3",
+          "titulo": "Branding integral de la comunicación de marca, tu legado"
+        }
+      ],
+      "entregables": [
+        "c05-e01",
+        "c05-e02",
+        "c05-e03",
+        "c05-e04",
+        "c05-e05",
+        "c05-e06",
+        "c05-e07",
+        "c05-e08"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "estrategico",
+          "que_aporta": "La propuesta de valor y el posicionamiento que la marca debe expresar.",
+          "alternativa_rapida": "Escribe tu propuesta de valor en una frase en 'Mi proyecto'."
+        }
+      ],
+      "prompts": [
+        "c05-p01",
+        "c05-p02",
+        "c05-p03",
+        "c05-p04",
+        "c05-p05",
+        "c05-p06",
+        "c05-p07",
+        "c05-p08",
+        "c05-p09",
+        "c05-p10",
+        "c05-p11"
+      ],
+      "cadenas": [
+        "cad-c05-identidad-marca"
+      ]
+    },
+    {
+      "id": "web",
+      "slug": "web",
+      "titulo": "Mi plan web",
+      "capitulo_origen": 6,
+      "titulo_capitulo": "Adiós escaparates: diseñando sitios web que convierten",
+      "categoria": "Medios propios",
+      "objetivos_meta": [
+        "Tener una web que convierta"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c06-s1",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id_seccion": "c06-s2.1",
+          "titulo": "Dominio y hosting"
+        },
+        {
+          "id_seccion": "c06-s2.2",
+          "titulo": "CMS para la creación y diseño del sitio web"
+        },
+        {
+          "id_seccion": "c06-s2.3",
+          "titulo": "Funcionalidades del sitio web"
+        },
+        {
+          "id_seccion": "c06-s2.4",
+          "titulo": "Herramientas de IA para la creación del sitio web"
+        }
+      ],
+      "entregables": [
+        "c06-e01"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "marca",
+          "que_aporta": "La identidad verbal y visual que aplicarás al sitio.",
+          "alternativa_rapida": "Anota en 'Mi proyecto' tu tono de comunicación y tu eslogan provisional."
+        },
+        {
+          "plan": "customer-journey",
+          "que_aporta": "Los puntos de contacto que la web debe resolver.",
+          "alternativa_rapida": "Piensa qué tres preguntas se hace tu cliente antes de comprarte."
+        }
+      ],
+      "prompts": [
+        "c06-p01",
+        "c06-p02",
+        "c06-p03"
+      ],
+      "cadenas": [
+        "cad-c06-web",
+        "cad-c06-c08-imagen-a-video"
+      ]
+    },
+    {
+      "id": "seo",
+      "slug": "seo",
+      "titulo": "Mi plan SEO",
+      "capitulo_origen": 7,
+      "titulo_capitulo": "Visibilidad inevitable: estrategias para el posicionamiento orgánico",
+      "categoria": "Medios propios",
+      "objetivos_meta": [
+        "Aparecer en Google y en la IA"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c07-s1",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id_seccion": "c07-s2.1",
+          "titulo": "Keyword Research"
+        },
+        {
+          "id_seccion": "c07-s2.2",
+          "titulo": "Acciones de SEO OnPage"
+        },
+        {
+          "id_seccion": "c07-s3",
+          "titulo": "SEO OffPage"
+        },
+        {
+          "id_seccion": "c07-s4",
+          "titulo": "SEO técnico"
+        },
+        {
+          "id_seccion": "c07-s5",
+          "titulo": "Herramientas IA para SEO"
+        },
+        {
+          "id_seccion": "c07-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c07-e01",
+        "c07-e02",
+        "c07-e03",
+        "c07-e04"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "estrategico",
+          "que_aporta": "El buyer persona y sus puntos de dolor, base de las palabras clave.",
+          "alternativa_rapida": "Describe en 'Mi proyecto' a tu público y sus principales problemas."
+        },
+        {
+          "plan": "web",
+          "que_aporta": "Un sitio donde aplicar el SEO OnPage y técnico.",
+          "alternativa_rapida": "Puedes empezar con una sola página o un blog gratuito."
+        }
+      ],
+      "prompts": [
+        "c07-p01",
+        "c07-p02",
+        "c07-p03",
+        "c07-p04",
+        "c07-p05",
+        "c07-p06",
+        "c07-p07",
+        "c07-p08"
+      ],
+      "cadenas": [
+        "cad-c07-contenido-aeo",
+        "cad-c07-curacion"
+      ]
+    },
+    {
+      "id": "social-media",
+      "slug": "social-media",
+      "titulo": "Mi plan de social media",
+      "capitulo_origen": 8,
+      "titulo_capitulo": "Social media exponencial: de seguidores a clientes",
+      "categoria": "Medios propios",
+      "objetivos_meta": [
+        "Crecer en redes sociales",
+        "Crear contenido con IA"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c08-s1",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id_seccion": "c08-s2",
+          "titulo": "Anatomía de un algoritmo"
+        },
+        {
+          "id_seccion": "c08-s3",
+          "titulo": "Tipos de usuarios"
+        },
+        {
+          "id_seccion": "c08-s4",
+          "titulo": "Contenido, narrativas y copywriting orientado a la audiencia"
+        },
+        {
+          "id_seccion": "c08-s5",
+          "titulo": "Herramientas y asistencia IA para Social Media."
+        },
+        {
+          "id_seccion": "c08-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c08-e01",
+        "c08-e02",
+        "c08-e03",
+        "c08-e04",
+        "c08-e05"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "marca",
+          "que_aporta": "El tono y la identidad que mantendrás en cada red.",
+          "alternativa_rapida": "Elige tu tono de comunicación en 'Mi proyecto'."
+        }
+      ],
+      "prompts": [
+        "c08-p01",
+        "c08-p02",
+        "c08-p03",
+        "c08-p04",
+        "c08-p05",
+        "c08-p06",
+        "c08-p07",
+        "c08-p08",
+        "c08-p09",
+        "c08-p10",
+        "c08-p11",
+        "c08-p12",
+        "c08-p13",
+        "c08-p14",
+        "c08-p15",
+        "c08-p16",
+        "c08-p17",
+        "c08-p18"
+      ],
+      "cadenas": [
+        "cad-c06-c08-imagen-a-video",
+        "cad-c08-escaleta"
+      ]
+    },
+    {
+      "id": "email",
+      "slug": "email",
+      "titulo": "Mi plan de email marketing",
+      "capitulo_origen": 9,
+      "titulo_capitulo": "Email marketing: construye tu propia audiencia",
+      "categoria": "Medios propios",
+      "objetivos_meta": [
+        "Construir mi propia audiencia",
+        "Vender con una secuencia de emails"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c09-s1",
+          "titulo": "Definiciones clave y tendencias actualizadas"
+        },
+        {
+          "id_seccion": "c09-s2",
+          "titulo": "Terminología esencial en email marketing"
+        },
+        {
+          "id_seccion": "c09-s3",
+          "titulo": "Implicación del email en el Customer Journey Map"
+        },
+        {
+          "id_seccion": "c09-s4",
+          "titulo": "Herramientas y asistencia IA en email marketing"
+        },
+        {
+          "id_seccion": "c09-s5",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c09-e01",
+        "c09-e02",
+        "c09-e03",
+        "c09-e04",
+        "c09-e05",
+        "c09-e06",
+        "c09-e07",
+        "c09-e08",
+        "c09-e09"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "customer-journey",
+          "que_aporta": "Las etapas del recorrido donde encaja cada email.",
+          "alternativa_rapida": "Piensa qué necesita tu cliente antes, durante y después de comprar."
+        }
+      ],
+      "prompts": [
+        "c09-p01",
+        "c09-p02",
+        "c09-p03",
+        "c09-p04",
+        "c09-p05",
+        "c09-p06",
+        "c09-p07",
+        "c09-p08",
+        "c09-p09",
+        "c09-p10",
+        "c09-p11"
+      ],
+      "cadenas": [
+        "cad-c09-email"
+      ]
+    },
+    {
+      "id": "sem",
+      "slug": "sem",
+      "titulo": "Mi plan SEM",
+      "capitulo_origen": 10,
+      "titulo_capitulo": "Estrategias SEM optimizadas: rentabilizando la intención de búsqueda",
+      "categoria": "Medios pagados",
+      "objetivos_meta": [
+        "Vender con anuncios",
+        "Aparecer en Google y en la IA"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c10-s1",
+          "titulo": "¿Por qué el SEM sigue siendo una estrategia clave?"
+        },
+        {
+          "id_seccion": "c10-s2",
+          "titulo": "Definiciones básicas y tendencias"
+        },
+        {
+          "id_seccion": "c10-s3.1",
+          "titulo": "Sistema de Subasta de Google Ads"
+        },
+        {
+          "id_seccion": "c10-s3.2",
+          "titulo": "Tipos de campañas SEM en Google Ads"
+        },
+        {
+          "id_seccion": "c10-s3.3",
+          "titulo": "Estructura de campaña en Google Ads"
+        },
+        {
+          "id_seccion": "c10-s4",
+          "titulo": "Microsoft Advertising"
+        },
+        {
+          "id_seccion": "c10-s5",
+          "titulo": "Herramientas y asistencia IA para la gestión SEM"
+        },
+        {
+          "id_seccion": "c10-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c10-e01"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "seo",
+          "que_aporta": "La investigación de palabras clave que reutilizarás en las campañas.",
+          "alternativa_rapida": "Apunta cinco búsquedas que haría tu cliente para encontrarte."
+        },
+        {
+          "plan": "medicion",
+          "que_aporta": "La medición de conversiones para saber qué anuncio rinde.",
+          "alternativa_rapida": "Decide qué acción cuenta como conversión (compra, registro, llamada)."
+        }
+      ],
+      "prompts": [
+        "c10-p01",
+        "c10-p02",
+        "c10-p03",
+        "c10-p04",
+        "c10-p05",
+        "c10-p06",
+        "c10-p07",
+        "c10-p08",
+        "c10-p09"
+      ],
+      "cadenas": [
+        "cad-c10-sem",
+        "cad-c10-video-iteracion"
+      ]
+    },
+    {
+      "id": "social-ads",
+      "slug": "social-ads",
+      "titulo": "Mi plan de Social Ads",
+      "capitulo_origen": 11,
+      "titulo_capitulo": "Social ADS: atención a intención en un clic",
+      "categoria": "Medios pagados",
+      "objetivos_meta": [
+        "Vender con anuncios",
+        "Crecer en redes sociales"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c11-s1",
+          "titulo": "¿Por qué sigue siendo clave hacer Social Ads?"
+        },
+        {
+          "id_seccion": "c11-s2",
+          "titulo": "Definiciones clave y tendencias actualizadas"
+        },
+        {
+          "id_seccion": "c11-s3",
+          "titulo": "Aspectos estratégicos en Social Ads"
+        },
+        {
+          "id_seccion": "c11-s4",
+          "titulo": "Meta Ads y Advantage +"
+        },
+        {
+          "id_seccion": "c11-s5",
+          "titulo": "Google Ads | Youtube"
+        },
+        {
+          "id_seccion": "c11-s6",
+          "titulo": "Herramientas y asistencia IA para producción de contenido y gestión de Social Ads"
+        },
+        {
+          "id_seccion": "c11-s7",
+          "titulo": "Ejemplo completo de Social Ads para aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c11-e01",
+        "c11-e02",
+        "c11-e03",
+        "c11-e04",
+        "c11-e05",
+        "c11-e06"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "estrategico",
+          "que_aporta": "Los dolores y deseos del cliente para los bloques creativos.",
+          "alternativa_rapida": "Escribe en 'Mi proyecto' los puntos de dolor de tu cliente."
+        },
+        {
+          "plan": "social-media",
+          "que_aporta": "Contenido orgánico probado que puedes promocionar.",
+          "alternativa_rapida": "Empieza por un único formato (vídeo corto) y una red."
+        }
+      ],
+      "prompts": [
+        "c11-p01",
+        "c11-p02",
+        "c11-p03",
+        "c11-p04",
+        "c11-p05"
+      ],
+      "cadenas": [
+        "cad-c11-social-ads"
+      ]
+    },
+    {
+      "id": "influencers",
+      "slug": "influencers",
+      "titulo": "Mi plan de influencers y UGC",
+      "capitulo_origen": 12,
+      "titulo_capitulo": "Influencers y UGC: estrategias digitales para la creators economy",
+      "categoria": "Medios ganados",
+      "objetivos_meta": [
+        "Crecer en redes sociales",
+        "Ganar confianza con recomendaciones"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c12-s1",
+          "titulo": "¿Por qué sigue siendo clave el Influencer Marketing?"
+        },
+        {
+          "id_seccion": "c12-s2",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id_seccion": "c12-s3",
+          "titulo": "Herramientas y asistencia IA para la gestión de campañas de Influencer Marketing"
+        },
+        {
+          "id_seccion": "c12-s4",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c12-e01",
+        "c12-e02",
+        "c12-e03",
+        "c12-e04",
+        "c12-e05",
+        "c12-e06",
+        "c12-e07"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "estrategico",
+          "que_aporta": "El buyer persona para elegir al creador adecuado.",
+          "alternativa_rapida": "Describe a tu público en 'Mi proyecto'."
+        }
+      ],
+      "prompts": [
+        "c12-p01",
+        "c12-p02",
+        "c12-p03",
+        "c12-p04"
+      ],
+      "cadenas": [
+        "cad-c12-influencers"
+      ]
+    },
+    {
+      "id": "resenas",
+      "slug": "resenas",
+      "titulo": "Mi plan de reseñas",
+      "capitulo_origen": 13,
+      "titulo_capitulo": "Lo que dicen de ti, vende: diseñando un sistema de reseñas",
+      "categoria": "Medios ganados",
+      "objetivos_meta": [
+        "Cuidar mi reputación",
+        "Ganar confianza con recomendaciones"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c13-s1",
+          "titulo": "¿Por qué siguen siendo relevantes las reseñas?"
+        },
+        {
+          "id_seccion": "c13-s2",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id_seccion": "c13-s3",
+          "titulo": "Tendencias en la gestión de reseñas"
+        },
+        {
+          "id_seccion": "c13-s4",
+          "titulo": "Aspectos de valor en la gestión de reseñas"
+        },
+        {
+          "id_seccion": "c13-s5",
+          "titulo": "El proceso de planificación de reseñas"
+        },
+        {
+          "id_seccion": "c13-s6",
+          "titulo": "Herramientas y asistencia IA para la gestión de reseñas"
+        },
+        {
+          "id_seccion": "c13-s7",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ],
+      "entregables": [
+        "c13-e01"
+      ],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "customer-journey",
+          "que_aporta": "El momento del recorrido en que conviene pedir la reseña.",
+          "alternativa_rapida": "Decide cuándo está más satisfecho tu cliente (p. ej., tras la entrega)."
+        }
+      ],
+      "prompts": [
+        "c13-p01",
+        "c13-p02",
+        "c13-p03"
+      ],
+      "cadenas": [
+        "cad-c13-resenas"
+      ]
+    },
+    {
+      "id": "reputacion",
+      "slug": "reputacion",
+      "titulo": "Mi plan de reputación",
+      "capitulo_origen": 14,
+      "titulo_capitulo": "Reputación digital: gestión de la percepción de marca",
+      "categoria": "Medios ganados",
+      "objetivos_meta": [
+        "Cuidar mi reputación"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c14-s1",
+          "titulo": "¿Por qué sigue siendo clave la gestión de la reputación online?"
+        },
+        {
+          "id_seccion": "c14-s2",
+          "titulo": "Definiciones clave y tendencias"
+        },
+        {
+          "id_seccion": "c14-s3",
+          "titulo": "Aspectos de valor de la gestión de reputación"
+        },
+        {
+          "id_seccion": "c14-s4",
+          "titulo": "Sistema de gestión de reputación"
+        },
+        {
+          "id_seccion": "c14-s5",
+          "titulo": "Herramientas y asistencia IA para la gestión de reputación"
+        },
+        {
+          "id_seccion": "c14-s6",
+          "titulo": "Ejemplo completo para aulamarketing.digital"
+        }
+      ],
+      "entregables": [],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "resenas",
+          "que_aporta": "Un sistema de reseñas que alimenta la reputación.",
+          "alternativa_rapida": "Revisa hoy las reseñas que ya tienes en Google."
+        },
+        {
+          "plan": "marca",
+          "que_aporta": "Los valores de marca que guían cada respuesta.",
+          "alternativa_rapida": "Escribe tres valores de tu marca en 'Mi proyecto'."
+        }
+      ],
+      "prompts": [
+        "c14-p01",
+        "c14-p02",
+        "c14-p03",
+        "c14-p04",
+        "c14-p05",
+        "c14-p06",
+        "c14-p07"
+      ],
+      "cadenas": [
+        "cad-c14-reputacion",
+        "cad-c14-sombra-digital"
+      ]
+    },
+    {
+      "id": "medicion",
+      "slug": "medicion",
+      "titulo": "Mi plan de medición",
+      "capitulo_origen": 15,
+      "titulo_capitulo": "Controlling: el cuadro de mandos estratégico de tu marca",
+      "categoria": "Medición",
+      "objetivos_meta": [
+        "Medir mis resultados",
+        "Montar mi cuadro de mandos"
+      ],
+      "pasos": [
+        {
+          "id_seccion": "c15-s1",
+          "titulo": "¿Por qué debemos tener una etapa de controlling en nuestro plan de marketing digital?"
+        },
+        {
+          "id_seccion": "c15-s2",
+          "titulo": "Aspectos clave del controlling"
+        },
+        {
+          "id_seccion": "c15-s3",
+          "titulo": "Terminología esencial, tipologías y ejemplos"
+        },
+        {
+          "id_seccion": "c15-s4",
+          "titulo": "Implementación técnica: Píxeles y Google Tag Manager"
+        },
+        {
+          "id_seccion": "c15-s5",
+          "titulo": "Métricas clave"
+        },
+        {
+          "id_seccion": "c15-s6",
+          "titulo": "Optimización de la operativa del plan de marketing"
+        },
+        {
+          "id_seccion": "c15-s7",
+          "titulo": "Planificación"
+        },
+        {
+          "id_seccion": "c15-s8",
+          "titulo": "Herramientas y asistencia IA para planificación y controlling"
+        }
+      ],
+      "entregables": [],
+      "prerrequisitos_suaves": [
+        {
+          "plan": "estrategico",
+          "que_aporta": "Los objetivos SMART que vas a medir.",
+          "alternativa_rapida": "Escribe un objetivo con cifra y fecha (p. ej., 50 leads en 3 meses)."
+        }
+      ],
+      "prompts": [
+        "c15-p01",
+        "c15-p02",
+        "c15-p03",
+        "c15-p04",
+        "c15-p05",
+        "c15-p06",
+        "c15-p07"
+      ],
+      "cadenas": [
+        "cad-c15-cascada",
+        "cad-c15-medicion"
+      ]
+    }
+  ]
+}

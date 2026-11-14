@@ -1,0 +1,12 @@
+---
+// Tarjeta «Proyecto activo» (barra lateral). El nombre sale del estado local (piel.ts, data-js="proyecto-nombre").
+import Icon from './Icon.astro';
+---
+<div class="c-proyecto-activo">
+  <p class="c-overline c-proyecto-activo__cab"><span>Proyecto activo</span><span class="c-proyecto-activo__estado"><span class="c-dot" aria-hidden="true"></span>En este navegador</span></p>
+  <a href="/mi-proyecto/" class="c-proyecto-activo__nombre">
+    <span class="c-proyecto-activo__ico" aria-hidden="true"><Icon nombre="maletin" /></span>
+    <span data-solo-modo="proyecto" data-js="proyecto-nombre">Mi proyecto</span>
+    <span data-solo-modo="ejemplo">aulamarketing.digital <span class="c-meta">(ejemplo del libro)</span></span>
+  </a>
+</div>

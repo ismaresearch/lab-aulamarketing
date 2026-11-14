@@ -1,0 +1,1229 @@
+{
+  "id": "c04",
+  "numero": 4,
+  "parte": "Parte 1: ESTRATEGIA Y BRANDING",
+  "titulo": "Conceptos de inteligencia artificial: tu nuevo asistente de marketing",
+  "paginas_pdf": [
+    56,
+    63
+  ],
+  "paginas_libro": [
+    51,
+    58
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "En un momento histórico donde la tecnología avanza a una velocidad exponencial, las pequeñas y medianas empresas se enfrentan al desafío de mantenerse competitivas sin disponer de los recursos masivos de las grandes compañías. La inteligencia artificial y específicamente los Large Language Models (LLM), aparecen como un recurso que capacita el desarrollo de planes de marketing digital asistidos con herramientas potentes, cada vez más accesibles y que democratizan capacidades que antes estaban reservadas tan solo a unas pocas empresas. Los LLM representan una revolución profunda en cómo las empresas se comunican con sus clientes, crean contenido, analizan mercados o toman decisiones estratégicas entre muchas otras acciones. Desde ChatGPT de OpenAI hasta Gemini de Google, pasando por Claude de Anthropic y modelos de código abierto como Llama de Meta, Mistral, Kimi o Qwen estas tecnologías están redefiniendo las reglas del marketing. El valor diferencial de los LLM en las empresas de menor tamaño radica en su capacidad de automatizar tareas creativas y analíticas que tradicionalmente consumían tiempo y recursos desproporcionados. Una pequeña agencia de marketing puede ahora generar en minutos decenas de variaciones de copy publicitario, analizar sentimientos en miles de comentarios de clientes, personalizar comunicaciones a gran escala y construir chatbots sofisticados que ofrecen atención al cliente 24/7. Sin embargo, aunque expresado en estos términos suene a que la adaptación de estas tecnologías es tan sencillo como suscribirse a una plataforma y esperar resultados mágicos, en realidad requiere comprensión de los fundamentos técnicos, estrategia clara sobre dónde aplicarlas, enfoque ético en su implementación y mentalidad de aprendizaje continuo. Este capítulo busca orientarte para que dispongas de cierto contexto ahora que estás profundizando en tu formación en inteligencia artificial y aplicaciones de esta tecnología en el marketing digital. Hablaremos sobre LLM, aplicaciones prácticas, pasando por consideraciones éticas fundamentales y estrategias de implementación accesibles para organizaciones de cualquier tamaño.",
+    "narrativa_ana": null
+  },
+  "objetivos_aprendizaje": [
+    "Comprender el papel de la inteligencia artificial, y en especial de los LLM, como asistentes estratégicos en el marketing digital.",
+    "Identificar las principales tendencias de la IA en 2026 y su impacto en empresas, consumidores y procesos de marketing.",
+    "Diseñar prompts efectivos para obtener resultados útiles, precisos y adaptados a objetivos profesionales.",
+    "Gestionar de forma eficiente recursos como los tokens, optimizando coste, velocidad y calidad en el uso de IA.",
+    "Seleccionar el tipo de modelo (rápido vs. profundo, propietario vs. open source) más adecuado según la tarea de marketing."
+  ],
+  "secciones": [
+    {
+      "id": "c04-s1",
+      "numero": "1",
+      "titulo": "Tendencias en inteligencia artificial",
+      "pagina_pdf": 57,
+      "pagina_libro": 52,
+      "texto": "Disclaimer inicial: Seríamos tremendamente pretenciosos si pensáramos que lo que vamos a escribir aquí es la tendencia real para los próximos meses o años. Lo cierto es que se trata de una tecnología que avanza a un ritmo frenético y que ha experimentado grandes transformaciones en los últimos tres años, por lo que todo lo que describimos a continuación son líneas de tendencia en 2026. Pondremos especial énfasis en todo lo relacionado con el marketing digital y el impacto en empresas y consumidores.\nComenzamos con un golpe sobre la mesa, la consolidación de la IA generativa como estándar. Lo que comenzó como una locura tecnológica con el lanzamiento de ChatGPT en noviembre de 2022 se ha convertido en capacidad empresarial mainstream. En 2026, la adopción de IA generativa ya no es una ventaja competitiva experimental, es una expectativa básica. Según proyecciones de Bloomberg, el mercado de IA generativa alcanzará valoraciones superiores a 1,3 billones de dólares para 2032, impulsado principalmente por infraestructura y aplicaciones empresariales. Para las pequeñas y medianas empresas, esto significa que herramientas que hace tres años requerían equipos especializados ahora están disponibles mediante interfaces intuitivas y modelos con precios accesibles. Plataformas como ChatGPT Plus, Claude Pro, o incluso sus versiones gratuitas poseen igualmente grandes capacidades y han eliminado barreras de entrada tradicionales por lo que el coste de oportunidad de no usarlas en tu negocio es muy alto. Otra tendencia que se consolida es la especialización y multimodalidad de la inteligencia artificial. La evolución hacia modelos multimodales que procesan texto, imágenes, audio, video y datos estructurados simultáneamente. Los modelos que actualmente lideran el mercado permiten incorporar diferentes formatos de información para lanzar respuestas también en múltiples formas, texto, imagen, vídeo, código e incluso complejas interfaces con unos pocos clics.\nPor otra parte, también observamos como estos mismos modelos están siendo especialistas en ciertos usos, como en el caso de Nano Banana 2 de Google, que dentro del ecosistema de Gemini 3.1 Pro nos permite obtener imágenes de alta calidad con un solo prompt o el caso de Claude 4.6 Sonnet que a través de sus artefactos es capaz de construir sitios web, aplicaciones o incluso piezas de software con un modelo que se está convirtiendo en el estándar de vibe-coding (programar con pocos conocimientos apoyado en asistencia IA). Aunque es cierto que podrías estar usando solo un modelo para tus tareas del día a día, cada LLM muestra fortalezas diferenciadas. Por ejemplo, las últimas versiones de Chat GPT como la 5.2 o la 5.3 Instant son excelentes en razonamiento general y reducen gran parte de los errores además de que han optimizado mucho su versión para desarrolladores, con Codex 5.3. Además de como asistente de vibe-coding, Claude, de Anthropic, es extremadamente eficiente en el análisis de datos, creación de figuras y generación de informes extensos y profundos con tan solo un prompt bien diseñado. Cuando hablamos de Gemini de Google, habitualmente pensamos en la generación de imágenes con su modelo Nano Banana 2 mencionado previamente pero recordemos que es un modelo multimodal de gran versatilidad y también es ideal en análisis profundo y procesamiento en grandes volúmenes de datos. Sobre las principales IA de código abierto, lo cierto es que sorprenden por su agilidad, su eficiencia y la capacidad de ejecución en un entorno de privacidad, aunque no están pensados para todo tipo de tareas, lo cierto es que es interesante hacer comparativas de los modelos más reconocibles y Llama, Mistral, Qwen o Kimi. Las empresas están adoptando estrategias multi-modelo, utilizando diferentes LLM para diferentes fases del workflow según sus fortalezas específicas. Por ejemplo, Gemini para análisis de datos a gran escala, Claude para generación de código, y GPT para interfaces conversacionales con clientes.\n¿En qué se traducen estas capacidades dentro de un equipo pequeño de trabajo? Un modelo puede analizar una fotografía de producto y generar automáticamente descripciones SEO-optimizadas que capturan atributos visuales específicos, también puede crear campañas que combinan copy textual, sugerencias de imágenes y hasta storyboards para vídeo desde un único prompt, pueden generar sitios web o landing pages listas para usar en minutos y por si esto no fuera suficiente por sí solo, si lo combinas tal y como haremos a lo largo de este libro y lo completas con una ingeniería de prompt adecuada (también te damos apoyo con prompts en cada sección), conseguirás ejecutar un plan de marketing digital brillante con asistencia IA como el que podría lanzar una gran empresa con un equipo multidisciplinar.\nEs posible que hayas escuchado o visto en algún reel como los modelos chinos han hecho tambalear la bolsa de valores por su eficiencia. No se trata del lugar de donde vienen sino de la forma en la que han sido entrenados, estos modelos de código abierto son tendencia porque se han diseñado para rendir más con menos recursos. Paralelamente a los modelos propietarios, la explosión de LLM de código abierto está democratizando genuinamente el acceso a capacidades avanzadas. Las mencionamos unas líneas más arriba y ya es momento de destacar que Llama 4 de Meta, Mistral, GLM-5 de Zhipu AI o Qwen3.5 de Alibaba ofrecen rendimientos que rivalizan con GPT-5 en múltiples benchmarks pero pueden ejecutarse localmente sin costes recurrentes de API. En el caso de las empresas de menor tamaño con preocupaciones sobre privacidad de datos o costes escalables, estos modelos representan una alternativa estratégica realmente interesante. Herramientas como LM Studio, GPT4All u Ollama permiten instalar y ejecutar modelos potentes en hardware de escritorio convencional, creando \"ChatGPTs privados\" donde los datos nunca abandonan tu infraestructura.\nLa capacidad de los LLM para analizar comportamientos individuales y generar comunicaciones personalizadas también está elevando las expectativas de los consumidores. Aunque nos alejamos ligeramente del potencial para pequeñas empresas, cuando hablamos de líderes como Nike, Netflix o Sephora, ya no basta con la segmentación demográfica, los clientes esperan mensajes que reflejen sus preferencias específicas, historial de interacciones y contexto actual. Estos retailers utilizan LLM para ofrecer recomendaciones de productos en tiempo real completamente personalizadas, resolver dudas específicas mediante chatbots empáticos y generar contenido dinámico en emails que varía según el comportamiento de cada receptor. Esta hiper personalización, anteriormente reservada a gigantes tecnológicos, ahora comienza a ser accesible para el resto de empresas gracias a plataformas de automatización con LLM integrados. En este contexto la tendencia es hacia IA que se diluye en la infraestructura, integrándose nativamente en herramientas que los profesionales ya utilizan. Microsoft 365 Copilot integra GPT-5 en Word, Excel, PowerPoint y Outlook, Google Workspace incorpora Gemini en Docs, Sheets y Gmail y plataformas de CRM como Salesforce y HubSpot tienen capacidades de IA generativa nativas. En el caso de los marketers, esto significa que la IA no requiere aprender sistemas completamente nuevos sino potenciar workflows habituales con capacidades aumentadas. Redactar emails, analizar datos de campañas, generar presentaciones o gestionar leads se vuelven significativamente más eficientes cuando asistidos por IA contextual y veremos diferentes casos de uso a lo largo de este manual.\nYa casi estamos llegando al final pero no podemos terminar sin hablar de algo que verdaderamente cambiará la forma en la que diseñamos, ejecutamos y consumimos campañas de marketing digital, los agentes de IA. Más allá de chatbots conversacionales, la frontera actual es la IA agéntica: sistemas que pueden planificar secuencias de acciones, utilizar herramientas externas, verificar sus propios outputs y tomar decisiones autónomas dentro de parámetros definidos. Frameworks como Abacus, Lindy, LangChain, AutoGen o AWS Bedrock Agents permiten construir agentes que descomponen tareas complejas en pasos ejecutables, deciden qué herramientas invocar (APIs, bases de datos, motores de búsqueda), validan outputs intermedios antes de proceder y generan cadenas de razonamiento auditables. En marketing digital, esto se traduce en agentes que pueden investigar competidores, analizar tendencias, generar estrategias completas de contenido, ejecutar A/B tests y optimizar campañas con mínima supervisión humana.\nFinalmente no podemos cerrar esta sección sin mencionar los desafíos éticos. Con la adopción masiva han surgido preocupaciones legítimas sobre sesgos algorítmicos, privacidad de datos, transparencia de decisiones y responsabilidad cuando los sistemas cometen errores. La Unión Europea ha sido pionera con el AI Act, estableciendo marcos regulatorios que clasifican sistemas de IA por nivel de riesgo y establecen requisitos obligatorios para aplicaciones de alto impacto. Para las empresas el impacto directo se centra en la decisión de implementar IA es más que una decisión técnica, ahora será también una decisión legal y ética. Se requiere transparencia sobre cuándo los clientes interactúan con IA versus humanos, protección rigurosa de datos utilizados para entrenar o personalizar modelos, y mecanismos de auditoría para identificar y mitigar sesgos.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c04-h01",
+        "c04-h02",
+        "c04-h03",
+        "c04-h04",
+        "c04-h05",
+        "c04-h06",
+        "c04-h07",
+        "c04-h08",
+        "c04-h09",
+        "c04-h10",
+        "c04-h11",
+        "c04-h12",
+        "c04-h13",
+        "c04-h14",
+        "c04-h15",
+        "c04-h16",
+        "c04-h17",
+        "c04-h18",
+        "c04-h19",
+        "c04-h20",
+        "c04-h21",
+        "c04-h22",
+        "c04-h23",
+        "c04-h24",
+        "c04-h25",
+        "c04-h26",
+        "c04-h27",
+        "c04-h28"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c04-d01",
+        "c04-d02",
+        "c04-d03",
+        "c04-d04",
+        "c04-d05"
+      ]
+    },
+    {
+      "id": "c04-s2",
+      "numero": "2",
+      "titulo": "Conceptos fundamentales sobre IA",
+      "pagina_pdf": 59,
+      "pagina_libro": 54,
+      "texto": "Antes de comparar plataformas o modelos concretos, conviene comprender algunos conceptos fundamentales. Este apartado tiene un objetivo muy práctico, que cualquier persona del equipo, incluso sin experiencia técnica previa, pueda empezar a utilizar herramientas de inteligencia artificial con criterio, eficiencia y seguridad. En términos empresariales, la IA no debe entenderse únicamente como una herramienta “que genera textos”, es un sistema de apoyo para tareas de redacción, análisis, síntesis, clasificación, ideación y automatización. Para aprovecharla bien, el primer paso es aprender a generar solicitudes de asistencia adecuadas y aprender a gestionar el coste y la calidad de las interacciones.\nEsto nos lleva a la primera pregunta, ¿qué es un prompt? El prompt es la instrucción (o conjunto de instrucciones) que una persona introduce en una herramienta de IA para obtener una respuesta. Dicho de forma sencilla, es la forma en que traducimos una necesidad profesional a un lenguaje que el modelo pueda interpretar. Redactar un prompt no consiste sólo en escribir una pregunta. En la práctica, implica definir con claridad qué queremos, para qué lo queremos, en qué formato lo necesitamos y con qué nivel de detalle. Por eso, en un contexto de empresa, el prompt funciona como una micro-especificación de trabajo. Cuanto mejor esté formulado, menor será el número de iteraciones necesarias y mayor será la probabilidad de obtener una salida útil en menos tiempo. La calidad de un prompt depende de varios elementos: el objetivo, el contexto, la tarea concreta, el formato de salida, el tono o estilo, las restricciones y los criterios de calidad. Un prompt pobre suele ser vago, como por ejemplo “hazme un texto sobre esto”, mientras que un prompt profesional delimita finalidad, audiencia, extensión, enfoque y condiciones como en el caso de “redacta un email de seguimiento comercial para clientes B2B, tono formal, máximo 180 palabras, con CTA final y sin promesas no verificables”.\nLa siguiente cuestión a resolver será entonces, cómo estructurar un prompt según el tipo de solicitud. Aunque cada herramienta tiene sus particularidades, una estructura general muy útil es la siguiente: contexto + objetivo + tarea + formato + restricciones + criterio de calidad. Esta lógica se puede aplicar a texto, imagen o vídeo, adaptando el nivel de detalle. Cuando la solicitud es de texto, suele ser importante incluir quién es el destinatario, qué intención tiene la pieza (informar, vender, resumir, persuadir, explicar), qué tono se espera (formal, cercano, técnico, institucional), qué longitud aproximada debe tener y qué elementos deben aparecer obligatoriamente (por ejemplo, una propuesta de valor, una llamada a la acción o una advertencia legal). Cuando la solicitud es de imagen, la estructura debe desplazarse desde el “qué quiero decir” hacia el “qué quiero ver”. En este caso, resulta clave especificar sujeto, escenario, estilo visual, composición, iluminación, colores dominantes, formato (vertical/horizontal), nivel de realismo y restricciones (por ejemplo, “sin texto en imagen” o “sin estética cartoon”). En un entorno de marketing, una diferencia de detalle aparentemente pequeña como el tipo de luz o el encuadre puede cambiar por completo la utilidad de la pieza. Cuando la solicitud es de vídeo, la precisión debe aumentar todavía más, porque entra en juego el tiempo. Aquí conviene indicar duración, secuencia de escenas, movimiento de cámara, ritmo, estilo, continuidad visual, presencia o no de texto sobreimpreso, tipo de voz (si aplica) y sincronización con audio. En nuestros proyectos buscaremos aproximarnos al máximo a la coherencia de marca, incluyendo colores, tono, vestimenta, localizaciones, y consistencia de personajes entre planos. Todas estas cuestiones las ampliaremos en las secciones específicas de los siguientes capítulos a medida que lo vayamos necesitando. Te mostraremos los prompt, la justificación de uso y su estructura para que puedas adaptarla a tus necesidades.\nEn texto, el error más frecuente es no delimitar el propósito real. Un mismo tema puede requerir una nota interna, un post de LinkedIn, un guion de vídeo, un email comercial o una ficha de producto. Si el prompt no define el género de salida, la IA puede responder correctamente… pero con un formato inútil para la tarea. En imagen, el error más frecuente es la ambigüedad visual. Pedir “una imagen profesional” no es suficiente en un equipo de marketing. ¿Profesional en clave corporativa, editorial, lifestyle, tecnológica, institucional? La precisión visual reduce el tiempo y la eficacia de la tarea. En vídeo, el mayor reto es la continuidad. Generar una escena impactante puede ser relativamente sencillo, mantener personajes, iluminación, entorno y narrativa coherentes a lo largo de varios planos sigue siendo una exigencia alta. Por eso, en usos empresariales conviene trabajar con prompts muy estructurados, referencias visuales y flujos de revisión por fases (concepto, storyboard, prueba, versión final).\nUna recomendación útil es comprender desde el inicio que un buen prompt no nace perfecto. Lo profesional no es acertar a la primera, sino iterar con método, pedir una primera versión, evaluar, corregir instrucciones y consolidar plantillas reutilizables.",
+      "subsecciones": [],
+      "ids_prompts": [
+        "c04-p01",
+        "c04-p02",
+        "c04-p03",
+        "c04-p04",
+        "c04-p05"
+      ],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c04-d06",
+        "c04-d07",
+        "c04-d08",
+        "c04-d09",
+        "c04-d10",
+        "c04-d11",
+        "c04-d12",
+        "c04-d13",
+        "c04-d14",
+        "c04-d15",
+        "c04-d16",
+        "c04-d17",
+        "c04-d18"
+      ]
+    },
+    {
+      "id": "c04-s3",
+      "numero": "3",
+      "titulo": "Gestión de recursos y tokens",
+      "pagina_pdf": 60,
+      "pagina_libro": 55,
+      "texto": "Uno de los conceptos más importantes, y más ignorados al principio, es el de token. Explicado de forma sencilla, un token es una unidad mínima de texto que los modelos utilizan para procesar la información. No equivale exactamente a una palabra, una palabra puede dividirse en varios tokens, y signos, números o fragmentos de palabras también cuentan como tokens. Para una empresa, los tokens son un recurso crítico por una razón muy práctica, se relacionan con el coste, la velocidad y la capacidad de trabajo. Cada vez que escribimos una instrucción, añadimos contexto, subimos texto/documentos o pedimos una respuesta extensa, estamos consumiendo tokens. Ese consumo no solo afecta al precio en muchos entornos API, sino también al tiempo de respuesta y a la escalabilidad de los flujos de trabajo. En uso personal, un prompt largo puede parecer simplemente más completo. En uso empresarial, un prompt innecesariamente largo puede convertirse en una práctica costosa si se repite cientos o miles de veces. Por eso, la gestión de tokens forma parte de la eficiencia operativa de la IA. Además, los modelos tienen límites de contexto que se miden también en tokens. Cuando una conversación incorpora demasiada información irrelevante o mal organizada, el sistema puede volverse más lento, más caro o menos preciso. En términos de productividad, esto significa que no basta con dar mucho contexto, debemos dar el contexto correcto. Anthropic, por ejemplo, ha destacado en 2026 la disponibilidad de ventanas de contexto muy amplias, incluyendo 1M tokens en beta para modelos como Sonnet 4.6 y Opus 4.6, lo que amplía mucho las posibilidades de análisis documental y tareas de largo recorrido. Sin embargo, disponer de gran contexto no elimina la necesidad de trabajar con criterio; simplemente ofrece más margen operativo.\nCada interacción con una IA puede consumir tokens en tres bloques principales: el texto de entrada, que es lo que escribe el usuario, el contexto adicional, que serían las instrucciones previas, documentos, memoria de la conversación u otros aspectos, y la salida generada por el modelo, la respuesta. En otras palabras: no solo consume tokens lo que pides, sino también todo lo que arrastras y todo lo que generas. Esto tiene una consecuencia directa cuando estamos en un entorno de trabajo, cuanto más improvisado sea el uso, más probable es que se acumulen instrucciones redundantes, repeticiones y contexto inútil. Por el contrario, cuando se utilizan plantillas bien diseñadas, prompts estandarizados y entornos organizados por tareas, el consumo suele ser más eficiente y la calidad más estable.\nEs importante mencionar que no todos los modelos consumen recursos de la misma manera ni están pensados para el mismo tipo de trabajo. En general, los modelos más rápidos y ligeros están optimizados para respuestas veloces, tareas repetitivas y flujos de alto volumen; los modelos más avanzados o de razonamiento profundo suelen ser más adecuados para análisis complejos, pero también pueden implicar mayor latencia y/o mayor coste operativo según la plataforma. Aquí cobra especial importancia la organización del trabajo. En entornos como ChatGPT, el uso de asistentes personalizados (GPTs) y de espacios organizados por proyecto permite reducir repetición de instrucciones y mejorar consistencia. En lugar de reexplicar el mismo contexto cada día, el equipo puede trabajar con configuraciones reutilizables y conversaciones agrupadas por temática. Esto mejora la experiencia y puede reducir consumo innecesario y errores de interpretación. La idea clave podría resumirse en que la eficiencia en las interacciones con la IA no consiste en pedir menos, sino en pedir mejor.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c04-h29",
+        "c04-h30"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c04-d19",
+        "c04-d20",
+        "c04-d21",
+        "c04-d22",
+        "c04-d23"
+      ]
+    },
+    {
+      "id": "c04-s4",
+      "numero": "4",
+      "titulo": "Modelos de lenguaje rápidos o modelos profundos",
+      "pagina_pdf": 61,
+      "pagina_libro": 56,
+      "texto": "Una de las confusiones más habituales cuando empezamos a usar IA es pensar que todos los modelos hacen lo mismo y que solo cambian en calidad. En realidad, es interesante distinguir entre modelos más orientados a velocidad y coste y modelos más orientados a razonamiento profundo y tareas complejas. Esta diferencia no significa que uno sea bueno y otro malo, simplemente están optimizados para usos distintos.\nUn modelo rápido puede ser excelente para clasificación, borradores, resúmenes breves o soporte operativo. Un modelo de razonamiento más largo puede ser mejor para análisis estratégico, planificación, comparaciones complejas, revisión de documentos extensos o tareas donde el error cuesta mucho. Los modelos rápidos suelen ofrecer tiempos de respuesta bajos y una buena relación coste-rendimiento. Son especialmente útiles en procesos de alto volumen como la atención interna, preclasificación de leads, generación de borradores, FAQs, reformulación de textos, etiquetado y automatizaciones. Los modelos de razonamiento más profundo están pensados para tareas donde el valor no está en responder rápido, sino en responder bien a problemas ambiguos o multi-etapa. En tareas de marketing digital podríamos hablar de diseño de estrategia, análisis de investigación de mercado, revisión de propuestas, comparación de posicionamientos o evaluación crítica de contenidos. Google, por ejemplo, presenta modelos con perfiles diferenciados como líneas Pro y Flash y destaca para algunos modelos capacidades de razonamiento, multimodalidad y control de thinking budgets en ciertos casos, lo que refleja esta lógica de optimización por uso.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c04-h31"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c04-d24",
+        "c04-d25"
+      ]
+    },
+    {
+      "id": "c04-s5",
+      "numero": "5",
+      "titulo": "Diferencias entre familias de modelos: Chat GPT, Claude y Gemini",
+      "pagina_pdf": 61,
+      "pagina_libro": 56,
+      "texto": "En el caso de ChatGPT, más que pensar solo en un modelo único, es útil entenderlo como un entorno de trabajo con variantes y modos de uso que pueden equilibrar rapidez, razonamiento y herramientas. ChatGPT puede servir tanto para producción rápida como para tareas más elaboradas, la clave está en elegir el flujo de trabajo adecuado y no sobrecargarlo con prompts mal definidos. En el caso de Claude, la familia de modelos se comunica de forma más explícita por series. La nomenclatura Haiku, Sonnet y Opus ayuda precisamente a entender perfiles de uso diferenciados. Haiku se asocia a velocidad y eficiencia, Sonnet a equilibrio entre calidad, coste y versatilidad y Opus a máxima capacidad para tareas exigentes. Esta simplificación está asociada a una advertencia, ya que el rendimiento real depende de la versión concreta del modelo, del tipo de tarea y del prompt utilizado. Google Gemini también se entiende mejor cuando se presenta por casos de uso. Dispone de versiones orientadas a rapidez como Flash, y variantes como Flash-Lite y de versiones orientadas a mayor capacidad como la Pro, incluyendo la incorporación reciente de Gemini 3.1 Pro. Respecto a los casos de uso, lo importante no es recordar concretamente la versión sino considerar la necesidad del modelo para cada tarea, para la profundidad o multimodalidad y adecuar el prompt. Dedicaremos una mención específica a Perplexity, ya que es más una herramienta de búsqueda, investigación y respuesta asistida por IA que incorpora acceso a distintos modelos en sus planes avanzados y añade valor en la capa de experiencia para búsqueda, síntesis, fuentes o comparación. La propuesta de Perplexity Pro destaca precisamente por ofrecer selección entre varios modelos de última generación como GPT-5.2, Gemini 3.1 Pro, Grok 4.1 y otros, lo que la convierte en una plataforma interesante para usuarios profesionales que necesitan comparar enfoques o priorizar verificación.\nPara cerrar este bloque introductorio, queremos incorporar una idea que suele pasar desapercibida: la IA está presente de forma activa en múltiples espacios de uso, integrada para facilitar incluso nuestra navegación. Probablemente ya hayas usado el modo IA o AI Mode de Google en sus resultados de búsqueda pero esta idea es ir un paso más allá. Este cambio es importante porque modifica la forma de interactuar con la web. Ya no se trata únicamente de abrir páginas sino de resumirlas, preguntar sobre su contenido, reorganizar información, automatizar acciones o convertir la navegación en un flujo de tareas asistido. Aunque todavía se trata de un campo en evolución, su importancia es clara porque desplazan la IA desde la ventana de chat hacia el propio entorno donde trabajamos diariamente, el navegador.\nAtlas es el navegador con ChatGPT integrado como capa nativa de asistencia. OpenAI lo presenta como un navegador centrado en llevar su modelo al contexto real de navegación, con funciones como respuestas instantáneas, ayuda contextual y análisis de páginas desde una barra lateral integrada. La propuesta de valor no es solo buscar mejor, sino trabajar dentro de la web con ayuda del modelo en tiempo real. Comet, de Perplexity, se posiciona como un navegador con un enfoque más explícitamente orientado a la idea de asistente personal dentro del navegador. Perplexity lo presenta como una herramienta capaz de combinar navegación, investigación y delegación de tareas, por ejemplo, organizar información, investigar, asistir en procesos cotidianos o interactuar con contenidos web con apoyo del asistente. Un rasgo especialmente relevante de Comet para el contexto empresarial es que Perplexity ha reforzado la lógica de multi-modelo en su ecosistema, incluyendo la posibilidad de seleccionar modelos para el agente del navegador en determinados planes, lo que refleja una tendencia más amplia del mercado, no usar una sola IA para todo, sino elegir el modelo según la tarea. Estos navegadores anticipan una nueva forma de consumo y procesamiento de la información: los contenidos web ya no se leen únicamente de forma lineal por una persona, sino que pueden ser interpretados, resumidos y reutilizados por asistentes integrados en el navegador. Si lo reflexionamos desde la perspectiva del marketing digital, esto sugiere una consecuencia importante, cada vez será más valioso crear contenidos con estructura clara, semántica precisa, datos verificables y buena organización informativa, porque esa calidad no solo ayuda al usuario humano, sino también a los sistemas de IA que median la lectura y la síntesis.\nEntre los LLM más destacados encontramos a ChatGPT de OpenAI actualmente en su versión 5.3 garantiza una versatilidad excepcional, interfaz intuitiva, capacidades multimodales a través de texto, imagen o voz y una extensa integración con herramientas de terceros mediante plugins. Dentro de sus aplicaciones encontramos a Sora 2, su modelo de generación de vídeo que además se integra dentro de su propia red social llamada también Sora. ChatGPT Images nos permite crear imágenes dentro de la interfaz nativa del LLM y Codex es un excelente asistente de programación con su propia aplicación para macOS. Una de las interesantes ventajas de este LLM es la posibilidad de utilizar su modelo para crear asistentes específicos llamados GPT y que nos permiten otorgar una serie de instrucciones precisas que recordará, junto a una documentación específica que revisará en cada interacción y que nos facilita la reducción de errores, la alineación de comportamiento y respuestas y el área de aplicación. Un posible ejemplo es la creación de un GPT para la redacción de contenido web para nuestra marca. Si lo configuramos a medida, los resultados serán realmente sorprendentes. En la misma línea, también podemos utilizar los proyectos para almacenar chats de la misma temática e ir ampliando el contexto de esas conversaciones, donde también la memoria se reserva exclusivamente.\nClaude de Anthropic es conocido por ser uno de los modelos más avanzados y que más está evolucionando en su razonamiento sin alucinaciones. Sobresale en análisis profundo, revisión de documentos extensos, razonamiento estructurado y tareas donde la precisión argumentativa y el control del riesgo son prioritarios. Es especialmente útil para marketing estratégico, documentación corporativa, resúmenes ejecutivos, revisión de propuestas y contextos con requisitos legales. Su estilo suele ser más prudente, lo que puede percibirse como menor agresividad creativa, pero también como una ventaja en muchos sectores. Sus potenciales fortalezas son como modelo de generación y edición de código, análisis profundo y generación de contenido largo de alta calidad, resúmenes ejecutivos y desarrollo de paneles y dashboard con datos. Aunque no profundizaremos en él, posee un ecosistema de apoyo a múltiples tareas de desarrollo y conexión con múltiples herramientas llamado Claude Code y que se basa en un protocolo creado por Anthropic que se ha convertido en un estándar del mundo del IA, los MCP. En términos sencillos, se trata de una forma de conexión y comunicación entre diferentes herramientas basadas en la interacción con modelos de IA. Como ocurre con ChatGPT, también podemos trabajar en carpetas contextuales, por lo que se contextualizan las funciones del modelo en los chats que pertenecen a ese proyecto. Esto nos permite crear carpetas de proyecto para generar por ejemplo, textos para producto, creativos para redes sociales o informes mensuales en base a datos, cada uno en su proyecto y sin necesidad de describir constantemente lo que queremos del modelo (el rol, información de contexto o el formato de salida).\nGemini de Google es realmente un modelo que ha ido evolucionando de forma progresiva y hoy ya lidera diferentes áreas de uso. Es especialmente capaz en multimodalidad nativa avanzada, tiene una gran ventana de contexto y destaca por su integración profunda con el ecosistema Google. Uno de sus principales aspectos ha sido que dentro de su interfaz han integrado de manera brillante capacidades para generar imágenes y para generar código, e incluso poder visualizar resultados de código de manera muy atractiva, siendo uno de los modelos que mejores resultados puede facilitarnos. Por otra parte, también han integrado herramientas nuevas dentro del ecosistema de Google adaptadas al uso de Gemini. En este caso, la plataforma de código Antigravity ya se ha convertido en uno de los nuevos líderes de uso donde, teniendo como base el modelo de Gemini, conseguimos resultados verdaderamente espectaculares y comienza ya a mantenerse en un nivel de competencia muy interesante con Claude Code. Respecto al área de marketing, los modelos flash, de razonamiento y Pro de Gemini nos van a permitir analizar grandes volúmenes de datos estructurados y no estructurados, investigación de mercado, optimización de campañas en Google Ads o curación de contenido entre muchas otras tareas.\nFinalmente damos un espacio a los modelos de código abierto, ya que amplían el potencial de uso y su adaptación a un espectro sin límites. Algunos como Kimi, Qwen o Llama 4 de Meta, ya se comparan a grandes modelos con un entorno ejecutable en local (en máquinas de gran rendimiento) y es destacable su uso en proyectos donde la privacidad de datos es crítica o donde buscamos desarrollar aplicaciones o software de forma completamente personalizada y que no genere costes recurrentes en prototipado, siempre que el hardware lo soporte, ya que requiere una gran infraestructura técnica y su curva de aprendizaje es muy pronunciada.\nDesde aquí, damos paso al branding, con toda la información de la que dispones en este momento, ahora ya puedes profundizar sobre el diseño, ejecución y control de tu propio plan de marketing digital con asistencia IA, donde te recomendamos herramientas digitales y herramientas de IA además de prompts específicos para que puedas ejecutar tu plan sobre la marcha.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c04-h32",
+        "c04-h33",
+        "c04-h34",
+        "c04-h35",
+        "c04-h36",
+        "c04-h37",
+        "c04-h38",
+        "c04-h39",
+        "c04-h40",
+        "c04-h41",
+        "c04-h42",
+        "c04-h43",
+        "c04-h44",
+        "c04-h45",
+        "c04-h46",
+        "c04-h47",
+        "c04-h48",
+        "c04-h49",
+        "c04-h50",
+        "c04-h51",
+        "c04-h52"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c04-d26",
+        "c04-d27",
+        "c04-d28",
+        "c04-d29",
+        "c04-d30",
+        "c04-d31",
+        "c04-d32"
+      ]
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c04-d01",
+      "termino": "Multimodalidad",
+      "definicion": "La evolución hacia modelos multimodales que procesan texto, imágenes, audio, video y datos estructurados simultáneamente.",
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57
+    },
+    {
+      "id": "c04-d02",
+      "termino": "Vibe-coding",
+      "definicion": "vibe-coding (programar con pocos conocimientos apoyado en asistencia IA)",
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57
+    },
+    {
+      "id": "c04-d03",
+      "termino": "Estrategias multi-modelo",
+      "definicion": "Las empresas están adoptando estrategias multi-modelo, utilizando diferentes LLM para diferentes fases del workflow según sus fortalezas específicas.",
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57
+    },
+    {
+      "id": "c04-d04",
+      "termino": "IA agéntica",
+      "definicion": "la frontera actual es la IA agéntica: sistemas que pueden planificar secuencias de acciones, utilizar herramientas externas, verificar sus propios outputs y tomar decisiones autónomas dentro de parámetros definidos.",
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58
+    },
+    {
+      "id": "c04-d05",
+      "termino": "AI Act",
+      "definicion": "La Unión Europea ha sido pionera con el AI Act, estableciendo marcos regulatorios que clasifican sistemas de IA por nivel de riesgo y establecen requisitos obligatorios para aplicaciones de alto impacto.",
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58
+    },
+    {
+      "id": "c04-d06",
+      "termino": "IA (en términos empresariales)",
+      "definicion": "En términos empresariales, la IA no debe entenderse únicamente como una herramienta “que genera textos”, es un sistema de apoyo para tareas de redacción, análisis, síntesis, clasificación, ideación y automatización.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d07",
+      "termino": "Prompt",
+      "definicion": "El prompt es la instrucción (o conjunto de instrucciones) que una persona introduce en una herramienta de IA para obtener una respuesta. Dicho de forma sencilla, es la forma en que traducimos una necesidad profesional a un lenguaje que el modelo pueda interpretar.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d08",
+      "termino": "Prompt como micro-especificación de trabajo",
+      "definicion": "Por eso, en un contexto de empresa, el prompt funciona como una micro-especificación de trabajo.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d09",
+      "termino": "Elementos de la calidad de un prompt",
+      "definicion": "La calidad de un prompt depende de varios elementos: el objetivo, el contexto, la tarea concreta, el formato de salida, el tono o estilo, las restricciones y los criterios de calidad.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d10",
+      "termino": "Estructura general de un prompt",
+      "definicion": "una estructura general muy útil es la siguiente: contexto + objetivo + tarea + formato + restricciones + criterio de calidad.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d11",
+      "termino": "Prompt de texto (elementos)",
+      "definicion": "Cuando la solicitud es de texto, suele ser importante incluir quién es el destinatario, qué intención tiene la pieza (informar, vender, resumir, persuadir, explicar), qué tono se espera (formal, cercano, técnico, institucional), qué longitud aproximada debe tener y qué elementos deben aparecer obligatoriamente (por ejemplo, una propuesta de valor, una llamada a la acción o una advertencia legal).",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d12",
+      "termino": "Prompt de imagen (elementos)",
+      "definicion": "Cuando la solicitud es de imagen, la estructura debe desplazarse desde el “qué quiero decir” hacia el “qué quiero ver”. En este caso, resulta clave especificar sujeto, escenario, estilo visual, composición, iluminación, colores dominantes, formato (vertical/horizontal), nivel de realismo y restricciones (por ejemplo, “sin texto en imagen” o “sin estética cartoon”).",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d13",
+      "termino": "Prompt de vídeo (elementos)",
+      "definicion": "Cuando la solicitud es de vídeo, la precisión debe aumentar todavía más, porque entra en juego el tiempo. Aquí conviene indicar duración, secuencia de escenas, movimiento de cámara, ritmo, estilo, continuidad visual, presencia o no de texto sobreimpreso, tipo de voz (si aplica) y sincronización con audio.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d14",
+      "termino": "Error más frecuente en prompts de texto",
+      "definicion": "En texto, el error más frecuente es no delimitar el propósito real.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d15",
+      "termino": "Error más frecuente en prompts de imagen",
+      "definicion": "En imagen, el error más frecuente es la ambigüedad visual.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d16",
+      "termino": "Mayor reto en prompts de vídeo",
+      "definicion": "En vídeo, el mayor reto es la continuidad.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59
+    },
+    {
+      "id": "c04-d17",
+      "termino": "Flujo de revisión por fases (vídeo)",
+      "definicion": "en usos empresariales conviene trabajar con prompts muy estructurados, referencias visuales y flujos de revisión por fases (concepto, storyboard, prueba, versión final).",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 60
+    },
+    {
+      "id": "c04-d18",
+      "termino": "Iteración de prompts",
+      "definicion": "Lo profesional no es acertar a la primera, sino iterar con método, pedir una primera versión, evaluar, corregir instrucciones y consolidar plantillas reutilizables.",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 60
+    },
+    {
+      "id": "c04-d19",
+      "termino": "Token",
+      "definicion": "un token es una unidad mínima de texto que los modelos utilizan para procesar la información. No equivale exactamente a una palabra, una palabra puede dividirse en varios tokens, y signos, números o fragmentos de palabras también cuentan como tokens.",
+      "id_seccion": "c04-s3",
+      "pagina_pdf": 60
+    },
+    {
+      "id": "c04-d20",
+      "termino": "Uso personal frente a uso empresarial (tokens)",
+      "definicion": "En uso personal, un prompt largo puede parecer simplemente más completo. En uso empresarial, un prompt innecesariamente largo puede convertirse en una práctica costosa si se repite cientos o miles de veces.",
+      "id_seccion": "c04-s3",
+      "pagina_pdf": 60
+    },
+    {
+      "id": "c04-d21",
+      "termino": "Límites de contexto",
+      "definicion": "Además, los modelos tienen límites de contexto que se miden también en tokens.",
+      "id_seccion": "c04-s3",
+      "pagina_pdf": 60
+    },
+    {
+      "id": "c04-d22",
+      "termino": "Bloques de consumo de tokens",
+      "definicion": "Cada interacción con una IA puede consumir tokens en tres bloques principales: el texto de entrada, que es lo que escribe el usuario, el contexto adicional, que serían las instrucciones previas, documentos, memoria de la conversación u otros aspectos, y la salida generada por el modelo, la respuesta.",
+      "id_seccion": "c04-s3",
+      "pagina_pdf": 60
+    },
+    {
+      "id": "c04-d23",
+      "termino": "Eficiencia en las interacciones con la IA",
+      "definicion": "La idea clave podría resumirse en que la eficiencia en las interacciones con la IA no consiste en pedir menos, sino en pedir mejor.",
+      "id_seccion": "c04-s3",
+      "pagina_pdf": 60
+    },
+    {
+      "id": "c04-d24",
+      "termino": "Modelo rápido",
+      "definicion": "Un modelo rápido puede ser excelente para clasificación, borradores, resúmenes breves o soporte operativo.",
+      "id_seccion": "c04-s4",
+      "pagina_pdf": 61
+    },
+    {
+      "id": "c04-d25",
+      "termino": "Modelo de razonamiento profundo",
+      "definicion": "Los modelos de razonamiento más profundo están pensados para tareas donde el valor no está en responder rápido, sino en responder bien a problemas ambiguos o multi-etapa.",
+      "id_seccion": "c04-s4",
+      "pagina_pdf": 61
+    },
+    {
+      "id": "c04-d26",
+      "termino": "Haiku, Sonnet y Opus (Claude)",
+      "definicion": "Haiku se asocia a velocidad y eficiencia, Sonnet a equilibrio entre calidad, coste y versatilidad y Opus a máxima capacidad para tareas exigentes.",
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61
+    },
+    {
+      "id": "c04-d27",
+      "termino": "Perplexity",
+      "definicion": "Perplexity, ya que es más una herramienta de búsqueda, investigación y respuesta asistida por IA que incorpora acceso a distintos modelos en sus planes avanzados y añade valor en la capa de experiencia para búsqueda, síntesis, fuentes o comparación.",
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61
+    },
+    {
+      "id": "c04-d28",
+      "termino": "Atlas",
+      "definicion": "Atlas es el navegador con ChatGPT integrado como capa nativa de asistencia.",
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62
+    },
+    {
+      "id": "c04-d29",
+      "termino": "Comet",
+      "definicion": "Comet, de Perplexity, se posiciona como un navegador con un enfoque más explícitamente orientado a la idea de asistente personal dentro del navegador.",
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62
+    },
+    {
+      "id": "c04-d30",
+      "termino": "GPT (asistentes específicos de ChatGPT)",
+      "definicion": "la posibilidad de utilizar su modelo para crear asistentes específicos llamados GPT y que nos permiten otorgar una serie de instrucciones precisas que recordará, junto a una documentación específica que revisará en cada interacción y que nos facilita la reducción de errores, la alineación de comportamiento y respuestas y el área de aplicación.",
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62
+    },
+    {
+      "id": "c04-d31",
+      "termino": "MCP",
+      "definicion": "un protocolo creado por Anthropic que se ha convertido en un estándar del mundo del IA, los MCP. En términos sencillos, se trata de una forma de conexión y comunicación entre diferentes herramientas basadas en la interacción con modelos de IA.",
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62
+    },
+    {
+      "id": "c04-d32",
+      "termino": "Carpetas contextuales / proyectos (Claude)",
+      "definicion": "Como ocurre con ChatGPT, también podemos trabajar en carpetas contextuales, por lo que se contextualizan las funciones del modelo en los chats que pertenecen a ese proyecto.",
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c04-p01",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "pagina_libro": 54,
+      "origen": "texto",
+      "texto": "hazme un texto sobre esto",
+      "contexto_previo": "Un prompt pobre suele ser vago, como por ejemplo",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "nota": "Ejemplo de prompt pobre (vago) que da el libro."
+    },
+    {
+      "id": "c04-p02",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "pagina_libro": 54,
+      "origen": "texto",
+      "texto": "redacta un email de seguimiento comercial para clientes B2B, tono formal, máximo 180 palabras, con CTA final y sin promesas no verificables",
+      "contexto_previo": "mientras que un prompt profesional delimita finalidad, audiencia, extensión, enfoque y condiciones como en el caso de",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "nota": "Ejemplo de prompt profesional que da el libro, contrapuesto al anterior."
+    },
+    {
+      "id": "c04-p03",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "pagina_libro": 54,
+      "origen": "texto",
+      "texto": "sin texto en imagen",
+      "contexto_previo": "En este caso, resulta clave especificar sujeto, escenario, estilo visual, composición, iluminación, colores dominantes, formato (vertical/horizontal), nivel de realismo y restricciones (por ejemplo,",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "nota": "Fragmento de prompt de imagen: ejemplo de restricción."
+    },
+    {
+      "id": "c04-p04",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "pagina_libro": 54,
+      "origen": "texto",
+      "texto": "sin estética cartoon",
+      "contexto_previo": "y restricciones (por ejemplo, “sin texto en imagen” o",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "nota": "Fragmento de prompt de imagen: ejemplo de restricción."
+    },
+    {
+      "id": "c04-p05",
+      "id_seccion": "c04-s2",
+      "pagina_pdf": 59,
+      "pagina_libro": 54,
+      "origen": "texto",
+      "texto": "una imagen profesional",
+      "contexto_previo": "En imagen, el error más frecuente es la ambigüedad visual. Pedir",
+      "contexto_posterior": "no es suficiente en un equipo de marketing. ¿Profesional en clave corporativa, editorial, lifestyle, tecnológica, institucional?",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null,
+      "nota": "Ejemplo de petición de imagen ambigua (error frecuente)."
+    }
+  ],
+  "herramientas_mencionadas": [
+    {
+      "id": "c04-h01",
+      "nombre": "ChatGPT (OpenAI)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Lo que comenzó como una locura tecnológica con el lanzamiento de ChatGPT en noviembre de 2022 se ha convertido en capacidad empresarial mainstream.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h02",
+      "nombre": "ChatGPT Plus",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Plataformas como ChatGPT Plus, Claude Pro, o incluso sus versiones gratuitas poseen igualmente grandes capacidades y han eliminado barreras de entrada tradicionales",
+      "es_ia": "true",
+      "gratuita_o_pago": "pago (las versiones gratuitas también se citan)",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h03",
+      "nombre": "Claude Pro",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Plataformas como ChatGPT Plus, Claude Pro, o incluso sus versiones gratuitas poseen igualmente grandes capacidades y han eliminado barreras de entrada tradicionales",
+      "es_ia": "true",
+      "gratuita_o_pago": "pago (las versiones gratuitas también se citan)",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h04",
+      "nombre": "Nano Banana 2 (Google)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Nano Banana 2 de Google, que dentro del ecosistema de Gemini 3.1 Pro nos permite obtener imágenes de alta calidad con un solo prompt",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h05",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Nano Banana 2 de Google, que dentro del ecosistema de Gemini 3.1 Pro nos permite obtener imágenes de alta calidad con un solo prompt",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h06",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Claude 4.6 Sonnet que a través de sus artefactos es capaz de construir sitios web, aplicaciones o incluso piezas de software con un modelo que se está convirtiendo en el estándar de vibe-coding",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h07",
+      "nombre": "Chat GPT 5.2 / 5.3 Instant",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "las últimas versiones de Chat GPT como la 5.2 o la 5.3 Instant son excelentes en razonamiento general y reducen gran parte de los errores",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h08",
+      "nombre": "Codex 5.3",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "han optimizado mucho su versión para desarrolladores, con Codex 5.3",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h09",
+      "nombre": "Claude (Anthropic)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Además de como asistente de vibe-coding, Claude, de Anthropic, es extremadamente eficiente en el análisis de datos, creación de figuras y generación de informes extensos y profundos con tan solo un prompt bien diseñado.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h10",
+      "nombre": "Gemini (Google)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "recordemos que es un modelo multimodal de gran versatilidad y también es ideal en análisis profundo y procesamiento en grandes volúmenes de datos.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h11",
+      "nombre": "Llama / Llama 4 (Meta)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Llama 4 de Meta, Mistral, GLM-5 de Zhipu AI o Qwen3.5 de Alibaba ofrecen rendimientos que rivalizan con GPT-5 en múltiples benchmarks pero pueden ejecutarse localmente sin costes recurrentes de API.",
+      "es_ia": "true",
+      "gratuita_o_pago": "código abierto",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h12",
+      "nombre": "Mistral",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Llama 4 de Meta, Mistral, GLM-5 de Zhipu AI o Qwen3.5 de Alibaba ofrecen rendimientos que rivalizan con GPT-5 en múltiples benchmarks pero pueden ejecutarse localmente sin costes recurrentes de API.",
+      "es_ia": "true",
+      "gratuita_o_pago": "código abierto",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h13",
+      "nombre": "Kimi",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 57,
+      "descripcion_libro": "Sobre las principales IA de código abierto, lo cierto es que sorprenden por su agilidad, su eficiencia y la capacidad de ejecución en un entorno de privacidad",
+      "es_ia": "true",
+      "gratuita_o_pago": "código abierto",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h14",
+      "nombre": "Qwen / Qwen3.5 (Alibaba)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Llama 4 de Meta, Mistral, GLM-5 de Zhipu AI o Qwen3.5 de Alibaba ofrecen rendimientos que rivalizan con GPT-5 en múltiples benchmarks pero pueden ejecutarse localmente sin costes recurrentes de API.",
+      "es_ia": "true",
+      "gratuita_o_pago": "código abierto",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h15",
+      "nombre": "GLM-5 (Zhipu AI)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Llama 4 de Meta, Mistral, GLM-5 de Zhipu AI o Qwen3.5 de Alibaba ofrecen rendimientos que rivalizan con GPT-5 en múltiples benchmarks pero pueden ejecutarse localmente sin costes recurrentes de API.",
+      "es_ia": "true",
+      "gratuita_o_pago": "código abierto",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h16",
+      "nombre": "GPT-5",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "ofrecen rendimientos que rivalizan con GPT-5 en múltiples benchmarks",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h17",
+      "nombre": "LM Studio",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Herramientas como LM Studio, GPT4All u Ollama permiten instalar y ejecutar modelos potentes en hardware de escritorio convencional, creando \"ChatGPTs privados\" donde los datos nunca abandonan tu infraestructura.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h18",
+      "nombre": "GPT4All",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Herramientas como LM Studio, GPT4All u Ollama permiten instalar y ejecutar modelos potentes en hardware de escritorio convencional, creando \"ChatGPTs privados\" donde los datos nunca abandonan tu infraestructura.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h19",
+      "nombre": "Ollama",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Herramientas como LM Studio, GPT4All u Ollama permiten instalar y ejecutar modelos potentes en hardware de escritorio convencional, creando \"ChatGPTs privados\" donde los datos nunca abandonan tu infraestructura.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h20",
+      "nombre": "Microsoft 365 Copilot",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Microsoft 365 Copilot integra GPT-5 en Word, Excel, PowerPoint y Outlook",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h21",
+      "nombre": "Google Workspace (Gemini en Docs, Sheets y Gmail)",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Google Workspace incorpora Gemini en Docs, Sheets y Gmail",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h22",
+      "nombre": "Salesforce",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "plataformas de CRM como Salesforce y HubSpot tienen capacidades de IA generativa nativas",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h23",
+      "nombre": "HubSpot",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "plataformas de CRM como Salesforce y HubSpot tienen capacidades de IA generativa nativas",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h24",
+      "nombre": "Abacus",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Frameworks como Abacus, Lindy, LangChain, AutoGen o AWS Bedrock Agents permiten construir agentes que descomponen tareas complejas en pasos ejecutables, deciden qué herramientas invocar (APIs, bases de datos, motores de búsqueda), validan outputs intermedios antes de proceder y generan cadenas de razonamiento auditables.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h25",
+      "nombre": "Lindy",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Frameworks como Abacus, Lindy, LangChain, AutoGen o AWS Bedrock Agents permiten construir agentes que descomponen tareas complejas en pasos ejecutables, deciden qué herramientas invocar (APIs, bases de datos, motores de búsqueda), validan outputs intermedios antes de proceder y generan cadenas de razonamiento auditables.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h26",
+      "nombre": "LangChain",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Frameworks como Abacus, Lindy, LangChain, AutoGen o AWS Bedrock Agents permiten construir agentes que descomponen tareas complejas en pasos ejecutables, deciden qué herramientas invocar (APIs, bases de datos, motores de búsqueda), validan outputs intermedios antes de proceder y generan cadenas de razonamiento auditables.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h27",
+      "nombre": "AutoGen",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Frameworks como Abacus, Lindy, LangChain, AutoGen o AWS Bedrock Agents permiten construir agentes que descomponen tareas complejas en pasos ejecutables, deciden qué herramientas invocar (APIs, bases de datos, motores de búsqueda), validan outputs intermedios antes de proceder y generan cadenas de razonamiento auditables.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h28",
+      "nombre": "AWS Bedrock Agents",
+      "bloque": null,
+      "id_seccion": "c04-s1",
+      "pagina_pdf": 58,
+      "descripcion_libro": "Frameworks como Abacus, Lindy, LangChain, AutoGen o AWS Bedrock Agents permiten construir agentes que descomponen tareas complejas en pasos ejecutables, deciden qué herramientas invocar (APIs, bases de datos, motores de búsqueda), validan outputs intermedios antes de proceder y generan cadenas de razonamiento auditables.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h29",
+      "nombre": "Sonnet 4.6 / Opus 4.6 (Anthropic)",
+      "bloque": null,
+      "id_seccion": "c04-s3",
+      "pagina_pdf": 60,
+      "descripcion_libro": "Anthropic, por ejemplo, ha destacado en 2026 la disponibilidad de ventanas de contexto muy amplias, incluyendo 1M tokens en beta para modelos como Sonnet 4.6 y Opus 4.6",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h30",
+      "nombre": "GPTs y proyectos de ChatGPT",
+      "bloque": null,
+      "id_seccion": "c04-s3",
+      "pagina_pdf": 60,
+      "descripcion_libro": "En entornos como ChatGPT, el uso de asistentes personalizados (GPTs) y de espacios organizados por proyecto permite reducir repetición de instrucciones y mejorar consistencia.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h31",
+      "nombre": "Gemini Pro / Flash (Google)",
+      "bloque": null,
+      "id_seccion": "c04-s4",
+      "pagina_pdf": 61,
+      "descripcion_libro": "Google, por ejemplo, presenta modelos con perfiles diferenciados como líneas Pro y Flash y destaca para algunos modelos capacidades de razonamiento, multimodalidad y control de thinking budgets en ciertos casos",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h32",
+      "nombre": "ChatGPT (OpenAI)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61,
+      "descripcion_libro": "En el caso de ChatGPT, más que pensar solo en un modelo único, es útil entenderlo como un entorno de trabajo con variantes y modos de uso que pueden equilibrar rapidez, razonamiento y herramientas.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h33",
+      "nombre": "Claude: Haiku, Sonnet y Opus",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61,
+      "descripcion_libro": "En el caso de Claude, la familia de modelos se comunica de forma más explícita por series.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h34",
+      "nombre": "Google Gemini (Flash, Flash-Lite, Pro, Gemini 3.1 Pro)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61,
+      "descripcion_libro": "Dispone de versiones orientadas a rapidez como Flash, y variantes como Flash-Lite y de versiones orientadas a mayor capacidad como la Pro, incluyendo la incorporación reciente de Gemini 3.1 Pro.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h35",
+      "nombre": "Perplexity / Perplexity Pro",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61,
+      "descripcion_libro": "La propuesta de Perplexity Pro destaca precisamente por ofrecer selección entre varios modelos de última generación como GPT-5.2, Gemini 3.1 Pro, Grok 4.1 y otros, lo que la convierte en una plataforma interesante para usuarios profesionales que necesitan comparar enfoques o priorizar verificación.",
+      "es_ia": "true",
+      "gratuita_o_pago": "Pro (planes avanzados)",
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h36",
+      "nombre": "GPT-5.2",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61,
+      "descripcion_libro": "varios modelos de última generación como GPT-5.2, Gemini 3.1 Pro, Grok 4.1 y otros",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h37",
+      "nombre": "Grok 4.1",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61,
+      "descripcion_libro": "varios modelos de última generación como GPT-5.2, Gemini 3.1 Pro, Grok 4.1 y otros",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h38",
+      "nombre": "Modo IA / AI Mode de Google",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 61,
+      "descripcion_libro": "Probablemente ya hayas usado el modo IA o AI Mode de Google en sus resultados de búsqueda",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h39",
+      "nombre": "Atlas (OpenAI)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "OpenAI lo presenta como un navegador centrado en llevar su modelo al contexto real de navegación, con funciones como respuestas instantáneas, ayuda contextual y análisis de páginas desde una barra lateral integrada.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h40",
+      "nombre": "Comet (Perplexity)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "Perplexity lo presenta como una herramienta capaz de combinar navegación, investigación y delegación de tareas, por ejemplo, organizar información, investigar, asistir en procesos cotidianos o interactuar con contenidos web con apoyo del asistente.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h41",
+      "nombre": "ChatGPT 5.3",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "Entre los LLM más destacados encontramos a ChatGPT de OpenAI actualmente en su versión 5.3 garantiza una versatilidad excepcional, interfaz intuitiva, capacidades multimodales a través de texto, imagen o voz y una extensa integración con herramientas de terceros mediante plugins.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h42",
+      "nombre": "Sora 2 / Sora (red social)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "Sora 2, su modelo de generación de vídeo que además se integra dentro de su propia red social llamada también Sora.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h43",
+      "nombre": "ChatGPT Images",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "ChatGPT Images nos permite crear imágenes dentro de la interfaz nativa del LLM",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h44",
+      "nombre": "Codex (app para macOS)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "Codex es un excelente asistente de programación con su propia aplicación para macOS.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h45",
+      "nombre": "GPT (asistentes personalizados) y proyectos de ChatGPT",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "Un posible ejemplo es la creación de un GPT para la redacción de contenido web para nuestra marca.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h46",
+      "nombre": "Claude (Anthropic)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "Claude de Anthropic es conocido por ser uno de los modelos más avanzados y que más está evolucionando en su razonamiento sin alucinaciones.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h47",
+      "nombre": "Claude Code",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "posee un ecosistema de apoyo a múltiples tareas de desarrollo y conexión con múltiples herramientas llamado Claude Code",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h48",
+      "nombre": "MCP (protocolo de Anthropic)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 62,
+      "descripcion_libro": "se trata de una forma de conexión y comunicación entre diferentes herramientas basadas en la interacción con modelos de IA.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h49",
+      "nombre": "Gemini (Google)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 63,
+      "descripcion_libro": "Gemini de Google es realmente un modelo que ha ido evolucionando de forma progresiva y hoy ya lidera diferentes áreas de uso.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h50",
+      "nombre": "Antigravity (Google)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 63,
+      "descripcion_libro": "la plataforma de código Antigravity ya se ha convertido en uno de los nuevos líderes de uso donde, teniendo como base el modelo de Gemini, conseguimos resultados verdaderamente espectaculares",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h51",
+      "nombre": "Google Ads",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 63,
+      "descripcion_libro": "los modelos flash, de razonamiento y Pro de Gemini nos van a permitir analizar grandes volúmenes de datos estructurados y no estructurados, investigación de mercado, optimización de campañas en Google Ads o curación de contenido",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c04-h52",
+      "nombre": "Modelos de código abierto: Kimi, Qwen, Llama 4 (Meta)",
+      "bloque": null,
+      "id_seccion": "c04-s5",
+      "pagina_pdf": 63,
+      "descripcion_libro": "Algunos como Kimi, Qwen o Llama 4 de Meta, ya se comparan a grandes modelos con un entorno ejecutable en local (en máquinas de gran rendimiento)",
+      "es_ia": "true",
+      "gratuita_o_pago": "código abierto (sin costes recurrentes)",
+      "url_en_libro": null
+    }
+  ],
+  "figuras_tablas": [],
+  "ejemplo_aulamarketing": {
+    "id_seccion": null,
+    "texto": null,
+    "entregables": [],
+    "nota": "El capítulo 4 no contiene ejemplo de aulamarketing.digital ni menciones a Ana."
+  },
+  "remisiones_aulamarketing": [],
+  "remisiones_internas": [
+    {
+      "texto": "si lo combinas tal y como haremos a lo largo de este libro y lo completas con una ingeniería de prompt adecuada (también te damos apoyo con prompts en cada sección), conseguirás ejecutar un plan de marketing digital brillante con asistencia IA",
+      "capitulo_destino": null,
+      "pagina_pdf": 57
+    },
+    {
+      "texto": "Redactar emails, analizar datos de campañas, generar presentaciones o gestionar leads se vuelven significativamente más eficientes cuando asistidos por IA contextual y veremos diferentes casos de uso a lo largo de este manual.",
+      "capitulo_destino": null,
+      "pagina_pdf": 58
+    },
+    {
+      "texto": "Todas estas cuestiones las ampliaremos en las secciones específicas de los siguientes capítulos a medida que lo vayamos necesitando. Te mostraremos los prompt, la justificación de uso y su estructura para que puedas adaptarla a tus necesidades.",
+      "capitulo_destino": null,
+      "pagina_pdf": 59
+    },
+    {
+      "texto": "Las mencionamos unas líneas más arriba",
+      "capitulo_destino": 4,
+      "pagina_pdf": 58
+    },
+    {
+      "texto": "Cuando hablamos de Gemini de Google, habitualmente pensamos en la generación de imágenes con su modelo Nano Banana 2 mencionado previamente",
+      "capitulo_destino": 4,
+      "pagina_pdf": 57
+    },
+    {
+      "texto": "Desde aquí, damos paso al branding, con toda la información de la que dispones en este momento, ahora ya puedes profundizar sobre el diseño, ejecución y control de tu propio plan de marketing digital con asistencia IA, donde te recomendamos herramientas digitales y herramientas de IA además de prompts específicos para que puedas ejecutar tu plan sobre la marcha.",
+      "capitulo_destino": 5,
+      "pagina_pdf": 63
+    }
+  ],
+  "citas_y_referencias": [
+    {
+      "texto": "Según proyecciones de Bloomberg, el mercado de IA generativa alcanzará valoraciones superiores a 1,3 billones de dólares para 2032, impulsado principalmente por infraestructura y aplicaciones empresariales. (sin referencia bibliográfica completa en el capítulo)",
+      "pagina_pdf": 57
+    },
+    {
+      "texto": "Anthropic, por ejemplo, ha destacado en 2026 la disponibilidad de ventanas de contexto muy amplias, incluyendo 1M tokens en beta para modelos como Sonnet 4.6 y Opus 4.6 (afirmación atribuida, sin referencia)",
+      "pagina_pdf": 60
+    }
+  ],
+  "recursos_externos": [],
+  "otros": [
+    {
+      "descripcion": "Lista: tipos de tareas de apoyo de la IA en la empresa",
+      "texto": "redacción, análisis, síntesis, clasificación, ideación y automatización",
+      "pagina_pdf": 59
+    },
+    {
+      "descripcion": "Lista: estructura general de prompt (aplicable a texto, imagen o vídeo)",
+      "texto": [
+        "contexto",
+        "objetivo",
+        "tarea",
+        "formato",
+        "restricciones",
+        "criterio de calidad"
+      ],
+      "pagina_pdf": 59
+    },
+    {
+      "descripcion": "Lista: elementos de los que depende la calidad de un prompt",
+      "texto": [
+        "el objetivo",
+        "el contexto",
+        "la tarea concreta",
+        "el formato de salida",
+        "el tono o estilo",
+        "las restricciones",
+        "los criterios de calidad"
+      ],
+      "pagina_pdf": 59
+    },
+    {
+      "descripcion": "Lista: géneros de salida que puede requerir un mismo tema (texto)",
+      "texto": "Un mismo tema puede requerir una nota interna, un post de LinkedIn, un guion de vídeo, un email comercial o una ficha de producto.",
+      "pagina_pdf": 59
+    },
+    {
+      "descripcion": "Lista: claves de coherencia de marca en vídeo",
+      "texto": "En nuestros proyectos buscaremos aproximarnos al máximo a la coherencia de marca, incluyendo colores, tono, vestimenta, localizaciones, y consistencia de personajes entre planos.",
+      "pagina_pdf": 59
+    },
+    {
+      "descripcion": "Lista: procesos de alto volumen adecuados para modelos rápidos",
+      "texto": "la atención interna, preclasificación de leads, generación de borradores, FAQs, reformulación de textos, etiquetado y automatizaciones",
+      "pagina_pdf": 61
+    },
+    {
+      "descripcion": "Lista: tareas de marketing digital adecuadas para modelos de razonamiento profundo",
+      "texto": "diseño de estrategia, análisis de investigación de mercado, revisión de propuestas, comparación de posicionamientos o evaluación crítica de contenidos",
+      "pagina_pdf": 61
+    },
+    {
+      "descripcion": "Lista: tendencias IA 2026 tratadas en la sección 1 (orden del texto; enunciados literales)",
+      "texto": [
+        "la consolidación de la IA generativa como estándar",
+        "la especialización y multimodalidad de la inteligencia artificial",
+        "estrategias multi-modelo",
+        "la explosión de LLM de código abierto",
+        "hiper personalización",
+        "IA que se diluye en la infraestructura",
+        "los agentes de IA",
+        "los desafíos éticos"
+      ],
+      "pagina_pdf": 57
+    },
+    {
+      "descripcion": "Ejemplo de reparto multi-modelo por fortalezas",
+      "texto": "Por ejemplo, Gemini para análisis de datos a gran escala, Claude para generación de código, y GPT para interfaces conversacionales con clientes.",
+      "pagina_pdf": 57
+    },
+    {
+      "descripcion": "Ejemplos de empresas líderes en hiper personalización con LLM",
+      "texto": "cuando hablamos de líderes como Nike, Netflix o Sephora, ya no basta con la segmentación demográfica",
+      "pagina_pdf": 58
+    },
+    {
+      "descripcion": "Ejemplo de carpetas de proyecto en Claude",
+      "texto": "Esto nos permite crear carpetas de proyecto para generar por ejemplo, textos para producto, creativos para redes sociales o informes mensuales en base a datos, cada uno en su proyecto y sin necesidad de describir constantemente lo que queremos del modelo (el rol, información de contexto o el formato de salida).",
+      "pagina_pdf": 62
+    },
+    {
+      "descripcion": "Página en blanco / sin contenido tras el final del capítulo (no hay texto en cap04.txt después de PDF 63)",
+      "texto": "",
+      "pagina_pdf": 63
+    }
+  ],
+  "control": {
+    "num_secciones": 5,
+    "num_prompts": 5,
+    "num_herramientas": 52,
+    "num_figuras_tablas": 0,
+    "num_entregables": 0,
+    "num_definiciones": 32,
+    "paginas_revisadas": [
+      56,
+      63
+    ],
+    "incidencias": [
+      "Cobertura de texto: 28151 caracteres no-espacio extraídos (título + apertura + objetivos + títulos + secciones) frente a 28151 en cap04.txt = 100.0%.",
+      "No hay imágenes en PDF 56-63 (pdfimages vacío; páginas no listadas en imagenes_por_pagina.txt) ni tablas ni bloques ✐.",
+      "No hay prompts \"Actúa como\" ni prompts en cursiva (la cursiva solo marca anglicismos: Large Language Models, mainstream, vibe-coding, benchmarks, AI Act, thinking budgets, AI Mode). Se registran como prompts los 5 ejemplos breves entre comillas de la sección 2 (2 completos y 3 fragmentos/peticiones de imagen), con campo \"nota\".",
+      "No hay narrativa de Ana ni ejemplo de aulamarketing.digital ni remisiones a su biblioteca en este capítulo; la apertura no tiene pregunta gancho.",
+      "El tema \"uso personal frente a empresarial\" aparece en la sección 3 (tokens) y como contraste a lo largo de la sección 2; se registra como definición c04-d20.",
+      "Las listas enumeradas en el texto corrido (estructura de prompt, elementos de calidad, tareas por tipo de modelo, tendencias) se recogen como listas literales en \"otros\"; la lista de tendencias usa los enunciados literales del texto, pero el agrupamiento en 8 tendencias es del extractor.",
+      "Inconsistencias/grafías del libro conservadas: \"Chat GPT\" y \"ChatGPT\"; \"Claude 4.6 Sonnet\" (s1) frente a \"Sonnet 4.6\" (s3); \"GPT-5\" / \"GPT-5.2\" / \"ChatGPT 5.3\"; \"del mundo del IA\"; \"tan sencillo como\" con sujeto femenino. Títulos de sección 2–5 vienen sangrados en el PDF.",
+      "Herramientas: se registra una entrada por herramienta y sección relevante; ChatGPT, Claude y Gemini aparecen en s1 y de nuevo en s5 con descripción propia. Kimi no tiene frase descriptiva propia en s1: se usa la frase sobre IA de código abierto que lo precede.",
+      "Citas: la proyección de Bloomberg y el dato de 1M tokens de Anthropic se mencionan sin referencia bibliográfica."
+    ]
+  }
+}

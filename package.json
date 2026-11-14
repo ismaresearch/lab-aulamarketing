@@ -1,0 +1,24 @@
+{
+  "name": "lab-aulamarketing-digital",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Esqueleto estático de lab.aulamarketing.digital (Astro).",
+  "scripts": {
+    "prebuild": "node scripts/prebuild.mjs",
+    "predev": "node scripts/prebuild.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "postbuild": "node scripts/check-links.mjs && node scripts/report.mjs",
+    "preview": "astro preview",
+    "test:docx": "node scripts/test-docx.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0",
+    "docx": "^9.5.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^5.9.3"
+  }
+}

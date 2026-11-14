@@ -1,0 +1,7 @@
+---
+// Marcador visible de capa pendiente. Nunca lorem ipsum.
+import { PENDIENTE } from '../lib/datos';
+interface Props { que: string }
+const { que } = Astro.props;
+---
+<span class="c-pendiente">{PENDIENTE(que)}</span>

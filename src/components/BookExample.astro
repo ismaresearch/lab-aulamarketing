@@ -1,0 +1,33 @@
+---
+// "Así quedó en aulamarketing.digital": entregables y salidas que muestra el libro.
+import type { Entregable, Figura as F } from '../lib/datos';
+import Figura from './Figura.astro';
+import TextoLibro from './TextoLibro.astro';
+import Icon from './Icon.astro';
+interface Props { entregables: Entregable[]; salidas: { prompt: string; texto: string }[]; figuras: F[]; abierto?: boolean; capitulo?: number }
+const { entregables, salidas, figuras, abierto = false, capitulo } = Astro.props;
+const figsEnt = new Set(entregables.map((e) => e.figura?.id).filter(Boolean));
+const figsSueltas = figuras.filter((f) => !figsEnt.has(f.id));
+const hay = entregables.length || salidas.length || figsSueltas.length;
+const pag = entregables.find((e) => e.pagina_libro)?.pagina_libro;
+---
+{hay > 0 && (
+  <details class="c-details c-libro" open={abierto}>
+    <summary>
+      <span class="c-libro__cab"><Icon nombre="libro" /><span>Así quedó en aulamarketing.digital</span></span>
+      <span class="c-libro__sub">{entregables.length > 0 ? `${entregables.length} ${entregables.length === 1 ? 'entregable' : 'entregables'} del libro` : 'Resultado que muestra el libro'}{capitulo && ` · cap. ${capitulo}`}{pag && `, pág. ${pag}`}</span>
+    </summary>
+    <div class="c-details__body">
+      {entregables.map((e) => (
+        <section class="c-libro__item">
+          <h3>{e.titulo}</h3>
+          <p class="c-meta">Entregable del libro · cap. {e.capitulo}{e.pagina_libro && ` · pág. ${e.pagina_libro}`}</p>
+          {e.figura && <Figura figura={e.figura} />}
+          <TextoLibro texto={e.texto} />
+        </section>
+      ))}
+      {salidas.map((s) => <p class="c-libro__salida"><strong>Resultado que muestra el libro ({s.prompt}):</strong> {s.texto}</p>)}
+      {figsSueltas.map((f) => <Figura figura={f} />)}
+    </div>
+  </details>
+)}

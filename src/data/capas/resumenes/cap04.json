@@ -1,0 +1,45 @@
+{
+  "id": "c04",
+  "promesa": "Entenderás cómo funciona la IA y aprenderás a pedirle bien las cosas para usarla con criterio en tu plan.",
+  "al_terminar_tendras": [
+    "Una visión de las principales tendencias de la IA en 2026 y su impacto en el marketing",
+    "Una estructura de prompt reutilizable: contexto, objetivo, tarea, formato, restricciones y criterio de calidad",
+    "Pautas para adaptar tus prompts a texto, imagen o vídeo",
+    "Criterios para gestionar los tokens y ahorrar coste, tiempo y errores",
+    "Criterios para elegir entre modelos rápidos o profundos y entre familias de modelos según la tarea"
+  ],
+  "historia_ana": null,
+  "resumen_capitulo": "La IA, y en especial los modelos de lenguaje (LLM), pone al alcance de cualquier pyme capacidades que antes eran exclusivas de las grandes empresas: generar variaciones de copy en minutos, analizar miles de comentarios o atender a clientes las 24 horas. Pero no hay resultados mágicos: hace falta entender los fundamentos, tener una estrategia, actuar con ética y seguir aprendiendo. Este capítulo te da ese contexto antes de empezar a trabajar con IA en tu plan. Repasas las tendencias de 2026: la IA generativa como estándar, la multimodalidad, la especialización de modelos, el código abierto, la hiperpersonalización, la IA integrada en tus herramientas, los agentes y los retos éticos. Aprendes qué es un prompt y cómo estructurarlo para texto, imagen y vídeo. Descubres qué son los tokens y por qué importan. Distingues modelos rápidos y profundos, y conoces las fortalezas de ChatGPT, Claude, Gemini, Perplexity, los navegadores con IA y los modelos de código abierto. La idea de fondo: no se trata de pedir menos, sino de pedir mejor.",
+  "secciones": {
+    "c04-s1": {
+      "idea_clave": "En 2026 la IA generativa ya es lo esperable: multimodal, especializada, integrada en tus herramientas, cada vez más agéntica y sujeta a regulación.",
+      "resumen": "El libro advierte de que la IA avanza tan rápido que solo puede describir líneas de tendencia en 2026. La primera: la IA generativa se ha consolidado como estándar; ya no es una ventaja experimental, sino una expectativa básica, y no usarla tiene un coste de oportunidad alto. La segunda: modelos multimodales que procesan y generan texto, imagen, vídeo y código, y que además se especializan; por eso las empresas adoptan estrategias multimodelo, eligiendo un LLM según la fase del trabajo. La tercera: los modelos de código abierto, diseñados para rendir más con menos y que pueden ejecutarse en local, una alternativa interesante si te preocupan la privacidad o los costes. La cuarta: la hiperpersonalización, que eleva las expectativas del consumidor y empieza a estar al alcance de cualquier empresa. La quinta: la IA integrada en las herramientas que ya usas. La sexta: los agentes, capaces de planificar, usar herramientas y decidir con poca supervisión. Por último, los retos éticos: sesgos, privacidad y transparencia, con el AI Act europeo como marco.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 8
+    },
+    "c04-s2": {
+      "idea_clave": "Un prompt es una micro-especificación de trabajo: contexto, objetivo, tarea, formato, restricciones y criterio de calidad, adaptados a texto, imagen o vídeo.",
+      "resumen": "La IA no es solo algo que genera textos: es un apoyo para redactar, analizar, sintetizar, clasificar, idear y automatizar. Para aprovecharla, primero debes aprender a pedir. Un prompt es la instrucción con la que traduces una necesidad profesional a un lenguaje que el modelo entiende. Cuanto mejor esté formulado, menos iteraciones necesitarás. Frente al vago \"hazme un texto sobre esto\", un prompt profesional delimita finalidad, audiencia, extensión, enfoque y condiciones. La estructura general que propone el libro es: contexto + objetivo + tarea + formato + restricciones + criterio de calidad. En texto, indica destinatario, intención, tono, longitud y elementos obligatorios; el error típico es no definir el tipo de pieza. En imagen, pasa del \"qué quiero decir\" al \"qué quiero ver\": sujeto, escenario, estilo, composición, luz, colores, formato y restricciones; el error típico es la ambigüedad visual. En vídeo entra el tiempo: duración, escenas, cámara, ritmo y continuidad, que es el mayor reto. Y recuerda: un buen prompt no nace perfecto, se itera con método.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 5
+    },
+    "c04-s3": {
+      "idea_clave": "Los tokens determinan coste, velocidad y capacidad: la eficiencia con la IA no consiste en pedir menos, sino en pedir mejor.",
+      "resumen": "Un token es la unidad mínima de texto con la que trabaja un modelo; no equivale a una palabra, porque una palabra puede dividirse en varios tokens y también cuentan signos y números. En una empresa son un recurso crítico, ya que influyen en el coste, la velocidad y la escalabilidad. Un prompt innecesariamente largo, repetido cientos de veces, sale caro. Los modelos tienen límites de contexto medidos en tokens, y llenarlos de información irrelevante los vuelve más lentos, caros o imprecisos. Aunque ya hay ventanas de contexto muy amplias, no basta con dar mucho contexto: hay que dar el correcto. Cada interacción consume tokens en tres bloques: lo que escribes, el contexto que arrastras (instrucciones, documentos, memoria) y la respuesta generada. El uso improvisado acumula repeticiones; las plantillas, los prompts estandarizados y los espacios organizados por tareas o proyectos hacen el consumo más eficiente y la calidad más estable. Además, los modelos rápidos y ligeros sirven para tareas repetitivas, y los de razonamiento profundo para análisis complejos, con más latencia o coste.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c04-s4": {
+      "idea_clave": "Usa modelos rápidos para tareas de volumen y modelos de razonamiento profundo para problemas complejos donde equivocarse cuesta caro.",
+      "resumen": "Es un error pensar que todos los modelos hacen lo mismo y solo cambian en calidad. Conviene distinguir entre modelos orientados a la velocidad y el coste, y modelos orientados al razonamiento profundo. Ninguno es mejor que el otro: están optimizados para usos distintos. Los modelos rápidos responden en poco tiempo, con buena relación coste-rendimiento, y encajan en procesos de alto volumen: clasificación, borradores, resúmenes breves, preclasificación de leads, preguntas frecuentes, reformulación de textos, etiquetado o automatizaciones. Los modelos de razonamiento profundo aportan valor cuando lo importante no es responder rápido, sino responder bien a problemas ambiguos o de varias etapas. En marketing digital, eso incluye diseñar estrategias, analizar investigaciones de mercado, revisar propuestas, comparar posicionamientos o evaluar contenidos de forma crítica. El libro pone como ejemplo a Google, que diferencia líneas de modelos como Pro y Flash y, en algunos casos, permite controlar el presupuesto de razonamiento, lo que refleja esta lógica de elegir el modelo según el uso.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    },
+    "c04-s5": {
+      "idea_clave": "ChatGPT, Claude y Gemini tienen fortalezas distintas; elige según la tarea y prepara contenidos claros, porque la IA también los lee.",
+      "resumen": "Más que memorizar versiones, piensa en qué necesita cada tarea. ChatGPT es un entorno versátil que sirve para producción rápida o tareas elaboradas; permite crear GPT, asistentes con instrucciones y documentación propias, y proyectos para agrupar chats de un mismo tema. Claude organiza sus modelos por series (Haiku para velocidad, Sonnet para equilibrio, Opus para máxima capacidad); destaca en análisis profundo, documentos extensos, código y contextos donde la precisión es prioritaria, con un estilo más prudente. Gemini sobresale en multimodalidad, ventana de contexto e integración con Google, con versiones rápidas como Flash y más potentes como Pro. Perplexity es sobre todo una herramienta de búsqueda e investigación que da acceso a varios modelos. Los navegadores con IA integrada, como Atlas o Comet, llevan el asistente al lugar donde trabajas. Por eso conviene crear contenidos con estructura clara, semántica precisa y datos verificables: también los interpretan sistemas de IA. Los modelos de código abierto son útiles cuando la privacidad es crítica, aunque exigen gran infraestructura y aprendizaje.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 8
+    }
+  }
+}

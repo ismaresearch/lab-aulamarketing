@@ -1,0 +1,142 @@
+---
+// Tarjeta de prompt (bloque terminal). Recibe el prompt ya resuelto por datos.ts.
+// Comportamiento en src/client/prompt-card.ts (ganchos data-js).
+import providers from '../config/providers.json';
+import Icon from './Icon.astro';
+import Pendiente from './Pendiente.astro';
+import Sugerencias from './Sugerencias.astro';
+import { variablesDe, getPrompt, capas, tituloPlan, type Prompt } from '../lib/datos';
+import { pad2 } from '../lib/texto';
+interface Props { prompt: Prompt; enlacePaso?: boolean; nivel?: 'h2' | 'h3'; conPropuesta?: boolean }
+const { prompt: p, enlacePaso = false, nivel = 'h3', conPropuesta = true } = Astro.props;
+const propuesta = conPropuesta && !p.copiable && p.propuesta ? getPrompt(p.propuesta) : undefined;
+const base = p.basado_en ? getPrompt(p.basado_en) : undefined;
+const vars = variablesDe(p);
+const origenTitulos = Object.fromEntries(p.origen_ids.map((id) => [id, getPrompt(id)?.titulo ?? id]));
+const datos = {
+  id: p.id,
+  segmentos: p.segmentos,
+  variables: vars.map((v) => ({ id: v.id, etiqueta: v.etiqueta, ambito: v.ambito, ejemplo_libro: v.ejemplo_libro, tipo: v.tipo, opciones: v.opciones, fuente: v.fuente, nota_ejemplo: v.nota_ejemplo })),
+  origen_ids: p.origen_ids,
+  origen_titulos: origenTitulos,
+};
+const json = JSON.stringify(datos).replace(/</g, '\\u003c');
+const tid = `prompt-${p.id}`;
+const Tag = nivel;
+const partes = [...new Set(p.segmentos.map((x: any) => x.parte).filter(Boolean))] as string[];
+const ETIQ: Record<string, string> = { rol: 'Rol', contexto: 'Contexto', tarea: 'Tarea', formato: 'Formato', restricciones: 'Restricciones', objetivo: 'Objetivo', criterio: 'Criterio' };
+const esIngles = /^(\s*\[?[A-Z]|create|generate|a |an |the )/i.test(p.texto_literal) && /\b(the|and|with|of)\b/.test(p.texto_literal.slice(0, 300)) && !/[áéíóúñ¿¡]/.test(p.texto_literal.slice(0, 300));
+---
+{!p.copiable ? (
+<article class="c-card c-prompt-desc" id={tid} aria-labelledby={`${tid}-t`}>
+  <p class="c-overline c-overline--book"><Icon nombre="libro" /> Ejemplo del libro · no es un prompt para copiar</p>
+  <Tag id={`${tid}-t`} class="c-prompt-desc__t">{p.titulo}</Tag>
+  <blockquote class="c-cita">«{p.texto_literal}»</blockquote>
+  {p.nota && <p class="c-meta">{p.nota}</p>}
+  <p class="c-meta">Libro · cap. {p.capitulo}{p.pagina_libro && ` · pág. ${p.pagina_libro}`}</p>
+  {propuesta && <p class="c-prompt-desc__nota"><Icon nombre="flujo" /> Debajo tienes un prompt que la plataforma ha redactado a partir de esta descripción para que puedas usarlo.</p>}
+</article>
+) : (
+<article class:list={['c-prompt', p.es_propuesta && 'c-prompt--propuesta']} id={tid} data-js="prompt-card" aria-labelledby={`${tid}-t`}>
+  <script type="application/json" data-js="prompt-data" set:html={json} />
+  <div class="c-prompt__term">
+    <div class="c-prompt__head">
+      <span class="c-prompt__idx">{pad2(p.n)}.</span>
+      <Tag class="c-prompt__title" id={`${tid}-t`}>{p.titulo}</Tag>
+      <span class="c-prompt__luces" aria-hidden="true"><i></i><i></i><i></i></span>
+    </div>
+    {(p.ias.length > 0 || p.anatomia) && (
+      <div class="c-prompt__fila">
+        {p.ias.length > 0 && <span class="c-prompt__lbl">IA en el libro:</span>}
+        {p.ias.map((ia) => <span class="c-prompt__ia">{ia}</span>)}
+        {p.anatomia && (
+          <span class="c-prompt__anat">
+            <button type="button" class="c-prompt__ia c-prompt__ia--btn" data-js="anatomia" aria-pressed="false"><span class="c-dot" aria-hidden="true"></span>Anatomía</button>
+            <span class="c-prompt__partes" aria-hidden="true">{partes.map((x) => <span data-parte-leyenda={x}>{ETIQ[x] ?? x}</span>)}</span>
+          </span>
+        )}
+      </div>
+    )}
+    {p.es_propuesta && (
+      <div class="c-propuesta">
+        <p class="c-badge-propuesta"><Icon nombre="aviso" /> Propuesta de la plataforma · pendiente de revisión</p>
+        {p.cita_libro && <p class="c-prompt__meta c-propuesta__cita">Basado en el libro{base ? ` (cap. ${base.capitulo}${base.pagina_libro ? `, pág. ${base.pagina_libro}` : ''})` : ''}: <q>{p.cita_libro}</q></p>}
+        {p.aviso && <p class="c-prompt__meta">{p.aviso}</p>}
+      </div>
+    )}
+    {p.misma_conversacion.length > 0 && <p class="c-prompt__flujo"><Icon nombre="flujo" />Lánzalo en la misma conversación que {p.misma_conversacion.join(', ')}.</p>}
+    {p.origen_ids.length > 0 && <p class="c-prompt__flujo"><Icon nombre="flujo" />Usa la respuesta de: {p.origen_ids.map((id) => `${id} (${origenTitulos[id]})`).join(', ')}</p>}
+    <pre class="c-prompt__body" data-js="prompt-body" tabindex="0" aria-label={`Texto del prompt ${p.titulo}`} lang={esIngles ? 'en' : 'es'}>{p.segmentos.map((s, i) => {
+      const ini = s.parte && s.parte !== p.segmentos[i - 1]?.parte ? s.parte : undefined;
+      return s.t === 'txt' ? (s.parte ? <span data-parte={s.parte} data-inicio={ini}>{s.v}</span> : s.v) : <span class="c-var" data-var={s.id} data-raw={s.raw} data-estado="vacia" data-parte={s.parte ?? undefined} data-inicio={ini}>{s.raw}</span>;
+    })}</pre>
+    <button type="button" class="c-prompt__expandir" data-js="expandir" aria-expanded="false">Ver prompt completo</button>
+    <p class="c-prompt__faltan" data-js="faltan" role="status" hidden></p>
+    <p class="c-prompt__meta">
+      {p.es_propuesta ? <>Redactado por la plataforma a partir del cap. {p.capitulo}{p.pagina_libro && ` (pág. ${p.pagina_libro})`} · no es texto literal del libro</> : <>Libro · cap. {p.capitulo}{p.pagina_libro && ` · pág. ${p.pagina_libro}`}{p.origen === 'imagen' && ' · transcrito de una imagen'}</>}
+      {!p.de_capa && !capas.prompts && <> · <Pendiente que="plantilla con variables unificadas (capas/prompts)" /></>}
+    </p>
+  </div>
+  <div class="c-prompt__panel">
+    <div data-js="confirmar" class="c-confirmar" role="alertdialog" aria-label="Confirmar copia con huecos" hidden>
+      <p data-js="confirmar-texto"></p>
+      <div class="c-acciones">
+        <button type="button" class="c-btn c-btn--peq" data-js="copiar-igual">Copiar igualmente</button>
+        <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="rellenar">Rellenar ahora</button>
+      </div>
+    </div>
+    <button type="button" class="c-btn c-btn--bloque" data-js="copiar"><Icon nombre="copiar" /><span data-js="copiar-txt">Copiar prompt</span></button>
+    <div class="c-prompt__abrir">
+      <span class="c-prompt__abrir-lbl" aria-hidden="true">Abrir en:</span>
+      {providers.proveedores.map((pr) => (
+        <a class="c-pill" data-js="abrir" data-proveedor={pr.id} href={pr.url} target="_blank" rel="noopener noreferrer">
+          <span aria-hidden="true">{pr.nombre}</span><span class="sr-only">Abrir en {pr.nombre} (se copia el prompt y se abre en una pestaña nueva)</span><Icon nombre="externo" />
+        </a>
+      ))}
+    </div>
+    <p class="c-prompt__nota">Al pulsar en una IA, el prompt completo se copia antes en tu portapapeles.</p>
+    {vars.length > 0 && (
+      <details class="c-details c-details--plano" data-js="detalles-variables">
+        <summary><Icon nombre="ajustes" />Ver y rellenar variables ({vars.length})</summary>
+        <div class="c-details__body">
+          {vars.map((v) => {
+            const fid = `${tid}-${v.id}`;
+            return (
+              <div class="c-field">
+                <label for={fid}>{v.ambito === 'salida_previa' ? `Pega aquí: ${v.etiqueta}` : v.etiqueta} <code class="c-field__var">{`{${v.id}}`}</code></label>
+                {v.ambito === 'salida_previa' && <p class="c-field__ayuda" data-js="salida-estado" data-var={v.id}></p>}
+                {v.ambito === 'proyecto' && <p class="c-field__ayuda">Dato de <a href="/mi-proyecto/">Mi proyecto</a>: se reutiliza en todos los prompts.</p>}
+                {v.opciones ? (
+                  <select id={fid} data-js="var-input" data-var={v.id}><option value="">Elige…</option>{v.opciones.map((o) => <option>{o}</option>)}</select>
+                ) : v.tipo === 'texto_largo' || v.ambito === 'salida_previa' ? (
+                  <textarea id={fid} data-js="var-input" data-var={v.id} rows="4"></textarea>
+                ) : (
+                  <input id={fid} type="text" data-js="var-input" data-var={v.id} />
+                )}
+                {v.sugerencias.length > 0 && <Sugerencias para={fid} opciones={v.sugerencias} />}
+                {v.ayuda && <p class="c-field__ayuda">{v.ayuda}</p>}
+                {v.ambito === 'proyecto' && v.nota_ejemplo && <p class="c-field__ayuda c-nota-ejemplo" data-solo-modo="ejemplo">{v.nota_ejemplo}.</p>}
+                {v.ambito === 'proyecto' && !v.ejemplo_libro && <p class="c-field__ayuda" data-solo-modo="ejemplo">El ejemplo del libro no incluye este dato: en modo «Ejemplo del libro» queda vacío.</p>}
+                <p class="c-field__ayuda" data-js="var-nota" data-var={v.id} hidden>En modo «Ejemplo del libro» se usa el dato del ejemplo. Cambia a «Mi proyecto» para editarlo.</p>
+              </div>
+            );
+          })}
+        </div>
+      </details>
+    )}
+    {p.contexto_posterior && <p class="c-meta c-prompt__despues"><strong>Qué hacer con el resultado (libro):</strong> {p.contexto_posterior}</p>}
+    <details class="c-details c-details--plano">
+      <summary><Icon nombre="documento" />Pega aquí la respuesta de la IA</summary>
+      <div class="c-details__body">
+        <label class="sr-only" for={`${tid}-resp`}>Respuesta de la IA a este prompt</label>
+        <textarea id={`${tid}-resp`} data-js="respuesta" rows="6"></textarea>
+        <p class="c-field__ayuda">Se guarda en este navegador y se ofrece como entrada al siguiente prompt de la cadena.</p>
+        <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="guardar-respuesta">Guardar respuesta</button>
+      </div>
+    </details>
+    {enlacePaso && p.paso_url && <p class="c-meta">Paso del libro: <a href={p.paso_url}>{tituloPlan(p.plan) ?? 'Ver paso'}</a> · <a href={`/prompts/${p.id}/`}>Ficha del prompt</a></p>}
+  </div>
+</article>
+)}
+{propuesta && <Astro.self prompt={propuesta} enlacePaso={enlacePaso} nivel={nivel} conPropuesta={false} />}
+<script>import '../client/prompt-card';</script>

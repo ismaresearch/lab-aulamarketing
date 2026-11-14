@@ -1,0 +1,1013 @@
+{
+  "id": "c09",
+  "numero": 9,
+  "parte": "MEDIOS PROPIOS",
+  "titulo": "Email marketing: construye tu propia audiencia",
+  "paginas_pdf": [
+    148,
+    157
+  ],
+  "paginas_libro": [
+    143,
+    152
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "Este capítulo parte de la importancia de generar relaciones entre marcas y usuarios. El email es un espacio personal donde solo permitimos la entrada a quienes aportan valor. Al integrarlo en nuestra estrategia digital, surgen dos dudas clave: ¿por qué un usuario nos daría su correo? y ¿cómo aportar valor inicial sin un intercambio económico? Aunque muchas marcas priorizan el retorno inmediato, el propósito y la misión son fundamentales para generar lealtad. Es mucho más sencillo vender por segunda vez a un cliente satisfecho que captar nuevos constantemente, de ahí la efectividad del email marketing.\nVeamos el caso de Ana. Ella domina las redes sociales y el contenido audiovisual, pero se enfrenta al desafío de transformar el interés casual en una relación duradera sin depender de algoritmos cambiantes o del ruido digital. Ana busca un canal íntimo, directo y controlado para nutrir relaciones y fidelizar a su audiencia. Su meta, alineada con aulamarketing.digital, es aumentar ingresos ofreciendo valor real de forma constante. Aquí el email marketing surge como una solución de alto impacto. Ana entiende que no se trata solo de enviar mensajes, las empresas de éxito son capaces de mantener una conversación ética y predecible que su audiencia valora de verdad. Por eso ahora busca posicionar su marca como un referente de autoridad y confianza, sabiendo que para lograrlo debe ofrecer contenido selectivo, veraz y de alta calidad.",
+    "pagina_pdf": 148,
+    "narrativa_ana": "Veamos el caso de Ana. Ella domina las redes sociales y el contenido audiovisual, pero se enfrenta al desafío de transformar el interés casual en una relación duradera sin depender de algoritmos cambiantes o del ruido digital. Ana busca un canal íntimo, directo y controlado para nutrir relaciones y fidelizar a su audiencia. Su meta, alineada con aulamarketing.digital, es aumentar ingresos ofreciendo valor real de forma constante. Aquí el email marketing surge como una solución de alto impacto. Ana entiende que no se trata solo de enviar mensajes, las empresas de éxito son capaces de mantener una conversación ética y predecible que su audiencia valora de verdad. Por eso ahora busca posicionar su marca como un referente de autoridad y confianza, sabiendo que para lograrlo debe ofrecer contenido selectivo, veraz y de alta calidad."
+  },
+  "objetivos_aprendizaje": [
+    "Comprender cómo el email marketing puede ser una herramienta de captación, conversión y fidelización.",
+    "Identificar los aspectos clave para establecer una relación natural con nuestra comunidad a través del email.",
+    "Diseñar correos efectivos y crear funnels de conversión a través de estrategias de email marketing.",
+    "Aprender a utilizar herramientas de gestión de correos incrementando la productividad con herramientas de IA."
+  ],
+  "secciones": [
+    {
+      "id": "c09-s1",
+      "numero": "1",
+      "titulo": "Definiciones clave y tendencias actualizadas",
+      "pagina_pdf": 148,
+      "pagina_libro": 143,
+      "texto": "El email marketing es una disciplina fundamental dentro del marketing digital que se centra en el uso estratégico del correo electrónico como canal de comunicación para establecer, nutrir y mantener relaciones con el público objetivo, con el fin último de alcanzar objetivos de negocio como la captación de leads, la conversión, la venta y la fidelización. Se posiciona, a menudo, en las etapas intermedias o finales del customer journey map, lo que subraya su rol en la profundización de la relación con el cliente. La singularidad del email radica en su naturaleza como canal privado y carente de estímulos externos o dopamínicos que propicien la interrupción o la distracción. Esta característica lo convierte en un entorno idóneo para una comunicación más enfocada y efectiva, resultando en uno de los canales con mayor potencial de conversión. De hecho, estudios como el elaborado por Adestra y The Econsultancy (2022) indican que el email marketing es el canal que ofrece el mejor retorno de la inversión con un 73% de las empresas considerándolo excelente o bueno, superando al SEO y al PPC.\n¿Y cómo conseguimos que nuestros correos sean abiertos, leídos y que los usuarios hagan clic? Copywriting. Hemos hablado de esta disciplina en el capítulo de Social Media y de ahí podrás extraer numerosos aprendizajes, no obstante es una disciplina transversal a todas las acciones operativas del marketing digital, desde el diseño web hasta los guiones de contenido audiovisual y las publicaciones en redes sociales. Por definición, el copywriting es la disciplina que se encarga de redactar y crear contenido, estableciendo una estructura de comunicación diseñada para persuadir a las personas a cumplir objetivos mutuos, siempre desde una premisa ética. No se trata de manipular o apelar a sesgos de forma agresiva, se trata de facilitar la conexión rápida y efectiva con el contenido, fomentando la confianza plena en la marca o persona creadora del contenido, siempre que este sea veraz, honesto y la promesa se cumpla. En el email marketing, un buen copywriting lo utilizaremos para captar y mantener la atención de los usuarios, generando interés y deseo por el servicio o producto.\nAl tratarse de un canal con más de dos décadas de trayectoria, es importante establecer una línea de tendencias que nos permita conocer el actual comportamiento del mercado. En primer lugar destacamos el contenido de valor contextualizado. La efectividad del email reside en su capacidad para entregar información exclusiva y contextualmente relevante que el usuario perciba como de un valor insustituible. Hemos superado la era de la personalización superficial, la tendencia actual es hacia el contenido nicho, diseñado para abordar dolores y necesidades muy específicos del público objetivo. Los usuarios demuestran una creciente reticencia a ceder sus datos si no perciben un intercambio de valor excepcionalmente alto. Esto implica una segmentación avanzada y la entrega de mensajes que sean relevantes y que anticipen las acciones y el grado de interés de cada usuario. En nuestra estrategia de email debemos poner foco en la confianza, la transparencia y la ética. Existe una creciente preocupación global por la privacidad de los datos y la sobresaturación informativa, por lo que la capacidad de una marca para generar y mantener una confianza sólida es más crítica que nunca. El email marketing exitoso se apoya en valores alineados con el público objetivo, resolviendo de manera transparente un dolor concreto o entregando un beneficio claramente relevante. La ética inherente al copywriting, que demanda veracidad, honestidad y el cumplimiento riguroso de cada promesa formulada, no es una opción, es el pilar sobre el que se edificará la credibilidad a largo plazo y la lealtad de cada suscriptor. Este enfoque ético se convierte en un diferenciador competitivo crucial.\nSi conoces bien a tu buyer persona debes poner en práctica los funnels de conversión dinámicos. La sistematización y automatización del envío de mensajes, en función del comportamiento y la etapa del usuario en el customer journey, debe ser el core de nuestra estrategia. La tendencia se inclina hacia el desarrollo de funnels de conversión cada vez más sofisticados, que guíen al usuario a través de las fases TOFU, MOFU y BOFU (desarrollados más adelante), respondiendo dinámicamente a sus interacciones en tiempo real. La integración omnicanal es vital aquí, donde el email se coordina con otras plataformas digitales para completar una experiencia de usuario coherente, reforzando la marca en cada punto de contacto. Por último añadimos también en este área la integración con inteligencia artificial. La IA también está redefiniendo los límites del email marketing, optimizando la eficiencia y la relevancia de los mensajes. Sus principales capacidades se traducen en la personalización gracias a la generación de contenido, líneas de asunto y llamadas a la acción que resuenan con cada persona, adaptándose a las preferencias y comportamientos históricos del usuario. También nos permite la optimización predictiva de envíos con la determinación algorítmica de los momentos óptimos para enviar correos, maximizando las tasas de apertura y clic. Finalmente la IA también será de gran utilidad para la generación asistida de contenido. Puede crear borradores y sugerencias para líneas de asunto, cuerpos de texto y elementos creativos que nos permitan reducir los tiempos de inversión y optimizar el impacto. Nuestra recomendación es que la última capa de valor sea la revisión humana para asegurar autenticidad y ética en la comunicación de marca.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c09-d01",
+        "c09-d02"
+      ]
+    },
+    {
+      "id": "c09-s2",
+      "numero": "2",
+      "titulo": "Terminología esencial en email marketing",
+      "pagina_pdf": 150,
+      "pagina_libro": 145,
+      "texto": "Antes de adentrarnos en las acciones concretas, es vital asentar algunos conceptos clave. Comenzaremos hablando sobre los lead magnet. Se trata de contenidos de alto valor que se ofrecen gratuitamente a cambio de los datos de contacto del usuario, típicamente su correo electrónico. Su propósito es captar leads, es decir, el interés de la audiencia, y aportarles valor para que se sientan más alineados con el contenido de la marca y la perciban como un referente de autoridad, credibilidad y confianza. El término lead se utiliza en marketing para etiquetar a usuarios con un cierto nivel de interés por una marca, producto o servicio que han actuado de cierta forma como en el caso de aquellos que dejan un correo o abren una conversación en redes sociales. El contenido del lead magnet debe ser de mucha calidad, muy selectivo e incluso de nicho, como las guías de aulamarketing.digital alineadas con cada acción operativa de un plan de marketing digital, diseñadas para conocer el interés de los usuarios. Un ejemplo práctico para aulamarketing.digital podría ser una \"Guía Definitiva de SEO para Principiantes\" o un \"Kit de Plantillas para Campañas de Redes Sociales Efectivas\". Otro término que escucharás y leerás en este contexto es el de inbound marketing. Se trata de una metodología que busca atraer al cliente a través de contenido de valor y experiencias relevantes, en lugar de perseguirlos con publicidad intrusiva. En el contexto del email marketing, la estrategia de inbound busca captar la atención y el interés del usuario para motivarlos a descargarse contenido de la página web o a dejar sus datos, facilitando así un paso más en la relación con la marca. Previamente hemos hablado sobre el funnel de conversión o embudo de ventas, concretamente nos referimos a la secuencia de acciones, mensajes e impactos orientados a un evento de conversión final. Aunque el funnel es un concepto más amplio que trasciende el email, el correo electrónico es un espacio idóneo para su implementación al permitir el envío sistematizado y automatizado de mensajes en función del comportamiento del usuario. Los funnels están diseñados para tocar diferentes activadores en los estados de conciencia del usuario. Estos conceptos los desarrollaremos a lo largo de este capítulo.\nEn el contexto del marketing se habla mucho sobre omnicanalidad y este enfoque afecta en gran medida al email. La omnicanalidad es la búsqueda de una experiencia de cliente coherente y unificada a través de todos los puntos de contacto, tanto online como offline. En email marketing, esto se traduce en integrar la comunicación por correo electrónico con otras plataformas como redes sociales o web, de modo que el usuario reciba un mensaje consistente y pueda interactuar a través del canal de su preferencia. Por ejemplo, cuando en aulamarketing.digital publicamos un nuevo artículo en el blog, se informa a la audiencia por email, sabiendo que si lo abren, están mostrando una predisposición a consumir contenido relacionado. Como se ha podido ver en capítulos anteriores, las métricas son un aspecto clave en el plan de marketing digital. Para evaluar la efectividad de las campañas de email marketing, es fundamental prestar atención a dos métricas, la tasa de apertura, referida al número de usuarios que abren el correo y la tasa de clics o CTR que hace referencia a los usuarios que hacen clic en un elemento al que llamamos CTA o Call To Action y puede ser un botón, un enlace de la bio o la apertura de un DM. La tasa media de apertura en email marketing es del 22,86% y la CTR del 3,71%, según datos de GetResponse (2023). La tasa de bajas o desuscripción se encuentra alrededor del 0,21% y tiene un impacto importante ya que nos indica cuántos usuarios deciden dejar de recibir comunicación por email. Un aspecto importante para mantener estas métricas optimizadas se centra en utilizar de forma adecuada tu estrategia de copywriting.\nSeguro que has recibido multitud de correos con multitud de fines. Todos ellos tienen un propósito específico en el customer journey:\nEmails de captación: Son aquellos que buscan obtener el correo electrónico del usuario. Típicamente, están asociados a la oferta de un lead magnet. Ejemplo: Un email confirmando el registro a un webinar gratuito sobre \"Automatización de estrategias de marketing con IA\" y adjuntando una guía rápida sobre el tema.\nEmails de confirmación: Se envían automáticamente tras una acción del usuario, como una suscripción o una compra. Ejemplo: Un correo que confirma la inscripción a un curso de \"Marketing de contenidos avanzado\" o la descarga de una de nuestras \"Plantillas de Plan de Marketing Digital 2026\".\nEmails de gracias: Expresan gratitud por una interacción o compra, reforzando la relación. Ejemplo: Un email agradeciendo la participación en una encuesta sobre \"Desafíos del marketing digital para PYMES\" y ofreciendo un resumen exclusivo de los resultados.\nEmails para ampliar información | Nurturing: Buscan ofrecer más valor, consejos o respuestas a las preguntas del usuario, alineados con sus intereses. Estos son cruciales en la etapa MOFU del funnel (descritas en el siguiente punto). Ejemplo: Una serie de correos que profundizan en los \"5 errores comunes en estrategias de SEO\" o \"Consejos para optimizar tus campañas de Google Ads\", tras la descarga de una guía relacionada.\nEmails recordatorio: Se utilizan para recordar eventos, citas o acciones pendientes. Ejemplo: Un recordatorio del inicio de una sesión en vivo de nuestro \"Bootcamp de Growth Hacking\" o una fecha límite para aplicar a un descuento especial en uno de nuestros programas de mentoría.\nEmails de satisfacción: Buscan obtener retroalimentación del cliente sobre su experiencia. Ejemplo: Una encuesta de satisfacción post-curso o post-consulta, pidiendo opiniones sobre la experiencia con aulamarketing.digital.\nEmails de up-sell y cross-sell: Estrategias para aumentar el valor de vida del cliente. El up-sell ofrece una versión superior o más completa del producto/servicio, mientras que el cross-sell propone productos/servicios complementarios. Ejemplo: Tras completar un curso básico de \"Analítica Web\", un email ofreciendo un descuento en el curso avanzado de \"Google Analytics 4\" (up-sell) o sugiriendo un curso de \"Visualización de datos con Power BI\" (cross-sell).",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c09-d03",
+        "c09-d04",
+        "c09-d05",
+        "c09-d06",
+        "c09-d07",
+        "c09-d08",
+        "c09-d09",
+        "c09-d10",
+        "c09-d11",
+        "c09-d12",
+        "c09-d13",
+        "c09-d14",
+        "c09-d15",
+        "c09-d16",
+        "c09-d17"
+      ]
+    },
+    {
+      "id": "c09-s3",
+      "numero": "3",
+      "titulo": "Implicación del email en el Customer Journey Map",
+      "pagina_pdf": 151,
+      "pagina_libro": 146,
+      "texto": "El email marketing se integra de manera fluida en las diferentes fases del customer journey. Sería un error reconocer la estrategia de email marketing solo como un conjunto de mensajes ya que en realidad se trata de una arquitectura de comunicación fluida que acompaña al usuario en cada paso de su viaje, desde el desconocimiento hasta la lealtad, siempre priorizando la entrega de valor y la construcción de confianza. Cuando hablamos de niveles de conciencia lo hacemos utilizando el concepto acuñado por Schwartz en su libro “Breakthrough Advertising”, muy recomendable, en el que se desarrolla esta clasificación del estado de un consumidor. Con toda esta información ya podemos dibujar un funnel de conversión:\nTOFU (Top of the Funnel) | Conciencia: En esta etapa, el usuario es totalmente inconsciente o solo consciente del problema. El objetivo es crear conciencia sobre los problemas y soluciones genéricas. Aquí el rol del email es principalmente a través de la captación de leads mediante lead magnets. El email inicial confirma la descarga de un recurso, como un ebook sobre \"Los desafíos del marketing digital en 2026\" que introduce al usuario en la problemática sin un enfoque de venta directa. La clave es educar a la audiencia sobre un problema, necesidad o punto de dolor, sin buscar una venta directa. Ejemplo: Ana visita el blog de aulamarketing.digital, lee un artículo sobre la importancia de la automatización y se suscribe a la newsletter para descargar una \"Guía inicial a la automatización para marketers\". El email de confirmación y el de entrega del recurso la introducen en el ecosistema de aulamarketing.digital.\nMOFU (Middle of the Funnel) | Evaluación: En esta fase, la persona ya es consciente del problema o consciente de la solución. El objetivo es convertir a los clientes potenciales en leads cualificados, aumentando su interés y ayudándoles a entender cómo la marca puede resolver su problema. Aquí trabajamos lo que se denomina nurturing emails. Son correos que cualifican a los usuarios, elevando su nivel de consciencia y conexión con el producto, servicio o marca. Se envían correos con consejos, respuestas a preguntas frecuentes, estudios de caso o invitaciones a webinars y eventos que demuestren la experiencia de la marca. El objetivo es generar deseo y profundizar la relación, mostrando cómo la marca puede eliminar sus dolores y optimizar sus resultados. Ejemplo: Tras descargar la guía de automatización, Ana recibe una serie de emails explicando diferentes herramientas de automatización, casos de éxito de empresas que las implementaron y una invitación a un webinar gratuito sobre \"Cómo crear tu primer flujo de automatización con IA\".\nBOFU (Bottom of the Funnel) | Conversión: Esta es la etapa de decisión donde el usuario es consciente de que ese producto o el producto de esa marca específica resuelve su problema. El objetivo en esta etapa es convertir a los leads en clientes, demostrando que la marca es su mejor opción. Aquí el rol del email se centra en el envío de correos con ofertas directas, testimonios, demostraciones, comparaciones y casos de éxito. Aquí se incluyen los emails de up-sell, cross-sell, y aquellos que ofrecen descuentos exclusivos o acceso a información privilegiada para motivar la compra. Los correos transaccionales o de confirmación de compra también son vitales aquí. Ejemplo: Ana, habiendo asistido al webinar y mostrado interés en la automatización, recibe un email con un testimonio de un estudiante que triplicó su eficiencia con nuestro curso de \"Automatización avanzada\", y una oferta especial para inscribirse. Si se inscribe, recibe un email formal de confirmación de compra y detalles de acceso.\nEste es un momento ideal para recordar que Ana, igual que tú, está buscando cómo implementar una estrategia efectiva de email marketing. Para ello necesita apoyarse en plataformas que faciliten la gestión de contactos, el diseño de correos, la automatización y el análisis de métricas. ¿Qué herramientas pueden ser útiles en este proceso?",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c09-d18",
+        "c09-d19",
+        "c09-d20",
+        "c09-d21",
+        "c09-d22"
+      ]
+    },
+    {
+      "id": "c09-s4",
+      "numero": "4",
+      "titulo": "Herramientas y asistencia IA en email marketing",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "texto": "Brevo | Active Campaign | Mailchimp | MailerLite | MailRelay | GetResponse | Klaviyo Acumbamail | Email Octopus | Omnisend\nDe las mencionadas, la plataforma que más destaca por su gran potencial es Brevo y una de las más reconocidas en el sector (por su reputación en Norteamérica) es Active Campaign. Todas ellas poseen la mayor parte de sus funcionalidades en común y lo que las hace diferentes son cuestiones como la interfaz, más usable o técnicamente más compleja o sus versiones gratuitas, donde podrás ver que algunas ofrecen más capacidad de contactos y otras mayor número de envíos diarios. Entonces la gran pregunta es ¿qué funcionalidades nos encontramos en estas herramientas?\nLa principal es la gestión de listas de suscriptores. Estas plataformas permiten almacenar y organizar los datos de los contactos, así como segmentar la audiencia según criterios demográficos, de comportamiento o de interés, por ejemplo, aquellos que descargaron una guía específica de aulamarketing.digital sobre SEO vs. aquellos interesados en redes sociales. Como no podría ser de otra forma, otra de sus funcionalidades es el diseño de emails. Ofrecen editores de drag-and-drop (arrastrar y soltar) o plantillas prediseñadas para crear correos visualmente atractivos y responsive sin necesidad de conocimientos de programación. Una de las posibilidades que más sorprende cuando empezamos a utilizar estas plataformas es la automatización de flujos de trabajo y como puedes imaginar es una de las funcionalidades más potentes. Permiten configurar secuencias de emails que se envían automáticamente en respuesta a una acción del usuario como la descarga de un lead magnet, abandono de carrito o su cumpleaños, o a lo largo del tiempo. Esto es fundamental para nuestra estrategia de lead nurturing en el MOFU y la gestión de funnels. La personalización es otro de sus puntos fuertes, ya que más allá del nombre, permiten insertar contenido dinámico basado en los datos del suscriptor, lo que hace que cada email sea más relevante para el receptor.\nEn marketing digital es importante que podamos medir cada acción, por lo que una gran ventaja de estas herramientas son los tests A/B. Nos permiten probar diferentes versiones de un email con modificaciones sobre las líneas de asunto, contenido o CTAs, para determinar cuál funciona mejor, optimizando las tasas de apertura y clics. Los informes y las analíticas nos proporcionan datos sobre la tasa de apertura, tasa de clics, tasa de conversión, tasa de baja o desuscripción, rendimiento de la CTA, etc. Estas métricas son vitales para entender el éxito de las campañas y realizar ajustes. Por último podemos destacar las integraciones que nos permiten conectar la plataforma de email marketing con otras herramientas del ecosistema digital, como CRMs, plataformas de comercio electrónico, CMS o herramientas de automatización de marketing más amplias. Esta característica que suele ser más utilizada por empresas de mayor tamaño, facilita el seguimiento del comportamiento de usuarios principalmente en productos servicios donde el proceso de decisión puede demorarse un largo periodo de tiempo o donde se busca hacer un exhaustivo seguimiento de los clientes.\n✐ Herramientas de IA para email marketing\n¿Cómo completamos con IA la estrategia de email marketing de Ana? Buscaremos cómo ayudarla a ser más eficiente y profundizar en la personalización y la relevancia del mensaje a escala, fortaleciendo la conexión, la conversión y la lealtad de su audiencia. Sin embargo, es vital recordar que la IA es una herramienta para potenciar nuestra estrategia y no debe reemplazar la visión y el compromiso con la autenticidad.\nEn una fase inicial, la IA puede ayudarnos en una etapa de investigación y estrategia, clarificando la asociación temática de nuestra propuesta de valor con las necesidades o dolores de nuestro público objetivo. De esta forma localizaremos diferentes ángulos o perspectivas desde la que trabajar la comunicación por email. Proponemos comenzar con NotebookLM, facilitándole toda la información sobre nuestro buyer persona, propuesta de valor, marca, modelo de negocio y contenido que hemos obtenido previamente como los textos del sitio web, textos sobre productos, contenido de redes sociales, etc. En esta etapa incluso podríamos haber hecho un seguimiento de la competencia y crear un dossier de varias marcas competidoras que complemente nuestra estrategia de email marketing.\nA continuación, conectaremos toda esta información en cuatro prompt que buscan saber de qué hablar, cómo diferenciarse, qué ganchos pueden generar mayor interés y cómo generar un tono idóneo. Este es un ejemplo para el primero: “Actúa como un Estratega de Email Marketing experto en psicología del consumidor. Basándote en toda la información que te he facilitado sobre mi Buyer Persona y mi marca [Nombre de la Marca], realiza un análisis de 'Tensiones Invisibles'. Identifica: 1) Cinco miedos o frustraciones que mi audiencia siente en su día a día respecto a [Temática/Sector] pero que no suelen confesar. 2) Cómo mi propuesta de valor resuelve cada una de esas tensiones. 3) Propón un ángulo de comunicación para una serie de 3 emails iniciales que no intenten vender, sino validar esas emociones y posicionarme como el aliado que los comprende.”; en segundo lugar le pediremos “Analiza el dossier de la competencia que te he adjuntado. Tu objetivo es encontrar el 'Contenido Huérfano' (lo que nadie está diciendo). Responde: 1) ¿Cuáles son los 3 temas o consejos que todas las marcas de mi competencia repiten hasta la saciedad? (Para evitarlos). 2) ¿Qué preguntas críticas de los usuarios están dejando sin respuesta? 3) Propón 3 pilares editoriales para mi Newsletter que me diferencien drásticamente de ellos y que hagan que el usuario sienta que mi email es el único que realmente le aporta una perspectiva nueva.”; a continuación “Dado que el email es un espacio personal sagrado, necesitamos un motivo de peso para que [Buyer Persona] nos deje entrar. Basado en sus dolores actuales, diseña 3 opciones de 'Recursos de Alto Valor' (Lead Magnets) que no tengan un coste económico pero que sean percibidos como una victoria rápida para ellos. No sugieras un simple 'eBook genérico'; propón herramientas útiles (plantillas, auditorías paso a paso, acceso a un vídeo exclusivo de resolución de un problema concreto). Para cada opción, explica por qué sería irresistible para [Buyer Persona].”; por último “Define la 'Personalidad de Envío' de mi marca. Si mi marca fuera una persona que escribe un correo a un amigo respetado, ¿cómo sería su tono? (Cercano, desafiante, técnico-amigable, etc.). Basado en el volumen de información que manejo y la capacidad de atención de mi audiencia, sugiere: 1) Una frecuencia de envío que mantenga la relevancia sin saturar. 2) Una estructura de asunto (Subject Line) que sea consistente para que el usuario identifique mis correos antes de abrirlos.”.\nAunque podríamos continuar dentro de NotebookLM, proponemos llevar el resultado de estas interacciones a ChatGPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento. Si prefieres utilizar Perplexity, te recomendamos elegir cualquiera de los modelos mencionados. Ahora buscamos que nos ayuden a planificar en base al funnel TOFU-MOFU-BOFU y siempre en conexión con nuestra propuesta de valor. Para ello utilizaremos el siguiente prompt “Actúa como un Director de Estrategia Digital. Basándote en la investigación previa que hemos realizado sobre Ana, sus tensiones invisibles, el Lead Magnet elegido y nuestra competencia, necesito que diseñes la Matriz Estratégica de nuestro Funnel de Email. No redactes los correos todavía. Presenta una tabla o esquema que detalle lo siguiente para cada etapa (TOFU, MOFU, BOFU): Etapa del Funnel: (Ej: TOFU - Concienciación). Estado Mental del Usuario: ¿Qué está sintiendo Ana en este punto exacto? Objetivo de Comunicación: ¿Qué idea única debe quedar grabada en su mente tras leer este bloque? Narrativa de Autoridad: ¿Qué dato o 'Information Gain' vamos a usar para diferenciarnos de lo que dice todo el mundo? Métricas de Éxito: ¿Qué acción específica (clic, respuesta, tiempo de lectura) nos indicará que el usuario está listo para pasar a la siguiente etapa. Al final, propón el Arco Narrativo total: ¿Cuál es el viaje emocional que [buyer persona] hará desde que se descarga el recurso gratuito hasta que confía en nosotros para su formación o servicio?”\nEn la siguiente etapa desarrollaremos los mensajes, es decir, pasamos a la redacción. El primer elemento de valor en tus email son las de líneas de asunto. Las herramientas de IA pueden analizar datos de campañas anteriores para sugerir líneas de asunto que optimicen las tasas de apertura, considerando factores como longitud, uso de emojis y palabras clave. Esto permite que el email sea más irresistible. Si no dispones de datos anteriores, generaremos varios prompt que nos permitan obtener asuntos que potencien el CTR. El siguiente elemento que potencia el interés es el cuerpo de texto. Los LLM pueden ayudarnos a generar borradores de contenido para diferentes tipos de emails como las newsletter, promocionales o de bienvenida, adaptándose al tono y al objetivo. Finalmente buscamos optimización de CTAs. Es aquí donde buscamos variaciones de llamadas a la acción que han tenido mejor rendimiento, aumentando la tasa de clics o que potencialmente puedan ser un punto de partida que reduzca el margen de error. Los siguientes prompt pueden servirte de guía.\nEl primero conectará la información de la tabla con el rol: “Actúa como un Copywriter Senior de Respuesta Directa. Basándote en la Matriz Estratégica que acabamos de definir, vamos a proceder a la redacción de la secuencia. Tu tarea ahora es planificar el tono y el gancho específico para cada uno de los 5 emails, asegurándote de que el Estado Mental del Usuario y el Objetivo de Comunicación de la matriz se respeten en cada paso. Confirma que tienes clara la transición emocional del TOFU al BOFU antes de empezar con el primer correo.”. Ahora pasamos a las diferentes etapas comenzando por TOFU: “Redacta el Email 1 (TOFU). Usa como referencia la primera fila de nuestra Matriz. Objetivo: Entregar el [Lead Magnet] y cumplir el 'Objetivo de Comunicación' de la matriz. Contexto: Recuerda que el usuario está en el estado mental de '[Insertar estado de la matriz]'. Estructura: Valida su dolor, entrega el recurso y establece la autoridad de Ana siguiendo la 'Narrativa de Autoridad' que definimos. Debe sonar 100% humano y ético.”. Para MOFU utilizaremos: “Redacta los Emails 2 y 3 (MOFU). Utiliza la información de las filas correspondientes de la Matriz Estratégica. Clave: Integra el dato o perspectiva de 'Information Gain' que acordamos para romper con los tópicos de la competencia. Storytelling: Desarrolla la anécdota que sugerimos en la matriz para agitar las 'Tensiones Invisibles'. Resultado: El usuario debe sentir que [buyer persona] es la única persona que ha diseccionado su problema con esta profundidad.” y para BOFU “Redacta los Emails 4 y 5 (BOFU). Estamos al final del 'Arco Narrativo' de nuestra matriz. Misión: Conducir al usuario hacia la métrica de éxito: [Indicar métrica de la matriz, ej: clic en reserva]. Contenido: No hables de funciones; habla de la transformación que definimos en la estrategia. Cierre: Usa el P.S. para reforzar el coste de oportunidad de no actuar ahora, manteniendo el propósito y la ética de la marca”.\nAhora que ya tenemos los textos de nuestro primer funnel, pasamos al diseño. Los diferentes maquetadores de contenido de las plataformas de email marketing permiten editar completamente la forma en la que diseñamos y trasladamos la propuesta de valor por email. En ocasiones y en campañas que exigen un gran nivel de cohesión entre mensajes, podemos apoyarnos en los LLM contrastando las diferentes propuestas y generando pruebas de estructuras comunicativas (AIDA-PAS-PASTOR-PPPP, etc). Aunque previamente los textos te los haya facilitado la IA y los hayas revisado, tener una fase de auditoría te ayudará a reducir fricciones con el buyer. Utiliza el siguiente prompt para auditar tus correos, desde el diseño hasta los correos: “Actúa como un Senior Conversion Optimizer. Voy a proporcionarte los borradores de mis 5 correos del funnel de [buyer persona]. Tu tarea es realizar una auditoría técnica y una propuesta de maquetación siguiendo estos pasos: Análisis de Fórmula: Evalúa si cada correo se ajusta mejor a la fórmula AIDA (Atención, Interés, Deseo, Acción), PAS (Problema, Agitación, Solución) o PASTOR (Problema, Amplificación, Solución, Testimonio, Oferta, Respuesta). Si el texto actual es genérico, reescríbelo aplicando la fórmula que mejor encaje con la etapa del funnel (TOFU, MOFU o BOFU). Jerarquía Visual y Maquetación: Para cada correo, describe cómo debe ser su diseño en el editor de email (maquetador). Indica: Dónde colocar elementos visuales (imágenes, GIFs o separadores) para romper el patrón de lectura. Qué frases deben ir en negrita o con un tamaño de fuente mayor para facilitar el escaneado visual (skimming). Ubicación y estilo del botón de CTA (Call to Action) para maximizar el clic. Contraste de Variantes: Propón una Prueba A/B para el elemento más crítico de cada correo (por ejemplo, cambiar un enfoque PAS por uno de Storytelling en el cuerpo del mensaje). Aquí tienes los textos: [Pegar los borradores de los correos obtenidos en la fase anterior]”\nEs momento de pasar a las automatizaciones. Los sistemas de envío de las plataformas utilizan la inteligencia artificial para optimizar los resultados en relación al comportamiento de los usuarios. Cada plataforma permite que puedas hacerlo con diferentes configuraciones, por lo que nosotros anotaremos las principales para que puedas ver si la plataforma que eliges te permite hacerlo o lo hace de forma automática. Asegúrate de que tus campañas se trabajan desde la segmentación dinámica. La IA puede analizar continuamente los datos del usuario, como el comportamiento en el sitio web, interacciones con emails previos o el historial de compras, para crear segmentos de audiencia dinámicos y altamente específicos. Esto permite enviar el mensaje correcto a la persona adecuada en el momento preciso. Revisa y optimiza en lo posible los tiempos de envío. Los algoritmos de IA pueden determinar los momentos óptimos para enviar emails a cada suscriptor individual, basándose en patrones históricos de apertura y clics, maximizando el compromiso. Utiliza los flujos de nurturing. La IA puede ajustar la secuencia y el contenido de los emails en un flujo de cualificación de leads en tiempo real, basándose en las interacciones del usuario, lo que puede acelerar el proceso de conversión y mejora la relevancia de los mensajes. Por último ten en cuenta que existen fórmulas de detección de inactividad y re-engagement, La IA puede identificar suscriptores inactivos y activar campañas de re-engagement personalizadas para intentar reactivarlos, evitando la pérdida de clientes.\nEn términos de optimización estratégica, una vez tengas tus primeros datos, puedes utilizar la IA como asistente para predecir qué usuarios tienen más probabilidades de convertir o darse de baja, permitiéndonos intervenir con acciones proactivas. También es interesante para recomendaciones de contenido, ya que basado en el historial de interacciones y preferencias, la IA puede recomendar qué tipo de contenido (artículos de blog, guías, cursos) es más probable que interese a un suscriptor específico en un email. Para eso facilita un archivo de tipo csv o xlsx que podrás descargarte de tu plataforma y llevándolo a Chat GPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento, y consultar: “Actúa como un Data Scientist especializado en Email Marketing y Retención. He adjuntado un archivo con los datos de comportamiento de mis suscriptores. Analiza los patrones de interacción y realiza las siguientes tareas: Predicción de Churn (Bajas): Identifica el segmento de usuarios que presentan un comportamiento de 'desconexión' (bajada en tasa de apertura o clics en los últimos 30-60 días). ¿Qué rasgos comunes tienen? Propón una campaña de reactivación proactiva específicamente para ellos. Modelado de Propensión de Compra: Clasifica a los usuarios en 'Fríos', 'Templados' y 'Calientes'. ¿Quiénes tienen una probabilidad superior al 80% de convertir si reciben una oferta hoy? Motor de Recomendación de Contenido: Basándote en el historial de clics por categorías, dime qué tipo de contenido (Artículos técnicos, Guías prácticas o Casos de éxito) debería recibir cada segmento para maximizar el CTR en el próximo envío. Optimización de Horarios (Send Time Optimization): Analiza en qué franjas horarias y días de la semana se produce el mayor volumen de clics reales por parte de mis usuarios más activos. Output esperado: Un informe ejecutivo con los 3 hallazgos más sorprendentes y una lista de acciones inmediatas para cada segmento identificado.”.",
+      "subsecciones": [],
+      "ids_prompts": [
+        "c09-p01",
+        "c09-p02",
+        "c09-p03",
+        "c09-p04",
+        "c09-p05",
+        "c09-p06",
+        "c09-p07",
+        "c09-p08",
+        "c09-p09",
+        "c09-p10",
+        "c09-p11"
+      ],
+      "ids_herramientas": [
+        "c09-h01",
+        "c09-h02",
+        "c09-h03",
+        "c09-h04",
+        "c09-h05",
+        "c09-h06",
+        "c09-h07",
+        "c09-h08",
+        "c09-h09",
+        "c09-h10",
+        "c09-h11",
+        "c09-h12",
+        "c09-h13",
+        "c09-h14",
+        "c09-h15",
+        "c09-h16",
+        "c09-h17",
+        "c09-h18",
+        "c09-h19",
+        "c09-h20"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c09-d23",
+        "c09-d24"
+      ]
+    },
+    {
+      "id": "c09-s5",
+      "numero": "5",
+      "titulo": "Ejemplo completo para aulamarketing.digital",
+      "pagina_pdf": 156,
+      "pagina_libro": 151,
+      "texto": "Es momento de anotar cómo la estrategia de aulamarketing.digital crea a través del email marketing un hilo conductor experiencial para Ana. Comenzaremos con la captación y construcción de confianza (TOFU). Ana está buscando mejorar sus habilidades en marketing digital. Un día, mientras navega por LinkedIn, ve una publicación de aulamarketing.digital sobre un nuevo artículo de blog titulado \"Las 5 tendencias clave del marketing digital para 2026\". El copy del post es persuasivo y le invita a leer más. Al llegar al blog de aulamarketing.digital, el contenido es relevante y de alta calidad. Al final del artículo, se le presenta un pop-up o banner ofreciendo una \"Guía Gratuita: plan de marketing digital completo para PYMES\" a cambio de su correo electrónico. Ana, al percibir el gran valor de esta guía y la autoridad de aulamarketing.digital, decide dejar su email, aunque antes fuera reticente a compartir datos. Este es el primer punto de contacto directo y el inicio de una relación más cercana.\n✓ Email 1 | Confirmación de suscripción y entrega de lead magnet: Automáticamente, Ana recibe un email de aulamarketing.digital: \"¡Bienvenida a la comunidad de aulamarketing.digital, Ana! Aquí tienes tu Guía Gratuita de plan de marketing digital.\" Este email es formal y esperado. El copywriting del correo refuerza la promesa de valor y agradece su confianza.\nPasamos a la fase dos con el nurturing y generación de deseo (MOFU). Una vez que Ana ha descargado la guía, aulamarketing.digital activa una secuencia de emails basada en el interés que mostró por el marketing digital y, específicamente, por la planificación estratégica.\n✓ Email 2 | 3 días después: Ampliación de contenido de valor. \"Ana, ¿Ya has explorado tu guía? Hoy queremos compartirte un caso de estudio real de cómo una empresa implementó su plan de marketing digital siguiendo nuestros consejos y duplicó sus leads.\" Este email no pretende generar una venta directa, sino que aporta más valor y resuelve posibles dudas.\n✓ Email 3 | Una semana después: Invitación a webinar. \"Ana, muchos de nuestros usuarios nos preguntan cómo aplicar la IA en sus planes de marketing. Te invitamos a nuestro webinar exclusivo y gratuito: 'IA para Marketers: maximizando tus estrategias digitales'.\" Este email busca generar un paso más en la relación y activar un mayor deseo al ofrecer información privilegiada y una interacción más directa.\nEn la fase tres nos centramos en la conversión y oferta de valor (BOFU). Ana asiste al webinar, encuentra el contenido útil y se siente más conectada con aulamarketing.digital, reconociendo su autoridad y credibilidad.\n✓ Email 4 | 24h post-webinar: Oferta de curso y testimonio. \"¡Gracias por acompañarnos en el webinar, Ana! Esperamos que haya sido de gran valor. Como seguimiento, y para que puedas aplicar todo lo aprendido, hemos abierto las inscripciones a nuestro 'Curso Completo de Marketing Digital con IA'. Por ser parte de nuestra comunidad, tienes un 20% de descuento. Escucha lo que dicen otros estudiantes como tú.\" Este email incluye un incentivo claro, un testimonio relevante y la llamada a la acción para la compra.\n✓ Email 5 | Recordatorio antes de que expire la oferta: Urgencia y beneficio. \"¡Últimas 24h para tu descuento en el Curso de marketing digital con IA, Ana! No pierdas la oportunidad de transformar tu carrera.\" Este correo utiliza el sesgo de aversión a la pérdida de forma ética para impulsar la decisión.\nNo podemos quedarnos simplemente en la venta, debemos siempre completar con una fase de fidelización (post-conversión). Ana se inscribe en el curso. La relación no termina ahí, de hecho, el objetivo en esta etapa es fortalecerla.\n✓ Email 6 | Confirmación de compra y bienvenida al curso: Un email formal que confirma su inscripción y le da acceso a la plataforma del curso, estableciendo un aspecto de predictibilidad en la comunicación.\n✓ Email 7 | Solicitud de satisfacción: Tras finalizar un módulo, se le envía un email pidiendo feedback para asegurar su satisfacción y mejorar la propuesta de valor de aulamarketing.digital.\n✓ Email 8 | Actualizaciones de contenido y potenciales cross-sell/up-sell: Periódicamente, Ana recibe emails informándole de nuevos artículos en el blog, podcasts o guías descargables, siempre relevantes a sus intereses. Por ejemplo, un email le notifica el lanzamiento de un \"Módulo avanzado de Google Ads\" (up-sell) o un \"Curso de copywriting para ventas\" (cross-sell). Estos emails se integran con el blog y las redes sociales de aulamarketing.digital, construyendo una experiencia omnicanal coherente.\n✓ Email 9 | Felicitación y testimonio: Una vez finalizado el curso, se le envía un email felicitándola y preguntándole si le gustaría compartir su testimonio, lo que refuerza su sentido de pertenencia y contribuye a la autoridad de la marca.\nA lo largo de todo este proceso, el contenido de valor generado por aulamarketing.digital debe centrarse en lo digital, utilizando formatos y canales alineados con el público objetivo. El objetivo es generar confianza en el usuario (Ana) mediante una comunicación honesta, transparente y coherente con lo que se promete. Aunque implementar una estrategia de email marketing puede parecer complejo al principio, adaptando el modelo de aulamarketing.digital a tu propia marca se vuelve más accesible captar y fidelizar audiencia. A partir de ahí, el siguiente paso es aprender a invertir en publicidad online con criterio estratégico y técnico, contando además con acompañamiento y soporte ante cualquier duda.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c09-d01",
+      "termino": "Email marketing",
+      "definicion": "El email marketing es una disciplina fundamental dentro del marketing digital que se centra en el uso estratégico del correo electrónico como canal de comunicación para establecer, nutrir y mantener relaciones con el público objetivo, con el fin último de alcanzar objetivos de negocio como la captación de leads, la conversión, la venta y la fidelización.",
+      "id_seccion": "c09-s1",
+      "pagina_pdf": 148,
+      "pagina_libro": 143
+    },
+    {
+      "id": "c09-d02",
+      "termino": "Copywriting",
+      "definicion": "Por definición, el copywriting es la disciplina que se encarga de redactar y crear contenido, estableciendo una estructura de comunicación diseñada para persuadir a las personas a cumplir objetivos mutuos, siempre desde una premisa ética.",
+      "id_seccion": "c09-s1",
+      "pagina_pdf": 149,
+      "pagina_libro": 144
+    },
+    {
+      "id": "c09-d03",
+      "termino": "Lead magnet",
+      "definicion": "Se trata de contenidos de alto valor que se ofrecen gratuitamente a cambio de los datos de contacto del usuario, típicamente su correo electrónico.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d04",
+      "termino": "Lead",
+      "definicion": "El término lead se utiliza en marketing para etiquetar a usuarios con un cierto nivel de interés por una marca, producto o servicio que han actuado de cierta forma como en el caso de aquellos que dejan un correo o abren una conversación en redes sociales.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d05",
+      "termino": "Inbound marketing",
+      "definicion": "Se trata de una metodología que busca atraer al cliente a través de contenido de valor y experiencias relevantes, en lugar de perseguirlos con publicidad intrusiva.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d06",
+      "termino": "Funnel de conversión o embudo de ventas",
+      "definicion": "Previamente hemos hablado sobre el funnel de conversión o embudo de ventas, concretamente nos referimos a la secuencia de acciones, mensajes e impactos orientados a un evento de conversión final.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d07",
+      "termino": "Omnicanalidad",
+      "definicion": "La omnicanalidad es la búsqueda de una experiencia de cliente coherente y unificada a través de todos los puntos de contacto, tanto online como offline.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d08",
+      "termino": "Tasa de apertura",
+      "definicion": "la tasa de apertura, referida al número de usuarios que abren el correo",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d09",
+      "termino": "Tasa de clics o CTR / CTA (Call To Action)",
+      "definicion": "la tasa de clics o CTR que hace referencia a los usuarios que hacen clic en un elemento al que llamamos CTA o Call To Action y puede ser un botón, un enlace de la bio o la apertura de un DM.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d10",
+      "termino": "Tasa de bajas o desuscripción",
+      "definicion": "La tasa de bajas o desuscripción se encuentra alrededor del 0,21% y tiene un impacto importante ya que nos indica cuántos usuarios deciden dejar de recibir comunicación por email.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d11",
+      "termino": "Emails de captación",
+      "definicion": "Son aquellos que buscan obtener el correo electrónico del usuario. Típicamente, están asociados a la oferta de un lead magnet. Ejemplo: Un email confirmando el registro a un webinar gratuito sobre \"Automatización de estrategias de marketing con IA\" y adjuntando una guía rápida sobre el tema.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d12",
+      "termino": "Emails de confirmación",
+      "definicion": "Se envían automáticamente tras una acción del usuario, como una suscripción o una compra. Ejemplo: Un correo que confirma la inscripción a un curso de \"Marketing de contenidos avanzado\" o la descarga de una de nuestras \"Plantillas de Plan de Marketing Digital 2026\".",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "id": "c09-d13",
+      "termino": "Emails de gracias",
+      "definicion": "Expresan gratitud por una interacción o compra, reforzando la relación. Ejemplo: Un email agradeciendo la participación en una encuesta sobre \"Desafíos del marketing digital para PYMES\" y ofreciendo un resumen exclusivo de los resultados.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d14",
+      "termino": "Emails para ampliar información | Nurturing",
+      "definicion": "Buscan ofrecer más valor, consejos o respuestas a las preguntas del usuario, alineados con sus intereses. Estos son cruciales en la etapa MOFU del funnel (descritas en el siguiente punto). Ejemplo: Una serie de correos que profundizan en los \"5 errores comunes en estrategias de SEO\" o \"Consejos para optimizar tus campañas de Google Ads\", tras la descarga de una guía relacionada.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d15",
+      "termino": "Emails recordatorio",
+      "definicion": "Se utilizan para recordar eventos, citas o acciones pendientes. Ejemplo: Un recordatorio del inicio de una sesión en vivo de nuestro \"Bootcamp de Growth Hacking\" o una fecha límite para aplicar a un descuento especial en uno de nuestros programas de mentoría.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d16",
+      "termino": "Emails de satisfacción",
+      "definicion": "Buscan obtener retroalimentación del cliente sobre su experiencia. Ejemplo: Una encuesta de satisfacción post-curso o post-consulta, pidiendo opiniones sobre la experiencia con aulamarketing.digital.",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d17",
+      "termino": "Emails de up-sell y cross-sell",
+      "definicion": "Estrategias para aumentar el valor de vida del cliente. El up-sell ofrece una versión superior o más completa del producto/servicio, mientras que el cross-sell propone productos/servicios complementarios. Ejemplo: Tras completar un curso básico de \"Analítica Web\", un email ofreciendo un descuento en el curso avanzado de \"Google Analytics 4\" (up-sell) o sugiriendo un curso de \"Visualización de datos con Power BI\" (cross-sell).",
+      "id_seccion": "c09-s2",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d18",
+      "termino": "TOFU (Top of the Funnel) | Conciencia",
+      "definicion": "En esta etapa, el usuario es totalmente inconsciente o solo consciente del problema. El objetivo es crear conciencia sobre los problemas y soluciones genéricas. Aquí el rol del email es principalmente a través de la captación de leads mediante lead magnets. El email inicial confirma la descarga de un recurso, como un ebook sobre \"Los desafíos del marketing digital en 2026\" que introduce al usuario en la problemática sin un enfoque de venta directa. La clave es educar a la audiencia sobre un problema, necesidad o punto de dolor, sin buscar una venta directa. Ejemplo: Ana visita el blog de aulamarketing.digital, lee un artículo sobre la importancia de la automatización y se suscribe a la newsletter para descargar una \"Guía inicial a la automatización para marketers\". El email de confirmación y el de entrega del recurso la introducen en el ecosistema de aulamarketing.digital.",
+      "id_seccion": "c09-s3",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d19",
+      "termino": "MOFU (Middle of the Funnel) | Evaluación",
+      "definicion": "En esta fase, la persona ya es consciente del problema o consciente de la solución. El objetivo es convertir a los clientes potenciales en leads cualificados, aumentando su interés y ayudándoles a entender cómo la marca puede resolver su problema. Aquí trabajamos lo que se denomina nurturing emails. Son correos que cualifican a los usuarios, elevando su nivel de consciencia y conexión con el producto, servicio o marca. Se envían correos con consejos, respuestas a preguntas frecuentes, estudios de caso o invitaciones a webinars y eventos que demuestren la experiencia de la marca. El objetivo es generar deseo y profundizar la relación, mostrando cómo la marca puede eliminar sus dolores y optimizar sus resultados. Ejemplo: Tras descargar la guía de automatización, Ana recibe una serie de emails explicando diferentes herramientas de automatización, casos de éxito de empresas que las implementaron y una invitación a un webinar gratuito sobre \"Cómo crear tu primer flujo de automatización con IA\".",
+      "id_seccion": "c09-s3",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d20",
+      "termino": "BOFU (Bottom of the Funnel) | Conversión",
+      "definicion": "Esta es la etapa de decisión donde el usuario es consciente de que ese producto o el producto de esa marca específica resuelve su problema. El objetivo en esta etapa es convertir a los leads en clientes, demostrando que la marca es su mejor opción. Aquí el rol del email se centra en el envío de correos con ofertas directas, testimonios, demostraciones, comparaciones y casos de éxito. Aquí se incluyen los emails de up-sell, cross-sell, y aquellos que ofrecen descuentos exclusivos o acceso a información privilegiada para motivar la compra. Los correos transaccionales o de confirmación de compra también son vitales aquí. Ejemplo: Ana, habiendo asistido al webinar y mostrado interés en la automatización, recibe un email con un testimonio de un estudiante que triplicó su eficiencia con nuestro curso de \"Automatización avanzada\", y una oferta especial para inscribirse. Si se inscribe, recibe un email formal de confirmación de compra y detalles de acceso.",
+      "id_seccion": "c09-s3",
+      "pagina_pdf": 152,
+      "pagina_libro": 147
+    },
+    {
+      "id": "c09-d21",
+      "termino": "Nurturing emails",
+      "definicion": "Aquí trabajamos lo que se denomina nurturing emails. Son correos que cualifican a los usuarios, elevando su nivel de consciencia y conexión con el producto, servicio o marca.",
+      "id_seccion": "c09-s3",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d22",
+      "termino": "Niveles de conciencia (Schwartz)",
+      "definicion": "Cuando hablamos de niveles de conciencia lo hacemos utilizando el concepto acuñado por Schwartz en su libro “Breakthrough Advertising”, muy recomendable, en el que se desarrolla esta clasificación del estado de un consumidor.",
+      "id_seccion": "c09-s3",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "id": "c09-d23",
+      "termino": "Tests A/B",
+      "definicion": "una gran ventaja de estas herramientas son los tests A/B. Nos permiten probar diferentes versiones de un email con modificaciones sobre las líneas de asunto, contenido o CTAs, para determinar cuál funciona mejor, optimizando las tasas de apertura y clics.",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147
+    },
+    {
+      "id": "c09-d24",
+      "termino": "Segmentación dinámica",
+      "definicion": "Asegúrate de que tus campañas se trabajan desde la segmentación dinámica. La IA puede analizar continuamente los datos del usuario, como el comportamiento en el sitio web, interacciones con emails previos o el historial de compras, para crear segmentos de audiencia dinámicos y altamente específicos.",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "pagina_libro": 150
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c09-p01",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "pagina_libro": 148,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Actúa como un Estratega de Email Marketing experto en psicología del consumidor. Basándote en toda la información que te he facilitado sobre mi Buyer Persona y mi marca [Nombre de la Marca], realiza un análisis de 'Tensiones Invisibles'. Identifica: 1) Cinco miedos o frustraciones que mi audiencia siente en su día a día respecto a [Temática/Sector] pero que no suelen confesar. 2) Cómo mi propuesta de valor resuelve cada una de esas tensiones. 3) Propón un ángulo de comunicación para una serie de 3 emails iniciales que no intenten vender, sino validar esas emociones y posicionarme como el aliado que los comprende.",
+      "contexto_previo": "A continuación, conectaremos toda esta información en cuatro prompt que buscan saber de qué hablar, cómo diferenciarse, qué ganchos pueden generar mayor interés y cómo generar un tono idóneo. Este es un ejemplo para el primero:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM"
+      ],
+      "marcadores_variables": [
+        "[Nombre de la Marca]",
+        "[Temática/Sector]"
+      ],
+      "referencia_a_salida_previa": "Basándote en toda la información que te he facilitado sobre mi Buyer Persona y mi marca [Nombre de la Marca]",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p02",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "pagina_libro": 148,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Analiza el dossier de la competencia que te he adjuntado. Tu objetivo es encontrar el 'Contenido Huérfano' (lo que nadie está diciendo). Responde: 1) ¿Cuáles son los 3 temas o consejos que todas las marcas de mi competencia repiten hasta la saciedad? (Para evitarlos). 2) ¿Qué preguntas críticas de los usuarios están dejando sin respuesta? 3) Propón 3 pilares editoriales para mi Newsletter que me diferencien drásticamente de ellos y que hagan que el usuario sienta que mi email es el único que realmente le aporta una perspectiva nueva.",
+      "contexto_previo": "en segundo lugar le pediremos",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": "Analiza el dossier de la competencia que te he adjuntado.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p03",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "pagina_libro": 148,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Dado que el email es un espacio personal sagrado, necesitamos un motivo de peso para que [Buyer Persona] nos deje entrar. Basado en sus dolores actuales, diseña 3 opciones de 'Recursos de Alto Valor' (Lead Magnets) que no tengan un coste económico pero que sean percibidos como una victoria rápida para ellos. No sugieras un simple 'eBook genérico'; propón herramientas útiles (plantillas, auditorías paso a paso, acceso a un vídeo exclusivo de resolución de un problema concreto). Para cada opción, explica por qué sería irresistible para [Buyer Persona].",
+      "contexto_previo": "a continuación",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM"
+      ],
+      "marcadores_variables": [
+        "[Buyer Persona]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p04",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "pagina_libro": 148,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Define la 'Personalidad de Envío' de mi marca. Si mi marca fuera una persona que escribe un correo a un amigo respetado, ¿cómo sería su tono? (Cercano, desafiante, técnico-amigable, etc.). Basado en el volumen de información que manejo y la capacidad de atención de mi audiencia, sugiere: 1) Una frecuencia de envío que mantenga la relevancia sin saturar. 2) Una estructura de asunto (Subject Line) que sea consistente para que el usuario identifique mis correos antes de abrirlos.",
+      "contexto_previo": "por último",
+      "contexto_posterior": "Aunque podríamos continuar dentro de NotebookLM, proponemos llevar el resultado de estas interacciones a ChatGPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento.",
+      "herramienta_ia_indicada": [
+        "NotebookLM"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p05",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Actúa como un Director de Estrategia Digital. Basándote en la investigación previa que hemos realizado sobre Ana, sus tensiones invisibles, el Lead Magnet elegido y nuestra competencia, necesito que diseñes la Matriz Estratégica de nuestro Funnel de Email. No redactes los correos todavía. Presenta una tabla o esquema que detalle lo siguiente para cada etapa (TOFU, MOFU, BOFU): Etapa del Funnel: (Ej: TOFU - Concienciación). Estado Mental del Usuario: ¿Qué está sintiendo Ana en este punto exacto? Objetivo de Comunicación: ¿Qué idea única debe quedar grabada en su mente tras leer este bloque? Narrativa de Autoridad: ¿Qué dato o 'Information Gain' vamos a usar para diferenciarnos de lo que dice todo el mundo? Métricas de Éxito: ¿Qué acción específica (clic, respuesta, tiempo de lectura) nos indicará que el usuario está listo para pasar a la siguiente etapa. Al final, propón el Arco Narrativo total: ¿Cuál es el viaje emocional que [buyer persona] hará desde que se descarga el recurso gratuito hasta que confía en nosotros para su formación o servicio?",
+      "contexto_previo": "Ahora buscamos que nos ayuden a planificar en base al funnel TOFU-MOFU-BOFU y siempre en conexión con nuestra propuesta de valor. Para ello utilizaremos el siguiente prompt",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro",
+        "Claude 4.6 Sonnet",
+        "Perplexity"
+      ],
+      "marcadores_variables": [
+        "[buyer persona]"
+      ],
+      "referencia_a_salida_previa": "Basándote en la investigación previa que hemos realizado sobre Ana, sus tensiones invisibles, el Lead Magnet elegido y nuestra competencia",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p06",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Actúa como un Copywriter Senior de Respuesta Directa. Basándote en la Matriz Estratégica que acabamos de definir, vamos a proceder a la redacción de la secuencia. Tu tarea ahora es planificar el tono y el gancho específico para cada uno de los 5 emails, asegurándote de que el Estado Mental del Usuario y el Objetivo de Comunicación de la matriz se respeten en cada paso. Confirma que tienes clara la transición emocional del TOFU al BOFU antes de empezar con el primer correo.",
+      "contexto_previo": "El primero conectará la información de la tabla con el rol:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro",
+        "Claude 4.6 Sonnet"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": "Basándote en la Matriz Estratégica que acabamos de definir",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p07",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Redacta el Email 1 (TOFU). Usa como referencia la primera fila de nuestra Matriz. Objetivo: Entregar el [Lead Magnet] y cumplir el 'Objetivo de Comunicación' de la matriz. Contexto: Recuerda que el usuario está en el estado mental de '[Insertar estado de la matriz]'. Estructura: Valida su dolor, entrega el recurso y establece la autoridad de Ana siguiendo la 'Narrativa de Autoridad' que definimos. Debe sonar 100% humano y ético.",
+      "contexto_previo": "Ahora pasamos a las diferentes etapas comenzando por TOFU:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro",
+        "Claude 4.6 Sonnet"
+      ],
+      "marcadores_variables": [
+        "[Lead Magnet]",
+        "[Insertar estado de la matriz]"
+      ],
+      "referencia_a_salida_previa": "Usa como referencia la primera fila de nuestra Matriz.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p08",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Redacta los Emails 2 y 3 (MOFU). Utiliza la información de las filas correspondientes de la Matriz Estratégica. Clave: Integra el dato o perspectiva de 'Information Gain' que acordamos para romper con los tópicos de la competencia. Storytelling: Desarrolla la anécdota que sugerimos en la matriz para agitar las 'Tensiones Invisibles'. Resultado: El usuario debe sentir que [buyer persona] es la única persona que ha diseccionado su problema con esta profundidad.",
+      "contexto_previo": "Para MOFU utilizaremos:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro",
+        "Claude 4.6 Sonnet"
+      ],
+      "marcadores_variables": [
+        "[buyer persona]"
+      ],
+      "referencia_a_salida_previa": "Utiliza la información de las filas correspondientes de la Matriz Estratégica.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p09",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Redacta los Emails 4 y 5 (BOFU). Estamos al final del 'Arco Narrativo' de nuestra matriz. Misión: Conducir al usuario hacia la métrica de éxito: [Indicar métrica de la matriz, ej: clic en reserva]. Contenido: No hables de funciones; habla de la transformación que definimos en la estrategia. Cierre: Usa el P.S. para reforzar el coste de oportunidad de no actuar ahora, manteniendo el propósito y la ética de la marca",
+      "contexto_previo": "y para BOFU",
+      "contexto_posterior": "Ahora que ya tenemos los textos de nuestro primer funnel, pasamos al diseño.",
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro",
+        "Claude 4.6 Sonnet"
+      ],
+      "marcadores_variables": [
+        "[Indicar métrica de la matriz, ej: clic en reserva]"
+      ],
+      "referencia_a_salida_previa": "Estamos al final del 'Arco Narrativo' de nuestra matriz.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p10",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "pagina_libro": 150,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Actúa como un Senior Conversion Optimizer. Voy a proporcionarte los borradores de mis 5 correos del funnel de [buyer persona]. Tu tarea es realizar una auditoría técnica y una propuesta de maquetación siguiendo estos pasos: Análisis de Fórmula: Evalúa si cada correo se ajusta mejor a la fórmula AIDA (Atención, Interés, Deseo, Acción), PAS (Problema, Agitación, Solución) o PASTOR (Problema, Amplificación, Solución, Testimonio, Oferta, Respuesta). Si el texto actual es genérico, reescríbelo aplicando la fórmula que mejor encaje con la etapa del funnel (TOFU, MOFU o BOFU). Jerarquía Visual y Maquetación: Para cada correo, describe cómo debe ser su diseño en el editor de email (maquetador). Indica: Dónde colocar elementos visuales (imágenes, GIFs o separadores) para romper el patrón de lectura. Qué frases deben ir en negrita o con un tamaño de fuente mayor para facilitar el escaneado visual (skimming). Ubicación y estilo del botón de CTA (Call to Action) para maximizar el clic. Contraste de Variantes: Propón una Prueba A/B para el elemento más crítico de cada correo (por ejemplo, cambiar un enfoque PAS por uno de Storytelling en el cuerpo del mensaje). Aquí tienes los textos: [Pegar los borradores de los correos obtenidos en la fase anterior]",
+      "contexto_previo": "Utiliza el siguiente prompt para auditar tus correos, desde el diseño hasta los correos:",
+      "contexto_posterior": "Es momento de pasar a las automatizaciones.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[buyer persona]",
+        "[Pegar los borradores de los correos obtenidos en la fase anterior]"
+      ],
+      "referencia_a_salida_previa": "Aquí tienes los textos: [Pegar los borradores de los correos obtenidos en la fase anterior]",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c09-p11",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "pagina_libro": 150,
+      "origen": "texto",
+      "bloque": "Herramientas de IA para email marketing",
+      "texto": "Actúa como un Data Scientist especializado en Email Marketing y Retención. He adjuntado un archivo con los datos de comportamiento de mis suscriptores. Analiza los patrones de interacción y realiza las siguientes tareas: Predicción de Churn (Bajas): Identifica el segmento de usuarios que presentan un comportamiento de 'desconexión' (bajada en tasa de apertura o clics en los últimos 30-60 días). ¿Qué rasgos comunes tienen? Propón una campaña de reactivación proactiva específicamente para ellos. Modelado de Propensión de Compra: Clasifica a los usuarios en 'Fríos', 'Templados' y 'Calientes'. ¿Quiénes tienen una probabilidad superior al 80% de convertir si reciben una oferta hoy? Motor de Recomendación de Contenido: Basándote en el historial de clics por categorías, dime qué tipo de contenido (Artículos técnicos, Guías prácticas o Casos de éxito) debería recibir cada segmento para maximizar el CTR en el próximo envío. Optimización de Horarios (Send Time Optimization): Analiza en qué franjas horarias y días de la semana se produce el mayor volumen de clics reales por parte de mis usuarios más activos. Output esperado: Un informe ejecutivo con los 3 hallazgos más sorprendentes y una lista de acciones inmediatas para cada segmento identificado.",
+      "contexto_previo": "Para eso facilita un archivo de tipo csv o xlsx que podrás descargarte de tu plataforma y llevándolo a Chat GPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento, y consultar:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro",
+        "Claude 4.6 Sonnet"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": "He adjuntado un archivo con los datos de comportamiento de mis suscriptores.",
+      "salida_mostrada_en_libro": null
+    }
+  ],
+  "herramientas_mencionadas": [
+    {
+      "id": "c09-h01",
+      "nombre": "Brevo",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h02",
+      "nombre": "Active Campaign",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h03",
+      "nombre": "Mailchimp",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h04",
+      "nombre": "MailerLite",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h05",
+      "nombre": "MailRelay",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h06",
+      "nombre": "GetResponse",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h07",
+      "nombre": "Klaviyo",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h08",
+      "nombre": "Acumbamail",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h09",
+      "nombre": "Email Octopus",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h10",
+      "nombre": "Omnisend",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": null,
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h11",
+      "nombre": "Brevo",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": "De las mencionadas, la plataforma que más destaca por su gran potencial es Brevo",
+      "es_ia": null,
+      "gratuita_o_pago": "sus versiones gratuitas, donde podrás ver que algunas ofrecen más capacidad de contactos y otras mayor número de envíos diarios",
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h12",
+      "nombre": "Active Campaign",
+      "bloque": null,
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 152,
+      "pagina_libro": 147,
+      "descripcion_libro": "una de las más reconocidas en el sector (por su reputación en Norteamérica) es Active Campaign",
+      "es_ia": null,
+      "gratuita_o_pago": "sus versiones gratuitas, donde podrás ver que algunas ofrecen más capacidad de contactos y otras mayor número de envíos diarios",
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h13",
+      "nombre": "NotebookLM",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 153,
+      "pagina_libro": 148,
+      "descripcion_libro": "Proponemos comenzar con NotebookLM, facilitándole toda la información sobre nuestro buyer persona, propuesta de valor, marca, modelo de negocio y contenido que hemos obtenido previamente como los textos del sitio web, textos sobre productos, contenido de redes sociales, etc.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h14",
+      "nombre": "ChatGPT 5.2",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "descripcion_libro": "Aunque podríamos continuar dentro de NotebookLM, proponemos llevar el resultado de estas interacciones a ChatGPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h15",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "descripcion_libro": "Aunque podríamos continuar dentro de NotebookLM, proponemos llevar el resultado de estas interacciones a ChatGPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h16",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "descripcion_libro": "Aunque podríamos continuar dentro de NotebookLM, proponemos llevar el resultado de estas interacciones a ChatGPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h17",
+      "nombre": "Perplexity",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 154,
+      "pagina_libro": 149,
+      "descripcion_libro": "Si prefieres utilizar Perplexity, te recomendamos elegir cualquiera de los modelos mencionados.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h18",
+      "nombre": "Chat GPT 5.2",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "pagina_libro": 150,
+      "descripcion_libro": "Para eso facilita un archivo de tipo csv o xlsx que podrás descargarte de tu plataforma y llevándolo a Chat GPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento, y consultar: “Actúa como un Data Scientist especializado en Email Marketing y Retención.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h19",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "pagina_libro": 150,
+      "descripcion_libro": "Para eso facilita un archivo de tipo csv o xlsx que podrás descargarte de tu plataforma y llevándolo a Chat GPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento, y consultar: “Actúa como un Data Scientist especializado en Email Marketing y Retención.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c09-h20",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": "Herramientas de IA para email marketing",
+      "id_seccion": "c09-s4",
+      "pagina_pdf": 155,
+      "pagina_libro": 150,
+      "descripcion_libro": "Para eso facilita un archivo de tipo csv o xlsx que podrás descargarte de tu plataforma y llevándolo a Chat GPT 5.2, Gemini 3.1 Pro o Claude 4.6 Sonnet en modo razonamiento, y consultar: “Actúa como un Data Scientist especializado en Email Marketing y Retención.",
+      "es_ia": true,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    }
+  ],
+  "figuras_tablas": [],
+  "ejemplo_aulamarketing": {
+    "id_seccion": "c09-s5",
+    "titulo": "Ejemplo completo para aulamarketing.digital",
+    "pagina_pdf": 156,
+    "texto": "Es momento de anotar cómo la estrategia de aulamarketing.digital crea a través del email marketing un hilo conductor experiencial para Ana. Comenzaremos con la captación y construcción de confianza (TOFU). Ana está buscando mejorar sus habilidades en marketing digital. Un día, mientras navega por LinkedIn, ve una publicación de aulamarketing.digital sobre un nuevo artículo de blog titulado \"Las 5 tendencias clave del marketing digital para 2026\". El copy del post es persuasivo y le invita a leer más. Al llegar al blog de aulamarketing.digital, el contenido es relevante y de alta calidad. Al final del artículo, se le presenta un pop-up o banner ofreciendo una \"Guía Gratuita: plan de marketing digital completo para PYMES\" a cambio de su correo electrónico. Ana, al percibir el gran valor de esta guía y la autoridad de aulamarketing.digital, decide dejar su email, aunque antes fuera reticente a compartir datos. Este es el primer punto de contacto directo y el inicio de una relación más cercana.\n✓ Email 1 | Confirmación de suscripción y entrega de lead magnet: Automáticamente, Ana recibe un email de aulamarketing.digital: \"¡Bienvenida a la comunidad de aulamarketing.digital, Ana! Aquí tienes tu Guía Gratuita de plan de marketing digital.\" Este email es formal y esperado. El copywriting del correo refuerza la promesa de valor y agradece su confianza.\nPasamos a la fase dos con el nurturing y generación de deseo (MOFU). Una vez que Ana ha descargado la guía, aulamarketing.digital activa una secuencia de emails basada en el interés que mostró por el marketing digital y, específicamente, por la planificación estratégica.\n✓ Email 2 | 3 días después: Ampliación de contenido de valor. \"Ana, ¿Ya has explorado tu guía? Hoy queremos compartirte un caso de estudio real de cómo una empresa implementó su plan de marketing digital siguiendo nuestros consejos y duplicó sus leads.\" Este email no pretende generar una venta directa, sino que aporta más valor y resuelve posibles dudas.\n✓ Email 3 | Una semana después: Invitación a webinar. \"Ana, muchos de nuestros usuarios nos preguntan cómo aplicar la IA en sus planes de marketing. Te invitamos a nuestro webinar exclusivo y gratuito: 'IA para Marketers: maximizando tus estrategias digitales'.\" Este email busca generar un paso más en la relación y activar un mayor deseo al ofrecer información privilegiada y una interacción más directa.\nEn la fase tres nos centramos en la conversión y oferta de valor (BOFU). Ana asiste al webinar, encuentra el contenido útil y se siente más conectada con aulamarketing.digital, reconociendo su autoridad y credibilidad.\n✓ Email 4 | 24h post-webinar: Oferta de curso y testimonio. \"¡Gracias por acompañarnos en el webinar, Ana! Esperamos que haya sido de gran valor. Como seguimiento, y para que puedas aplicar todo lo aprendido, hemos abierto las inscripciones a nuestro 'Curso Completo de Marketing Digital con IA'. Por ser parte de nuestra comunidad, tienes un 20% de descuento. Escucha lo que dicen otros estudiantes como tú.\" Este email incluye un incentivo claro, un testimonio relevante y la llamada a la acción para la compra.\n✓ Email 5 | Recordatorio antes de que expire la oferta: Urgencia y beneficio. \"¡Últimas 24h para tu descuento en el Curso de marketing digital con IA, Ana! No pierdas la oportunidad de transformar tu carrera.\" Este correo utiliza el sesgo de aversión a la pérdida de forma ética para impulsar la decisión.\nNo podemos quedarnos simplemente en la venta, debemos siempre completar con una fase de fidelización (post-conversión). Ana se inscribe en el curso. La relación no termina ahí, de hecho, el objetivo en esta etapa es fortalecerla.\n✓ Email 6 | Confirmación de compra y bienvenida al curso: Un email formal que confirma su inscripción y le da acceso a la plataforma del curso, estableciendo un aspecto de predictibilidad en la comunicación.\n✓ Email 7 | Solicitud de satisfacción: Tras finalizar un módulo, se le envía un email pidiendo feedback para asegurar su satisfacción y mejorar la propuesta de valor de aulamarketing.digital.\n✓ Email 8 | Actualizaciones de contenido y potenciales cross-sell/up-sell: Periódicamente, Ana recibe emails informándole de nuevos artículos en el blog, podcasts o guías descargables, siempre relevantes a sus intereses. Por ejemplo, un email le notifica el lanzamiento de un \"Módulo avanzado de Google Ads\" (up-sell) o un \"Curso de copywriting para ventas\" (cross-sell). Estos emails se integran con el blog y las redes sociales de aulamarketing.digital, construyendo una experiencia omnicanal coherente.\n✓ Email 9 | Felicitación y testimonio: Una vez finalizado el curso, se le envía un email felicitándola y preguntándole si le gustaría compartir su testimonio, lo que refuerza su sentido de pertenencia y contribuye a la autoridad de la marca.\nA lo largo de todo este proceso, el contenido de valor generado por aulamarketing.digital debe centrarse en lo digital, utilizando formatos y canales alineados con el público objetivo. El objetivo es generar confianza en el usuario (Ana) mediante una comunicación honesta, transparente y coherente con lo que se promete. Aunque implementar una estrategia de email marketing puede parecer complejo al principio, adaptando el modelo de aulamarketing.digital a tu propia marca se vuelve más accesible captar y fidelizar audiencia. A partir de ahí, el siguiente paso es aprender a invertir en publicidad online con criterio estratégico y técnico, contando además con acompañamiento y soporte ante cualquier duda.",
+    "entregables": [
+      {
+        "id": "c09-e01",
+        "titulo": "Email 1 | Confirmación de suscripción y entrega de lead magnet",
+        "texto": "Email 1 | Confirmación de suscripción y entrega de lead magnet: Automáticamente, Ana recibe un email de aulamarketing.digital: \"¡Bienvenida a la comunidad de aulamarketing.digital, Ana! Aquí tienes tu Guía Gratuita de plan de marketing digital.\" Este email es formal y esperado. El copywriting del correo refuerza la promesa de valor y agradece su confianza.",
+        "pagina_pdf": 156,
+        "pagina_libro": 151
+      },
+      {
+        "id": "c09-e02",
+        "titulo": "Email 2 | 3 días después: Ampliación de contenido de valor",
+        "texto": "Email 2 | 3 días después: Ampliación de contenido de valor. \"Ana, ¿Ya has explorado tu guía? Hoy queremos compartirte un caso de estudio real de cómo una empresa implementó su plan de marketing digital siguiendo nuestros consejos y duplicó sus leads.\" Este email no pretende generar una venta directa, sino que aporta más valor y resuelve posibles dudas.",
+        "pagina_pdf": 156,
+        "pagina_libro": 151
+      },
+      {
+        "id": "c09-e03",
+        "titulo": "Email 3 | Una semana después: Invitación a webinar",
+        "texto": "Email 3 | Una semana después: Invitación a webinar. \"Ana, muchos de nuestros usuarios nos preguntan cómo aplicar la IA en sus planes de marketing. Te invitamos a nuestro webinar exclusivo y gratuito: 'IA para Marketers: maximizando tus estrategias digitales'.\" Este email busca generar un paso más en la relación y activar un mayor deseo al ofrecer información privilegiada y una interacción más directa.",
+        "pagina_pdf": 156,
+        "pagina_libro": 151
+      },
+      {
+        "id": "c09-e04",
+        "titulo": "Email 4 | 24h post-webinar: Oferta de curso y testimonio",
+        "texto": "Email 4 | 24h post-webinar: Oferta de curso y testimonio. \"¡Gracias por acompañarnos en el webinar, Ana! Esperamos que haya sido de gran valor. Como seguimiento, y para que puedas aplicar todo lo aprendido, hemos abierto las inscripciones a nuestro 'Curso Completo de Marketing Digital con IA'. Por ser parte de nuestra comunidad, tienes un 20% de descuento. Escucha lo que dicen otros estudiantes como tú.\" Este email incluye un incentivo claro, un testimonio relevante y la llamada a la acción para la compra.",
+        "pagina_pdf": 156,
+        "pagina_libro": 151
+      },
+      {
+        "id": "c09-e05",
+        "titulo": "Email 5 | Recordatorio antes de que expire la oferta: Urgencia y beneficio",
+        "texto": "Email 5 | Recordatorio antes de que expire la oferta: Urgencia y beneficio. \"¡Últimas 24h para tu descuento en el Curso de marketing digital con IA, Ana! No pierdas la oportunidad de transformar tu carrera.\" Este correo utiliza el sesgo de aversión a la pérdida de forma ética para impulsar la decisión.",
+        "pagina_pdf": 156,
+        "pagina_libro": 151
+      },
+      {
+        "id": "c09-e06",
+        "titulo": "Email 6 | Confirmación de compra y bienvenida al curso",
+        "texto": "Email 6 | Confirmación de compra y bienvenida al curso: Un email formal que confirma su inscripción y le da acceso a la plataforma del curso, estableciendo un aspecto de predictibilidad en la comunicación.",
+        "pagina_pdf": 157,
+        "pagina_libro": 152
+      },
+      {
+        "id": "c09-e07",
+        "titulo": "Email 7 | Solicitud de satisfacción",
+        "texto": "Email 7 | Solicitud de satisfacción: Tras finalizar un módulo, se le envía un email pidiendo feedback para asegurar su satisfacción y mejorar la propuesta de valor de aulamarketing.digital.",
+        "pagina_pdf": 157,
+        "pagina_libro": 152
+      },
+      {
+        "id": "c09-e08",
+        "titulo": "Email 8 | Actualizaciones de contenido y potenciales cross-sell/up-sell",
+        "texto": "Email 8 | Actualizaciones de contenido y potenciales cross-sell/up-sell: Periódicamente, Ana recibe emails informándole de nuevos artículos en el blog, podcasts o guías descargables, siempre relevantes a sus intereses. Por ejemplo, un email le notifica el lanzamiento de un \"Módulo avanzado de Google Ads\" (up-sell) o un \"Curso de copywriting para ventas\" (cross-sell). Estos emails se integran con el blog y las redes sociales de aulamarketing.digital, construyendo una experiencia omnicanal coherente.",
+        "pagina_pdf": 157,
+        "pagina_libro": 152
+      },
+      {
+        "id": "c09-e09",
+        "titulo": "Email 9 | Felicitación y testimonio",
+        "texto": "Email 9 | Felicitación y testimonio: Una vez finalizado el curso, se le envía un email felicitándola y preguntándole si le gustaría compartir su testimonio, lo que refuerza su sentido de pertenencia y contribuye a la autoridad de la marca.",
+        "pagina_pdf": 157,
+        "pagina_libro": 152
+      }
+    ]
+  },
+  "remisiones_aulamarketing": [],
+  "remisiones_internas": [
+    {
+      "texto": "Hemos hablado de esta disciplina en el capítulo de Social Media y de ahí podrás extraer numerosos aprendizajes, no obstante es una disciplina transversal a todas las acciones operativas del marketing digital, desde el diseño web hasta los guiones de contenido audiovisual y las publicaciones en redes sociales.",
+      "capitulo_destino": 8,
+      "pagina_pdf": 149,
+      "pagina_libro": 144
+    },
+    {
+      "texto": "La tendencia se inclina hacia el desarrollo de funnels de conversión cada vez más sofisticados, que guíen al usuario a través de las fases TOFU, MOFU y BOFU (desarrollados más adelante), respondiendo dinámicamente a sus interacciones en tiempo real.",
+      "capitulo_destino": 9,
+      "pagina_pdf": 149,
+      "pagina_libro": 144
+    },
+    {
+      "texto": "Estos conceptos los desarrollaremos a lo largo de este capítulo.",
+      "capitulo_destino": 9,
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "texto": "Como se ha podido ver en capítulos anteriores, las métricas son un aspecto clave en el plan de marketing digital.",
+      "capitulo_destino": null,
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "texto": "Estos son cruciales en la etapa MOFU del funnel (descritas en el siguiente punto).",
+      "capitulo_destino": 9,
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    },
+    {
+      "texto": "A partir de ahí, el siguiente paso es aprender a invertir en publicidad online con criterio estratégico y técnico, contando además con acompañamiento y soporte ante cualquier duda.",
+      "capitulo_destino": 10,
+      "pagina_pdf": 157,
+      "pagina_libro": 152
+    }
+  ],
+  "citas_y_referencias": [
+    {
+      "texto": "De hecho, estudios como el elaborado por Adestra y The Econsultancy (2022) indican que el email marketing es el canal que ofrece el mejor retorno de la inversión con un 73% de las empresas considerándolo excelente o bueno, superando al SEO y al PPC.",
+      "pagina_pdf": 148,
+      "pagina_libro": 143
+    },
+    {
+      "texto": "La tasa media de apertura en email marketing es del 22,86% y la CTR del 3,71%, según datos de GetResponse (2023).",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "texto": "Cuando hablamos de niveles de conciencia lo hacemos utilizando el concepto acuñado por Schwartz en su libro “Breakthrough Advertising”, muy recomendable, en el que se desarrolla esta clasificación del estado de un consumidor.",
+      "pagina_pdf": 151,
+      "pagina_libro": 146
+    }
+  ],
+  "recursos_externos": [],
+  "otros": [
+    {
+      "descripcion": "Frase introductoria de los objetivos de aprendizaje",
+      "texto": "En este capítulo descubriremos juntos cómo:",
+      "pagina_pdf": 148,
+      "pagina_libro": 143
+    },
+    {
+      "descripcion": "Página separadora de parte (PDF 158) situada al final del .txt del capítulo 9; es la etiqueta de la parte que abre el capítulo 10",
+      "texto": "MEDIOS PAGADOS",
+      "pagina_pdf": 158,
+      "pagina_libro": null
+    },
+    {
+      "descripcion": "Página en blanco (PDF 159) tras la separadora",
+      "texto": "",
+      "pagina_pdf": 159,
+      "pagina_libro": null
+    },
+    {
+      "descripcion": "Dato cuantitativo (con fuente Adestra y The Econsultancy, 2022)",
+      "texto": "De hecho, estudios como el elaborado por Adestra y The Econsultancy (2022) indican que el email marketing es el canal que ofrece el mejor retorno de la inversión con un 73% de las empresas considerándolo excelente o bueno, superando al SEO y al PPC.",
+      "pagina_pdf": 149,
+      "pagina_libro": 144
+    },
+    {
+      "descripcion": "Datos cuantitativos de referencia (GetResponse, 2023): apertura, CTR y bajas",
+      "texto": "La tasa media de apertura en email marketing es del 22,86% y la CTR del 3,71%, según datos de GetResponse (2023).",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "descripcion": "Dato cuantitativo de referencia: tasa de bajas",
+      "texto": "La tasa de bajas o desuscripción se encuentra alrededor del 0,21% y tiene un impacto importante ya que nos indica cuántos usuarios deciden dejar de recibir comunicación por email.",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    },
+    {
+      "descripcion": "Estructuras comunicativas mencionadas (fórmulas de copywriting) fuera de prompt",
+      "texto": "En ocasiones y en campañas que exigen un gran nivel de cohesión entre mensajes, podemos apoyarnos en los LLM contrastando las diferentes propuestas y generando pruebas de estructuras comunicativas (AIDA-PAS-PASTOR-PPPP, etc).",
+      "pagina_pdf": 154,
+      "pagina_libro": 149
+    },
+    {
+      "descripcion": "Ejemplos de lead magnet propuestos para aulamarketing.digital",
+      "texto": "Un ejemplo práctico para aulamarketing.digital podría ser una \"Guía Definitiva de SEO para Principiantes\" o un \"Kit de Plantillas para Campañas de Redes Sociales Efectivas\".",
+      "pagina_pdf": 150,
+      "pagina_libro": 145
+    }
+  ],
+  "control": {
+    "num_secciones": 5,
+    "num_subsecciones": 0,
+    "num_prompts": 11,
+    "num_herramientas": 20,
+    "num_herramientas_unicas": 16,
+    "num_figuras_tablas": 0,
+    "num_definiciones": 24,
+    "num_entregables": 9,
+    "paginas_revisadas": [
+      148,
+      159
+    ],
+    "incidencias": [
+      "Cobertura de palabras (multiconjunto de tokens del .txt fuente sin marcas de página ni pies de número, frente a apertura+objetivos+títulos+textos de sección+contenido de tablas+otros): 6447/6447 = 100.00%. Caracteres no blancos: fuente 34337, salida 34328 (ratio 1.000). Tokens no cubiertos: ninguno. Tokens sobrantes en salida: ninguno.",
+      "La etiqueta de parte \"MEDIOS PROPIOS\" no se repite antes del capítulo 9 (la página PDF 147 está en blanco); se toma del índice (00_preliminares.txt), donde los capítulos 6-9 cuelgan de MEDIOS PROPIOS.",
+      "Páginas PDF 148-157 sin imágenes (no figuran en imagenes_por_pagina.txt; verificado con pdfimages). No hay figuras ni tablas en el capítulo.",
+      "El bloque \"✐ Herramientas de IA para email marketing\" no incluye lista de herramientas separadas por |; las herramientas IA (NotebookLM, ChatGPT 5.2, Gemini 3.1 Pro, Claude 4.6 Sonnet, Perplexity) se recogen como menciones en texto corrido.",
+      "La lista de plataformas de email marketing (Brevo | Active Campaign | … | Omnisend) no lleva título ✐ en el libro: su campo \"bloque\" queda null. Brevo y Active Campaign aparecen dos veces: como elemento de la lista y como mención con la descripción del libro.",
+      "Los cuatro prompts de investigación (c09-p01 a p04) van encadenados en un único párrafo separados por \"; en segundo lugar le pediremos\", \"; a continuación\", \"; por último\"; se separan como prompts independientes. Se indican para NotebookLM por contexto (\"Proponemos comenzar con NotebookLM\"). c09-p10 no indica herramienta concreta.",
+      "c09-p09: en el libro el prompt cierra comillas sin punto final (\"…la ética de la marca”.\"); se transcribe tal cual.",
+      "Errata literal conservada: \"son las de líneas de asunto\" (p. 149 libro).",
+      "Las remisiones a la biblioteca de aulamarketing.digital (vídeos/artículos) no aparecen en este capítulo; remisiones_aulamarketing vacío.",
+      "La referencia de Schwartz (\"Breakthrough Advertising\") se cita sin año ni editorial.",
+      "Las redes sociales (LinkedIn, etc.) citadas como canal en el ejemplo no se registran como herramientas."
+    ]
+  }
+}

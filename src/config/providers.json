@@ -1,0 +1,8 @@
+{
+  "_nota": "Único archivo de proveedores de IA. El botón SIEMPRE copia el prompt al portapapeles y después abre la URL. 'prellenado' indica si el prompt se pasa codificado en la URL (solo si cabe en max_caracteres). Revisar periódicamente: Claude y Gemini no tienen prellenado fiable por URL (verificado parcialmente en nov. 2026).",
+  "proveedores": [
+    { "id": "chatgpt", "nombre": "ChatGPT", "url": "https://chatgpt.com/", "parametro": "q", "prellenado": true, "max_caracteres": 1800 },
+    { "id": "claude", "nombre": "Claude", "url": "https://claude.ai/new", "parametro": null, "prellenado": false, "max_caracteres": 0 },
+    { "id": "gemini", "nombre": "Gemini", "url": "https://gemini.google.com/app", "parametro": null, "prellenado": false, "max_caracteres": 0 }
+  ]
+}

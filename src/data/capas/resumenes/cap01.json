@@ -1,0 +1,51 @@
+{
+  "id": "c01",
+  "promesa": "Analizarás tu mercado y fijarás el rumbo estratégico de tu plan: DAFO, buyer persona, objetivos SMART y 4 Ps.",
+  "al_terminar_tendras": [
+    "Un análisis de tendencias de tu mercado hecho con NotebookLM a partir de tus propias fuentes",
+    "Tu análisis DAFO con una síntesis estratégica",
+    "La fase del ciclo de vida de tu oferta y las estrategias que le corresponden",
+    "Tu buyer persona con sus rasgos socioeconómicos, de comportamiento y objetivos",
+    "Objetivos SMART, propuesta de valor y Marketing Mix (4 Ps) alineados entre sí"
+  ],
+  "historia_ana": null,
+  "resumen_capitulo": "Todo plan de marketing digital empieza por entender dónde compites. En este capítulo partes de cero: reúnes fuentes sobre tu mercado y las cargas en NotebookLM, una IA que solo trabaja con los documentos que tú le das, para detectar tendencias. Con esa base construyes el DAFO, que ordena tus fortalezas y debilidades internas frente a las oportunidades y amenazas del entorno. Después identificas la fase del ciclo de vida de tu oferta, porque de ella dependen las acciones más adecuadas. A continuación caracterizas a tu buyer persona; en el caso del libro es \"Ana, la profesional en ascenso\". Con todo ello fijas objetivos SMART medibles y alineados con el negocio. Por último, defines tu propuesta de valor y la concretas en el Marketing Mix: producto, precio, distribución y promoción. El hilo conductor es aulamarketing.digital, el proyecto nacido del libro, que te sirve de ejemplo para aplicar cada paso a tu propio sector, producto o marca personal.",
+  "secciones": {
+    "c01-s1": {
+      "idea_clave": "Antes de decidir nada, reúne información fiable de tu mercado y usa NotebookLM para detectar tendencias basadas solo en tus fuentes.",
+      "resumen": "El análisis estratégico empieza por conocer el entorno general y específico en el que quieres competir. El libro propone personalizar desde el principio cada acción a tu sector, producto o marca personal, y usa aulamarketing.digital como caso práctico. La primera herramienta de IA es NotebookLM, de Google. El proceso tiene dos pasos. Primero, recopilas fuentes variadas: informes sectoriales, blogs especializados, estudios de comportamiento del consumidor, análisis de la competencia, foros del nicho y documentos sobre avances tecnológicos. Segundo, las cargas en NotebookLM y le pides, mediante prompts, que identifique temas, patrones y señales débiles. Su gran ventaja es que solo analiza lo que tú has cargado, lo que reduce las alucinaciones. En el ejemplo, detectó retos como mantener la interacción de la audiencia, la migración de la búsqueda hacia redes sociales en la Generación Z y la fatiga por contenidos de IA. También destacó el vídeo, los datos de primera mano, las marcas como creadoras de contenido y un marketing ágil centrado en el cliente.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 8
+    },
+    "c01-s2": {
+      "idea_clave": "El DAFO cruza tus factores internos (fortalezas y debilidades) con los externos (oportunidades y amenazas) para orientar la estrategia.",
+      "resumen": "Con el contexto ya analizado, toca el DAFO: una herramienta que identifica los factores internos (fortalezas y debilidades) y externos (oportunidades y amenazas) que pueden influir en el éxito de una iniciativa. No tiene un autor concreto, aunque sus raíces se sitúan en el trabajo de Albert Humphrey y su equipo en el Stanford Research Institute en los años 60. El libro lo obtiene de nuevo con NotebookLM, con un prompt que pide basarse solo en las fuentes, agrupar ideas similares, priorizar lo que aparece en varios documentos y presentar una tabla de cuatro columnas con una breve síntesis estratégica. En el caso de aulamarketing.digital, el DAFO revela una gran oportunidad: la demanda creciente de formación práctica y de comunidades de aprendizaje online, apoyada en la credibilidad del profesorado universitario. Frente a ello, señala la competencia intensa, la necesidad de innovar en contenidos y visibilidad, el reto del reconocimiento inicial de marca y un presupuesto limitado por ser una iniciativa sin ánimo de lucro.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c01-s3": {
+      "idea_clave": "La fase del ciclo de vida de tu oferta condiciona qué acciones de marketing digital te convienen en cada momento.",
+      "resumen": "Un producto o servicio pasa por cinco etapas: introducción, crecimiento, madurez, declive y desaparición. Saber en cuál está tu oferta es clave, porque cada fase pide acciones distintas; por ejemplo, en el lanzamiento priman el branding y la visibilidad. El libro propone un prompt para NotebookLM que busca evidencias de adopción, crecimiento, competencia o saturación y concluye la fase más probable. aulamarketing.digital está en introducción: debe darse a conocer, captar atención, generar confianza y conseguir sus primeros usuarios. A partir del DAFO y de la competencia, se plantean cuatro líneas estratégicas. Construcción de marca y credibilidad: vídeos largos, webinars, podcasts, contenido auténtico de \"detrás de cámaras\", blog orientado al SEO y microinfluencers. Captación de audiencia y leads: base de datos propia con newsletters, incentivos de valor y cápsulas formativas gratuitas o de bajo coste. Publicidad digital: Social Ads, Google Ads, retargeting y optimización para la búsqueda social. Comunidad y fidelización: UGC con un hashtag propio, programas por niveles o insignias, social selling y atención en redes.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c01-s4": {
+      "idea_clave": "Define a tu buyer persona con datos socioeconómicos, de comportamiento y objetivos para que todo el equipo sepa a quién se dirige.",
+      "resumen": "El buyer persona es el perfil tipo de tu cliente: reúne sus deseos, objetivos, preocupaciones y hábitos en redes. Te permite segmentar bien y adaptar mensajes, formatos y canales. El libro aporta un prompt para que NotebookLM lo caracterice a partir de tus fuentes. Su ejemplo es \"Ana, la profesional en ascenso\". En lo socioeconómico, tiene entre 22 y 35 años, formación universitaria en marketing, comunicación, ADE o afines, y recursos moderados, aunque invierte si ve un retorno claro. Agrupa tres perfiles: estudiante universitario, profesional junior y emprendedor o pequeño empresario. En comportamiento, busca formación práctica, valora la credibilidad del profesorado universitario y necesita flexibilidad. Quiere construir una marca personal y huye de los contenidos saturados de IA. Consume mucho vídeo, largo y corto, en el móvil; es activa en LinkedIn, Instagram y TikTok, y valora el email si le aporta algo útil. Confía más en personas reales que en la publicidad. Sus objetivos: mejorar habilidades, certificarse, aprender de expertos y formar parte de una comunidad.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c01-s5": {
+      "idea_clave": "Sin objetivos SMART no hay estrategia: fíjalos específicos, medibles, alcanzables, relevantes y con plazo, alineados con el negocio.",
+      "resumen": "No hay estrategia sin objetivos, y para que sean efectivos deben ser SMART: específicos, medibles, alcanzables, relevantes y temporales. Así puedes evaluar tus acciones y reaccionar con datos gracias al controlling. Además, los objetivos del plan deben servir a los objetivos de negocio y estar alineados con la estrategia de la empresa. El libro sigue usando NotebookLM con un prompt específico y desarrolla cuatro objetivos para aulamarketing.digital. Visibilidad: más de 8.000 impresiones y más de 800 visitas mensuales con más de 2 minutos de permanencia, en 6 meses. Generación de leads: al menos 2.000 suscripciones a la newsletter y 500 MQL, con un coste por lead por debajo de 5 €, en 9 meses. Conversión: al menos 150 inscripciones pagadas y una conversión de MQL a cliente del 10 % en el primer año, apoyada en retargeting y landing pages con A/B testing. Engagement y fidelización: interacción superior al 10 %, apertura de newsletter superior al 35 %, clics superiores al 2 % y retención del 75 %, con revisiones trimestrales.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c01-s6": {
+      "idea_clave": "Concreta tu propuesta de valor y tu posicionamiento a través de las 4 Ps: producto, precio, distribución y promoción.",
+      "resumen": "Las 4 Ps de McCarthy (producto, precio, distribución y promoción) son variables interdependientes que debes gestionar de forma coordinada para ajustar tu oferta al mercado. En aulamarketing.digital, la propuesta de valor es una formación práctica y actualizada, con IA, que resuelve la frustración de pasar de la teoría a la práctica y se apoya en su origen universitario. Producto: cursos prácticos siempre actualizados, prioridad del vídeo corto y largo, webinars, podcasts, ebooks y una comunidad activa. Precio: vocación altruista pero sostenible, modelo freemium, precios según valor percibido y costes, descuentos a cambio del email y comunicación clara del retorno para el alumno. Distribución: la web y el blog como \"tienda\", con arquitectura SEO, diseño responsive y mobile-first, más un ecosistema de redes, newsletters y podcasts. Promoción: Social Ads, Google Ads y YouTube con apoyo de IA y retargeting, junto a contenidos de valor, SEO en redes, email, podcasts, microinfluencers y comunidad. Cada P incluye preguntas clave para ayudarte a definirla en tu caso.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 9
+    }
+  }
+}

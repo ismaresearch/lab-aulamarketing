@@ -1,0 +1,15 @@
+---
+import ModeSwitch from './ModeSwitch.astro';
+import Marca from './Marca.astro';
+import Icon from './Icon.astro';
+---
+<header class="c-topbar">
+  <Marca class="c-topbar__brand" />
+  <ModeSwitch />
+  <form class="c-topbar__buscar" action="/prompts/" method="get" role="search">
+    <label for="buscar-global" class="sr-only">Buscar en la biblioteca de prompts</label>
+    <Icon nombre="buscar" />
+    <input id="buscar-global" type="search" name="q" placeholder="Buscar en los prompts del libro…" autocomplete="off" />
+  </form>
+  <a class="c-avatar" href="/mi-proyecto/" aria-label="Mi proyecto: datos, modo y copias" title="Mi proyecto"><Icon nombre="persona" /></a>
+</header>

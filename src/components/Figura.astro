@@ -1,0 +1,16 @@
+---
+import type { Figura } from '../lib/datos';
+interface Props { figura: Figura }
+const { figura: f } = Astro.props;
+const c = f.contenido;
+const esTabla = c && typeof c === 'object' && Array.isArray(c.filas);
+---
+<figure class="c-figura">
+  <figcaption class="c-meta"><strong>{f.numero}.</strong> {f.titulo}{f.origen === 'imagen' && ' (transcrita de imagen)'}</figcaption>
+  {esTabla ? (
+    <div class="c-table-wrap"><table class="c-table">
+      {c.columnas?.length > 0 && <thead><tr>{c.columnas.map((x: string) => <th scope="col">{x}</th>)}</tr></thead>}
+      <tbody>{c.filas.map((r: any[]) => <tr>{(Array.isArray(r) ? r : [r]).map((x) => <td>{String(x ?? '')}</td>)}</tr>)}</tbody>
+    </table></div>
+  ) : typeof c === 'string' ? <div class="c-texto-libro">{c.split(/\n+/).map((l) => <p>{l}</p>)}</div> : <pre class="c-meta" style="white-space:pre-wrap">{JSON.stringify(c, null, 2)}</pre>}
+</figure>

@@ -1,0 +1,826 @@
+{
+ "meta": {
+  "proceso": "P3b",
+  "fecha": "2026-11-13",
+  "nota": "Respuestas basadas solo en el libro (definiciones, apertura del cap. 16 y descripciones del kit). tipo_origen: slug (glosario.json), definicion (id de extraccion), kit_herramientas (id de extraccion/kit_herramientas.json), texto_capitulo (apertura/otros del capítulo). Las tarjetas de c16 que nombran herramientas deben ocultarse si la herramienta tiene mostrar:false.",
+  "num_tarjetas": 120
+ },
+ "capitulos": [
+  {
+   "capitulo": "c01",
+   "titulo": "Planificación estratégica",
+   "tarjetas": [
+    {
+     "pregunta": "En un análisis DAFO, ¿qué separa los factores internos de los externos?",
+     "respuesta": "Los internos son propios de la organización (fortalezas y debilidades); los externos proceden del entorno (oportunidades y amenazas) en relación con su mercado objetivo.",
+     "slug_o_id_origen": "dafo",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Tu servicio acaba de lanzarse y empieza a ganar usuarios. ¿Qué herramienta del capítulo te ayuda a situarlo y en qué etapas te moverías?",
+     "respuesta": "El ciclo de vida del producto o servicio, que se estructura en introducción, crecimiento, madurez, declive y desaparición; un lanzamiento que gana usuarios se movería entre introducción y crecimiento.",
+     "slug_o_id_origen": "ciclo-de-vida-producto",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Para qué sirve construir un buyer persona antes de planificar acciones?",
+     "respuesta": "Para disponer de un perfil tipo del cliente, basado en sus características socioeconómicas y comportamientos, que permite identificar sus deseos, objetivos, preocupaciones y hábitos en redes sociales.",
+     "slug_o_id_origen": "c01-d04",
+     "tipo_origen": "definicion"
+    },
+    {
+     "pregunta": "¿Qué le falta al objetivo «aumentar las ventas» para ser un objetivo SMART?",
+     "respuesta": "Ser específico, medible, alcanzable, relevante y temporal: concretar qué se quiere conseguir, cómo se medirá y en qué periodo de tiempo.",
+     "slug_o_id_origen": "objetivos-smart",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué el libro afirma que el Producto no es solo el servicio central?",
+     "respuesta": "Porque incluye también el valor añadido de la experiencia global, como la atención, el acompañamiento y el servicio postventa.",
+     "slug_o_id_origen": "producto-4p",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué combina una estrategia freemium y qué busca con su parte gratuita?",
+     "respuesta": "Combina acceso gratuito a contenidos o servicios básicos con una oferta premium de pago; la parte gratuita facilita la captación y la participación de los usuarios.",
+     "slug_o_id_origen": "freemium",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué diferencia la función de la Promoción de la de la Distribución en el marketing mix?",
+     "respuesta": "La Promoción comunica la propuesta de valor al público objetivo y muestra cómo resuelve sus necesidades; la Distribución equilibra la viabilidad de producir y distribuir los servicios con la máxima facilidad de acceso para los usuarios.",
+     "slug_o_id_origen": "marketing-mix",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c02",
+   "titulo": "Idea a éxito: design thinking aplicado",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué tipo de pensamiento combina el design thinking y en quién se centra?",
+     "respuesta": "Combina pensamiento analítico y creativo para resolver problemas complejos, y está centrado en el usuario (en el ser humano, según Tim Brown).",
+     "slug_o_id_origen": "design-thinking",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué la fase Definir es crucial y qué suele producir?",
+     "respuesta": "Porque un problema mal planteado lleva inevitablemente a soluciones inadecuadas; su resultado típico es un enunciado en formato «¿Cómo podríamos…?», específico para guiar la acción pero amplio para no prescribir la solución.",
+     "slug_o_id_origen": "c02-d11",
+     "tipo_origen": "definicion"
+    },
+    {
+     "pregunta": "En tu equipo dos personas monopolizan siempre las sesiones creativas. ¿Qué técnica de ideación propone el libro?",
+     "respuesta": "El brainstorming individual seguido de compartir: primero cada persona genera ideas por su cuenta durante unos minutos y después se ponen en común en grupo.",
+     "slug_o_id_origen": "brainstorming-individual",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Necesitas explorar varias direcciones de solución en pocas horas. ¿Qué tipo de prototipo eliges?",
+     "respuesta": "Prototipos de exploración, de muy baja fidelidad (sketches, storyboards, role-playing), pensados para explorar múltiples direcciones con rapidez.",
+     "slug_o_id_origen": "prototipos-exploracion",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué se complementan el design thinking y las metodologías ágiles?",
+     "respuesta": "El design thinking descubre qué solución construir (el «qué» y el «por qué»), mientras que las metodologías ágiles como scrum optimizan el «cómo» y el «cuándo» de su desarrollo.",
+     "slug_o_id_origen": "dt-vs-agile",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Cómo recomienda el libro combinar design thinking y lean startup?",
+     "respuesta": "Usar el design thinking para asegurar que se resuelve el problema correcto y lean startup para validar que la solución propuesta es económicamente sostenible.",
+     "slug_o_id_origen": "dt-vs-lean-startup",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué tres rasgos debe tener un buen enunciado How Might We (HMW)?",
+     "respuesta": "Debe ser específico, amplio y optimista.",
+     "slug_o_id_origen": "how-might-we",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué dice el principio de fidelidad mínima viable sobre cómo construir prototipos?",
+     "respuesta": "Que hay que construirlos tan simples como sea posible para obtener el feedback que se necesita.",
+     "slug_o_id_origen": "fidelidad-minima-viable",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c03",
+   "titulo": "Anatomía de una decisión: el Customer Journey Map",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué representa un Customer Journey Map y qué elementos ilustra?",
+     "respuesta": "Es una representación visual de la experiencia de un cliente con una organización: ilustra cada paso, emoción, canal y momento de interacción entre el usuario y la marca.",
+     "slug_o_id_origen": "customer-journey-map",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Cuál es la relación entre los puntos de dolor y las oportunidades de mejora en un CJM?",
+     "respuesta": "Los puntos de dolor son las fricciones u obstáculos que vive el cliente; las oportunidades de mejora son las ideas y acciones concretas que surgen de analizarlos, junto con sus emociones, para optimizar la experiencia.",
+     "slug_o_id_origen": "puntos-de-dolor",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Tu buyer ya conoce la marca y compara opciones. ¿En qué fase está y qué necesita?",
+     "respuesta": "Está en la fase de consideración: necesita profundidad y pruebas de autoridad, como muestras de credibilidad en la web, contenido de valor, secuencias de email, testimonios o reseñas.",
+     "slug_o_id_origen": "fase-consideracion",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué acciones propone el libro en la fase de recomendación?",
+     "respuesta": "Invitaciones a dejar reseñas, programas de referidos, publicaciones con historias de éxito y contenido social fácil de compartir, sobre todo por email y redes sociales, para amplificar la voz de la clienta.",
+     "slug_o_id_origen": "fase-recomendacion",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué son los puntos de contacto o touchpoints?",
+     "respuesta": "Todas las interacciones específicas entre el cliente y la marca a lo largo de los distintos canales: web, redes sociales, email, chatbot, etc.",
+     "slug_o_id_origen": "puntos-de-contacto",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué se considera «Pensamientos y emociones» el componente más empático del CJM?",
+     "respuesta": "Porque obliga a preguntarse qué piensa y qué siente el cliente en cada momento: frustración, confianza, confusión o alegría.",
+     "slug_o_id_origen": "pensamientos-emociones",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Cita, en orden, las fases del viaje del usuario que recoge el CJM.",
+     "respuesta": "Conciencia, consideración, compra, retención, fidelización y recomendación.",
+     "slug_o_id_origen": "fases-viaje-usuario",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c04",
+   "titulo": "Conceptos de inteligencia artificial: tu nuevo asistente de marketing",
+   "tarjetas": [
+    {
+     "pregunta": "¿Por qué en la empresa el prompt funciona como una micro-especificación de trabajo?",
+     "respuesta": "Porque es la forma de traducir una necesidad profesional en instrucciones para la IA: debe precisar objetivo, contexto, tarea, formato, restricciones y criterio de calidad.",
+     "slug_o_id_origen": "prompt",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Escribe la estructura general de prompt que propone el libro.",
+     "respuesta": "Contexto + objetivo + tarea + formato + restricciones + criterio de calidad.",
+     "slug_o_id_origen": "estructura-prompt",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Cómo cambia el enfoque al pasar de un prompt de texto a uno de imagen?",
+     "respuesta": "Se desplaza del «qué quiero decir» al «qué quiero ver»: hay que especificar sujeto, escenario, estilo visual, composición, iluminación, colores, formato, nivel de realismo y restricciones.",
+     "slug_o_id_origen": "prompt-imagen",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Cuál es el mayor reto de los prompts de vídeo y cómo se aborda en un uso empresarial?",
+     "respuesta": "La continuidad; se aborda con prompts muy estructurados, referencias visuales y flujos de revisión por fases (concepto, storyboard, prueba, versión final).",
+     "slug_o_id_origen": "flujo-revision-video",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué un prompt largo puede ser un problema en la empresa aunque no lo sea en uso personal?",
+     "respuesta": "Porque consume tokens: un prompt innecesariamente largo que se repite cientos o miles de veces se convierte en una práctica costosa.",
+     "slug_o_id_origen": "tokens-uso-personal-empresarial",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué tres bloques se consumen tokens en cada interacción con una IA?",
+     "respuesta": "En el texto de entrada del usuario, en el contexto adicional (instrucciones previas, documentos, memoria de la conversación) y en la salida generada por el modelo.",
+     "slug_o_id_origen": "bloques-consumo-tokens",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Tienes que clasificar cientos de comentarios y, aparte, resolver un problema estratégico ambiguo. ¿Qué tipo de modelo usarías para cada tarea?",
+     "respuesta": "Un modelo rápido para la clasificación, y un modelo de razonamiento profundo para el problema ambiguo o de varias etapas.",
+     "slug_o_id_origen": "modelo-razonamiento",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué caracteriza a la IA agéntica frente a una IA que solo genera respuestas?",
+     "respuesta": "Que puede planificar secuencias de acciones, usar herramientas externas, verificar sus propios resultados y tomar decisiones autónomas dentro de parámetros definidos.",
+     "slug_o_id_origen": "ia-agentica",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c05",
+   "titulo": "Branding: el ADN de tu marca",
+   "tarjetas": [
+    {
+     "pregunta": "Según el libro, ¿qué no es branding y qué sí lo es?",
+     "respuesta": "No es solo un logotipo bonito o un anuncio viral; es la cultura de la marca, la historia que cuenta, la identidad única que crea y las percepciones que construye, comunicadas de forma consistente.",
+     "slug_o_id_origen": "branding",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué tres cosas debe explicar una buena misión?",
+     "respuesta": "Qué problema resuelves, para quién y por qué solo tú puedes hacerlo así, todo en una frase breve y memorable.",
+     "slug_o_id_origen": "mision",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Una marca es siempre motivacional, pero en un mensaje a principiantes con dudas se vuelve más empática. ¿Qué ha cambiado: la voz o el tono?",
+     "respuesta": "El tono: la voz de marca es la personalidad invariable; el tono es su modulación según el canal, la situación o el estado emocional del momento.",
+     "slug_o_id_origen": "tono-de-marca",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué tres elementos componen la identidad verbal de una marca?",
+     "respuesta": "El nombre corporativo (naming), el eslogan y el tono de voz.",
+     "slug_o_id_origen": "identidad-verbal",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué diferencia un imagotipo de un isologo?",
+     "respuesta": "En el imagotipo, texto y símbolo están claramente diferenciados y pueden funcionar por separado; en el isologo están fundidos en un solo elemento y no se pueden separar.",
+     "slug_o_id_origen": "imagotipo",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Distingue beneficios racionales y emocionales con una idea de cada uno.",
+     "respuesta": "Los racionales son características objetivas y tangibles que se pueden tocar, medir o verificar; los emocionales pertenecen al mundo simbólico de la marca: sentimientos, aspiraciones y pasiones que despierta.",
+     "slug_o_id_origen": "beneficios-racionales",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué significa una comunicación 360º?",
+     "respuesta": "Orquestar todos los puntos de contacto —digitales, físicos, tradicionales y experienciales— para que cuenten la misma historia coherente.",
+     "slug_o_id_origen": "comunicacion-360",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué rasgo visual distingue una tipografía serif de una sans?",
+     "respuesta": "Las serif tienen pequeños remates (serifas) en los extremos de las letras; las sans carecen de ellos y transmiten un aspecto limpio, moderno y accesible.",
+     "slug_o_id_origen": "tipografia-serif",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c06",
+   "titulo": "Adiós escaparates: diseñando sitios web que convierten",
+   "tarjetas": [
+    {
+     "pregunta": "Si el dominio es la dirección de la tienda, ¿qué es el hosting?",
+     "respuesta": "El espacio de un servidor donde se almacenan todos los contenidos del sitio web: código, imágenes, vídeos y bases de datos.",
+     "slug_o_id_origen": "hosting",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "En www.aulamarketing.digital, identifica el SLD y el TLD.",
+     "respuesta": "El SLD es «aulamarketing», el nombre principal del dominio; el TLD es «.digital», la extensión.",
+     "slug_o_id_origen": "sld",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Un proyecto pequeño que empieza necesita alojamiento económico; otro necesita más control sin pagar un servidor exclusivo. ¿Qué tipo de hosting conviene a cada uno?",
+     "respuesta": "Al primero, un hosting compartido; al segundo, un VPS, punto intermedio que ofrece control y recursos aislados con un coste menor que un servidor dedicado.",
+     "slug_o_id_origen": "vps",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué diferencia el frontend del backend en un CMS?",
+     "respuesta": "El frontend es la parte visible con la que interactúan los usuarios; el backend es el panel de administración donde se gestiona el contenido y se configuran las funcionalidades.",
+     "slug_o_id_origen": "frontend-backend",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué el libro insiste en que Elementor no es un CMS?",
+     "respuesta": "Porque es un maquetador de contenido: un plugin para WordPress, que es el CMS sobre el que funciona.",
+     "slug_o_id_origen": "elementor",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué se centra la UX y en qué la UI al diseñar un sitio web?",
+     "respuesta": "La UX prioriza la facilidad de navegación orientada a la satisfacción del usuario; la UI diseña y adapta los elementos que permiten conectar con la marca.",
+     "slug_o_id_origen": "ux-ui",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué es importante la adaptabilidad móvil de un sitio web?",
+     "respuesta": "Porque la mayoría de las búsquedas y transacciones se hacen desde smartphones, y el sitio debe verse y funcionar bien en cualquier pantalla.",
+     "slug_o_id_origen": "mobile-first",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c07",
+   "titulo": "Visibilidad inevitable: estrategias para el posicionamiento orgánico",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué cambia del SEO clásico al GEO?",
+     "respuesta": "El SEO clásico satisface algoritmos de clasificación; el GEO se especializa en algoritmos de síntesis, para que los modelos de IA seleccionen nuestro contenido como fuente de mayor confianza.",
+     "slug_o_id_origen": "geo",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Cuál es la métrica crítica del AEO, frente a la del SEO tradicional?",
+     "respuesta": "La cuota de mención o citation share, en lugar del volumen de visitas a la web.",
+     "slug_o_id_origen": "aeo",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué cuatro criterios agrupa E-E-A-T?",
+     "respuesta": "Experiencia, expertise, autoridad y confianza.",
+     "slug_o_id_origen": "eeat",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Clasifica estas acciones en SEO OnPage, OffPage o técnico: optimizar encabezados, conseguir backlinks y crear un sitemap.",
+     "respuesta": "Encabezados: SEO OnPage; backlinks: SEO OffPage; sitemap: SEO técnico (rastreo e indexación).",
+     "slug_o_id_origen": "seo-onpage",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué una long-tail keyword puede convertir más que una short-tail aunque tenga menos volumen?",
+     "respuesta": "Porque es más larga y específica y refleja una intención de búsqueda precisa, lo que aumenta la probabilidad de conversión.",
+     "slug_o_id_origen": "long-tail",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "«Comprar curso SEO avanzado aulamarketing.digital»: ¿qué intención de búsqueda expresa?",
+     "respuesta": "Una intención transaccional: el usuario tiene clara intención de realizar una acción, como una compra.",
+     "slug_o_id_origen": "intencion-transaccional",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué importa más en los backlinks y qué distingue a los follow de los no-follow?",
+     "respuesta": "Importa más la calidad que la cantidad; los follow transmiten autoridad y los no-follow no la transmiten o lo hacen con menor relevancia.",
+     "slug_o_id_origen": "backlinks",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué consiste la auditoría de citabilidad?",
+     "respuesta": "En pasar el contenido por la IA antes de publicarlo para que actúe como «abogado del diablo» y diga qué valor nuevo aporta que merezca ser citado; si solo repite lo existente, se inyectan datos originales o perspectivas únicas.",
+     "slug_o_id_origen": "auditoria-citabilidad",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c08",
+   "titulo": "Social media exponencial: de seguidores a clientes",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué diferencia el grafo de intereses del grafo social tradicional?",
+     "respuesta": "El tradicional unía a las personas entre sí (te sigo porque te conozco); el grafo de intereses une a las personas con temáticas.",
+     "slug_o_id_origen": "grafo-de-intereses",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué el Social SEO es indispensable para llegar a la generación Z?",
+     "respuesta": "Porque la generación Z hace sus búsquedas informativas directamente en TikTok o Instagram, así que hay que optimizar palabras clave, hashtags y subtítulos del contenido audiovisual.",
+     "slug_o_id_origen": "social-seo",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué añade el storydoing al storytelling?",
+     "respuesta": "El storytelling cuenta historias atractivas; el storydoing hace que cobren vida mediante acciones concretas y experiencias que involucran activamente a los consumidores.",
+     "slug_o_id_origen": "storydoing",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué consiste la estrategia «big content, small pieces»?",
+     "respuesta": "En crear un contenido extenso y de alto valor que después se fragmenta en piezas más pequeñas y diversas.",
+     "slug_o_id_origen": "big-content-small-pieces",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Quieres un vídeo de producto que respete el logotipo y las proporciones. ¿Qué técnica recomienda el libro y por qué?",
+     "respuesta": "Image-to-video, porque generar el vídeo solo con texto todavía provoca alucinaciones en el logotipo y las proporciones.",
+     "slug_o_id_origen": "image-to-video",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Cuándo elegirías la fórmula PAS en lugar de AIDA?",
+     "respuesta": "AIDA guía al usuario a través del embudo de conversión; PAS es ideal cuando quieres abordar los desafíos de la audiencia y ofrecer tu solución.",
+     "slug_o_id_origen": "pas",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Tu marca tiene valores medioambientales claros. ¿Qué tipo de usuario de redes puede ser tu aliado?",
+     "respuesta": "Los activistas, que usan las redes para promover causas y añaden valor a campañas alineadas con esos valores.",
+     "slug_o_id_origen": "activistas",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c09",
+   "titulo": "Email marketing: construye tu propia audiencia",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué es un lead magnet y en qué etapa del funnel actúa principalmente?",
+     "respuesta": "Un contenido de alto valor ofrecido gratis a cambio de los datos de contacto; se usa sobre todo en la etapa TOFU para captar leads.",
+     "slug_o_id_origen": "lead-magnet",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Relaciona TOFU, MOFU y BOFU con el estado de conciencia del usuario.",
+     "respuesta": "TOFU: inconsciente o solo consciente del problema. MOFU: consciente del problema o de la solución. BOFU: consciente de que el producto de esa marca resuelve su problema.",
+     "slug_o_id_origen": "funnel",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué función cumplen los nurturing emails?",
+     "respuesta": "Cualifican a los usuarios elevando su nivel de consciencia y conexión con la marca, con consejos, respuestas, casos o invitaciones a webinars; son clave en la etapa MOFU.",
+     "slug_o_id_origen": "nurturing",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Tras un curso básico, ofreces el avanzado o uno complementario. ¿Qué es cada propuesta?",
+     "respuesta": "Ofrecer el curso avanzado es up-sell (versión superior); sugerir uno complementario es cross-sell. Ambos buscan aumentar el valor de vida del cliente.",
+     "slug_o_id_origen": "upsell-cross-sell",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué relación hay entre el CTR y el CTA?",
+     "respuesta": "El CTA es el elemento que invita a actuar (un botón, un enlace de la bio, un DM); el CTR mide la proporción de usuarios que hacen clic en él.",
+     "slug_o_id_origen": "cta",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué permiten los tests A/B en email marketing?",
+     "respuesta": "Probar versiones distintas de un email con cambios en asunto, contenido o CTA para saber cuál funciona mejor y optimizar las tasas de apertura y clics.",
+     "slug_o_id_origen": "ab-testing",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué aporta la IA a la segmentación dinámica?",
+     "respuesta": "Analiza de forma continua los datos del usuario, como su comportamiento web, sus interacciones con emails previos o su historial, para mantener la segmentación al día.",
+     "slug_o_id_origen": "segmentacion-dinamica",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué se diferencia el inbound marketing de la publicidad tradicional?",
+     "respuesta": "En que atrae al cliente con contenido de valor y experiencias relevantes en lugar de perseguirlo con publicidad intrusiva.",
+     "slug_o_id_origen": "inbound-marketing",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c10",
+   "titulo": "Estrategias SEM optimizadas: rentabilizando la intención de búsqueda",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué diferencia hay entre la definición teórica de SEM y su uso en la práctica?",
+     "respuesta": "En teoría engloba todas las acciones dentro de un buscador, SEO incluido; en la práctica se usa para la publicidad de pago en buscadores.",
+     "slug_o_id_origen": "sem",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué considera el sistema de subasta del SEM para decidir qué anuncios se muestran?",
+     "respuesta": "La cantidad que estás dispuesto a pagar, la calidad del anuncio y su relevancia para la búsqueda del usuario.",
+     "slug_o_id_origen": "sistema-de-pujas",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué mejorar el Quality Score puede abaratar tus campañas?",
+     "respuesta": "Porque un nivel de calidad alto reduce el CPC y mejora la posición del anuncio.",
+     "slug_o_id_origen": "quality-score",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Vendes cursos de pago y no quieres aparecer en búsquedas de cursos gratuitos. ¿Qué herramienta usas?",
+     "respuesta": "Las palabras clave negativas, términos excluyentes para los que no queremos que se muestren nuestros anuncios.",
+     "slug_o_id_origen": "palabras-clave-negativas",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Ordena de más a menos amplia los tipos de concordancia y di cuál garantiza mayor precisión.",
+     "respuesta": "Amplia, de frase y exacta; la concordancia exacta, que solo muestra el anuncio si la búsqueda coincide con la palabra clave o variaciones muy cercanas, es la más precisa.",
+     "slug_o_id_origen": "tipos-concordancia",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué significa que una landing page sea «sin fricciones»?",
+     "respuesta": "Que el usuario no encuentra ningún motivo técnico, visual o de marca que le genere dudas o problemas para cumplir el objetivo, ya sea captar el lead o comprar.",
+     "slug_o_id_origen": "sin-fricciones",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué campaña de Google Ads elegirías para una tienda online que quiere mostrar foto y precio antes del clic, y en qué se basa?",
+     "respuesta": "Una campaña de Shopping, que funciona con un feed de datos de productos en lugar de palabras clave manuales.",
+     "slug_o_id_origen": "campanas-shopping",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Para qué sirven los grupos de anuncios dentro de la estructura de Google Ads?",
+     "respuesta": "Para agrupar anuncios por tema o palabras clave relacionadas y lograr la máxima relevancia entre palabra clave, anuncio y página de destino.",
+     "slug_o_id_origen": "grupos-de-anuncios",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c11",
+   "titulo": "Social ADS: atención a intención en un clic",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué distingue un social ad de una publicación orgánica?",
+     "respuesta": "El social ad se promociona con presupuesto para llegar más allá de los seguidores; la publicación orgánica solo la ven quienes siguen la página.",
+     "slug_o_id_origen": "social-ads",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Un usuario visitó tu landing page pero no compró. ¿Qué estrategia aplicas y con qué tipo de audiencia de Meta?",
+     "respuesta": "Retargeting, usando una audiencia personalizada con los datos de usuarios que ya han interactuado con la marca.",
+     "slug_o_id_origen": "audiencia-personalizada",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué ventaja ofrecen las audiencias lookalike?",
+     "respuesta": "Llegar a un público parecido a una audiencia ya conocida, reduciendo el impacto en tráfico completamente frío y maximizando el retorno potencial.",
+     "slug_o_id_origen": "lookalike",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Resume los cuatro pasos de la metodología para crear anuncios.",
+     "respuesta": "1) Investigación de clientes y competencia; 2) identificación de los bloques creativos; 3) fórmulas persuasivas; 4) diversidad de formatos.",
+     "slug_o_id_origen": "metodologia-4-pasos-1",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué preguntas guían la investigación de clientes en el paso 1?",
+     "respuesta": "Qué problemas experimentan (dolores), qué quieren de verdad, qué soluciones probaron sin éxito, qué objeciones ponen antes de comprar y qué les hace dar el «sí» final.",
+     "slug_o_id_origen": "c11-d16",
+     "tipo_origen": "definicion"
+    },
+    {
+     "pregunta": "¿Por qué conviene ejecutar una misma fórmula en formatos diferentes?",
+     "respuesta": "Porque no todas las personas conectan igual (unas con autoridad, otras con historias o resultados rápidos) y la variedad permite al algoritmo mostrar la campaña a más público optimizando el presupuesto.",
+     "slug_o_id_origen": "metodologia-4-pasos-4",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "De los objetivos de campaña de Meta, ¿cuál persigue directamente el retorno y por qué el libro lo destaca?",
+     "respuesta": "La campaña de ventas, que busca a las personas con más probabilidad de comprar; es la que realmente buscamos porque en social ads se persigue el retorno de la inversión.",
+     "slug_o_id_origen": "meta-ventas",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué diferencia un anuncio TrueView de un bumper ad?",
+     "respuesta": "El TrueView es saltable tras unos segundos; el bumper ad dura como máximo seis segundos y no se puede saltar.",
+     "slug_o_id_origen": "bumper-ads",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c12",
+   "titulo": "Influencers y UGC: estrategias digitales para la creators economy",
+   "tarjetas": [
+    {
+     "pregunta": "¿Por qué el influencer marketing se integra en los medios ganados aunque la colaboración sea pagada?",
+     "respuesta": "Porque las recomendaciones derivan de la credibilidad del creador, no de la marca.",
+     "slug_o_id_origen": "influencer-marketing",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué los micro-influencers son el segmento más valorado?",
+     "respuesta": "Porque combinan un alcance moderado con una alta credibilidad.",
+     "slug_o_id_origen": "micro-influencers",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué diferencia el alcance de las impresiones?",
+     "respuesta": "El alcance es el número único de personas que ven el contenido; las impresiones incluyen las visualizaciones repetidas.",
+     "slug_o_id_origen": "alcance",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué es el UGC y quién lo crea?",
+     "respuesta": "Contenido creado por usuarios, no necesariamente influencers, que menciona o utiliza los servicios de la marca.",
+     "slug_o_id_origen": "ugc",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué se diferencia el branded content del product placement?",
+     "respuesta": "En el branded content la marca y sus valores se integran en el guion del creador; en el product placement el producto aparece en escena de forma pasiva pero visible.",
+     "slug_o_id_origen": "branded-content",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué distingue a un embajador de marca de una colaboración puntual?",
+     "respuesta": "Su relación contractual a largo plazo: representa de forma consistente los valores de la marca y participa en sus propuestas y lanzamientos.",
+     "slug_o_id_origen": "embajador-de-marca",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué el contenido de influencers tiene «valor de longevidad»?",
+     "respuesta": "Porque, a diferencia de las campañas con fecha de caducidad, puede seguir generando valor durante meses o años.",
+     "slug_o_id_origen": "valor-longevidad",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c13",
+   "titulo": "Lo que dicen de ti, vende: diseñando un sistema de reseñas",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué hace posible el e-WOM que no permitía el boca a boca tradicional?",
+     "respuesta": "Que las personas interactúen sin coincidir en tiempo ni espacio, e incluso sin conocerse.",
+     "slug_o_id_origen": "e-wom",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué las reseñas se consideran medios ganados?",
+     "respuesta": "Porque las generan terceros y no están bajo el control directo de la marca.",
+     "slug_o_id_origen": "c13-d02",
+     "tipo_origen": "definicion"
+    },
+    {
+     "pregunta": "¿Qué diferencia un testimonio de una reseña cualquiera?",
+     "respuesta": "El testimonio es una declaración voluntaria, generalmente positiva, que la marca utiliza para mostrar satisfacción.",
+     "slug_o_id_origen": "testimonio",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué mide el NPS?",
+     "respuesta": "La probabilidad de que un cliente recomiende un producto.",
+     "slug_o_id_origen": "nps",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Recibes muchas reseñas pero contestas pocas. ¿Qué dos métricas del sistema de reseñas lo reflejan?",
+     "respuesta": "La review velocity (frecuencia de nuevas reseñas) sería buena, pero el response rate (porcentaje de reseñas que reciben respuesta) sería bajo.",
+     "slug_o_id_origen": "response-rate",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué es la estrategia review-to-content?",
+     "respuesta": "Integrar en el contenido las mejores reseñas que mencionan keywords long-tail.",
+     "slug_o_id_origen": "review-to-content",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué son importantes las reseñas de Google Business Profile?",
+     "respuesta": "Porque son clave para el SEO local y para la etapa de descubrimiento: aparecen cuando alguien busca la localización de la marca.",
+     "slug_o_id_origen": "resenas-gbp",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c14",
+   "titulo": "Reputación digital: gestión de la percepción de marca",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué relación hay entre ORM y SERM?",
+     "respuesta": "El ORM monitoriza, influye y protege la percepción online de la marca en varias dimensiones; el SERM es la parte centrada en controlar los resultados de búsqueda con SEO OnPage y OffPage.",
+     "slug_o_id_origen": "serm",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Ana recomienda un curso a sus amigos por WhatsApp. ¿Qué fenómeno es y por qué importa?",
+     "respuesta": "Dark social: interacciones en canales privados que no se pueden rastrear con analítica, pero que impactan en la reputación.",
+     "slug_o_id_origen": "dark-social",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué busca el brand safety?",
+     "respuesta": "Que los anuncios de una marca no se asocien con contenidos inapropiados, ilegales o contrarios a sus valores.",
+     "slug_o_id_origen": "brand-safety",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Compara la gestión proactiva, la defensiva y la de recuperación.",
+     "respuesta": "La proactiva construye credibilidad de forma constante; la defensiva monitoriza críticas y malentendidos antes de que escalen; la de recuperación restaura la credibilidad tras una crisis con transparencia, compensaciones y aprendizaje.",
+     "slug_o_id_origen": "tipos-gestion-reputacional",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Clasifica como activo propio, ganado o prestado: la ficha de Google Business Profile, una reseña espontánea y una aparición en medios.",
+     "respuesta": "La ficha de Google Business Profile es un activo propio; la reseña, un activo ganado; la aparición en medios, un activo prestado.",
+     "slug_o_id_origen": "activos-reputacionales",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué exige la omnicanalidad reputacional?",
+     "respuesta": "Coherencia total entre la web, las redes sociales, el email marketing y la atención al cliente, porque una mínima inconsistencia puede erosionar la confianza.",
+     "slug_o_id_origen": "omnicanalidad-reputacional",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué permite el derecho al olvido?",
+     "respuesta": "Solicitar la eliminación de datos personales que resulten obsoletos, irrelevantes o perjudiciales para la reputación.",
+     "slug_o_id_origen": "derecho-al-olvido",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c15",
+   "titulo": "Controlling: el cuadro de mandos estratégico de tu marca",
+   "tarjetas": [
+    {
+     "pregunta": "¿Qué objetivo tiene el controlling dentro del plan de marketing digital?",
+     "respuesta": "Supervisar y evaluar la planificación estratégica y las acciones operativas para medir resultados, corregir desviaciones y optimizar recursos mediante KPI.",
+     "slug_o_id_origen": "controlling",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "Una tasa de rebote alta, un CTR promedio y un alto tiempo de retención en página: ¿qué tipo de señal es cada uno?",
+     "respuesta": "Señal de alerta negativa, señal neutra y señal positiva, respectivamente.",
+     "slug_o_id_origen": "senal-alerta-negativa",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Por qué el ROI es más amplio que el ROAS?",
+     "respuesta": "Porque el ROAS se centra solo en la publicidad, mientras que el ROI incluye todos los costes asociados (tecnología, personal, producción, tiempo) y evalúa el impacto económico global.",
+     "slug_o_id_origen": "roi",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Con qué métrica debe compararse el CAC y por qué?",
+     "respuesta": "Con el LTV, para evaluar si captar a un cliente es rentable en relación con el valor que aporta durante toda su relación con la marca.",
+     "slug_o_id_origen": "cac",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué diferencia el CPL del CAC?",
+     "respuesta": "El CPL mide lo que cuesta conseguir un lead (un usuario interesado que deja sus datos); el CAC, la inversión total en marketing y ventas para captar un nuevo cliente.",
+     "slug_o_id_origen": "cpl",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Qué problema resuelve Google Tag Manager respecto a los píxeles?",
+     "respuesta": "Permite instalar un único código en el sitio y gestionar todos los píxeles como etiquetas desde su interfaz, sin volver a tocar el código.",
+     "slug_o_id_origen": "gtm",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿En qué consiste aplicar la ingeniería inversa al plan de marketing?",
+     "respuesta": "En visualizar el resultado y dar pasos atrás describiendo qué ha llevado a su creación.",
+     "slug_o_id_origen": "ingenieria-inversa",
+     "tipo_origen": "slug"
+    },
+    {
+     "pregunta": "¿Para qué sirve un dashboard de métricas?",
+     "respuesta": "Para reunir en tiempo real los principales KPI, monitorizar resultados, detectar desviaciones, facilitar decisiones y comunicar el desempeño.",
+     "slug_o_id_origen": "dashboard",
+     "tipo_origen": "slug"
+    }
+   ]
+  },
+  {
+   "capitulo": "c16",
+   "titulo": "Kit de herramientas digitales y asistencia en inteligencia artificial",
+   "tarjetas": [
+    {
+     "pregunta": "¿Pretende el libro que uses las 337 herramientas del kit? ¿Cuál es su objetivo?",
+     "respuesta": "No; el objetivo es ofrecer un mapa ordenado del ecosistema digital para elegir con criterio las piezas adecuadas en cada fase y construir un entorno de trabajo propio, coherente, sostenible y alineado con tu estrategia.",
+     "slug_o_id_origen": "c16-apertura",
+     "tipo_origen": "texto_capitulo"
+    },
+    {
+     "pregunta": "¿Qué criterio separa las dos listas del kit?",
+     "respuesta": "La primera reúne herramientas y plataformas tradicionales o digitales que pueden incorporar IA pero cuyo valor principal no es la propia IA; la segunda, herramientas nativas IA.",
+     "slug_o_id_origen": "c16-apertura",
+     "tipo_origen": "texto_capitulo"
+    },
+    {
+     "pregunta": "Ana se siente abrumada por cientos de «soluciones definitivas». ¿Qué preguntas le ayuda a responder el kit?",
+     "respuesta": "Cuáles necesita realmente, en qué orden y cómo evitar perder tiempo y dinero saltando de herramienta en herramienta sin una estrategia clara.",
+     "slug_o_id_origen": "c16-apertura",
+     "tipo_origen": "texto_capitulo"
+    },
+    {
+     "pregunta": "Quieres saber qué impresiones, clics y CTR orgánicos tiene tu web y si hay problemas de indexación. ¿Qué herramienta del kit encaja?",
+     "respuesta": "Google Search Console, que ofrece datos de rendimiento orgánico, cobertura de indexación, problemas técnicos y enlaces.",
+     "slug_o_id_origen": "k-d088",
+     "tipo_origen": "kit_herramientas"
+    },
+    {
+     "pregunta": "Necesitas un informe visual que reúna datos de Analytics, Ads y hojas de cálculo para seguir tus KPI. ¿Qué herramienta del kit lo permite?",
+     "respuesta": "Looker Studio, que crea dashboards y reportes conectados a múltiples fuentes de datos.",
+     "slug_o_id_origen": "k-d136",
+     "tipo_origen": "kit_herramientas"
+    },
+    {
+     "pregunta": "Quieres que un formulario de tu web cree automáticamente un contacto en tu herramienta de email sin programar. ¿Qué tipo de herramienta del kit buscas?",
+     "respuesta": "Una plataforma de automatización como Zapier, que conecta aplicaciones mediante flujos «si pasa esto aquí, haz esto allí» sin desarrollo a medida.",
+     "slug_o_id_origen": "k-d259",
+     "tipo_origen": "kit_herramientas"
+    },
+    {
+     "pregunta": "Tienes informes y artículos y quieres resumirlos y extraer tendencias a partir de esas fuentes. ¿Qué herramienta nativa IA del kit sirve para ello?",
+     "respuesta": "NotebookLM, asistente de investigación de Google que analiza, resume y genera contenidos a partir de los documentos, enlaces y audios que cargas.",
+     "slug_o_id_origen": "k-ia053",
+     "tipo_origen": "kit_herramientas"
+    }
+   ]
+  }
+ ]
+}

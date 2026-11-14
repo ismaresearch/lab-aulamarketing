@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getTerminos, getTermino, tituloPlan, type Termino } from '../../lib/datos';
+import { abs, recortar, LIBRO } from '../../lib/seo';
+export function getStaticPaths() {
+  return getTerminos().map((t) => ({ params: { slug: t.slug }, props: { t } }));
+}
+const { t } = Astro.props as { t: Termino };
+const migas = [{ nombre: 'Glosario', url: '/glosario/' }, { nombre: t.termino }];
+const def = t.corta ?? t.definiciones[0]?.texto ?? '';
+const ld = [{ '@context': 'https://schema.org', '@type': 'DefinedTerm', name: t.termino, description: def, url: abs(`/glosario/${t.slug}/`), inDefinedTermSet: abs('/glosario/') + '#glosario', subjectOf: LIBRO }];
+---
+<Layout titulo={`${t.termino}: definición`} descripcion={recortar(def)} migas={migas} jsonLd={ld}>
+  <Breadcrumbs items={migas} />
+  <p class="c-overline c-overline--primario">Glosario del libro</p>
+  <h1>¿Qué es {t.termino}?</h1>
+  {t.corta && <p class="c-idea">{t.corta}</p>}
+  {t.variantes.length > 0 && <p class="c-meta">También: {t.variantes.join(', ')}</p>}
+  <h2>Definición del libro</h2>
+  {t.definiciones.map((d, i) => (
+    <section class="c-card c-termino">
+      <p class="c-termino__chips"><span class="c-chip c-chip--book">Cap. {d.capitulo}{d.pagina_libro && ` · pág. ${d.pagina_libro}`}</span>{t.definiciones.length > 1 && <span class="c-chip c-chip--mono">Definición {i + 1}</span>}</p>
+      <p class="c-texto-grande">{d.texto}</p>
+      <p class="c-meta">Libro · cap. {d.capitulo}{d.pagina_libro && `, pág. ${d.pagina_libro}`}{d.paso_url && <> · <a href={d.paso_url}>Ver en {tituloPlan(d.plan) ?? 'el plan'}</a></>}</p>
+    </section>
+  ))}
+  {t.relacionados.filter((r) => getTermino(r)).length > 0 && (
+    <section><h2>Términos relacionados</h2><ul class="c-tags c-tags--enlaces">{t.relacionados.map((r) => getTermino(r)).filter(Boolean).map((r) => <li><a href={`/glosario/${r!.slug}/`}>{r!.termino}</a></li>)}</ul></section>
+  )}
+  <p><a class="c-volver" href="/glosario/">‹ Volver al glosario</a></p>
+</Layout>

@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Pendiente from '../../components/Pendiente.astro';
+import { getPrompts, getPlanes, tituloPlan, categoriaDeCap, capas } from '../../lib/datos';
+import { pad2 } from '../../lib/texto';
+import Icon from '../../components/Icon.astro';
+const prompts = getPrompts();
+const planes = getPlanes();
+const cadenas = planes.flatMap((pl) => pl.cadenas.map((c) => ({ ...c, plan_titulo: pl.titulo })));
+const ias = [...new Set(prompts.flatMap((p) => p.ias.map((i) => i.split(/[\s(]/)[0].replace(/^Chat$/, 'ChatGPT'))))].filter(Boolean).sort();
+const iaDe = (p: any) => [...new Set(p.ias.map((i: string) => i.split(/[\s(]/)[0].replace(/^Chat$/, 'ChatGPT')))].join('|');
+const cats = [...new Set(prompts.map((p) => categoriaDeCap(p.capitulo)).filter(Boolean))];
+const nLibro = prompts.filter((p) => !p.es_propuesta).length;
+const nProp = prompts.length - nLibro;
+---
+<Layout titulo="Biblioteca de prompts" descripcion={`Los ${nLibro} prompts del libro «Desde cero hasta el éxito», filtrables por plan, categoría y herramienta de IA, listos para copiar o abrir en ChatGPT, Claude o Gemini.`} migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Prompts' }]} ancho>
+  <header class="c-card c-cabecera-card">
+    <p class="c-overline c-overline--primario"><span class="c-dot" aria-hidden="true"></span>Ingeniería de prompts · del libro</p>
+    <h1>Biblioteca de prompts</h1>
+    <p class="c-lead">{nLibro} prompts del libro{nProp > 0 && ` y ${nProp} propuestas de la plataforma (pendientes de revisión) para los prompts que el libro solo describe`}. Abre uno para rellenar sus variables con tu proyecto, copiarlo o llevarlo a tu IA.</p>
+    <nav class="c-segmentos" aria-label="Secciones de prompts">
+      <a href="/prompts/" aria-current="page"><Icon nombre="prompts" />Todos los prompts <span class="c-chips__n">{prompts.length}</span></a>
+      <a href="#cadenas"><Icon nombre="cadena" />Cadenas <span class="c-chips__n">{cadenas.length}</span></a>
+      <a href="/laboratorio-visual/"><Icon nombre="camara" />Laboratorio visual <span class="c-chips__n c-chips__n--prox">Próximamente</span></a>
+    </nav>
+  </header>
+  {!capas.prompts && <p><Pendiente que="plantillas con variables unificadas de capas/prompts; se muestra el texto literal" /></p>}
+  <div data-js="filtro" data-singular="prompt" data-plural="prompts">
+    <div class="c-barra-filtros c-barra-filtros--card">
+      <label class="c-buscador"><span class="sr-only">Buscar</span><Icon nombre="buscar" /><input type="search" data-filtro="texto" placeholder="Buscar, p. ej. buyer persona" /></label>
+      <label class="c-field c-field--inline"><span class="c-field__label">Plan</span><select data-filtro="plan"><option value="">Todos</option><option value="antes-de-empezar">Antes de empezar</option>{planes.map((p) => <option value={p.slug}>{p.titulo}</option>)}</select></label>
+      <label class="c-field c-field--inline"><span class="c-field__label">Categoría</span><select data-filtro="categoria"><option value="">Todas</option>{cats.map((c) => <option>{c}</option>)}</select></label>
+      {nProp > 0 && <label class="c-field c-field--inline"><span class="c-field__label">Origen</span><select data-filtro="origen"><option value="">Todos</option><option value="libro">Del libro</option><option value="propuesta">Propuesta de la plataforma</option></select></label>}
+      <label class="c-field c-field--inline"><span class="c-field__label">IA indicada en el libro</span><select data-filtro="ia"><option value="">Cualquiera</option>{ias.map((i) => <option>{i}</option>)}</select></label>
+    </div>
+    <p class="c-meta c-recuento" data-js="recuento" aria-live="polite"></p>
+    <ul class="c-list-plain c-grid c-grid--3">
+      {prompts.map((p) => (
+        <li class="c-card c-prompt-item" data-js="item" data-plan={p.plan ?? ''} data-categoria={categoriaDeCap(p.capitulo) ?? ''} data-ia={iaDe(p)} data-origen={p.es_propuesta ? 'propuesta' : 'libro'} data-texto={`${p.titulo} ${p.texto_literal}`}>
+          <p class="c-overline"><span class="c-prompt-item__idx">{pad2(p.n)}.</span> Cap. {pad2(p.capitulo)} · {tituloPlan(p.plan)}</p>
+          {p.es_propuesta && <p><span class="c-chip c-chip--propuesta">Propuesta de la plataforma · pendiente de revisión</span></p>}
+          {!p.copiable && p.propuesta && <p><span class="c-chip">Descrito en el libro · con propuesta de la plataforma</span></p>}
+          <h2 class="c-prompt-item__t"><a href={`/prompts/${p.id}/`}>{p.titulo}</a></h2>
+          <p class="c-prompt-item__snip">{p.texto_literal.slice(0, 140)}{p.texto_literal.length > 140 && '…'}</p>
+          <p class="c-prompt-item__chips">{p.ias.slice(0, 3).map((i) => <span class="c-chip c-chip--mono">{i}</span>)}{p.variables.length > 0 && <span class="c-chip c-chip--var">{p.variables.length} {p.variables.length === 1 ? 'variable' : 'variables'}</span>}</p>
+        </li>
+      ))}
+    </ul>
+    <p class="c-estado-vacio" data-js="vacio" hidden>No encontramos <span data-js="vacio-q"></span>. <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="limpiar">Quitar filtros</button></p>
+  </div>
+  <section id="cadenas" aria-labelledby="cad-t" class="c-seccion">
+    <div class="c-seccion__cab"><div><p class="c-overline">Flujos encadenados</p><h2 id="cad-t" class="c-titulo-2">Cadenas de prompts</h2></div><p class="c-seccion__extra">{cadenas.length} cadenas</p></div>
+    <ul class="c-list-plain c-grid c-grid--3">
+      {cadenas.map((c) => (
+        <li class="c-card c-card--terminal c-cadena-item">
+          <p class="c-terminal-cab"><Icon nombre="cadena" />{c.plan_titulo}</p>
+          <h3 class="c-cadena-item__t"><a href={c.url}>{c.titulo}</a></h3>
+          <p class="c-terminal-txt">{c.nodos.length} pasos · {c.nodos.filter((n) => n.prompt).length} prompts</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <script>import '../../client/filtro';</script>
+</Layout>

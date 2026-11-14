@@ -1,0 +1,408 @@
+{
+  "libro": "Desde cero hasta el éxito. Plan de Marketing Digital: Guía práctica con asistencia IA",
+  "nota_paginas": "Página impresa = página PDF − 5 en todo el libro (comprobado en los 16 capítulos).",
+  "videos": [
+    {
+      "id": "V01",
+      "tipo": "vídeo explícito",
+      "cap": 1,
+      "seccion": "1. Análisis entorno general y específico",
+      "pag_libro": "12",
+      "pag_pdf": "17",
+      "cita": "Para realizar un análisis exploratorio de las tendencias existentes en un mercado o segmento de mercado, utilizando NotebookLM procedemos de la siguiente manera, podéis ver el vídeo en la biblioteca de contenido de aulamarketing.digital:",
+      "contexto": "Se presenta NotebookLM como asistente para el análisis del entorno y la detección de tendencias del mercado de formación digital; a continuación se describen los pasos A) recopilación de fuentes y B) carga y procesamiento, y se da un prompt de 'Analista de Tendencias'.",
+      "mostrar": "Tutorial de NotebookLM para análisis de tendencias: crear un cuaderno, cargar fuentes secundarias del sector (informes sectoriales, blogs, estudios de comportamiento, competencia, foros, documentos tecnológicos; también vídeos y audios), lanzar el prompt de 'Analista de Tendencias e Inteligencia de Mercado' y obtener la tabla Markdown (tendencia, descripción, evidencia, intensidad, implicaciones) + síntesis de 3-5 tendencias. Caso: sector formación digital en España / aulamarketing.digital.",
+      "herramientas": "NotebookLM",
+      "formato": "No especifica (se infiere demostración paso a paso, pasos A y B)",
+      "agrupable": "—"
+    },
+    {
+      "id": "V02",
+      "tipo": "vídeo explícito (sin enlace)",
+      "cap": 6,
+      "seccion": "2.2 CMS para la creación y diseño del sitio web (tabla comparativa de CMS, fila WordPress)",
+      "pag_libro": "107",
+      "pag_pdf": "112",
+      "cita": "Descubre más sobre WordPress en este vídeo.",
+      "contexto": "Tabla comparativa de CMS (WordPress, Shopify…); en la celda descriptiva de WordPress se remite a 'este vídeo'. En el PDF no hay hipervínculo ni QR asociado (comprobado: la página no contiene anotaciones de enlace), por lo que el lector no sabe dónde está el vídeo.",
+      "mostrar": "Vídeo introductorio de WordPress: qué es (de plataforma de blogs a CMS flexible), facilidad de uso del editor, comunidad/plugins, por qué es SEO-friendly (Yoast SEO / Rank Math) y para qué proyectos conviene.",
+      "herramientas": "WordPress; Yoast SEO; Rank Math",
+      "formato": "No especifica. ATENCIÓN: falta enlace/QR en el libro ('en este vídeo')",
+      "agrupable": "V03 (puede ser la introducción del mismo vídeo o una píldora previa)"
+    },
+    {
+      "id": "V03",
+      "tipo": "vídeo explícito",
+      "cap": 6,
+      "seccion": "2.2 CMS para la creación y diseño del sitio web",
+      "pag_libro": "108",
+      "pag_pdf": "113",
+      "cita": "Consulta el vídeo de la biblioteca de contenido de aulamarketing.digital en el que te enseñamos cómo crear tu sitio web con WordPress en tan solo 14 clics.",
+      "contexto": "Cierre de la comparativa de CMS: se concluye que WordPress es la opción más inteligente para el 90% de los proyectos que empiezan.",
+      "mostrar": "Tutorial 'Crea tu web con WordPress en 14 clics': desde dominio/hosting instalado hasta web publicada (instalación, tema, páginas básicas, plugins esenciales). Debe poder contarse en 14 clics, como promete el libro.",
+      "herramientas": "WordPress (+ hosting/dominio del cap. 6.2.1)",
+      "formato": "Paso a paso; compromiso explícito de '14 clics'",
+      "agrupable": "V02"
+    },
+    {
+      "id": "V04",
+      "tipo": "vídeo explícito",
+      "cap": 6,
+      "seccion": "2.4 Herramientas de IA para la creación del sitio web",
+      "pag_libro": "110",
+      "pag_pdf": "115",
+      "cita": "En aulamarketing.digital, hemos elegido la creación del sitio web sin asistencia IA pero en la biblioteca de contenido online puedes ver cómo hemos creado en Hostinger un sitio web de ejemplo con asistencia IA.",
+      "contexto": "Se explican los constructores con IA integrada en hostings (p. ej. Hostinger sugiere temas/layouts a partir de una descripción), útiles para webs sencillas como la marca personal de Ana.",
+      "mostrar": "Demostración: crear en Hostinger un sitio web de ejemplo con el asistente IA (describir el proyecto, recibir propuesta de tema/layout, generar páginas y ajustar). Web de ejemplo distinta de la de aulamarketing.digital (p. ej. marca personal tipo Ana).",
+      "herramientas": "Hostinger (creador web con IA); WordPress vía Hostinger",
+      "formato": "Caso de ejemplo real ('hemos creado')",
+      "agrupable": "V03 (serie 'Crea tu web'), pero es un vídeo distinto"
+    },
+    {
+      "id": "V05",
+      "tipo": "vídeo explícito (serie, plural)",
+      "cap": 7,
+      "seccion": "2.1 Keyword Research (final, tras '✐ Herramientas clave para el keyword research')",
+      "pag_libro": "119",
+      "pag_pdf": "124",
+      "cita": "Este es un buen momento para recordarte que en nuestra biblioteca de vídeos dentro de aulamarketing.digital puedes encontrar los vídeos en los que te enseñamos de forma práctica cómo utilizar estas herramientas digitales de SEO / AEO en su versión totalmente gratuita.",
+      "contexto": "Tras explicar la búsqueda manual en SERPs (keyword informativa, en pregunta y transaccional) y presentar las herramientas de keyword research por nivel de dificultad.",
+      "mostrar": "Serie de tutoriales de keyword research en versión gratuita/trial: Ubersuggest (punto de partida), Google Keyword Planner, SE Ranking / Ahrefs / Semrush (versiones gratuitas o trial), Answer the Public (preguntas). Ejemplo con 'curso marketing digital' y variantes en pregunta y transaccionales.",
+      "herramientas": "Ubersuggest; Google Keyword Planner; SE Ranking; Ahrefs; Semrush; Answer the Public",
+      "formato": "Práctico; herramientas 'en su versión totalmente gratuita'; plural ('los vídeos')",
+      "agrupable": "V07 (etiqueta SEO); V08 (Semrush/Ahrefs/SE Ranking reaparecen para auditoría)"
+    },
+    {
+      "id": "V06",
+      "tipo": "vídeo explícito",
+      "cap": 7,
+      "seccion": "2.2 Acciones de SEO OnPage (final)",
+      "pag_libro": "120",
+      "pag_pdf": "125",
+      "cita": "Si te ha sorprendido encontrar algunos términos que no conoces todavía, como link juice o clusters de contenido, tenemos un artículo en la biblioteca de artículos SEO en aulamarketing.digital, además de un vídeo donde podrás ver cómo estos conceptos se traducen en acciones prácticas en un proyecto web real.",
+      "contexto": "Cierre de las acciones OnPage: arquitectura y encabezados H1-H3 (truco AEO de respuesta de ~50 palabras), contenido de calidad, URLs optimizadas, metadatos, interlinking (link juice, clusters, anchor text) y UX.",
+      "mostrar": "Aplicación de SEO OnPage en un proyecto web real (idealmente aulamarketing.digital en WordPress): estructura de clusters de contenido, enlazado interno y reparto de link juice, anchor text, H1/H2/H3 con respuesta AEO, URL optimizada y meta título/descripción con Yoast/Rank Math.",
+      "herramientas": "WordPress; Yoast SEO o Rank Math (inferido del cap. 6)",
+      "formato": "Proyecto web real",
+      "agrupable": "A03 (artículo complementario); V07 (etiqueta SEO)"
+    },
+    {
+      "id": "V07",
+      "tipo": "vídeo explícito (plural, por etiqueta)",
+      "cap": 7,
+      "seccion": "4. SEO técnico (final)",
+      "pag_libro": "121",
+      "pag_pdf": "126",
+      "cita": "De nuevo te recordamos que puedes ver más sobre esta información (que descrita podría parecer abrumadora por los términos técnicos) en los vídeos de la biblioteca de contenido en aulamarketing.digital si buscas el término SEO.",
+      "contexto": "Tras definir los elementos de SEO técnico: rastreo e indexación (sitemap, robots.txt), Core Web Vitals/WPO (LCP, FID, CLS), marcado Schema, optimización multimedia, hosting, mobile-first y HTTPS/SSL.",
+      "mostrar": "Vídeo(s) explicativos de SEO técnico: crear/enviar sitemap, revisar robots.txt, qué son y cómo leer los Core Web Vitals, implementar y validar Schema, optimizar imágenes/vídeos (webp, lazy load, vídeo embebido), mobile-first y HTTPS. Requisito: que aparezcan al buscar 'SEO' en la biblioteca.",
+      "herramientas": "(Conceptual; enlaza con las herramientas de V08)",
+      "formato": "Accesibles buscando el término 'SEO' en la biblioteca (requiere etiquetado/buscador)",
+      "agrupable": "V08 (mismo párrafo; pueden cubrirse con los mismos vídeos); V05, V06 (misma etiqueta SEO)"
+    },
+    {
+      "id": "V08",
+      "tipo": "vídeo explícito (plural) + petición vía chat",
+      "cap": 7,
+      "seccion": "4. SEO técnico (final, antes de '✐ Herramientas para SEO técnico')",
+      "pag_libro": "121",
+      "pag_pdf": "126",
+      "cita": "Sobre ellas también podrás ver algunos vídeos en la web, y si ves que no hemos generado alguno de ellos, anótalo en el chat de la web y lo actualizaremos ASAP.",
+      "contexto": "Se anuncia que la complejidad técnica se vuelve practicable con herramientas, que se enumeran justo después: Google Search Console, auditoría con Screaming Frog/Semrush/Ahrefs/SE Ranking, prueba de resultados enriquecidos, Google PageSpeed, LiteSpeed Cache/WP Fastest Cache, Smush/Imagify/ILoveIMG.",
+      "mostrar": "Tutoriales de herramientas de SEO técnico: (a) alta y lectura de Google Search Console; (b) auditoría técnica con Screaming Frog (o Semrush/Ahrefs/SE Ranking); (c) validar Schema en la prueba de resultados enriquecidos de Google; (d) WPO: medir con PageSpeed y configurar caché (LiteSpeed Cache / WP Fastest Cache); (e) optimizar imágenes a .webp con Smush, Imagify o ILoveIMG.",
+      "herramientas": "Google Search Console; Screaming Frog; Semrush; Ahrefs; SE Ranking; Prueba de resultados enriquecidos de Google; Google PageSpeed; LiteSpeed Cache; WP Fastest Cache; Smush; Imagify; ILoveIMG",
+      "formato": "'algunos vídeos'; el libro admite que puede faltar alguno y promete actualizar a petición en el chat de la web (requiere chat operativo en aulamarketing.digital)",
+      "agrupable": "V07; V05 (Semrush/Ahrefs/SE Ranking)"
+    },
+    {
+      "id": "V09",
+      "tipo": "vídeo explícito",
+      "cap": 8,
+      "seccion": "4. Contenido, narrativas y copywriting orientado a la audiencia (final, justo antes del apartado 5)",
+      "pag_libro": "134",
+      "pag_pdf": "139",
+      "cita": "Recuerda que si tienes alguna duda sobre el uso de estas plataformas, dispones de contenido en vídeo en aulamarketing.digital.",
+      "contexto": "Se explican las plataformas de gestión de redes (planificación, programación, almacenamiento, análisis), las de producción/edición y las de emisión en vivo; las listas de herramientas aparecen a continuación en el apartado 5.",
+      "mostrar": "Tutoriales de uso de plataformas de social media: (a) planificar y programar con Meta Business Suite y/o Metricool (calendario, métricas); (b) edición de imagen/vídeo para redes (Canva, CapCut); (c) emisión en directo multiplataforma (OBS Studio o Streamyard).",
+      "herramientas": "Meta Business Suite; Hootsuite; Buffer; Sprout Social; Metricool (planificación); Canva; CapCut (edición); OBS Studio; Streamyard (directo) — selección a decidir de las listas del apartado 5",
+      "formato": "No especifica",
+      "agrupable": "V12"
+    },
+    {
+      "id": "V10",
+      "tipo": "vídeo explícito",
+      "cap": 15,
+      "seccion": "8. Herramientas y asistencia IA para planificación y controlling",
+      "pag_libro": "226",
+      "pag_pdf": "231",
+      "cita": "Para ayudarte a crear tu propio dashboard con todas las plataformas conectadas y todas las métricas hemos creado un vídeo que podrás encontrar en la biblioteca de aulamarketing.digital.",
+      "contexto": "Se recomienda Looker Studio (con capa de IA Gemini) para centralizar datos en un dashboard a medida; siguen listas de herramientas de monitorización (Looker Studio, Power BI, Tableau, GA4, Search Console, PageSpeed…).",
+      "mostrar": "Tutorial de Looker Studio: conectar fuentes (GA4, Search Console, Google Ads, Meta Ads/redes vía conectores), construir el cuadro de mandos con las métricas clave del cap. 15 (leads, CPL, ROI/ROAS, CAC, LTV…) y usar la capa de Gemini.",
+      "herramientas": "Looker Studio; Gemini; GA4; Google Search Console; Google Ads; Meta Ads (conectores)",
+      "formato": "'hemos creado un vídeo' (vídeo único, ya prometido como existente)",
+      "agrupable": "—"
+    },
+    {
+      "id": "V11",
+      "tipo": "remisión genérica a vídeos",
+      "cap": "Contraportada",
+      "seccion": "Contraportada (texto de cubierta trasera)",
+      "pag_libro": "s/n",
+      "pag_pdf": "261",
+      "cita": "Además cuentas con acceso a nuestra plataforma, aulamarketing.digital, donde dispones de vídeos que te ayudarán a ponerlo todo en práctica.",
+      "contexto": "Texto promocional de contraportada que resume el libro (337 herramientas, prompts, paso a paso) y promete vídeos de apoyo.",
+      "mostrar": "No exige un vídeo concreto: la promesa queda cubierta por el conjunto de la biblioteca. Opcional: vídeo de bienvenida 'Cómo usar la biblioteca de aulamarketing.digital con el libro' (búsqueda por etiquetas, chat de peticiones, comunidad).",
+      "herramientas": "aulamarketing.digital",
+      "formato": "Genérica",
+      "agrupable": "Todos (cobertura global); opcional vídeo de bienvenida"
+    },
+    {
+      "id": "V12",
+      "tipo": "ambigua: vídeo o artículo",
+      "cap": 8,
+      "seccion": "5. Herramientas y asistencia IA para Social Media (introducción)",
+      "pag_libro": "135",
+      "pag_pdf": "140",
+      "cita": "Recuerda que podrás encontrar ejemplos de uso, listas de prompts y tutoriales sobre las herramientas en nuestra web aulamarketing.digital.",
+      "contexto": "Introducción al flujo de trabajo con IA para social media (ideación y guiones, generación de imágenes y vídeo, avatares, audio, copys, títulos y descripciones).",
+      "mostrar": "Si es vídeo: tutoriales de las herramientas IA del flujo social media, p. ej. funciones IA de Metricool/Hootsuite, recorte automático de un vídeo largo con OpusClip/Vizard/Klap, image-to-video con Kling o Luma, avatar con HeyGen. Además (contenido escrito): ejemplos de uso y listas de prompts.",
+      "herramientas": "Hootsuite; Buffer; Sprout; Metricool; NotebookLM; ChatGPT; Gemini; Claude; OpusClip; Vizard; Klap; Kling; Luma; HeyGen…",
+      "formato": "'tutoriales' (formato sin precisar) + 'ejemplos de uso' + 'listas de prompts'",
+      "agrupable": "V09; V13; A02 (listas de prompts/estilos)"
+    },
+    {
+      "id": "V13",
+      "tipo": "ambigua: vídeo o artículo (más probable artículo/glosario)",
+      "cap": 8,
+      "seccion": "5. Herramientas y asistencia IA para Social Media — ✐ Generación y edición de vídeo",
+      "pag_libro": "137",
+      "pag_pdf": "142",
+      "cita": "En nuestra biblioteca de recursos de aulamarketing.digital encontrarás los más utilizados junto a ejemplos de uso.",
+      "contexto": "Tras los prompts de image-to-video y text-to-video por bloques, se reconoce que los términos de movimientos de cámara, luces, colores o profundidad de campo pueden abrumar ('Recuerda que no debes aprenderlo todo').",
+      "mostrar": "Glosario de términos de prompting de vídeo IA (camera motion: dolly, pan, tilt, travelling…; iluminación; color/grading; profundidad de campo) con ejemplos de uso. Si se hace en vídeo: comparativa visual de cada movimiento generado en Kling/Veo/Luma.",
+      "herramientas": "Kling; Veo 3; Luma Dream Machine; Runway; Sora…",
+      "formato": "'los más utilizados junto a ejemplos de uso'",
+      "agrupable": "A02 (glosario de cámara/lente/estilos para imagen); V12"
+    }
+  ],
+  "articulos": [
+    {
+      "id": "A01",
+      "tipo": "recurso escrito (lista)",
+      "cap": 2,
+      "seccion": "4. Herramientas y asistencia IA para cada etapa — ✐ IA generativa para ideación visual",
+      "pag_libro": "37",
+      "pag_pdf": "42",
+      "cita": "Recuerda que en aulamarketing.digital dispones de una lista de estilos que pueden ser útiles en este tipo de prompt.",
+      "contexto": "Prompt para prototipar visualmente un producto físico con Nano Banana 2 (estilo minimalista escandinavo como ejemplo).",
+      "mostrar": "Lista de estilos estéticos para prompts de imagen/prototipado (estilos de diseño, materiales, iluminación) con ejemplo de uso.",
+      "herramientas": "Nano Banana 2; Kling; Dall-E; MidJourney; Flux…",
+      "formato": "Lista",
+      "agrupable": "A02; V13"
+    },
+    {
+      "id": "A02",
+      "tipo": "artículos (etiqueta)",
+      "cap": 6,
+      "seccion": "2.4 Herramientas de IA para la creación del sitio web (imágenes de la web)",
+      "pag_libro": "113",
+      "pag_pdf": "118",
+      "cita": "Podrás encontrar diferentes configuraciones de cámara, lente, color, textura o estilos en nuestra biblioteca de artículos con la etiqueta generación de imágenes.",
+      "contexto": "Tras el prompt fotográfico por bloques (cámara, emulsión Kodak Portra 400, iluminación, textura, restricciones) para generar imágenes de marca con Nano Banana 2 Pro/ChatGPT/Kling.",
+      "mostrar": "Artículos con la etiqueta 'generación de imágenes': configuraciones de cámara, lente, color/emulsión, textura y estilos para prompts.",
+      "herramientas": "Nano Banana 2 Pro; ChatGPT; Kling",
+      "formato": "Varios artículos bajo una etiqueta",
+      "agrupable": "A01; V13"
+    },
+    {
+      "id": "A03",
+      "tipo": "artículo",
+      "cap": 7,
+      "seccion": "2.2 Acciones de SEO OnPage (final)",
+      "pag_libro": "120",
+      "pag_pdf": "125",
+      "cita": "Si te ha sorprendido encontrar algunos términos que no conoces todavía, como link juice o clusters de contenido, tenemos un artículo en la biblioteca de artículos SEO en aulamarketing.digital, además de un vídeo donde podrás ver cómo estos conceptos se traducen en acciones prácticas en un proyecto web real.",
+      "contexto": "Misma frase que V06: el libro promete artículo + vídeo.",
+      "mostrar": "Artículo (biblioteca de artículos SEO) que explique link juice, clusters de contenido, interlinking y anchor text.",
+      "herramientas": "—",
+      "formato": "Artículo único",
+      "agrupable": "V06"
+    },
+    {
+      "id": "A04",
+      "tipo": "artículos (búsqueda por palabra)",
+      "cap": 8,
+      "seccion": "4. Contenido, narrativas y copywriting orientado a la audiencia",
+      "pag_libro": "132",
+      "pag_pdf": "137",
+      "cita": "Una vez más anotamos a modo de recordatorio que en nuestra biblioteca de artículos de aulamarketing.digital encontrarás una lista más detallada de estructuras si buscas la palabra “copywriting”.",
+      "contexto": "Tras presentar varias estructuras de copywriting (y storytelling/storydoing) aplicadas a aulamarketing.digital.",
+      "mostrar": "Artículo(s) con una lista ampliada de estructuras de copywriting (AIDA, PAS, BAB, 4U, etc.), localizables al buscar 'copywriting'.",
+      "herramientas": "—",
+      "formato": "Lista detallada; requiere buscador/etiqueta 'copywriting'",
+      "agrupable": "—"
+    },
+    {
+      "id": "A05",
+      "tipo": "ambigua: glosario web o referencia interna",
+      "cap": 10,
+      "seccion": "2.2 Terminología de campañas SEM",
+      "pag_libro": "158",
+      "pag_pdf": "163",
+      "cita": "Los términos anteriores forman parte de la biblioteca de términos fundamentales, por lo que hemos considerado que para facilitar y ampliar la comprensión conceptual, sería ideal proponer específicamente los relacionados con las campañas y que requieren de una ejemplificación.",
+      "contexto": "Transición entre la terminología básica de SEM (2.1) y la terminología de campañas (2.2). No dice que esté en aulamarketing.digital: puede ser una forma de referirse al glosario del propio libro.",
+      "mostrar": "Si es web: glosario/'biblioteca de términos fundamentales' de marketing digital (SEM: CPC, CTR, Quality Score, ROAS, conversión, etc.). Conviene que el autor confirme si existe o si hay que crearlo.",
+      "herramientas": "—",
+      "formato": "No especifica",
+      "agrupable": "—"
+    }
+  ],
+  "descartadas": [
+    {
+      "ubicacion": "cap02 p.33 / PDF 38",
+      "cita": "«Recuerda que al final del capítulo hemos creado una lista de herramientas, asistentes IA y prompt de apoyo…»",
+      "motivo": "Remisión interna al propio libro."
+    },
+    {
+      "ubicacion": "cap03 p.47 / PDF 52",
+      "cita": "«Ana ya conoce aulamarketing.digital. Visita nuestra web.»",
+      "motivo": "Narrativa del CJM de Ana, no remisión al lector."
+    },
+    {
+      "ubicacion": "cap06 p.103 / PDF 108",
+      "cita": "«…alojaremos los contenidos estratégicos, como los recursos de aulamarketing.digital…»",
+      "motivo": "Descriptiva de la estrategia web, no remite a un contenido concreto."
+    },
+    {
+      "ubicacion": "cap09 p.148 / PDF 153",
+      "cita": "«…acceso a un vídeo exclusivo de resolución de un problema concreto…»",
+      "motivo": "Está dentro de un prompt de lead magnets (ejemplo genérico), no remite a la biblioteca."
+    },
+    {
+      "ubicacion": "cap09 p.145 / PDF 150",
+      "cita": "«…como las guías de aulamarketing.digital alineadas con cada acción operativa…»",
+      "motivo": "Ejemplo de lead magnet del caso; no es remisión al lector (aunque podría ser contenido futuro de la web)."
+    },
+    {
+      "ubicacion": "cap11 p.181 / PDF 186",
+      "cita": "«…vídeo de ventas estilo tutorial…»",
+      "motivo": "Formato publicitario del ejemplo de Social Ads."
+    },
+    {
+      "ubicacion": "cap12 p.188 / PDF 193",
+      "cita": "«Un tutorial sobre IA…» (contenido de influencers)",
+      "motivo": "Formato de marketing."
+    },
+    {
+      "ubicacion": "cap05 p.91 / PDF 96",
+      "cita": "«Como podéis ver, las opciones son infinitas…»",
+      "motivo": "Remite a las figuras del libro."
+    },
+    {
+      "ubicacion": "cap16 glosario",
+      "cita": "Bibliotecas de anuncios de Meta/TikTok/X, Camtasia 'tutoriales', 1001 Fonts 'Biblioteca'",
+      "motivo": "Nombres/descripciones de herramientas."
+    }
+  ],
+  "consolidado": [
+    {
+      "id": "C01",
+      "titulo": "Análisis de tendencias del mercado con NotebookLM",
+      "cubre": [
+        "V01"
+      ],
+      "n_videos": "1"
+    },
+    {
+      "id": "C02",
+      "titulo": "WordPress: qué es y crea tu web en 14 clics",
+      "cubre": [
+        "V02",
+        "V03"
+      ],
+      "n_videos": "1 (o 2: píldora intro + tutorial)"
+    },
+    {
+      "id": "C03",
+      "titulo": "Crea una web de ejemplo con IA en Hostinger",
+      "cubre": [
+        "V04"
+      ],
+      "n_videos": "1"
+    },
+    {
+      "id": "C04",
+      "titulo": "Keyword research gratis: Ubersuggest, Keyword Planner, SE Ranking/Ahrefs/Semrush (trial) y Answer the Public",
+      "cubre": [
+        "V05"
+      ],
+      "n_videos": "1 (o serie de 4, una por herramienta)"
+    },
+    {
+      "id": "C05",
+      "titulo": "SEO OnPage en un proyecto real: clusters, interlinking/link juice, encabezados AEO, URL y metadatos",
+      "cubre": [
+        "V06"
+      ],
+      "n_videos": "1"
+    },
+    {
+      "id": "C06",
+      "titulo": "SEO técnico práctico: Search Console, auditoría (Screaming Frog), Schema, PageSpeed + caché e imágenes .webp",
+      "cubre": [
+        "V07",
+        "V08"
+      ],
+      "n_videos": "1 (o serie de 3: Search Console / auditoría + Schema / WPO e imágenes)"
+    },
+    {
+      "id": "C07",
+      "titulo": "Gestión de redes sociales: planificar y programar (Metricool / Meta Business Suite), editar (Canva/CapCut) y emitir en directo (OBS/Streamyard)",
+      "cubre": [
+        "V09",
+        "V12"
+      ],
+      "n_videos": "1 (o serie de 3)"
+    },
+    {
+      "id": "C08",
+      "titulo": "Flujo IA para social media: recortes con OpusClip, image-to-video con Kling y avatar con HeyGen",
+      "cubre": [
+        "V12"
+      ],
+      "n_videos": "opcional, 1 (V12 es ambigua; puede cubrirse con artículo + listas de prompts)"
+    },
+    {
+      "id": "C09",
+      "titulo": "Dashboard de controlling en Looker Studio con todas las plataformas conectadas",
+      "cubre": [
+        "V10"
+      ],
+      "n_videos": "1"
+    },
+    {
+      "id": "C10",
+      "titulo": "Bienvenida: cómo usar la biblioteca de aulamarketing.digital junto al libro (etiquetas, buscador, chat)",
+      "cubre": [
+        "V11"
+      ],
+      "n_videos": "opcional, 1"
+    },
+    {
+      "id": "C11",
+      "titulo": "(Mejor como artículo) Glosario de movimientos de cámara, luz y profundidad de campo para vídeo IA",
+      "cubre": [
+        "V13"
+      ],
+      "n_videos": "0 si se resuelve como artículo; 1 si se graba"
+    }
+  ],
+  "resumen": {
+    "menciones_video_total": 13,
+    "menciones_video_explicitas": 11,
+    "menciones_ambiguas": 2,
+    "videos_unicos_estimados": "8 obligatorios (C01–C07, C09) + 3 opcionales (C08, C10, C11) → 8–11; si se graban como series por herramienta, ≈ 17–18",
+    "articulos": 5,
+    "articulos_ambiguos": 1
+  }
+}

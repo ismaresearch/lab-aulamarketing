@@ -1,0 +1,22 @@
+{
+  "_nota": "PROVISIONAL. Solo se usa mientras no exista capas/prompts/variables.json (proceso P2). Asigna algunos marcadores literales del libro a datos de 'Mi proyecto'; el resto de marcadores se tratan como variables propias del prompt.",
+  "campos_proyecto": [
+    { "id": "nombre_proyecto", "etiqueta": "Nombre del proyecto o marca", "ayuda": "p. ej. el nombre de tu marca", "tipo": "texto", "ejemplo_libro": "aulamarketing.digital" },
+    { "id": "sector", "etiqueta": "Sector", "ayuda": "p. ej. hostelería en Cádiz", "tipo": "texto", "ejemplo_libro": null },
+    { "id": "producto", "etiqueta": "¿Qué ofreces? (producto o servicio)", "ayuda": "Describe en una frase lo que vendes.", "tipo": "texto_largo", "ejemplo_libro": null },
+    { "id": "anio", "etiqueta": "Año", "ayuda": "Por defecto, el año actual.", "tipo": "anio", "ejemplo_libro": null },
+    { "id": "buyer_persona", "etiqueta": "¿A quién te diriges? (buyer persona)", "ayuda": "Edad, situación, dolores y deseos de tu cliente ideal.", "tipo": "texto_largo", "ejemplo_libro": null },
+    { "id": "competidor", "etiqueta": "Principal competidor", "ayuda": "Nombre de la marca con la que más compites.", "tipo": "texto", "ejemplo_libro": null },
+    { "id": "tono", "etiqueta": "Tono de comunicación", "ayuda": "Las opciones del prompt AEO del capítulo 7.", "tipo": "opciones", "opciones": ["Cercano", "Profesional", "Técnico", "Amable"], "ejemplo_libro": null }
+  ],
+  "marcadores": {
+    "[X]": "sector", "[Tu Sector]": "sector", "[Categoría/Sector]": "sector", "[Temática/Sector]": "sector",
+    "[tu tipo de producto/servicio]": "producto", "[Tu Producto/Servicio]": "producto", "[Tu producto/servicio]": "producto", "[producto o servicio]": "producto",
+    "[año]": "anio",
+    "[Nombre del Competidor]": "competidor",
+    "[buyer persona]": "buyer_persona", "[Tu Buyer Persona]": "buyer_persona", "[Buyer Persona]": "buyer_persona",
+    "[Tu Marca]": "nombre_proyecto", "[Nombre de la Marca]": "nombre_proyecto", "[Nombre de tu marca]": "nombre_proyecto",
+    "[Cercano / Profesional / Técnico / Amable]": "tono", "[Insertar el elegido: Cercano/Profesional]": "tono"
+  },
+  "patron_salida_previa": "^\\[\\s*(pega|pegar|copia y pega|inserta aqu[ií] (tus|tu|el|la|los)? ?(insights|resumen|hmw))"
+}

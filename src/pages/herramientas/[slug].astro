@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import VideoSlot from '../../components/VideoSlot.astro';
+import AvisoVisibilidad from '../../components/AvisoVisibilidad.astro';
+import Icon from '../../components/Icon.astro';
+import { getHerramientas, type Herramienta } from '../../lib/datos';
+import { abs } from '../../lib/seo';
+export function getStaticPaths() {
+  const todas = getHerramientas();
+  return todas.map((h) => ({
+    params: { slug: h.slug },
+    props: { h, alternativas: todas.filter((o) => o.slug !== h.slug && o.bloques.some((b) => h.bloques.includes(b))).slice(0, 3) },
+  }));
+}
+const { h, alternativas } = Astro.props as { h: Herramienta; alternativas: Herramienta[] };
+const migas = [{ nombre: 'Herramientas', url: '/herramientas/' }, { nombre: h.nombre }];
+const desc = h.descripcion ?? h.menciones.find((m) => m.descripcion)?.descripcion ?? `${h.nombre}: herramienta citada en el libro «Desde cero hasta el éxito».`;
+const ld = [{ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: h.nombre, description: desc, url: abs(`/herramientas/${h.slug}/`), ...(h.url ? { sameAs: h.url } : {}), applicationCategory: h.tipo === 'ia' ? 'Herramienta de IA' : 'Herramienta digital de marketing' }];
+const usosUnicos = [...new Map(h.usos.map((u) => [u.url, u])).values()];
+const mono = h.nombre.replace(/[^A-Za-zÀ-ÿ0-9]/g, '').slice(0, 2).toUpperCase() || '·';
+const n = (u: { url: string }) => (u.url.match(/\/(\d+)-[^/]+\/$/) || [])[1];
+---
+<Layout titulo={h.nombre} ancho descripcion={desc} migas={migas} jsonLd={ld}>
+  <a class="c-volver" href="/herramientas/"><Icon nombre="atras" />Volver al directorio de herramientas</a>
+  <div class="l-dos">
+    <div class="l-dos__main">
+      <header class="c-card c-ficha">
+        <span class="c-ficha__mono" aria-hidden="true">{mono}</span>
+        <div class="c-ficha__id">
+          <p class="c-ficha__chips"><span class:list={['c-chip', h.tipo === 'ia' && 'c-chip--proyecto']}>{h.tipo === 'ia' ? 'Nativa IA' : 'Herramienta digital'}</span>{h.bloques.slice(0, 2).map((b) => <span class="c-chip c-chip--book">{b}</span>)}{h.bloques.length > 2 && <span class="c-chip">+{h.bloques.length - 2} bloques más</span>}</p>
+          <h1 class="c-ficha__t">{h.nombre}</h1>
+          {h.nombre !== h.nombre_libro && <p class="c-meta">En el libro aparece como «{h.nombre_libro}».</p>}
+          {h.url && <p class="c-ficha__acc"><a class="c-btn" href={h.url} target="_blank" rel="noopener noreferrer">Ir a la web oficial <Icon nombre="externo" /><span class="sr-only"> (se abre en una pestaña nueva)</span></a> <span class="c-meta">Enlace: {h.url_fuente}</span></p>}
+        </div>
+      </header>
+      <AvisoVisibilidad />
+      <section class="c-card" aria-labelledby="que-t">
+        <h2 id="que-t" class="c-headline c-headline--book"><Icon nombre="libro" />¿Qué es {h.nombre}?</h2>
+        {h.descripcion ? <p class="c-texto-grande">{h.descripcion}</p> : <p class="c-meta">El libro la menciona sin descripción en el kit del capítulo 16.</p>}
+        {h.bloques.length > 2 && <p class="c-meta">Bloques ✐ del libro en los que aparece: {h.bloques.join(' · ')}.</p>}
+        {h.en_kit && <p class="c-meta">Fuente: kit de herramientas del libro (cap. 16{h.pagina_kit ? `, pág. ${h.pagina_kit}` : ''}).</p>}
+      </section>
+      {h.menciones.some((m) => m.descripcion) && (
+        <section class="c-card" aria-labelledby="men-t">
+          <h2 id="men-t" class="c-headline">Lo que dice el libro en cada capítulo</h2>
+          <ul class="c-citas">{h.menciones.filter((m) => m.descripcion).map((m) => <li><blockquote class="c-cita">{m.descripcion}</blockquote><span class="c-meta">Cap. {m.capitulo}{m.pagina_libro && `, pág. ${m.pagina_libro}`}</span></li>)}</ul>
+        </section>
+      )}
+      <section aria-labelledby="uso-t" class="c-seccion">
+        <div class="c-seccion__cab"><h2 id="uso-t" class="c-titulo-2"><Icon nombre="cadena" />¿Para qué la usamos en el libro?</h2>{usosUnicos.length > 0 && <p class="c-seccion__extra">{usosUnicos.length} {usosUnicos.length === 1 ? 'paso' : 'pasos'}</p>}</div>
+        {usosUnicos.length ? (
+          <ul class="c-usos">{usosUnicos.map((u) => <li><a href={u.url}><span class="c-usos__n" aria-hidden="true">{n(u) ?? '·'}</span><span><span class="c-overline">{u.plan_titulo}</span><span class="c-usos__t">{u.paso_titulo}</span></span><Icon nombre="chevron" /></a></li>)}</ul>
+        ) : <p class="c-meta">Solo figura en el kit de herramientas del capítulo 16.</p>}
+      </section>
+    </div>
+    <aside class="l-dos__aside" aria-label="Más sobre la herramienta">
+      <VideoSlot videos={[]} textoGenerico="La videoteca de aulamarketing.digital está en construcción." />
+      {alternativas.length > 0 && (
+        <section aria-labelledby="alt-t">
+          <h2 id="alt-t" class="c-headline"><Icon nombre="ajustes" />Alternativas del mismo bloque</h2>
+          <div class="c-lista-tools">{alternativas.map((a) => <ToolCard nombre={a.nombre} slug={a.slug} tipo={a.tipo} descripcion={a.descripcion} compacta />)}</div>
+        </section>
+      )}
+    </aside>
+  </div>
+</Layout>

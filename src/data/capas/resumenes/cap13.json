@@ -1,0 +1,70 @@
+{
+  "id": "c13",
+  "promesa": "Diseñarás un sistema de reseñas auténtico que convierta las opiniones de tus clientes en confianza, visibilidad y mejoras.",
+  "al_terminar_tendras": [
+    "Una política interna de reseñas y los puntos del servicio en los que pedirlas",
+    "Mensajes de solicitud breves y neutros para WhatsApp, email o tras una incidencia",
+    "Plantillas de respuesta para cinco tipos de reseña, de la positiva genérica a la conflictiva",
+    "Un análisis de tus reseñas por temas, con mejoras priorizadas e integración en tu web",
+    "Las métricas clave de seguimiento (rating, NPS, review velocity, response rate…) y prompts de IA para clasificar y analizar"
+  ],
+  "historia_ana": null,
+  "resumen_capitulo": "El boca a boca digital, o e-WOM, es uno de los grandes intangibles del marketing: genera confianza y credibilidad y ayuda a captar clientes. A diferencia del tradicional, es asíncrono, persistente, escalable e indexable; una reseña de hace dos años puede decidir una compra hoy. En este capítulo descubres por qué las reseñas son decisivas: la gran mayoría de los consumidores las lee antes de comprar, funcionan como prueba social, impulsan el SEO y aportan feedback para mejorar. Conoces las plataformas y las métricas clave, las tendencias (vídeo, reseñas específicas, verificación, chatbots, IA para responder y análisis de sentimiento) y el valor que generan, de la conversión a la atracción de talento. El núcleo es un protocolo de cuatro semanas: diseñar el sistema y la política, activar la solicitud con mensajes neutros, preparar las respuestas por tipo de reseña y convertir lo aprendido en mejoras e integración en tu web. Por último, usas herramientas e IA para responder, clasificar y analizar, y ves cómo lo aplica aulamarketing.digital.",
+  "secciones": {
+    "c13-s1": {
+      "idea_clave": "Las reseñas son decisivas en la compra: funcionan como prueba social, mejoran tu SEO, se convierten en activos de marketing y aportan feedback.",
+      "resumen": "Las reseñas han pasado de simples opiniones a ser uno de los factores más influyentes en la compra. El libro cita datos de DemandSage (2025): el 93 % de los consumidores las lee antes de comprar y al 93 % le influyen; cerca del 53 % confía en ellas tanto como en una recomendación personal y el 62 % evita a las empresas que censuran opiniones. Además, más del 90 % busca negocios locales en internet y lee una media de siete reseñas antes de confiar. Según el estudio de Luca (2016), cada estrella adicional puede aumentar los ingresos hasta un 9 %, mientras que con 1-2 estrellas se pierde al 86 % de los clientes potenciales. Las reseñas aportan prueba social instantánea, como cuando Ana encuentra 4,8 estrellas y testimonios detallados antes de visitar la web. Impactan en el SEO local y orgánico, porque Google prioriza negocios con reseñas positivas frecuentes y variadas. Convierten experiencias positivas en casos de éxito duraderos. Y aportan feedback para la mejora continua, comunicando valor mejor que cualquier copy publicitario.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c13-s2": {
+      "idea_clave": "Gestionar reseñas es facilitarlas, monitorizarlas, responderlas y aprovecharlas en cada plataforma, con métricas claras de seguimiento.",
+      "resumen": "La gestión de reseñas es el proceso estratégico de facilitar, monitorizar, responder y aprovechar las opiniones de usuarios, leads y clientes para construir reputación, optimizar la experiencia y generar medios ganados, que lo son porque los crean terceros. Cada plataforma cumple un papel. Google Business Profile es clave para el SEO local y el descubrimiento. Facebook, Instagram y TikTok Shop muestran el lado humano y comunitario. LinkedIn es especialmente valiosa para una audiencia profesional. Y las plataformas sectoriales aportan detalle sobre el producto o servicio. El libro define también el testimonio y las métricas que usa aulamarketing.digital: NPS (objetivo de 60 a 80), rating promedio (4,6 o más), review velocity (15-20 reseñas mensuales), response rate (100 %), sentiment score y review authenticity score. Todas las reseñas son valiosas, pero destacan las de Google, las que se curan para la web y las de marketplaces relevantes. Aunque los marketplaces gestionen bien el proceso, el libro recomienda pedir la reseña directamente cuando tengas la certeza de que el cliente está satisfecho y ayudarle a publicarla.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c13-s3": {
+      "idea_clave": "Crecen las reseñas en vídeo y sobre aspectos concretos, la verificación, los chatbots para pedirlas y la IA para responder y analizar sentimientos.",
+      "resumen": "Los consumidores están cambiando de formato: aunque las reseñas de Google siguen siendo relevantes, crecen las reseñas en vídeo en TikTok, Reels y Shorts, con gran influencia en la Generación Z, así que conviene animar a los clientes a grabar su experiencia. También aumentan las reseñas sobre aspectos puntuales; aunque señalen un punto de mejora, si respondes con amabilidad transmiten empatía y proactividad, algo muy valorado por un usuario que busca autenticidad. Se extienden las plataformas que verifican que el autor usó realmente el producto, lo que da credibilidad a ambas partes. Muchas marcas piden reseñas con chatbots en WhatsApp o Messenger tras la compra, y los asistentes de voz leen reseñas cuando alguien pregunta por una marca. Si tienes muchas reseñas que atender, puedes apoyarte en agentes de IA que generen respuestas personalizadas con tu tono de marca. Además, las herramientas de análisis de sentimiento ya distinguen emociones concretas, como entusiasmo, confianza o sorpresa, y es posible sincronizar automáticamente las reseñas entre plataformas.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c13-s4": {
+      "idea_clave": "Las reseñas bien gestionadas convierten, te diferencian, guían mejoras, alimentan tu contenido y tu SEO, fidelizan e incluso atraen talento.",
+      "resumen": "La gestión de reseñas genera valor en varias capas, más allá de la validación social. Conversión directa: actúan como vendedores las 24 horas; una reseña que explica cómo un curso ayudó a conseguir una promoción persuade más que cualquier anuncio porque incluye un resultado tangible y contexto profesional. Diferenciación competitiva: frente a reseñas genéricas como \"Muy buen curso\", las detalladas sobre metodología, profesorado y aplicabilidad te distinguen. Feedback accionable: los comentarios recurrentes, como la petición de más casos prácticos, permiten iterar la propuesta de valor. Contenido orgánico: los extractos de reseñas se reutilizan en redes, newsletters y landing pages. SEO y descubrimiento: las reseñas que mencionan términos específicos mejoran el posicionamiento en búsquedas long-tail como las de Ana. Retención y lealtad: quien deja una reseña se siente más conectado con la comunidad y es más probable que recomiende o vuelva a comprar. Y atracción de talento: profesores y colaboradores potenciales consultan las reseñas para conocer la cultura y los estándares de calidad.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    },
+    "c13-s5": {
+      "idea_clave": "Implanta en cuatro semanas un protocolo de reseñas auténtico: diseña el sistema, activa la solicitud, prepara las respuestas y convierte lo aprendido en mejoras.",
+      "resumen": "Para captar reseñas de calidad sin improvisar ni manipular, el libro propone un protocolo semanal con tres principios: la reseña es una salida del sistema de calidad; se pide con autenticidad, neutralidad y mínima fricción, según las políticas de plataformas como Google; y se integra en la arquitectura de confianza del customer journey. Semana 1: redacta una política interna de una página (solo clientes reales, sin incentivos condicionados, sin filtrar a nadie y sin sugerir puntuación ni contenido), identifica los momentos de cierre de valor, elige canales, prepara enlaces directos y define responsables. Semana 2: prueba con 10 a 20 clientes recientes y usa mensajes breves, neutros y respetuosos, sin pedir \"5 estrellas\". Semana 3: prepara respuestas para cinco tipos de reseña (positiva genérica, positiva específica, mixta, crítica recuperable y conflictiva), cada una con su objetivo, tono y plazo. Semana 4: clasifica las reseñas por temas, detecta patrones, prioriza de una a tres mejoras e integra las más útiles en la home, en las páginas de servicio y en las de conversión.",
+      "subsecciones": {
+        "c13-s5.1": {
+          "idea_clave": "Antes de pedir reseñas, define una política ética, los momentos idóneos, los canales, los enlaces y quién se encarga de cada tarea."
+        },
+        "c13-s5.2": {
+          "idea_clave": "Prueba con 10-20 clientes recientes y usa mensajes breves, neutros y respetuosos, sin presionar ni sugerir la puntuación."
+        },
+        "c13-s5.3": {
+          "idea_clave": "Responde según el tipo de reseña, de la positiva genérica a la conflictiva, con un objetivo, un tono y un plazo para cada una."
+        },
+        "c13-s5.4": {
+          "idea_clave": "Clasifica tus reseñas por temas, prioriza de una a tres mejoras y muestra en tu web las que mejor resuelven objeciones."
+        }
+      },
+      "minutos_lectura_integro": 8
+    },
+    "c13-s6": {
+      "idea_clave": "Combina herramientas de gestión de reseñas con prompts de IA para crear plantillas de respuesta, clasificar opiniones y analizarlas cada trimestre.",
+      "resumen": "Gestionar reseñas requiere un conjunto de herramientas que automaticen lo repetitivo sin perder personalización ni autenticidad: plataformas para solicitar y responder reseñas, y herramientas de IA para generar, categorizar y analizar respuestas. Muchas plataformas de gestión ya integran IA para crear automatizaciones personalizadas. El libro propone tres usos con prompts. Primero, plantillas de respuesta adaptadas a tu negocio, a tu producto y a reseñas inusuales, para complementar las plantillas básicas del protocolo. Segundo, la categorización: reúne tus reseñas de todas las plataformas, en capturas de pantalla (entre 10 y 20 no deberían dar problemas) o copiadas en un documento indicando su origen, y pide a un LLM en modo razonamiento que las clasifique; lo ideal son entre 50 y 100, aunque con 30 a 50 puedes empezar. Tercero, el análisis profundo con un modelo especializado en análisis y gráficas, a partir de esa clasificación. Lo valioso es repetir el proceso cada mes o trimestre y comparar resultados, porque lo que valoran los clientes cambia y el protocolo debe reflejarlo.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 5
+    },
+    "c13-s7": {
+      "idea_clave": "aulamarketing.digital pide reseñas tras la certificación con preguntas guiadas, las verifica, responde todas y convierte las mejores en contenido.",
+      "resumen": "No diseñar un proceso de reseñas puede costar más recursos de lo que parece. aulamarketing.digital envía, al final de cada curso, un email personalizado que solicita una reseña e incluye una plantilla opcional de preguntas guiadas sobre lo más valioso aprendido y su aplicación en el trabajo. Busca reseñas con contexto profesional previo y logros posteriores, que creen narrativas de transformación, y convierte las mejores en casos de estudio ampliados. Su objetivo es superar las veinte reseñas verificadas al mes. Una herramienta de solicitud automática garantiza que solo opinen estudiantes que completaron la formación, y la petición llega 3 días después de entregar la certificación. El libro describe un sistema en dos pasos: primero se recoge feedback interno y, solo si es positivo, se invita a dejar una reseña pública. Después, un LLM analiza el sentimiento (por ejemplo, \"entusiasmo por aplicabilidad\") y otro genera respuestas con el tono de marca, para lograr una tasa de respuesta del 100 %. Las reseñas con palabras clave long-tail se integran en el contenido (review-to-content) para reforzar el SEO.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    }
+  }
+}

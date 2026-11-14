@@ -1,0 +1,40 @@
+{
+  "id": "c06",
+  "promesa": "Pondrás en marcha tu sitio web como centro de tu ecosistema digital, preparado para captar leads y convertir.",
+  "al_terminar_tendras": [
+    "Tu dominio y tu hosting elegidos con criterio",
+    "Tu CMS decidido (WordPress en la mayoría de los casos) y las funcionalidades clave de tu web",
+    "La estructura de páginas de tu sitio, cada una con su objetivo y su palabra clave",
+    "Los primeros textos de tus páginas generados con IA",
+    "Imágenes para tu web creadas a partir de tu identidad visual y de IA generativa"
+  ],
+  "historia_ana": "Tras diseñar su customer journey map, Ana tiene un nuevo reto: diferenciarse como una marca única. Busca una plataforma de formación fiable, con profesionales expertos y contenido práctico, y, como parte de la generación Z, una marca con la que conectar a largo plazo.",
+  "resumen_capitulo": "Empiezas la parte operativa del plan por tu medio propio: el sitio web, el e-commerce o la app. Es el centro de tu ecosistema digital, el lugar donde diseñas toda la experiencia de usuario, pones en marcha tus objetivos y mides resultados en tiempo real, sin depender de algoritmos ajenos. En este capítulo entiendes por qué la web es estratégica, también como fuente de información para los LLM. Después ves los elementos clave para crearla: dominio y hosting, el CMS (con WordPress como opción recomendada para la mayoría de proyectos que empiezan) y las funcionalidades esenciales, desde la adaptación móvil y la UX hasta el RGPD, la seguridad, la captación de leads, el SEO, el chat y el e-commerce. Por último, usas la IA para crear la web: asistentes integrados en hosting o CMS, plataformas que generan sitios con lenguaje natural, LLM para redactar los textos de cada página y generadores de imágenes alineados con tu identidad visual. El capítulo termina con un reto: elige una sola cosa y aplícala esta semana.",
+  "secciones": {
+    "c06-s1": {
+      "idea_clave": "Tu web es tu medio propio: el centro de tu estrategia digital, donde controlas la experiencia, los datos y la conversión.",
+      "resumen": "El sitio web ya no es una simple tarjeta de presentación: es un espacio dinámico donde los usuarios se informan, exploran productos, descargan contenido o compran. Además, su estructura y su contenido sirven de fuente a los LLM que responden preguntas sobre tu marca. Su valor se apoya en varios pilares. Primero, su alcance: es el eje de todas tus estrategias digitales, aloja tu contenido de valor (blog, webinars, podcasts) y convierte visitantes en leads y clientes. Segundo, el enfoque centrado en el cliente: debe simplificar la interacción y anticiparse a lo que necesita alguien como Ana. Tercero, el control del medio y la medición en tiempo real: a diferencia de las redes, es tuyo, así que controlas el contenido, la experiencia y los datos. Construir una audiencia propia, por ejemplo captando emails para tu newsletter, reduce costes publicitarios, mejora la personalización y evita depender de terceros. En aulamarketing.digital, el objetivo de la web es captar leads interesados en mantenerse al día, conectada a un dashboard para evaluar resultados.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c06-s2": {
+      "idea_clave": "Para lanzar tu web necesitas dominio, hosting, un CMS y las funcionalidades adecuadas, y puedes acelerar todo el proceso con IA.",
+      "resumen": "Crear un sitio web requiere cuatro bloques. Dominio y hosting: el dominio es tu dirección (breve, sin números ni guiones y con una extensión adecuada) y el hosting es el local donde se aloja tu web. El dominio no es tuyo, y el hosting tampoco salvo en grandes empresas: pagas su uso por periodos y debes renovarlos. Elige el hosting por disponibilidad, soporte, SSL, escalabilidad y copias de seguridad. El CMS te permite gestionar la web sin programar, con un backend para el gestor y un frontend para el usuario; para el 90 % de los proyectos que empiezan, el libro recomienda WordPress. Las funcionalidades deben responder a lo que quieres que logre el usuario: adaptación móvil, buena UX y UI, cumplimiento del RGPD, seguridad, captación de leads, SEO técnico y velocidad, chat y, si vendes, e-commerce con pasarelas de pago. Por último, la IA te ayuda con asistentes integrados en hosting o CMS, plataformas que crean webs con lenguaje natural, textos por página según su objetivo y palabra clave, e imágenes generadas a partir de tu identidad visual.",
+      "subsecciones": {
+        "c06-s2.1": {
+          "idea_clave": "El dominio es la dirección de tu web y el hosting su local; ninguno es tuyo para siempre: renuévalos y elígelos con criterio."
+        },
+        "c06-s2.2": {
+          "idea_clave": "Un CMS te permite gestionar tu web sin programar; para el 90 % de los proyectos que empiezan, WordPress es la opción más inteligente."
+        },
+        "c06-s2.3": {
+          "idea_clave": "Decide qué debe lograr el usuario en tu web y conéctalo con funcionalidades: móvil, UX, RGPD, seguridad, leads, SEO, chat y e-commerce."
+        },
+        "c06-s2.4": {
+          "idea_clave": "Usa la IA para diseñar tu web, redactar cada página según su objetivo y palabra clave, y generar imágenes coherentes con tu marca."
+        }
+      },
+      "minutos_lectura_integro": 28
+    }
+  }
+}

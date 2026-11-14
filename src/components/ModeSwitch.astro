@@ -1,0 +1,9 @@
+---
+import Icon from './Icon.astro';
+// Selector de modo. El nombre accesible (aria-label) es siempre el completo; el texto visible se acorta
+// en pantallas estrechas (c-mode__largo / c-mode__corto) para que quepa a 360–390 px.
+---
+<div class="c-mode" role="group" aria-label="Modo de contenido" data-js="modo">
+  <button type="button" data-modo="ejemplo" aria-pressed="true" aria-label="Ejemplo del libro" title="Ejemplo del libro"><Icon nombre="libro" /><span aria-hidden="true">Ejemplo<span class="c-mode__largo"> del libro</span></span></button>
+  <button type="button" data-modo="proyecto" aria-pressed="false" aria-label="Mi proyecto" title="Mi proyecto"><Icon nombre="maletin" /><span aria-hidden="true"><span class="c-mode__largo">Mi proyecto</span><span class="c-mode__corto">Proyecto</span></span></button>
+</div>

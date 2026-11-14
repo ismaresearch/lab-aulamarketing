@@ -1,0 +1,147 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import TextoLibro from '../../../components/TextoLibro.astro';
+import TextoMarcado from '../../../components/TextoMarcado.astro';
+import VideoSlot from '../../../components/VideoSlot.astro';
+import PromptCard from '../../../components/PromptCard.astro';
+import BookExample from '../../../components/BookExample.astro';
+import ToolCard from '../../../components/ToolCard.astro';
+import SaveDeliverable from '../../../components/SaveDeliverable.astro';
+import Pendiente from '../../../components/Pendiente.astro';
+import Icon from '../../../components/Icon.astro';
+import { getPlanes, variablesDe, type Plan, type Paso } from '../../../lib/datos';
+import { pad2 } from '../../../lib/texto';
+import { abs, LIBRO, recortar } from '../../../lib/seo';
+export function getStaticPaths() {
+  return getPlanes().flatMap((plan) => plan.pasos.map((paso, i) => ({
+    params: { slug: plan.slug, paso: paso.slug },
+    props: { plan, paso, anterior: plan.pasos[i - 1] ?? null, siguiente: plan.pasos[i + 1] ?? null },
+  })));
+}
+const { plan, paso, anterior, siguiente } = Astro.props as { plan: Plan; paso: Paso; anterior: Paso | null; siguiente: Paso | null };
+const usados = new Set<string>();
+const desc = paso.idea_clave ?? recortar(paso.texto[0]?.texto);
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'LearningResource', name: `${paso.titulo} · ${plan.titulo}`, description: desc, url: abs(paso.url),
+  inLanguage: 'es-ES', isAccessibleForFree: true, learningResourceType: 'Lección', position: paso.n,
+  isPartOf: { '@type': 'Course', '@id': abs(plan.url) + '#curso', name: plan.titulo, url: abs(plan.url) }, isBasedOn: LIBRO,
+  ...(paso.minutos ? { timeRequired: `PT${paso.minutos}M` } : {}),
+  ...(paso.definiciones.length ? { teaches: paso.definiciones.map((d) => d.termino) } : {}),
+}];
+const esquema = { titulo: plan.titulo, url: plan.url, plan: plan.slug, pasos: plan.pasos.map((p) => ({ n: p.n, titulo: p.titulo, url: p.url, slug: p.slug })) };
+const cadenasDelPaso = plan.cadenas.filter((c) => c.nodos.some((n) => paso.prompts.some((p) => p.id === n.prompt)));
+// variables de proyecto que usan los prompts de este paso (columna «Tu proyecto»)
+const varsProyecto = [...new Map(paso.prompts.flatMap((p) => variablesDe(p)).filter((v) => v.ambito === 'proyecto').map((v) => [v.id, v])).values()];
+const ejemploEnMain = paso.es_ejemplo;
+---
+<Layout titulo={`${paso.titulo} · ${plan.titulo}`} ancho descripcion={desc} jsonLd={ld} esquema={esquema} tipoOg="article"
+  migas={[{ nombre: 'Planes', url: '/planes/' }, { nombre: plan.titulo, url: plan.url }, { nombre: `Paso ${paso.n} de ${plan.pasos.length}` }]}>
+  <div class="l-dos">
+    <div class="l-dos__main">
+      <header class="c-paso-cab">
+        <div class="c-paso-cab__fila">
+          <nav class="c-breadcrumbs" aria-label="Migas de pan"><ol><li><a href="/planes/">Planes</a></li><li><a href={plan.url}>{plan.titulo}</a> <span class="c-breadcrumbs__cap">(cap. {pad2(plan.capitulo)})</span></li><li aria-current="page" class="c-breadcrumbs__actual">Paso {paso.n} de {plan.pasos.length}</li></ol></nav>
+          <span class="c-estado" data-estado="sin" data-js="estado-plan" data-plan={plan.slug} data-total={plan.pasos.length}>Sin empezar</span>
+          <span class="c-modo-chip c-chip c-chip--book" data-solo-modo="ejemplo"><Icon nombre="libro" /> Ejemplo del libro</span>
+          <span class="c-modo-chip c-chip c-chip--proyecto" data-solo-modo="proyecto"><Icon nombre="maletin" /> Mi proyecto</span>
+        </div>
+        <p class="c-overline c-overline--primario">{pad2(paso.n)} // {plan.titulo_capitulo}</p>
+        <h1>{paso.titulo}</h1>
+        <p class="c-meta">Libro · cap. {plan.capitulo}, apartado {paso.numero_libro}{paso.pagina_libro && ` · pág. ${paso.pagina_libro}`}{paso.minutos && ` · ${paso.minutos} min de lectura del texto íntegro`}</p>
+      </header>
+
+      <article class="c-card c-lectura" aria-labelledby="resumen-t">
+        <div class="c-lectura__idea">
+          <span class="c-lectura__ico" aria-hidden="true"><Icon nombre="nodo" /></span>
+          <div>
+            <h2 id="idea-t" class="sr-only">Idea clave</h2>
+            {paso.idea_clave ? <p class="c-idea"><TextoMarcado texto={paso.idea_clave} terminos={paso.terminos} usados={usados} /></p> : <p><Pendiente que="idea clave (capas/resumenes)" /></p>}
+          </div>
+        </div>
+        <div class="c-lectura__cuerpo">
+          <h2 id="resumen-t" class="c-overline">¿Qué dice el libro?</h2>
+          {paso.resumen ? <p class="c-texto-sec"><TextoMarcado texto={paso.resumen} terminos={paso.terminos} usados={usados} /></p> : <p><Pendiente que="resumen del paso (capas/resumenes)" /></p>}
+          <details class="c-details c-details--hundido">
+            <summary><Icon nombre="libro" />Leer el texto completo del libro{paso.pagina_libro && ` · cap. ${plan.capitulo}, pág. ${paso.pagina_libro}`}</summary>
+            <div class="c-details__body">
+              {paso.texto.map((t) => (
+                <>
+                  {t.titulo && <h3>{t.numero}. {t.titulo}</h3>}
+                  {t.resumen && <p class="c-resumen-apartado"><strong>Resumen:</strong> {t.resumen}</p>}
+                  <TextoLibro texto={t.texto} terminos={paso.terminos} usados={usados} />
+                </>
+              ))}
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <VideoSlot videos={paso.videos} titulo={`Capítulo ${pad2(plan.capitulo)}`} />
+
+      {paso.prompts.length > 0 && (
+        <section aria-labelledby="prompts-t" class="c-seccion">
+          <div class="c-seccion__cab"><h2 id="prompts-t" class="c-titulo-2">Prompts de este paso</h2><p class="c-seccion__extra">{paso.prompts.length} {paso.prompts.length === 1 ? 'prompt' : 'prompts'}</p></div>
+          {cadenasDelPaso.map((c) => <p class="c-nota-cadena"><Icon nombre="cadena" /><span>Estos prompts forman una cadena: <a href={c.url}>{c.titulo}</a> ({c.nodos.length} pasos; la respuesta de cada uno alimenta al siguiente).</span></p>)}
+          {paso.prompts.map((p) => <PromptCard prompt={p} />)}
+        </section>
+      )}
+
+      {ejemploEnMain && <BookExample entregables={paso.entregables} salidas={paso.salidas_libro} figuras={paso.figuras} abierto capitulo={plan.capitulo} />}
+
+      {paso.definiciones.length > 0 && (
+        <section aria-labelledby="def-t" class="c-seccion">
+          <h2 id="def-t" class="c-titulo-2">Definiciones clave</h2>
+          <div class="c-defs">
+            {paso.definiciones.map((d) => (
+              <details class="c-details">
+                <summary>{d.termino}</summary>
+                <div class="c-details__body"><p>{d.definicion}</p><p class="c-meta">Libro{d.pagina_libro && `, pág. ${d.pagina_libro}`}{d.slug && <> · <a href={`/glosario/${d.slug}/`}>Ver en el glosario</a></>}</p></div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <SaveDeliverable plan={plan.slug} planTitulo={plan.titulo} paso={paso.slug} titulo={paso.titulo} prompts={paso.prompts.map((p) => p.id)} n={paso.n} />
+      <div class="c-acciones"><button type="button" class="c-btn c-btn--blanco c-btn--peq" data-js="marcar-paso" data-plan={plan.slug} data-paso={paso.slug} aria-pressed="false">Marcar paso como completado</button></div>
+    </div>
+
+    <aside class="l-dos__aside" aria-label="Recursos del paso">
+      {varsProyecto.length > 0 && (
+        <section class="c-card c-vars-proyecto" aria-labelledby="vp-t">
+          <div class="c-vars-proyecto__cab">
+            <h2 id="vp-t" class="c-headline"><span class="c-dot c-dot--book" aria-hidden="true"></span><span data-solo-modo="proyecto">Tu proyecto: <span data-js="proyecto-nombre">Mi proyecto</span></span><span data-solo-modo="ejemplo">Ejemplo: aulamarketing.digital</span></h2>
+          </div>
+          <p class="c-meta">Datos que usan los prompts de este paso.</p>
+          <dl class="c-vars-proyecto__lista">
+            {varsProyecto.map((v) => (
+              <div><dt class="c-overline">{v.etiqueta}</dt><dd data-js="valor-var" data-var={v.id} data-ejemplo={v.ejemplo_libro ?? ''}>—</dd></div>
+            ))}
+          </dl>
+          <a class="c-enlace-flecha" href="/mi-proyecto/">Editar los datos en Mi proyecto <Icon nombre="flecha" /></a>
+        </section>
+      )}
+      {!ejemploEnMain && <BookExample entregables={paso.entregables} salidas={paso.salidas_libro} figuras={paso.figuras} capitulo={plan.capitulo} />}
+      {paso.herramientas.length > 0 && (
+        <section class="c-card" aria-labelledby="herr-t">
+          <div class="c-seccion__cab"><h2 id="herr-t" class="c-headline"><Icon nombre="herramientas" />Herramientas de este paso</h2><span class="c-overline">{paso.herramientas.length}</span></div>
+          <div class="c-lista-tools">{paso.herramientas.slice(0, 6).map((h) => <ToolCard nombre={h.nombre} slug={h.slug} tipo={h.tipo} descripcion={h.descripcion} compacta />)}</div>
+          {paso.herramientas.length > 6 && (
+            <details class="c-details c-details--plano c-mas-tools"><summary>Ver las {paso.herramientas.length - 6} restantes</summary>
+              <div class="c-details__body c-lista-tools">{paso.herramientas.slice(6).map((h) => <ToolCard nombre={h.nombre} slug={h.slug} tipo={h.tipo} descripcion={h.descripcion} compacta />)}</div></details>
+          )}
+        </section>
+      )}
+      <section class="c-card" aria-labelledby="dl-t">
+        <h2 id="dl-t" class="c-headline"><Icon nombre="descargar" />Descargas del plan</h2>
+        <div class="c-archivo"><Icon nombre="documento" /><div><p class="c-archivo__n">{plan.titulo} en Word (.docx)</p><p class="c-meta" data-js="entregables-plan" data-plan={plan.slug}>Aún no has guardado entregables</p></div></div>
+        <a class="c-btn c-btn--sec c-btn--peq c-btn--bloque" href="/mis-planes/"><Icon nombre="descargar" />Exportar desde Mis planes</a>
+      </section>
+    </aside>
+  </div>
+
+  <nav class="c-paso-nav" aria-label="Paso anterior y siguiente">
+    {anterior ? <a class="c-paso-nav__a" href={anterior.url} rel="prev"><Icon nombre="atras" /><span><span class="c-paso-nav__lbl">Paso anterior</span><span class="c-paso-nav__t">{anterior.titulo}</span></span></a> : <a class="c-paso-nav__a" href={plan.url}><Icon nombre="atras" /><span><span class="c-paso-nav__lbl">Volver a</span><span class="c-paso-nav__t">Portada del plan</span></span></a>}
+    {siguiente ? <a class="c-paso-nav__a c-paso-nav__a--sig" href={siguiente.url} rel="next"><span><span class="c-paso-nav__lbl">Paso {siguiente.n}</span><span class="c-paso-nav__t">{siguiente.titulo}</span></span><Icon nombre="flecha" /></a> : <a class="c-paso-nav__a c-paso-nav__a--sig" href="/mis-planes/"><span><span class="c-paso-nav__lbl">Has llegado al final</span><span class="c-paso-nav__t">Ver Mis planes</span></span><Icon nombre="flecha" /></a>}
+  </nav>
+</Layout>

@@ -1,0 +1,5305 @@
+{
+ "meta": {
+  "proceso": "P3b",
+  "fecha": "2026-11-13",
+  "reglas": {
+   "coincidencia": "palabra completa: el patrón no puede ir precedido ni seguido de letra o dígito (incluidas letras acentuadas y ñ)",
+   "mayusculas": "mayusculas=true → coincidencia exacta de mayúsculas (siglas); false → insensible a mayúsculas, pero sensible a tildes",
+   "prioridad": "probar primero los patrones más largos (p. ej. \"lead magnet\" antes que \"lead\"; \"SEO OnPage\" antes que \"SEO\"); un fragmento ya marcado no se vuelve a marcar",
+   "frecuencia": "subrayar solo la primera aparición de cada slug por sección (o por pantalla) para no saturar",
+   "ambito": "no marcar dentro de títulos, enlaces, bloques de prompt copiables ni código",
+   "visibilidad": "omitir slugs de tipo plataforma cuya herramienta tenga mostrar:false en capas/herramientas/visibilidad.json",
+   "apariciones_libro": "recuento orientativo en secciones, apertura y prompts de extraccion/ (para calibrar)"
+  },
+  "num_slugs_detectables": 318,
+  "num_excluidos": 74
+ },
+ "terminos": [
+  {
+   "slug": "dafo",
+   "patrones": [
+    {
+     "forma": "Análisis DAFO",
+     "mayusculas": false,
+     "apariciones_libro": 12
+    },
+    {
+     "forma": "DAFO",
+     "mayusculas": true,
+     "apariciones_libro": 12
+    },
+    {
+     "forma": "matriz DAFO",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 24
+  },
+  {
+   "slug": "ciclo-de-vida-producto",
+   "patrones": [
+    {
+     "forma": "ciclo de vida del producto",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "ciclo de vida del servicio",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "ciclo de vida de un producto",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Ciclo de Vida",
+     "mayusculas": false,
+     "apariciones_libro": 12
+    }
+   ],
+   "apariciones_libro": 17
+  },
+  {
+   "slug": "buyer-persona",
+   "patrones": [
+    {
+     "forma": "Buyer persona",
+     "mayusculas": false,
+     "apariciones_libro": 85
+    },
+    {
+     "forma": "buyer personas",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 87
+  },
+  {
+   "slug": "objetivos-smart",
+   "patrones": [
+    {
+     "forma": "Objetivos SMART",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "SMART",
+     "mayusculas": true,
+     "apariciones_libro": 10
+    },
+    {
+     "forma": "metodología SMART",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 15
+  },
+  {
+   "slug": "marketing-mix",
+   "patrones": [
+    {
+     "forma": "marketing mix",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "4 P’s",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "4 P's",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "freemium",
+   "patrones": [
+    {
+     "forma": "freemium",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "design-thinking",
+   "patrones": [
+    {
+     "forma": "Design thinking",
+     "mayusculas": false,
+     "apariciones_libro": 40
+    }
+   ],
+   "apariciones_libro": 40
+  },
+  {
+   "slug": "design-sprint",
+   "patrones": [
+    {
+     "forma": "Design sprint",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "design sprints",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "sustainable-design-thinking",
+   "patrones": [
+    {
+     "forma": "Sustainable design thinking",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "empatia-como-core",
+   "patrones": [
+    {
+     "forma": "Empatía como core",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "experimentacion-iterativa",
+   "patrones": [
+    {
+     "forma": "Experimentación iterativa",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "colaboracion-multidisciplinar",
+   "patrones": [
+    {
+     "forma": "Colaboración multidisciplinar",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "orientacion-a-la-accion",
+   "patrones": [
+    {
+     "forma": "Orientación a la acción",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "optimismo-constructivo",
+   "patrones": [
+    {
+     "forma": "Optimismo constructivo",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "dt-vs-lean-startup",
+   "patrones": [
+    {
+     "forma": "Lean Startup",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "dt-vs-agile",
+   "patrones": [
+    {
+     "forma": "metodologías ágiles",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "metodología ágil",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "scrum",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "business-model-canvas",
+   "patrones": [
+    {
+     "forma": "Business Model Canvas",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "entrevistas-en-profundidad",
+   "patrones": [
+    {
+     "forma": "Entrevistas en profundidad",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "entrevista en profundidad",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "observacion-etnografica",
+   "patrones": [
+    {
+     "forma": "Observación etnográfica",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "shadowing",
+   "patrones": [
+    {
+     "forma": "Shadowing",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "diarios-de-usuario",
+   "patrones": [
+    {
+     "forma": "Diarios de usuario",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "mapa-de-empatia",
+   "patrones": [
+    {
+     "forma": "Mapa de empatía",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "mapas de empatía",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "customer-journey-map",
+   "patrones": [
+    {
+     "forma": "Customer Journey Map",
+     "mayusculas": false,
+     "apariciones_libro": 28
+    },
+    {
+     "forma": "CJM",
+     "mayusculas": true,
+     "apariciones_libro": 19
+    },
+    {
+     "forma": "Customer Journey Maps",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "journey map",
+     "mayusculas": false,
+     "apariciones_libro": 28
+    },
+    {
+     "forma": "journey maps",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "customer journey",
+     "mayusculas": false,
+     "apariciones_libro": 64
+    }
+   ],
+   "apariciones_libro": 142
+  },
+  {
+   "slug": "brainstorming",
+   "patrones": [
+    {
+     "forma": "brainstorming",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "lluvia de ideas",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "brainstorming-individual",
+   "patrones": [
+    {
+     "forma": "brainstorming individual",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "scamper",
+   "patrones": [
+    {
+     "forma": "SCAMPER",
+     "mayusculas": true,
+     "apariciones_libro": 7
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "analogias-transferencia",
+   "patrones": [
+    {
+     "forma": "Analogías y transferencia",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "worst-possible-idea",
+   "patrones": [
+    {
+     "forma": "Worst Possible Idea",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "prototipos-exploracion",
+   "patrones": [
+    {
+     "forma": "Prototipos de exploración",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "prototipos-validacion",
+   "patrones": [
+    {
+     "forma": "Prototipos de validación",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "prototipos-refinamiento",
+   "patrones": [
+    {
+     "forma": "Prototipos de refinamiento",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "test-tareas-contextualizadas",
+   "patrones": [
+    {
+     "forma": "Tareas contextualizadas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "observacion-activa",
+   "patrones": [
+    {
+     "forma": "Observación activa",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "how-might-we",
+   "patrones": [
+    {
+     "forma": "How Might We",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "HMW",
+     "mayusculas": true,
+     "apariciones_libro": 9
+    }
+   ],
+   "apariciones_libro": 12
+  },
+  {
+   "slug": "fidelidad-minima-viable",
+   "patrones": [
+    {
+     "forma": "fidelidad mínima viable",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "fases-viaje-usuario",
+   "patrones": [
+    {
+     "forma": "fases del viaje del usuario",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "fases del viaje",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "puntos-de-contacto",
+   "patrones": [
+    {
+     "forma": "Puntos de contacto",
+     "mayusculas": false,
+     "apariciones_libro": 14
+    },
+    {
+     "forma": "touchpoints",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "touchpoint",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "punto de contacto",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 20
+  },
+  {
+   "slug": "puntos-de-dolor",
+   "patrones": [
+    {
+     "forma": "Puntos de dolor",
+     "mayusculas": false,
+     "apariciones_libro": 18
+    },
+    {
+     "forma": "punto de dolor",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    },
+    {
+     "forma": "pain points",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "pain point",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 26
+  },
+  {
+   "slug": "fase-conciencia",
+   "patrones": [
+    {
+     "forma": "fase de conciencia",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "fase-consideracion",
+   "patrones": [
+    {
+     "forma": "fase de consideración",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "fase-compra",
+   "patrones": [
+    {
+     "forma": "fase de compra",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "fase-fidelizacion",
+   "patrones": [
+    {
+     "forma": "fase de fidelización",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "fase-recomendacion",
+   "patrones": [
+    {
+     "forma": "fase de recomendación",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "multimodalidad",
+   "patrones": [
+    {
+     "forma": "Multimodalidad",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "multimodal",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "multimodales",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 12
+  },
+  {
+   "slug": "vibe-coding",
+   "patrones": [
+    {
+     "forma": "Vibe-coding",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "vibe coding",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "estrategia-multimodelo",
+   "patrones": [
+    {
+     "forma": "Estrategias multimodelo",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "multi-modelo",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "multimodelo",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "ia-agentica",
+   "patrones": [
+    {
+     "forma": "IA agéntica",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "ai-act",
+   "patrones": [
+    {
+     "forma": "AI Act",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "prompt",
+   "patrones": [
+    {
+     "forma": "Prompt",
+     "mayusculas": false,
+     "apariciones_libro": 126
+    },
+    {
+     "forma": "prompts",
+     "mayusculas": false,
+     "apariciones_libro": 23
+    }
+   ],
+   "apariciones_libro": 149
+  },
+  {
+   "slug": "token",
+   "patrones": [
+    {
+     "forma": "token",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "tokens",
+     "mayusculas": false,
+     "apariciones_libro": 9
+    }
+   ],
+   "apariciones_libro": 11
+  },
+  {
+   "slug": "limites-de-contexto",
+   "patrones": [
+    {
+     "forma": "Límites de contexto",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "límite de contexto",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "modelo-rapido",
+   "patrones": [
+    {
+     "forma": "Modelo rápido",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "modelos rápidos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "modelo-razonamiento",
+   "patrones": [
+    {
+     "forma": "modelo de razonamiento",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "modelos de razonamiento",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "claude-modelos",
+   "patrones": [
+    {
+     "forma": "Haiku",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "Sonnet",
+     "mayusculas": false,
+     "apariciones_libro": 27
+    },
+    {
+     "forma": "Opus",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 33
+  },
+  {
+   "slug": "perplexity",
+   "patrones": [
+    {
+     "forma": "Perplexity",
+     "mayusculas": false,
+     "apariciones_libro": 10
+    }
+   ],
+   "apariciones_libro": 10
+  },
+  {
+   "slug": "atlas",
+   "patrones": [
+    {
+     "forma": "ChatGPT Atlas",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 0
+  },
+  {
+   "slug": "comet",
+   "patrones": [
+    {
+     "forma": "Comet",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "gpt-asistentes",
+   "patrones": [
+    {
+     "forma": "GPTs",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "mcp",
+   "patrones": [
+    {
+     "forma": "MCP",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Model Context Protocol",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "proyectos-contextuales",
+   "patrones": [
+    {
+     "forma": "carpetas contextuales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "carpeta contextual",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "branding",
+   "patrones": [
+    {
+     "forma": "Branding",
+     "mayusculas": false,
+     "apariciones_libro": 31
+    }
+   ],
+   "apariciones_libro": 31
+  },
+  {
+   "slug": "adn-de-marca",
+   "patrones": [
+    {
+     "forma": "ADN de marca",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "Brand Identity",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "identidad-conceptual",
+   "patrones": [
+    {
+     "forma": "Identidad conceptual",
+     "mayusculas": false,
+     "apariciones_libro": 7
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "beneficios-racionales",
+   "patrones": [
+    {
+     "forma": "Beneficios racionales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "beneficios-emocionales",
+   "patrones": [
+    {
+     "forma": "Beneficios emocionales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "historia-de-marca",
+   "patrones": [
+    {
+     "forma": "historia de marca",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "historia de la marca",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "storytelling",
+   "patrones": [
+    {
+     "forma": "Storytelling",
+     "mayusculas": false,
+     "apariciones_libro": 19
+    }
+   ],
+   "apariciones_libro": 19
+  },
+  {
+   "slug": "valores-de-marca",
+   "patrones": [
+    {
+     "forma": "valores de marca",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "valores de la marca",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 8
+  },
+  {
+   "slug": "identidad-verbal",
+   "patrones": [
+    {
+     "forma": "Identidad verbal",
+     "mayusculas": false,
+     "apariciones_libro": 7
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "naming",
+   "patrones": [
+    {
+     "forma": "Naming",
+     "mayusculas": false,
+     "apariciones_libro": 11
+    }
+   ],
+   "apariciones_libro": 11
+  },
+  {
+   "slug": "eslogan",
+   "patrones": [
+    {
+     "forma": "Eslogan",
+     "mayusculas": false,
+     "apariciones_libro": 29
+    },
+    {
+     "forma": "eslóganes",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "slogan",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 29
+  },
+  {
+   "slug": "eslogan-efectivo",
+   "patrones": [
+    {
+     "forma": "eslogan efectivo",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "tono-de-marca",
+   "patrones": [
+    {
+     "forma": "tono de marca",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "brand tone",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "tono de voz",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 12
+  },
+  {
+   "slug": "voz-de-marca",
+   "patrones": [
+    {
+     "forma": "voz de marca",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "brand voice",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "estilo-de-marca",
+   "patrones": [
+    {
+     "forma": "estilo de marca",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "brand style",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "identidad-visual",
+   "patrones": [
+    {
+     "forma": "Identidad visual",
+     "mayusculas": false,
+     "apariciones_libro": 30
+    }
+   ],
+   "apariciones_libro": 30
+  },
+  {
+   "slug": "logotipo",
+   "patrones": [
+    {
+     "forma": "Logotipo",
+     "mayusculas": false,
+     "apariciones_libro": 28
+    },
+    {
+     "forma": "logotipos",
+     "mayusculas": false,
+     "apariciones_libro": 9
+    }
+   ],
+   "apariciones_libro": 37
+  },
+  {
+   "slug": "tipografia",
+   "patrones": [
+    {
+     "forma": "Tipografía",
+     "mayusculas": false,
+     "apariciones_libro": 34
+    },
+    {
+     "forma": "tipografías",
+     "mayusculas": false,
+     "apariciones_libro": 10
+    }
+   ],
+   "apariciones_libro": 44
+  },
+  {
+   "slug": "tipografia-serif",
+   "patrones": [
+    {
+     "forma": "tipografía serif",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "tipografías serif",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "serifas",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "SERIF",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 6
+  },
+  {
+   "slug": "tipografia-sans",
+   "patrones": [
+    {
+     "forma": "tipografía sans",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "tipografías sans",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "sans serif",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "sans-serif",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "tipografia-script",
+   "patrones": [
+    {
+     "forma": "tipografía script",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "tipografías script",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "tipografia-display",
+   "patrones": [
+    {
+     "forma": "tipografía display",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "tipografías display",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "kerning-tracking",
+   "patrones": [
+    {
+     "forma": "kerning",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "KERNING",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "isotipo",
+   "patrones": [
+    {
+     "forma": "Isotipo",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    },
+    {
+     "forma": "isotipos",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 12
+  },
+  {
+   "slug": "monograma",
+   "patrones": [
+    {
+     "forma": "monograma",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "monogramas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "mascotas",
+   "patrones": [
+    {
+     "forma": "mascotas o personajes",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "imagotipo",
+   "patrones": [
+    {
+     "forma": "imagotipo",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "imagotipos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "logo-símbolo",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 9
+  },
+  {
+   "slug": "isologo",
+   "patrones": [
+    {
+     "forma": "Isologo",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "isologos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "psicologia-del-color",
+   "patrones": [
+    {
+     "forma": "Psicología del color",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "colores-principales",
+   "patrones": [
+    {
+     "forma": "colores principales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "colores-secundarios",
+   "patrones": [
+    {
+     "forma": "colores secundarios",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "combinacion-monocromatica",
+   "patrones": [
+    {
+     "forma": "combinación monocromática",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "combinacion-complementaria",
+   "patrones": [
+    {
+     "forma": "combinación complementaria",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "colores complementarios",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "combinacion-triada",
+   "patrones": [
+    {
+     "forma": "combinación tríada",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "combinacion-tetrada",
+   "patrones": [
+    {
+     "forma": "combinación tétrada",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "combinacion-analogos",
+   "patrones": [
+    {
+     "forma": "colores análogos",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "elementos-graficos",
+   "patrones": [
+    {
+     "forma": "elementos gráficos",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "iconos-pictogramas",
+   "patrones": [
+    {
+     "forma": "pictogramas",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "pictograma",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "gestion-comunicacional",
+   "patrones": [
+    {
+     "forma": "Gestión comunicacional",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "comunicacion-360",
+   "patrones": [
+    {
+     "forma": "comunicación 360º",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "comunicación 360",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "customer-centric",
+   "patrones": [
+    {
+     "forma": "customer-centric",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "customer centric",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "dominio",
+   "patrones": [
+    {
+     "forma": "nombre de dominio",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "nombres de dominio",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "sld",
+   "patrones": [
+    {
+     "forma": "SLD",
+     "mayusculas": true,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "Second Level Domain",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "tld",
+   "patrones": [
+    {
+     "forma": "TLD",
+     "mayusculas": true,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "Top Level Domain",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 6
+  },
+  {
+   "slug": "dominio-periodo-gracia",
+   "patrones": [
+    {
+     "forma": "periodo de gracia",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "hosting",
+   "patrones": [
+    {
+     "forma": "Hosting",
+     "mayusculas": false,
+     "apariciones_libro": 20
+    },
+    {
+     "forma": "alojamiento web",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 20
+  },
+  {
+   "slug": "hosting-compartido",
+   "patrones": [
+    {
+     "forma": "Hosting compartido",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "hosting-dedicado",
+   "patrones": [
+    {
+     "forma": "Hosting dedicado",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "servidor dedicado",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "vps",
+   "patrones": [
+    {
+     "forma": "VPS",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Virtual Private Server",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "cms",
+   "patrones": [
+    {
+     "forma": "CMS",
+     "mayusculas": true,
+     "apariciones_libro": 17
+    },
+    {
+     "forma": "Content Management System",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "sistema de gestión de contenidos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 19
+  },
+  {
+   "slug": "frontend-backend",
+   "patrones": [
+    {
+     "forma": "Frontend y backend",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "frontend",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "backend",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "front-end",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "back-end",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 10
+  },
+  {
+   "slug": "elementor",
+   "patrones": [
+    {
+     "forma": "Elementor",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "mobile-first",
+   "patrones": [
+    {
+     "forma": "Mobile-First",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "mobile first",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "adaptabilidad móvil",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 6
+  },
+  {
+   "slug": "ux-ui",
+   "patrones": [
+    {
+     "forma": "UX",
+     "mayusculas": true,
+     "apariciones_libro": 19
+    },
+    {
+     "forma": "UI",
+     "mayusculas": true,
+     "apariciones_libro": 10
+    },
+    {
+     "forma": "experiencia de usuario",
+     "mayusculas": false,
+     "apariciones_libro": 13
+    },
+    {
+     "forma": "interfaz de usuario",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 44
+  },
+  {
+   "slug": "seo",
+   "patrones": [
+    {
+     "forma": "SEO",
+     "mayusculas": true,
+     "apariciones_libro": 107
+    },
+    {
+     "forma": "Search Engine Optimization",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "posicionamiento orgánico",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 113
+  },
+  {
+   "slug": "core-web-vitals",
+   "patrones": [
+    {
+     "forma": "Core Web Vitals",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "WPO",
+     "mayusculas": true,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "Web Performance Optimization",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 9
+  },
+  {
+   "slug": "generadores-visuales",
+   "patrones": [
+    {
+     "forma": "generadores visuales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "generador visual",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "geo",
+   "patrones": [
+    {
+     "forma": "GEO",
+     "mayusculas": true,
+     "apariciones_libro": 12
+    },
+    {
+     "forma": "Optimización para Motores Generativos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Generative Engine Optimization",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 13
+  },
+  {
+   "slug": "aeo",
+   "patrones": [
+    {
+     "forma": "AEO",
+     "mayusculas": true,
+     "apariciones_libro": 26
+    },
+    {
+     "forma": "Optimización para Motores de Respuesta",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Answer Engine Optimization",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "Citation Share",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 34
+  },
+  {
+   "slug": "eeat",
+   "patrones": [
+    {
+     "forma": "E-E-A-T",
+     "mayusculas": true,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "EEAT",
+     "mayusculas": true,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "seo-onpage",
+   "patrones": [
+    {
+     "forma": "SEO OnPage",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "SEO On-Page",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "SEO On Page",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 8
+  },
+  {
+   "slug": "keyword-research",
+   "patrones": [
+    {
+     "forma": "Keyword Research",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "investigación de palabras clave",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 6
+  },
+  {
+   "slug": "short-tail",
+   "patrones": [
+    {
+     "forma": "short-tail",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "short tail",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "body keywords",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "mid-tail",
+   "patrones": [
+    {
+     "forma": "mid-tail",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "mid tail",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "cola media",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "long-tail",
+   "patrones": [
+    {
+     "forma": "long-tail",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    },
+    {
+     "forma": "long tail",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "cola larga",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 9
+  },
+  {
+   "slug": "intencion-informacional",
+   "patrones": [
+    {
+     "forma": "intención informacional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "búsqueda informacional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "búsquedas informacionales",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "informacional",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "informacionales",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "intencion-navegacional",
+   "patrones": [
+    {
+     "forma": "intención navegacional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "búsqueda navegacional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "navegacional",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "navegacionales",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "intencion-comercial",
+   "patrones": [
+    {
+     "forma": "intención comercial",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "investigación comercial",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "intencion-transaccional",
+   "patrones": [
+    {
+     "forma": "intención transaccional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "búsqueda transaccional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "búsquedas transaccionales",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "palabras clave transaccionales",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "serp",
+   "patrones": [
+    {
+     "forma": "SERP",
+     "mayusculas": true,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "SERPs",
+     "mayusculas": true,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "SERPS",
+     "mayusculas": true,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "Search Engine Results Page",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Search Engine Result Pages",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 9
+  },
+  {
+   "slug": "encabezados",
+   "patrones": [
+    {
+     "forma": "H1",
+     "mayusculas": true,
+     "apariciones_libro": 11
+    },
+    {
+     "forma": "H2",
+     "mayusculas": true,
+     "apariciones_libro": 16
+    },
+    {
+     "forma": "H3",
+     "mayusculas": true,
+     "apariciones_libro": 10
+    }
+   ],
+   "apariciones_libro": 37
+  },
+  {
+   "slug": "urls-optimizadas",
+   "patrones": [
+    {
+     "forma": "URLs optimizadas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "URL optimizada",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "metadatos",
+   "patrones": [
+    {
+     "forma": "metadatos",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "meta título",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "meta descripción",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "metadescripción",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 8
+  },
+  {
+   "slug": "interlinking",
+   "patrones": [
+    {
+     "forma": "interlinking",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "enlazado interno",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "link juice",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "seo-offpage",
+   "patrones": [
+    {
+     "forma": "SEO OffPage",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "SEO Off-Page",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "SEO Off Page",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "backlinks",
+   "patrones": [
+    {
+     "forma": "Backlink",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "backlinks",
+     "mayusculas": false,
+     "apariciones_libro": 7
+    },
+    {
+     "forma": "enlaces externos",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "enlace externo",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 12
+  },
+  {
+   "slug": "autoridad-de-dominio",
+   "patrones": [
+    {
+     "forma": "autoridad de dominio",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "follow-nofollow",
+   "patrones": [
+    {
+     "forma": "no-follow",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "nofollow",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "dofollow",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "seo-tecnico",
+   "patrones": [
+    {
+     "forma": "SEO técnico",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    }
+   ],
+   "apariciones_libro": 8
+  },
+  {
+   "slug": "rastreo-indexacion",
+   "patrones": [
+    {
+     "forma": "sitemap",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "robots.txt",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "rastreo e indexación",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "lcp-fid-cls",
+   "patrones": [
+    {
+     "forma": "LCP",
+     "mayusculas": true,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "FID",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "CLS",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Largest Contentful Paint",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "First Input Delay",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Cumulative Layout Shift",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "schema",
+   "patrones": [
+    {
+     "forma": "marcado Schema",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "Schema",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "datos estructurados",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    }
+   ],
+   "apariciones_libro": 14
+  },
+  {
+   "slug": "curacion-contenido",
+   "patrones": [
+    {
+     "forma": "curación de contenido",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "curación de contenidos",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "auditoria-citabilidad",
+   "patrones": [
+    {
+     "forma": "auditoría de citabilidad",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "citabilidad",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    }
+   ],
+   "apariciones_libro": 10
+  },
+  {
+   "slug": "social-media",
+   "patrones": [
+    {
+     "forma": "Social Media",
+     "mayusculas": false,
+     "apariciones_libro": 20
+    }
+   ],
+   "apariciones_libro": 20
+  },
+  {
+   "slug": "grafo-de-intereses",
+   "patrones": [
+    {
+     "forma": "grafo de intereses",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "social-seo",
+   "patrones": [
+    {
+     "forma": "Social SEO",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "information-gain",
+   "patrones": [
+    {
+     "forma": "information gain",
+     "mayusculas": false,
+     "apariciones_libro": 7
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "creadores-de-contenido",
+   "patrones": [
+    {
+     "forma": "creadores de contenido",
+     "mayusculas": false,
+     "apariciones_libro": 14
+    },
+    {
+     "forma": "creador de contenido",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 17
+  },
+  {
+   "slug": "consumidores-pasivos",
+   "patrones": [
+    {
+     "forma": "consumidores pasivos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "comunicadores-sociales",
+   "patrones": [
+    {
+     "forma": "comunicadores sociales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "evaluadores-criticos",
+   "patrones": [
+    {
+     "forma": "evaluadores y críticos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "buscadores-informacion",
+   "patrones": [
+    {
+     "forma": "buscadores de información",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "baby-boomers",
+   "patrones": [
+    {
+     "forma": "Baby Boomers",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "generacion-x",
+   "patrones": [
+    {
+     "forma": "Generación X",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "millennials",
+   "patrones": [
+    {
+     "forma": "Millennials",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "millennial",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "generacion-z",
+   "patrones": [
+    {
+     "forma": "Generación Z",
+     "mayusculas": false,
+     "apariciones_libro": 11
+    },
+    {
+     "forma": "Gen Z",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 11
+  },
+  {
+   "slug": "generacion-alfa",
+   "patrones": [
+    {
+     "forma": "Generación Alfa",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "narrativas-emocionales",
+   "patrones": [
+    {
+     "forma": "narrativas emocionales",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "narrativa emocional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "copywriting",
+   "patrones": [
+    {
+     "forma": "copywriting",
+     "mayusculas": false,
+     "apariciones_libro": 17
+    }
+   ],
+   "apariciones_libro": 17
+  },
+  {
+   "slug": "aida",
+   "patrones": [
+    {
+     "forma": "AIDA",
+     "mayusculas": true,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "pas",
+   "patrones": [
+    {
+     "forma": "PAS",
+     "mayusculas": true,
+     "apariciones_libro": 15
+    }
+   ],
+   "apariciones_libro": 15
+  },
+  {
+   "slug": "bfp",
+   "patrones": [
+    {
+     "forma": "BFP",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "antes-despues-puente",
+   "patrones": [
+    {
+     "forma": "Antes-Después-Puente",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "Antes/después",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "storydoing",
+   "patrones": [
+    {
+     "forma": "storydoing",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "big-content-small-pieces",
+   "patrones": [
+    {
+     "forma": "big content",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "contenido-etereo",
+   "patrones": [
+    {
+     "forma": "contenido etéreo",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "image-to-video",
+   "patrones": [
+    {
+     "forma": "image-to-video",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "image to video",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "b-roll",
+   "patrones": [
+    {
+     "forma": "b-roll",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "email-marketing",
+   "patrones": [
+    {
+     "forma": "email marketing",
+     "mayusculas": false,
+     "apariciones_libro": 43
+    },
+    {
+     "forma": "e-mail marketing",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 43
+  },
+  {
+   "slug": "lead-magnet",
+   "patrones": [
+    {
+     "forma": "lead magnet",
+     "mayusculas": false,
+     "apariciones_libro": 13
+    },
+    {
+     "forma": "lead magnets",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 17
+  },
+  {
+   "slug": "lead",
+   "patrones": [
+    {
+     "forma": "lead",
+     "mayusculas": false,
+     "apariciones_libro": 45
+    },
+    {
+     "forma": "leads",
+     "mayusculas": false,
+     "apariciones_libro": 53
+    }
+   ],
+   "apariciones_libro": 98
+  },
+  {
+   "slug": "inbound-marketing",
+   "patrones": [
+    {
+     "forma": "inbound marketing",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "funnel",
+   "patrones": [
+    {
+     "forma": "funnel de conversión",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "funnel",
+     "mayusculas": false,
+     "apariciones_libro": 30
+    },
+    {
+     "forma": "embudo de conversión",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "embudo de ventas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "embudo",
+     "mayusculas": false,
+     "apariciones_libro": 11
+    }
+   ],
+   "apariciones_libro": 47
+  },
+  {
+   "slug": "omnicanalidad",
+   "patrones": [
+    {
+     "forma": "omnicanalidad",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "omnicanal",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 6
+  },
+  {
+   "slug": "tasa-de-apertura",
+   "patrones": [
+    {
+     "forma": "tasa de apertura",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "tasas de apertura",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "open rate",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 8
+  },
+  {
+   "slug": "ctr",
+   "patrones": [
+    {
+     "forma": "CTR",
+     "mayusculas": true,
+     "apariciones_libro": 25
+    },
+    {
+     "forma": "Click Through Rate",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "click-through rate",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "tasa de clics",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    }
+   ],
+   "apariciones_libro": 33
+  },
+  {
+   "slug": "cta",
+   "patrones": [
+    {
+     "forma": "CTA",
+     "mayusculas": true,
+     "apariciones_libro": 36
+    },
+    {
+     "forma": "CTAs",
+     "mayusculas": true,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "Call To Action",
+     "mayusculas": false,
+     "apariciones_libro": 10
+    },
+    {
+     "forma": "llamada a la acción",
+     "mayusculas": false,
+     "apariciones_libro": 11
+    },
+    {
+     "forma": "llamadas a la acción",
+     "mayusculas": false,
+     "apariciones_libro": 13
+    }
+   ],
+   "apariciones_libro": 76
+  },
+  {
+   "slug": "tasa-de-bajas",
+   "patrones": [
+    {
+     "forma": "tasa de bajas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "tasa de desuscripción",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "email-captacion",
+   "patrones": [
+    {
+     "forma": "emails de captación",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "email-confirmacion",
+   "patrones": [
+    {
+     "forma": "emails de confirmación",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "email-gracias",
+   "patrones": [
+    {
+     "forma": "emails de gracias",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "nurturing",
+   "patrones": [
+    {
+     "forma": "nurturing emails",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "nurturing",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "lead nurturing",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 8
+  },
+  {
+   "slug": "email-recordatorio",
+   "patrones": [
+    {
+     "forma": "emails recordatorio",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "email-satisfaccion",
+   "patrones": [
+    {
+     "forma": "emails de satisfacción",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "upsell-cross-sell",
+   "patrones": [
+    {
+     "forma": "up-sell",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "upsell",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "cross-sell",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "cross selling",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 12
+  },
+  {
+   "slug": "tofu",
+   "patrones": [
+    {
+     "forma": "TOFU",
+     "mayusculas": true,
+     "apariciones_libro": 33
+    },
+    {
+     "forma": "Top of the Funnel",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 36
+  },
+  {
+   "slug": "mofu",
+   "patrones": [
+    {
+     "forma": "MOFU",
+     "mayusculas": true,
+     "apariciones_libro": 32
+    },
+    {
+     "forma": "Middle of the Funnel",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 33
+  },
+  {
+   "slug": "bofu",
+   "patrones": [
+    {
+     "forma": "BOFU",
+     "mayusculas": true,
+     "apariciones_libro": 25
+    },
+    {
+     "forma": "Bottom of the Funnel",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 26
+  },
+  {
+   "slug": "niveles-de-conciencia",
+   "patrones": [
+    {
+     "forma": "niveles de conciencia",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "nivel de conciencia",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "Breakthrough Advertising",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "ab-testing",
+   "patrones": [
+    {
+     "forma": "A/B testing",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "test A/B",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "tests A/B",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "testing A/B",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "pruebas A/B",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "segmentacion-dinamica",
+   "patrones": [
+    {
+     "forma": "segmentación dinámica",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "sem",
+   "patrones": [
+    {
+     "forma": "SEM",
+     "mayusculas": true,
+     "apariciones_libro": 42
+    },
+    {
+     "forma": "Search Engine Marketing",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "marketing de motores de búsqueda",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 45
+  },
+  {
+   "slug": "sistema-de-pujas",
+   "patrones": [
+    {
+     "forma": "sistema de pujas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "subasta",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "subastas",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 6
+  },
+  {
+   "slug": "retargeting",
+   "patrones": [
+    {
+     "forma": "retargeting",
+     "mayusculas": false,
+     "apariciones_libro": 12
+    },
+    {
+     "forma": "remarketing",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 15
+  },
+  {
+   "slug": "palabras-clave",
+   "patrones": [
+    {
+     "forma": "palabras clave",
+     "mayusculas": false,
+     "apariciones_libro": 56
+    },
+    {
+     "forma": "palabra clave",
+     "mayusculas": false,
+     "apariciones_libro": 16
+    },
+    {
+     "forma": "keywords",
+     "mayusculas": false,
+     "apariciones_libro": 15
+    },
+    {
+     "forma": "keyword",
+     "mayusculas": false,
+     "apariciones_libro": 19
+    }
+   ],
+   "apariciones_libro": 106
+  },
+  {
+   "slug": "cpc",
+   "patrones": [
+    {
+     "forma": "CPC",
+     "mayusculas": true,
+     "apariciones_libro": 13
+    },
+    {
+     "forma": "PPC",
+     "mayusculas": true,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "Pay Per Click",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "coste por clic",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "pago por clic",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 20
+  },
+  {
+   "slug": "roas",
+   "patrones": [
+    {
+     "forma": "ROAS",
+     "mayusculas": true,
+     "apariciones_libro": 25
+    },
+    {
+     "forma": "Return on Advertisement Spent",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Return on Ad Spend",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 26
+  },
+  {
+   "slug": "cpm",
+   "patrones": [
+    {
+     "forma": "CPM",
+     "mayusculas": true,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "coste por mil impresiones",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "cpa",
+   "patrones": [
+    {
+     "forma": "CPA",
+     "mayusculas": true,
+     "apariciones_libro": 7
+    },
+    {
+     "forma": "coste por adquisición",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 9
+  },
+  {
+   "slug": "cpl",
+   "patrones": [
+    {
+     "forma": "CPL",
+     "mayusculas": true,
+     "apariciones_libro": 19
+    },
+    {
+     "forma": "coste por lead",
+     "mayusculas": false,
+     "apariciones_libro": 11
+    }
+   ],
+   "apariciones_libro": 30
+  },
+  {
+   "slug": "quality-score",
+   "patrones": [
+    {
+     "forma": "Quality Score",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    },
+    {
+     "forma": "nivel de calidad",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 12
+  },
+  {
+   "slug": "landing-page",
+   "patrones": [
+    {
+     "forma": "landing page",
+     "mayusculas": false,
+     "apariciones_libro": 25
+    },
+    {
+     "forma": "landing pages",
+     "mayusculas": false,
+     "apariciones_libro": 11
+    },
+    {
+     "forma": "página de destino",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "páginas de destino",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 38
+  },
+  {
+   "slug": "sin-fricciones",
+   "patrones": [
+    {
+     "forma": "sin fricciones",
+     "mayusculas": false,
+     "apariciones_libro": 7
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "palabras-clave-negativas",
+   "patrones": [
+    {
+     "forma": "palabras clave negativas",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "palabra clave negativa",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "tipos-concordancia",
+   "patrones": [
+    {
+     "forma": "tipos de concordancia",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "tipo de concordancia",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "concordancia-amplia",
+   "patrones": [
+    {
+     "forma": "concordancia amplia",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "concordancia-frase",
+   "patrones": [
+    {
+     "forma": "concordancia de frase",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "concordancia-exacta",
+   "patrones": [
+    {
+     "forma": "concordancia exacta",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "texto-del-anuncio",
+   "patrones": [
+    {
+     "forma": "texto del anuncio",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "url-visualizacion",
+   "patrones": [
+    {
+     "forma": "URL de visualización",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "activos-del-anuncio",
+   "patrones": [
+    {
+     "forma": "activos del anuncio",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "extensiones de anuncio",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "extensiones de llamada",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "puja",
+   "patrones": [
+    {
+     "forma": "puja",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    },
+    {
+     "forma": "pujas",
+     "mayusculas": false,
+     "apariciones_libro": 10
+    }
+   ],
+   "apariciones_libro": 15
+  },
+  {
+   "slug": "puja-maxima",
+   "patrones": [
+    {
+     "forma": "puja máxima",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "calidad-del-anuncio",
+   "patrones": [
+    {
+     "forma": "calidad del anuncio",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "umbrales-clasificacion",
+   "patrones": [
+    {
+     "forma": "umbrales de clasificación",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "contexto-del-anuncio",
+   "patrones": [
+    {
+     "forma": "contexto del anuncio",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "competitividad-subasta",
+   "patrones": [
+    {
+     "forma": "competitividad de la subasta",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "campanas-busqueda",
+   "patrones": [
+    {
+     "forma": "campañas de búsqueda",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "campaña de búsqueda",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "campanas-display",
+   "patrones": [
+    {
+     "forma": "campañas de display",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "campaña de display",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "Red de Display",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "campanas-shopping",
+   "patrones": [
+    {
+     "forma": "campañas de Shopping",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "campaña de Shopping",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "campanas-video",
+   "patrones": [
+    {
+     "forma": "campañas de vídeo",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "campaña de vídeo",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "performance-max",
+   "patrones": [
+    {
+     "forma": "Performance Max",
+     "mayusculas": false,
+     "apariciones_libro": 10
+    },
+    {
+     "forma": "PMax",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 11
+  },
+  {
+   "slug": "grupos-de-anuncios",
+   "patrones": [
+    {
+     "forma": "grupos de anuncios",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    },
+    {
+     "forma": "grupo de anuncios",
+     "mayusculas": false,
+     "apariciones_libro": 16
+    }
+   ],
+   "apariciones_libro": 24
+  },
+  {
+   "slug": "microsoft-advertising",
+   "patrones": [
+    {
+     "forma": "Microsoft Advertising",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "Bing Ads",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 7
+  },
+  {
+   "slug": "social-ads",
+   "patrones": [
+    {
+     "forma": "Social Ads",
+     "mayusculas": false,
+     "apariciones_libro": 35
+    },
+    {
+     "forma": "publicidad en redes sociales",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 38
+  },
+  {
+   "slug": "publicaciones-organicas",
+   "patrones": [
+    {
+     "forma": "publicaciones orgánicas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "publicación orgánica",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "segmentacion-audiencia",
+   "patrones": [
+    {
+     "forma": "segmentación de audiencia",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "segmentación de audiencias",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "segmentación avanzada",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 8
+  },
+  {
+   "slug": "ugc",
+   "patrones": [
+    {
+     "forma": "UGC",
+     "mayusculas": true,
+     "apariciones_libro": 28
+    },
+    {
+     "forma": "User Generated Content",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "contenido generado por usuarios",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "contenido generado por el usuario",
+     "mayusculas": false,
+     "apariciones_libro": 5
+    }
+   ],
+   "apariciones_libro": 36
+  },
+  {
+   "slug": "estructura-jerarquica",
+   "patrones": [
+    {
+     "forma": "estructura jerárquica",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "seleccion-ubicaciones",
+   "patrones": [
+    {
+     "forma": "selección de ubicaciones",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "soluciones-fallidas",
+   "patrones": [
+    {
+     "forma": "soluciones fallidas",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "objeciones-compra",
+   "patrones": [
+    {
+     "forma": "objeciones de compra",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "disparador-final",
+   "patrones": [
+    {
+     "forma": "disparador final",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "metodologia-4-pasos-2",
+   "patrones": [
+    {
+     "forma": "bloques creativos",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "metodologia-4-pasos-3",
+   "patrones": [
+    {
+     "forma": "fórmulas persuasivas",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "formula-problema-solucion",
+   "patrones": [
+    {
+     "forma": "Problema-solución",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "formula-angulo-autoridad",
+   "patrones": [
+    {
+     "forma": "ángulo de autoridad",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "metodologia-4-pasos-4",
+   "patrones": [
+    {
+     "forma": "diversidad de formatos",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "meta-business-manager",
+   "patrones": [
+    {
+     "forma": "Meta Business Manager",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Business Manager",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "administrador-anuncios",
+   "patrones": [
+    {
+     "forma": "Administrador de Anuncios",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "meta-reconocimiento",
+   "patrones": [
+    {
+     "forma": "campañas de reconocimiento",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "campaña de reconocimiento",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "meta-trafico",
+   "patrones": [
+    {
+     "forma": "campañas de tráfico",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "campaña de tráfico",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "meta-interaccion",
+   "patrones": [
+    {
+     "forma": "campañas de interacción",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "campaña de interacción",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "meta-promocion-app",
+   "patrones": [
+    {
+     "forma": "promoción de aplicación",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "meta-clientes-potenciales",
+   "patrones": [
+    {
+     "forma": "campañas de clientes potenciales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "campaña de clientes potenciales",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "meta-ventas",
+   "patrones": [
+    {
+     "forma": "campaña de ventas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "campañas de ventas",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "audiencia-guardada",
+   "patrones": [
+    {
+     "forma": "audiencia guardada",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "audiencias guardadas",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "audiencia-personalizada",
+   "patrones": [
+    {
+     "forma": "audiencia personalizada",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "audiencias personalizadas",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "lookalike",
+   "patrones": [
+    {
+     "forma": "lookalike",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "audiencias similares",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "audiencia similar",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "meta-advantage",
+   "patrones": [
+    {
+     "forma": "Meta Advantage+",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Advantage+",
+     "mayusculas": false,
+     "apariciones_libro": 10
+    }
+   ],
+   "apariciones_libro": 11
+  },
+  {
+   "slug": "advantage-shopping",
+   "patrones": [
+    {
+     "forma": "Advantage+ Shopping Campaigns",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Advantage+ Shopping",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "advantage-creative",
+   "patrones": [
+    {
+     "forma": "Advantage+ Creative",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "youtube-instream",
+   "patrones": [
+    {
+     "forma": "TrueView",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "in-stream",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "bumper-ads",
+   "patrones": [
+    {
+     "forma": "Bumper Ads",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "youtube-infeed",
+   "patrones": [
+    {
+     "forma": "in-feed",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "youtube-shorts-ads",
+   "patrones": [
+    {
+     "forma": "anuncios de Shorts",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "masthead",
+   "patrones": [
+    {
+     "forma": "Masthead",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "ia-max",
+   "patrones": [
+    {
+     "forma": "IA Max",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "AI Max",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "influencer-marketing",
+   "patrones": [
+    {
+     "forma": "Influencer Marketing",
+     "mayusculas": false,
+     "apariciones_libro": 13
+    },
+    {
+     "forma": "marketing de influencers",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    }
+   ],
+   "apariciones_libro": 16
+  },
+  {
+   "slug": "nano-influencers",
+   "patrones": [
+    {
+     "forma": "nano-influencers",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "nano-influencer",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "nanoinfluencers",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "micro-influencers",
+   "patrones": [
+    {
+     "forma": "micro-influencers",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "micro-influencer",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "microinfluencers",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    }
+   ],
+   "apariciones_libro": 14
+  },
+  {
+   "slug": "macro-influencers",
+   "patrones": [
+    {
+     "forma": "macro-influencers",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "macro-influencer",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "mega-influencers",
+   "patrones": [
+    {
+     "forma": "mega-influencers",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "mega-influencer",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "prescriptores-profesionales",
+   "patrones": [
+    {
+     "forma": "prescriptores profesionales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "prescriptor profesional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "engagement-rate",
+   "patrones": [
+    {
+     "forma": "Engagement Rate",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "tasa de engagement",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "alcance",
+   "patrones": [
+    {
+     "forma": "reach",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "embajador-de-marca",
+   "patrones": [
+    {
+     "forma": "embajador de marca",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "embajadores de marca",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "embajadora de marca",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "codigo-afiliado",
+   "patrones": [
+    {
+     "forma": "código de afiliado",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "códigos de afiliado",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "social-commerce",
+   "patrones": [
+    {
+     "forma": "social commerce",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "shoppable content",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "integracion-multiplataforma",
+   "patrones": [
+    {
+     "forma": "integración multiplataforma",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "micro-nichos",
+   "patrones": [
+    {
+     "forma": "micro-nichos",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "micro-nicho",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "micronichos",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "co-creacion",
+   "patrones": [
+    {
+     "forma": "co-creación",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "cocreación",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "influencers-virtuales",
+   "patrones": [
+    {
+     "forma": "influencers virtuales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "influencer virtual",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "valor-prueba-social",
+   "patrones": [
+    {
+     "forma": "prueba social",
+     "mayusculas": false,
+     "apariciones_libro": 22
+    }
+   ],
+   "apariciones_libro": 22
+  },
+  {
+   "slug": "valor-alcance-cualificado",
+   "patrones": [
+    {
+     "forma": "alcance cualificado",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "reach cualificado",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "branded-content",
+   "patrones": [
+    {
+     "forma": "Branded Content",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "product-placement",
+   "patrones": [
+    {
+     "forma": "Product Placement",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "sponsored-links",
+   "patrones": [
+    {
+     "forma": "Sponsored Links",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "calculadoras-fee",
+   "patrones": [
+    {
+     "forma": "Kolculator",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Pricing Calculator",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "e-wom",
+   "patrones": [
+    {
+     "forma": "e-WOM",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "eWOM",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "gestion-de-resenas",
+   "patrones": [
+    {
+     "forma": "gestión de reseñas",
+     "mayusculas": false,
+     "apariciones_libro": 9
+    }
+   ],
+   "apariciones_libro": 9
+  },
+  {
+   "slug": "resenas-gbp",
+   "patrones": [
+    {
+     "forma": "reseñas de Google Business Profile",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "reseñas de Google",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "testimonio",
+   "patrones": [
+    {
+     "forma": "testimonio",
+     "mayusculas": false,
+     "apariciones_libro": 12
+    },
+    {
+     "forma": "testimonios",
+     "mayusculas": false,
+     "apariciones_libro": 18
+    }
+   ],
+   "apariciones_libro": 30
+  },
+  {
+   "slug": "nps",
+   "patrones": [
+    {
+     "forma": "NPS",
+     "mayusculas": true,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "Net Promoter Score",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "rating-promedio",
+   "patrones": [
+    {
+     "forma": "rating promedio",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "review-velocity",
+   "patrones": [
+    {
+     "forma": "Review velocity",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "response-rate",
+   "patrones": [
+    {
+     "forma": "Response rate",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "sentiment-score",
+   "patrones": [
+    {
+     "forma": "Sentiment score",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "review-authenticity",
+   "patrones": [
+    {
+     "forma": "Review authenticity score",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "review-to-content",
+   "patrones": [
+    {
+     "forma": "review-to-content",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "orm",
+   "patrones": [
+    {
+     "forma": "ORM",
+     "mayusculas": true,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "Online Reputation Management",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "serm",
+   "patrones": [
+    {
+     "forma": "SERM",
+     "mayusculas": true,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "Search Engine Reputation Management",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "reputacion-digital",
+   "patrones": [
+    {
+     "forma": "reputación digital",
+     "mayusculas": false,
+     "apariciones_libro": 6
+    },
+    {
+     "forma": "reputación online",
+     "mayusculas": false,
+     "apariciones_libro": 8
+    }
+   ],
+   "apariciones_libro": 14
+  },
+  {
+   "slug": "analisis-sentimientos",
+   "patrones": [
+    {
+     "forma": "análisis de sentimientos",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "análisis de sentimiento",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 5
+  },
+  {
+   "slug": "brand-safety",
+   "patrones": [
+    {
+     "forma": "Brand safety",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "dark-social",
+   "patrones": [
+    {
+     "forma": "Dark social",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "puntuacion-reputacional",
+   "patrones": [
+    {
+     "forma": "puntuación reputacional",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "créditos reputacionales",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "crisis-reputacion",
+   "patrones": [
+    {
+     "forma": "crisis de reputación",
+     "mayusculas": false,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "crisis reputacional",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "fake-news-deepfakes",
+   "patrones": [
+    {
+     "forma": "fake news",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "deepfakes",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "deepfake",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "derecho-al-olvido",
+   "patrones": [
+    {
+     "forma": "derecho al olvido",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "esg",
+   "patrones": [
+    {
+     "forma": "ESG",
+     "mayusculas": true,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "Environmental, Social and Governance",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "tipos-gestion-reputacional",
+   "patrones": [
+    {
+     "forma": "gestión proactiva",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "gestión defensiva",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "gestión de recuperación",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "areas-reputacion",
+   "patrones": [
+    {
+     "forma": "reputación corporativa",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "reputación de producto",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "reputación de marca personal",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "omnicanalidad-reputacional",
+   "patrones": [
+    {
+     "forma": "omnicanalidad reputacional",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "activos-reputacionales",
+   "patrones": [
+    {
+     "forma": "activos reputacionales",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "activos propios",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "activos ganados",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "activos prestados",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "controlling",
+   "patrones": [
+    {
+     "forma": "controlling",
+     "mayusculas": false,
+     "apariciones_libro": 21
+    }
+   ],
+   "apariciones_libro": 21
+  },
+  {
+   "slug": "ingenieria-inversa",
+   "patrones": [
+    {
+     "forma": "ingeniería inversa",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 2
+  },
+  {
+   "slug": "senal-alerta-negativa",
+   "patrones": [
+    {
+     "forma": "señal de alerta negativa",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "señales de alerta",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 3
+  },
+  {
+   "slug": "senal-neutra",
+   "patrones": [
+    {
+     "forma": "señal neutra",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "señales neutras",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "senal-positiva",
+   "patrones": [
+    {
+     "forma": "señal positiva",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "señales positivas",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 1
+  },
+  {
+   "slug": "kpi",
+   "patrones": [
+    {
+     "forma": "KPI",
+     "mayusculas": true,
+     "apariciones_libro": 10
+    },
+    {
+     "forma": "KPIs",
+     "mayusculas": true,
+     "apariciones_libro": 14
+    },
+    {
+     "forma": "Key Performance Indicator",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 25
+  },
+  {
+   "slug": "dashboard",
+   "patrones": [
+    {
+     "forma": "dashboard de métricas",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    },
+    {
+     "forma": "dashboard",
+     "mayusculas": false,
+     "apariciones_libro": 16
+    },
+    {
+     "forma": "dashboards",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    },
+    {
+     "forma": "cuadro de mandos",
+     "mayusculas": false,
+     "apariciones_libro": 0
+    }
+   ],
+   "apariciones_libro": 18
+  },
+  {
+   "slug": "ltv",
+   "patrones": [
+    {
+     "forma": "LTV",
+     "mayusculas": true,
+     "apariciones_libro": 8
+    },
+    {
+     "forma": "Lifetime Value",
+     "mayusculas": false,
+     "apariciones_libro": 4
+    },
+    {
+     "forma": "Customer Lifetime Value",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "valor de vida del cliente",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 14
+  },
+  {
+   "slug": "cac",
+   "patrones": [
+    {
+     "forma": "CAC",
+     "mayusculas": true,
+     "apariciones_libro": 3
+    },
+    {
+     "forma": "coste de adquisición de cliente",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    }
+   ],
+   "apariciones_libro": 4
+  },
+  {
+   "slug": "roi",
+   "patrones": [
+    {
+     "forma": "ROI",
+     "mayusculas": true,
+     "apariciones_libro": 9
+    },
+    {
+     "forma": "Return on Investment",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "retorno de la inversión",
+     "mayusculas": false,
+     "apariciones_libro": 7
+    }
+   ],
+   "apariciones_libro": 17
+  },
+  {
+   "slug": "pixeles",
+   "patrones": [
+    {
+     "forma": "píxeles",
+     "mayusculas": false,
+     "apariciones_libro": 7
+    },
+    {
+     "forma": "píxel",
+     "mayusculas": false,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 9
+  },
+  {
+   "slug": "gtm",
+   "patrones": [
+    {
+     "forma": "Google Tag Manager",
+     "mayusculas": false,
+     "apariciones_libro": 1
+    },
+    {
+     "forma": "GTM",
+     "mayusculas": true,
+     "apariciones_libro": 2
+    }
+   ],
+   "apariciones_libro": 3
+  }
+ ],
+ "excluidos_de_deteccion": [
+  {
+   "slug": "producto-4p",
+   "termino": "Producto (Product)"
+  },
+  {
+   "slug": "precio-4p",
+   "termino": "Precio (Price)"
+  },
+  {
+   "slug": "distribucion-4p",
+   "termino": "Punto de venta, lugar o distribución (Place)"
+  },
+  {
+   "slug": "promocion-4p",
+   "termino": "Promoción (Promotion)"
+  },
+  {
+   "slug": "fase-empatizar",
+   "termino": "Empatizar (fase)"
+  },
+  {
+   "slug": "fase-definir",
+   "termino": "Definir (fase)"
+  },
+  {
+   "slug": "fase-idear",
+   "termino": "Idear (fase)"
+  },
+  {
+   "slug": "fase-prototipar",
+   "termino": "Prototipar (fase)"
+  },
+  {
+   "slug": "fase-testear",
+   "termino": "Testear (fase)"
+  },
+  {
+   "slug": "personas-arquetipos",
+   "termino": "Personas (arquetipos de usuario)"
+  },
+  {
+   "slug": "test-introduccion",
+   "termino": "Introducción (sesión de testeo)"
+  },
+  {
+   "slug": "preguntas-seguimiento",
+   "termino": "Preguntas de seguimiento"
+  },
+  {
+   "slug": "implementacion-piloto",
+   "termino": "Piloto (implementación)"
+  },
+  {
+   "slug": "implementacion-escalabilidad",
+   "termino": "Escalabilidad (implementación)"
+  },
+  {
+   "slug": "implementacion-institucionalizacion",
+   "termino": "Institucionalización (implementación)"
+  },
+  {
+   "slug": "acciones-del-cliente",
+   "termino": "Acciones del cliente (CJM)"
+  },
+  {
+   "slug": "pensamientos-emociones",
+   "termino": "Pensamientos y emociones (CJM)"
+  },
+  {
+   "slug": "oportunidades-de-mejora",
+   "termino": "Oportunidades de mejora (CJM)"
+  },
+  {
+   "slug": "ia-empresarial",
+   "termino": "IA (en términos empresariales)"
+  },
+  {
+   "slug": "calidad-prompt",
+   "termino": "Elementos de la calidad de un prompt"
+  },
+  {
+   "slug": "estructura-prompt",
+   "termino": "Estructura general de un prompt"
+  },
+  {
+   "slug": "prompt-texto",
+   "termino": "Prompt de texto (elementos)"
+  },
+  {
+   "slug": "prompt-imagen",
+   "termino": "Prompt de imagen (elementos)"
+  },
+  {
+   "slug": "prompt-video",
+   "termino": "Prompt de vídeo (elementos)"
+  },
+  {
+   "slug": "error-prompt-texto",
+   "termino": "Error más frecuente en prompts de texto"
+  },
+  {
+   "slug": "error-prompt-imagen",
+   "termino": "Error más frecuente en prompts de imagen"
+  },
+  {
+   "slug": "reto-prompt-video",
+   "termino": "Mayor reto en prompts de vídeo"
+  },
+  {
+   "slug": "flujo-revision-video",
+   "termino": "Flujo de revisión por fases (vídeo)"
+  },
+  {
+   "slug": "iteracion-prompts",
+   "termino": "Iteración de prompts"
+  },
+  {
+   "slug": "tokens-uso-personal-empresarial",
+   "termino": "Uso personal frente a uso empresarial (tokens)"
+  },
+  {
+   "slug": "bloques-consumo-tokens",
+   "termino": "Bloques de consumo de tokens"
+  },
+  {
+   "slug": "eficiencia-ia",
+   "termino": "Eficiencia en las interacciones con la IA"
+  },
+  {
+   "slug": "mision",
+   "termino": "Misión"
+  },
+  {
+   "slug": "vision",
+   "termino": "Visión"
+  },
+  {
+   "slug": "imagen-de-marca",
+   "termino": "Imagen (de marca)"
+  },
+  {
+   "slug": "simbolos",
+   "termino": "Símbolos (de marca)"
+  },
+  {
+   "slug": "patrones-graficos",
+   "termino": "Patrones (gráficos)"
+  },
+  {
+   "slug": "ilustraciones",
+   "termino": "Ilustraciones (de marca)"
+  },
+  {
+   "slug": "lineas-formas",
+   "termino": "Líneas y formas geométricas"
+  },
+  {
+   "slug": "sitio-web",
+   "termino": "Sitio web"
+  },
+  {
+   "slug": "dominio-disponible",
+   "termino": "Estado del dominio: disponible"
+  },
+  {
+   "slug": "dominio-registrado",
+   "termino": "Estado del dominio: registrado"
+  },
+  {
+   "slug": "dominio-activo",
+   "termino": "Estado del dominio: activo"
+  },
+  {
+   "slug": "funcionalidades",
+   "termino": "Funcionalidades (web)"
+  },
+  {
+   "slug": "contenido-calidad",
+   "termino": "Contenido de calidad y relevancia"
+  },
+  {
+   "slug": "activistas",
+   "termino": "Activistas (tipo de usuario)"
+  },
+  {
+   "slug": "impresiones",
+   "termino": "Impresiones"
+  },
+  {
+   "slug": "clics",
+   "termino": "Clics"
+  },
+  {
+   "slug": "titular-anuncio",
+   "termino": "Titular (anuncio de búsqueda)"
+  },
+  {
+   "slug": "descripcion-anuncio",
+   "termino": "Descripción (anuncio de búsqueda)"
+  },
+  {
+   "slug": "impacto-formato-anuncio",
+   "termino": "Impacto del anuncio y el formato (factor de subasta)"
+  },
+  {
+   "slug": "google-ads-cuenta",
+   "termino": "Cuenta (estructura de Google Ads)"
+  },
+  {
+   "slug": "google-ads-campanas",
+   "termino": "Campañas (estructura de Google Ads)"
+  },
+  {
+   "slug": "google-ads-anuncios",
+   "termino": "Anuncios (estructura de Google Ads)"
+  },
+  {
+   "slug": "anuncio-ad",
+   "termino": "Anuncio (ad)"
+  },
+  {
+   "slug": "metodologia-4-pasos-1",
+   "termino": "Metodología de 4 pasos. Paso 1: investigación de clientes y competencia"
+  },
+  {
+   "slug": "dolores-sintomas",
+   "termino": "Dolores o síntomas"
+  },
+  {
+   "slug": "intenciones-reales",
+   "termino": "Intenciones reales"
+  },
+  {
+   "slug": "formula-estilo-de-vida",
+   "termino": "Estilo de vida (fórmula)"
+  },
+  {
+   "slug": "advantage-apps",
+   "termino": "Campañas para aplicaciones con Advantage+"
+  },
+  {
+   "slug": "youtube-crear",
+   "termino": "Crear (pilar de YouTube)"
+  },
+  {
+   "slug": "youtube-conectar",
+   "termino": "Conectar (pilar de YouTube)"
+  },
+  {
+   "slug": "youtube-medicion",
+   "termino": "Medición (pilar de YouTube)"
+  },
+  {
+   "slug": "youtube-display",
+   "termino": "Anuncios de display (YouTube)"
+  },
+  {
+   "slug": "youtube-otros-formatos",
+   "termino": "Otros formatos (YouTube Ads)"
+  },
+  {
+   "slug": "mentions-tags",
+   "termino": "Mentions vs. tags"
+  },
+  {
+   "slug": "valor-credibilidad",
+   "termino": "Valor de credibilidad y confianza (influencers)"
+  },
+  {
+   "slug": "valor-segmentacion",
+   "termino": "Valor de segmentación precisa (influencers)"
+  },
+  {
+   "slug": "valor-contenido-nativo",
+   "termino": "Valor de contenido nativo (influencers)"
+  },
+  {
+   "slug": "valor-longevidad",
+   "termino": "Valor de longevidad (influencers)"
+  },
+  {
+   "slug": "resenas-redes",
+   "termino": "Reseñas de Facebook, Instagram y TikTok Shop"
+  },
+  {
+   "slug": "resenas-linkedin",
+   "termino": "Reseñas en LinkedIn"
+  },
+  {
+   "slug": "resenas-plataformas",
+   "termino": "Reseñas en plataformas (especializadas)"
+  },
+  {
+   "slug": "planificacion",
+   "termino": "Planificación (del proyecto)"
+  }
+ ]
+}

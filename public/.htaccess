@@ -1,0 +1,44 @@
+# lab.aulamarketing.digital — sitio estático (Astro) servido desde public_html/lab,
+# dentro de la carpeta de un WordPress. Este archivo NO hereda las reglas de WordPress.
+
+DirectoryIndex index.html
+Options -Indexes
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  # (a) Motor propio: sin "RewriteOptions Inherit", las reglas de WordPress del
+  #     directorio padre (public_html/.htaccess) no se aplican aquí.
+  RewriteEngine On
+  RewriteBase /
+
+  # (b) Acceso por aulamarketing.digital/lab/… → 301 al subdominio (misma ruta).
+  RewriteCond %{HTTP_HOST} ^(www\.)?aulamarketing\.digital$ [NC]
+  RewriteRule ^(.*)$ https://lab.aulamarketing.digital/$1 [R=301,L]
+
+  # HTTPS obligatorio en el subdominio.
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://lab.aulamarketing.digital/$1 [R=301,L]
+</IfModule>
+
+# (d) Caché: HTML y datos sin caché (siempre revalidar); assets con hash en /_astro/
+#     tienen su propio .htaccess con caché de un año (immutable).
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|json|xml|txt)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(svg|ico|png|webp|woff2)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/plain application/xml
+</IfModule>
+
+AddType application/javascript .js
+AddType application/json .json
+AddType font/woff2 .woff2
+AddDefaultCharset utf-8

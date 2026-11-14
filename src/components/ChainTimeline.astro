@@ -1,0 +1,33 @@
+---
+// Línea de tiempo de una cadena de prompts (piel Stitch «Cadena de prompts»).
+// Estado de cada nodo (respuesta guardada / siguiente / pendiente) calculado en client/piel.ts a partir de las respuestas guardadas.
+import type { Cadena } from '../lib/datos';
+import { getPrompt } from '../lib/datos';
+import { pad2 } from '../lib/texto';
+import Icon from './Icon.astro';
+interface Props { cadena: Cadena; enlaces?: boolean }
+const { cadena, enlaces = true } = Astro.props;
+---
+<ol class="c-chain" data-js="cadena" data-cadena={cadena.id}>
+  {cadena.nodos.map((n, i) => {
+    const p = n.prompt ? getPrompt(n.prompt) : null;
+    const sig = cadena.nodos[i + 1];
+    return (
+      <li class:list={['c-chain__nodo', !p && 'c-chain__nodo--hito']} data-js="nodo-cadena" data-prompt={n.prompt ?? ''} data-estado={p ? 'pendiente' : 'hito'}>
+        <span class="c-chain__marca" aria-hidden="true">{p ? <><span class="c-chain__num">{pad2(i + 1)}</span><Icon nombre="check" class="c-chain__ok" /></> : <Icon nombre="libro" />}</span>
+        <div class="c-chain__card">
+          <div class="c-chain__cab">
+            <p class="c-overline">{p ? <>Paso {pad2(i + 1)} · prompt {pad2(p.n)}</> : <>Paso {pad2(i + 1)} · hito sin prompt</>}</p>
+            {p ? <span class="c-chain__estado" data-js="nodo-estado">Pendiente</span> : <span class="c-chip c-chip--book">Paso del libro</span>}
+          </div>
+          <h3 class="c-chain__t">{enlaces && p ? <a href={`#prompt-${p.id}`}>{n.titulo}</a> : n.titulo}</h3>
+          {p && p.ias.length > 0 && <p class="c-chain__ias">{p.ias.slice(0, 2).map((ia) => <span class="c-chip c-chip--mono">{ia}</span>)}</p>}
+          {n.nota && <p class="c-meta">{n.nota}</p>}
+          {n.consume.length > 0 && <p class="c-chain__io"><span class="c-chain__io-lbl">Consume:</span>{n.consume.map((c) => <code class="c-varchip" data-estado="llena">{`{${c}}`}</code>)}</p>}
+          {n.produce && <p class="c-chain__io"><span class="c-chain__io-lbl">Salida:</span><code class="c-varchip c-varchip--salida">{`{${n.produce}}`}</code></p>}
+        </div>
+        {sig && <p class="c-chain__flujo" aria-hidden="true"><Icon nombre="flujo" />{n.produce ? <><code>{`{${n.produce}}`}</code> fluye al paso {i + 2}</> : 'su respuesta alimenta al siguiente'}</p>}
+      </li>
+    );
+  })}
+</ol>

@@ -1,0 +1,43 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import ChainTimeline from '../../../../components/ChainTimeline.astro';
+import PromptCard from '../../../../components/PromptCard.astro';
+import Icon from '../../../../components/Icon.astro';
+import { getPlanes, getPrompt, type Plan, type Cadena } from '../../../../lib/datos';
+import { pad2 } from '../../../../lib/texto';
+export function getStaticPaths() {
+  return getPlanes().flatMap((plan) => plan.cadenas.map((cadena) => ({ params: { slug: plan.slug, id: cadena.slug }, props: { plan, cadena } })));
+}
+const { plan, cadena } = Astro.props as { plan: Plan; cadena: Cadena };
+const prompts = cadena.nodos.map((n) => (n.prompt ? getPrompt(n.prompt) : null)).filter(Boolean);
+const migas = [{ nombre: 'Planes', url: '/planes/' }, { nombre: plan.titulo, url: plan.url }, { nombre: cadena.titulo }];
+---
+<Layout titulo={`${cadena.titulo} · ${plan.titulo}`} ancho descripcion={`Cadena de ${cadena.nodos.length} pasos del ${plan.titulo}: la respuesta de cada prompt alimenta al siguiente.`} migas={migas}
+  esquema={{ titulo: plan.titulo, url: plan.url, plan: plan.slug, pasos: plan.pasos.map((p) => ({ n: p.n, titulo: p.titulo, url: p.url, slug: p.slug })) }}>
+  <a class="c-volver" href={plan.url}><Icon nombre="atras" />Volver a {plan.titulo}</a>
+  <header class="c-cabecera c-cabecera--simple">
+    <div>
+      <p class="c-overline c-overline--primario">Secuencia · {prompts.length} {prompts.length === 1 ? 'prompt' : 'prompts'} · capítulo {pad2(plan.capitulo)}</p>
+      <h1>{cadena.titulo}</h1>
+      <p class="c-lead">La respuesta de cada prompt se convierte en la entrada del siguiente: ejecútalo en tu IA, pega su respuesta y continúa.</p>
+      {cadena.descripcion && <p class="c-meta">{cadena.descripcion}</p>}
+    </div>
+  </header>
+  <div class="l-dos l-dos--cadena">
+    <div class="l-dos__main">
+      <section class="c-card c-progreso-card" data-js="cadena-progreso" data-cadena={cadena.id} role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Progreso de la secuencia">
+        <div class="c-progreso-card__cab"><p class="c-headline"><Icon nombre="lista" />Progreso de la secuencia</p><span class="c-overline c-overline--primario" data-js="pct">0 %</span></div>
+        <div class="c-progress"><span data-js="barra"></span></div>
+        <p class="c-meta" data-js="texto">0 de {prompts.length} prompts con respuesta guardada</p>
+      </section>
+      <section aria-labelledby="rec-t" class="c-seccion"><h2 id="rec-t" class="c-titulo-2">Recorrido</h2><ChainTimeline cadena={cadena} /></section>
+    </div>
+    <div class="l-dos__aside l-dos__aside--ancho">
+      <section aria-labelledby="pr-t">
+        <h2 id="pr-t" class="c-titulo-2">Prompts de la cadena</h2>
+        <p class="c-meta">Ejecuta cada prompt en tu IA, pega la respuesta en «Pega aquí la respuesta de la IA» y el siguiente prompt la usará automáticamente.</p>
+        {prompts.map((p) => <PromptCard prompt={p!} enlacePaso />)}
+      </section>
+    </div>
+  </div>
+</Layout>

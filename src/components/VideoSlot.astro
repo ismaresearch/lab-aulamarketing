@@ -1,0 +1,25 @@
+---
+import site from '../config/site.json';
+import Icon from './Icon.astro';
+import type { Video } from '../lib/datos';
+interface Props { videos: Video[]; textoGenerico?: string; titulo?: string }
+const { videos, textoGenerico = 'Estamos grabando el vídeo de este paso en la videoteca de aulamarketing.digital.', titulo } = Astro.props;
+const vids = videos.filter((v) => v.tipo === 'vídeo');
+const arts = videos.filter((v) => v.tipo === 'artículo');
+---
+<section class="c-video-sec" aria-label="Vídeo">
+  <div class="c-video">
+    <div class="c-video__mini" aria-hidden="true">
+      <span class="c-video__play"><Icon nombre="video" /></span>
+      <span class="c-video__badge">Próximamente</span>
+    </div>
+    <div class="c-video__txt">
+      <p class="c-video__chips"><span class="c-chip c-chip--proyecto">Vídeo · próximamente</span>{titulo && <span class="c-meta">{titulo}</span>}</p>
+      {vids.length ? vids.map((v) => (
+        <p class="c-video__desc"><strong>Vídeo previsto:</strong> {v.mostrar}{v.herramientas && <> <br /><span class="c-meta">Herramientas: {v.herramientas}</span></>}</p>
+      )) : <p class="c-video__desc">{textoGenerico}</p>}
+      <a class="c-enlace-flecha" href={site.videoteca_url}>Ir a la videoteca <Icon nombre="externo" /></a>
+    </div>
+  </div>
+  {arts.map((a) => <p class="c-meta c-video__art"><strong>Artículo previsto en aulamarketing.digital:</strong> {a.mostrar} <span class="c-chip">Próximamente</span></p>)}
+</section>

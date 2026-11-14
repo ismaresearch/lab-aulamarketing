@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PlanCard from '../../components/PlanCard.astro';
+import Icon from '../../components/Icon.astro';
+import { getPlanes, categorias, objetivosInicio } from '../../lib/datos';
+const planes = getPlanes();
+const continuar = planes.map((p) => ({ slug: p.slug, titulo: p.titulo, url: p.url, total: p.pasos.length, capitulo: p.capitulo, pasos: p.pasos.map((x) => ({ s: x.slug, u: x.url, n: x.n })) }));
+const ld = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Planes de marketing digital', itemListElement: planes.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `https://lab.aulamarketing.digital${p.url}`, name: p.titulo })) }];
+---
+<Layout titulo="Planes" ancho descripcion="Catálogo de planes verticales de marketing digital: estrategia, marca, web, SEO, redes sociales, email, SEM, Social Ads, influencers, reseñas, reputación y medición." jsonLd={ld} migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Planes' }]}>
+  <header class="c-cabecera">
+    <div>
+      <p class="c-overline c-overline--primario"><span class="c-dot" aria-hidden="true"></span>Catálogo · basado en el libro</p>
+      <h1>Planes de marketing digital</h1>
+      <p class="c-lead">Cada plan nace de un capítulo del libro, tiene sus propios pasos y entregables, y se puede empezar sin haber hecho los demás. Al terminar, lo descargas en Word (.docx) editable.</p>
+    </div>
+    <ul class="c-stats" aria-label="Resumen del catálogo">
+      <li><Icon nombre="planes" /><span><span class="c-stats__lbl">Disponibles</span> {planes.length} planes</span></li>
+      <li><Icon nombre="prompts" /><span><span class="c-stats__lbl">Prompts</span> {planes.reduce((a, p) => a + p.prompts.length, 0)}</span></li>
+    </ul>
+  </header>
+
+  <section class="c-card c-continuar c-continuar--banda" data-js="continuar" data-planes={JSON.stringify(continuar)} hidden aria-labelledby="cont-t">
+    <span class="c-continuar__ico" aria-hidden="true"><Icon nombre="reproducir" /></span>
+    <div class="c-continuar__info">
+      <p class="c-continuar__cab"><span class="c-estado c-estado--solido" data-estado="curso">En progreso</span><span class="c-meta">Continúa donde lo dejaste ·</span> <span class="c-overline c-overline--primario" data-js="continuar-cap"></span></p>
+      <h2 id="cont-t" class="c-continuar__t"><span data-js="continuar-titulo"></span></h2>
+    </div>
+    <div class="c-continuar__prog">
+      <p class="c-meta"><span data-js="continuar-texto"></span><span class="c-continuar__pct" data-js="continuar-pct"></span></p>
+      <div class="c-progress"><span data-js="continuar-barra"></span></div>
+    </div>
+    <a class="c-btn" data-js="continuar-enlace" href="/planes/">Continuar plan <Icon nombre="flecha" /></a>
+  </section>
+
+  <div data-js="filtro" data-singular="plan" data-plural="planes">
+    <div class="c-barra-filtros">
+      <label class="c-buscador"><span class="sr-only">Buscar un plan</span><Icon nombre="buscar" /><input type="search" data-filtro="texto" placeholder="Buscar un plan" /></label>
+      <select data-filtro="categoria" class="sr-only" aria-hidden="true" tabindex="-1"><option value="">Todas</option>{categorias.map((c) => <option>{c}</option>)}</select>
+      <div class="c-chips" data-js="chips-filtro" data-para="categoria" role="group" aria-label="Filtrar por área">
+        <button type="button" data-valor="" aria-pressed="true">Todos los planes <span class="c-chips__n">{planes.length}</span></button>
+        {categorias.map((c) => <button type="button" data-valor={c} aria-pressed="false">{c}</button>)}
+      </div>
+      <label class="c-field c-field--inline"><span class="c-field__label">Objetivo</span>
+        <select data-filtro="objetivo"><option value="">Cualquiera</option>{objetivosInicio.map((o) => <option value={o.id}>{o.etiqueta}</option>)}</select></label>
+    </div>
+    <p class="c-meta c-recuento" data-js="recuento" aria-live="polite"></p>
+    <div class="c-grid c-grid--2">{planes.map((p) => <PlanCard plan={p} nivel="h2" />)}</div>
+    <p class="c-estado-vacio" data-js="vacio" hidden>No encontramos <span data-js="vacio-q"></span>. <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="limpiar">Quitar filtros</button></p>
+  </div>
+
+  <section class="c-card c-aviso-libro" aria-labelledby="ej-t">
+    <span class="c-aviso-libro__ico" aria-hidden="true"><Icon nombre="libro" /></span>
+    <div>
+      <h2 id="ej-t" class="c-aviso-libro__t">¿Prefieres ver antes el caso real del libro?</h2>
+      <p class="c-meta">Todos los planes traen el ejemplo de aulamarketing.digital. Usa el selector «Ejemplo del libro» de la barra superior para ver los prompts rellenados con sus datos.</p>
+    </div>
+  </section>
+  <script>import '../../client/filtro';</script>
+</Layout>

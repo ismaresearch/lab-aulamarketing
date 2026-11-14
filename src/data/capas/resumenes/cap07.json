@@ -1,0 +1,58 @@
+{
+  "id": "c07",
+  "promesa": "Diseñarás tu estrategia de posicionamiento orgánico para que te encuentren los buscadores y te citen las IA.",
+  "al_terminar_tendras": [
+    "Tu keyword research con palabras clave clasificadas por longitud e intención de búsqueda",
+    "Contenidos optimizados en SEO OnPage: encabezados, respuestas de 50 palabras para AEO, URLs, metadatos y enlazado interno",
+    "Una estrategia de SEO OffPage para ganar backlinks y autoridad E-E-A-T",
+    "Una revisión técnica de tu web: rastreo, Core Web Vitals, marcado Schema/JSON-LD, multimedia y seguridad",
+    "Un flujo de prompts de IA para analizar, crear, curar y auditar la citabilidad de tu contenido"
+  ],
+  "historia_ana": "Ana sabe que ser visible es sinónimo de éxito profesional. Como la Generación Z, busca cada vez más en TikTok e Instagram. Para ella el SEO no es técnica, sino estrategia para posicionar su marca personal. Encuentra aulamarketing.digital bien posicionada y entra para aprender.",
+  "resumen_capitulo": "El SEO sigue siendo la piedra angular de la visibilidad a largo plazo, pero está cambiando. La IA generativa ya ofrece respuestas directas en los resultados de búsqueda y los usuarios buscan de otra forma, también en redes sociales. En este capítulo entiendes qué es el SEO y sus nuevas capas: el GEO, para que los modelos de IA te elijan como fuente, y el AEO, para ser la respuesta única en búsquedas directas y por voz. También ves la importancia del vídeo, la búsqueda social y el E-E-A-T. Después trabajas los tres pilares. SEO OnPage: keyword research por longitud e intención, encabezados, contenido de calidad, URLs, metadatos, enlazado interno y UX. SEO OffPage: backlinks de calidad, contenidos, redes y reseñas. SEO técnico: rastreo, Core Web Vitals, marcado Schema, multimedia, hosting, móvil y seguridad. Por último, aplicas un flujo de IA con prompts para analizar el contexto, idear la arquitectura, crear y curar contenido, generar JSON-LD y auditar la citabilidad, y lo ves aplicado paso a paso en aulamarketing.digital.",
+  "secciones": {
+    "c07-s1": {
+      "idea_clave": "El SEO evoluciona con la IA: además de posicionar, ahora debes conseguir que los motores generativos te citen (GEO) y te elijan como respuesta (AEO).",
+      "resumen": "El SEO es el conjunto de acciones para mejorar la visibilidad de tu web en los resultados orgánicos y atraer tráfico sin pagar por clic. La IA generativa lo está transformando, porque ofrece respuestas directas sin necesidad de entrar en ninguna web: el usuario ya no quiere una lista de enlaces, sino el conocimiento sintetizado. Surgen así dos ejes. El GEO, u optimización para motores generativos, estructura tu información y proyecta tu autoridad para que la IA te seleccione como fuente fiable; si no te cita, tu presencia es inexistente. El AEO, u optimización para motores de respuesta, busca la respuesta única en búsquedas directas y por voz, y su métrica clave es la cuota de mención. El SEO clásico sigue siendo el cimiento técnico. Otras tendencias: el vídeo, con el formato corto y vertical a la cabeza; la búsqueda social, ya que la Generación Z ha reducido un 40 % sus búsquedas de productos en Google; y el foco en la intención del usuario. Google evalúa además el contenido con el E-E-A-T: experiencia, expertise, autoridad y confianza.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 6
+    },
+    "c07-s2": {
+      "idea_clave": "El SEO OnPage optimiza contenido y estructura de tu web, empezando por elegir bien las palabras clave según lo que busca tu usuario.",
+      "resumen": "El SEO OnPage reúne las acciones dentro de tu propia web, visibles para el usuario y para los buscadores. Empieza con el keyword research: identificar los términos que usa tu público. Las palabras clave se clasifican por longitud (cola corta, media y larga, esta última clave para el AEO) y por intención: informacional, navegacional, comercial o transaccional. Para empezar, el libro propone buscar tú mismo en Google con términos básicos, preguntas y términos de compra, anotando competidores y formatos, y pasar después a herramientas específicas, de las más sencillas a las profesionales. Con las palabras clave definidas, optimiza la página. Usa un solo H1 con la palabra clave y H2 y H3 lógicos; bajo los encabezados en forma de pregunta, escribe una respuesta directa de unas 50 palabras. Crea contenido de calidad que responda a la intención de búsqueda. Usa URLs claras, de no más de tres niveles. Cuida el meta título y la meta descripción. Practica el enlazado interno con textos ancla descriptivos. Y no olvides la UX y la velocidad de carga.",
+      "subsecciones": {
+        "c07-s2.1": {
+          "idea_clave": "Identifica las palabras clave de tu público por longitud e intención, empezando por tus propias búsquedas en Google y siguiendo con herramientas."
+        },
+        "c07-s2.2": {
+          "idea_clave": "Ubica bien tus palabras clave: encabezados jerárquicos, respuestas de 50 palabras, URLs claras, metadatos atractivos, enlazado interno y buena UX."
+        }
+      },
+      "minutos_lectura_integro": 9
+    },
+    "c07-s3": {
+      "idea_clave": "El SEO OffPage construye tu autoridad fuera de tu web, sobre todo con backlinks de calidad procedentes de sitios relevantes.",
+      "resumen": "El SEO OffPage reúne las estrategias externas a tu web que mejoran su autoridad y relevancia. Su acción principal es conseguir backlinks: enlaces desde otros sitios que apuntan a tu página y que los buscadores interpretan como señal de confianza. Importa más la calidad que la cantidad, porque la autoridad del dominio que te enlaza influye en tu reputación. Los enlaces follow transmiten autoridad; los no-follow, poca o ninguna. La estrategia debe ser sana: enlaces naturales de fuentes relevantes, conseguidos mediante relaciones con blogs y portales, colaboraciones con medios especializados o microinfluencers. Un enlace desde un blog universitario de prestigio o una revista especializada vale mucho. También suman tus redes sociales y tus emails. Otros factores OffPage: el marketing de contenidos, porque el contenido valioso atrae enlaces de forma natural; las redes sociales, que generan visibilidad, menciones y descubrimiento a través de la búsqueda social; y la gestión de reseñas y reputación online, que genera confianza y menciones positivas.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 2
+    },
+    "c07-s4": {
+      "idea_clave": "El SEO técnico asegura que los buscadores puedan rastrear e indexar tu web y que el usuario disfrute de una experiencia rápida y segura.",
+      "resumen": "El SEO técnico no trata del contenido, sino de la infraestructura de tu web. Rastreo e indexación: un sitemap con todas tus URL y un archivo robots.txt que indique a los bots qué pueden rastrear. Core Web Vitals y WPO: métricas de Google sobre velocidad, interactividad y estabilidad visual (LCP, FID y CLS); una web lenta o inestable dispara el rebote. Marcado Schema: datos estructurados que traducen tu contenido en entidades con significado, facilitan los resultados enriquecidos y ayudan a que las IA procesen tu contenido con prioridad. Optimización multimedia: imágenes comprimidas, reescaladas (400-800 píxeles para móvil) y en formato .webp, con carga diferida, y vídeos incrustados desde plataformas externas en lugar de alojarlos en tu hosting. Además, un hosting rápido y cercano a tu público, una web adaptada al móvil y seguridad con HTTPS y SSL. Para auditar y optimizar, el libro recomienda empezar por Google Search Console tras publicar tu contenido y apoyarte en herramientas de auditoría, velocidad, caché e imágenes.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 5
+    },
+    "c07-s5": {
+      "idea_clave": "La IA te acompaña en todo el proceso SEO: escucha del mercado, arquitectura, redacción, curación, datos estructurados y auditoría de citabilidad.",
+      "resumen": "El libro propone una secuencia completa de SEO con IA. Primero, escucha digital: con un LLM en modo razonamiento localizas foros, tendencias y competidores, y llevas esos documentos a NotebookLM para descubrir necesidades reales y términos clave que no aparecen en las herramientas tradicionales. Con herramientas de análisis semántico ves qué longitud, palabras secundarias y encabezados necesita tu texto para competir. Después, con un LLM, amplías las palabras clave, descifras la intención y diseñas estructuras con preguntas frecuentes pensadas para el AEO. A continuación creas el contenido, con un LLM o con los editores integrados en las plataformas SEO, o con herramientas de redacción con IA. Si ya tienes páginas con poco tráfico, aplicas la curación: reformularlas para responder mejor a las búsquedas. En el plano técnico, la IA genera el marcado JSON-LD, que puedes pegar en un bloque HTML de WordPress. Por último, haces una auditoría de citabilidad: la IA actúa como abogado del diablo para comprobar si tu texto aporta algo nuevo que merezca ser citado.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 12
+    },
+    "c07-s6": {
+      "idea_clave": "aulamarketing.digital aplica en cuatro pasos SEO, GEO y AEO para que buscadores y asistentes la recomienden cuando Ana pregunte.",
+      "resumen": "El ejemplo conecta la estrategia con el customer journey de Ana, que busca en Google pero también habla con asistentes de voz y chats generativos. Paso 1, planificación y mapa de entidades: con NotebookLM o un asistente integrado se mapea su grafo de conocimiento, con entidades centrales (marketing digital e inteligencia artificial) y entidades puente ligadas a su dolor (incertidumbre laboral, curva de aprendizaje de la IA); un LLM ayuda a descubrir qué pregunta Ana en los chats. Paso 2, SEO OnPage: artículos pilar como una guía de SEO con IA para principiantes, bloques de 50 palabras listos para ser la respuesta única, datos propios que obligan a citar la fuente tras la auditoría de citabilidad, y Shorts incrustados en cada nodo AEO. Paso 3, SEO técnico: marcado JSON-LD con FAQPage y Speakable, y prioridad al LCP en móvil, porque Ana consume el 90 % del contenido en su smartphone. Paso 4, SEO OffPage y E-E-A-T: Digital PR en newsletters y foros, y exalumnos que comparten sus proyectos etiquetando a la marca.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 4
+    }
+  }
+}

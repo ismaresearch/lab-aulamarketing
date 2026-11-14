@@ -1,0 +1,761 @@
+{
+  "id": "c03",
+  "numero": 3,
+  "parte": "Parte 1: ESTRATEGIA Y BRANDING — ESTRATEGIA DIGITAL y BRANDING",
+  "titulo": "Anatomía de una decisión: el Customer Journey Map",
+  "paginas_pdf": [
+    46,
+    54
+  ],
+  "paginas_libro": [
+    41,
+    49
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "El éxito en marketing digital va mucho más allá de disponer de las herramientas más sofisticadas, se trata de algo mucho más humano y transformador, buscamos conectar genuinamente con las personas. En un sencillo ejercicio de reflexión, conectar con las personas no es algo que se consiga de forma inmediata, para conseguir una relación de calidad hace falta compartir momentos de sorpresa, duda, curiosidad, interés, deseo y conexión. Veamos cómo transformar esta idea en el plano operativo del marketing digital con el ejemplo de Ana, una profesional que siente la presión constante de entregar resultados medibles, mantenerse actualizada en un entorno en constante cambio, y construir relaciones auténticas con una audiencia cada vez más exigente. Rodeada de métricas, canales y competencia, Ana no necesita más complejidad, lo que más puede ayudarle es darle sentido a todas sus acciones de marketing y buscando cómo conseguirlo se ha encontrado con la metodología del Customer Journey Map (CJM).",
+    "narrativa_ana": "Veamos cómo transformar esta idea en el plano operativo del marketing digital con el ejemplo de Ana, una profesional que siente la presión constante de entregar resultados medibles, mantenerse actualizada en un entorno en constante cambio, y construir relaciones auténticas con una audiencia cada vez más exigente. Rodeada de métricas, canales y competencia, Ana no necesita más complejidad, lo que más puede ayudarle es darle sentido a todas sus acciones de marketing y buscando cómo conseguirlo se ha encontrado con la metodología del Customer Journey Map (CJM)."
+  },
+  "objetivos_aprendizaje": [
+    "Pensar como nuestros clientes, desarrollando una empatía profunda que se convierte en el centro de las estrategias con propósito.",
+    "Visualizar cada punto de contacto, desde el primer clic hasta la recomendación.",
+    "Detectar y resolver los puntos de fricción, que generan frustración y obstaculizan el crecimiento.",
+    "Identificar momentos de oportunidad para generar experiencias memorables y duraderas.",
+    "Integrar herramientas de implementación y la Inteligencia Artificial de manera ética, como un apoyo estratégico que complementa las habilidades humanas."
+  ],
+  "secciones": [
+    {
+      "id": "c03-s1",
+      "numero": "1",
+      "titulo": "Definición y bases del CJM",
+      "pagina_pdf": 46,
+      "pagina_libro": 41,
+      "texto": "Antes de crear nuestro mapa, es esencial comprender bien su significado, ¿por qué ha tomado tanta relevancia? En esencia, un CJM es una representación visual de la experiencia de un cliente con una organización. Se trata de un diagrama que ilustra cada paso, emoción, canal y momento de interacción en la relación entre un usuario y una marca. Si nos atrevemos a ir un paso más allá de la definición técnica, un CJM no es solo un esquema, es un ejercicio de empatía. Su impacto no reside en el gráfico final, la clave está en sus elementos y en el proceso de creación desde los ojos del usuario. Una metodología que como hemos comprobado, está completamente centrada en las personas y busca resolver problemas desde una comprensión empática de las necesidades reales. Como afirma Tim Brown, uno de sus referentes, el design thinking “comienza con la empatía, con una profunda comprensión de las necesidades y motivaciones de las personas”. Como todo mapa, el CJM se construye a partir de distintos tramos del recorrido, que en este caso se representan como fases del viaje del usuario: conciencia, consideración, compra, retención, fidelización y recomendación. En función del sector y del tipo de usuario o cliente, en la literatura encontrarás más etapas. Esto es debido a la flexibilidad que nos permite establecer el propio mapa, una vez comprendas los conceptos, siéntete con la libertad de adaptarlo a la marca. Veamos algunos ejemplos de usos y aplicaciones prácticas antes de seguir ampliando conceptos",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c03-d01",
+        "c03-d02"
+      ]
+    },
+    {
+      "id": "c03-s2",
+      "numero": "2",
+      "titulo": "Usos y aplicaciones prácticas del customer journey map",
+      "pagina_pdf": 47,
+      "pagina_libro": 42,
+      "texto": "Comencemos a darle forma a las aplicaciones del CJM como una herramienta viva y dinámica para la toma de decisiones estratégicas. Veamos cómo aplicarlo de forma concreta en áreas clave del marketing digital y para ello utilizaremos el ejemplo de Ana dentro del ecosistema de aulamarketing.digital.\nDetección de GAP: Al mapear el recorrido, pueden aparecer lo que denominamos momentos de frustración donde Ana busca una solución y no la encuentra, o la que existe es ineficiente. Por ejemplo, el CJM de aulamarketing.digital podría revelar que, navegando en redes, Ana comenta en un reel que se siente insegura al aplicar los conocimientos en un proyecto real. Este punto de dolor es una gran oportunidad.\nCreación de productos centrada en el usuario: Ese vacío detectado puede inspirar la creación de un nuevo curso. Siguiendo el ejemplo, desde aulamarketing.digital podríamos lanzar talleres prácticos intensivos, sesiones de mentoría personalizada o una plantilla \"paso a paso\" para resolver ese problema específico. Esta innovación no nace de una idea interna, sino de una necesidad real y documentada del usuario, lo que multiplica sus probabilidades de éxito.\nSegmentación en base a comportamiento: El CJM nos permite segmentar a nuestra audiencia por lo que hacen y dónde se encuentran en su viaje. Podemos crear un segmento de usuarios como Ana que han asistido a un webinar (alta intención de acceso a un curso) pero que no se han inscrito como alumnas, y dirigirles una campaña de retargeting diferente a la de aquellos que solo han visitado la página de inicio.\nHiper-personalización de campañas: Con estos segmentos conductuales, podemos personalizar nuestras acciones de marketing. En campañas de email marketing podríamos enviar una secuencia específica para quienes descargaron una guía, diferente a la de quienes abandonaron un carrito. En relación a social ads sería interesante crear audiencias personalizadas en Meta o Google para impactar a usuarios en la fase de consideración con testimonios, en lugar de anuncios genéricos y en SEM podríamos mostrar banners con ofertas específicas a usuarios que han mostrado un patrón de comportamiento concreto, optimizando la relevancia y la eficiencia de la inversión publicitaria.\nMejora de la experiencia de usuario (UX) y la usabilidad: Esta es una de las aplicaciones más visibles y con retorno más inmediato. El CJM funciona como una fotografía detallada de nuestro ecosistema digital, revelando puntos débiles que muchas veces pasan desapercibidos. En cada etapa estableceremos las métricas asociadas y en base a ellas podremos evaluar de forma detallada si Ana está siguiendo los pasos de la ruta, cuáles son más eficientes y cuáles podrían estar generando fricciones.\nIdentificación de fricciones y puntos de dolor: Acompañar a Ana en su recorrido nos permite identificar los momentos que la frustran: ¿el formulario de inscripción a un webinar es excesivamente largo?, ¿los costes aparecen demasiado tarde en el proceso de compra?, ¿la información clave está demasiado oculta? Estos son ejemplos de obstáculos que pueden provocar abandono. Un análisis riguroso podría revelar, por ejemplo, que Ana abandona el carrito de compra porque la interfaz no es clara desde su móvil, dispositivo desde el que se realiza el 65 % del comercio digital. Este tipo de insights marcan la diferencia.\nOptimización de embudos de conversión: Cada etapa del customer journey map se puede alinear con una fase del embudo de marketing (TOFU, MOFU, BOFU) de las que hablaremos más adelante en este capítulo. Si, por ejemplo, detectamos un alto abandono en la fase de consideración, el CJM nos invita a hacernos preguntas fundamentales: ¿Estamos transmitiendo nuestra propuesta de valor con suficiente claridad? ¿Nuestro contenido realmente conecta y persuade? ¿La experiencia de navegación es fluida y rápida?\nA partir de ahora ya estamos en posición de profundizar en los elementos del CJM y concretamente ¿por qué son importantes ahora que Ana quiere crear su propio mapa? Luego te mostramos un ejemplo simple para que puedas comprender mejor cómo conectarlo con el estado de Ana y cómo ella interactúa en cada fase con los diferentes canales de aulamarketing.digital.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c03-h10",
+        "c03-h11"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c03-s3",
+      "numero": "3",
+      "titulo": "Componentes esenciales en el customer journey map",
+      "pagina_pdf": 48,
+      "pagina_libro": 43,
+      "texto": "Para que un CJM sea realmente útil, debe estar compuesto por varios elementos clave que, analizados en conjunto, nos ofrecen una visión 360 grados de la experiencia del usuario. Imagínalos como las piezas de un puzzle que, al unirse, revelan la imagen completa.\n[Tabla 1. Descripción de elementos del customer journey map → transcrita en figuras_tablas c03-f01]",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [
+        "c03-f01"
+      ],
+      "ids_definiciones": [
+        "c03-d03",
+        "c03-d04",
+        "c03-d05",
+        "c03-d06",
+        "c03-d07",
+        "c03-d08",
+        "c03-d09"
+      ]
+    },
+    {
+      "id": "c03-s4",
+      "numero": "4",
+      "titulo": "Fases del customer journey map",
+      "pagina_pdf": 49,
+      "pagina_libro": 44,
+      "texto": "Ahora que ya conocemos las etapas principales, daremos un paso más. Cada etapa se corresponde con un estado del usuario en el que podemos predecir sus acciones para anticiparnos y elaborar nuestra estrategia de marketing digital alineada con sus necesidades. ¿Recuerdas que hemos introducido el concepto de empatía? El CJM nos da la respuesta de qué tipo de contenido y en qué canales deberíamos publicarlo, convirtiéndose en el mejor briefing.\nFase de Conciencia: Tu buyer persona tiene un problema, pero no conoce la solución ni las marcas que ofrecen esta solución. En esta etapa, los canales a través de los que la marca tiene la posibilidad de impactar son las redes sociales, la publicidad o las recomendaciones de otros usuarios, siendo finalmente el posicionamiento SEO del contenido del sitio web lo que conectará potencialmente con la solución ofrecida por la marca.\nFase de Consideración: Ahora que tu buyer ya conoce la marca y está evaluando opciones, necesita profundidad y pruebas de autoridad. Aquí juegan un papel relevante las muestras de credibilidad del sitio web, el posicionamiento SEO para contenido de valor relacionado, la integración de newsletter y secuencias de email marketing alineadas con sus intereses, colaboraciones con expertos, testimoniales y reseñas de otros clientes en redes sociales o el retargeting en la publicidad online a través de SEM o social ads.\nFase de Compra: El buyer ya está a punto de decidirse por un producto o servicio. La comunicación en las páginas de venta del sitio web debe ser clara, persuasiva y generar confianza. Las demostraciones del producto en redes sociales y el sitio web, los testimoniales y las llamadas a la acción directas son cruciales, además de disponer de pasarelas de pago seguras para completar el pago sin fricciones.\nFase de Fidelización: Ya has conseguido captar al buyer como cliente, enhorabuena. Ahora es el momento de que saque el máximo partido del producto o servicio y obtenga el mayor valor posible en su experiencia. En esta etapa buscamos que se sienta parte de la comunidad así que utilizaremos las redes sociales como foro y para convertirla en una embajadora de la marca. En esta etapa el email marketing es un canal clave para generar una relación basada en la aportación de valor más allá de la compra, buscamos una integración con la marca.\nFase de Recomendación: Nuestra clienta está satisfecha e ilusionada por compartir su experiencia. Aquí, los canales más utilizados serán el email y las redes sociales. Le enviaremos invitaciones a dejar reseñas, programas de referidos, publicaciones destacando historias de éxito y contenido social que sea fácilmente compartible (como citas, logros o “antes y después”) que ayuden a amplificar su voz y fortalecer la reputación de la marca a través de la prueba social.\n¿Comprendes ahora por qué el customer journey map puede ayudarnos a lanzar nuestra estrategia de marketing digital de forma mucho más efectiva?",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c03-d10",
+        "c03-d11",
+        "c03-d12",
+        "c03-d13",
+        "c03-d14"
+      ]
+    },
+    {
+      "id": "c03-s5",
+      "numero": "5",
+      "titulo": "Herramientas y asistencia IA para la generación del customer journey map",
+      "pagina_pdf": 49,
+      "pagina_libro": 44,
+      "texto": "Ahora que ya hemos desarrollado nuestro customer journey en papel te invitamos a que pongas en práctica el uso de herramientas que te faciliten la integración de cada paso. Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web.\n✐ Herramientas para la generación de un CJM\nMiro | UXPressia | Smaply | Hubspot CJM | BoardMix\n✐ Herramientas para la generación de un buyer persona\nHubspot | Edit.org | RockContent | Xtensio Persona\nPor otro lado vamos a incluir una selección de herramientas de inteligencia artificial que nos ayudarán como asistente para la creación del customer journey map. En el proceso de creación del CJM y de los diferentes perfiles de buyer persona, es interesante que nos apoyemos en LLM e incluso en herramientas de generación de imágenes que nos permitan generar una visión más precisa. Comenzaremos en Gemini 3.1 Pro o en ChatGPT solicitando que nos apoye en el desarrollo de nuestro buyer persona en función de nuestro modelo de negocio, marca, producto, servicio o propuesta de valor. Utiliza este prompt para generarlo “Actúa como un Lead UX Researcher y Estratega de Marketing de Respuesta Directa. Necesito definir los Buyer Personas para mi negocio, pero no quiero perfiles demográficos superficiales. Quiero entender los diferentes 'ángulos de venta' y las motivaciones psicológicas profundas que harían que distintos tipos de clientes compren. Contexto de mi negocio: Modelo de negocio: [Ej: B2B SaaS de suscripción mensual / B2C E-commerce de venta directa] Producto/Servicio: [Describe qué vendes exactamente] Propuesta de valor: [Qué problema resuelves y qué te hace diferente/mejor] Ciclo de vida del producto: [Ej: Lanzamiento (buscamos early adopters) / Crecimiento / Madurez (buscamos robar cuota de mercado)] Identidad de marca: [Ej: Tono rebelde y cercano / Tono premium y exclusivo / Tono técnico y corporativo] Tu tarea: Basándote en estos 5 parámetros, genera de 2 a 3 perfiles de Buyer Persona totalmente distintos. Cada perfil debe representar un 'ángulo' diferente por el cual el cliente valoraría nuestra propuesta de valor (por ejemplo: uno puede comprar por ahorrar tiempo, otro por estatus y otro por miedo a equivocarse). Restricciones innegociables: Evita los clichés de marketing (ej: 'le gusta la calidad'). Céntrate en la metodología 'Jobs-to-be-Done': qué trabajo están 'contratando' a mi producto para que haga en sus vidas. Asegúrate de que los perfiles sean coherentes con nuestra Identidad de Marca y el Ciclo de Vida de nuestro producto. Formato de salida esperado (Para cada Persona): Nombre y Arquetipo: (Ej: Carlos, el optimizador desesperado). El 'Ángulo' o Job-to-be-Done: (Por qué nuestra propuesta de valor encaja específicamente con él, en 2 líneas). Dolor principal y Objeción: (Qué le quita el sueño y qué excusa pondría para NO comprarnos). El Gatillo (Trigger): (Qué evento exacto en su vida o trabajo hace que pase de 'no interesarle' a 'necesitar comprar hoy'). Mensaje clave (Copywriting): (Escribe un titular de 1 línea, redactado con el tono de nuestra marca, que captaría su atención instantáneamente).”\nA partir de aquí, valoraremos con nuestro asistente, teniendo en cuenta cuáles son los canales en los que tenemos presencia y en los que buscamos tenerla, cuáles serían los más adecuados para dirigirnos al buyer persona. Lo haremos con la siguiente consulta en la que completaremos nuestros datos en los espacios entre corchetes “Actúa como un Especialista en Experiencia de Usuario (UX) y Estratega de Negocios Digitales. Mi empresa es una pyme con recursos limitados y necesito diseñar un Customer Journey Map realista y ejecutable. Contexto de mi negocio: Modelo de negocio: [Ej: B2C E-commerce, Servicios locales B2B, Suscripción...] Productos/Servicios: [Describe brevemente qué vendes y su precio medio] Buyer Persona: [Describe a tu cliente ideal: edad, dolores, deseos, nivel digital] Canales disponibles: [Ej: Solo Instagram y una web básica, o WhatsApp y Email] Capacidad de inversión (Tiempo/Dinero): [Ej: 300€/mes en anuncios y 5 horas semanales mías] Tu tarea: Diseña un Customer Journey Map de 4 fases (Descubrimiento, Consideración, Compra y Retención) adaptado estrictamente a mis recursos. Si no tengo presupuesto para grandes producciones, no propongas estrategias complejas. Formato de salida obligatorio: Para cada una de las 4 fases, preséntame la siguiente estructura: FASE [Nombre de la Fase]: Qué hace y piensa el cliente: (1-2 frases). El punto de contacto clave: (Cuál de mis canales disponibles debemos usar aquí). Recursos mínimos a fabricar: (Qué contenido o material exacto debo crear. Ej: '1 Reel de 15 seg', '1 PDF de 2 páginas'). Tu turno (Espacio de trabajo): Genera 2 preguntas estratégicas con espacios en blanco [ Completa aquí: ____________ ] para que yo, como dueño del negocio, decida el enfoque final o el mensaje de esa fase.”\nSi quieres ponérselo un poco más difícil y que te proponga un plan más a corto plazo y directo, lánzale este prompt y veamos qué ocurre “Actúa como un Growth Hacker y experto en Respuesta Directa. Olvida los Customer Journeys largos y corporativos. Soy una pequeña empresa y necesito el 'Camino Más Corto' (Minimum Viable Journey) hacia la primera venta, minimizando al extremo la creación de contenido. Contexto de mi negocio: Producto a vender: [Inserta producto y precio] Buyer Persona: [Inserta el dolor principal del cliente y quién es] Presupuesto y herramientas: [Inserta presupuesto y herramientas disponibles] Tu tarea: Diseña un embudo de conversión de máximo 3 pasos directos. El objetivo es captar la atención de este perfil y llevarlo a la compra o contacto en menos de 24 horas desde que nos descubre. Restricciones innegociables: Prohibido proponer estrategias de SEO a largo plazo, blogs de nutrición, o secuencias de 10 emails. Identifica solo 1 activo de captación (Ej: Un anuncio hiper-específico), 1 activo de confianza (Ej: Una landing page de 1 pantalla) y 1 método de cierre (Ej: Botón de WhatsApp). Formato de salida esperado: El Mapa del Camino Corto: Diagrama en texto de los 3 pasos exactos (Paso 1 -> Paso 2 -> Paso 3). La 'Lista de la Compra': Inventario estricto de los ÚNICOS 3 o 4 elementos que tengo que crear hoy para que esto funcione. El 'Gancho' Principal: Redacta 3 opciones de mensaje principal (Copy) agresivo y directo al dolor del cliente para usar en el Paso 1.”\nUna vez diseñado este customer journey, podríamos llevar todo ese material directamente a un modelo de imágenes generativo para que lo diseñe de manera única y puedas verlo en el momento, en lugar de acudir a una de las plataformas mencionadas previamente. Si quieres probar, te recomendamos que lo hagas accediendo a Gemini 3.1 Pro en el modo Crear Imagen con Nano Banana 2 añadiendo el siguiente prompt modificado con los ajustes adaptados a tu modelo de negocio: “Actúa como un especialista en Diseño de Infografías Profesionales y Visualización de Datos para Negocios. Tu tarea es generar una infografía completa, limpia y detallada de un Customer Journey Map de 4 fases para una pyme que vende [modelo de negocio]. El estilo debe ser moderno, corporativo-amigable, estilo arte vectorial plano (flat design), con una paleta de colores vibrante pero profesional (azules, naranjas y verdes suaves). Debe ser muy fácil de leer y entender de un vistazo. Estructura visual obligatoria (Layout): Diseña una línea de tiempo horizontal dividida claramente en 4 paneles o columnas numeradas. En la parte superior, cada columna debe tener un icono grande y el título de la fase. Debajo, debe haber ilustraciones detalladas de los siguientes elementos: Fase 1: DESCUBRIMIENTO Icono: Un megáfono o un imán. Ilustración: Un usuario (Buyer Persona joven y ocupada) mirando el teléfono con una bombilla encendida sobre la cabeza. Texto: [texto a completar]. Activos: Un icono de anuncio de Instagram (Reel) y un PDF de 2 páginas. Espacio de trabajo: Una caja con borde punteado que dice [ Rellenar: Mi Gancho Principal ]. Fase 2: CONSIDERACIÓN. Icono: Una balanza o unas gafas de lupa. Ilustración: El usuario comparando en su portátil fotos de diferentes [producto o servicio]. Texto: 'Compara calidad vs. precio'. Activos: Un icono de una landing page móvil y un botón de 'Ver Menú'. Espacio de trabajo: Una caja punteada que dice [ Rellenar: Mi Prueba Social ]. Fase 3: COMPRA. Icono: Un carrito de compra con una tarjeta de crédito. Ilustración: El usuario sonriendo, haciendo clic en 'Pagar'. Un email de confirmación volando. Texto: '¡Decidido! Lo pruebo.'. Activos: Iconos de Checkout rápido, Stripe/PayPal y un email de bienvenida. Espacio de trabajo: Una caja punteada que dice [ Rellenar: Mi Oferta de Bienvenida ]. Fase 4: RETENCIÓN. Icono: Un corazón o un trofeo de fidelidad. Ilustración: El usuario feliz [probando el producto o servicio]. Una notificación en el móvil. Texto: '¡Encantado! Quiero repetir.'. Activos: Un icono de WhatsApp Business y un código de cupón de descuento. Espacio de trabajo: Una caja punteada que dice [ Rellenar: Mi Programa de Puntos ]. Restricciones visuales adicionales: El fondo debe ser claro y minimalista. La composición debe ser lineal y fluir de izquierda a derecha. Asegúrate de incluir los espacios en blanco [ ] explícitamente dentro de la infografía.”\nAunque la propuesta del asistente realmente encaje con tus necesidades, te recomendamos que trabajes sobre la base de herramientas como Miró o Smaply, como recomendamos previamente, ya que necesitas consolidar todos estos conceptos y conocimientos, así como valorar si quieres incorporar alguna otra capa de valor, algún otro canal o abordar la propuesta desde otra perspectiva. Recuerda que las herramientas de inteligencia artificial o el apoyo con el asistente que te facilitamos buscan ayudarte a reducir los tiempos de desarrollo del producto final, pero en ningún caso pretendemos que sustituyan tu propio criterio. Por lo tanto, si hay algo con lo que no estás de acuerdo al solicitar apoyo al asistente, por favor, vuelve a pedirle más información para que todo tenga el sentido que estás buscando.\nHemos avanzado en conceptos relevantes a lo largo de este capítulo, aunque nos falta algo indispensable, es importante que hagamos un ejercicio rápido de revisión: hemos creado el buyer persona y profundizado en el customer journey como método para crear un briefing conectado a Ana, nuestra buyer. En este momento todavía nos falta materializar completamente el proceso, por lo que en el siguiente punto profundizaremos con todo detalle para que puedas replicarlo.",
+      "subsecciones": [],
+      "ids_prompts": [
+        "c03-p01",
+        "c03-p02",
+        "c03-p03",
+        "c03-p04"
+      ],
+      "ids_herramientas": [
+        "c03-h01",
+        "c03-h02",
+        "c03-h03",
+        "c03-h04",
+        "c03-h05",
+        "c03-h06",
+        "c03-h07",
+        "c03-h08",
+        "c03-h09",
+        "c03-h12",
+        "c03-h13",
+        "c03-h14",
+        "c03-h15",
+        "c03-h16"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    },
+    {
+      "id": "c03-s6",
+      "numero": "6",
+      "titulo": "Construyendo el customer journey map de aulamarketing.digital",
+      "pagina_pdf": 52,
+      "pagina_libro": 47,
+      "texto": "Ahora, vamos a “arremangarnos” y aplicar todo lo aprendido. Construiremos juntos, paso a paso, el CJM de nuestro proyecto, aulamarketing.digital, centrándonos en nuestra buyer persona, Ana.\nPaso 1: Construcción del Buyer Persona - Conociendo a Ana en profundidad. Para mapear su viaje, primero debemos entender quién es. Basándonos en nuestra investigación, previamente (capítulo 1) hemos creado su perfil. Recordemos que nos hemos basado en la redacción de perfil socio-demográfico, necesidades y motivaciones, comportamiento digital, formato preferido, perfil de búsqueda, evaluación del tipo de contenido y dispositivo clave.\nPaso 2: Mapeo de las Etapas de Ana. Ahora, sigamos a Ana en su viaje para convertirse en alumna y embajadora de aulamarketing.digital.\nEtapa de Soñar | Inspiración / Conciencia: Está navegando por TikTok y ve un Reel de un micro-influencer de marketing que explica \"3 prompts de IA que te ahorrarán 10 horas de trabajo\". Busca en Google \"tendencias marketing digital 2026\". Se une a un grupo de LinkedIn sobre IA. ¿Cuáles son sus pensamientos y emociones? \"¡Wow, no sabía que se podía hacer eso! Me estoy quedando atrás\". Siente una mezcla de curiosidad, inspiración y un poco de ansiedad por la necesidad de actualizarse. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Contenido \"Snack\" en Redes Sociales: Publicaremos vídeos cortos y con ganchos visuales potentes que resuelvan una duda muy específica o muestren una táctica novedosa.\n✓ Colaboraciones con Micro-influencers: Trabajar con creadores de contenido que ya tienen la confianza de Ana para que hablen de nosotros de forma auténtica.\n✓ SEO para Descubrimiento: Optimizar artículos de blog para términos de búsqueda informativos como \"¿cómo usar la IA en marketing?\".\nEtapa de Planificar | Consideración / Investigación: Ana ya conoce aulamarketing.digital. Visita nuestra web. Busca el perfil de los profesores en LinkedIn. Lee las descripciones de los cursos. Busca reseñas o testimonios. Se suscribe a nuestra newsletter para descargar una \"Guía Práctica de IA para Marketers\". ¿Cuáles son sus pensamientos y emociones? \"¿Será esto realmente práctico o más teoría? ¿Quiénes son estos profesores? ¿Qué dicen otros alumnos?\". Siente interés y esperanza, pero también escepticismo. Necesita pruebas y confianza. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Webinars gratuitos: Ofrecer un webinar detallado sobre \"Cómo crear tu primer Customer Journey Map con ayuda de la IA\", demostrando nuestro expertise en directo.\n✓ Página de \"Equipo\" transparente: Mostrar los perfiles de nuestros profesores universitarios, destacando su experiencia práctica y académica.\n✓ Contenido de valor profundo: Publicar casos de estudio, guías descargables y artículos de blog extensos que demuestren nuestro dominio del tema.\n✓ Email nurturing: Una vez que descarga la guía, recibe una secuencia de 3 emails con más consejos prácticos, invitándola al webinar y compartiendo un testimonio en vídeo.\nEtapa de Reservar | Decisión / Compra: Ana está convencida. Decide inscribirse en un taller práctico de fin de semana. Entra en la página de pago. ¿Cuáles son sus pensamientos y emociones? \"¡Esto es lo que necesito! Espero que el proceso de pago sea fácil y seguro\". Siente entusiasmo y decisión, pero cualquier fricción puede generar duda. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Proceso de compra optimizado para móvil: Un checkout sencillo, rápido y 100% funcional en su smartphone.\n✓ Llamadas a la acción (CTAs) claras y persuasivas: Botones como \"Asegura tu Plaza Ahora\" o \"Empieza a Transformar tu Carrera Hoy\".\n✓ Prueba social en el momento clave: Mostrar testimonios o el número de inscritos directamente en la página de pago para reforzar la confianza.\n✓ Retargeting ético: Si abandona el proceso, un email o anuncio recordatorio amable y no invasivo, quizás ofreciendo ayuda o resolviendo una duda común.\nEtapa de Experimentar | Retención / Servicio: Ana asiste al taller. Participa en las sesiones prácticas. Se une al grupo privado de la comunidad para hacer preguntas y compartir su proyecto. ¿Cuáles son sus pensamientos y emociones? \"Esto es incluso mejor de lo que esperaba. Estoy aprendiendo muchísimo y conectando con gente como yo\". Siente satisfacción, compromiso y pertenencia. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Cumplir y superar la promesa: La calidad de la formación es el pilar fundamental. Debe ser práctica, relevante y bien impartida.\n✓ Construcción de comunidad activa: Fomentar la interacción en un foro o grupo exclusivo de alumnos, donde los profesores también participen. Crear un espacio seguro para el aprendizaje colaborativo.\n✓ Comunicación proactiva: Enviar emails de seguimiento con recursos adicionales, resúmenes de las sesiones y recordatorios útiles.\nEtapa de Recordar | Fidelización / Promoción: Ana: Termina el taller y aplica con éxito lo aprendido en su trabajo. Recibe un email de aulamarketing.digital pidiendo su opinión. Deja una reseña positiva en Google y comparte un post en LinkedIn sobre su experiencia con el hashtag #AulaMarketingDigital. ¿Cuáles son sus pensamientos y emociones? \"Ha sido una de las mejores inversiones que he hecho. Tengo que contárselo a mis colegas\". Siente orgullo, gratitud y lealtad. Se ha convertido en una embajadora. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Solicitud de feedback y reseñas: Pedir activamente su opinión demuestra que la valoramos y nos ayuda a mejorar y a generar prueba social.\n✓ Fomento del contenido generado por el usuario (UGC): Incentivar que los alumnos compartan sus proyectos y logros. El UGC es la forma más auténtica de marketing.\n✓ Programas de fidelización: Ofrecerle un descuento exclusivo para un curso avanzado o acceso prioritario a nuevos talleres.\n✓ Newsletter de valor continuo: Mantenerla en nuestra lista de correo, pero no para bombardearla con ofertas, sino para seguir aportándole valor con tendencias y consejos, manteniendo la relación viva.\nPaso 3: Identificación de puntos de dolor y oportunidades. Este mapa nos permite ahora realizar un diagnóstico estratégico, basado en el análisis DAFO, para anticipar problemas y capitalizar nuestras fortalezas.\n✕ Punto de dolor potencial: La \"fatiga de la IA\" y la desconfianza\n✓ Solución: Nuestra comunicación debe pivotar sobre el \"hiperrealismo\". Usaremos la IA para optimizar procesos internos, pero nuestro contenido público destacará por el factor humano: el expertise de los profesores, las historias reales de los alumnos y el \"detrás de cámaras\" de nuestro proyecto. La IA es nuestra herramienta, pero la humanidad es parte esencial de nuestra marca.\n✕ Punto de dolor potencial: La corta capacidad de atención de la audiencia.\n✓ Solución: Nuestra estrategia de contenidos debe ser dual. Por un lado, contenido \"snack\" (vídeos cortos, infografías) para captar la atención en la fase de conciencia. Por otro lado, contenido más largo y profundo (webinars, guías) para generar confianza en la fase de consideración. La clave es dar el contenido adecuado en el momento adecuado.\nOportunidad clave: La creciente demanda de formación práctica y flexible.\n✓ Este es nuestro núcleo. Todo nuestro marketing debe girar en torno a la promesa de \"formación práctica que puedes aplicar mañana\". Cada testimonio, cada caso de estudio y cada descripción de curso debe reforzar esta idea, destacando la credibilidad de nuestro equipo docente universitario.\nOportunidad clave: La necesidad de construir audiencias propias ante la crisis de las cookies.\n✓ La captación de emails a través de lead magnet de alto valor es una prioridad absoluta. Nuestra newsletter no será un canal de venta, sino nuestro principal canal de construcción de comunidad y confianza, lo que nos dará una ventaja competitiva sostenible y reducirá nuestra dependencia de la publicidad de pago a largo plazo.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c03-d01",
+      "termino": "Customer Journey Map (CJM)",
+      "definicion": "En esencia, un CJM es una representación visual de la experiencia de un cliente con una organización. Se trata de un diagrama que ilustra cada paso, emoción, canal y momento de interacción en la relación entre un usuario y una marca.",
+      "id_seccion": "c03-s1",
+      "pagina_pdf": 46
+    },
+    {
+      "id": "c03-d02",
+      "termino": "Fases del viaje del usuario",
+      "definicion": "Como todo mapa, el CJM se construye a partir de distintos tramos del recorrido, que en este caso se representan como fases del viaje del usuario: conciencia, consideración, compra, retención, fidelización y recomendación.",
+      "id_seccion": "c03-s1",
+      "pagina_pdf": 46
+    },
+    {
+      "id": "c03-d03",
+      "termino": "Buyer Persona",
+      "definicion": "Representación semi-ficticia de tu cliente ideal, basada en datos reales sobre su demografía, comportamiento, motivaciones y metas.",
+      "id_seccion": "c03-s3",
+      "pagina_pdf": 48
+    },
+    {
+      "id": "c03-d04",
+      "termino": "Fases del viaje",
+      "definicion": "Las etapas lógicas por las que atraviesa el cliente. Comúnmente incluyen: conciencia, consideración, compra, retención y fidelización y recomendación.",
+      "id_seccion": "c03-s3",
+      "pagina_pdf": 48
+    },
+    {
+      "id": "c03-d05",
+      "termino": "Puntos de contacto (Touchpoints)",
+      "definicion": "Todas las interacciones específicas entre el cliente y la marca a lo largo de los diferentes canales (web, redes sociales, email, chatbot, etc.).",
+      "id_seccion": "c03-s3",
+      "pagina_pdf": 48
+    },
+    {
+      "id": "c03-d06",
+      "termino": "Acciones del cliente",
+      "definicion": "Las tareas y comportamientos concretos que el cliente realiza en cada punto de contacto (ej: buscar en Google, leer una reseña, añadir al carrito).",
+      "id_seccion": "c03-s3",
+      "pagina_pdf": 48
+    },
+    {
+      "id": "c03-d07",
+      "termino": "Pensamientos y emociones",
+      "definicion": "El componente más empático. ¿Qué piensa Ana en cada momento? ¿Qué siente? ¿Frustración, confianza, confusión, alegría?",
+      "id_seccion": "c03-s3",
+      "pagina_pdf": 48
+    },
+    {
+      "id": "c03-d08",
+      "termino": "Puntos de dolor",
+      "definicion": "Las fricciones, obstáculos o momentos negativos que experimenta el cliente. Son los problemas que debemos resolver con urgencia.",
+      "id_seccion": "c03-s3",
+      "pagina_pdf": 48
+    },
+    {
+      "id": "c03-d09",
+      "termino": "Oportunidades de mejora",
+      "definicion": "Ideas y acciones concretas que surgen del análisis de los puntos de dolor y las emociones del cliente para optimizar la experiencia.",
+      "id_seccion": "c03-s3",
+      "pagina_pdf": 48
+    },
+    {
+      "id": "c03-d10",
+      "termino": "Fase de Conciencia",
+      "definicion": "Fase de Conciencia: Tu buyer persona tiene un problema, pero no conoce la solución ni las marcas que ofrecen esta solución. En esta etapa, los canales a través de los que la marca tiene la posibilidad de impactar son las redes sociales, la publicidad o las recomendaciones de otros usuarios, siendo finalmente el posicionamiento SEO del contenido del sitio web lo que conectará potencialmente con la solución ofrecida por la marca.",
+      "id_seccion": "c03-s4",
+      "pagina_pdf": 49
+    },
+    {
+      "id": "c03-d11",
+      "termino": "Fase de Consideración",
+      "definicion": "Fase de Consideración: Ahora que tu buyer ya conoce la marca y está evaluando opciones, necesita profundidad y pruebas de autoridad. Aquí juegan un papel relevante las muestras de credibilidad del sitio web, el posicionamiento SEO para contenido de valor relacionado, la integración de newsletter y secuencias de email marketing alineadas con sus intereses, colaboraciones con expertos, testimoniales y reseñas de otros clientes en redes sociales o el retargeting en la publicidad online a través de SEM o social ads.",
+      "id_seccion": "c03-s4",
+      "pagina_pdf": 49
+    },
+    {
+      "id": "c03-d12",
+      "termino": "Fase de Compra",
+      "definicion": "Fase de Compra: El buyer ya está a punto de decidirse por un producto o servicio. La comunicación en las páginas de venta del sitio web debe ser clara, persuasiva y generar confianza. Las demostraciones del producto en redes sociales y el sitio web, los testimoniales y las llamadas a la acción directas son cruciales, además de disponer de pasarelas de pago seguras para completar el pago sin fricciones.",
+      "id_seccion": "c03-s4",
+      "pagina_pdf": 49
+    },
+    {
+      "id": "c03-d13",
+      "termino": "Fase de Fidelización",
+      "definicion": "Fase de Fidelización: Ya has conseguido captar al buyer como cliente, enhorabuena. Ahora es el momento de que saque el máximo partido del producto o servicio y obtenga el mayor valor posible en su experiencia. En esta etapa buscamos que se sienta parte de la comunidad así que utilizaremos las redes sociales como foro y para convertirla en una embajadora de la marca. En esta etapa el email marketing es un canal clave para generar una relación basada en la aportación de valor más allá de la compra, buscamos una integración con la marca.",
+      "id_seccion": "c03-s4",
+      "pagina_pdf": 49
+    },
+    {
+      "id": "c03-d14",
+      "termino": "Fase de Recomendación",
+      "definicion": "Fase de Recomendación: Nuestra clienta está satisfecha e ilusionada por compartir su experiencia. Aquí, los canales más utilizados serán el email y las redes sociales. Le enviaremos invitaciones a dejar reseñas, programas de referidos, publicaciones destacando historias de éxito y contenido social que sea fácilmente compartible (como citas, logros o “antes y después”) que ayuden a amplificar su voz y fortalecer la reputación de la marca a través de la prueba social.",
+      "id_seccion": "c03-s4",
+      "pagina_pdf": 49
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c03-p01",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "pagina_libro": 45,
+      "origen": "texto",
+      "texto": "Actúa como un Lead UX Researcher y Estratega de Marketing de Respuesta Directa. Necesito definir los Buyer Personas para mi negocio, pero no quiero perfiles demográficos superficiales. Quiero entender los diferentes 'ángulos de venta' y las motivaciones psicológicas profundas que harían que distintos tipos de clientes compren. Contexto de mi negocio: Modelo de negocio: [Ej: B2B SaaS de suscripción mensual / B2C E-commerce de venta directa] Producto/Servicio: [Describe qué vendes exactamente] Propuesta de valor: [Qué problema resuelves y qué te hace diferente/mejor] Ciclo de vida del producto: [Ej: Lanzamiento (buscamos early adopters) / Crecimiento / Madurez (buscamos robar cuota de mercado)] Identidad de marca: [Ej: Tono rebelde y cercano / Tono premium y exclusivo / Tono técnico y corporativo] Tu tarea: Basándote en estos 5 parámetros, genera de 2 a 3 perfiles de Buyer Persona totalmente distintos. Cada perfil debe representar un 'ángulo' diferente por el cual el cliente valoraría nuestra propuesta de valor (por ejemplo: uno puede comprar por ahorrar tiempo, otro por estatus y otro por miedo a equivocarse). Restricciones innegociables: Evita los clichés de marketing (ej: 'le gusta la calidad'). Céntrate en la metodología 'Jobs-to-be-Done': qué trabajo están 'contratando' a mi producto para que haga en sus vidas. Asegúrate de que los perfiles sean coherentes con nuestra Identidad de Marca y el Ciclo de Vida de nuestro producto. Formato de salida esperado (Para cada Persona): Nombre y Arquetipo: (Ej: Carlos, el optimizador desesperado). El 'Ángulo' o Job-to-be-Done: (Por qué nuestra propuesta de valor encaja específicamente con él, en 2 líneas). Dolor principal y Objeción: (Qué le quita el sueño y qué excusa pondría para NO comprarnos). El Gatillo (Trigger): (Qué evento exacto en su vida o trabajo hace que pase de 'no interesarle' a 'necesitar comprar hoy'). Mensaje clave (Copywriting): (Escribe un titular de 1 línea, redactado con el tono de nuestra marca, que captaría su atención instantáneamente).",
+      "contexto_previo": "Comenzaremos en Gemini 3.1 Pro o en ChatGPT solicitando que nos apoye en el desarrollo de nuestro buyer persona en función de nuestro modelo de negocio, marca, producto, servicio o propuesta de valor. Utiliza este prompt para generarlo",
+      "contexto_posterior": "A partir de aquí, valoraremos con nuestro asistente, teniendo en cuenta cuáles son los canales en los que tenemos presencia y en los que buscamos tenerla, cuáles serían los más adecuados para dirigirnos al buyer persona.",
+      "herramienta_ia_indicada": [
+        "Gemini 3.1 Pro",
+        "ChatGPT"
+      ],
+      "marcadores_variables": [
+        "[Ej: B2B SaaS de suscripción mensual / B2C E-commerce de venta directa]",
+        "[Describe qué vendes exactamente]",
+        "[Qué problema resuelves y qué te hace diferente/mejor]",
+        "[Ej: Lanzamiento (buscamos early adopters) / Crecimiento / Madurez (buscamos robar cuota de mercado)]",
+        "[Ej: Tono rebelde y cercano / Tono premium y exclusivo / Tono técnico y corporativo]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c03-p02",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "pagina_libro": 45,
+      "origen": "texto",
+      "texto": "Actúa como un Especialista en Experiencia de Usuario (UX) y Estratega de Negocios Digitales. Mi empresa es una pyme con recursos limitados y necesito diseñar un Customer Journey Map realista y ejecutable. Contexto de mi negocio: Modelo de negocio: [Ej: B2C E-commerce, Servicios locales B2B, Suscripción...] Productos/Servicios: [Describe brevemente qué vendes y su precio medio] Buyer Persona: [Describe a tu cliente ideal: edad, dolores, deseos, nivel digital] Canales disponibles: [Ej: Solo Instagram y una web básica, o WhatsApp y Email] Capacidad de inversión (Tiempo/Dinero): [Ej: 300€/mes en anuncios y 5 horas semanales mías] Tu tarea: Diseña un Customer Journey Map de 4 fases (Descubrimiento, Consideración, Compra y Retención) adaptado estrictamente a mis recursos. Si no tengo presupuesto para grandes producciones, no propongas estrategias complejas. Formato de salida obligatorio: Para cada una de las 4 fases, preséntame la siguiente estructura: FASE [Nombre de la Fase]: Qué hace y piensa el cliente: (1-2 frases). El punto de contacto clave: (Cuál de mis canales disponibles debemos usar aquí). Recursos mínimos a fabricar: (Qué contenido o material exacto debo crear. Ej: '1 Reel de 15 seg', '1 PDF de 2 páginas'). Tu turno (Espacio de trabajo): Genera 2 preguntas estratégicas con espacios en blanco [ Completa aquí: ____________ ] para que yo, como dueño del negocio, decida el enfoque final o el mensaje de esa fase.",
+      "contexto_previo": "A partir de aquí, valoraremos con nuestro asistente, teniendo en cuenta cuáles son los canales en los que tenemos presencia y en los que buscamos tenerla, cuáles serían los más adecuados para dirigirnos al buyer persona. Lo haremos con la siguiente consulta en la que completaremos nuestros datos en los espacios entre corchetes",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Ej: B2C E-commerce, Servicios locales B2B, Suscripción...]",
+        "[Describe brevemente qué vendes y su precio medio]",
+        "[Describe a tu cliente ideal: edad, dolores, deseos, nivel digital]",
+        "[Ej: Solo Instagram y una web básica, o WhatsApp y Email]",
+        "[Ej: 300€/mes en anuncios y 5 horas semanales mías]",
+        "[Nombre de la Fase]",
+        "[ Completa aquí: ____________ ]"
+      ],
+      "referencia_a_salida_previa": "A partir de aquí, valoraremos con nuestro asistente",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c03-p03",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "pagina_libro": 45,
+      "origen": "texto",
+      "texto": "Actúa como un Growth Hacker y experto en Respuesta Directa. Olvida los Customer Journeys largos y corporativos. Soy una pequeña empresa y necesito el 'Camino Más Corto' (Minimum Viable Journey) hacia la primera venta, minimizando al extremo la creación de contenido. Contexto de mi negocio: Producto a vender: [Inserta producto y precio] Buyer Persona: [Inserta el dolor principal del cliente y quién es] Presupuesto y herramientas: [Inserta presupuesto y herramientas disponibles] Tu tarea: Diseña un embudo de conversión de máximo 3 pasos directos. El objetivo es captar la atención de este perfil y llevarlo a la compra o contacto en menos de 24 horas desde que nos descubre. Restricciones innegociables: Prohibido proponer estrategias de SEO a largo plazo, blogs de nutrición, o secuencias de 10 emails. Identifica solo 1 activo de captación (Ej: Un anuncio hiper-específico), 1 activo de confianza (Ej: Una landing page de 1 pantalla) y 1 método de cierre (Ej: Botón de WhatsApp). Formato de salida esperado: El Mapa del Camino Corto: Diagrama en texto de los 3 pasos exactos (Paso 1 -> Paso 2 -> Paso 3). La 'Lista de la Compra': Inventario estricto de los ÚNICOS 3 o 4 elementos que tengo que crear hoy para que esto funcione. El 'Gancho' Principal: Redacta 3 opciones de mensaje principal (Copy) agresivo y directo al dolor del cliente para usar en el Paso 1.",
+      "contexto_previo": "Si quieres ponérselo un poco más difícil y que te proponga un plan más a corto plazo y directo, lánzale este prompt y veamos qué ocurre",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Inserta producto y precio]",
+        "[Inserta el dolor principal del cliente y quién es]",
+        "[Inserta presupuesto y herramientas disponibles]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c03-p04",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 51,
+      "pagina_libro": 46,
+      "origen": "texto",
+      "texto": "Actúa como un especialista en Diseño de Infografías Profesionales y Visualización de Datos para Negocios. Tu tarea es generar una infografía completa, limpia y detallada de un Customer Journey Map de 4 fases para una pyme que vende [modelo de negocio]. El estilo debe ser moderno, corporativo-amigable, estilo arte vectorial plano (flat design), con una paleta de colores vibrante pero profesional (azules, naranjas y verdes suaves). Debe ser muy fácil de leer y entender de un vistazo. Estructura visual obligatoria (Layout): Diseña una línea de tiempo horizontal dividida claramente en 4 paneles o columnas numeradas. En la parte superior, cada columna debe tener un icono grande y el título de la fase. Debajo, debe haber ilustraciones detalladas de los siguientes elementos: Fase 1: DESCUBRIMIENTO Icono: Un megáfono o un imán. Ilustración: Un usuario (Buyer Persona joven y ocupada) mirando el teléfono con una bombilla encendida sobre la cabeza. Texto: [texto a completar]. Activos: Un icono de anuncio de Instagram (Reel) y un PDF de 2 páginas. Espacio de trabajo: Una caja con borde punteado que dice [ Rellenar: Mi Gancho Principal ]. Fase 2: CONSIDERACIÓN. Icono: Una balanza o unas gafas de lupa. Ilustración: El usuario comparando en su portátil fotos de diferentes [producto o servicio]. Texto: 'Compara calidad vs. precio'. Activos: Un icono de una landing page móvil y un botón de 'Ver Menú'. Espacio de trabajo: Una caja punteada que dice [ Rellenar: Mi Prueba Social ]. Fase 3: COMPRA. Icono: Un carrito de compra con una tarjeta de crédito. Ilustración: El usuario sonriendo, haciendo clic en 'Pagar'. Un email de confirmación volando. Texto: '¡Decidido! Lo pruebo.'. Activos: Iconos de Checkout rápido, Stripe/PayPal y un email de bienvenida. Espacio de trabajo: Una caja punteada que dice [ Rellenar: Mi Oferta de Bienvenida ]. Fase 4: RETENCIÓN. Icono: Un corazón o un trofeo de fidelidad. Ilustración: El usuario feliz [probando el producto o servicio]. Una notificación en el móvil. Texto: '¡Encantado! Quiero repetir.'. Activos: Un icono de WhatsApp Business y un código de cupón de descuento. Espacio de trabajo: Una caja punteada que dice [ Rellenar: Mi Programa de Puntos ]. Restricciones visuales adicionales: El fondo debe ser claro y minimalista. La composición debe ser lineal y fluir de izquierda a derecha. Asegúrate de incluir los espacios en blanco [ ] explícitamente dentro de la infografía.",
+      "contexto_previo": "Si quieres probar, te recomendamos que lo hagas accediendo a Gemini 3.1 Pro en el modo Crear Imagen con Nano Banana 2 añadiendo el siguiente prompt modificado con los ajustes adaptados a tu modelo de negocio:",
+      "contexto_posterior": "Aunque la propuesta del asistente realmente encaje con tus necesidades, te recomendamos que trabajes sobre la base de herramientas como Miró o Smaply, como recomendamos previamente, ya que necesitas consolidar todos estos conceptos y conocimientos, así como valorar si quieres incorporar alguna otra capa de valor, algún otro canal o abordar la propuesta desde otra perspectiva.",
+      "herramienta_ia_indicada": [
+        "Gemini 3.1 Pro (modo Crear Imagen)",
+        "Nano Banana 2"
+      ],
+      "marcadores_variables": [
+        "[modelo de negocio]",
+        "[texto a completar]",
+        "[ Rellenar: Mi Gancho Principal ]",
+        "[producto o servicio]",
+        "[ Rellenar: Mi Prueba Social ]",
+        "[ Rellenar: Mi Oferta de Bienvenida ]",
+        "[probando el producto o servicio]",
+        "[ Rellenar: Mi Programa de Puntos ]",
+        "[ ]"
+      ],
+      "referencia_a_salida_previa": "Una vez diseñado este customer journey, podríamos llevar todo ese material directamente a un modelo de imágenes generativo para que lo diseñe de manera única y puedas verlo en el momento, en lugar de acudir a una de las plataformas mencionadas previamente.",
+      "salida_mostrada_en_libro": null
+    }
+  ],
+  "herramientas_mencionadas": [
+    {
+      "id": "c03-h01",
+      "nombre": "Miro",
+      "bloque": "Herramientas para la generación de un CJM",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h02",
+      "nombre": "UXPressia",
+      "bloque": "Herramientas para la generación de un CJM",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h03",
+      "nombre": "Smaply",
+      "bloque": "Herramientas para la generación de un CJM",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h04",
+      "nombre": "Hubspot CJM",
+      "bloque": "Herramientas para la generación de un CJM",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h05",
+      "nombre": "BoardMix",
+      "bloque": "Herramientas para la generación de un CJM",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h06",
+      "nombre": "Hubspot",
+      "bloque": "Herramientas para la generación de un buyer persona",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h07",
+      "nombre": "Edit.org",
+      "bloque": "Herramientas para la generación de un buyer persona",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h08",
+      "nombre": "RockContent",
+      "bloque": "Herramientas para la generación de un buyer persona",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h09",
+      "nombre": "Xtensio Persona",
+      "bloque": "Herramientas para la generación de un buyer persona",
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 49,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Para ayudarte vamos a darte una lista con las primeras recomendaciones basadas en servicios digitales web."
+    },
+    {
+      "id": "c03-h10",
+      "nombre": "Meta (audiencias personalizadas)",
+      "bloque": null,
+      "id_seccion": "c03-s2",
+      "pagina_pdf": 47,
+      "descripcion_libro": "En relación a social ads sería interesante crear audiencias personalizadas en Meta o Google para impactar a usuarios en la fase de consideración con testimonios, en lugar de anuncios genéricos",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c03-h11",
+      "nombre": "Google (audiencias personalizadas)",
+      "bloque": null,
+      "id_seccion": "c03-s2",
+      "pagina_pdf": 47,
+      "descripcion_libro": "En relación a social ads sería interesante crear audiencias personalizadas en Meta o Google para impactar a usuarios en la fase de consideración con testimonios, en lugar de anuncios genéricos",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c03-h12",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "descripcion_libro": "Comenzaremos en Gemini 3.1 Pro o en ChatGPT solicitando que nos apoye en el desarrollo de nuestro buyer persona en función de nuestro modelo de negocio, marca, producto, servicio o propuesta de valor.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c03-h13",
+      "nombre": "ChatGPT",
+      "bloque": null,
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 50,
+      "descripcion_libro": "Comenzaremos en Gemini 3.1 Pro o en ChatGPT solicitando que nos apoye en el desarrollo de nuestro buyer persona en función de nuestro modelo de negocio, marca, producto, servicio o propuesta de valor.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c03-h14",
+      "nombre": "Nano Banana 2 (Gemini 3.1 Pro, modo Crear Imagen)",
+      "bloque": null,
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 51,
+      "descripcion_libro": "te recomendamos que lo hagas accediendo a Gemini 3.1 Pro en el modo Crear Imagen con Nano Banana 2",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c03-h15",
+      "nombre": "Miró",
+      "bloque": null,
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 51,
+      "descripcion_libro": "te recomendamos que trabajes sobre la base de herramientas como Miró o Smaply, como recomendamos previamente",
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c03-h16",
+      "nombre": "Smaply",
+      "bloque": null,
+      "id_seccion": "c03-s5",
+      "pagina_pdf": 51,
+      "descripcion_libro": "te recomendamos que trabajes sobre la base de herramientas como Miró o Smaply, como recomendamos previamente",
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    }
+  ],
+  "figuras_tablas": [
+    {
+      "id": "c03-f01",
+      "tipo": "tabla",
+      "numero": "Tabla 1",
+      "titulo": "Descripción de elementos del customer journey map",
+      "pagina_pdf": 48,
+      "pagina_libro": 43,
+      "id_seccion": "c03-s3",
+      "contenido": {
+        "columnas": [
+          "Componente Clave",
+          "Descripción Operativa",
+          "¿Por qué es importante para Ana?"
+        ],
+        "filas": [
+          [
+            "Buyer Persona",
+            "Representación semi-ficticia de tu cliente ideal, basada en datos reales sobre su demografía, comportamiento, motivaciones y metas.",
+            "Nos permite enfocar el mapa en un arquetipo específico, como Ana, haciendo el análisis más detallado y relevante."
+          ],
+          [
+            "Fases del viaje",
+            "Las etapas lógicas por las que atraviesa el cliente. Comúnmente incluyen: conciencia, consideración, compra, retención y fidelización y recomendación.",
+            "Ayuda a estructurar la narrativa y a entender que las necesidades de Ana no son las mismas cuando descubre un problema que cuando está a punto de comprar."
+          ],
+          [
+            "Puntos de contacto (Touchpoints)",
+            "Todas las interacciones específicas entre el cliente y la marca a lo largo de los diferentes canales (web, redes sociales, email, chatbot, etc.).",
+            "Nos permite identificar exactamente dónde y cómo estamos interactuando con Ana, y si esos puntos de contacto están alineados y son efectivos."
+          ],
+          [
+            "Acciones del cliente",
+            "Las tareas y comportamientos concretos que el cliente realiza en cada punto de contacto (ej: buscar en Google, leer una reseña, añadir al carrito).",
+            "Nos muestra lo que Ana hace, permitiéndonos analizar la usabilidad y la eficiencia de nuestros procesos digitales."
+          ],
+          [
+            "Pensamientos y emociones",
+            "El componente más empático. ¿Qué piensa Ana en cada momento? ¿Qué siente? ¿Frustración, confianza, confusión, alegría?",
+            "Es el corazón del CJM. Entender las emociones de Ana nos permite diseñar experiencias que no solo sean funcionales, sino también emocionalmente resonantes."
+          ],
+          [
+            "Puntos de dolor",
+            "Las fricciones, obstáculos o momentos negativos que experimenta el cliente. Son los problemas que debemos resolver con urgencia.",
+            "Identificar por qué Ana podría abandonar un proceso (ej: un formulario confuso) es el primer paso para aumentar la conversión y la satisfacción."
+          ],
+          [
+            "Oportunidades de mejora",
+            "Ideas y acciones concretas que surgen del análisis de los puntos de dolor y las emociones del cliente para optimizar la experiencia.",
+            "Transforma el CJM de un simple diagnóstico en un plan de acción estratégico para innovar y mejorar continuamente."
+          ]
+        ]
+      },
+      "origen": "texto"
+    }
+  ],
+  "ejemplo_aulamarketing": {
+    "id_seccion": "c03-s6",
+    "ids_secciones": [
+      "c03-s2",
+      "c03-s6"
+    ],
+    "nota": "El CJM de aulamarketing.digital se construye en texto (pasos y etapas con viñetas); no hay tabla ni figura del mapa en el capítulo. La sección 2 también ilustra cada uso del CJM con Ana y aulamarketing.digital (entregable c03-e01).",
+    "texto": "Ahora, vamos a “arremangarnos” y aplicar todo lo aprendido. Construiremos juntos, paso a paso, el CJM de nuestro proyecto, aulamarketing.digital, centrándonos en nuestra buyer persona, Ana.\nPaso 1: Construcción del Buyer Persona - Conociendo a Ana en profundidad. Para mapear su viaje, primero debemos entender quién es. Basándonos en nuestra investigación, previamente (capítulo 1) hemos creado su perfil. Recordemos que nos hemos basado en la redacción de perfil socio-demográfico, necesidades y motivaciones, comportamiento digital, formato preferido, perfil de búsqueda, evaluación del tipo de contenido y dispositivo clave.\nPaso 2: Mapeo de las Etapas de Ana. Ahora, sigamos a Ana en su viaje para convertirse en alumna y embajadora de aulamarketing.digital.\nEtapa de Soñar | Inspiración / Conciencia: Está navegando por TikTok y ve un Reel de un micro-influencer de marketing que explica \"3 prompts de IA que te ahorrarán 10 horas de trabajo\". Busca en Google \"tendencias marketing digital 2026\". Se une a un grupo de LinkedIn sobre IA. ¿Cuáles son sus pensamientos y emociones? \"¡Wow, no sabía que se podía hacer eso! Me estoy quedando atrás\". Siente una mezcla de curiosidad, inspiración y un poco de ansiedad por la necesidad de actualizarse. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Contenido \"Snack\" en Redes Sociales: Publicaremos vídeos cortos y con ganchos visuales potentes que resuelvan una duda muy específica o muestren una táctica novedosa.\n✓ Colaboraciones con Micro-influencers: Trabajar con creadores de contenido que ya tienen la confianza de Ana para que hablen de nosotros de forma auténtica.\n✓ SEO para Descubrimiento: Optimizar artículos de blog para términos de búsqueda informativos como \"¿cómo usar la IA en marketing?\".\nEtapa de Planificar | Consideración / Investigación: Ana ya conoce aulamarketing.digital. Visita nuestra web. Busca el perfil de los profesores en LinkedIn. Lee las descripciones de los cursos. Busca reseñas o testimonios. Se suscribe a nuestra newsletter para descargar una \"Guía Práctica de IA para Marketers\". ¿Cuáles son sus pensamientos y emociones? \"¿Será esto realmente práctico o más teoría? ¿Quiénes son estos profesores? ¿Qué dicen otros alumnos?\". Siente interés y esperanza, pero también escepticismo. Necesita pruebas y confianza. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Webinars gratuitos: Ofrecer un webinar detallado sobre \"Cómo crear tu primer Customer Journey Map con ayuda de la IA\", demostrando nuestro expertise en directo.\n✓ Página de \"Equipo\" transparente: Mostrar los perfiles de nuestros profesores universitarios, destacando su experiencia práctica y académica.\n✓ Contenido de valor profundo: Publicar casos de estudio, guías descargables y artículos de blog extensos que demuestren nuestro dominio del tema.\n✓ Email nurturing: Una vez que descarga la guía, recibe una secuencia de 3 emails con más consejos prácticos, invitándola al webinar y compartiendo un testimonio en vídeo.\nEtapa de Reservar | Decisión / Compra: Ana está convencida. Decide inscribirse en un taller práctico de fin de semana. Entra en la página de pago. ¿Cuáles son sus pensamientos y emociones? \"¡Esto es lo que necesito! Espero que el proceso de pago sea fácil y seguro\". Siente entusiasmo y decisión, pero cualquier fricción puede generar duda. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Proceso de compra optimizado para móvil: Un checkout sencillo, rápido y 100% funcional en su smartphone.\n✓ Llamadas a la acción (CTAs) claras y persuasivas: Botones como \"Asegura tu Plaza Ahora\" o \"Empieza a Transformar tu Carrera Hoy\".\n✓ Prueba social en el momento clave: Mostrar testimonios o el número de inscritos directamente en la página de pago para reforzar la confianza.\n✓ Retargeting ético: Si abandona el proceso, un email o anuncio recordatorio amable y no invasivo, quizás ofreciendo ayuda o resolviendo una duda común.\nEtapa de Experimentar | Retención / Servicio: Ana asiste al taller. Participa en las sesiones prácticas. Se une al grupo privado de la comunidad para hacer preguntas y compartir su proyecto. ¿Cuáles son sus pensamientos y emociones? \"Esto es incluso mejor de lo que esperaba. Estoy aprendiendo muchísimo y conectando con gente como yo\". Siente satisfacción, compromiso y pertenencia. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Cumplir y superar la promesa: La calidad de la formación es el pilar fundamental. Debe ser práctica, relevante y bien impartida.\n✓ Construcción de comunidad activa: Fomentar la interacción en un foro o grupo exclusivo de alumnos, donde los profesores también participen. Crear un espacio seguro para el aprendizaje colaborativo.\n✓ Comunicación proactiva: Enviar emails de seguimiento con recursos adicionales, resúmenes de las sesiones y recordatorios útiles.\nEtapa de Recordar | Fidelización / Promoción: Ana: Termina el taller y aplica con éxito lo aprendido en su trabajo. Recibe un email de aulamarketing.digital pidiendo su opinión. Deja una reseña positiva en Google y comparte un post en LinkedIn sobre su experiencia con el hashtag #AulaMarketingDigital. ¿Cuáles son sus pensamientos y emociones? \"Ha sido una de las mejores inversiones que he hecho. Tengo que contárselo a mis colegas\". Siente orgullo, gratitud y lealtad. Se ha convertido en una embajadora. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Solicitud de feedback y reseñas: Pedir activamente su opinión demuestra que la valoramos y nos ayuda a mejorar y a generar prueba social.\n✓ Fomento del contenido generado por el usuario (UGC): Incentivar que los alumnos compartan sus proyectos y logros. El UGC es la forma más auténtica de marketing.\n✓ Programas de fidelización: Ofrecerle un descuento exclusivo para un curso avanzado o acceso prioritario a nuevos talleres.\n✓ Newsletter de valor continuo: Mantenerla en nuestra lista de correo, pero no para bombardearla con ofertas, sino para seguir aportándole valor con tendencias y consejos, manteniendo la relación viva.\nPaso 3: Identificación de puntos de dolor y oportunidades. Este mapa nos permite ahora realizar un diagnóstico estratégico, basado en el análisis DAFO, para anticipar problemas y capitalizar nuestras fortalezas.\n✕ Punto de dolor potencial: La \"fatiga de la IA\" y la desconfianza\n✓ Solución: Nuestra comunicación debe pivotar sobre el \"hiperrealismo\". Usaremos la IA para optimizar procesos internos, pero nuestro contenido público destacará por el factor humano: el expertise de los profesores, las historias reales de los alumnos y el \"detrás de cámaras\" de nuestro proyecto. La IA es nuestra herramienta, pero la humanidad es parte esencial de nuestra marca.\n✕ Punto de dolor potencial: La corta capacidad de atención de la audiencia.\n✓ Solución: Nuestra estrategia de contenidos debe ser dual. Por un lado, contenido \"snack\" (vídeos cortos, infografías) para captar la atención en la fase de conciencia. Por otro lado, contenido más largo y profundo (webinars, guías) para generar confianza en la fase de consideración. La clave es dar el contenido adecuado en el momento adecuado.\nOportunidad clave: La creciente demanda de formación práctica y flexible.\n✓ Este es nuestro núcleo. Todo nuestro marketing debe girar en torno a la promesa de \"formación práctica que puedes aplicar mañana\". Cada testimonio, cada caso de estudio y cada descripción de curso debe reforzar esta idea, destacando la credibilidad de nuestro equipo docente universitario.\nOportunidad clave: La necesidad de construir audiencias propias ante la crisis de las cookies.\n✓ La captación de emails a través de lead magnet de alto valor es una prioridad absoluta. Nuestra newsletter no será un canal de venta, sino nuestro principal canal de construcción de comunidad y confianza, lo que nos dará una ventaja competitiva sostenible y reducirá nuestra dependencia de la publicidad de pago a largo plazo.",
+    "entregables": [
+      {
+        "id": "c03-e01",
+        "titulo": "Aplicaciones del CJM ilustradas con Ana en el ecosistema de aulamarketing.digital",
+        "id_seccion": "c03-s2",
+        "texto": "Comencemos a darle forma a las aplicaciones del CJM como una herramienta viva y dinámica para la toma de decisiones estratégicas. Veamos cómo aplicarlo de forma concreta en áreas clave del marketing digital y para ello utilizaremos el ejemplo de Ana dentro del ecosistema de aulamarketing.digital.\nDetección de GAP: Al mapear el recorrido, pueden aparecer lo que denominamos momentos de frustración donde Ana busca una solución y no la encuentra, o la que existe es ineficiente. Por ejemplo, el CJM de aulamarketing.digital podría revelar que, navegando en redes, Ana comenta en un reel que se siente insegura al aplicar los conocimientos en un proyecto real. Este punto de dolor es una gran oportunidad.\nCreación de productos centrada en el usuario: Ese vacío detectado puede inspirar la creación de un nuevo curso. Siguiendo el ejemplo, desde aulamarketing.digital podríamos lanzar talleres prácticos intensivos, sesiones de mentoría personalizada o una plantilla \"paso a paso\" para resolver ese problema específico. Esta innovación no nace de una idea interna, sino de una necesidad real y documentada del usuario, lo que multiplica sus probabilidades de éxito.\nSegmentación en base a comportamiento: El CJM nos permite segmentar a nuestra audiencia por lo que hacen y dónde se encuentran en su viaje. Podemos crear un segmento de usuarios como Ana que han asistido a un webinar (alta intención de acceso a un curso) pero que no se han inscrito como alumnas, y dirigirles una campaña de retargeting diferente a la de aquellos que solo han visitado la página de inicio.\nHiper-personalización de campañas: Con estos segmentos conductuales, podemos personalizar nuestras acciones de marketing. En campañas de email marketing podríamos enviar una secuencia específica para quienes descargaron una guía, diferente a la de quienes abandonaron un carrito. En relación a social ads sería interesante crear audiencias personalizadas en Meta o Google para impactar a usuarios en la fase de consideración con testimonios, en lugar de anuncios genéricos y en SEM podríamos mostrar banners con ofertas específicas a usuarios que han mostrado un patrón de comportamiento concreto, optimizando la relevancia y la eficiencia de la inversión publicitaria.\nMejora de la experiencia de usuario (UX) y la usabilidad: Esta es una de las aplicaciones más visibles y con retorno más inmediato. El CJM funciona como una fotografía detallada de nuestro ecosistema digital, revelando puntos débiles que muchas veces pasan desapercibidos. En cada etapa estableceremos las métricas asociadas y en base a ellas podremos evaluar de forma detallada si Ana está siguiendo los pasos de la ruta, cuáles son más eficientes y cuáles podrían estar generando fricciones.\nIdentificación de fricciones y puntos de dolor: Acompañar a Ana en su recorrido nos permite identificar los momentos que la frustran: ¿el formulario de inscripción a un webinar es excesivamente largo?, ¿los costes aparecen demasiado tarde en el proceso de compra?, ¿la información clave está demasiado oculta? Estos son ejemplos de obstáculos que pueden provocar abandono. Un análisis riguroso podría revelar, por ejemplo, que Ana abandona el carrito de compra porque la interfaz no es clara desde su móvil, dispositivo desde el que se realiza el 65 % del comercio digital. Este tipo de insights marcan la diferencia.\nOptimización de embudos de conversión: Cada etapa del customer journey map se puede alinear con una fase del embudo de marketing (TOFU, MOFU, BOFU) de las que hablaremos más adelante en este capítulo. Si, por ejemplo, detectamos un alto abandono en la fase de consideración, el CJM nos invita a hacernos preguntas fundamentales: ¿Estamos transmitiendo nuestra propuesta de valor con suficiente claridad? ¿Nuestro contenido realmente conecta y persuade? ¿La experiencia de navegación es fluida y rápida?\nA partir de ahora ya estamos en posición de profundizar en los elementos del CJM y concretamente ¿por qué son importantes ahora que Ana quiere crear su propio mapa? Luego te mostramos un ejemplo simple para que puedas comprender mejor cómo conectarlo con el estado de Ana y cómo ella interactúa en cada fase con los diferentes canales de aulamarketing.digital.",
+        "pagina_pdf": 47,
+        "pagina_libro": 42
+      },
+      {
+        "id": "c03-e02",
+        "titulo": "Introducción a la construcción del CJM de aulamarketing.digital",
+        "id_seccion": "c03-s6",
+        "texto": "Ahora, vamos a “arremangarnos” y aplicar todo lo aprendido. Construiremos juntos, paso a paso, el CJM de nuestro proyecto, aulamarketing.digital, centrándonos en nuestra buyer persona, Ana.",
+        "pagina_pdf": 52,
+        "pagina_libro": 47
+      },
+      {
+        "id": "c03-e03",
+        "titulo": "Paso 1: Construcción del Buyer Persona - Conociendo a Ana en profundidad",
+        "id_seccion": "c03-s6",
+        "texto": "Paso 1: Construcción del Buyer Persona - Conociendo a Ana en profundidad. Para mapear su viaje, primero debemos entender quién es. Basándonos en nuestra investigación, previamente (capítulo 1) hemos creado su perfil. Recordemos que nos hemos basado en la redacción de perfil socio-demográfico, necesidades y motivaciones, comportamiento digital, formato preferido, perfil de búsqueda, evaluación del tipo de contenido y dispositivo clave.",
+        "pagina_pdf": 52,
+        "pagina_libro": 47
+      },
+      {
+        "id": "c03-e04",
+        "titulo": "Paso 2: Mapeo de las Etapas de Ana (introducción)",
+        "id_seccion": "c03-s6",
+        "texto": "Paso 2: Mapeo de las Etapas de Ana. Ahora, sigamos a Ana en su viaje para convertirse en alumna y embajadora de aulamarketing.digital.",
+        "pagina_pdf": 52,
+        "pagina_libro": 47
+      },
+      {
+        "id": "c03-e05",
+        "titulo": "Etapa de Soñar | Inspiración / Conciencia",
+        "id_seccion": "c03-s6",
+        "texto": "Etapa de Soñar | Inspiración / Conciencia: Está navegando por TikTok y ve un Reel de un micro-influencer de marketing que explica \"3 prompts de IA que te ahorrarán 10 horas de trabajo\". Busca en Google \"tendencias marketing digital 2026\". Se une a un grupo de LinkedIn sobre IA. ¿Cuáles son sus pensamientos y emociones? \"¡Wow, no sabía que se podía hacer eso! Me estoy quedando atrás\". Siente una mezcla de curiosidad, inspiración y un poco de ansiedad por la necesidad de actualizarse. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Contenido \"Snack\" en Redes Sociales: Publicaremos vídeos cortos y con ganchos visuales potentes que resuelvan una duda muy específica o muestren una táctica novedosa.\n✓ Colaboraciones con Micro-influencers: Trabajar con creadores de contenido que ya tienen la confianza de Ana para que hablen de nosotros de forma auténtica.\n✓ SEO para Descubrimiento: Optimizar artículos de blog para términos de búsqueda informativos como \"¿cómo usar la IA en marketing?\".",
+        "pagina_pdf": 52,
+        "pagina_libro": 47
+      },
+      {
+        "id": "c03-e06",
+        "titulo": "Etapa de Planificar | Consideración / Investigación",
+        "id_seccion": "c03-s6",
+        "texto": "Etapa de Planificar | Consideración / Investigación: Ana ya conoce aulamarketing.digital. Visita nuestra web. Busca el perfil de los profesores en LinkedIn. Lee las descripciones de los cursos. Busca reseñas o testimonios. Se suscribe a nuestra newsletter para descargar una \"Guía Práctica de IA para Marketers\". ¿Cuáles son sus pensamientos y emociones? \"¿Será esto realmente práctico o más teoría? ¿Quiénes son estos profesores? ¿Qué dicen otros alumnos?\". Siente interés y esperanza, pero también escepticismo. Necesita pruebas y confianza. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Webinars gratuitos: Ofrecer un webinar detallado sobre \"Cómo crear tu primer Customer Journey Map con ayuda de la IA\", demostrando nuestro expertise en directo.\n✓ Página de \"Equipo\" transparente: Mostrar los perfiles de nuestros profesores universitarios, destacando su experiencia práctica y académica.\n✓ Contenido de valor profundo: Publicar casos de estudio, guías descargables y artículos de blog extensos que demuestren nuestro dominio del tema.\n✓ Email nurturing: Una vez que descarga la guía, recibe una secuencia de 3 emails con más consejos prácticos, invitándola al webinar y compartiendo un testimonio en vídeo.",
+        "pagina_pdf": 52,
+        "pagina_libro": 47
+      },
+      {
+        "id": "c03-e07",
+        "titulo": "Etapa de Reservar | Decisión / Compra",
+        "id_seccion": "c03-s6",
+        "texto": "Etapa de Reservar | Decisión / Compra: Ana está convencida. Decide inscribirse en un taller práctico de fin de semana. Entra en la página de pago. ¿Cuáles son sus pensamientos y emociones? \"¡Esto es lo que necesito! Espero que el proceso de pago sea fácil y seguro\". Siente entusiasmo y decisión, pero cualquier fricción puede generar duda. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Proceso de compra optimizado para móvil: Un checkout sencillo, rápido y 100% funcional en su smartphone.\n✓ Llamadas a la acción (CTAs) claras y persuasivas: Botones como \"Asegura tu Plaza Ahora\" o \"Empieza a Transformar tu Carrera Hoy\".\n✓ Prueba social en el momento clave: Mostrar testimonios o el número de inscritos directamente en la página de pago para reforzar la confianza.\n✓ Retargeting ético: Si abandona el proceso, un email o anuncio recordatorio amable y no invasivo, quizás ofreciendo ayuda o resolviendo una duda común.",
+        "pagina_pdf": 52,
+        "pagina_libro": 47
+      },
+      {
+        "id": "c03-e08",
+        "titulo": "Etapa de Experimentar | Retención / Servicio",
+        "id_seccion": "c03-s6",
+        "texto": "Etapa de Experimentar | Retención / Servicio: Ana asiste al taller. Participa en las sesiones prácticas. Se une al grupo privado de la comunidad para hacer preguntas y compartir su proyecto. ¿Cuáles son sus pensamientos y emociones? \"Esto es incluso mejor de lo que esperaba. Estoy aprendiendo muchísimo y conectando con gente como yo\". Siente satisfacción, compromiso y pertenencia. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Cumplir y superar la promesa: La calidad de la formación es el pilar fundamental. Debe ser práctica, relevante y bien impartida.\n✓ Construcción de comunidad activa: Fomentar la interacción en un foro o grupo exclusivo de alumnos, donde los profesores también participen. Crear un espacio seguro para el aprendizaje colaborativo.\n✓ Comunicación proactiva: Enviar emails de seguimiento con recursos adicionales, resúmenes de las sesiones y recordatorios útiles.",
+        "pagina_pdf": 53,
+        "pagina_libro": 48
+      },
+      {
+        "id": "c03-e09",
+        "titulo": "Etapa de Recordar | Fidelización / Promoción",
+        "id_seccion": "c03-s6",
+        "texto": "Etapa de Recordar | Fidelización / Promoción: Ana: Termina el taller y aplica con éxito lo aprendido en su trabajo. Recibe un email de aulamarketing.digital pidiendo su opinión. Deja una reseña positiva en Google y comparte un post en LinkedIn sobre su experiencia con el hashtag #AulaMarketingDigital. ¿Cuáles son sus pensamientos y emociones? \"Ha sido una de las mejores inversiones que he hecho. Tengo que contárselo a mis colegas\". Siente orgullo, gratitud y lealtad. Se ha convertido en una embajadora. ¿Cuáles son los puntos de contacto y estrategias de aulamarketing.digital?\n✓ Solicitud de feedback y reseñas: Pedir activamente su opinión demuestra que la valoramos y nos ayuda a mejorar y a generar prueba social.\n✓ Fomento del contenido generado por el usuario (UGC): Incentivar que los alumnos compartan sus proyectos y logros. El UGC es la forma más auténtica de marketing.\n✓ Programas de fidelización: Ofrecerle un descuento exclusivo para un curso avanzado o acceso prioritario a nuevos talleres.\n✓ Newsletter de valor continuo: Mantenerla en nuestra lista de correo, pero no para bombardearla con ofertas, sino para seguir aportándole valor con tendencias y consejos, manteniendo la relación viva.",
+        "pagina_pdf": 53,
+        "pagina_libro": 48
+      },
+      {
+        "id": "c03-e10",
+        "titulo": "Paso 3: Identificación de puntos de dolor y oportunidades",
+        "id_seccion": "c03-s6",
+        "texto": "Paso 3: Identificación de puntos de dolor y oportunidades. Este mapa nos permite ahora realizar un diagnóstico estratégico, basado en el análisis DAFO, para anticipar problemas y capitalizar nuestras fortalezas.\n✕ Punto de dolor potencial: La \"fatiga de la IA\" y la desconfianza\n✓ Solución: Nuestra comunicación debe pivotar sobre el \"hiperrealismo\". Usaremos la IA para optimizar procesos internos, pero nuestro contenido público destacará por el factor humano: el expertise de los profesores, las historias reales de los alumnos y el \"detrás de cámaras\" de nuestro proyecto. La IA es nuestra herramienta, pero la humanidad es parte esencial de nuestra marca.\n✕ Punto de dolor potencial: La corta capacidad de atención de la audiencia.\n✓ Solución: Nuestra estrategia de contenidos debe ser dual. Por un lado, contenido \"snack\" (vídeos cortos, infografías) para captar la atención en la fase de conciencia. Por otro lado, contenido más largo y profundo (webinars, guías) para generar confianza en la fase de consideración. La clave es dar el contenido adecuado en el momento adecuado.\nOportunidad clave: La creciente demanda de formación práctica y flexible.\n✓ Este es nuestro núcleo. Todo nuestro marketing debe girar en torno a la promesa de \"formación práctica que puedes aplicar mañana\". Cada testimonio, cada caso de estudio y cada descripción de curso debe reforzar esta idea, destacando la credibilidad de nuestro equipo docente universitario.\nOportunidad clave: La necesidad de construir audiencias propias ante la crisis de las cookies.\n✓ La captación de emails a través de lead magnet de alto valor es una prioridad absoluta. Nuestra newsletter no será un canal de venta, sino nuestro principal canal de construcción de comunidad y confianza, lo que nos dará una ventaja competitiva sostenible y reducirá nuestra dependencia de la publicidad de pago a largo plazo.",
+        "pagina_pdf": 53,
+        "pagina_libro": 48
+      }
+    ]
+  },
+  "remisiones_aulamarketing": [],
+  "remisiones_internas": [
+    {
+      "texto": "Una metodología que como hemos comprobado, está completamente centrada en las personas y busca resolver problemas desde una comprensión empática de las necesidades reales.",
+      "capitulo_destino": 2,
+      "pagina_pdf": 46
+    },
+    {
+      "texto": "Cada etapa del customer journey map se puede alinear con una fase del embudo de marketing (TOFU, MOFU, BOFU) de las que hablaremos más adelante en este capítulo.",
+      "capitulo_destino": 3,
+      "pagina_pdf": 47
+    },
+    {
+      "texto": "Luego te mostramos un ejemplo simple para que puedas comprender mejor cómo conectarlo con el estado de Ana y cómo ella interactúa en cada fase con los diferentes canales de aulamarketing.digital.",
+      "capitulo_destino": 3,
+      "pagina_pdf": 47
+    },
+    {
+      "texto": "te recomendamos que trabajes sobre la base de herramientas como Miró o Smaply, como recomendamos previamente",
+      "capitulo_destino": 3,
+      "pagina_pdf": 51
+    },
+    {
+      "texto": "En este momento todavía nos falta materializar completamente el proceso, por lo que en el siguiente punto profundizaremos con todo detalle para que puedas replicarlo.",
+      "capitulo_destino": 3,
+      "pagina_pdf": 51
+    },
+    {
+      "texto": "Basándonos en nuestra investigación, previamente (capítulo 1) hemos creado su perfil.",
+      "capitulo_destino": 1,
+      "pagina_pdf": 52
+    },
+    {
+      "texto": "Este mapa nos permite ahora realizar un diagnóstico estratégico, basado en el análisis DAFO, para anticipar problemas y capitalizar nuestras fortalezas.",
+      "capitulo_destino": 1,
+      "pagina_pdf": 53
+    }
+  ],
+  "citas_y_referencias": [
+    {
+      "texto": "Como afirma Tim Brown, uno de sus referentes, el design thinking “comienza con la empatía, con una profunda comprensión de las necesidades y motivaciones de las personas”.",
+      "pagina_pdf": 46
+    },
+    {
+      "texto": "Ana abandona el carrito de compra porque la interfaz no es clara desde su móvil, dispositivo desde el que se realiza el 65 % del comercio digital. (dato sin fuente explícita en el libro)",
+      "pagina_pdf": 47
+    }
+  ],
+  "recursos_externos": [],
+  "otros": [
+    {
+      "descripcion": "Página en blanco tras el final del capítulo",
+      "texto": "",
+      "pagina_pdf": 55
+    },
+    {
+      "descripcion": "Viñetas de diagnóstico con símbolo ✕ (punto de dolor) y ✓ (solución) en el Paso 3 de c03-s6; se conservan en el texto",
+      "texto": "✕ Punto de dolor potencial: La \"fatiga de la IA\" y la desconfianza | ✕ Punto de dolor potencial: La corta capacidad de atención de la audiencia. | Oportunidad clave: La creciente demanda de formación práctica y flexible. | Oportunidad clave: La necesidad de construir audiencias propias ante la crisis de las cookies.",
+      "pagina_pdf": [
+        53,
+        54
+      ]
+    }
+  ],
+  "control": {
+    "num_secciones": 6,
+    "num_prompts": 4,
+    "num_herramientas": 16,
+    "num_figuras_tablas": 1,
+    "num_entregables": 10,
+    "num_definiciones": 14,
+    "paginas_revisadas": [
+      46,
+      55
+    ],
+    "incidencias": [
+      "Cobertura de texto: 26749 caracteres no-espacio extraídos (apertura + objetivos + títulos + secciones + Tabla 1) frente a 26755 en cap03.txt = 100.0%.",
+      "No hay imágenes en PDF 46-55. La Tabla 1 (componentes del CJM) es texto en tres columnas centradas; se transcribió verificando las celdas con el render de la página PDF 48.",
+      "El CJM de aulamarketing.digital (sección 6) NO aparece como tabla ni figura: es texto con etapas (Soñar, Planificar, Reservar, Experimentar, Recordar) y viñetas ✓; se transcribe íntegro en la sección y dividido en entregables.",
+      "Remisión del libro sin desarrollo en el capítulo: \"(TOFU, MOFU, BOFU) de las que hablaremos más adelante en este capítulo\", pero el capítulo 3 no vuelve a tratar el embudo.",
+      "Inconsistencias del libro: el apartado 1 enumera 6 fases (conciencia, consideración, compra, retención, fidelización y recomendación), el apartado 4 describe 5 (Conciencia, Consideración, Compra, Fidelización, Recomendación), los prompts usan 4 y la sección 6 usa 5 etapas con otros nombres (Soñar… Recordar).",
+      "Grafía doble \"Miro\" (lista ✐) y \"Miró\" (texto); se mantienen literales.",
+      "Herramientas citadas solo dentro de los prompts (Instagram, Stripe/PayPal, WhatsApp Business, Checkout) no se registran como herramientas mencionadas; quedan en el texto de los prompts.",
+      "El prompt c03-p03 (\"Growth Hacker\") cruza de la página PDF 50 a la 51; c03-p01 contiene \"B2C E-commerce\" partido por guion de línea en el PDF (se ha unido conservando el guion).",
+      "No hay remisiones a la biblioteca de aulamarketing.digital en este capítulo."
+    ]
+  }
+}

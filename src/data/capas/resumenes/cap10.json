@@ -1,0 +1,68 @@
+{
+  "id": "c10",
+  "promesa": "Diseñarás campañas de anuncios en buscadores rentables, medibles y de bajo riesgo, con apoyo de la IA.",
+  "al_terminar_tendras": [
+    "Tu selección de palabras clave con tipos de concordancia y palabras clave negativas",
+    "El tipo de campaña adecuado para tu objetivo (búsqueda, display, shopping, vídeo o Performance Max)",
+    "Una estructura de cuenta ordenada: campañas, grupos de anuncios, palabras clave y anuncios",
+    "Anuncios redactados con titulares, descripciones y extensiones, y una landing page coherente con ellos",
+    "Las métricas clave para controlar y corregir tus campañas (CPC, CTR, Quality Score, ROAS…)"
+  ],
+  "historia_ana": "Ana siempre evitó la inversión publicitaria porque creía que solo las grandes marcas lograban campañas rentables. Pero ha visto a creadores hablar del SEM y ha comprado a pequeñas marcas gracias a sus anuncios. Ahora está dispuesta a aprender.",
+  "resumen_capitulo": "Para muchas marcas jóvenes y pymes, invertir en anuncios parece un gran riesgo. Con objetivos claros, una guía técnica, herramientas y apoyo de la IA, ese riesgo se reduce al máximo. En este capítulo descubres por qué el SEM sigue siendo clave: visibilidad inmediata, segmentación precisa, conversiones basadas en la intención de búsqueda, competencia accesible con pago por resultados y alta medibilidad. Entiendes cómo funciona su sistema de pujas y sus tendencias: IA, vídeo, marcas como creadoras de contenido, foco en el cliente, retargeting y búsqueda por voz. Aprendes la terminología básica y la de campañas, desde el CPC y el Quality Score hasta los tipos de concordancia y los componentes del anuncio. Profundizas en Google Ads: su subasta, sus tipos de campaña, incluido Performance Max, y la estructura de una cuenta. Conoces Microsoft Advertising como complemento. Por último, usas herramientas e IA para idear, crear la landing page, redactar anuncios y generar imágenes y vídeos, y ves la campaña de búsqueda que aulamarketing.digital diseña para Ana.",
+  "secciones": {
+    "c10-s1": {
+      "idea_clave": "El SEM te da visibilidad inmediata, tráfico cualificado y conversiones medibles, y permite competir con presupuestos limitados pagando por resultados.",
+      "resumen": "El libro resume cinco razones por las que el SEM puede impulsar tu marca. Visibilidad inmediata: las campañas atraen tráfico y conversiones casi desde su lanzamiento, algo crucial para proyectos que necesitan darse a conocer. Segmentación de audiencias: puedes definir a quién mostrar tus anuncios según demografía, ubicación, idioma, intereses o comportamiento de búsqueda, lo que atrae tráfico cualificado. Generación de conversiones: al basarse en la intención de búsqueda, captura la demanda existente; si Ana busca cursos de marketing digital con IA y aparece tu anuncio, respondes directamente a su necesidad. Competencia equitativa: no necesitas un gran presupuesto inicial, la inversión es escalable y pagas principalmente por resultados (PPC), así que una marca nueva puede competir con otras más grandes si sus campañas son relevantes y de calidad. Alta medibilidad: plataformas como Google Ads te informan en tiempo real de impresiones, clics, CPC, CTR y conversiones, lo que te permite ajustar sobre la marcha para mejorar el retorno de la inversión publicitaria (ROAS).",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c10-s2": {
+      "idea_clave": "El SEM es publicidad de pago en buscadores basada en pujas y aprendizaje automático; domina su terminología antes de planificar campañas.",
+      "resumen": "En teoría, el SEM engloba todas las acciones en buscadores, SEO incluido; en la práctica, se refiere a la publicidad de pago para aparecer en los resultados de búsqueda. Funciona mediante subastas instantáneas: cuando alguien busca, el sistema valora cuánto pujas, la calidad del anuncio y su relevancia, y muestra los ganadores con la etiqueta \"Anuncio\" o \"Patrocinado\". Con el tiempo, el algoritmo aprende y mejora la eficiencia. Entre las tendencias destacan la IA para optimizar pujas, segmentar y generar anuncios; el vídeo, corto para captar y largo para generar confianza; las marcas como creadoras de contenido, con microinfluencers y UGC; el foco en el cliente con rutas de conversión sin fricciones; el retargeting; y la búsqueda por voz. El libro define también los términos esenciales: SERP, palabras clave, PPC y CPC, ROAS, CPM, CPA y CPL, impresiones, clics, CTR, Quality Score y landing page. Además, explica los conceptos de campaña: palabras clave negativas, tipos de concordancia (amplia, de frase y exacta), componentes del anuncio y puja.",
+      "subsecciones": {
+        "c10-s2.1": {
+          "idea_clave": "Conoce los términos básicos del SEM, de las SERP al Quality Score, para planificar y medir con criterio."
+        },
+        "c10-s2.2": {
+          "idea_clave": "Elige palabras clave y su concordancia, excluye las negativas y redacta titulares, descripciones y extensiones relevantes para tu usuario."
+        }
+      },
+      "minutos_lectura_integro": 10
+    },
+    "c10-s3": {
+      "idea_clave": "Google Ads decide qué anuncios mostrar según puja, calidad y contexto, y ofrece distintos tipos de campaña dentro de una estructura jerárquica.",
+      "resumen": "Google Ads es la plataforma dominante del SEM, sobre todo en países como España. Su subasta en tiempo real no solo valora la puja: tiene en cuenta seis factores. Son la puja máxima, la calidad del anuncio medida por el Quality Score, el impacto de las extensiones y el formato, los umbrales mínimos de clasificación, el contexto de la búsqueda (término, ubicación, hora y dispositivo) y la competitividad de la subasta. Por eso favorece a quien aporta valor al usuario. Ofrece varios tipos de campaña. Búsqueda, para tráfico, leads y ventas cuando el usuario busca activamente. Display, con banners para notoriedad. Shopping, para e-commerce a partir de un feed de productos. Vídeo, en YouTube y la Red de Display. Y Performance Max, impulsada por IA, que automatiza pujas, segmentación y anuncios en todo el inventario de Google. Una cuenta bien organizada sigue una jerarquía: cuenta, campañas, grupos de anuncios, palabras clave y anuncios. Crea varias creatividades por grupo y haz A/B testing.",
+      "subsecciones": {
+        "c10-s3.1": {
+          "idea_clave": "La subasta de Google Ads combina seis factores, entre ellos tu puja y tu Quality Score: la calidad puede pesar tanto como el dinero."
+        },
+        "c10-s3.2": {
+          "idea_clave": "Elige entre campañas de búsqueda, display, shopping, vídeo o Performance Max según tu objetivo y la fase de tu cliente."
+        },
+        "c10-s3.3": {
+          "idea_clave": "Organiza tu cuenta por niveles (cuenta, campañas, grupos de anuncios, palabras clave y anuncios) para ganar relevancia y control."
+        }
+      },
+      "minutos_lectura_integro": 6
+    },
+    "c10-s4": {
+      "idea_clave": "Microsoft Advertising es un complemento útil para diversificar y llegar a nichos menos competidos, con CPC a menudo inferiores.",
+      "resumen": "Microsoft Advertising, antes Bing Ads, es una alternativa a Google Ads que incluye Bing, Yahoo y otros partners. Su cuota de búsquedas ronda el 8-10 % en Estados Unidos y el 3-5 % en Europa y España. Aunque su volumen es menor, sus usuarios tienen una edad media mayor y, en algunos mercados, más poder adquisitivo. Su interfaz y su lógica se parecen mucho a las de Google Ads, lo que facilita empezar, aunque su red de display es más limitada. El libro señala varias diferencias. No ofrece concordancia amplia negativa, así que debes planificar mejor las exclusiones. Los CPC suelen ser más bajos por la menor competencia, a cambio de menos alcance. Permite una segmentación geográfica muy precisa, útil para negocios locales. Programa anuncios en intervalos de 15 minutos. Incluye extensiones de imagen o acción. Y facilita la gestión por zonas horarias y por partner de búsqueda. Su valor está menos en el volumen y más en captar nichos con costes de adquisición potencialmente más bajos.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    },
+    "c10-s5": {
+      "idea_clave": "Combina herramientas de investigación, análisis y creatividad con prompts de IA para idear, crear la landing page y producir tus anuncios.",
+      "resumen": "Aunque casi todo puede hacerse dentro de Google Ads, una buena gestión SEM requiere un kit de herramientas para investigar palabras clave y competencia, editar imagen y vídeo, analizar resultados y consultar bibliotecas de anuncios. La IA ayuda a generar ideas, crear anuncios automáticamente, redactar titulares y descripciones y optimizar landing pages, siempre de forma sutil, buscando autenticidad y contrastando sus resultados con tus propias campañas. El libro propone una secuencia. Ideación: un LLM en modo razonamiento analiza palabras clave, intención y oportunidades, y después compruebas los CPC en el planificador de palabras clave. Landing page: generarla con IA o en tu CMS, con total coherencia con el anuncio; si el anuncio promete algo, el titular de la landing debe decir lo mismo, o el usuario rebota. Textos: titulares, descripciones y extensiones de enlace a partir de tus palabras clave. Imágenes y vídeo: prompts por bloques, imágenes de referencia, instrucciones en inglés para vídeo e image-to-video para mantener la coherencia. Y plataformas de creativos para reunir todo el material.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 11
+    },
+    "c10-s6": {
+      "idea_clave": "aulamarketing.digital capta a Ana con una campaña de búsqueda y Performance Max, concordancia exacta, negativas y una landing sin fricciones.",
+      "resumen": "Ana busca activamente términos de alta intención como \"cursos de marketing digital con IA\", pero desconfía de la inversión publicitaria. El reto es demostrarle que, con objetivos claros y una guía técnica, el riesgo se reduce gracias a la máxima relevancia entre búsqueda, anuncio y landing, que mejora el Quality Score y baja el CPC. aulamarketing.digital elige Google Ads con una campaña de búsqueda para captar leads y ventas, complementada con Performance Max para maximizar el ROAS. Puja por términos como \"cursos de marketing digital con IA\" o \"guía práctica marketing digital\". Prioriza la concordancia exacta, usa la de frase para equilibrar alcance y relevancia, y excluye \"gratis\" como palabra clave negativa. Segmenta por intereses y comportamiento, y aplica retargeting si Ana visita la web sin inscribirse. El anuncio presenta una propuesta de valor clara, y la landing es coherente con él, sin fricciones y con CTA directas. Para investigar, se apoya en herramientas de palabras clave y de análisis de la competencia; para redactar, en un LLM; y para optimizar, en las pujas automáticas.",
+      "subsecciones": {},
+      "minutos_lectura_integro": 3
+    }
+  }
+}

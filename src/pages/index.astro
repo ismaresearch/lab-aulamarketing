@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PlanCard from '../components/PlanCard.astro';
+import Icon from '../components/Icon.astro';
+import { getPlanes, objetivosInicio, categorias } from '../lib/datos';
+const planes = getPlanes();
+const porSlug = new Map(planes.map((p) => [p.slug, p]));
+const continuar = planes.map((p) => ({ slug: p.slug, titulo: p.titulo, url: p.url, total: p.pasos.length, capitulo: p.capitulo, pasos: p.pasos.map((x) => ({ s: x.slug, u: x.url, n: x.n })) }));
+// icono y tono de cada objetivo (decorativo)
+const ICO: Record<string, [string, string]> = {
+  'entender-mi-mercado': ['mercado', 'indigo'], 'crear-mi-marca': ['cap-5', 'terracota'], 'web-que-convierta': ['cap-6', 'gris'],
+  'aparecer-en-google-y-la-ia': ['cap-7', 'verde'], 'crecer-en-redes': ['cap-8', 'indigo'], 'mi-propia-audiencia': ['cap-9', 'terracota'],
+  'vender-con-anuncios': ['cap-11', 'terracota'], 'cuidar-mi-reputacion': ['cap-14', 'gris'], 'medir-resultados': ['cap-15', 'verde'],
+};
+const urlObjetivo = (o: { id: string; planes: string[] }) => (o.planes.length === 1 ? porSlug.get(o.planes[0])?.url ?? '/planes/' : `/planes/?objetivo=${o.id}`);
+---
+<Layout titulo="¿Qué quieres conseguir?" ancho descripcion="Elige un objetivo y te llevamos al plan de marketing digital que lo resuelve. Planes independientes basados en el libro «Desde cero hasta el éxito», con prompts listos para ChatGPT, Claude y Gemini.">
+  <header class="c-hero">
+    <p class="c-pastilla"><Icon nombre="escuela" />Laboratorio del libro · gratis y sin registro</p>
+    <h1 class="c-display">¿Qué quieres conseguir?</h1>
+    <p class="c-lead">Elige un objetivo y te llevamos al plan que lo resuelve. Cada plan funciona por sí solo, sin pasos obligatorios previos.</p>
+  </header>
+
+  <section aria-labelledby="obj-t" class="c-seccion">
+    <div class="c-seccion__cab">
+      <h2 id="obj-t" class="c-overline">Rutas rápidas</h2>
+      <p class="c-seccion__extra">{objetivosInicio.length} objetivos</p>
+    </div>
+    <ul class="c-objetivos">
+      {objetivosInicio.map((o) => {
+        const [ico, tono] = ICO[o.id] ?? ['bandera', 'indigo'];
+        const pls = o.planes.map((s) => porSlug.get(s)).filter(Boolean);
+        return (
+          <li><a class="c-objetivo" href={urlObjetivo(o)}>
+            <span class:list={['c-objetivo__ico', `c-tono--${tono}`]} aria-hidden="true"><Icon nombre={ico as any} /></span>
+            <span class="c-objetivo__t">{o.etiqueta}</span>
+            <span class="c-objetivo__sub">{pls.map((p) => p!.titulo).join(' · ')}</span>
+            <Icon nombre="chevron" class="c-objetivo__flecha" />
+          </a></li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <section class="c-card c-continuar" data-js="continuar" data-planes={JSON.stringify(continuar)} hidden aria-labelledby="cont-t">
+    <div class="c-continuar__cab">
+      <span class="c-estado" data-estado="curso">En curso</span>
+      <span class="c-overline" data-js="continuar-cap"></span>
+    </div>
+    <h2 id="cont-t" class="c-continuar__t"><span class="sr-only">Continúa donde lo dejaste: </span><span data-js="continuar-titulo"></span></h2>
+    <div class="c-continuar__prog">
+      <p class="c-meta"><span data-js="continuar-texto"></span><span class="c-continuar__pct" data-js="continuar-pct"></span></p>
+      <div class="c-progress"><span data-js="continuar-barra"></span></div>
+    </div>
+    <a class="c-btn c-btn--bloque" data-js="continuar-enlace" href="/planes/">Continuar plan <Icon nombre="flecha" /></a>
+  </section>
+
+  <section aria-labelledby="todos-t" class="c-seccion" data-js="filtro" data-singular="plan" data-plural="planes">
+    <div class="c-seccion__cab">
+      <h2 id="todos-t" class="c-titulo-2">Todos los planes</h2>
+      <p class="c-seccion__extra" data-js="recuento" aria-live="polite"></p>
+    </div>
+    <select data-filtro="categoria" class="sr-only" aria-hidden="true" tabindex="-1"><option value="">Todas</option>{categorias.map((c) => <option>{c}</option>)}</select>
+    <div class="c-pestanas" data-js="chips-filtro" data-para="categoria" role="group" aria-label="Filtrar por área">
+      <button type="button" data-valor="" aria-pressed="true"><Icon nombre="planes" />Todos</button>
+      {categorias.map((c, i) => <button type="button" data-valor={c} aria-pressed="false"><Icon nombre={(['cap-1', 'cap-6', 'cap-11', 'cap-13', 'cap-15'][i] ?? 'planes') as any} />{c}</button>)}
+    </div>
+    <div class="c-grid c-grid--2">{planes.map((p) => <PlanCard plan={p} nivel="h3" />)}</div>
+    <p class="c-estado-vacio" data-js="vacio" hidden>No encontramos <span data-js="vacio-q"></span>. <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="limpiar">Quitar filtros</button></p>
+  </section>
+
+  <section class="c-card c-aviso-guia" aria-labelledby="guia-t">
+    <span class="c-aviso-guia__ico" aria-hidden="true"><Icon nombre="bombilla" /></span>
+    <div>
+      <h2 id="guia-t" class="c-aviso-guia__t">¿Primera vez usando el laboratorio?</h2>
+      <p>«Antes de empezar» explica, con el capítulo 4 del libro, cómo funciona un buen prompt y qué modelo de IA elegir.</p>
+      <a class="c-btn c-btn--blanco c-btn--peq" href="/antes-de-empezar/">Ver «Antes de empezar» <Icon nombre="flecha" /></a>
+    </div>
+  </section>
+  <script>import '../client/filtro';</script>
+</Layout>

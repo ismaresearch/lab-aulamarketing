@@ -1,0 +1,48 @@
+# Compila el sitio y publica dist/ en la rama "deploy".
+# Hostinger (hPanel → Avanzado → Git) despliega esa rama en public_html/lab.
+name: Compilar y publicar en la rama deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      # prebuild usa la instantánea de src/data/ si no existe ../extraccion (caso de CI)
+      - name: Compilar (incluye comprobación de enlaces)
+        run: npm run build
+
+      - name: Prueba del export .docx
+        run: npm run test:docx
+
+      - name: Publicar dist/ en la rama deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: deploy
+          publish_dir: ./dist
+          force_orphan: true
+          enable_jekyll: true   # no añade .nojekyll (innecesario fuera de GitHub Pages)
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_message: "deploy: ${{ github.sha }}"

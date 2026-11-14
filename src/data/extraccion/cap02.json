@@ -1,0 +1,2492 @@
+{
+  "id": "c02",
+  "numero": 2,
+  "parte": "Parte 1: ESTRATEGIA Y BRANDING — ESTRATEGIA DIGITAL y BRANDING",
+  "titulo": "Idea a éxito: design thinking aplicado",
+  "paginas_pdf": [
+    32,
+    45
+  ],
+  "paginas_libro": [
+    27,
+    40
+  ],
+  "autoria": null,
+  "apertura": {
+    "texto": "En un entorno empresarial cada vez más competitivo y dinámico, las pequeñas y medianas empresas enfrentan grandes retos que requieren soluciones innovadoras donde en muchas ocasiones no disponemos de grandes inversiones en infraestructura o recursos. Es ahí donde debemos buscar nuevas formas de hacer las cosas, y es ahí donde aparece el design thinking como una metodología transformadora que democratiza la innovación, permitiendo a organizaciones de cualquier tamaño desarrollar productos, servicios y experiencias centradas en las necesidades reales de sus usuarios. Y como sabes, desde aulamarketing.digital queremos facilitarte soluciones accesibles, por lo que hemos elegido este enfoque de trabajo por tratarse de un enfoque humanista, colaborativo y práctico que cualquier equipo puede implementar para resolver problemas complejos de forma ágil y efectiva. A diferencia de los métodos tradicionales que parten de soluciones preconcebidas, el design thinking invierte el proceso, comienza por comprender profundamente al usuario, define con precisión el problema y solo entonces explora múltiples soluciones mediante la experimentación y el prototipado rápido. Lo más valioso de esta metodología en pequeñas y medianas empresas radica en su flexibilidad y escalabilidad. No exige grandes presupuestos ni estructuras complejas; al contrario, se adapta perfectamente a equipos pequeños y ágiles que necesitan resultados concretos y medibles.",
+    "narrativa_ana": null
+  },
+  "objetivos_aprendizaje": [
+    "Adaptar paso a paso la metodología design thinking a tu negocio.",
+    "Establecer acciones optimizadas poniendo al cliente en el centro.",
+    "Elegir las herramientas adecuadas para cada etapa del proceso."
+  ],
+  "secciones": [
+    {
+      "id": "c02-s1",
+      "numero": "1",
+      "titulo": "Definiciones clave y tendencias del design thinking",
+      "pagina_pdf": 32,
+      "pagina_libro": 27,
+      "texto": "El design thinking es una metodología de innovación centrada en el usuario que combina pensamiento analítico y creativo para resolver problemas complejos. A diferencia de los enfoques tradicionales de gestión empresarial, que priorizan la viabilidad técnica o financiera como punto de partida, aquí se invierte esta lógica: comienza por comprender profundamente las necesidades, deseos y frustraciones de las personas para quienes se diseña. Como ves, conecta con la idea que hemos comentado previamente, el enfoque customer centric. Tim Brown, CEO de IDEO y uno de los principales promotores de esta metodología, lo define como \"un enfoque de la innovación centrado en el ser humano que integra las necesidades de las personas, las posibilidades de la tecnología y los requisitos para el éxito empresarial\". Esta definición captura la esencia del design thinking, el punto entre deseabilidad o lo que los usuarios necesitan, factibilidad o lo que es técnicamente posible, y viabilidad, lo que es económicamente sostenible.\nEsta metodología ha evolucionado significativamente en los últimos años, adaptándose a las nuevas realidades tecnológicas, sociales y ambientales. Una de las tendencias más disruptivas es la incorporación de herramientas de IA en cada fase del design thinking. El objetivo no es que la inteligencia artificial reemplace la creatividad humana, buscamos que nos acompañe y que la amplifique, permitiendo procesar mayores volúmenes de datos cualitativos y cuantitativos para obtener insights más profundos sobre las necesidades de los usuarios. Las tecnologías de procesamiento de lenguaje natural (LLM) permiten analizar feedback de usuarios a escala, identificando patrones emocionales y comportamentales que podrían pasar desapercibidos en análisis manuales. Además, como iremos comprobando a lo largo de todo este manual, los LLM de creación de imágenes, vídeo y programación son especialmente útiles en las fases de ideación y prototipado. Estas tecnologías permiten generar múltiples variaciones de ideas en minutos, explorar conceptos visuales complejos sin necesidad de habilidades técnicas avanzadas, y crear prototipos funcionales que aceleran los ciclos de validación.\nOtra tendencia que se ha intensificado es el diseño centrado en el usuario, que ha evolucionado hacia un enfoque aún más inclusivo y empático. El design thinking actual reconoce la necesidad de incorporar diversidad de perspectivas en todas las fases del proceso, asegurando que las soluciones desarrolladas sean accesibles y relevantes para audiencias heterogéneas. Esta humanización se manifiesta más allá de encuestas superficiales para comprender y construir empatía genuina. Por otra parte se observa cómo el ritmo acelerado de los mercados actuales ha impulsado la popularización de formatos condensados como los design sprints, metodología desarrollada por Google Ventures que comprime el proceso de design thinking en cinco días intensivos. Esta aproximación resulta especialmente valiosa para PYMEs que necesitan validar ideas rápidamente antes de comprometer recursos significativos. Los sprints combinan lo mejor del design thinking, lean startup y metodologías ágiles, creando un marco estructurado que permite pasar de un problema complejo a un prototipo validado en una semana. Cuando nos adentramos en la aplicación de la metodología para la resolución de problemas vemos cómo en la actualidad integra cada vez más, principios de pensamiento sistémico, reconociendo que los problemas no existen de forma aislada sino como parte de ecosistemas complejos e interconectados. Esta perspectiva holística resulta fundamental para abordar desafíos relacionados con la sostenibilidad y la responsabilidad social corporativa. El sustainable design thinking representa una evolución natural de la metodología, incorporando criterios ambientales y éticos desde las primeras fases del proceso. Finalmente destacamos un cambio positivo frente a una crítica recurrente al tradicional, su énfasis excesivo en la generación de ideas innovadoras sin suficiente atención a su implementación práctica y escalabilidad. Las tendencias actuales buscan corregir esta limitación mediante la integración de principios de gestión del cambio, estrategia empresarial y viabilidad operacional desde las primeras fases del proceso. Antes de pasar a las fases de la metodología es importante establecer los pilares, por lo que a continuación te mostramos los principios fundamentales que guían su aplicación práctica:\nEmpatía como core: La capacidad de ponerse en el lugar del otro, comprendiendo sus emociones, motivaciones y contexto, constituye la base de todo el proceso. Esta empatía no es superficial ni asumida, se construye mediante investigación rigurosa y contacto directo con los usuarios.\nExperimentación iterativa: En lugar de buscar la solución perfecta desde el inicio, el design thinking abraza la incertidumbre y promueve la exploración de múltiples alternativas mediante ciclos rápidos de prototipado y validación. Esta aproximación experimental reduce el riesgo de fracaso al permitir el aprendizaje continuo y la adaptación basada en feedback real.\nColaboración multidisciplinar: Los problemas complejos raramente pueden resolverse desde una única perspectiva disciplinar. El design thinking valora la diversidad de conocimientos, experiencias y puntos de vista, creando equipos heterogéneos donde diseñadores trabajan junto a ingenieros, marketers, usuarios finales y otros stakeholders.\nOrientación a la acción: Más que análisis paralizante, el design thinking promueve el hacer como forma de aprender. Los prototipos tangibles, incluso rudimentarios, generan conversaciones más productivas y revelan aspectos del problema que permanecerían ocultos en simples discusiones de equipo.\nOptimismo constructivo: Esta metodología parte del supuesto de que siempre es posible mejorar la situación actual y que los problemas complejos pueden abordarse mediante creatividad estructurada. Este optimismo se fundamenta en un proceso sistemático de exploración y validación.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c02-d01",
+        "c02-d02",
+        "c02-d03",
+        "c02-d04",
+        "c02-d05",
+        "c02-d06",
+        "c02-d07",
+        "c02-d08",
+        "c02-d09"
+      ]
+    },
+    {
+      "id": "c02-s2",
+      "numero": "2",
+      "titulo": "Las cinco fases del design thinking",
+      "pagina_pdf": 34,
+      "pagina_libro": 29,
+      "texto": "Cuando comenzamos a estudiar esta metodología, se observan múltiples variaciones del proceso de design thinking aunque el modelo más ampliamente adoptado es el propuesto por la D.school de Stanford, que identifica cinco fases fundamentales:\n✓ Empatizar: Esta fase inicial se centra en comprender profundamente a los usuarios para quienes se diseña. Mediante observación, entrevistas cualitativas, inmersión etnográfica y otras técnicas de investigación, el equipo desarrolla conocimiento genuino sobre las necesidades, deseos, comportamientos y contextos de las personas. No se trata de preguntar qué quieren los usuarios, se trata de descubrir qué necesitan realmente, incluso cuando ellos mismos no saben cómo decirlo.\n✓ Definir: Con base en los insights generados durante la empatía, esta fase sintetiza la información para articular con precisión el problema que se abordará. La definición del problema es crucial: un problema mal planteado llevará inevitablemente a soluciones inadecuadas. El resultado típico de esta fase es un enunciado del problema en formato \"¿Cómo podríamos...?\", que es suficientemente específico para guiar la acción pero suficientemente amplio para no prescribir la solución.\n✓ Idear: Una vez definido claramente el problema, el equipo genera una amplia gama de posibles soluciones mediante técnicas de pensamiento divergente como brainstorming, SCAMPER, analogías, y otros métodos creativos. El objetivo en esta fase es cantidad sobre calidad, suspendiendo el juicio crítico para permitir la emergencia de ideas inesperadas. Posteriormente, se aplican criterios de evaluación para seleccionar las propuestas más prometedoras que se llevarán a prototipado.\n✓ Prototipar: Las ideas seleccionadas se materializan en prototipos tangibles que pueden ser experimentados e interactuados. Estos prototipos pueden variar enormemente en fidelidad, desde sketches simples en papel hasta simulaciones digitales interactivas, dependiendo de qué hipótesis específicas se busca validar. El propósito no es crear un producto final, sino hacer las ideas suficientemente concretas para generar feedback útil.\n✓ Testear: Los prototipos se ponen en manos de usuarios reales para observar cómo interactúan con ellos, recoger feedback y aprender qué funciona y qué requiere refinamiento. Esta fase es fundamentalmente de aprendizaje, no de validación de supuestos previos. Los insights generados durante el testeo frecuentemente llevan a revisar definiciones del problema o generar nuevas ideas, evidenciando la naturaleza no lineal e iterativa del proceso.\nEste es un buen momento para mencionar que estas fases no son parte de un proceso estrictamente secuencial. Los equipos frecuentemente iteran entre fases, retroceden para redefinir problemas a la luz de nuevos aprendizajes, o ejecutan múltiples fases simultáneamente.",
+      "subsecciones": [
+        {
+          "id": "c02-s2.1",
+          "numero": "2.1",
+          "titulo": "Ejemplos de aplicación en empresas",
+          "pagina_pdf": 34,
+          "pagina_libro": 29,
+          "texto": "Airbnb: En 2009, Airbnb estaba al borde del fracaso con ingresos semanales de apenas $200. Los fundadores aplicaron design thinking para comprender profundamente la experiencia de hosts y huéspedes. Durante la fase de empatía, descubrieron que las fotos de baja calidad en los listados generaban desconfianza. En lugar de desarrollar tecnología compleja, crearon una solución simple: ofrecieron servicios de fotografía profesional gratuita a los hosts. Este cambio, combinado con otras mejoras basadas en feedback de usuarios, duplicó los ingresos semanales inmediatamente.\nGE Healthcare: Doug Dietz, ingeniero de GE Healthcare, observó que niños pequeños lloraban aterrorizados al tener que someterse a resonancias magnéticas (MRI). Las máquinas, técnicamente avanzadas, generaban experiencias traumáticas para pacientes pediátricos. Aplicando design thinking, Dietz y su equipo transformaron las máquinas MRI en \"aventuras temáticas”. Una se convirtió en un barco pirata, otra en una nave espacial. Este rediseño redujo dramáticamente la necesidad de sedación en niños, que había alcanzado un 80% de los casos, y mejoró significativamente la calidad de las imágenes al reducir el movimiento de pacientes ansiosos.\nNetflix: Netflix ha integrado design thinking en su cultura corporativa para mantenerse a la vanguardia de la industria del entretenimiento. La compañía emplea continuamente investigación de usuarios para comprender comportamientos de visualización, preferencias y puntos de fricción en la experiencia. Esta empatía sistemática ha impulsado innovaciones como el sistema de recomendaciones personalizadas, la capacidad de descargar contenido para visualización offline, y la producción de contenido original basado en análisis profundo de audiencias. El caso Netflix ilustra cómo el design thinking puede aplicarse a productos físicos, a servicios digitales y a estrategias de contenido.\nEcoAlf: EcoAlf, una pyme española de moda sostenible, aplicó design thinking para comunicar efectivamente el valor de sus productos reciclados a consumidores cada vez más conscientes ambientalmente. Durante la empatía, identificaron que los clientes deseaban moda de calidad que también contribuyera positivamente al planeta. La empresa ideó estrategias de storytelling que destacaban el proceso de transformación de materiales reciclados oceánicos en prendas de alta calidad. Esta narrativa auténtica, combinada con diseño excepcional, posicionó a EcoAlf como líder en su sector, demostrando que incluso empresas pequeñas pueden competir mediante innovación centrada en valores compartidos con sus clientes."
+        },
+        {
+          "id": "c02-s2.2",
+          "numero": "2.2",
+          "titulo": "Metodologías complementarias: similitudes y diferencias",
+          "pagina_pdf": 35,
+          "pagina_libro": 30,
+          "texto": "Para comprender completamente el design thinking, resulta útil diferenciarlo de metodologías complementarias con las que frecuentemente se confunde o combina.\nDesign thinking vs. Lean Startup: Mientras el design thinking se centra en identificar el problema correcto mediante empatía profunda, lean startup enfatiza la validación rápida de hipótesis de negocio mediante ciclos build-measure-learn (construir-medir-aprender). Design thinking es particularmente fuerte en las fases iniciales de exploración del espacio del problema, mientras que lean startup es óptima en la validación de viabilidad comercial de soluciones. Las mejores prácticas sugieren combinar ambas, usar design thinking para asegurar que se está resolviendo el problema correcto, y lean startup para validar que la solución propuesta es económicamente sostenible.\nDesign thinking vs. Metodologías Ágiles: Las metodologías ágiles como scrum se enfocan en la ejecución eficiente de desarrollo de software mediante sprints iterativos y equipos auto-organizados. El design thinking, por su parte, no prescribe cómo ejecutar la construcción de la solución, sino cómo descubrir qué solución construir. Son altamente complementarios, design thinking define el \"qué\" y el \"por qué\" mientras que Agile optimiza el \"cómo\" y el \"cuándo\".\nDesign thinking vs. Business Model Canvas: El Business Model Canvas de Alexander Osterwalder es una herramienta estratégica para visualizar y diseñar modelos de negocio completos. Puede utilizarse efectivamente en conjunción con design thinking durante las fases de ideación e implementación para asegurar que las soluciones innovadoras propuestas también sean comercialmente viables. El Canvas proporciona una estructura para pensar sistemáticamente sobre propuestas de valor, segmentos de clientes, flujos de ingresos y estructura de costes."
+        }
+      ],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c02-h98"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c02-d10",
+        "c02-d11",
+        "c02-d12",
+        "c02-d13",
+        "c02-d14",
+        "c02-d15",
+        "c02-d16",
+        "c02-d17"
+      ]
+    },
+    {
+      "id": "c02-s3",
+      "numero": "3",
+      "titulo": "¿Cómo implementar la metodología design thinking?",
+      "pagina_pdf": 36,
+      "pagina_libro": 31,
+      "texto": "La implementación exitosa de la metodología en pequeñas y medianas empresas requiere un enfoque práctico y adaptado a las realidades operativas de organizaciones con recursos limitados. A continuación, presentamos una guía paso a paso para llevar esta metodología de la teoría a la práctica:\nFase 1: Preparación. Antes de lanzar un proyecto formal de design thinking, es fundamental trabajar en la mentalidad y en las condiciones organizacionales apropiadas. El design thinking requiere inversión de tiempo, tolerancia al fracaso experimental y disposición a cuestionar supuestos arraigados. Los líderes deben autorizar estas iniciativas y participar activamente en ellas, señalando a toda la organización que la innovación centrada en el usuario es prioritaria. No todos los problemas requieren el uso de esta metodología. Es particularmente valiosa para desafíos complejos, ambiguos, con múltiples stakeholders y donde las soluciones obvias no han funcionado. Para una primera experiencia, selecciona un reto significativo pero acotado, con impacto medible y patrocinador ejecutivo claro. Es importante que parte de la organización se enfoque en la formación de un equipo multidisciplinar. Reúne 5-8 personas con perspectivas diversas, diferentes departamentos (ventas, operaciones, finanzas), niveles jerárquicos, y si es posible, representantes de clientes o usuarios finales. Esta diversidad es fuente de creatividad y asegura que las soluciones propuestas consideren múltiples dimensiones del problema. Por último debemos considerar una asignación de tiempo protegido. El design thinking no puede ser \"una cosa más\" que los participantes hacen en tiempo extra. Establece sesiones de trabajo con agenda clara, libera a participantes de otras responsabilidades durante esos períodos, y comunica expectativas realistas sobre la duración del proceso.\nFase 2: Empatizar. Esta fase constituye el cimiento de todo el proceso. Invertir tiempo suficiente aquí multiplica el valor de las fases posteriores. El primer paso es la definición del usuario objetivo. Comienza especificando claramente para quién estás diseñando. ¿Quiénes son tus usuarios primarios? ¿Existen usuarios secundarios cuyas necesidades también importan? En muchos casos, identificar usuarios extremos, aquellos en los márgenes del espectro de experiencia puede revelar insights especialmente valiosos. El siguiente paso se centra en la selección de métodos de investigación cualitativa. Emplea múltiples técnicas para construir comprensión multidimensional. A continuación, anotamos una lista de algunas de ellas y su potencial uso.\n✓ Entrevistas en profundidad: Conversaciones estructuradas pero abiertas con usuarios individuales, explorando sus experiencias, frustraciones, necesidades y contextos de vida. Prioriza preguntas abiertas como: \"Cuéntame sobre la última vez que...\" sobre cerradas que se responden con sí/no.\n✓ Observación etnográfica: Observa a los usuarios en su ambiente natural mientras realizan las actividades relevantes para tu propuesta. Es habitual que las personas expresen de una forma diferente lo que hacen frente a lo que verdaderamente hacen y la observación directa revela estas discrepancias.\n✓ Shadowing: Acompaña a usuarios durante períodos extendidos para experimentar su realidad desde su perspectiva. Esta técnica es particularmente potente para identificar puntos de dolor que los usuarios han normalizado y ya ni siquiera mencionan espontáneamente.\n✓ Diarios de usuario: Solicita a los participantes que documenten sus experiencias, pensamientos y emociones durante varios días mediante diarios escritos, fotográficos o video. Este método captura dinámicas temporales que no serían visibles en una entrevista puntual.\nEn esta fase utilizaremos diferentes herramientas para sintetizar. La investigación cualitativa genera grandes volúmenes de información rica pero desestructurada. Utiliza estas herramientas para extraer patrones y significados:\n✓ Mapas de empatía: Organiza una plantilla dividida en los siguientes cuadrantes: ¿Qué dice?, ¿Qué piensa?, ¿Qué hace? y ¿Qué siente?. De esta forma dispones de las observaciones sobre usuarios específicos. Los mapas de empatía facilitan que todo el equipo desarrolle comprensión compartida sobre las experiencias de los usuarios.\n✓ Personas: Arquetipos ficticios pero basados en datos reales que representan segmentos clave de usuarios. Una persona efectiva incluye datos demográficos, objetivos, frustraciones, contexto, y narrativa que humaniza la información.\n✓ Customer Journey Maps: Visualización de la experiencia completa del usuario a través del tiempo, identificando puntos de contacto, emociones en cada etapa, y oportunidades de mejora. Los journey maps ayudan a identificar momentos de verdad donde pequeñas intervenciones pueden tener impacto desproporcionado.\n❞ Tip práctico para pymes: Si los recursos son limitados, comienza con 5-8 entrevistas cualitativas profundas en lugar de 100 encuestas superficiales. La investigación cualitativa bien ejecutada revelará el 80% de los insights críticos con fracción del esfuerzo.\nFase 3: Definir. Con una comprensión profunda de los usuarios, es momento de sintetizar los hallazgos para formular el problema que abordaremos. En primer lugar genera un análisis de afinidad. Reúne todos los insights, observaciones y citas clave de la fase de empatía en notas individuales, con post-its físicos o digitales. Agrupa estas notas en clusters temáticos, identificando patrones recurrentes. A continuación pasamos a la identificación de necesidades subyacentes. Diferenciaremos entre lo que los usuarios dicen explícitamente y las necesidades subyacentes que sus palabras y comportamientos revelan. Los usuarios articulan síntomas y soluciones deseadas, el trabajo del equipo es identificar las necesidades fundamentales que estos expresan. Ya tenemos toda la información que necesitamos para la formulación del enunciado del problema. Diseña una estructura para el problema en formato \"¿Cómo podríamos...?\", conocido como How Might We o HMW. Un HMW efectivo es específico, amplio y optimista. Suficientemente concreto para guiar la ideación, \"¿Cómo podríamos facilitar que padres ocupados preparen comidas nutritivas en menos de 15 minutos?\"; no prescribe la solución y asume que una solución es posible y vale la pena buscarla. Continuaremos describiendo los criterios de éxito. Define cómo medirás si has resuelto exitosamente el problema. Estos criterios deben combinar métricas cuantitativas, como “reducción del 30% en tiempo de proceso, o con cualitativas como “usuarios reportan mayor satisfacción”. Por último validamos con stakeholders. Antes de avanzar a ideación, valida tu definición del problema con stakeholders clave, incluyendo usuarios y miembros del equipo. Asegúrate de que existe alineación sobre qué problema están resolviendo y por qué importa.\nFase 4: Idear. Con el problema claramente definido, exploraremos un amplio espacio de soluciones posibles. Es importante establecer normas para la ideación efectiva estableciendo reglas que fomenten el pensamiento divergente como: suspender el juicio considerando que no hay ideas malas en esta fase, construir sobre ideas de otros con afirmaciones como \"Sí, y...\" en lugar de \"Sí, pero...\"; buscar cantidad generando el mayor número posible de ideas y pensar visualmente ya que bocetos simples frecuentemente comunican mejor que palabras. Para poner en práctica esta etapa disponemos de técnicas de ideación que estimulan la creatividad desde diferentes ángulos:\n✓ Brainstorming clásico: Generación libre de ideas en grupo, con un facilitador que registra todo sin filtrar. Establece un límite de tiempo y un objetivo numérico ambicioso (ej: 50 ideas).\n✓ Brainstorming individual seguido de compartir: Para equipos donde personalidades dominantes tienden a monopolizar discusiones, solicita primero generación individual de ideas durante 5-10 minutos, luego compartir en grupo. Esto asegura que voces introvertidas también contribuyan.\n✓ SCAMPER: Acrónimo para técnicas de transformación de ideas existentes - Sustituir, Combinar, Adaptar, Modificar, Proponer otros usos, Eliminar, Reorganizar. Aplica sistemáticamente cada operación a soluciones existentes para generar variaciones innovadoras.\n✓ Analogías y transferencia: Explora cómo otros sectores o contextos han resuelto problemas similares. ¿Cómo resolverían este problema Disney? ¿Amazon? ¿La naturaleza?\n✓ Worst Possible Idea: Invierte la pregunta temporalmente, genera las peores ideas posibles para resolver el problema. Esta técnica libera creatividad al reducir presión y frecuentemente revela insights valiosos al identificar qué definitivamente NO hacer.\nDespués de generar multitud de ideas, buscaremos converger hacia las más prometedoras, agrupando ideas similares en clusters temáticos, evaluando ideas contra criterios predefinidos como el impacto potencial, viabilidad técnica o alineación con valores organizacionales, utilizando técnicas de votación donde cada participante del equipo distribuye votos entre sus ideas favoritas y finalmente seleccionaremos 2-5 conceptos para llevar a prototipado.\nFase 5: Prototipar. El prototipado transforma ideas abstractas en artefactos concretos que pueden experimentarse y evaluarse. Recuerda seguir el principio de fidelidad mínima viable: construye prototipos tan simples como sea posible para obtener el feedback que necesitas. Un sketch en papel puede ser suficiente para validar un flujo de interacción, no necesitas código funcional. El propósito es aprender rápido y barato, no impresionar con acabados. Estos son algunos tipos de prototipos según el objetivo:\n✓ Prototipos de exploración: Extremadamente baja fidelidad (sketches, storyboards, role-playing), útiles para explorar múltiples direcciones rápidamente. Inversión: minutos a horas.\n✓ Prototipos de validación: Fidelidad media con wireframes clicables, maquetas físicas simples o videos explicativos, para testear hipótesis específicas sobre funcionalidad o experiencia. El periodo de inversión puede pasar de horas a días. Para hacerlo podemos apoyarnos en plataformas de IA como las que mencionaremos a continuación.\n✓ Prototipos de refinamiento: Alta fidelidad, que simulan con precisión la experiencia final, para decisiones de diseño detalladas antes de producción. Inversión: días a semanas.\nIncluiremos en esta fase una preparación para testeo. Antes de poner prototipos frente a usuarios, define claramente las siguientes preguntas: ¿qué hipótesis específicas estás validando?; ¿qué observarás para confirmar o refutar cada hipótesis?; ¿qué preguntas harás durante y después de la interacción?; ¿quiénes serán los testers (deben representar usuarios reales)?.\nAl pasar a la ejecución del prototipado podemos utilizar diferentes herramientas en función del tipo de solución que estás prototipando. Recientemente además incluimos las posibilidades que nos permite el prototipado asistido por IA. Para interfaces digitales Figma permite crear prototipos interactivos de aplicaciones y sitios web sin programación. Su curva de aprendizaje es suave y permite colaboración en tiempo real. Para servicios y experiencias podemos crear storyboards o videos que narren la experiencia del usuario interactuando con tu servicio. Herramientas simples como PowerPoint o Canva son suficientes. Para productos físicos utilizaremos materiales cotidianos (cartón, espuma, Lego) para crear representaciones tridimensionales. La impresión 3D es accesible para prototipos más refinados, pero no es necesaria inicialmente. Recuerda que al final del capítulo hemos creado una lista de herramientas, asistentes IA y prompt de apoyo para que puedas generar el proceso sin preocupaciones.\nFase 6: Testear: El testeo cierra el ciclo de aprendizaje poniendo prototipos en manos de usuarios reales y observando sus reacciones: Recluta 5-8 personas que representen tu segmento de usuarios objetivo. No necesitas muestras estadísticamente significativas, la investigación cualitativa revela que 5 usuarios identificarán aproximadamente 85% de los problemas de usabilidad fundamentales. La estructura recomendada para las sesiones de testeo:\n✓ Introducción (5 min): Explica el propósito general sin revelar detalles que sesguen comportamiento.\n✓ Tareas contextualizadas (15-20 min): Presenta escenarios realistas y solicita que intenten completar tareas usando el prototipo, pensando en voz alta.\n✓ Observación activa: Registra qué hacen, qué dicen, expresiones faciales, puntos de confusión y lo que denominamos momentos de deleite, de conexión natural con la solución.\n✓ Preguntas de seguimiento (10 min): Indaga sobre decisiones, confusiones observadas, y emociones experimentadas.\nDurante el testeo buscamos dar respuesta a las siguientes preguntas: ¿los usuarios comprenden intuitivamente qué es y para qué sirve?; ¿pueden completar las tareas core sin asistencia?; ¿dónde se confunden, frustran o detienen?; ¿qué aspectos generan satisfacción o sorpresa positiva?; ¿qué preguntan repetidamente? y ¿qué ignoran completamente? El testeo no busca validar que tu idea es brillante, es para descubrir cómo mejorarla. Es ideal en esta fase descubrir problemas muy al inicio, ya que cada fallo en prototipo evita un fallo mucho más costoso en el producto final. Y recuerda que los mejores facilitadores de testeo mantienen mentalidad de curiosidad genuina, no de defensa. Después de las sesiones reúne al equipo para compartir observaciones clave, identifica patrones a través de preguntas como “¿Qué problemas fueron universales vs. aislados?”, prioriza qué cambiar en la siguiente iteración y finalmente decide si necesitas otro ciclo de prototipado y testeo, o estás listo para implementación. Itera cuando el feedback revela problemas fundamentales en tu concepto o ejecución. Avanza a implementación cuando usuarios pueden completar tareas core exitosamente, el concepto resuena emocionalmente, y los problemas restantes son refinamientos menores.\nFase 7: Implementación: La crítica más común al design thinking es que se queda en ideas interesantes que nunca llegan a implementarse. Podemos superar esta brecha si analizamos modelo de negocio y viabilidad. Antes de comprometer recursos significativos a implementación, valida que la solución también es viable comercialmente. Herramientas como Business Model Canvas ayudan a pensar sistemáticamente sobre propuestas de valor, segmentos de clientes, canales de distribución, estructura de costes y flujos de ingresos. Otra posibilidad pasa por escribir el roadmap de implementación: Desarrolla un plan realista que descompone la visión en hitos alcanzables:\n✓ Piloto: Implementación limitada (geografía, segmento de usuarios, funcionalidad) para validar en condiciones reales.\n✓ Escalabilidad: Expansión gradual incorporando aprendizajes del piloto.\n✓ Institucionalización: Integración en operaciones normales con procesos de mejora continua.\nEvalúa la gestión del cambio organizacional. Las soluciones innovadoras frecuentemente requieren que ciertos perfiles dejen de aferrarse a creencias o comportamientos. Anticipa resistencia y planifica estrategias de gestión del cambio: comunicación clara de beneficios, involucramiento temprano de afectados, capacitación, incentivos alineados. Para terminar define cómo medirás el éxito post-implementación. Combinas métricas cuantitativas como las ventas, eficiencia o costes, con cualitativas como la satisfacción de usuarios o el compromiso de los empleados y establece tiempos de revisión para identificar necesidades de ajuste tempranamente.",
+      "subsecciones": [],
+      "ids_prompts": [],
+      "ids_herramientas": [
+        "c02-h99",
+        "c02-h100",
+        "c02-h101",
+        "c02-h102"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": [
+        "c02-d18",
+        "c02-d19",
+        "c02-d20",
+        "c02-d21",
+        "c02-d22",
+        "c02-d23",
+        "c02-d24",
+        "c02-d25",
+        "c02-d26",
+        "c02-d27",
+        "c02-d28",
+        "c02-d29",
+        "c02-d30",
+        "c02-d31",
+        "c02-d32",
+        "c02-d33",
+        "c02-d34",
+        "c02-d35",
+        "c02-d36",
+        "c02-d37",
+        "c02-d38",
+        "c02-d39",
+        "c02-d40",
+        "c02-d41"
+      ]
+    },
+    {
+      "id": "c02-s4",
+      "numero": "4",
+      "titulo": "Herramientas y asistencia IA para cada etapa",
+      "pagina_pdf": 40,
+      "pagina_libro": 35,
+      "texto": "Exploremos las herramientas digitales y las plataformas de inteligencia artificial y prompts más efectivos en cada fase del proceso.\nHerramientas digitales en la Fase de Empatizar\n✐ Herramientas de gestión de investigación cualitativa\nDovetail | Airtable | Atlas.ti | Cauliflower | Nvivo | Qualtrics | Maxqda\n✐ Herramientas de encuestas y feedback\nTypeform | Google Forms | ClickUp | Jotform | SurveyMonkey\nHerramientas digitales en la Fase de Definir\n✐ Herramientas de mapeo colaborativo\nMiro | Mural | FigJam | Smaply | Userforge\nHerramientas digitales en la Fase de Idear\n✐ Herramientas de brainstorming colaborativo\nMiro | Mural | FigJam | Smaply | Userforge\nEn este caso reformulamos el uso de las herramientas propuestas para mapeo y ampliamos a plantillas para técnicas de ideación como el brainwriting, SCAMPER o similares, también para las usamos por sus capacidades de votación para convergencia, temporizadores para timeboxing de actividades o incluso para sus modos de presentación para compartir resultados.\nHerramientas digitales en la Fase de Prototipar\n✐ Herramientas de diseño y prototipado\nFigma | Wordpress | Adobe XD | Canva\n✐ Herramientas especializadas para tipos específicos de prototipos\nLoom | Vidyard | Animaker | Wistia\nHerramientas digitales en la Fase de Testear\n✐ Plataformas de testing de usabilidad\nMaze | UserTesting | Lookback | Userlytics | Hotjar | Lucky Orange\n✐ Análisis y síntesis de feedback\nDovetail | Airtable | Atlas.ti | Cauliflower | Nvivo | Qualtrix | Maxqda\nHerramientas IA en la fase de Idear\n✐ Generación de ideas con LLMs\nChatGPT | Gemini | Claude | Grok | Kimi | Qwen | NotebookLM\nChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos. Cuando el equipo está estancado, podemos abrir ChatGPT 5.2 o Gemini 3.1 Pro en modo razonamiento y solicitar “Actúa como un facilitador experto en Design Thinking e Innovación Disruptiva. Nuestro equipo está sufriendo un bloqueo creativo intentando resolver el siguiente desafío: [Describe el problema]. Tu tarea es generar una lista de 50 ideas divergentes, inusuales y salvajes para solucionarlo. Restricciones: No juzgues la viabilidad técnica ni económica en esta fase; prioriza la originalidad extrema y el pensamiento lateral. No des explicaciones largas. Formato: Preséntalo como una lista de viñetas agrupadas en 5 categorías temáticas poco convencionales.”. Si lo que buscamos es explorar espacios de solución amplios, una posible petición podría ser “Actúa como un estratega de innovación corporativa. Estamos buscando nuevas formas de abordar el siguiente problema: [Describe el problema]. Analiza este desafío y propón 3 soluciones distintas desde la perspectiva operativa de cada una de las siguientes industrias: [Ej: Alta costura, Cadena de suministro automotriz, Videojuegos multijugador]. Formato: Para cada idea, explica brevemente cuál es el principio central de esa industria que estás aplicando y cómo se traduciría exactamente a nuestro contexto.”. Como ves existen posibilidades extraordinarias si sabemos cómo dirigirnos al asistente. Incluso podríamos aplicar técnicas creativas si las conocemos, como en el caso del método de las analogías. Prueba con “Actúa como un experto en Biomímesis y Diseño de Producto. Nuestro reto central es: [Describe el desafío técnico o de experiencia]. Observa la naturaleza e identifica 5 sistemas biológicos, plantas o animales que hayan resuelto evolutivamente un problema similar de forma eficiente. Formato: Crea una tabla con tres columnas: 1) El organismo/sistema natural, 2) El mecanismo biológico exacto que utiliza, 3) La traducción de ese mecanismo a una característica tangible para nuestro producto/servicio.”, te sorprenderá el resultado. A continuación, anotamos en lista varios prompts efectivos para ideación.\n✓ Específicos: “Actúa como un especialista en UX/UI y estratega de producto. Genera 20 ideas accionables para resolver [Ej: el abandono de carritos de compra] en nuestro servicio de [Categoría/Sector], dirigido a un usuario final que es [Describe la audiencia]. Restricciones innegociables: Tenemos un presupuesto muy bajo de [Presupuesto] y nuestra limitación tecnológica actual es [Tecnología/Plataforma]. Las ideas deben ser implementables a corto plazo. Formato: Divide las ideas en tres niveles de esfuerzo: 'Quick Wins' (Victorias rápidas de bajo coste), 'Medium Effort' y 'Moonshots' (Alto impacto, mayor ingenio requerido).”\n✓ Orientados a técnicas: “Actúa como un Director de Innovación. Queremos iterar y mejorar nuestro concepto o producto actual: [Describe tu producto/servicio actual]. Aplica rigurosamente la metodología SCAMPER (Sustituir, Combinar, Adaptar, Modificar, Poner en otros usos, Eliminar, Reordenar/Invertir). Tarea: Genera exactamente 2 ideas radicales para cada una de las 7 variables de SCAMPER. Explica en una sola frase cómo cada alteración mejora la propuesta de valor para el usuario.”\n✓ Basados en roles: “Actúa como un panel de consultores de clase mundial. Nuestro desafío es: [Describe el problema]. Proporciona una propuesta de solución detallada adoptando los modelos mentales, sesgos y filosofías principales de cada uno de los siguientes perfiles: A) Un 'Imagineer' de Disney (enfocado en la magia, la narrativa y la experiencia emocional). B) Un Ingeniero Jefe de Tesla (enfocado en primeros principios, eficiencia y eliminación de fricción). C) Un Antropólogo Cultural (enfocado en rituales humanos, símbolos y significados comunitarios). D) Un niño de 8 años (enfocado en la simplicidad absoluta y la diversión).”\n✓ Iterativos: Después del primer output, refina con \"Actúa como un Product Manager senior. Del output anterior, vamos a seleccionar la idea número [Número]: '[Breve descripción de la idea]'. Tu tarea es desarrollar esta idea en un 'Documento de Concepto' estructurado. Formato obligatorio: 1. Propuesta de Valor clara (1 frase). 2. Mecánica Principal (Paso a paso de cómo interactúa el usuario). 3. Puntos de fricción potenciales (Qué podría salir mal). 4. Experimento Mínimo Viable (Diseña una prueba de muy baja fidelidad que podamos ejecutar mañana mismo para validar si esta idea tiene sentido antes de programar nada)\".\n✐ IA generativa para ideación visual\nNano Banana 2 | Kling | Dall-E | MidJourney | Hailuo | Flux | ChatGPT-Image | Grok\nQwen Image\nEn este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos, en ese caso abrimos Nano Banana 2 y le facilitamos la siguiente instrucción “A high-fidelity product photograph of an elegant [SPECIFY DEVICE TYPE, EG: wrist-worn device] designed specifically for [TARGET AUDIENCE, EG: senior citizens] for health monitoring purposes. Style: Minimalist Scandinavian design, featuring a clean white matte ceramic casing, soft light oak wood strap accents, and a large, legible, friendly interface display. Soft, diffused, warm lighting, natural environment background (slightly blurred modern living room). Studio quality, photorealistic, 4k resolution.”. En el ejemplo hemos incluido un estilo concreto pero tú puedes ajustarlo a las necesidades del proyecto. Recuerda que en aulamarketing.digital dispones de una lista de estilos que pueden ser útiles en este tipo de prompt.\nTambién podemos utilizar el asistente para que genere espacios o experiencias. Utilizaremos el mismo modelo o si queremos tener más opciones, podemos probar también con Kling, en ambos casos le facilitaremos el siguiente prompt “An immersive interior photograph of a futuristic [SPECIFY SPACE, EG: coffee shop]. The design harmoniously combines vertical biophilic natural elements (living walls, polished timber) with integrated, subtle, interactive technology (holographic menus, sleek touch interfaces). Lighting: Warm, ambient, cozy amber LED glow. Atmosphere: Welcoming, relaxing, high-tech but intimate. Shot from eye level. Extreme detail, photorealistic, 4k resolution.”. Si quieres avanzar un paso más, puedes probar con un storyboard de 4 paneles consultando “A clean 4-panel storyboard illustration, presented as a single sequential grid. It depicts a user experience interacting with [DESCRIBE THE SERVICE, EG: a digital health concierge]. Minimalist black ink sketch style with a subtle [SPECIFY COLOR, EG: blue] accent on key interaction points. Panel 1: User encounters a problem. Panel 2: User discovers and accesses the service interface. Panel 3: Sequential step-by-step interaction with the service. Panel 4: Resolution of problem, satisfied user. Narrative sequential art, extreme clarity.”.\nHerramientas IA en la fase de Definir\n✐ Herramientas para la identificación automática de patrones y temas\nNotebookLM | Claude 4.6 Sonnet | Gemini 3.1 Pro | ChatGPT 5.2\nDespués de almacenar grandes volúmenes de datos cualitativos, la síntesis tradicional requiere que el equipo lea, codifique manualmente y agrupe hallazgos, proceso que puede tomar días o semanas. La IA puede acelerar esta fase inicial mediante clustering automático de contenido similar y sugerencia de categorías temáticas. Ahora que podemos utilizar modelos de LLM para asistirnos en tareas específicas de definición del problema comenzaremos con NotebookLM ya que es la plataforma que saca el máximo partido exclusivamente con las fuentes proporcionadas. Utiliza el modelo Gemini 3.1 para su razonamiento, por lo que es muy eficiente y te permitirá extraer el máximo valor. A continuación, te mostramos cuatro ejemplos de uso que puedes adaptar a tu criterio.\n✓ Generación de enunciados HMW: “Actúa como un Investigador UX (User Research) Senior. A continuación te proporcionaré las transcripciones y notas de nuestras entrevistas con [NÚMERO] usuarios sobre [TEMA O CONTEXTO DE LA INVESTIGACIÓN]. Tu tarea: Analiza rigurosamente estos datos cualitativos e identifica los 5 temas de frustración o fricción más recurrentes. Restricciones innegociables: No inventes dolores que no estén explícitamente mencionados en el texto. Mantén una postura 100% objetiva. Formato de salida: Presenta cada tema con un título claro, un breve párrafo explicativo de por qué ocurre esa frustración, y acompáñalo con 2 citas literales (verbatims exactos entre comillas) extraídas del texto que ejemplifiquen perfectamente ese dolor.”\n✓ Creación de personas: “Actúa como un Estratega de Experiencia de Usuario y Psicólogo Conductual. Basándote únicamente en los hallazgos y entrevistas proporcionadas a continuación, tu tarea es sintetizar la información para crear 3 'User Personas' (arquetipos representativos). Restricciones innegociables: Los 3 perfiles deben ser mutuamente excluyentes (muy distintos entre sí) para representar diferentes casos de uso o actitudes. Evita los clichés superficiales; céntrate en sus motivaciones profundas. Formato de salida: Para cada Persona, estructura la información de la siguiente manera: Nombre y Arquetipo: (Ej: Laura, la optimizadora de tiempo). Demografía y Contexto: (Datos básicos y su situación actual). Objetivos / Jobs-to-be-done: (Qué intentan lograr realmente). Frustraciones principales: (Sus mayores barreras). Cita característica: (Una frase en primera persona que resuma su mentalidad).”.\n✓ Mapeo de journey comprimido: “Actúa como un Service Designer Senior. Toma las observaciones e insights de investigación proporcionados abajo y construye un Customer Journey Map (Mapa de Experiencia del Cliente) focalizado en el arquetipo de [INSERTA EL NOMBRE DE TU PERSONA O TIPO DE USUARIO]. Tu tarea: Mapea el proceso actual (\"As-Is\", no el estado futuro ideal) en 5 etapas cronológicas clave desde que descubre su necesidad hasta que finaliza su interacción. Restricciones: Sé extremadamente específico con los puntos de dolor. No uses generalidades. Formato de salida: Genera una tabla en formato Markdown con las siguientes 5 columnas: Etapa del proceso (Ej: Descubrimiento, Consideración, Acción...). Acciones del usuario (Qué hace físicamente o digitalmente). Pensamientos (Qué se pregunta o qué duda tiene). Emoción (Alta, Neutral o Baja). Oportunidades (Brechas donde podemos intervenir para mejorar).”.\n✓ Análisis temático: “Actúa como un Facilitador de Innovación y Design Thinking. Hemos sintetizado los problemas de nuestros usuarios en los siguientes insights clave: [INSERTA AQUÍ TUS INSIGHTS O RESUMEN DE FRUSTRACIONES]. Tu tarea: Transforma estos dolores en 10 enunciados de problema utilizando el formato 'HMW' (How Might We... / ¿Cómo podríamos...?). Restricciones innegociables: El principio de un buen HMW es el equilibrio. No deben ser ni demasiado amplios (ej: \"¿Cómo podríamos cambiar el mundo?\") ni demasiado estrechos y prescriptivos (ej: \"¿Cómo podríamos poner un botón azul en el menú?\"). Deben ser específicos, inspiradores y dar margen para múltiples soluciones creativas. Formato de salida: Una lista numerada del 1 al 10, agrupando los enunciados bajo categorías temáticas (Ej: 3 sobre la fase de inicio, 3 sobre la retención de usuarios, etc.).”.\nHerramientas IA en la fase de Prototipar\n✐ Herramientas para la aceleración de prototipado\nGoogle Stitch | Figma Make | Lovable | Bolt | Emergent | Base44 | Verdent | Framer\nEl primer paso podría ser la generación de un wireframe o una interfaz de alta fidelidad para consolidar las bases de la propuesta. Si es así puedes hacerlo en Google Stitch, Figma Make o Vercel v0 con la siguiente indicación “Actúa como un Lead Product Designer. Necesito que generes el diseño de la interfaz principal para una nueva solución que estamos prototipando. Contexto y datos de entrada: Nuestro objetivo es resolver el siguiente problema: [INSERTA AQUÍ TU HMW O PROPUESTA DE VALOR], diseñado específicamente para este tipo de usuario: [INSERTA AQUÍ EL RESUMEN DE TU USER PERSONA]. Tu tarea: Diseña una interfaz limpia, moderna y altamente usable. No te limites a replicar patrones aburridos; quiero que la estructura de la página guíe intuitivamente al usuario hacia la solución de su problema. Restricciones innegociables: Aplica un estilo visual minimalista con una jerarquía tipográfica excelente. Incluye un 'Hero section' claro, un área para explicar cómo funciona el servicio (3 pasos) y un Call to Action (CTA) principal muy visible. Genera tú mismo el copy (texto) temporal de la interfaz basándote en el contexto que te he dado, no uses 'Lorem Ipsum'. Formato de salida: Genera la estructura completa de la interfaz en formato de bloques funcionales.”.\n✐ Herramientas para la generación de código\nAntiGravity | Claude Code | Codex ChatGPT | Cursor | Vercel v0 | Galileo AI\nSi eres experto en programación o prefieres centrarte en el potencial del desarrollo en base a código, utiliza el siguiente prompt dentro de Cursor, Antigravity o Claude 4.6 Sonnet “Actúa como un Senior Frontend Developer experto en React, Tailwind CSS y diseño centrado en el usuario. Estamos en la fase de prototipado rápido de un proyecto de Design Thinking. Contexto de la solución: Queremos validar la siguiente idea en el mercado: [INSERTA AQUÍ LA IDEA, SERVICIO O PRODUCTO A VALIDAR]. Tu tarea: Escribe el código completo, limpio y funcional para una interfaz de usuario interactiva (puede ser una Landing Page o el panel principal de una web-app, elige lo que mejor comunique la idea). El objetivo de este código no es ser perfecto para producción, sino servir como un 'Prototipo de Fachada' (Mockup interactivo) para testear con usuarios reales hoy mismo. Restricciones innegociables: Utiliza un archivo único (Single File Component) o HTML/Tailwind directo que sea fácil de previsualizar. La interfaz debe ser completamente responsive (adaptable a móviles). Interactividad falsa (Mocking): Los botones principales, formularios o selectores deben tener algún tipo de efecto visual al hacer clic (ej. un modal de 'Simulación completada' o un cambio de estado), para que el usuario sienta que funciona, aunque no haya backend conectado. Formato de salida: Entrega el código fuente estructurado, comentado y listo para copiar y pegar en un entorno de desarrollo.”\n✐ Herramientas para generación de imágenes conceptuales\nNano Banana 2 | Kling | Dall-E | MidJourney | Hailuo | Flux | ChatGPT-Image | Grok | Qwen Image\n✐ Herramientas para la generación de contenido\nJasper.ai | Frase.io | Marketmuse | Writesonic | Copy.ai | Rytr | Frase | Hypothenuse.ai | QuillBot | LongShot AI | TextCortex\nLos prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario. También podemos considerar la opción de usar el apoyo en IA para la generación de las variaciones automáticas para A/B testing. En ese caso haremos ajustes de los prompt anteriores, incluyendo nueva información adjunta o variaciones en los headlines, diferentes propuestas de diseño o flujos de usuario con secuencias alternativas.\nHerramientas IA en la fase de Testear\nLa fase de testeo puede generar problemas de procesamiento, ya que visualizar un gran número de vídeos o escuchar múltiples audios puede llevar mucho tiempo si queremos extraer el máximo valor. Utilizar un asistente puede ser muy interesante para reducir los tiempos al máximo y para obtener además informes exhaustivos de análisis de patrones. El uso de herramientas como NotebookLM nos permite procesar nuestra información, transcribir automáticamente el audio, identificar momentos donde usuarios expresan frustración, confusión o alegría mediante análisis de sentimiento y tono e incluso cuantificar métricas como tiempo en tarea, intentos antes de éxito, puntos de abandono. Le facilitaremos tantos mp3 como audios de experiencia de usuario tengamos. Si dispones de sesiones de vídeo, puedes descargar el audio con herramientas como CapCut. Una vez que subimos como fuente los diferentes archivos de audio, le daremos la siguiente instrucción “Actúa como un UX Researcher Senior. Basándote exclusivamente en los archivos de audio/transcripciones que he subido como fuentes, realiza un análisis exhaustivo de las sesiones de testeo del prototipo. Tu tarea: Identifica los patrones de comportamiento, las fricciones de usabilidad y el sentimiento general de los usuarios durante la prueba. Restricciones innegociables: No inventes conclusiones. Si algo no está claro en las fuentes, indica 'Datos insuficientes'. Debes respaldar cada punto de dolor importante con una cita literal (verbatim) extraída de los audios, indicando de qué archivo proviene. Formato de salida esperado: Resumen Ejecutivo: 2 párrafos con la impresión general de los usuarios. Puntos de Fricción Críticos: Lista ordenada de los 3 mayores problemas encontrados (qué intentaba hacer el usuario + por qué falló + cita literal expresando confusión o frustración). Momentos 'Ajá' / Alegría: Qué características o flujos generaron una reacción positiva evidente. Dudas Recurrentes: Preguntas que los usuarios hicieron en voz alta durante el test.”. Si queremos avanzar un paso más y consultar potenciales métricas, podemos hacerlo con el prompt “Actúa como un Analista de Datos de Producto. Revisa detenidamente todas las sesiones de testeo adjuntas en las fuentes. Tu tarea: Extraer y cuantificar las métricas de interacción de los usuarios con el prototipo. Busca menciones a tiempos de espera, intentos repetidos en una misma pantalla o momentos explícitos donde el usuario se rinde. Restricciones: Sé estrictamente analítico. Solo cuenta como 'éxito' si el usuario completó la tarea sin ayuda del moderador. Formato de salida esperado: Genera una tabla en formato Markdown con las siguientes columnas: Tarea / Flujo evaluado: (Ej: Registro, Checkout, Búsqueda). Tasa de Éxito observada: (Cuántos usuarios lo lograron a la primera vs. cuántos fallaron). Puntos de abandono exactos: (En qué pantalla o momento específico se atascaron). Nivel de esfuerzo percibido: (Alto, Medio, Bajo, basado en sus comentarios de voz).”.\nAdemás, después de recolectar feedback de múltiples usuarios mediante entrevistas post-testeo, encuestas abiertas o comentarios, podemos identificar los 5-10 temas más mencionados, agrupar feedback en categorías (usabilidad, funcionalidad, estética, emociones), priorizar problemas por severidad y frecuencia y generar informes ejecutivos para stakeholders. Te recomendamos que en este caso también utilices NotebookLM con la siguiente instrucción “Actúa como un Product Manager ágil. Toma como base los puntos de fricción y problemas de usabilidad que hemos identificado en estas sesiones de prueba (fuentes adjuntas). Tu tarea: Proponer la siguiente iteración del prototipo. Para cada uno de los 3 problemas principales encontrados por los usuarios, propón un cambio de diseño directo y específico. Restricciones: Las soluciones deben ser 'Quick Wins' (fáciles de implementar en el prototipo actual) y deben responder directamente a la causa raíz de la confusión del usuario, no solo al síntoma. Formato de salida esperado: Una lista de viñetas estructurada así: Evidencia: [Describe el problema detectado en el test]. Hipótesis del fallo: [Por qué creemos que el usuario se confundió]. Propuesta de Iteración: [Qué elemento de la UI, texto o flujo vamos a cambiar exactamente para solucionarlo en la v2].”.\nComienza hoy, con un reto concreto, un equipo pequeño de personas comprometidas, y disposición a salir de la oficina para observar y escuchar a tus usuarios reales. No esperes a tener todas las herramientas perfectas o dominar completamente la metodología, el design thinking se aprende haciendo, iterando, y permitiendo que el proceso mismo enseñe. Cada proyecto fortalecerá tus capacidades y las de tu organización, construyendo una cultura donde la innovación centrada en el usuario es la forma habitual de trabajar. ¿Qué te parece si comenzamos por diseñar tu customer journey?",
+      "subsecciones": [],
+      "ids_prompts": [
+        "c02-p01",
+        "c02-p02",
+        "c02-p03",
+        "c02-p04",
+        "c02-p05",
+        "c02-p06",
+        "c02-p07",
+        "c02-p08",
+        "c02-p09",
+        "c02-p10",
+        "c02-p11",
+        "c02-p12",
+        "c02-p13",
+        "c02-p14",
+        "c02-p15",
+        "c02-p16",
+        "c02-p17",
+        "c02-p18",
+        "c02-p19"
+      ],
+      "ids_herramientas": [
+        "c02-h01",
+        "c02-h02",
+        "c02-h03",
+        "c02-h04",
+        "c02-h05",
+        "c02-h06",
+        "c02-h07",
+        "c02-h08",
+        "c02-h09",
+        "c02-h10",
+        "c02-h11",
+        "c02-h12",
+        "c02-h13",
+        "c02-h14",
+        "c02-h15",
+        "c02-h16",
+        "c02-h17",
+        "c02-h18",
+        "c02-h19",
+        "c02-h20",
+        "c02-h21",
+        "c02-h22",
+        "c02-h23",
+        "c02-h24",
+        "c02-h25",
+        "c02-h26",
+        "c02-h27",
+        "c02-h28",
+        "c02-h29",
+        "c02-h30",
+        "c02-h31",
+        "c02-h32",
+        "c02-h33",
+        "c02-h34",
+        "c02-h35",
+        "c02-h36",
+        "c02-h37",
+        "c02-h38",
+        "c02-h39",
+        "c02-h40",
+        "c02-h41",
+        "c02-h42",
+        "c02-h43",
+        "c02-h44",
+        "c02-h45",
+        "c02-h46",
+        "c02-h47",
+        "c02-h48",
+        "c02-h49",
+        "c02-h50",
+        "c02-h51",
+        "c02-h52",
+        "c02-h53",
+        "c02-h54",
+        "c02-h55",
+        "c02-h56",
+        "c02-h57",
+        "c02-h58",
+        "c02-h59",
+        "c02-h60",
+        "c02-h61",
+        "c02-h62",
+        "c02-h63",
+        "c02-h64",
+        "c02-h65",
+        "c02-h66",
+        "c02-h67",
+        "c02-h68",
+        "c02-h69",
+        "c02-h70",
+        "c02-h71",
+        "c02-h72",
+        "c02-h73",
+        "c02-h74",
+        "c02-h75",
+        "c02-h76",
+        "c02-h77",
+        "c02-h78",
+        "c02-h79",
+        "c02-h80",
+        "c02-h81",
+        "c02-h82",
+        "c02-h83",
+        "c02-h84",
+        "c02-h85",
+        "c02-h86",
+        "c02-h87",
+        "c02-h88",
+        "c02-h89",
+        "c02-h90",
+        "c02-h91",
+        "c02-h92",
+        "c02-h93",
+        "c02-h94",
+        "c02-h95",
+        "c02-h96",
+        "c02-h97",
+        "c02-h103",
+        "c02-h104",
+        "c02-h105",
+        "c02-h106",
+        "c02-h107",
+        "c02-h108",
+        "c02-h109",
+        "c02-h110",
+        "c02-h111",
+        "c02-h112",
+        "c02-h113",
+        "c02-h114",
+        "c02-h115",
+        "c02-h116"
+      ],
+      "ids_figuras": [],
+      "ids_definiciones": []
+    }
+  ],
+  "definiciones": [
+    {
+      "id": "c02-d01",
+      "termino": "Design thinking",
+      "definicion": "El design thinking es una metodología de innovación centrada en el usuario que combina pensamiento analítico y creativo para resolver problemas complejos.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 32
+    },
+    {
+      "id": "c02-d02",
+      "termino": "Design thinking (Tim Brown)",
+      "definicion": "Tim Brown, CEO de IDEO y uno de los principales promotores de esta metodología, lo define como \"un enfoque de la innovación centrado en el ser humano que integra las necesidades de las personas, las posibilidades de la tecnología y los requisitos para el éxito empresarial\". Esta definición captura la esencia del design thinking, el punto entre deseabilidad o lo que los usuarios necesitan, factibilidad o lo que es técnicamente posible, y viabilidad, lo que es económicamente sostenible.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 32
+    },
+    {
+      "id": "c02-d03",
+      "termino": "Design sprints",
+      "definicion": "design sprints, metodología desarrollada por Google Ventures que comprime el proceso de design thinking en cinco días intensivos.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 33
+    },
+    {
+      "id": "c02-d04",
+      "termino": "Sustainable design thinking",
+      "definicion": "El sustainable design thinking representa una evolución natural de la metodología, incorporando criterios ambientales y éticos desde las primeras fases del proceso.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 33
+    },
+    {
+      "id": "c02-d05",
+      "termino": "Empatía como core",
+      "definicion": "Empatía como core: La capacidad de ponerse en el lugar del otro, comprendiendo sus emociones, motivaciones y contexto, constituye la base de todo el proceso. Esta empatía no es superficial ni asumida, se construye mediante investigación rigurosa y contacto directo con los usuarios.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 33
+    },
+    {
+      "id": "c02-d06",
+      "termino": "Experimentación iterativa",
+      "definicion": "Experimentación iterativa: En lugar de buscar la solución perfecta desde el inicio, el design thinking abraza la incertidumbre y promueve la exploración de múltiples alternativas mediante ciclos rápidos de prototipado y validación. Esta aproximación experimental reduce el riesgo de fracaso al permitir el aprendizaje continuo y la adaptación basada en feedback real.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 33
+    },
+    {
+      "id": "c02-d07",
+      "termino": "Colaboración multidisciplinar",
+      "definicion": "Colaboración multidisciplinar: Los problemas complejos raramente pueden resolverse desde una única perspectiva disciplinar. El design thinking valora la diversidad de conocimientos, experiencias y puntos de vista, creando equipos heterogéneos donde diseñadores trabajan junto a ingenieros, marketers, usuarios finales y otros stakeholders.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 33
+    },
+    {
+      "id": "c02-d08",
+      "termino": "Orientación a la acción",
+      "definicion": "Orientación a la acción: Más que análisis paralizante, el design thinking promueve el hacer como forma de aprender. Los prototipos tangibles, incluso rudimentarios, generan conversaciones más productivas y revelan aspectos del problema que permanecerían ocultos en simples discusiones de equipo.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 33
+    },
+    {
+      "id": "c02-d09",
+      "termino": "Optimismo constructivo",
+      "definicion": "Optimismo constructivo: Esta metodología parte del supuesto de que siempre es posible mejorar la situación actual y que los problemas complejos pueden abordarse mediante creatividad estructurada. Este optimismo se fundamenta en un proceso sistemático de exploración y validación.",
+      "id_seccion": "c02-s1",
+      "pagina_pdf": 33
+    },
+    {
+      "id": "c02-d10",
+      "termino": "Empatizar",
+      "definicion": "Empatizar: Esta fase inicial se centra en comprender profundamente a los usuarios para quienes se diseña. Mediante observación, entrevistas cualitativas, inmersión etnográfica y otras técnicas de investigación, el equipo desarrolla conocimiento genuino sobre las necesidades, deseos, comportamientos y contextos de las personas. No se trata de preguntar qué quieren los usuarios, se trata de descubrir qué necesitan realmente, incluso cuando ellos mismos no saben cómo decirlo.",
+      "id_seccion": "c02-s2",
+      "pagina_pdf": 34
+    },
+    {
+      "id": "c02-d11",
+      "termino": "Definir",
+      "definicion": "Definir: Con base en los insights generados durante la empatía, esta fase sintetiza la información para articular con precisión el problema que se abordará. La definición del problema es crucial: un problema mal planteado llevará inevitablemente a soluciones inadecuadas. El resultado típico de esta fase es un enunciado del problema en formato \"¿Cómo podríamos...?\", que es suficientemente específico para guiar la acción pero suficientemente amplio para no prescribir la solución.",
+      "id_seccion": "c02-s2",
+      "pagina_pdf": 34
+    },
+    {
+      "id": "c02-d12",
+      "termino": "Idear",
+      "definicion": "Idear: Una vez definido claramente el problema, el equipo genera una amplia gama de posibles soluciones mediante técnicas de pensamiento divergente como brainstorming, SCAMPER, analogías, y otros métodos creativos. El objetivo en esta fase es cantidad sobre calidad, suspendiendo el juicio crítico para permitir la emergencia de ideas inesperadas. Posteriormente, se aplican criterios de evaluación para seleccionar las propuestas más prometedoras que se llevarán a prototipado.",
+      "id_seccion": "c02-s2",
+      "pagina_pdf": 34
+    },
+    {
+      "id": "c02-d13",
+      "termino": "Prototipar",
+      "definicion": "Prototipar: Las ideas seleccionadas se materializan en prototipos tangibles que pueden ser experimentados e interactuados. Estos prototipos pueden variar enormemente en fidelidad, desde sketches simples en papel hasta simulaciones digitales interactivas, dependiendo de qué hipótesis específicas se busca validar. El propósito no es crear un producto final, sino hacer las ideas suficientemente concretas para generar feedback útil.",
+      "id_seccion": "c02-s2",
+      "pagina_pdf": 34
+    },
+    {
+      "id": "c02-d14",
+      "termino": "Testear",
+      "definicion": "Testear: Los prototipos se ponen en manos de usuarios reales para observar cómo interactúan con ellos, recoger feedback y aprender qué funciona y qué requiere refinamiento. Esta fase es fundamentalmente de aprendizaje, no de validación de supuestos previos. Los insights generados durante el testeo frecuentemente llevan a revisar definiciones del problema o generar nuevas ideas, evidenciando la naturaleza no lineal e iterativa del proceso.",
+      "id_seccion": "c02-s2",
+      "pagina_pdf": 34
+    },
+    {
+      "id": "c02-d15",
+      "termino": "Design thinking vs. Lean Startup",
+      "definicion": "Design thinking vs. Lean Startup: Mientras el design thinking se centra en identificar el problema correcto mediante empatía profunda, lean startup enfatiza la validación rápida de hipótesis de negocio mediante ciclos build-measure-learn (construir-medir-aprender). Design thinking es particularmente fuerte en las fases iniciales de exploración del espacio del problema, mientras que lean startup es óptima en la validación de viabilidad comercial de soluciones. Las mejores prácticas sugieren combinar ambas, usar design thinking para asegurar que se está resolviendo el problema correcto, y lean startup para validar que la solución propuesta es económicamente sostenible.",
+      "id_seccion": "c02-s2.2",
+      "pagina_pdf": 35
+    },
+    {
+      "id": "c02-d16",
+      "termino": "Design thinking vs. Metodologías Ágiles",
+      "definicion": "Design thinking vs. Metodologías Ágiles: Las metodologías ágiles como scrum se enfocan en la ejecución eficiente de desarrollo de software mediante sprints iterativos y equipos auto-organizados. El design thinking, por su parte, no prescribe cómo ejecutar la construcción de la solución, sino cómo descubrir qué solución construir. Son altamente complementarios, design thinking define el \"qué\" y el \"por qué\" mientras que Agile optimiza el \"cómo\" y el \"cuándo\".",
+      "id_seccion": "c02-s2.2",
+      "pagina_pdf": 35
+    },
+    {
+      "id": "c02-d17",
+      "termino": "Design thinking vs. Business Model Canvas",
+      "definicion": "Design thinking vs. Business Model Canvas: El Business Model Canvas de Alexander Osterwalder es una herramienta estratégica para visualizar y diseñar modelos de negocio completos. Puede utilizarse efectivamente en conjunción con design thinking durante las fases de ideación e implementación para asegurar que las soluciones innovadoras propuestas también sean comercialmente viables. El Canvas proporciona una estructura para pensar sistemáticamente sobre propuestas de valor, segmentos de clientes, flujos de ingresos y estructura de costes.",
+      "id_seccion": "c02-s2.2",
+      "pagina_pdf": 35
+    },
+    {
+      "id": "c02-d18",
+      "termino": "Entrevistas en profundidad",
+      "definicion": "Entrevistas en profundidad: Conversaciones estructuradas pero abiertas con usuarios individuales, explorando sus experiencias, frustraciones, necesidades y contextos de vida. Prioriza preguntas abiertas como: \"Cuéntame sobre la última vez que...\" sobre cerradas que se responden con sí/no.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 36
+    },
+    {
+      "id": "c02-d19",
+      "termino": "Observación etnográfica",
+      "definicion": "Observación etnográfica: Observa a los usuarios en su ambiente natural mientras realizan las actividades relevantes para tu propuesta. Es habitual que las personas expresen de una forma diferente lo que hacen frente a lo que verdaderamente hacen y la observación directa revela estas discrepancias.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 36
+    },
+    {
+      "id": "c02-d20",
+      "termino": "Shadowing",
+      "definicion": "Shadowing: Acompaña a usuarios durante períodos extendidos para experimentar su realidad desde su perspectiva. Esta técnica es particularmente potente para identificar puntos de dolor que los usuarios han normalizado y ya ni siquiera mencionan espontáneamente.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 36
+    },
+    {
+      "id": "c02-d21",
+      "termino": "Diarios de usuario",
+      "definicion": "Diarios de usuario: Solicita a los participantes que documenten sus experiencias, pensamientos y emociones durante varios días mediante diarios escritos, fotográficos o video. Este método captura dinámicas temporales que no serían visibles en una entrevista puntual.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 36
+    },
+    {
+      "id": "c02-d22",
+      "termino": "Mapas de empatía",
+      "definicion": "Mapas de empatía: Organiza una plantilla dividida en los siguientes cuadrantes: ¿Qué dice?, ¿Qué piensa?, ¿Qué hace? y ¿Qué siente?. De esta forma dispones de las observaciones sobre usuarios específicos. Los mapas de empatía facilitan que todo el equipo desarrolle comprensión compartida sobre las experiencias de los usuarios.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 37
+    },
+    {
+      "id": "c02-d23",
+      "termino": "Personas",
+      "definicion": "Personas: Arquetipos ficticios pero basados en datos reales que representan segmentos clave de usuarios. Una persona efectiva incluye datos demográficos, objetivos, frustraciones, contexto, y narrativa que humaniza la información.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 37
+    },
+    {
+      "id": "c02-d24",
+      "termino": "Customer Journey Maps",
+      "definicion": "Customer Journey Maps: Visualización de la experiencia completa del usuario a través del tiempo, identificando puntos de contacto, emociones en cada etapa, y oportunidades de mejora. Los journey maps ayudan a identificar momentos de verdad donde pequeñas intervenciones pueden tener impacto desproporcionado.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 37
+    },
+    {
+      "id": "c02-d25",
+      "termino": "Brainstorming clásico",
+      "definicion": "Brainstorming clásico: Generación libre de ideas en grupo, con un facilitador que registra todo sin filtrar. Establece un límite de tiempo y un objetivo numérico ambicioso (ej: 50 ideas).",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 37
+    },
+    {
+      "id": "c02-d26",
+      "termino": "Brainstorming individual seguido de compartir",
+      "definicion": "Brainstorming individual seguido de compartir: Para equipos donde personalidades dominantes tienden a monopolizar discusiones, solicita primero generación individual de ideas durante 5-10 minutos, luego compartir en grupo. Esto asegura que voces introvertidas también contribuyan.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 37
+    },
+    {
+      "id": "c02-d27",
+      "termino": "SCAMPER",
+      "definicion": "SCAMPER: Acrónimo para técnicas de transformación de ideas existentes - Sustituir, Combinar, Adaptar, Modificar, Proponer otros usos, Eliminar, Reorganizar. Aplica sistemáticamente cada operación a soluciones existentes para generar variaciones innovadoras.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38
+    },
+    {
+      "id": "c02-d28",
+      "termino": "Analogías y transferencia",
+      "definicion": "Analogías y transferencia: Explora cómo otros sectores o contextos han resuelto problemas similares. ¿Cómo resolverían este problema Disney? ¿Amazon? ¿La naturaleza?",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38
+    },
+    {
+      "id": "c02-d29",
+      "termino": "Worst Possible Idea",
+      "definicion": "Worst Possible Idea: Invierte la pregunta temporalmente, genera las peores ideas posibles para resolver el problema. Esta técnica libera creatividad al reducir presión y frecuentemente revela insights valiosos al identificar qué definitivamente NO hacer.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38
+    },
+    {
+      "id": "c02-d30",
+      "termino": "Prototipos de exploración",
+      "definicion": "Prototipos de exploración: Extremadamente baja fidelidad (sketches, storyboards, role-playing), útiles para explorar múltiples direcciones rápidamente. Inversión: minutos a horas.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38
+    },
+    {
+      "id": "c02-d31",
+      "termino": "Prototipos de validación",
+      "definicion": "Prototipos de validación: Fidelidad media con wireframes clicables, maquetas físicas simples o videos explicativos, para testear hipótesis específicas sobre funcionalidad o experiencia. El periodo de inversión puede pasar de horas a días. Para hacerlo podemos apoyarnos en plataformas de IA como las que mencionaremos a continuación.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38
+    },
+    {
+      "id": "c02-d32",
+      "termino": "Prototipos de refinamiento",
+      "definicion": "Prototipos de refinamiento: Alta fidelidad, que simulan con precisión la experiencia final, para decisiones de diseño detalladas antes de producción. Inversión: días a semanas.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38
+    },
+    {
+      "id": "c02-d33",
+      "termino": "Introducción",
+      "definicion": "Introducción (5 min): Explica el propósito general sin revelar detalles que sesguen comportamiento.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39
+    },
+    {
+      "id": "c02-d34",
+      "termino": "Tareas contextualizadas",
+      "definicion": "Tareas contextualizadas (15-20 min): Presenta escenarios realistas y solicita que intenten completar tareas usando el prototipo, pensando en voz alta.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39
+    },
+    {
+      "id": "c02-d35",
+      "termino": "Observación activa",
+      "definicion": "Observación activa: Registra qué hacen, qué dicen, expresiones faciales, puntos de confusión y lo que denominamos momentos de deleite, de conexión natural con la solución.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39
+    },
+    {
+      "id": "c02-d36",
+      "termino": "Preguntas de seguimiento",
+      "definicion": "Preguntas de seguimiento (10 min): Indaga sobre decisiones, confusiones observadas, y emociones experimentadas.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39
+    },
+    {
+      "id": "c02-d37",
+      "termino": "Piloto",
+      "definicion": "Piloto: Implementación limitada (geografía, segmento de usuarios, funcionalidad) para validar en condiciones reales.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39
+    },
+    {
+      "id": "c02-d38",
+      "termino": "Escalabilidad",
+      "definicion": "Escalabilidad: Expansión gradual incorporando aprendizajes del piloto.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39
+    },
+    {
+      "id": "c02-d39",
+      "termino": "Institucionalización",
+      "definicion": "Institucionalización: Integración en operaciones normales con procesos de mejora continua.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39
+    },
+    {
+      "id": "c02-d40",
+      "termino": "How Might We (HMW)",
+      "definicion": "Diseña una estructura para el problema en formato \"¿Cómo podríamos...?\", conocido como How Might We o HMW. Un HMW efectivo es específico, amplio y optimista.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 37
+    },
+    {
+      "id": "c02-d41",
+      "termino": "Principio de fidelidad mínima viable",
+      "definicion": "Recuerda seguir el principio de fidelidad mínima viable: construye prototipos tan simples como sea posible para obtener el feedback que necesitas.",
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38
+    }
+  ],
+  "prompts": [
+    {
+      "id": "c02-p01",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "pagina_libro": 36,
+      "origen": "texto",
+      "texto": "Actúa como un facilitador experto en Design Thinking e Innovación Disruptiva. Nuestro equipo está sufriendo un bloqueo creativo intentando resolver el siguiente desafío: [Describe el problema]. Tu tarea es generar una lista de 50 ideas divergentes, inusuales y salvajes para solucionarlo. Restricciones: No juzgues la viabilidad técnica ni económica en esta fase; prioriza la originalidad extrema y el pensamiento lateral. No des explicaciones largas. Formato: Preséntalo como una lista de viñetas agrupadas en 5 categorías temáticas poco convencionales.",
+      "bloque": "Generación de ideas con LLMs",
+      "contexto_previo": "Cuando el equipo está estancado, podemos abrir ChatGPT 5.2 o Gemini 3.1 Pro en modo razonamiento y solicitar",
+      "contexto_posterior": "Si lo que buscamos es explorar espacios de solución amplios, una posible petición podría ser",
+      "herramienta_ia_indicada": [
+        "ChatGPT 5.2",
+        "Gemini 3.1 Pro (modo razonamiento)"
+      ],
+      "marcadores_variables": [
+        "[Describe el problema]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p02",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "pagina_libro": 36,
+      "origen": "texto",
+      "texto": "Actúa como un estratega de innovación corporativa. Estamos buscando nuevas formas de abordar el siguiente problema: [Describe el problema]. Analiza este desafío y propón 3 soluciones distintas desde la perspectiva operativa de cada una de las siguientes industrias: [Ej: Alta costura, Cadena de suministro automotriz, Videojuegos multijugador]. Formato: Para cada idea, explica brevemente cuál es el principio central de esa industria que estás aplicando y cómo se traduciría exactamente a nuestro contexto.",
+      "bloque": "Generación de ideas con LLMs",
+      "contexto_previo": "Si lo que buscamos es explorar espacios de solución amplios, una posible petición podría ser",
+      "contexto_posterior": "Como ves existen posibilidades extraordinarias si sabemos cómo dirigirnos al asistente.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Describe el problema]",
+        "[Ej: Alta costura, Cadena de suministro automotriz, Videojuegos multijugador]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p03",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "pagina_libro": 36,
+      "origen": "texto",
+      "texto": "Actúa como un experto en Biomímesis y Diseño de Producto. Nuestro reto central es: [Describe el desafío técnico o de experiencia]. Observa la naturaleza e identifica 5 sistemas biológicos, plantas o animales que hayan resuelto evolutivamente un problema similar de forma eficiente. Formato: Crea una tabla con tres columnas: 1) El organismo/sistema natural, 2) El mecanismo biológico exacto que utiliza, 3) La traducción de ese mecanismo a una característica tangible para nuestro producto/servicio.",
+      "bloque": "Generación de ideas con LLMs",
+      "contexto_previo": "Incluso podríamos aplicar técnicas creativas si las conocemos, como en el caso del método de las analogías. Prueba con",
+      "contexto_posterior": "te sorprenderá el resultado. A continuación, anotamos en lista varios prompts efectivos para ideación.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Describe el desafío técnico o de experiencia]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p04",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "pagina_libro": 36,
+      "origen": "texto",
+      "texto": "Actúa como un especialista en UX/UI y estratega de producto. Genera 20 ideas accionables para resolver [Ej: el abandono de carritos de compra] en nuestro servicio de [Categoría/Sector], dirigido a un usuario final que es [Describe la audiencia]. Restricciones innegociables: Tenemos un presupuesto muy bajo de [Presupuesto] y nuestra limitación tecnológica actual es [Tecnología/Plataforma]. Las ideas deben ser implementables a corto plazo. Formato: Divide las ideas en tres niveles de esfuerzo: 'Quick Wins' (Victorias rápidas de bajo coste), 'Medium Effort' y 'Moonshots' (Alto impacto, mayor ingenio requerido).",
+      "bloque": "Generación de ideas con LLMs",
+      "contexto_previo": "A continuación, anotamos en lista varios prompts efectivos para ideación. ✓ Específicos:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Ej: el abandono de carritos de compra]",
+        "[Categoría/Sector]",
+        "[Describe la audiencia]",
+        "[Presupuesto]",
+        "[Tecnología/Plataforma]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p05",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "pagina_libro": 36,
+      "origen": "texto",
+      "texto": "Actúa como un Director de Innovación. Queremos iterar y mejorar nuestro concepto o producto actual: [Describe tu producto/servicio actual]. Aplica rigurosamente la metodología SCAMPER (Sustituir, Combinar, Adaptar, Modificar, Poner en otros usos, Eliminar, Reordenar/Invertir). Tarea: Genera exactamente 2 ideas radicales para cada una de las 7 variables de SCAMPER. Explica en una sola frase cómo cada alteración mejora la propuesta de valor para el usuario.",
+      "bloque": "Generación de ideas con LLMs",
+      "contexto_previo": "A continuación, anotamos en lista varios prompts efectivos para ideación. ✓ Orientados a técnicas:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Describe tu producto/servicio actual]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p06",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "pagina_libro": 36,
+      "origen": "texto",
+      "texto": "Actúa como un panel de consultores de clase mundial. Nuestro desafío es: [Describe el problema]. Proporciona una propuesta de solución detallada adoptando los modelos mentales, sesgos y filosofías principales de cada uno de los siguientes perfiles: A) Un 'Imagineer' de Disney (enfocado en la magia, la narrativa y la experiencia emocional). B) Un Ingeniero Jefe de Tesla (enfocado en primeros principios, eficiencia y eliminación de fricción). C) Un Antropólogo Cultural (enfocado en rituales humanos, símbolos y significados comunitarios). D) Un niño de 8 años (enfocado en la simplicidad absoluta y la diversión).",
+      "bloque": "Generación de ideas con LLMs",
+      "contexto_previo": "A continuación, anotamos en lista varios prompts efectivos para ideación. ✓ Basados en roles:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Describe el problema]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p07",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "pagina_libro": 37,
+      "origen": "texto",
+      "texto": "Actúa como un Product Manager senior. Del output anterior, vamos a seleccionar la idea número [Número]: '[Breve descripción de la idea]'. Tu tarea es desarrollar esta idea en un 'Documento de Concepto' estructurado. Formato obligatorio: 1. Propuesta de Valor clara (1 frase). 2. Mecánica Principal (Paso a paso de cómo interactúa el usuario). 3. Puntos de fricción potenciales (Qué podría salir mal). 4. Experimento Mínimo Viable (Diseña una prueba de muy baja fidelidad que podamos ejecutar mañana mismo para validar si esta idea tiene sentido antes de programar nada)",
+      "bloque": "Generación de ideas con LLMs",
+      "contexto_previo": "A continuación, anotamos en lista varios prompts efectivos para ideación. ✓ Iterativos: Después del primer output, refina con",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [
+        "[Número]",
+        "[Breve descripción de la idea]"
+      ],
+      "referencia_a_salida_previa": "Después del primer output, refina con \"Actúa como un Product Manager senior. Del output anterior, vamos a seleccionar la idea número [Número]: '[Breve descripción de la idea]'.",
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p08",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "pagina_libro": 37,
+      "origen": "texto",
+      "texto": "A high-fidelity product photograph of an elegant [SPECIFY DEVICE TYPE, EG: wrist-worn device] designed specifically for [TARGET AUDIENCE, EG: senior citizens] for health monitoring purposes. Style: Minimalist Scandinavian design, featuring a clean white matte ceramic casing, soft light oak wood strap accents, and a large, legible, friendly interface display. Soft, diffused, warm lighting, natural environment background (slightly blurred modern living room). Studio quality, photorealistic, 4k resolution.",
+      "bloque": "IA generativa para ideación visual",
+      "contexto_previo": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos, en ese caso abrimos Nano Banana 2 y le facilitamos la siguiente instrucción",
+      "contexto_posterior": "En el ejemplo hemos incluido un estilo concreto pero tú puedes ajustarlo a las necesidades del proyecto. Recuerda que en aulamarketing.digital dispones de una lista de estilos que pueden ser útiles en este tipo de prompt.",
+      "herramienta_ia_indicada": [
+        "Nano Banana 2"
+      ],
+      "marcadores_variables": [
+        "[SPECIFY DEVICE TYPE, EG: wrist-worn device]",
+        "[TARGET AUDIENCE, EG: senior citizens]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p09",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "pagina_libro": 37,
+      "origen": "texto",
+      "texto": "An immersive interior photograph of a futuristic [SPECIFY SPACE, EG: coffee shop]. The design harmoniously combines vertical biophilic natural elements (living walls, polished timber) with integrated, subtle, interactive technology (holographic menus, sleek touch interfaces). Lighting: Warm, ambient, cozy amber LED glow. Atmosphere: Welcoming, relaxing, high-tech but intimate. Shot from eye level. Extreme detail, photorealistic, 4k resolution.",
+      "bloque": "IA generativa para ideación visual",
+      "contexto_previo": "También podemos utilizar el asistente para que genere espacios o experiencias. Utilizaremos el mismo modelo o si queremos tener más opciones, podemos probar también con Kling, en ambos casos le facilitaremos el siguiente prompt",
+      "contexto_posterior": "Si quieres avanzar un paso más, puedes probar con un storyboard de 4 paneles consultando",
+      "herramienta_ia_indicada": [
+        "Nano Banana 2",
+        "Kling"
+      ],
+      "marcadores_variables": [
+        "[SPECIFY SPACE, EG: coffee shop]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p10",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "pagina_libro": 37,
+      "origen": "texto",
+      "texto": "A clean 4-panel storyboard illustration, presented as a single sequential grid. It depicts a user experience interacting with [DESCRIBE THE SERVICE, EG: a digital health concierge]. Minimalist black ink sketch style with a subtle [SPECIFY COLOR, EG: blue] accent on key interaction points. Panel 1: User encounters a problem. Panel 2: User discovers and accesses the service interface. Panel 3: Sequential step-by-step interaction with the service. Panel 4: Resolution of problem, satisfied user. Narrative sequential art, extreme clarity.",
+      "bloque": "IA generativa para ideación visual",
+      "contexto_previo": "Si quieres avanzar un paso más, puedes probar con un storyboard de 4 paneles consultando",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "Nano Banana 2",
+        "Kling"
+      ],
+      "marcadores_variables": [
+        "[DESCRIBE THE SERVICE, EG: a digital health concierge]",
+        "[SPECIFY COLOR, EG: blue]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p11",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "pagina_libro": 38,
+      "origen": "texto",
+      "texto": "Actúa como un Investigador UX (User Research) Senior. A continuación te proporcionaré las transcripciones y notas de nuestras entrevistas con [NÚMERO] usuarios sobre [TEMA O CONTEXTO DE LA INVESTIGACIÓN]. Tu tarea: Analiza rigurosamente estos datos cualitativos e identifica los 5 temas de frustración o fricción más recurrentes. Restricciones innegociables: No inventes dolores que no estén explícitamente mencionados en el texto. Mantén una postura 100% objetiva. Formato de salida: Presenta cada tema con un título claro, un breve párrafo explicativo de por qué ocurre esa frustración, y acompáñalo con 2 citas literales (verbatims exactos entre comillas) extraídas del texto que ejemplifiquen perfectamente ese dolor.",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "contexto_previo": "A continuación, te mostramos cuatro ejemplos de uso que puedes adaptar a tu criterio. ✓ Generación de enunciados HMW:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM (modelo Gemini 3.1)"
+      ],
+      "marcadores_variables": [
+        "[NÚMERO]",
+        "[TEMA O CONTEXTO DE LA INVESTIGACIÓN]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p12",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "pagina_libro": 38,
+      "origen": "texto",
+      "texto": "Actúa como un Estratega de Experiencia de Usuario y Psicólogo Conductual. Basándote únicamente en los hallazgos y entrevistas proporcionadas a continuación, tu tarea es sintetizar la información para crear 3 'User Personas' (arquetipos representativos). Restricciones innegociables: Los 3 perfiles deben ser mutuamente excluyentes (muy distintos entre sí) para representar diferentes casos de uso o actitudes. Evita los clichés superficiales; céntrate en sus motivaciones profundas. Formato de salida: Para cada Persona, estructura la información de la siguiente manera: Nombre y Arquetipo: (Ej: Laura, la optimizadora de tiempo). Demografía y Contexto: (Datos básicos y su situación actual). Objetivos / Jobs-to-be-done: (Qué intentan lograr realmente). Frustraciones principales: (Sus mayores barreras). Cita característica: (Una frase en primera persona que resuma su mentalidad).",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "contexto_previo": "A continuación, te mostramos cuatro ejemplos de uso que puedes adaptar a tu criterio. ✓ Creación de personas:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM (modelo Gemini 3.1)"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p13",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "pagina_libro": 38,
+      "origen": "texto",
+      "texto": "Actúa como un Service Designer Senior. Toma las observaciones e insights de investigación proporcionados abajo y construye un Customer Journey Map (Mapa de Experiencia del Cliente) focalizado en el arquetipo de [INSERTA EL NOMBRE DE TU PERSONA O TIPO DE USUARIO]. Tu tarea: Mapea el proceso actual (\"As-Is\", no el estado futuro ideal) en 5 etapas cronológicas clave desde que descubre su necesidad hasta que finaliza su interacción. Restricciones: Sé extremadamente específico con los puntos de dolor. No uses generalidades. Formato de salida: Genera una tabla en formato Markdown con las siguientes 5 columnas: Etapa del proceso (Ej: Descubrimiento, Consideración, Acción...). Acciones del usuario (Qué hace físicamente o digitalmente). Pensamientos (Qué se pregunta o qué duda tiene). Emoción (Alta, Neutral o Baja). Oportunidades (Brechas donde podemos intervenir para mejorar).",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "contexto_previo": "A continuación, te mostramos cuatro ejemplos de uso que puedes adaptar a tu criterio. ✓ Mapeo de journey comprimido:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM (modelo Gemini 3.1)"
+      ],
+      "marcadores_variables": [
+        "[INSERTA EL NOMBRE DE TU PERSONA O TIPO DE USUARIO]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p14",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "pagina_libro": 38,
+      "origen": "texto",
+      "texto": "Actúa como un Facilitador de Innovación y Design Thinking. Hemos sintetizado los problemas de nuestros usuarios en los siguientes insights clave: [INSERTA AQUÍ TUS INSIGHTS O RESUMEN DE FRUSTRACIONES]. Tu tarea: Transforma estos dolores en 10 enunciados de problema utilizando el formato 'HMW' (How Might We... / ¿Cómo podríamos...?). Restricciones innegociables: El principio de un buen HMW es el equilibrio. No deben ser ni demasiado amplios (ej: \"¿Cómo podríamos cambiar el mundo?\") ni demasiado estrechos y prescriptivos (ej: \"¿Cómo podríamos poner un botón azul en el menú?\"). Deben ser específicos, inspiradores y dar margen para múltiples soluciones creativas. Formato de salida: Una lista numerada del 1 al 10, agrupando los enunciados bajo categorías temáticas (Ej: 3 sobre la fase de inicio, 3 sobre la retención de usuarios, etc.).",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "contexto_previo": "A continuación, te mostramos cuatro ejemplos de uso que puedes adaptar a tu criterio. ✓ Análisis temático:",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM (modelo Gemini 3.1)"
+      ],
+      "marcadores_variables": [
+        "[INSERTA AQUÍ TUS INSIGHTS O RESUMEN DE FRUSTRACIONES]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p15",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "pagina_libro": 38,
+      "origen": "texto",
+      "texto": "Actúa como un Lead Product Designer. Necesito que generes el diseño de la interfaz principal para una nueva solución que estamos prototipando. Contexto y datos de entrada: Nuestro objetivo es resolver el siguiente problema: [INSERTA AQUÍ TU HMW O PROPUESTA DE VALOR], diseñado específicamente para este tipo de usuario: [INSERTA AQUÍ EL RESUMEN DE TU USER PERSONA]. Tu tarea: Diseña una interfaz limpia, moderna y altamente usable. No te limites a replicar patrones aburridos; quiero que la estructura de la página guíe intuitivamente al usuario hacia la solución de su problema. Restricciones innegociables: Aplica un estilo visual minimalista con una jerarquía tipográfica excelente. Incluye un 'Hero section' claro, un área para explicar cómo funciona el servicio (3 pasos) y un Call to Action (CTA) principal muy visible. Genera tú mismo el copy (texto) temporal de la interfaz basándote en el contexto que te he dado, no uses 'Lorem Ipsum'. Formato de salida: Genera la estructura completa de la interfaz en formato de bloques funcionales.",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "contexto_previo": "El primer paso podría ser la generación de un wireframe o una interfaz de alta fidelidad para consolidar las bases de la propuesta. Si es así puedes hacerlo en Google Stitch, Figma Make o Vercel v0 con la siguiente indicación",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "Google Stitch",
+        "Figma Make",
+        "Vercel v0"
+      ],
+      "marcadores_variables": [
+        "[INSERTA AQUÍ TU HMW O PROPUESTA DE VALOR]",
+        "[INSERTA AQUÍ EL RESUMEN DE TU USER PERSONA]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p16",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "pagina_libro": 39,
+      "origen": "texto",
+      "texto": "Actúa como un Senior Frontend Developer experto en React, Tailwind CSS y diseño centrado en el usuario. Estamos en la fase de prototipado rápido de un proyecto de Design Thinking. Contexto de la solución: Queremos validar la siguiente idea en el mercado: [INSERTA AQUÍ LA IDEA, SERVICIO O PRODUCTO A VALIDAR]. Tu tarea: Escribe el código completo, limpio y funcional para una interfaz de usuario interactiva (puede ser una Landing Page o el panel principal de una web-app, elige lo que mejor comunique la idea). El objetivo de este código no es ser perfecto para producción, sino servir como un 'Prototipo de Fachada' (Mockup interactivo) para testear con usuarios reales hoy mismo. Restricciones innegociables: Utiliza un archivo único (Single File Component) o HTML/Tailwind directo que sea fácil de previsualizar. La interfaz debe ser completamente responsive (adaptable a móviles). Interactividad falsa (Mocking): Los botones principales, formularios o selectores deben tener algún tipo de efecto visual al hacer clic (ej. un modal de 'Simulación completada' o un cambio de estado), para que el usuario sienta que funciona, aunque no haya backend conectado. Formato de salida: Entrega el código fuente estructurado, comentado y listo para copiar y pegar en un entorno de desarrollo.",
+      "bloque": "Herramientas para la generación de código",
+      "contexto_previo": "Si eres experto en programación o prefieres centrarte en el potencial del desarrollo en base a código, utiliza el siguiente prompt dentro de Cursor, Antigravity o Claude 4.6 Sonnet",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "Cursor",
+        "Antigravity",
+        "Claude 4.6 Sonnet"
+      ],
+      "marcadores_variables": [
+        "[INSERTA AQUÍ LA IDEA, SERVICIO O PRODUCTO A VALIDAR]"
+      ],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p17",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "pagina_libro": 40,
+      "origen": "texto",
+      "texto": "Actúa como un UX Researcher Senior. Basándote exclusivamente en los archivos de audio/transcripciones que he subido como fuentes, realiza un análisis exhaustivo de las sesiones de testeo del prototipo. Tu tarea: Identifica los patrones de comportamiento, las fricciones de usabilidad y el sentimiento general de los usuarios durante la prueba. Restricciones innegociables: No inventes conclusiones. Si algo no está claro en las fuentes, indica 'Datos insuficientes'. Debes respaldar cada punto de dolor importante con una cita literal (verbatim) extraída de los audios, indicando de qué archivo proviene. Formato de salida esperado: Resumen Ejecutivo: 2 párrafos con la impresión general de los usuarios. Puntos de Fricción Críticos: Lista ordenada de los 3 mayores problemas encontrados (qué intentaba hacer el usuario + por qué falló + cita literal expresando confusión o frustración). Momentos 'Ajá' / Alegría: Qué características o flujos generaron una reacción positiva evidente. Dudas Recurrentes: Preguntas que los usuarios hicieron en voz alta durante el test.",
+      "bloque": null,
+      "contexto_previo": "Le facilitaremos tantos mp3 como audios de experiencia de usuario tengamos. Si dispones de sesiones de vídeo, puedes descargar el audio con herramientas como CapCut. Una vez que subimos como fuente los diferentes archivos de audio, le daremos la siguiente instrucción",
+      "contexto_posterior": "Si queremos avanzar un paso más y consultar potenciales métricas, podemos hacerlo con el prompt",
+      "herramienta_ia_indicada": [
+        "NotebookLM"
+      ],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p18",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "pagina_libro": 40,
+      "origen": "texto",
+      "texto": "Actúa como un Analista de Datos de Producto. Revisa detenidamente todas las sesiones de testeo adjuntas en las fuentes. Tu tarea: Extraer y cuantificar las métricas de interacción de los usuarios con el prototipo. Busca menciones a tiempos de espera, intentos repetidos en una misma pantalla o momentos explícitos donde el usuario se rinde. Restricciones: Sé estrictamente analítico. Solo cuenta como 'éxito' si el usuario completó la tarea sin ayuda del moderador. Formato de salida esperado: Genera una tabla en formato Markdown con las siguientes columnas: Tarea / Flujo evaluado: (Ej: Registro, Checkout, Búsqueda). Tasa de Éxito observada: (Cuántos usuarios lo lograron a la primera vs. cuántos fallaron). Puntos de abandono exactos: (En qué pantalla o momento específico se atascaron). Nivel de esfuerzo percibido: (Alto, Medio, Bajo, basado en sus comentarios de voz).",
+      "bloque": null,
+      "contexto_previo": "Si queremos avanzar un paso más y consultar potenciales métricas, podemos hacerlo con el prompt",
+      "contexto_posterior": "Además, después de recolectar feedback de múltiples usuarios mediante entrevistas post-testeo, encuestas abiertas o comentarios, podemos identificar los 5-10 temas más mencionados, agrupar feedback en categorías (usabilidad, funcionalidad, estética, emociones), priorizar problemas por severidad y frecuencia y generar informes ejecutivos para stakeholders.",
+      "herramienta_ia_indicada": [],
+      "marcadores_variables": [],
+      "referencia_a_salida_previa": null,
+      "salida_mostrada_en_libro": null
+    },
+    {
+      "id": "c02-p19",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "pagina_libro": 40,
+      "origen": "texto",
+      "texto": "Actúa como un Product Manager ágil. Toma como base los puntos de fricción y problemas de usabilidad que hemos identificado en estas sesiones de prueba (fuentes adjuntas). Tu tarea: Proponer la siguiente iteración del prototipo. Para cada uno de los 3 problemas principales encontrados por los usuarios, propón un cambio de diseño directo y específico. Restricciones: Las soluciones deben ser 'Quick Wins' (fáciles de implementar en el prototipo actual) y deben responder directamente a la causa raíz de la confusión del usuario, no solo al síntoma. Formato de salida esperado: Una lista de viñetas estructurada así: Evidencia: [Describe el problema detectado en el test]. Hipótesis del fallo: [Por qué creemos que el usuario se confundió]. Propuesta de Iteración: [Qué elemento de la UI, texto o flujo vamos a cambiar exactamente para solucionarlo en la v2].",
+      "bloque": null,
+      "contexto_previo": "Te recomendamos que en este caso también utilices NotebookLM con la siguiente instrucción",
+      "contexto_posterior": null,
+      "herramienta_ia_indicada": [
+        "NotebookLM"
+      ],
+      "marcadores_variables": [
+        "[Describe el problema detectado en el test]",
+        "[Por qué creemos que el usuario se confundió]",
+        "[Qué elemento de la UI, texto o flujo vamos a cambiar exactamente para solucionarlo en la v2]"
+      ],
+      "referencia_a_salida_previa": "Toma como base los puntos de fricción y problemas de usabilidad que hemos identificado en estas sesiones de prueba (fuentes adjuntas).",
+      "salida_mostrada_en_libro": null
+    }
+  ],
+  "herramientas_mencionadas": [
+    {
+      "id": "c02-h01",
+      "nombre": "Dovetail",
+      "bloque": "Herramientas de gestión de investigación cualitativa",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h02",
+      "nombre": "Airtable",
+      "bloque": "Herramientas de gestión de investigación cualitativa",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h03",
+      "nombre": "Atlas.ti",
+      "bloque": "Herramientas de gestión de investigación cualitativa",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h04",
+      "nombre": "Cauliflower",
+      "bloque": "Herramientas de gestión de investigación cualitativa",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h05",
+      "nombre": "Nvivo",
+      "bloque": "Herramientas de gestión de investigación cualitativa",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h06",
+      "nombre": "Qualtrics",
+      "bloque": "Herramientas de gestión de investigación cualitativa",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h07",
+      "nombre": "Maxqda",
+      "bloque": "Herramientas de gestión de investigación cualitativa",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h08",
+      "nombre": "Typeform",
+      "bloque": "Herramientas de encuestas y feedback",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h09",
+      "nombre": "Google Forms",
+      "bloque": "Herramientas de encuestas y feedback",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h10",
+      "nombre": "ClickUp",
+      "bloque": "Herramientas de encuestas y feedback",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h11",
+      "nombre": "Jotform",
+      "bloque": "Herramientas de encuestas y feedback",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h12",
+      "nombre": "SurveyMonkey",
+      "bloque": "Herramientas de encuestas y feedback",
+      "subapartado": "Herramientas digitales en la Fase de Empatizar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h13",
+      "nombre": "Miro",
+      "bloque": "Herramientas de mapeo colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h14",
+      "nombre": "Mural",
+      "bloque": "Herramientas de mapeo colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h15",
+      "nombre": "FigJam",
+      "bloque": "Herramientas de mapeo colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h16",
+      "nombre": "Smaply",
+      "bloque": "Herramientas de mapeo colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h17",
+      "nombre": "Userforge",
+      "bloque": "Herramientas de mapeo colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h18",
+      "nombre": "Miro",
+      "bloque": "Herramientas de brainstorming colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso reformulamos el uso de las herramientas propuestas para mapeo y ampliamos a plantillas para técnicas de ideación como el brainwriting, SCAMPER o similares, también para las usamos por sus capacidades de votación para convergencia, temporizadores para timeboxing de actividades o incluso para sus modos de presentación para compartir resultados."
+    },
+    {
+      "id": "c02-h19",
+      "nombre": "Mural",
+      "bloque": "Herramientas de brainstorming colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso reformulamos el uso de las herramientas propuestas para mapeo y ampliamos a plantillas para técnicas de ideación como el brainwriting, SCAMPER o similares, también para las usamos por sus capacidades de votación para convergencia, temporizadores para timeboxing de actividades o incluso para sus modos de presentación para compartir resultados."
+    },
+    {
+      "id": "c02-h20",
+      "nombre": "FigJam",
+      "bloque": "Herramientas de brainstorming colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso reformulamos el uso de las herramientas propuestas para mapeo y ampliamos a plantillas para técnicas de ideación como el brainwriting, SCAMPER o similares, también para las usamos por sus capacidades de votación para convergencia, temporizadores para timeboxing de actividades o incluso para sus modos de presentación para compartir resultados."
+    },
+    {
+      "id": "c02-h21",
+      "nombre": "Smaply",
+      "bloque": "Herramientas de brainstorming colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso reformulamos el uso de las herramientas propuestas para mapeo y ampliamos a plantillas para técnicas de ideación como el brainwriting, SCAMPER o similares, también para las usamos por sus capacidades de votación para convergencia, temporizadores para timeboxing de actividades o incluso para sus modos de presentación para compartir resultados."
+    },
+    {
+      "id": "c02-h22",
+      "nombre": "Userforge",
+      "bloque": "Herramientas de brainstorming colaborativo",
+      "subapartado": "Herramientas digitales en la Fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso reformulamos el uso de las herramientas propuestas para mapeo y ampliamos a plantillas para técnicas de ideación como el brainwriting, SCAMPER o similares, también para las usamos por sus capacidades de votación para convergencia, temporizadores para timeboxing de actividades o incluso para sus modos de presentación para compartir resultados."
+    },
+    {
+      "id": "c02-h23",
+      "nombre": "Figma",
+      "bloque": "Herramientas de diseño y prototipado",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h24",
+      "nombre": "Wordpress",
+      "bloque": "Herramientas de diseño y prototipado",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h25",
+      "nombre": "Adobe XD",
+      "bloque": "Herramientas de diseño y prototipado",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h26",
+      "nombre": "Canva",
+      "bloque": "Herramientas de diseño y prototipado",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h27",
+      "nombre": "Loom",
+      "bloque": "Herramientas especializadas para tipos específicos de prototipos",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h28",
+      "nombre": "Vidyard",
+      "bloque": "Herramientas especializadas para tipos específicos de prototipos",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h29",
+      "nombre": "Animaker",
+      "bloque": "Herramientas especializadas para tipos específicos de prototipos",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h30",
+      "nombre": "Wistia",
+      "bloque": "Herramientas especializadas para tipos específicos de prototipos",
+      "subapartado": "Herramientas digitales en la Fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h31",
+      "nombre": "Maze",
+      "bloque": "Plataformas de testing de usabilidad",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h32",
+      "nombre": "UserTesting",
+      "bloque": "Plataformas de testing de usabilidad",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h33",
+      "nombre": "Lookback",
+      "bloque": "Plataformas de testing de usabilidad",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h34",
+      "nombre": "Userlytics",
+      "bloque": "Plataformas de testing de usabilidad",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h35",
+      "nombre": "Hotjar",
+      "bloque": "Plataformas de testing de usabilidad",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h36",
+      "nombre": "Lucky Orange",
+      "bloque": "Plataformas de testing de usabilidad",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 40,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h37",
+      "nombre": "Dovetail",
+      "bloque": "Análisis y síntesis de feedback",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h38",
+      "nombre": "Airtable",
+      "bloque": "Análisis y síntesis de feedback",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h39",
+      "nombre": "Atlas.ti",
+      "bloque": "Análisis y síntesis de feedback",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h40",
+      "nombre": "Cauliflower",
+      "bloque": "Análisis y síntesis de feedback",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h41",
+      "nombre": "Nvivo",
+      "bloque": "Análisis y síntesis de feedback",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h42",
+      "nombre": "Qualtrix",
+      "bloque": "Análisis y síntesis de feedback",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h43",
+      "nombre": "Maxqda",
+      "bloque": "Análisis y síntesis de feedback",
+      "subapartado": "Herramientas digitales en la Fase de Testear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h44",
+      "nombre": "ChatGPT",
+      "bloque": "Generación de ideas con LLMs",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "ChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos."
+    },
+    {
+      "id": "c02-h45",
+      "nombre": "Gemini",
+      "bloque": "Generación de ideas con LLMs",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "ChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos."
+    },
+    {
+      "id": "c02-h46",
+      "nombre": "Claude",
+      "bloque": "Generación de ideas con LLMs",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "ChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos."
+    },
+    {
+      "id": "c02-h47",
+      "nombre": "Grok",
+      "bloque": "Generación de ideas con LLMs",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "ChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos."
+    },
+    {
+      "id": "c02-h48",
+      "nombre": "Kimi",
+      "bloque": "Generación de ideas con LLMs",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "ChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos."
+    },
+    {
+      "id": "c02-h49",
+      "nombre": "Qwen",
+      "bloque": "Generación de ideas con LLMs",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "ChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos."
+    },
+    {
+      "id": "c02-h50",
+      "nombre": "NotebookLM",
+      "bloque": "Generación de ideas con LLMs",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "ChatGPT y otros LLM pueden generar cientos de ideas en minutos cuando se les proporcionan prompts estructurados. Buscamos completar el brainstorming humano, siendo particularmente útil para romper bloqueos creativos."
+    },
+    {
+      "id": "c02-h51",
+      "nombre": "Nano Banana 2",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h52",
+      "nombre": "Kling",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h53",
+      "nombre": "Dall-E",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h54",
+      "nombre": "MidJourney",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h55",
+      "nombre": "Hailuo",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h56",
+      "nombre": "Flux",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h57",
+      "nombre": "ChatGPT-Image",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h58",
+      "nombre": "Grok",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h59",
+      "nombre": "Qwen Image",
+      "bloque": "IA generativa para ideación visual",
+      "subapartado": "Herramientas IA en la fase de Idear",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "En este caso de uso podemos extraer el máximo valor de los modelos creando prototipos visuales de objetos físicos con un estilo estético y audiencia definidos"
+    },
+    {
+      "id": "c02-h60",
+      "nombre": "NotebookLM",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "subapartado": "Herramientas IA en la fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "La IA puede acelerar esta fase inicial mediante clustering automático de contenido similar y sugerencia de categorías temáticas."
+    },
+    {
+      "id": "c02-h61",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "subapartado": "Herramientas IA en la fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "La IA puede acelerar esta fase inicial mediante clustering automático de contenido similar y sugerencia de categorías temáticas."
+    },
+    {
+      "id": "c02-h62",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "subapartado": "Herramientas IA en la fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "La IA puede acelerar esta fase inicial mediante clustering automático de contenido similar y sugerencia de categorías temáticas."
+    },
+    {
+      "id": "c02-h63",
+      "nombre": "ChatGPT 5.2",
+      "bloque": "Herramientas para la identificación automática de patrones y temas",
+      "subapartado": "Herramientas IA en la fase de Definir",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "La IA puede acelerar esta fase inicial mediante clustering automático de contenido similar y sugerencia de categorías temáticas."
+    },
+    {
+      "id": "c02-h64",
+      "nombre": "Google Stitch",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h65",
+      "nombre": "Figma Make",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h66",
+      "nombre": "Lovable",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h67",
+      "nombre": "Bolt",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h68",
+      "nombre": "Emergent",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h69",
+      "nombre": "Base44",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h70",
+      "nombre": "Verdent",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h71",
+      "nombre": "Framer",
+      "bloque": "Herramientas para la aceleración de prototipado",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h72",
+      "nombre": "AntiGravity",
+      "bloque": "Herramientas para la generación de código",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h73",
+      "nombre": "Claude Code",
+      "bloque": "Herramientas para la generación de código",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h74",
+      "nombre": "Codex ChatGPT",
+      "bloque": "Herramientas para la generación de código",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h75",
+      "nombre": "Cursor",
+      "bloque": "Herramientas para la generación de código",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h76",
+      "nombre": "Vercel v0",
+      "bloque": "Herramientas para la generación de código",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h77",
+      "nombre": "Galileo AI",
+      "bloque": "Herramientas para la generación de código",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h78",
+      "nombre": "Nano Banana 2",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h79",
+      "nombre": "Kling",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h80",
+      "nombre": "Dall-E",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h81",
+      "nombre": "MidJourney",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h82",
+      "nombre": "Hailuo",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h83",
+      "nombre": "Flux",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h84",
+      "nombre": "ChatGPT-Image",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h85",
+      "nombre": "Grok",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h86",
+      "nombre": "Qwen Image",
+      "bloque": "Herramientas para generación de imágenes conceptuales",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h87",
+      "nombre": "Jasper.ai",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h88",
+      "nombre": "Frase.io",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h89",
+      "nombre": "Marketmuse",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h90",
+      "nombre": "Writesonic",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h91",
+      "nombre": "Copy.ai",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h92",
+      "nombre": "Rytr",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h93",
+      "nombre": "Frase",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h94",
+      "nombre": "Hypothenuse.ai",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h95",
+      "nombre": "QuillBot",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h96",
+      "nombre": "LongShot AI",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h97",
+      "nombre": "TextCortex",
+      "bloque": "Herramientas para la generación de contenido",
+      "subapartado": "Herramientas IA en la fase de Prototipar",
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": null,
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null,
+      "descripcion_bloque": "Los prototipos necesitan contenido realista para ser evaluados efectivamente. El asistente puede apoyarnos generando textos que reflejen el tono deseado, descripciones de productos ficticios pero verosímiles, diálogos para chatbots o interfaces conversacionales o datos de ejemplo estructurados para las interfaces de usuario."
+    },
+    {
+      "id": "c02-h98",
+      "nombre": "Business Model Canvas",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s2.2",
+      "pagina_pdf": 35,
+      "descripcion_libro": "El Business Model Canvas de Alexander Osterwalder es una herramienta estratégica para visualizar y diseñar modelos de negocio completos.",
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h99",
+      "nombre": "Figma",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38,
+      "descripcion_libro": "Para interfaces digitales Figma permite crear prototipos interactivos de aplicaciones y sitios web sin programación. Su curva de aprendizaje es suave y permite colaboración en tiempo real.",
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h100",
+      "nombre": "PowerPoint",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38,
+      "descripcion_libro": "Para servicios y experiencias podemos crear storyboards o videos que narren la experiencia del usuario interactuando con tu servicio. Herramientas simples como PowerPoint o Canva son suficientes.",
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h101",
+      "nombre": "Canva",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 38,
+      "descripcion_libro": "Herramientas simples como PowerPoint o Canva son suficientes.",
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h102",
+      "nombre": "Business Model Canvas",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s3",
+      "pagina_pdf": 39,
+      "descripcion_libro": "Herramientas como Business Model Canvas ayudan a pensar sistemáticamente sobre propuestas de valor, segmentos de clientes, canales de distribución, estructura de costes y flujos de ingresos.",
+      "es_ia": "false",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h103",
+      "nombre": "ChatGPT 5.2",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": "Cuando el equipo está estancado, podemos abrir ChatGPT 5.2 o Gemini 3.1 Pro en modo razonamiento y solicitar",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h104",
+      "nombre": "Gemini 3.1 Pro",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 41,
+      "descripcion_libro": "Cuando el equipo está estancado, podemos abrir ChatGPT 5.2 o Gemini 3.1 Pro en modo razonamiento y solicitar",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h105",
+      "nombre": "Nano Banana 2",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": "en ese caso abrimos Nano Banana 2 y le facilitamos la siguiente instrucción",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h106",
+      "nombre": "Kling",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": "Utilizaremos el mismo modelo o si queremos tener más opciones, podemos probar también con Kling",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h107",
+      "nombre": "NotebookLM",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 42,
+      "descripcion_libro": "comenzaremos con NotebookLM ya que es la plataforma que saca el máximo partido exclusivamente con las fuentes proporcionadas. Utiliza el modelo Gemini 3.1 para su razonamiento, por lo que es muy eficiente y te permitirá extraer el máximo valor.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h108",
+      "nombre": "Google Stitch",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": "Si es así puedes hacerlo en Google Stitch, Figma Make o Vercel v0 con la siguiente indicación",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h109",
+      "nombre": "Figma Make",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": "Si es así puedes hacerlo en Google Stitch, Figma Make o Vercel v0 con la siguiente indicación",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h110",
+      "nombre": "Vercel v0",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 43,
+      "descripcion_libro": "Si es así puedes hacerlo en Google Stitch, Figma Make o Vercel v0 con la siguiente indicación",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h111",
+      "nombre": "Cursor",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": "utiliza el siguiente prompt dentro de Cursor, Antigravity o Claude 4.6 Sonnet",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h112",
+      "nombre": "Antigravity",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": "utiliza el siguiente prompt dentro de Cursor, Antigravity o Claude 4.6 Sonnet",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h113",
+      "nombre": "Claude 4.6 Sonnet",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": "utiliza el siguiente prompt dentro de Cursor, Antigravity o Claude 4.6 Sonnet",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h114",
+      "nombre": "NotebookLM",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 44,
+      "descripcion_libro": "El uso de herramientas como NotebookLM nos permite procesar nuestra información, transcribir automáticamente el audio, identificar momentos donde usuarios expresan frustración, confusión o alegría mediante análisis de sentimiento y tono e incluso cuantificar métricas como tiempo en tarea, intentos antes de éxito, puntos de abandono.",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h115",
+      "nombre": "CapCut",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "descripcion_libro": "Si dispones de sesiones de vídeo, puedes descargar el audio con herramientas como CapCut.",
+      "es_ia": null,
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    },
+    {
+      "id": "c02-h116",
+      "nombre": "NotebookLM",
+      "bloque": null,
+      "subapartado": null,
+      "id_seccion": "c02-s4",
+      "pagina_pdf": 45,
+      "descripcion_libro": "Te recomendamos que en este caso también utilices NotebookLM con la siguiente instrucción",
+      "es_ia": "true",
+      "gratuita_o_pago": null,
+      "url_en_libro": null
+    }
+  ],
+  "figuras_tablas": [],
+  "ejemplo_aulamarketing": {
+    "id_seccion": null,
+    "texto": null,
+    "entregables": [],
+    "nota": "El capítulo 2 no desarrolla el ejemplo de aulamarketing.digital; solo lo menciona en la apertura (\"desde aulamarketing.digital queremos facilitarte soluciones accesibles\") y en una remisión a su lista de estilos."
+  },
+  "remisiones_aulamarketing": [
+    {
+      "texto": "Recuerda que en aulamarketing.digital dispones de una lista de estilos que pueden ser útiles en este tipo de prompt.",
+      "recurso": "otro",
+      "tema": "lista de estilos para prompts de generación de imagen",
+      "pagina_pdf": 42
+    }
+  ],
+  "remisiones_internas": [
+    {
+      "texto": "Como ves, conecta con la idea que hemos comentado previamente, el enfoque customer centric.",
+      "capitulo_destino": null,
+      "pagina_pdf": 32
+    },
+    {
+      "texto": "Además, como iremos comprobando a lo largo de todo este manual, los LLM de creación de imágenes, vídeo y programación son especialmente útiles en las fases de ideación y prototipado.",
+      "capitulo_destino": null,
+      "pagina_pdf": 32
+    },
+    {
+      "texto": "Para hacerlo podemos apoyarnos en plataformas de IA como las que mencionaremos a continuación.",
+      "capitulo_destino": 2,
+      "pagina_pdf": 38
+    },
+    {
+      "texto": "Recuerda que al final del capítulo hemos creado una lista de herramientas, asistentes IA y prompt de apoyo para que puedas generar el proceso sin preocupaciones.",
+      "capitulo_destino": 2,
+      "pagina_pdf": 38
+    },
+    {
+      "texto": "¿Qué te parece si comenzamos por diseñar tu customer journey?",
+      "capitulo_destino": 3,
+      "pagina_pdf": 45
+    }
+  ],
+  "citas_y_referencias": [
+    {
+      "texto": "Tim Brown, CEO de IDEO y uno de los principales promotores de esta metodología, lo define como \"un enfoque de la innovación centrado en el ser humano que integra las necesidades de las personas, las posibilidades de la tecnología y los requisitos para el éxito empresarial\".",
+      "pagina_pdf": 32
+    },
+    {
+      "texto": "design sprints, metodología desarrollada por Google Ventures que comprime el proceso de design thinking en cinco días intensivos.",
+      "pagina_pdf": 33
+    },
+    {
+      "texto": "el modelo más ampliamente adoptado es el propuesto por la D.school de Stanford, que identifica cinco fases fundamentales",
+      "pagina_pdf": 34
+    },
+    {
+      "texto": "El Business Model Canvas de Alexander Osterwalder es una herramienta estratégica para visualizar y diseñar modelos de negocio completos.",
+      "pagina_pdf": 35
+    },
+    {
+      "texto": "La investigación cualitativa bien ejecutada revelará el 80% de los insights críticos con fracción del esfuerzo. (dato sin fuente explícita en el libro)",
+      "pagina_pdf": 37
+    },
+    {
+      "texto": "No necesitas muestras estadísticamente significativas, la investigación cualitativa revela que 5 usuarios identificarán aproximadamente 85% de los problemas de usabilidad fundamentales. (dato sin fuente explícita en el libro)",
+      "pagina_pdf": [
+        38,
+        39
+      ]
+    }
+  ],
+  "recursos_externos": [
+    {
+      "texto": "aulamarketing.digital (lista de estilos para prompts de imagen)",
+      "pagina_pdf": 42
+    }
+  ],
+  "otros": [
+    {
+      "descripcion": "Recuadro \"Tip práctico para pymes\" (símbolo ❞), dentro de la Fase 2: Empatizar (c02-s3); se conserva también en el texto de la sección",
+      "texto": "Tip práctico para pymes: Si los recursos son limitados, comienza con 5-8 entrevistas cualitativas profundas en lugar de 100 encuestas superficiales. La investigación cualitativa bien ejecutada revelará el 80% de los insights críticos con fracción del esfuerzo.",
+      "pagina_pdf": 37
+    },
+    {
+      "descripcion": "Casos de empresa (Airbnb, GE Healthcare, Netflix, EcoAlf) como ejemplos de aplicación; texto completo en la subsección c02-s2.1",
+      "texto": "Airbnb | GE Healthcare | Netflix | EcoAlf",
+      "pagina_pdf": [
+        34,
+        35
+      ]
+    },
+    {
+      "descripcion": "Cierre del capítulo (llamada a la acción final), al final de c02-s4",
+      "texto": "Comienza hoy, con un reto concreto, un equipo pequeño de personas comprometidas, y disposición a salir de la oficina para observar y escuchar a tus usuarios reales. No esperes a tener todas las herramientas perfectas o dominar completamente la metodología, el design thinking se aprende haciendo, iterando, y permitiendo que el proceso mismo enseñe. Cada proyecto fortalecerá tus capacidades y las de tu organización, construyendo una cultura donde la innovación centrada en el usuario es la forma habitual de trabajar. ¿Qué te parece si comenzamos por diseñar tu customer journey?",
+      "pagina_pdf": 45
+    },
+    {
+      "descripcion": "Implementación en 7 fases (Fase 1: Preparación … Fase 7: Implementación) en c02-s3, aunque el título de la sección 2 habla de \"cinco fases\" (modelo D.school); no son subsecciones numeradas y se mantienen en el texto de c02-s3",
+      "texto": "Fase 1: Preparación | Fase 2: Empatizar | Fase 3: Definir | Fase 4: Idear | Fase 5: Prototipar | Fase 6: Testear | Fase 7: Implementación",
+      "pagina_pdf": [
+        36,
+        39
+      ]
+    }
+  ],
+  "control": {
+    "num_secciones": 4,
+    "num_subsecciones": 2,
+    "num_prompts": 19,
+    "num_herramientas": 116,
+    "num_herramientas_unicas": 78,
+    "num_bloques_herramientas": 15,
+    "num_figuras_tablas": 0,
+    "num_entregables": 0,
+    "num_definiciones": 41,
+    "paginas_revisadas": [
+      30,
+      45
+    ],
+    "incidencias": [
+      "Cobertura de texto: 45426 caracteres no-espacio extraídos (apertura + objetivos + títulos + secciones/subsecciones) frente a 45430 en cap02.txt (sin marcas ni folios) = 100.0%.",
+      "Sin imágenes en PDF 32-45; los 19 prompts están en texto (cursiva). Verificado con detección de cursivas del PDF: 19 bloques de prompt (16 en castellano que empiezan por \"Actúa como…\" y 3 en inglés para generación de imagen: \"A high-fidelity product photograph…\", \"An immersive interior photograph…\", \"A clean 4-panel storyboard illustration…\").",
+      "El prompt c02-p07 (Iterativos) va entre comillas rectas (\"…\") y no tipográficas; los demás entre “…”.",
+      "Hay 15 bloques ✐ (8 de herramientas digitales y 7 de herramientas IA). Algunas listas se repiten entre bloques (Miro…Userforge en mapeo y en brainstorming; Dovetail…Maxqda en Empatizar y Testear, con la grafía \"Qualtrics\" en un bloque y \"Qualtrix\" en otro; Nano Banana 2…Qwen Image en ideación visual y en imágenes conceptuales). Se registra una entrada por herramienta y bloque, más entradas para menciones en el texto corrido con descripción literal.",
+      "Grafías distintas en el libro: \"AntiGravity\" (lista) / \"Antigravity\" (texto); \"Frase.io\" y \"Frase\" en la misma lista; se mantienen literales.",
+      "c02-p18 (Analista de Datos de Producto) no indica herramienta explícita; el párrafo previo trata de NotebookLM.",
+      "Los prompts c02-p02 a c02-p07 no nombran herramienta concreta: se sitúan bajo el bloque \"Generación de ideas con LLMs\" (campo bloque).",
+      "Discrepancia del libro: la sección 2 se titula \"Las cinco fases del design thinking\" (Empatizar, Definir, Idear, Prototipar, Testear), mientras la sección 3 desarrolla 7 fases de implementación (Preparación … Implementación).",
+      "Las subsecciones 2.1 y 2.2 coinciden con el índice. Los apartados \"Herramientas digitales/IA en la fase de…\" de la sección 4 no están numerados y se mantienen en el texto.",
+      "Definiciones: extraídas literalmente de las viñetas \"Término: definición\" de las secciones 1-3 más 6 definiciones de texto corrido; no incluyen los casos de empresa de 2.1.",
+      "El apartado \"Herramientas IA en la fase de Testear\" no tiene bloque ✐ propio (solo texto y prompts)."
+    ]
+  }
+}

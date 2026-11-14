@@ -1,0 +1,10 @@
+---
+// Marca del laboratorio (logotipo + nombre). Sin el nombre inventado por Stitch.
+interface Props { class?: string; enlace?: boolean }
+const { class: clase, enlace = true } = Astro.props;
+const Tag = enlace ? 'a' : 'span';
+---
+<Tag class:list={['c-brand', clase]} href={enlace ? '/' : undefined} aria-label={enlace ? 'aulamarketing.digital · lab (inicio)' : undefined}>
+  <span class="c-brand__logo" aria-hidden="true"><svg viewBox="0 0 32 32" width="32" height="32"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M9 22V10h3v9h6v3zM20 22V10h3v12z" fill="#fff"/></svg></span>
+  <span class="c-brand__txt" aria-hidden={enlace ? 'true' : undefined}><span class="c-brand__nombre">lab</span><span class="c-brand__sub">aulamarketing.digital</span></span>
+</Tag>

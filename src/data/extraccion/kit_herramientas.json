@@ -1,0 +1,2393 @@
+{
+  "fuente": {
+    "archivo": "fuente/capitulos/cap16.txt",
+    "paginas_pdf": [
+      236,
+      258
+    ],
+    "paginas_libro": [
+      231,
+      253
+    ]
+  },
+  "lista_herramientas_digitales": [
+    {
+      "id": "k-d001",
+      "nombre": "1001 Fonts",
+      "descripcion": "Biblioteca online de tipografías gratuitas con licencia para uso personal y, en muchos casos, comercial. Permite buscar por estilo, categoría y popularidad, siendo una fuente habitual para diseñadores y equipos de marketing que necesitan tipografías específicas sin costes de licencia.",
+      "pagina_pdf": 236,
+      "pagina_libro": 231
+    },
+    {
+      "id": "k-d002",
+      "nombre": "ActiveCampaign",
+      "descripcion": "Plataforma de automatización de marketing, email marketing y CRM. Permite crear workflows avanzados basados en comportamiento, segmentar contactos en profundidad y orquestar campañas multicanal (email, SMS, site messaging) con scoring de leads e integración con e-commerce.",
+      "pagina_pdf": 236,
+      "pagina_libro": 231
+    },
+    {
+      "id": "k-d003",
+      "nombre": "Acumbamail",
+      "descripcion": "Plataforma de email marketing y SMS orientada al mercado hispanohablante. Ofrece creación de campañas mediante editor drag-and-drop, automatizaciones, segmentación de contactos e informes de rendimiento, con un enfoque accesible para pymes y autónomos.",
+      "pagina_pdf": 236,
+      "pagina_libro": 231
+    },
+    {
+      "id": "k-d004",
+      "nombre": "Adobe",
+      "descripcion": "Ecosistema de software creativo y de productividad (Photoshop, Illustrator, Premiere, Acrobat, etc.) clave para diseño gráfico, edición de vídeo, maquetación y gestión documental. Es un estándar de facto en la producción de activos visuales para campañas, webs y contenidos digitales.",
+      "pagina_pdf": 236,
+      "pagina_libro": 231
+    },
+    {
+      "id": "k-d005",
+      "nombre": "Adobe Express",
+      "descripcion": "Herramienta en la nube de Adobe para crear piezas visuales rápidas (posts sociales, flyers, banners, presentaciones) con plantillas prediseñadas, integración con bancos de recursos y funciones de IA (via Firefly) para generar y editar imágenes sin conocimientos avanzados de diseño.",
+      "pagina_pdf": 236,
+      "pagina_libro": 231
+    },
+    {
+      "id": "k-d006",
+      "nombre": "Adobe Lightroom",
+      "descripcion": "Software de Adobe para revelado, edición y organización de fotografías, disponible en escritorio, móvil y nube. Es una referencia en flujos de trabajo fotográfico profesionales, con correcciones no destructivas, presets y sincronización entre dispositivos.",
+      "pagina_pdf": 236,
+      "pagina_libro": 231
+    },
+    {
+      "id": "k-d007",
+      "nombre": "Adobe Spark",
+      "descripcion": "Versión previa de la suite ligera de diseño de Adobe para contenidos sociales y web, actualmente integrada y renombrada dentro de Adobe Express. Sigue siendo relevante para entender la evolución de las herramientas \"rápidas\" de contenido visual en el ecosistema Adobe.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d008",
+      "nombre": "Adobe XD",
+      "descripcion": "Herramienta de diseño y prototipado de interfaces para web y apps. Facilita la creación de wireframes, prototipos interactivos y sistemas de diseño, permitiendo testear flujos de usuario antes del desarrollo. En muchos equipos convive o compite con Figma e InVision.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d009",
+      "nombre": "Affinity Studio",
+      "descripcion": "Suite creativa de Serif (Affinity Photo, Designer y Publisher) alternativa a Adobe, con modelo de pago único sin suscripción. Cubre edición fotográfica, diseño vectorial y maquetación con un rendimiento alto, muy valorada por diseñadores independientes y estudios pequeños.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d010",
+      "nombre": "AgoraPulse",
+      "descripcion": "Plataforma profesional de gestión de redes sociales que combina programación, bandeja unificada de mensajes, social listening, analítica y módulos de colaboración en equipo. Orientada a agencias y marcas medianas, destaca por su enfoque en la conversación con la audiencia y la gestión de la comunidad.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d011",
+      "nombre": "Ahrefs",
+      "descripcion": "Suite SEO profesional centrada en análisis de backlinks, investigación de palabras clave, auditoría técnica y análisis de competencia. Es especialmente potente para mapear perfiles de enlaces, detectar oportunidades de contenido y evaluar la autoridad de dominios en mercados competitivos.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d012",
+      "nombre": "Airtable",
+      "descripcion": "Base de datos relacional con interfaz de hoja de cálculo. Permite estructurar información (contenidos, campañas, leads, proyectos) con vistas personalizadas (kanban, calendario, galería) e integrarla con otras herramientas vía API y automatizaciones, convirtiéndose en un \"backend ligero\" para equipos de marketing y producto.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d013",
+      "nombre": "All in One WP-Migration",
+      "descripcion": "Plugin de WordPress para realizar copias de seguridad, migraciones y restauraciones completas de sitios sin necesidad de intervención manual en bases de datos o FTP. Es especialmente útil para mover proyectos entre servidores o entornos de desarrollo y producción.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d014",
+      "nombre": "Amplitude",
+      "descripcion": "Plataforma de product analytics centrada en el comportamiento del usuario dentro de apps y webs. Permite construir embudos, análisis de cohortes, retención y experimentación, siendo una herramienta clave para equipos de producto, growth y CRO.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d015",
+      "nombre": "Animaker",
+      "descripcion": "Herramienta online de creación de vídeos animados y de personajes con un editor basado en plantillas. Se emplea para explicar videos, contenidos educativos, vídeos sociales y presentaciones animadas sin necesidad de experiencia previa en motion graphics.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d016",
+      "nombre": "Answer the Public",
+      "descripcion": "Herramienta de investigación de contenido que visualiza preguntas y búsquedas relacionadas que los usuarios realizan en torno a una keyword. Ayuda a identificar temas, dudas y long tail relevantes para crear contenidos alineados con la intención de búsqueda.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d017",
+      "nombre": "Apple Pay",
+      "descripcion": "Sistema de pagos móviles y online de Apple integrado en iPhone, iPad, Mac y Apple Watch. Permite pagar en tiendas físicas, apps y webs de forma segura mediante tokenización, y es una opción habitual en checkout de e-commerce orientada a mercados con alta penetración de dispositivos Apple.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d018",
+      "nombre": "Artlist.io",
+      "descripcion": "Plataforma de música, efectos de sonido, vídeos de stock y plugins con licencia universal para creadores y marcas. Su modelo de suscripción cubre usos comerciales en redes, anuncios y contenidos corporativos, simplificando la gestión de derechos en producción audiovisual.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d019",
+      "nombre": "Asana",
+      "descripcion": "Plataforma de gestión de tareas y proyectos orientada a equipos. Permite planificar campañas, asignar tareas, seguir timelines, gestionar dependencias y coordinar equipos de marketing, desarrollo y diseño desde una única interfaz.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d020",
+      "nombre": "Atlas.ti",
+      "descripcion": "Software de análisis cualitativo de datos (CAQDAS) que permite codificar entrevistas, documentos, vídeos e imágenes para extraer patrones y construir marcos teóricos. Se utiliza en investigación de mercados, UX research y estudios académicos para estructurar grandes volúmenes de información cualitativa.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d021",
+      "nombre": "Audiense",
+      "descripcion": "Herramienta de social data y segmentación avanzada de audiencias. Analiza comunidades, intereses y comportamientos en redes (especialmente X/Twitter) para identificar segmentos, influenciadores clave y patrones de conversación, útil en social listening y planificación de campañas.",
+      "pagina_pdf": 237,
+      "pagina_libro": 232
+    },
+    {
+      "id": "k-d022",
+      "nombre": "Autopilot",
+      "descripcion": "Plataforma de automatización de marketing visual que permite diseñar journeys de cliente mediante flujos visuales de nodos (email, SMS, notificaciones, condiciones, tags). Enfocada en lead nurturing y en la orquestación de experiencias multicanal.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d023",
+      "nombre": "Aviary",
+      "descripcion": "Editor fotográfico ligero, originalmente destacado como SDK móvil, que ofrece filtros, ajustes básicos, stickers y herramientas rápidas de retoque. Ha sido integrado en numerosas aplicaciones de terceros para proporcionar edición de imagen directamente en flujos sociales y de contenido.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d024",
+      "nombre": "Biblioteca de anuncios de Meta",
+      "descripcion": "Repositorio público de Meta que permite consultar todos los anuncios activos publicados en Facebook, Instagram y sus plataformas asociadas. Es una fuente clave para auditar la actividad publicitaria de competidores, estudiar creatividades y verificar transparencia en anuncios de temas sensibles.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d025",
+      "nombre": "Biblioteca de anuncios de TikTok",
+      "descripcion": "Repositorio público de TikTok donde se pueden consultar los anuncios publicados en la plataforma, con filtros por país, sector y fecha. Es útil para analizar tendencias creativas, benchmarks de competencia y cumplir con criterios de transparencia publicitaria.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d026",
+      "nombre": "Biblioteca de anuncios de X",
+      "descripcion": "Repositorio de X (antes Twitter) que muestra los anuncios activos en la plataforma, aportando visibilidad sobre quién anuncia, en qué temas y con qué creatividades. Facilita el análisis competitivo y la investigación de mensajes publicitarios en la red.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d027",
+      "nombre": "BirdEye",
+      "descripcion": "Plataforma de gestión de experiencia y reputación del cliente enfocada en negocios multi-local. Integra reseñas, mensajería, encuestas, referencias y analítica de sentimiento en un único panel, ayudando a mejorar visibilidad local y captación de nuevos clientes.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d028",
+      "nombre": "Bizum",
+      "descripcion": "Servicio español de pagos inmediatos entre particulares y comercios mediante el número de teléfono, impulsado por los principales bancos. Cada vez más integrado como método de pago en e-commerce nacional, es clave para proyectos orientados al mercado español.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d029",
+      "nombre": "Boardmix",
+      "descripcion": "Herramienta colaborativa de pizarra online para brainstorming, planificación visual, mapeo de procesos y diagramas. Se emplea en workshops de customer journey, co-creación de campañas, diseño de servicios y coordinación de equipos distribuidos.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d030",
+      "nombre": "Brand24",
+      "descripcion": "Herramienta de social listening y monitorización de reputación online. Recoge menciones de marca en redes, blogs, foros y noticias, ofreciendo indicadores de volumen, alcance, sentimiento y autores influyentes para gestionar crisis, campañas y presencia digital.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d031",
+      "nombre": "BrandCrowd",
+      "descripcion": "Plataforma de generación de logos e identidades visuales basada en plantillas y un buscador inteligente por sector. Permite personalizar logotipos, crear kits de marca y descargar recursos listos para redes y materiales promocionales, orientada a pymes y emprendedores.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d032",
+      "nombre": "Brandmanic",
+      "descripcion": "Plataforma española de influencer marketing para descubrir creadores, gestionar campañas y medir resultados. Ofrece acceso a perfiles verificados, métricas de audiencia y herramientas de coordinación especialmente útiles para marcas hispanohablantes.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d033",
+      "nombre": "Brandwatch",
+      "descripcion": "Suite enterprise de consumer intelligence y social listening. Combina análisis de conversaciones en redes, foros y medios con herramientas de segmentación, sentimiento y detección de tendencias, siendo una referencia para grandes marcas en investigación de mercado e insights.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d034",
+      "nombre": "Brandwatch Vizia",
+      "descripcion": "Plataforma de visualización avanzada de datos conectada a Brandwatch. Permite construir \"command centers\" que integran métricas sociales, analítica web, datos de campañas y KPIs de negocio en paneles en tiempo real, útiles para monitorización ejecutiva y toma rápida de decisiones.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d035",
+      "nombre": "Brevo",
+      "descripcion": "Antes Sendinblue, es una plataforma de email marketing y automatización que incluye campañas, workflows, SMS, CRM ligero y chat. Se orienta a pymes y negocios digitales que buscan una solución todo-en-uno para comunicaciones con clientes.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d036",
+      "nombre": "BrightEdge",
+      "descripcion": "Plataforma SEO enterprise enfocada en grandes marcas. Combina investigación de keywords, auditorías técnicas, seguimiento de rankings y recomendaciones de contenido con dashboards orientados a negocio, conectando rendimiento orgánico con métricas de ingresos y cuota de mercado.",
+      "pagina_pdf": 238,
+      "pagina_libro": 233
+    },
+    {
+      "id": "k-d037",
+      "nombre": "Buffer",
+      "descripcion": "Herramienta de programación y gestión de redes sociales. Permite planificar publicaciones, analizar rendimiento (clics, alcance, engagement) y coordinar calendarios de contenido para múltiples perfiles, especialmente orientada a equipos pequeños y medianos.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d038",
+      "nombre": "BuzzSumo",
+      "descripcion": "Plataforma de análisis de contenidos y trending topics. Permite identificar los contenidos que mejor funcionan por tema, dominio o red social, detectar autores influyentes, analizar backlinks y monitorizar menciones, muy útil para content marketing e investigación de competencia.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d039",
+      "nombre": "Camtasia",
+      "descripcion": "Software de TechSmith para grabación de pantalla y edición de vídeo orientado a tutoriales, formación corporativa y demostraciones de producto. Combina captura, edición y efectos en una interfaz accesible, muy usada en e-learning y equipos de soporte.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d040",
+      "nombre": "Canva",
+      "descripcion": "Herramienta de diseño online para crear piezas gráficas, presentaciones, vídeos cortos y recursos de comunicación. Ofrece plantillas, un amplio banco de recursos y funciones de IA, permitiendo a usuarios no expertos producir material visual de calidad profesional.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d041",
+      "nombre": "CapCut",
+      "descripcion": "Editor de vídeo desarrollado por ByteDance, disponible en móvil y escritorio, muy popular para crear contenidos de TikTok, Reels y Shorts. Ofrece plantillas, efectos, subtítulos automáticos y funciones con IA que aceleran la producción de vídeo vertical.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d042",
+      "nombre": "Castr",
+      "descripcion": "Plataforma de streaming profesional que permite emitir en directo a múltiples destinos (YouTube, Facebook, Twitch, webs propias) desde un único origen. Incluye reproducción en directo, vídeo bajo demanda y herramientas de monetización para eventos y emisiones corporativas.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d043",
+      "nombre": "Chatmeter",
+      "descripcion": "Plataforma de gestión de reputación online centrada en negocios multi-local. Agrega reseñas, fichas de negocio y menciones, analizando sentimientos y ofreciendo herramientas para responder, gestionar perfiles y optimizar presencia local en múltiples plataformas.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d044",
+      "nombre": "Clarabridge",
+      "descripcion": "Plataforma enterprise de customer experience analytics (ahora parte de Qualtrics) especializada en text analytics y procesamiento de lenguaje natural. Analiza interacciones de voz y texto de múltiples canales para identificar causas raíz de insatisfacción y oportunidades de mejora.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d045",
+      "nombre": "ClickUp",
+      "descripcion": "Plataforma todo-en-uno de gestión de trabajo que cubre tareas, documentos, objetivos, pizarras, chat y automatizaciones. Destaca por su alta personalización de vistas (lista, kanban, Gantt, calendario) y por querer consolidar múltiples herramientas en un único espacio colaborativo.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d046",
+      "nombre": "Complianz GDPR",
+      "descripcion": "Plugin para WordPress especializado en cumplimiento legal (GDPR/AVG, ePrivacy, CCPA). Genera avisos de cookies, gestiona consentimientos, bloquea scripts hasta aceptación y ayuda a mantener la web alineada con la normativa de protección de datos.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d047",
+      "nombre": "Contact Forms",
+      "descripcion": "Plugin para WordPress especializado en formularios de contacto implementados en webs. Son básicos para captación de leads, soporte y solicitudes, y se integran con CRM y herramientas de automatización.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d048",
+      "nombre": "CreatorIQ",
+      "descripcion": "Plataforma enterprise de influencer marketing que actúa como \"sistema operativo\" para gestionar campañas con creadores. Permite descubrir perfiles, validar audiencias, gestionar contratos y pagos, y medir rendimiento e impacto de las colaboraciones a escala.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d049",
+      "nombre": "CreatorsKit",
+      "descripcion": "Conjunto de recursos y herramientas para creadores de contenido (plantillas, presets, estructuras de guión, ideas de posts) que agiliza la producción de contenidos en redes sociales, especialmente para perfiles personales y microinfluencers.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d050",
+      "nombre": "Critical Mention",
+      "descripcion": "Plataforma de seguimiento de medios tradicionales y digitales (TV, radio, prensa, online). Permite monitorizar apariciones de marca, competidores y temas clave, extraer clips y obtener métricas de alcance, fundamental para gestión de PR y comunicación corporativa.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d051",
+      "nombre": "Dafont",
+      "descripcion": "Directorio online de tipografías gratuitas y de pago organizado por categorías y autores, muy popular entre diseñadores. Permite previsualizar textos personalizados con cada fuente y descargarlas fácilmente, siendo una fuente habitual para proyectos informales y creativos.",
+      "pagina_pdf": 239,
+      "pagina_libro": 234
+    },
+    {
+      "id": "k-d052",
+      "nombre": "DaVinci Resolve",
+      "descripcion": "Suite profesional de edición de vídeo, color, VFX y postproducción de audio de Blackmagic Design, con una versión gratuita muy potente. Es referencia en corrección de color y se utiliza tanto en producciones cinematográficas como en contenidos de marca de alta calidad.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d053",
+      "nombre": "DesignMantic",
+      "descripcion": "Generador online de logos e identidades con plantillas sectoriales y editor sencillo. Permite descargar archivos listos para uso junto con extensiones como tarjetas, papelería y recursos de marca, orientado a negocios que necesitan branding rápido a bajo coste.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d054",
+      "nombre": "Dondominio.com",
+      "descripcion": "Proveedor de registro de dominios y servicios asociados (DNS, certificados SSL, hosting básico). Es una pieza clave en la fase de implantación técnica de proyectos web, especialmente en mercados hispanohablantes.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d055",
+      "nombre": "Dovetail",
+      "descripcion": "Herramienta de investigación de usuario y \"research repository\". Permite almacenar entrevistas, notas, transcripciones y resultados de tests, etiquetarlos y analizarlos para extraer insights que alimenten decisiones de producto y experiencia de usuario.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d056",
+      "nombre": "Drupal",
+      "descripcion": "CMS de código abierto orientado a sitios complejos y escalables (portales institucionales, intranets, sitios transnacionales). Ofrece gran flexibilidad y robustez, pero exige mayor perfil técnico que WordPress en su gestión y desarrollo.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d057",
+      "nombre": "Edit.org",
+      "descripcion": "Plataforma de diseño online en español que ofrece plantillas para cartelería, redes sociales, documentos y material de marketing. Está orientada a pymes y pequeños negocios que necesitan soluciones visuales rápidas y sencillas.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d058",
+      "nombre": "Edits",
+      "descripcion": "App gratuita de edición de vídeo de Instagram enfocada en creadores de Reels. Ofrece captura, edición multicapa, efectos, insights de rendimiento e ideas de contenido en un único flujo, integrándose con el ecosistema Meta para acelerar la producción de vídeo corto.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d059",
+      "nombre": "Elementor",
+      "descripcion": "Page builder para WordPress que permite diseñar páginas mediante bloques arrastrar-y-soltar. Facilita la creación de landing pages, sitios corporativos y tiendas con alto control visual sin necesidad de programación, y dispone de un amplio ecosistema de add-ons.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d060",
+      "nombre": "Email Octopus",
+      "descripcion": "Herramienta de email marketing económica que ofrece campañas, automatizaciones básicas y segmentación. Se orienta a proyectos que requieren listas grandes con costes contenidos, integrándose con otras soluciones vía API y Zapier.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d061",
+      "nombre": "EmbedSocial",
+      "descripcion": "Plataforma que permite recopilar, gestionar y mostrar reseñas, contenido generado por usuarios y feeds sociales en webs mediante widgets embebibles. Ayuda a reforzar la prueba social en landing pages, fichas de producto y sitios corporativos.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d062",
+      "nombre": "Epidemic Sound",
+      "descripcion": "Biblioteca de música y efectos de sonido por suscripción con licencia universal para creadores, marcas y empresas. Es muy utilizada en YouTube, podcasts, anuncios y vídeos corporativos por su extenso catálogo y la claridad de sus condiciones de uso.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d063",
+      "nombre": "Facebook",
+      "descripcion": "Red social de Meta orientada a conexiones personales pero utilizada masivamente en marketing para campañas de pago, gestión de comunidades, eventos y atención al cliente. Permite segmentación avanzada mediante Meta Ads y actúa como plataforma central en muchas estrategias de social media.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d064",
+      "nombre": "FakeSpot for Social",
+      "descripcion": "Servicio de detección de fraude en redes sociales e influencer marketing que analiza cuentas para identificar seguidores falsos, bots y engagement artificial. Ayuda a marcas y agencias a validar la autenticidad de audiencias antes de invertir en colaboraciones.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d065",
+      "nombre": "FigJam",
+      "descripcion": "Herramienta de pizarra colaborativa de Figma para ideación, mapas de viaje, diagramas y workshops. Se utiliza en equipos multidisciplinares para co-crear flujos, estructuras de información y conceptos de campañas o productos.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d066",
+      "nombre": "Figma",
+      "descripcion": "Herramienta de diseño colaborativo para interfaces web y móviles. Permite crear sistemas de diseño, prototipos interactivos y compartir en tiempo real entre diseño, desarrollo y negocio, convirtiéndose en estándar en proyectos digitales.",
+      "pagina_pdf": 240,
+      "pagina_libro": 235
+    },
+    {
+      "id": "k-d067",
+      "nombre": "Filmora",
+      "descripcion": "Editor de vídeo de Wondershare, disponible en escritorio y móvil, que combina una interfaz accesible con funciones avanzadas como edición multicapa, efectos, transiciones y herramientas con IA. Está orientado a creadores de contenido, educadores y pymes.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d068",
+      "nombre": "Final Cut Pro X",
+      "descripcion": "Software profesional de edición de vídeo de Apple, exclusivo para macOS, basado en el concepto de timeline magnética. Es ampliamente utilizado en producción audiovisual, documental y contenidos de marca por su rendimiento y flujo de trabajo optimizado.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d069",
+      "nombre": "Flexclip",
+      "descripcion": "Editor de vídeo online con plantillas, banco de recursos y funciones de IA para creación rápida de vídeos corporativos, promocionales y sociales. Está orientado a usuarios sin experiencia técnica que necesitan producir contenido audiovisual de forma ágil.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d070",
+      "nombre": "FontSquirrel",
+      "descripcion": "Repositorio curado de tipografías gratuitas con licencia comercial verificada, especialmente útil para proyectos profesionales. Incluye herramientas como generadores de kits para web, facilitando la integración responsable de fuentes en sitios y productos digitales.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d071",
+      "nombre": "Framer",
+      "descripcion": "Plataforma de diseño y publicación de sitios web que combina edición visual estilo Figma con despliegue directo, CMS integrado y funciones de IA para generar páginas a partir de prompts. Es popular entre diseñadores que quieren pasar de concepto a web sin intermediarios.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d072",
+      "nombre": "FreeLogoDesign",
+      "descripcion": "Creador online de logotipos gratuito que ofrece plantillas personalizables por sector y un editor sencillo. Permite descargar versiones básicas sin coste y adquirir paquetes profesionales, orientado a emprendedores y pequeños negocios.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d073",
+      "nombre": "Freepik",
+      "descripcion": "Banco de recursos gráficos que incluye vectores, fotos, iconos, plantillas, mockups y, más recientemente, herramientas de generación de imágenes y vídeo con IA. Es una fuente habitual de material visual para diseñadores, marketers y creadores de contenido.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d074",
+      "nombre": "GDPR Cookie Compliance",
+      "descripcion": "Plugin de WordPress centrado en mostrar banners de cookies, gestionar el consentimiento y bloquear scripts hasta aceptación. Ayuda a cumplir normativa de privacidad y a documentar las preferencias de los usuarios.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d075",
+      "nombre": "GetResponse",
+      "descripcion": "Plataforma de email marketing y automatización que integra webinars, landing pages, embudos y CRM ligero. Es útil para estrategias de lead generation y nurturing con múltiples puntos de contacto.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d076",
+      "nombre": "GIMP",
+      "descripcion": "Editor de imágenes open source considerado la principal alternativa gratuita a Photoshop. Cubre retoque fotográfico, composición y diseño con capas, máscaras, filtros y scripting, siendo habitual en equipos con restricciones de licencia.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d077",
+      "nombre": "Glassdoor",
+      "descripcion": "Portal donde empleados y candidatos comparten opiniones sobre empresas, salarios y procesos de selección. Es una fuente clave para la reputación como empleador (employer brand) y para análisis de clima laboral percibido.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d078",
+      "nombre": "Godaddy.com",
+      "descripcion": "Proveedor global de dominios, hosting y herramientas asociadas (constructores web, certificados SSL, email corporativo). Muy utilizado por pymes y emprendedores en fases iniciales de proyectos digitales.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d079",
+      "nombre": "Google Ads",
+      "descripcion": "Plataforma de publicidad de Google para campañas de búsqueda, display, YouTube, discovery, PMax y otros formatos. Permite segmentar por intención de búsqueda, audiencias, ubicación y dispositivos, optimizando pujas y creatividades mediante IA.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d080",
+      "nombre": "Google Ads Transparency",
+      "descripcion": "Centro de transparencias de anuncios de Google, donde se pueden consultar creatividades activas, anunciantes y temas. Es útil para auditar la actividad publicitaria de una marca o competidores y para estudiar creatividades y mensajes.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d081",
+      "nombre": "Google Alerts",
+      "descripcion": "Servicio gratuito que envía avisos por email cuando aparecen nuevas páginas indexadas que contienen términos definidos por el usuario. Se emplea para monitorizar menciones de marca, competidores, temas sectoriales y palabras clave estratégicas.",
+      "pagina_pdf": 241,
+      "pagina_libro": 236
+    },
+    {
+      "id": "k-d082",
+      "nombre": "Google Analytics (incluyendo GA4)",
+      "descripcion": "Plataforma de analítica web y de apps. GA4 introduce un modelo basado en eventos y una perspectiva centrada en el ciclo de vida del usuario, permitiendo medir fuentes de tráfico, comportamiento, conversiones y embudos de forma más flexible y orientada a negocio.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d083",
+      "nombre": "Google Business Profile",
+      "descripcion": "Ficha de negocio de Google para presencia local, integrada en Maps y en resultados de búsqueda. Permite gestionar información básica (dirección, horarios), reseñas, publicaciones y atributos, y es clave en estrategias de SEO local.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d084",
+      "nombre": "Google Fonts",
+      "descripcion": "Servicio gratuito de Google que ofrece cientos de familias tipográficas de código abierto optimizadas para la web. Facilita la integración vía CSS y es una opción estándar para proyectos digitales que buscan coherencia tipográfica sin problemas de licencia.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d085",
+      "nombre": "Google Keyword Planner",
+      "descripcion": "Herramienta gratuita de investigación de palabras clave integrada en Google Ads. Proporciona volúmenes de búsqueda estimados, competencia publicitaria y sugerencias de términos relacionados, útil para SEM y SEO.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d086",
+      "nombre": "Google Page Speed",
+      "descripcion": "Conjunto de herramientas (PageSpeed Insights, Lighthouse) que analizan la velocidad de carga y rendimiento técnico de un sitio, ofreciendo métricas (Core Web Vitals) y recomendaciones de optimización esenciales para SEO y experiencia de usuario.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d087",
+      "nombre": "Google Pay",
+      "descripcion": "Sistema de pagos de Google disponible en móvil y web que permite guardar tarjetas, pagar en tiendas físicas y online y gestionar transacciones. Es una opción de checkout habitual en e-commerce para reducir fricción en dispositivos Android.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d088",
+      "nombre": "Google Search Console",
+      "descripcion": "Herramienta gratuita para webmasters que ofrece datos sobre rendimiento orgánico (impresiones, clics, CTR), cobertura de indexación, problemas técnicos y enlaces. Es fundamental para monitorizar salud SEO y detectar oportunidades de mejora.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d089",
+      "nombre": "Google Trends",
+      "descripcion": "Servicio que muestra la evolución temporal del interés de búsqueda sobre términos concretos. Permite comparar keywords, explorar temas emergentes y analizar estacionalidades y patrones regionales.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d090",
+      "nombre": "Grade.us",
+      "descripcion": "Plataforma de gestión de reseñas que ayuda a solicitar, centralizar y mostrar opiniones de clientes en distintos sitios (Google, Facebook, etc.), con automatizaciones de solicitudes y paneles de rendimiento para múltiples localizaciones.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d091",
+      "nombre": "GraphicSprings",
+      "descripcion": "Generador online de logotipos con plantillas editables por sector y un editor visual sencillo. Está orientado a pequeños negocios que necesitan crear un logo y materiales básicos de marca de forma rápida y económica.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d092",
+      "nombre": "Gravity Forms",
+      "descripcion": "Plugin premium de formularios para WordPress, muy flexible y extensible. Permite crear formularios complejos, integrarlos con CRMs, pasarelas de pago y herramientas de automatización, y gestionar lógicas condicionales avanzadas.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d093",
+      "nombre": "GRIN",
+      "descripcion": "Plataforma de gestión de influencers de tipo \"creator management\" que integra descubrimiento, gestión de relaciones, envío de productos, seguimiento de rendimiento y pago, especialmente orientada a e-commerce.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d094",
+      "nombre": "GTmetrix",
+      "descripcion": "Herramienta de análisis de rendimiento web que evalúa velocidad de carga, Core Web Vitals y problemas de optimización a partir de tests desde distintas ubicaciones. Se utiliza junto con PageSpeed Insights para diagnosticar y priorizar mejoras técnicas.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d095",
+      "nombre": "Heepsy",
+      "descripcion": "Plataforma de influencer marketing con una gran base de datos de creadores en Instagram, TikTok y YouTube. Ofrece filtros de búsqueda, análisis de audiencia y detección de seguidores falsos, orientada a pymes y agencias que gestionan campañas con microinfluencers.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d096",
+      "nombre": "HoneyGraph",
+      "descripcion": "Plataforma de analítica e inteligencia de influencer marketing que cruza datos de audiencia, contenido y rendimiento para detectar fraudes y evaluar la calidad real de los creadores. Ayuda a tomar decisiones informadas sobre contratación y presupuesto en campañas.",
+      "pagina_pdf": 242,
+      "pagina_libro": 237
+    },
+    {
+      "id": "k-d097",
+      "nombre": "HoneyPot de Raiola Networks",
+      "descripcion": "Mecanismo de seguridad en hosting que actúa como \"trampa\" para bots maliciosos, detectando y bloqueando patrones de ataque. Refuerza la protección frente a spam, inyecciones y otros intentos de intrusión en webs alojadas.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d098",
+      "nombre": "Hootsuite",
+      "descripcion": "Herramienta consolidada de gestión de redes sociales. Permite programar contenidos, monitorizar menciones y palabras clave, coordinar equipos y analizar métricas de rendimiento en múltiples redes desde un panel unificado.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d099",
+      "nombre": "Hootsuite Insights",
+      "descripcion": "Módulo de social listening avanzado de Hootsuite que aprovecha datos de múltiples fuentes para analizar conversaciones, sentimientos, temas emergentes e influencia, útil para reputación, campañas y estudios de mercado.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d100",
+      "nombre": "Hostinger",
+      "descripcion": "Proveedor global de hosting con planes compartidos, VPS y cloud, además de dominio y herramientas asociadas. Popular por su relación calidad-precio y por su facilidad de uso para proyectos de WordPress y pequeños e-commerce.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d101",
+      "nombre": "Hotjar",
+      "descripcion": "Herramienta de análisis de experiencia de usuario que ofrece mapas de calor, grabaciones de sesiones, encuestas in-page y embudos. Ayuda a entender cómo navegan los usuarios y dónde se producen fricciones en la conversión.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d102",
+      "nombre": "HubSpot",
+      "descripcion": "Plataforma CRM todo-en-uno que integra marketing, ventas, servicio y CMS. Permite centralizar contactos, registrar interacciones, automatizar campañas, gestionar pipelines y analizar el recorrido del cliente de forma unificada.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d103",
+      "nombre": "HubSpot (generador de buyer persona)",
+      "descripcion": "Herramienta específica de HubSpot que guía la creación de buyer personas mediante cuestionarios estructurados. Ayuda a documentar perfiles, motivaciones, retos y mensajes clave que después se integran en campañas y contenidos.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d104",
+      "nombre": "HubSpot (landing page creator)",
+      "descripcion": "Editor de landing pages de HubSpot que permite crear páginas de captación con plantillas, formularios y tests A/B integrados en el CRM, facilitando la medición de leads, conversiones y rendimiento por fuente.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d105",
+      "nombre": "HubSpot (Service Hub)",
+      "descripcion": "Módulo de servicio y atención al cliente dentro de HubSpot. Incluye tickets, bandeja unificada, bases de conocimiento, encuestas de satisfacción y automatizaciones, conectando soporte con marketing y ventas en una misma plataforma.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d106",
+      "nombre": "HypeAuditor",
+      "descripcion": "Herramienta de análisis de influencers que evalúa la calidad de las audiencias (detección de seguidores falsos), demografía, engagement auténtico y rendimiento esperado de campañas, ofreciendo indicadores para elegir creadores con mayor seguridad.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d107",
+      "nombre": "ILoveIMG",
+      "descripcion": "Herramienta online para editar y procesar imágenes en lote (redimensionar, comprimir, recortar, convertir formatos). Es útil para optimizar recursos visuales para web y redes sin necesidad de software pesado.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d108",
+      "nombre": "Imagify",
+      "descripcion": "Plugin de WordPress para optimización de imágenes que comprime y convierte archivos (incluyendo a WebP y AVIF) para mejorar la velocidad de carga. Contribuye al SEO técnico y a la experiencia de usuario reduciendo el peso de los recursos visuales.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d109",
+      "nombre": "iMovie",
+      "descripcion": "Editor de vídeo gratuito de Apple para macOS e iOS, orientado a usuarios no profesionales. Permite montar vídeos con plantillas, títulos, efectos y bandas sonoras de forma sencilla, siendo un punto de entrada habitual a la edición audiovisual en el ecosistema Apple.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d110",
+      "nombre": "Inbeat",
+      "descripcion": "Plataforma de influencer marketing y UGC centrada en microinfluencers y creadores de TikTok, Instagram y YouTube. Ofrece buscador avanzado, gestión de campañas y servicios de producción de contenido auténtico para marcas.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d111",
+      "nombre": "Inclusive",
+      "descripcion": "Herramienta de monitorización y análisis de marca orientada a detectar menciones, sentimiento y conversaciones relevantes en canales digitales. Se usa para reputación, crisis y seguimiento de campañas con foco en contextos hispanohablantes.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d112",
+      "nombre": "Indeed",
+      "descripcion": "Portal de empleo global que agrega ofertas y CV. Es fuente clave tanto para reclutamiento como para analizar demanda de perfiles, salarios y posicionamiento de marca empleadora.",
+      "pagina_pdf": 243,
+      "pagina_libro": 238
+    },
+    {
+      "id": "k-d113",
+      "nombre": "Influencity",
+      "descripcion": "Plataforma de influencer marketing para descubrir, analizar y gestionar colaboraciones con creadores. Ofrece datos de audiencia, autenticidad, alcance estimado y herramientas para coordinar campañas y medir resultados.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d114",
+      "nombre": "InMoment",
+      "descripcion": "Plataforma de gestión de experiencia de cliente (CX) que recoge feedback multicanal, aplica analítica y modelos de sentimiento, y ayuda a identificar drivers de lealtad, satisfacción y abandono, vinculando insights con acciones operativas.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d115",
+      "nombre": "Instagant",
+      "descripcion": "Herramienta de visualización y planificación de proyectos que convierte tablas de gestión en diagramas de Gantt interactivos. Se utiliza para coordinar cronogramas de campañas, proyectos web o lanzamientos de producto.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d116",
+      "nombre": "Instagram",
+      "descripcion": "Red social visual centrada en fotografía y vídeo corto (feed, Stories, Reels). Es un canal central para branding, influencers y performance ads, con herramientas de segmentación y medición integradas en el ecosistema Meta.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d117",
+      "nombre": "InVideo",
+      "descripcion": "Plataforma online de creación de vídeos con plantillas, banco de recursos y funciones de IA para generar piezas a partir de textos o URLs. Muy utilizada para vídeos sociales, anuncios y contenidos corporativos sin equipo de edición.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d118",
+      "nombre": "InVision",
+      "descripcion": "Plataforma de diseño y prototipado que permite crear prototipos interactivos a partir de layouts estáticos, compartirlos y recoger feedback. Ha sido muy utilizada en diseño UX/UI y pruebas de flujo de navegación.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d119",
+      "nombre": "Jira",
+      "descripcion": "Herramienta de gestión de proyectos de Atlassian, estándar en equipos de desarrollo de software y metodologías ágiles. Cubre backlog, sprints, incidencias, flujos personalizados e integraciones profundas con el resto del ecosistema Atlassian y herramientas DevOps.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d120",
+      "nombre": "Joinchat",
+      "descripcion": "Plugin de WordPress que integra chats tipo WhatsApp y otros canales de mensajería en sitios web. Facilita el contacto directo, soporte y generación de leads desde la propia página.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d121",
+      "nombre": "Joomla",
+      "descripcion": "CMS de código abierto para la creación de sitios web complejos y portales. Ofrece alta flexibilidad y un sistema de extensiones, siendo una alternativa a WordPress para proyectos que requieren estructuras más personalizadas.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d122",
+      "nombre": "Jotform",
+      "descripcion": "Plataforma online de creación de formularios, encuestas y PDFs rellenables con un editor visual drag-and-drop. Ofrece plantillas, lógica condicional, pagos integrados e integraciones amplias, siendo muy usada para captación de leads, registros y procesos internos.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d123",
+      "nombre": "Keyhole",
+      "descripcion": "Plataforma de analítica social e influencer marketing centrada en seguimiento de hashtags, cuentas y campañas en tiempo real. Proporciona métricas de alcance, engagement e impacto, útil para medir acciones, eventos y colaboraciones con creadores.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d124",
+      "nombre": "Klarna",
+      "descripcion": "Plataforma de pagos y BNPL (buy now, pay later) que permite a los compradores fraccionar pagos o aplazarlos sin intereses en comercios asociados. Es una opción de checkout cada vez más presente en e-commerce europeo y norteamericano.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d125",
+      "nombre": "Klaviyo",
+      "descripcion": "Plataforma de marketing automation especializada en e-commerce. Se integra muy bien con Shopify y otros CMS, permitiendo segmentación avanzada basada en comportamiento de compra y navegación, y workflows sofisticados de email y SMS.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d126",
+      "nombre": "Kolculator (Kolsquare)",
+      "descripcion": "Calculadora específica dentro del ecosistema Kolsquare que estima el coste y el rendimiento potencial de una campaña con influencers en función de la audiencia, engagement y mercado. Ayuda a marcas y agencias a presupuestar colaboraciones con criterios objetivos.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d127",
+      "nombre": "Kolsquare",
+      "descripcion": "Plataforma europea de influencer marketing que combina descubrimiento de creadores, análisis de audiencia, gestión de campañas y medición de rendimiento. Pone énfasis en el cumplimiento normativo (GDPR, transparencia) y es popular entre marcas del continente.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d128",
+      "nombre": "Late",
+      "descripcion": "Plataforma de gestión y programación de redes sociales con foco en simplicidad y precios accesibles. Permite planificar publicaciones, gestionar varias cuentas y analizar rendimiento básico, orientada a creadores y pequeños equipos.",
+      "pagina_pdf": 244,
+      "pagina_libro": 239
+    },
+    {
+      "id": "k-d129",
+      "nombre": "Leadpages",
+      "descripcion": "Plataforma de creación de landing pages, pop-ups y páginas de captación orientada a pymes y profesionales del marketing. Ofrece plantillas optimizadas para conversión, tests A/B e integraciones con CRM y herramientas de email marketing.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d130",
+      "nombre": "Lexalytics",
+      "descripcion": "Plataforma de text analytics y procesamiento de lenguaje natural para analizar grandes volúmenes de texto (reseñas, encuestas, soporte). Extrae sentimiento, temas y entidades, utilizada en voice of customer, investigación de mercado y análisis de marca.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d131",
+      "nombre": "Lightworks",
+      "descripcion": "Editor de vídeo profesional multiplataforma con una versión gratuita funcional, utilizado históricamente en producción cinematográfica. Ofrece flujos de edición no lineal, efectos y soporte para formatos profesionales, siendo una alternativa seria a Premiere y DaVinci.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d132",
+      "nombre": "Lite Speed Caché",
+      "descripcion": "Plugin de caché para WordPress optimizado para servidores LiteSpeed. Mejora significativamente el rendimiento y la velocidad de carga mediante optimización de recursos, minificación y almacenamiento en caché a varios niveles.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d133",
+      "nombre": "Livestream",
+      "descripcion": "Plataforma de emisión en directo (parte de Vimeo) orientada a eventos corporativos, webinars y producciones en vivo. Integra control de producción, distribución multicanal y métricas, pensada para equipos con necesidades de streaming profesional.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d134",
+      "nombre": "Logaster",
+      "descripcion": "Generador online de logos e identidades visuales (ahora Turbologo) que crea propuestas automáticas a partir del nombre y sector. Permite descargar logos y kits de marca básicos, orientado a emprendedores que necesitan una solución rápida.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d135",
+      "nombre": "Lookback",
+      "descripcion": "Plataforma para investigación de experiencia de usuario que permite realizar tests remotos moderados o no moderados, grabando pantalla, audio y vídeo para analizar la interacción en tiempo real o en diferido.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d136",
+      "nombre": "Looker Studio",
+      "descripcion": "Herramienta de Google para crear dashboards y reportes de datos conectados a múltiples fuentes (Analytics, Ads, hojas de cálculo, bases de datos). Permite construir informes visuales interactivos para seguimiento de KPIs.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d137",
+      "nombre": "Loom",
+      "descripcion": "Herramienta para grabar y compartir vídeos de pantalla con o sin cámara. Muy utilizada para explicaciones asíncronas, feedback sobre diseño o desarrollo, formación interna y comunicación con clientes.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d138",
+      "nombre": "Lucky Orange",
+      "descripcion": "Herramienta de analítica de comportamiento que combina mapas de calor, grabaciones de sesiones, encuestas, chat en vivo y embudos de conversión. Se utiliza para entender la interacción real de los usuarios y optimizar páginas críticas en e-commerce y webs de servicios.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d139",
+      "nombre": "Mailchimp",
+      "descripcion": "Plataforma de email marketing y automatización que incluye campañas, plantillas, journeys, CRM básico y herramientas de e-commerce. Muy extendida entre pymes y proyectos digitales que inician su estrategia de email.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d140",
+      "nombre": "MailerLite",
+      "descripcion": "Herramienta de email marketing sencilla y económica, con automatizaciones, páginas de aterrizaje, formularios y soporte para campañas segmentadas. Apreciada por su interfaz limpia y su política de precios.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d141",
+      "nombre": "MailRelay",
+      "descripcion": "Plataforma de email marketing orientada al mercado hispanohablante, con énfasis en volúmenes de envío altos y soporte local. Ofrece campañas, segmentación e informes de rendimiento.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d142",
+      "nombre": "ManyChat",
+      "descripcion": "Plataforma de automatización de chatbots y mensajes para canales como Instagram, Facebook Messenger y WhatsApp. Se emplea para apoyar ventas, atención al cliente y captación de leads mediante flujos conversacionales.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d143",
+      "nombre": "Marketo Engage",
+      "descripcion": "Plataforma de automatización de marketing B2B de Adobe, orientada a grandes organizaciones. Permite lead scoring, nurturing avanzado, campañas multicanal y fuerte integración con CRMs como Salesforce.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d144",
+      "nombre": "Marvel App",
+      "descripcion": "Herramienta de prototipado para diseñar interfaces y flujos interactivos sin necesidad de código. Se usa para validar ideas con usuarios y stakeholders antes de desarrollar.",
+      "pagina_pdf": 245,
+      "pagina_libro": 240
+    },
+    {
+      "id": "k-d145",
+      "nombre": "Maxqda",
+      "descripcion": "Software de análisis cualitativo y mixto usado en investigación académica y de mercado. Permite codificar entrevistas, documentos, vídeos y datos de encuestas, y combinar análisis cualitativo con métodos cuantitativos en un único entorno.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d146",
+      "nombre": "Maze",
+      "descripcion": "Plataforma de testeo rápido de productos digitales. Permite convertir prototipos (Figma, InVision, etc.) en estudios con usuarios, recogiendo métricas (tasa de éxito, tiempo en tarea) y feedback cualitativo.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d147",
+      "nombre": "Meltwater",
+      "descripcion": "Plataforma enterprise de media intelligence y social listening que monitoriza prensa, redes, blogs y podcasts. Ofrece análisis de sentimiento, benchmarks competitivos y reporting de PR para grandes marcas y agencias de comunicación.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d148",
+      "nombre": "Mention",
+      "descripcion": "Herramienta de monitorización de menciones de marca, competidores y palabras clave en redes, blogs, noticias y foros. Ofrece alertas en tiempo real y métricas para gestionar reputación y oportunidades de conversación.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d149",
+      "nombre": "Meta Ads Manager",
+      "descripcion": "Herramienta oficial de Meta para crear, gestionar y optimizar campañas de publicidad en Facebook, Instagram, Messenger y Audience Network. Permite configurar audiencias, presupuestos, creatividades y objetivos, con analítica integrada del rendimiento.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d150",
+      "nombre": "Meta Business Suite",
+      "descripcion": "Interfaz de Meta para gestionar páginas de Facebook, cuentas de Instagram y mensajería, programar publicaciones, responder mensajes y revisar estadísticas de rendimiento orgánico y de pago.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d151",
+      "nombre": "Metricool",
+      "descripcion": "Herramienta de analítica y gestión de redes sociales y anuncios. Permite programar contenido, analizar rendimiento en múltiples canales (incluyendo Ads) y generar informes personalizados, muy extendida en el ámbito hispano.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d152",
+      "nombre": "Microsoft Advertising",
+      "descripcion": "Plataforma de publicidad en buscadores de Microsoft que muestra anuncios en Bing y partners. Ofrece una alternativa o complemento a Google Ads, con CPCs a menudo más bajos en determinados sectores.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d153",
+      "nombre": "Microsoft Project",
+      "descripcion": "Herramienta de gestión de proyectos de Microsoft centrada en planificación avanzada, diagramas de Gantt, asignación de recursos y control de cronogramas. Es habitual en entornos corporativos con proyectos complejos y múltiples dependencias.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d154",
+      "nombre": "Miro",
+      "descripcion": "Pizarra colaborativa online para trabajar en tiempo real en mapas, diagramas, customer journeys y planes de acción. Es una herramienta central en metodologías ágiles, *design thinking* y co-creación.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d155",
+      "nombre": "Modash",
+      "descripcion": "Plataforma de influencer marketing que permite buscar creadores en TikTok, Instagram y YouTube, analizar sus audiencias y gestionar campañas de forma escalable, con foco en autenticidad de datos.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d156",
+      "nombre": "Monday",
+      "descripcion": "Plataforma de gestión de trabajo y proyectos con gran flexibilidad en la configuración de tableros, automatizaciones y vistas. Se utiliza para coordinar proyectos de marketing, desarrollo, ventas y operaciones en una misma herramienta.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d157",
+      "nombre": "Moz Pro",
+      "descripcion": "Suite SEO de Moz que incluye investigación de keywords, tracking de rankings, análisis de backlinks, auditoría técnica y métricas propias como Domain Authority. Es popular en equipos que buscan un conjunto equilibrado de herramientas SEO con una curva de aprendizaje accesible.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d158",
+      "nombre": "MURAL",
+      "descripcion": "Pizarra digital colaborativa enfocada en workshops y colaboración remota. Facilita actividades de ideación, mapeo de procesos, diseño de servicios y sesiones participativas con plantillas específicas.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d159",
+      "nombre": "Myfonts",
+      "descripcion": "Marketplace de tipografías con miles de familias de foundries independientes y grandes fundiciones. Ofrece licencias para uso en escritorio, web, apps y ePub, siendo referencia para diseñadores que buscan tipografías profesionales con derechos claros.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d160",
+      "nombre": "Ninja Firewall",
+      "descripcion": "Firewall de aplicación web para WordPress que inspecciona tráfico HTTP, bloquea ataques comunes y aporta una capa adicional de seguridad, complementando otras medidas de hardening del servidor y del CMS.",
+      "pagina_pdf": 246,
+      "pagina_libro": 241
+    },
+    {
+      "id": "k-d161",
+      "nombre": "Ninja Forms",
+      "descripcion": "Plugin de formularios para WordPress con interfaz de arrastrar-y-soltar. Permite crear formularios de contacto, encuestas, suscripciones y otros, con integraciones hacia CRMs, email marketing y pasarelas de pago.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d162",
+      "nombre": "Notion",
+      "descripcion": "Espacio de trabajo todo-en-uno que combina documentos, bases de datos, wikis, tareas y ahora funciones de IA. Se utiliza para documentación de equipos, gestión de contenidos, planificación de campañas y construcción de sistemas internos flexibles.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d163",
+      "nombre": "NVivo",
+      "descripcion": "Software de análisis cualitativo de datos (CAQDAS) orientado a investigación académica, sanitaria y social. Permite codificar textos, audios, vídeos y encuestas, y cruzar variables cualitativas y cuantitativas para profundizar en el análisis.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d164",
+      "nombre": "OBS Studio",
+      "descripcion": "Software open source para grabación de pantalla y streaming en directo, ampliamente utilizado en Twitch, YouTube y eventos online. Ofrece control avanzado sobre escenas, fuentes, audio y transmisión, siendo estándar en la producción de directos independientes.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d165",
+      "nombre": "Omnisend",
+      "descripcion": "Plataforma de automatización de marketing para e-commerce, centrada en email, SMS y notificaciones push. Ofrece workflows preconfigurados (carritos abandonados, post-compra, recuperación) basados en comportamiento de compra.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d166",
+      "nombre": "Onclusive",
+      "descripcion": "Plataforma enterprise de PR analytics y media intelligence que mide el impacto de la comunicación en medios y redes. Ofrece monitorización, evaluación de cobertura, métricas de reputación y benchmarks, orientada a equipos de comunicación corporativa.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d167",
+      "nombre": "Optmyzr",
+      "descripcion": "Plataforma de optimización de campañas de PPC (Google Ads, Microsoft Advertising, Amazon Ads) que ofrece scripts, recomendaciones, auditorías y automatizaciones. Es popular entre agencias y equipos avanzados de paid media para escalar la gestión de cuentas.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d168",
+      "nombre": "Pardot",
+      "descripcion": "Plataforma de automatización de marketing B2B de Salesforce (ahora Marketing Cloud Account Engagement). Integrada profundamente con Salesforce CRM, permite scoring, nurturing y reporting de campañas orientadas a generación de pipeline.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d169",
+      "nombre": "PayPal",
+      "descripcion": "Pasarela de pago online ampliamente utilizada, con soporte para pagos con saldo, tarjeta y financiación. Ofrece integración sencilla en e-commerce, pagos recurrentes y herramientas para marketplaces.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d170",
+      "nombre": "Pexels",
+      "descripcion": "Banco de imágenes y vídeos gratuitos de alta calidad, con licencia flexible para uso comercial. Es una fuente habitual de recursos visuales para webs, blogs y redes sociales.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d171",
+      "nombre": "Photopea",
+      "descripcion": "Editor de imágenes online compatible con archivos PSD, que replica la mayoría de funciones de Photoshop directamente en el navegador. Es una alternativa gratuita muy usada cuando no se dispone de licencia o se necesita editar un archivo puntualmente.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d172",
+      "nombre": "Photoshop",
+      "descripcion": "Editor de imágenes profesional de Adobe, estándar de la industria para retoque fotográfico, composición, diseño y manipulación avanzada. Incluye capas, máscaras, herramientas de IA generativa (Firefly) y se integra con el resto del ecosistema Creative Cloud.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d173",
+      "nombre": "Photoshop Express",
+      "descripcion": "Versión ligera y móvil de Photoshop enfocada en retoque rápido, filtros, ajustes básicos y plantillas para redes sociales. Está pensada para usuarios que necesitan editar imágenes sobre la marcha sin abrir la versión completa.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d174",
+      "nombre": "PicsArt",
+      "descripcion": "Aplicación móvil y web de edición de imágenes y vídeos con gran cantidad de filtros, stickers, plantillas y funciones con IA. Es muy popular entre creadores de contenido social y adolescentes, con una fuerte componente de comunidad.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d175",
+      "nombre": "Pingdom",
+      "descripcion": "Servicio de monitorización de disponibilidad y rendimiento web que mide uptime, tiempos de respuesta y velocidad de carga desde múltiples ubicaciones. Se utiliza para garantizar la salud operativa de sitios y aplicaciones críticas.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d176",
+      "nombre": "Pinterest Ads Manager",
+      "descripcion": "Plataforma oficial de Pinterest para crear y gestionar campañas publicitarias en su red. Permite segmentar por intereses, keywords y audiencias, siendo especialmente relevante en sectores como moda, decoración, viajes y belleza.",
+      "pagina_pdf": 247,
+      "pagina_libro": 242
+    },
+    {
+      "id": "k-d177",
+      "nombre": "Pixlr",
+      "descripcion": "Editor de imágenes online con versiones gratuita y premium, que incluye funciones básicas y avanzadas con IA (eliminación de fondos, upscaling, generación). Es una alternativa accesible para pymes y creadores que necesitan edición rápida sin software instalado.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d178",
+      "nombre": "Podium",
+      "descripcion": "Plataforma orientada a negocios locales para gestionar reseñas, mensajes y pagos desde un único lugar. Facilita la solicitud de opiniones, la mensajería con clientes y la conversión de conversaciones en ventas.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d179",
+      "nombre": "Power BI",
+      "descripcion": "Suite de analítica y visualización de datos de Microsoft. Permite conectar múltiples fuentes, modelar datos y crear dashboards interactivos compartibles, muy útil para proyectos de business intelligence y reporting de marketing.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d180",
+      "nombre": "Premiere Pro",
+      "descripcion": "Editor de vídeo profesional de Adobe, parte de Creative Cloud, utilizado en producción audiovisual, broadcast y contenido digital. Ofrece edición multicapa, integración con After Effects, Audition y Lightroom, y un ecosistema amplio de extensiones.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d181",
+      "nombre": "PrestaShop",
+      "descripcion": "CMS open source para e-commerce especialmente popular en Europa y el mercado hispano. Permite crear tiendas online completas con gestión de catálogo, pagos, envíos y múltiples idiomas, ampliable mediante módulos y temas.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d182",
+      "nombre": "Qualtrics",
+      "descripcion": "Plataforma enterprise de experience management (XM) que cubre customer experience, employee experience, brand experience y product experience. Ofrece encuestas avanzadas, análisis estadístico, text analytics y dashboards para grandes organizaciones.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d183",
+      "nombre": "Rank Math",
+      "descripcion": "Plugin SEO para WordPress que ofrece configuración técnica, optimización on-page, sitemaps, esquema estructurado y análisis básico de palabras clave, con enfoque en facilidad de uso y automatización.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d184",
+      "nombre": "Redsys",
+      "descripcion": "Plataforma de procesamiento de pagos con tarjeta predominante en España, utilizada como TPV virtual por la mayoría de bancos nacionales. Es una integración habitual en e-commerce orientados al mercado español para aceptar pagos con tarjetas Visa y Mastercard.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d185",
+      "nombre": "Reputation.com",
+      "descripcion": "Plataforma enterprise de gestión de reputación, reseñas y experiencia del cliente para grandes marcas y cadenas. Agrega y analiza feedback multicanal y ofrece herramientas para responder, mejorar procesos y monitorizar indicadores clave.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d186",
+      "nombre": "Revi",
+      "descripcion": "Plataforma española de gestión de reseñas que permite a los negocios recoger opiniones verificadas, mostrarlas en su web y mejorar su visibilidad en buscadores. Está orientada a pymes y comercios que quieren reforzar la prueba social local.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d187",
+      "nombre": "ReviewPush",
+      "descripcion": "Solución para monitorizar y gestionar reseñas en múltiples plataformas desde un panel centralizado. Permite responder, asignar tareas y generar informes de reputación para negocios multi-local.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d188",
+      "nombre": "ReviewTrackers",
+      "descripcion": "Plataforma de gestión de reseñas para marcas con múltiples ubicaciones. Centraliza opiniones de diversas fuentes, analiza sentimientos y ofrece herramientas para responder y mejorar la experiencia del cliente.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d189",
+      "nombre": "RockContent (generador de buyer persona)",
+      "descripcion": "Herramienta creada por una agencia especializada en marketing de contenidos que diseña y comercializa software (plataformas de contenido interactivo y gestión), servicios de producción y formación.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d190",
+      "nombre": "Screaming Frog",
+      "descripcion": "Crawling SEO de escritorio que rastrea sitios web para detectar problemas técnicos (status codes, duplicidades, metadatos, arquitectura). Es una herramienta clave para auditorías SEO en profundidad.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d191",
+      "nombre": "SE Ranking",
+      "descripcion": "Plataforma SEO que combina tracking de posiciones, auditoría técnica, análisis de competencia, investigación de keywords y herramientas de reporting, orientada a agencias y pymes.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d192",
+      "nombre": "SEMrush",
+      "descripcion": "Suite integral de marketing digital que cubre SEO, SEM, display, social media y contenidos. Ofrece módulos para keyword research, análisis competitivo, auditorías, backlinks, topic research y gestión de proyectos.",
+      "pagina_pdf": 248,
+      "pagina_libro": 243
+    },
+    {
+      "id": "k-d193",
+      "nombre": "Shopify",
+      "descripcion": "Plataforma SaaS de e-commerce que permite crear tiendas online, gestionar productos, pagos, envíos y aplicaciones. Es una de las soluciones más extendidas a nivel mundial para comercio electrónico.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d194",
+      "nombre": "Shopify (generador de logos)",
+      "descripcion": "Herramienta gratuita de Shopify que crea logos para pequeños negocios a partir del nombre y unas pocas preferencias visuales. Ofrece archivos listos para descargar y es habitual en fases muy iniciales de proyectos de e-commerce.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d195",
+      "nombre": "Smaply",
+      "descripcion": "Herramienta especializada en mapeo de customer journeys, stakeholder maps y blueprints de servicios. Se utiliza en service design para visualizar experiencias y coordinar mejoras con equipos multidisciplinares.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d196",
+      "nombre": "Smartsheet",
+      "descripcion": "Plataforma de gestión de trabajo y proyectos con interfaz de hoja de cálculo potenciada, orientada a equipos corporativos. Cubre planificación, automatizaciones, formularios, dashboards y portfolios, con foco en escalar procesos operativos complejos.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d197",
+      "nombre": "SmartSupp",
+      "descripcion": "Plataforma de chat en vivo y chatbots con grabación de sesiones para webs y e-commerce. Combina atención en tiempo real con analítica de comportamiento, ayudando a convertir visitas en oportunidades de venta.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d198",
+      "nombre": "Smush",
+      "descripcion": "Plugin de WordPress para optimizar imágenes (compresión, redimensionado, lazy load). Mejora el rendimiento y la velocidad de carga de sitios, impactando positivamente en UX y SEO.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d199",
+      "nombre": "Snapseed",
+      "descripcion": "Editor de fotografías móvil de Google con herramientas profesionales de retoque no destructivo, filtros y ajustes selectivos. Es muy utilizado por fotógrafos y creadores de contenido para editar imágenes directamente desde el móvil con resultados cuidados.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d200",
+      "nombre": "Social Blade",
+      "descripcion": "Plataforma de analítica pública que muestra estadísticas de crecimiento y rendimiento de canales en YouTube, Twitch, Instagram y otras redes. Se usa para analizar tendencia de seguidores y actividad de creadores.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d201",
+      "nombre": "Socialbakers",
+      "descripcion": "Plataforma de analítica y gestión de redes sociales (hoy parte de Emplifi) que combina métricas de rendimiento, benchmarks competitivos e IA para contenido. Se orienta a grandes marcas que quieren comparar su actividad social con la de su sector.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d202",
+      "nombre": "SocialBee",
+      "descripcion": "Herramienta de gestión de redes sociales centrada en programación por categorías de contenido y reciclado de publicaciones. Está orientada a creadores, consultores y pymes que quieren mantener presencia constante con esfuerzo editorial contenido.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d203",
+      "nombre": "SocialPubli",
+      "descripcion": "Plataforma española de influencer marketing y micro-influencers que conecta marcas con creadores de distintos perfiles. Ofrece gestión de campañas self-service y managed, con foco en resultados y escalabilidad para el mercado hispanohablante.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d204",
+      "nombre": "Sprinklr",
+      "descripcion": "Plataforma enterprise unificada de customer experience management que integra social listening, publishing, atención al cliente, marketing y analytics. Está pensada para grandes marcas con operaciones omnicanal a escala global.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d205",
+      "nombre": "Sprout",
+      "descripcion": "Herramienta asociada al ecosistema Sprout Social para analítica y gestión de redes, que ofrece paneles de rendimiento, informes y capacidades de listening complementarias a las funciones principales de la suite.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d206",
+      "nombre": "Sprout Social",
+      "descripcion": "Plataforma profesional de gestión de redes sociales con foco en grandes equipos. Integra programación, bandeja unificada de mensajes, social listening, analítica avanzada y funciones de colaboración.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d207",
+      "nombre": "SquareSpace",
+      "descripcion": "Plataforma SaaS para creación de webs y tiendas online con plantillas de diseño cuidado. Es popular entre creativos, pequeños negocios y proyectos que priorizan estética y simplicidad de gestión.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d208",
+      "nombre": "Streamyard",
+      "descripcion": "Estudio de streaming en la nube que permite emitir en directo a múltiples plataformas (YouTube, Facebook, LinkedIn, Twitch) desde el navegador. Es muy usado en webinars, entrevistas y programas en vivo por su facilidad de uso y calidad de producción.",
+      "pagina_pdf": 249,
+      "pagina_libro": 244
+    },
+    {
+      "id": "k-d209",
+      "nombre": "Stripe",
+      "descripcion": "Pasarela y plataforma de pagos para web y apps, con soporte para pagos únicos, suscripciones, marketplaces y facturación. Ofrece APIs potentes y un ecosistema amplio de integraciones.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d210",
+      "nombre": "Sucuri Security",
+      "descripcion": "Servicio de seguridad y firewall para sitios web, especialmente WordPress. Incluye monitorización, limpieza de malware, firewall de aplicación y mitigación de ataques DDoS.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d211",
+      "nombre": "Surfer SEO",
+      "descripcion": "Plataforma de SEO on-page que analiza SERPs y sugiere optimizaciones de contenido (keywords, estructura, longitud) basadas en los top results. Se utiliza para redactar y mejorar artículos con foco en posicionamiento orgánico.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d212",
+      "nombre": "SurveyMonkey",
+      "descripcion": "Plataforma de encuestas online muy extendida con plantillas, lógica condicional, segmentación y analítica. Se utiliza en investigación de mercado, feedback de clientes, estudios internos y evaluación de satisfacción.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d213",
+      "nombre": "Tableau",
+      "descripcion": "Plataforma de visualización y análisis de datos que permite conectar múltiples fuentes, construir dashboards interactivos y explorar datos de forma visual. Es muy usada en BI y analítica avanzada.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d214",
+      "nombre": "Talkwalker",
+      "descripcion": "Plataforma enterprise de consumer intelligence y social listening que analiza conversaciones en redes, medios y foros con IA. Ofrece análisis de imágenes, detección de tendencias y benchmarks competitivos, siendo habitual en grandes marcas y agencias.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d215",
+      "nombre": "Threads",
+      "descripcion": "Red social de Meta vinculada a Instagram, orientada a conversaciones de texto. Se está utilizando para comunicación más informal de marca, comunidad y experimentación de tono conversacional.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d216",
+      "nombre": "Tidio",
+      "descripcion": "Plataforma de chat en vivo, chatbots y helpdesk para webs y e-commerce, con integración directa con Shopify, WooCommerce y otras tiendas. Combina atención humana con automatizaciones IA para captar leads y resolver consultas.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d217",
+      "nombre": "TikTok Ads",
+      "descripcion": "Plataforma publicitaria de TikTok que permite crear campañas en TikTok, CapCut y el resto de su ecosistema. Ofrece segmentación avanzada, formatos nativos (In-Feed, TopView, Spark Ads) y herramientas creativas pensadas para vídeo corto vertical.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d218",
+      "nombre": "TikTok Analytics",
+      "descripcion": "Conjunto de herramientas de analítica integrado en TikTok para cuentas profesionales, que ofrece datos sobre alcance, engagement, crecimiento de seguidores y rendimiento de contenidos, clave para optimización de campañas.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d219",
+      "nombre": "Traackr",
+      "descripcion": "Plataforma de influencer marketing enterprise enfocada en gestión de relaciones a largo plazo, con análisis profundo de audiencias, tracking de campañas y herramientas para gobernanza y compliance de programas globales.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d220",
+      "nombre": "Trello",
+      "descripcion": "Herramienta de gestión de tareas y proyectos basada en tableros kanban, propiedad de Atlassian. Se utiliza por su simplicidad para coordinar pequeños equipos, flujos editoriales, backlogs y seguimientos ligeros de campañas.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d221",
+      "nombre": "TripAdvisor",
+      "descripcion": "Plataforma de reseñas y planificación de viajes. Es clave en reputación turística, ya que las valoraciones y rankings influyen en la elección de hoteles, restaurantes y actividades.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d222",
+      "nombre": "TrueReview",
+      "descripcion": "Herramienta de gestión de reseñas para negocios locales. Facilita el envío de solicitudes de opinión, centraliza respuestas y ayuda a aumentar el volumen de reseñas positivas en plataformas clave.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d223",
+      "nombre": "Trustpilot",
+      "descripcion": "Plataforma de reseñas generalista donde clientes evalúan empresas y servicios. Muchas marcas la integran en sus webs como prueba social y la monitorizan como indicador de satisfacción.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d224",
+      "nombre": "Typeform",
+      "descripcion": "Plataforma de formularios y encuestas con experiencia conversacional y diseño cuidado. Se usa para captación de leads, investigación, feedback y aplicaciones interactivas.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d225",
+      "nombre": "Ubersuggest",
+      "descripcion": "Herramienta de SEO y content marketing que ofrece sugerencias de keywords, análisis de dominios, auditoría básica y recomendaciones de contenidos, con una curva de entrada accesible para no especialistas.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d226",
+      "nombre": "Unbounce",
+      "descripcion": "Plataforma centrada en creación y test A/B de landing pages. Permite construir páginas orientadas a conversión sin programar, con plantillas y herramientas para optimizar el rendimiento de campañas de pago.",
+      "pagina_pdf": 250,
+      "pagina_libro": 245
+    },
+    {
+      "id": "k-d227",
+      "nombre": "Unsplash",
+      "descripcion": "Banco de imágenes gratuitas de alta calidad, con licencia flexible. Muy utilizado para ilustrar webs, blogs y presentaciones.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d228",
+      "nombre": "Updraft Plus",
+      "descripcion": "Plugin de backup para WordPress que permite programar copias de seguridad, almacenarlas en servicios externos (Drive, Dropbox, etc.) y restaurarlas de forma sencilla.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d229",
+      "nombre": "Upfluence",
+      "descripcion": "Plataforma de influencer marketing que integra descubrimiento, análisis de audiencias, gestión de campañas y medición de resultados, con enfoque en datos y workflows colaborativos.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d230",
+      "nombre": "UrbanFonts",
+      "descripcion": "Directorio de tipografías gratuitas y de pago con buscador por estilo y categoría. Es una fuente secundaria habitual para diseñadores que buscan alternativas creativas a catálogos más conocidos.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d231",
+      "nombre": "Userforge",
+      "descripcion": "Herramienta online para crear buyer personas y user personas de forma visual y colaborativa. Ayuda a equipos de marketing y UX a documentar arquetipos de cliente con un formato compartible y fácil de mantener.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d232",
+      "nombre": "Userlytics",
+      "descripcion": "Plataforma de user testing y UX research que permite realizar tests moderados y no moderados con usuarios reales a nivel global. Ofrece grabación de sesiones, preguntas y segmentación de paneles para obtener insights sobre productos digitales.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d233",
+      "nombre": "UserTesting",
+      "descripcion": "Plataforma para realizar tests remotos de usabilidad con usuarios reales. Permite definir tareas, reclutar perfiles y obtener vídeos y comentarios, generando insights directos para mejorar UX.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d234",
+      "nombre": "UXPressia",
+      "descripcion": "Herramienta orientada a crear customer journeys, personas y blueprints. Facilita la documentación y compartición de mapas experienciales con equipos de diseño, marketing y operaciones.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d235",
+      "nombre": "Vidyard",
+      "descripcion": "Plataforma de vídeo centrada en ventas y marketing B2B. Permite grabar vídeos personalizados, integrarlos en emails y páginas, y medir visualizaciones y engagement a nivel de contacto.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d236",
+      "nombre": "Vimeo",
+      "descripcion": "Plataforma de alojamiento y distribución de vídeo orientada a uso profesional y corporativo. Ofrece reproductor personalizable, privacidad avanzada, herramientas de marketing, OTT y analítica, siendo alternativa a YouTube para marcas que buscan más control.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d237",
+      "nombre": "Wave Video",
+      "descripcion": "Plataforma online para crear, editar y publicar vídeos cortos para redes sociales y marketing. Ofrece plantillas, banco de recursos, subtítulos automáticos y herramientas de distribución, orientada a equipos que producen mucho vídeo social.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d238",
+      "nombre": "Webflow",
+      "descripcion": "Plataforma de diseño y desarrollo visual de sitios web. Permite construir webs con control fino de HTML/CSS/JS a través de una interfaz visual, integrando CMS y animaciones sin necesidad de programar manualmente.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d239",
+      "nombre": "WebinarJam",
+      "descripcion": "Plataforma de webinars en directo orientada a marketing y ventas, con alta capacidad de asistentes, automatizaciones y herramientas de conversión (ofertas, CTAs, encuestas). Es habitual en estrategias de lanzamientos y lead generation.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d240",
+      "nombre": "Wirecast",
+      "descripcion": "Software profesional de producción y streaming en directo de Telestream, con soporte para múltiples cámaras, gráficos, transiciones y emisión simultánea a varias plataformas. Es habitual en producciones corporativas y eventos en vivo.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d241",
+      "nombre": "wiReply",
+      "descripcion": "Herramienta de gestión y automatización de respuestas a reseñas online para negocios locales y cadenas. Ayuda a mantener una presencia activa en plataformas de opinión con respuestas ágiles y coherentes con la marca.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d242",
+      "nombre": "Wistia",
+      "descripcion": "Plataforma de alojamiento de vídeo orientada a marketing B2B, con reproductor personalizable, formularios integrados, CTAs, analítica avanzada y herramientas para construir canales de contenido. Es muy usada para vídeo con objetivos de lead generation.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d243",
+      "nombre": "Wix",
+      "descripcion": "Constructor de sitios web con plantillas y editor visual, orientado a pymes y autónomos. Ofrece módulos de e-commerce, reservas, marketing y automatizaciones integradas.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d244",
+      "nombre": "WooCommerce",
+      "descripcion": "Plugin de WordPress que convierte una web en tienda online completa. Permite gestionar productos, pagos, envíos e integraciones con múltiples pasarelas y servicios.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d245",
+      "nombre": "WordPress",
+      "descripcion": "CMS de código abierto más extendido a nivel mundial. Permite crear desde blogs hasta sitios corporativos y tiendas, gracias a su ecosistema de temas y plugins, y a su flexibilidad de personalización.",
+      "pagina_pdf": 251,
+      "pagina_libro": 246
+    },
+    {
+      "id": "k-d246",
+      "nombre": "WP Fastest Caché",
+      "descripcion": "Plugin de caché para WordPress que mejora el rendimiento mediante minificación, compresión, caché de páginas y otras optimizaciones, con configuración relativamente sencilla.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d247",
+      "nombre": "WP Forms",
+      "descripcion": "Plugin de formularios para WordPress con interfaz visual, orientado a crear formularios de contacto, encuestas, suscripciones y pedidos de forma rápida, con integraciones a servicios externos.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d248",
+      "nombre": "WP-Live Chat by 3CX",
+      "descripcion": "Plugin de chat en vivo para WordPress, actualmente vinculado al ecosistema 3CX. Permite ofrecer soporte en tiempo real en webs, facilitando atención al cliente y captación de contactos.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d249",
+      "nombre": "Wrike",
+      "descripcion": "Plataforma de gestión de proyectos y colaboración orientada a equipos medianos y grandes, con gestión de recursos, aprobaciones, dashboards y automatizaciones. Es común en departamentos de marketing y operaciones de organizaciones complejas.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d250",
+      "nombre": "X Analytics",
+      "descripcion": "Panel de analítica nativo de X (antes Twitter) que muestra el rendimiento de publicaciones, impresiones, engagement y crecimiento de la cuenta. Es la fuente primaria de datos orgánicos para estrategias de contenido en esta red.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d251",
+      "nombre": "X Business Manager",
+      "descripcion": "Entorno de gestión empresarial de X para administrar cuentas, equipos, permisos y activos publicitarios. Facilita la operación profesional de marcas y agencias en la plataforma.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d252",
+      "nombre": "Xtensio Persona",
+      "descripcion": "Herramienta online para crear buyer personas, user personas y otros documentos estratégicos de marketing de forma colaborativa. Ofrece plantillas visuales y opciones para compartir y mantener vivos los documentos.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d253",
+      "nombre": "Yelp",
+      "descripcion": "Plataforma de reseñas local muy relevante en Estados Unidos y otros mercados. Usuarios valoran restaurantes, servicios y comercios, influyendo en la elección y visibilidad de negocios.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d254",
+      "nombre": "Yext",
+      "descripcion": "Plataforma enterprise de gestión de información de negocio (listings, fichas, FAQs) en directorios, mapas y buscadores. Es clave en estrategias de SEO local y experiencia en búsqueda para marcas multi-local.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d255",
+      "nombre": "Yoast SEO",
+      "descripcion": "Plugin SEO para WordPress muy popular, que guía al usuario en la optimización on-page (títulos, metadescripciones, estructura, legibilidad) y gestiona aspectos técnicos básicos de SEO.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d256",
+      "nombre": "Yotpo",
+      "descripcion": "Plataforma de marketing para e-commerce centrada en reseñas, UGC, programas de fidelización, referidos y SMS. Integra estas capacidades con Shopify y otras plataformas para impulsar conversión y retención.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d257",
+      "nombre": "YouScan",
+      "descripcion": "Plataforma de social listening con fuerte capacidad de análisis visual, capaz de detectar logos y productos en imágenes de redes. Se usa para monitorización de marca, análisis de consumidor e identificación de insights visuales.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d258",
+      "nombre": "YouTube Studio",
+      "descripcion": "Interfaz de gestión para canales de YouTube. Permite subir y editar vídeos, gestionar playlists, analizar métricas de rendimiento, moderar comentarios y configurar monetización.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d259",
+      "nombre": "Zapier",
+      "descripcion": "Plataforma de automatización que conecta miles de aplicaciones entre sí mediante flujos \"si pasa esto aquí, haz esto allí\". Es clave para integrar herramientas de marketing, ventas, soporte y productividad sin necesidad de desarrollo a medida.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    },
+    {
+      "id": "k-d260",
+      "nombre": "Zendesk",
+      "descripcion": "Suite de atención al cliente y experiencia que incluye ticketing, chat, base de conocimiento, automatizaciones y analítica. Es una referencia en soporte omnicanal y se integra con herramientas de marketing y ventas para unificar la visión del cliente.",
+      "pagina_pdf": 252,
+      "pagina_libro": 247
+    }
+  ],
+  "lista_herramientas_ia": [
+    {
+      "id": "k-ia001",
+      "nombre": "AdCreative.ai",
+      "descripcion": "Herramienta de generación de creatividades publicitarias con inteligencia artificial. Produce banners, vídeos y textos adaptados a cada plataforma (Meta, Google, TikTok) partiendo del branding y los objetivos del anunciante, y puntúa las piezas según su potencial de conversión.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia002",
+      "nombre": "Adobe Firefly",
+      "descripcion": "Familia de modelos generativos de Adobe especializada en imagen, vídeo, efectos de texto y vectores. Está integrada en Photoshop, Illustrator, Express y otras apps de la suite, con un modelo entrenado con contenido licenciado pensado para uso comercial seguro.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia003",
+      "nombre": "AntiGravity",
+      "descripcion": "Entorno de desarrollo agénticos de Google que permite a los desarrolladores delegar tareas de codificación a agentes de IA que planifican, escriben y verifican código de forma autónoma. Se posiciona como alternativa a flujos tradicionales de IDE para proyectos asistidos por IA de principio a fin.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia004",
+      "nombre": "Bandy",
+      "descripcion": "Herramienta de generación de vídeos con avatares e IA orientada a contenidos cortos para redes, ads y UGC sintético. Facilita la producción de piezas verticales con locución y avatar integrados a partir de guiones breves, reduciendo los tiempos de creación audiovisual.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia005",
+      "nombre": "Base44",
+      "descripcion": "Plataforma no-code de construcción de aplicaciones con IA que genera interfaces, lógica y base de datos a partir de instrucciones en lenguaje natural. Está pensada para equipos de producto, marketing y operaciones que necesitan prototipar o lanzar herramientas internas sin desarrollo tradicional.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia006",
+      "nombre": "Bolt (bolt.new)",
+      "descripcion": "Plataforma de desarrollo en el navegador impulsada por IA que permite construir, ejecutar y desplegar aplicaciones web completas a partir de prompts. Orientada a prototipado rápido y MVPs, combina generación de código con un entorno de ejecución en vivo.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia007",
+      "nombre": "Brandmark",
+      "descripcion": "Generador online de logos con IA que produce propuestas completas de identidad (logo, paleta, tipografías y aplicaciones) a partir del nombre y una breve descripción del proyecto. Está orientado a negocios pequeños que buscan branding rápido y coherente sin contratar un diseñador.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia008",
+      "nombre": "Cauliflower",
+      "descripcion": "Herramienta de análisis de feedback de clientes con IA que procesa reseñas, encuestas abiertas y menciones para extraer temas, sentimiento y oportunidades de mejora. Se usa en equipos de CX e investigación para convertir texto no estructurado en insights accionables.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia009",
+      "nombre": "ChatGPT",
+      "descripcion": "Asistente conversacional de OpenAI basado en los modelos GPT, capaz de redactar textos, resumir documentos, programar, analizar datos e interactuar con herramientas externas. Es uno de los LLMs más extendidos en marketing para ideación, copy, research y automatización de tareas creativas.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia010",
+      "nombre": "ChatGPT-Image",
+      "descripcion": "Funcionalidad de generación y edición de imágenes dentro de ChatGPT, basada en el modelo de imagen propio de OpenAI. Permite crear ilustraciones, bocetos, infografías y composiciones directamente desde el chat, con instrucciones en lenguaje natural y referencias visuales.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia011",
+      "nombre": "Claid.ai",
+      "descripcion": "Plataforma de edición y optimización de imágenes con IA orientada a e-commerce. Automatiza tareas como eliminación de fondos, mejora de iluminación, upscaling y generación de escenas para fichas de producto, estandarizando catálogos a gran escala.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia012",
+      "nombre": "Claude",
+      "descripcion": "Asistente de IA desarrollado por Anthropic, orientado a conversaciones extensas, análisis de documentos, redacción y tareas complejas con un enfoque marcado en seguridad y utilidad. Se emplea en marketing para research, síntesis, redacción de contenidos largos y razonamiento sobre datos cualitativos.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia013",
+      "nombre": "Claude Code",
+      "descripcion": "Herramienta de línea de comandos de Anthropic que permite delegar tareas de programación directamente a Claude desde el terminal. Está orientada a flujos de desarrollo agénticos, asistencia en refactor, depuración y generación de código sobre repositorios existentes.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia014",
+      "nombre": "Codex (ChatGPT)",
+      "descripcion": "Agente de programación de OpenAI integrado en ChatGPT que ejecuta tareas de desarrollo en entornos aislados: leer repositorios, escribir código, ejecutar pruebas y proponer pull requests. Está pensado para delegar trabajo técnico a la IA con supervisión humana.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia015",
+      "nombre": "Copy.ai",
+      "descripcion": "Plataforma de generación de contenidos con IA orientada a copy de marketing, ventas y operaciones. Ofrece plantillas para emails, anuncios, posts sociales y descripciones de producto, además de flujos de trabajo automatizados para equipos de contenido.",
+      "pagina_pdf": 253,
+      "pagina_libro": 248
+    },
+    {
+      "id": "k-ia016",
+      "nombre": "Creatify.ai",
+      "descripcion": "Herramienta que genera vídeos publicitarios cortos con avatares IA, voces sintéticas y plantillas basadas en URLs de producto. Facilita la producción masiva de creatividades para ads en TikTok, Meta y otras plataformas sin equipo audiovisual.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia017",
+      "nombre": "Cursor",
+      "descripcion": "Editor de código basado en VS Code potenciado con IA, que integra chat, autocompletado avanzado, edición en múltiples archivos y razonamiento sobre todo el repositorio. Se ha convertido en una referencia entre desarrolladores que adoptan flujos de programación asistidos por IA.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia018",
+      "nombre": "Dall-E",
+      "descripcion": "Modelo de generación de imágenes de OpenAI capaz de crear ilustraciones y composiciones a partir de descripciones en lenguaje natural. Integrado en ChatGPT y en API, se usa en marketing para concept art, bocetos publicitarios y generación rápida de visuales personalizados.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia019",
+      "nombre": "Eleven Labs",
+      "descripcion": "Plataforma líder en síntesis de voz y clonación de voz con IA, con resultados muy naturales en múltiples idiomas. Se emplea para doblajes, voice-overs publicitarios, audiolibros, asistentes conversacionales y generación de audio para contenidos audiovisuales.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia020",
+      "nombre": "Emergent",
+      "descripcion": "Plataforma de desarrollo con IA que construye aplicaciones web completas (frontend, backend y base de datos) a partir de descripciones en lenguaje natural. Se orienta a perfiles no técnicos y equipos que buscan acelerar MVPs y herramientas internas.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia021",
+      "nombre": "Fair.ai",
+      "descripcion": "Plataforma de generación y edición de imágenes con IA enfocada en casos de uso comerciales, con atención al cumplimiento de derechos y calidad de salida. Se orienta a equipos creativos que necesitan producir visuales a escala con controles de marca.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia022",
+      "nombre": "Figma Make",
+      "descripcion": "Funcionalidad de Figma que transforma diseños en código funcional mediante IA, permitiendo pasar de maquetas a prototipos interactivos y componentes reales. Acelera el puente entre diseño y desarrollo en equipos de producto.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia023",
+      "nombre": "Flux",
+      "descripcion": "Familia de modelos de generación de imágenes desarrollada por Black Forest Labs, valorada por su calidad fotorrealista, control de composición y respeto al prompt. Se utiliza tanto en productos comerciales como en flujos creativos open source.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia024",
+      "nombre": "Frase.io",
+      "descripcion": "Herramienta SEO y de contenidos con IA que investiga SERPs, genera briefs, redacta borradores y optimiza artículos para intención de búsqueda. Es usada por equipos de content marketing que buscan escalar producción orientada al posicionamiento orgánico.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia025",
+      "nombre": "Galileo AI",
+      "descripcion": "Herramienta de diseño de interfaces con IA que genera pantallas editables para productos digitales a partir de descripciones de texto. Se usa como acelerador de ideación y wireframing en equipos de diseño UX/UI.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia026",
+      "nombre": "Gamma",
+      "descripcion": "Plataforma de creación de presentaciones, documentos y páginas web con IA. Genera piezas completas a partir de un prompt, con diseño coherente, imágenes y estructura editable, sustituyendo flujos tradicionales de slides para equipos modernos.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia027",
+      "nombre": "Gemini",
+      "descripcion": "Familia de modelos multimodales de Google DeepMind integrada en productos como Google Workspace, Android y la app Gemini. Se utiliza en marketing para redacción, análisis de datos, generación de imágenes y automatización de tareas dentro del ecosistema Google.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia028",
+      "nombre": "Google Asset Studio",
+      "descripcion": "Herramienta de Google Ads para generar y testear creatividades publicitarias con IA a partir de los activos de marca existentes. Permite producir variantes de imágenes, vídeos y textos adaptados a distintos formatos y audiencias dentro de la plataforma de ads.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia029",
+      "nombre": "Google Lyria 3",
+      "descripcion": "Modelo de generación musical de Google DeepMind capaz de crear pistas originales en múltiples estilos a partir de prompts. Está pensado para producción de música de fondo, sintonías y contenido audiovisual sin necesidad de compositor.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia030",
+      "nombre": "Google Stitch",
+      "descripcion": "Herramienta experimental de Google para diseño de interfaces con IA que convierte prompts en maquetas de pantallas y permite iterar sobre ellas. Facilita el paso de ideas a diseños visuales concretos sin partir de un lienzo en blanco.",
+      "pagina_pdf": 254,
+      "pagina_libro": 249
+    },
+    {
+      "id": "k-ia031",
+      "nombre": "Grok",
+      "descripcion": "Asistente conversacional de xAI, integrado en X (antes Twitter), con acceso a información en tiempo real de la plataforma. Se posiciona como LLM con tono más informal y conectado al flujo de actualidad, útil para análisis y generación de contenido vinculado a conversaciones públicas.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia032",
+      "nombre": "Hailuo",
+      "descripcion": "Modelo de generación de vídeo con IA de MiniMax que produce clips a partir de prompts de texto o imágenes de referencia. Destaca por la calidad del movimiento y la coherencia de escenas, utilizado en creación de contenido publicitario y experimental.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia033",
+      "nombre": "HeyGen",
+      "descripcion": "Plataforma de generación de vídeos con avatares IA que permite crear presentaciones, formaciones y anuncios partiendo solo de un guión. Ofrece clonación de voz, traducción labial y avatares personalizados, muy utilizada para contenidos corporativos multilingües.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia034",
+      "nombre": "Higgsfield",
+      "descripcion": "Herramienta de generación de vídeo con IA centrada en movimientos de cámara cinematográficos, efectos y estilos visuales controlables. Se orienta a creadores publicitarios y de contenido que buscan resultados cinematográficos sin rodajes físicos.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia035",
+      "nombre": "Hypothenuse.ai",
+      "descripcion": "Plataforma de generación de contenidos con IA enfocada en e-commerce y marketing, con herramientas para descripciones de producto, blog posts y copy publicitario. Ofrece flujos específicos para escalar la creación de contenido en tiendas con catálogos extensos.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia036",
+      "nombre": "Jasper.ai",
+      "descripcion": "Plataforma de generación de contenidos con IA orientada a equipos de marketing, con flujos para blog, anuncios, emails, redes y campañas. Incluye controles de tono de voz de marca y plantillas específicas para casos de uso B2B y B2C.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia037",
+      "nombre": "Kimi",
+      "descripcion": "Asistente conversacional desarrollado por Moonshot AI, con especial énfasis en contextos muy largos y análisis de documentos extensos. Es popular en el mercado asiático y se utiliza para research, resúmenes y tareas de conocimiento intensivo.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia038",
+      "nombre": "Klap",
+      "descripcion": "Herramienta con IA que transforma vídeos largos (podcasts, webinars, entrevistas) en clips cortos optimizados para TikTok, Reels y Shorts. Genera subtítulos automáticos, reencuadres verticales y títulos atractivos para maximizar el rendimiento en vídeo vertical.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia039",
+      "nombre": "Kling",
+      "descripcion": "Modelo de generación de vídeo con IA de Kuaishou capaz de producir clips realistas a partir de texto e imágenes, con buen control de movimiento y duración. Se ha convertido en una referencia en la oleada actual de herramientas de vídeo generativo.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia040",
+      "nombre": "LogoAI",
+      "descripcion": "Herramienta de creación de logos y branding con IA que genera identidades completas, maquetas y recursos para redes a partir del nombre del negocio. Está pensada para pymes que buscan coherencia visual sin proceso de diseño tradicional.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia041",
+      "nombre": "Logoflow",
+      "descripcion": "Plataforma de generación de logos y sistemas de marca con IA, con un enfoque en estilos modernos y presentaciones listas para cliente. Se utiliza para iterar rápidamente sobre conceptos de identidad visual en fases iniciales de proyecto.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia042",
+      "nombre": "LongShot AI",
+      "descripcion": "Plataforma de redacción de contenidos con IA centrada en artículos SEO con verificación de hechos y actualización de información. Incluye módulos para briefs, optimización semántica y detección de contenido generado por IA.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia043",
+      "nombre": "Looka",
+      "descripcion": "Generador online de logos e identidades con IA que ofrece un flujo guiado para definir preferencias de estilo, colores y símbolos. Permite adquirir paquetes de branding con versiones, mockups y guías básicas, orientado a pequeños negocios.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia044",
+      "nombre": "Lovable",
+      "descripcion": "Plataforma no-code de creación de aplicaciones web con IA que genera código, interfaces y lógica a partir de descripciones en lenguaje natural. Está pensada para perfiles de producto y marketing que quieren lanzar productos sin depender de un equipo de desarrollo.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia045",
+      "nombre": "Luma",
+      "descripcion": "Plataforma de generación de vídeo con IA (Luma Dream Machine) que produce clips realistas a partir de texto o imágenes de referencia. Es una de las opciones más usadas en experimentación creativa y producción de piezas publicitarias cortas.",
+      "pagina_pdf": 255,
+      "pagina_libro": 250
+    },
+    {
+      "id": "k-ia046",
+      "nombre": "MakeUGC",
+      "descripcion": "Plataforma que genera vídeos tipo UGC (user generated content) con avatares IA y guiones adaptados a productos, pensada para campañas de ads en redes sociales. Facilita la creación masiva de creatividades que emulan testimonios reales.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia047",
+      "nombre": "Marketmuse",
+      "descripcion": "Plataforma de contenido con IA que analiza webs y SERPs para identificar gaps de contenido, sugerir clusters temáticos y generar briefs optimizados. Está orientada a equipos de SEO y content marketing que buscan escalar estrategias basadas en datos.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia048",
+      "nombre": "MidJourney",
+      "descripcion": "Modelo de generación de imágenes con IA, utilizado principalmente a través de Discord y su web, conocido por la calidad estética de sus resultados. Se ha convertido en referencia creativa para conceptos visuales, moodboards y dirección de arte en campañas.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia049",
+      "nombre": "MonkeyLearn",
+      "descripcion": "Plataforma no-code de text analytics que permite entrenar modelos de clasificación y extracción a partir de textos como reseñas, tickets o encuestas. Está orientada a equipos que quieren automatizar el análisis de feedback sin conocimientos de machine learning.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia050",
+      "nombre": "Moses",
+      "descripcion": "Herramienta de generación de audio e IA musical pensada para producir pistas, jingles y efectos para contenido audiovisual. Se emplea en proyectos donde se requiere música original rápida sin licencias externas.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia051",
+      "nombre": "Nano Banana 2",
+      "descripcion": "Modelo de generación y edición de imágenes de Google (evolución de Nano Banana), integrado en Gemini, capaz de producir y modificar imágenes con alta fidelidad y controles precisos. Se utiliza para diseño creativo, edición conversacional y producción de visuales de marca.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia052",
+      "nombre": "Napkin",
+      "descripcion": "Herramienta que transforma texto en diagramas, esquemas e ilustraciones informativas de forma automática. Está pensada para acelerar la creación de visuales en presentaciones, documentos y contenidos educativos a partir de ideas ya escritas.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia053",
+      "nombre": "NotebookLM",
+      "descripcion": "Asistente de investigación de Google que permite cargar documentos, enlaces y audios para analizarlos, resumirlos y generar contenidos a partir de esas fuentes. Incluye funciones como los audio overviews (podcasts generados con IA) y es muy útil para research y síntesis de información.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia054",
+      "nombre": "OpusClip",
+      "descripcion": "Herramienta con IA que convierte vídeos largos en clips cortos optimizados para redes sociales, generando reencuadres verticales, subtítulos y títulos atractivos. Es muy usada por creadores de podcasts y contenido long-form para escalar su presencia en vídeo corto.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia055",
+      "nombre": "Pencil",
+      "descripcion": "Plataforma de generación de creatividades publicitarias con IA para equipos de performance marketing. Produce variantes de imágenes y vídeos a partir de activos de marca y los conecta con aprendizajes de rendimiento para iterar de forma continua.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia056",
+      "nombre": "Perplexity",
+      "descripcion": "Motor de búsqueda conversacional que combina LLMs con búsqueda en tiempo real y citación de fuentes. Se usa para research rápido, verificación de información y síntesis de temas complejos con referencias directas.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia057",
+      "nombre": "Pika",
+      "descripcion": "Plataforma de generación de vídeo con IA centrada en creatividad accesible, que permite producir clips a partir de texto, imágenes o vídeos existentes. Se usa para experimentación visual, contenido social y piezas publicitarias cortas.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia058",
+      "nombre": "QuillBot",
+      "descripcion": "Plataforma de reescritura, resumen y corrección de textos con IA, orientada a usuarios que quieren reformular contenidos, evitar duplicados y mejorar estilo. Es popular entre estudiantes, creadores y equipos de contenido multilingüe.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia059",
+      "nombre": "Qwen",
+      "descripcion": "Familia de modelos de lenguaje de Alibaba con versiones open source y comerciales, con fuerte rendimiento en chino e inglés. Se utiliza en aplicaciones empresariales, asistentes y flujos de generación de contenido en mercados asiáticos y globales.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia060",
+      "nombre": "Qwen Image",
+      "descripcion": "Modelo de generación de imágenes de Alibaba dentro de la familia Qwen, capaz de crear visuales a partir de prompts en múltiples idiomas. Está orientado a casos de uso empresariales y creativos integrados en el ecosistema Alibaba Cloud.",
+      "pagina_pdf": 256,
+      "pagina_libro": 251
+    },
+    {
+      "id": "k-ia061",
+      "nombre": "Reve.art",
+      "descripcion": "Plataforma de generación de imágenes con IA con un motor propio orientado a calidad estética y consistencia de estilo. Se emplea en exploraciones creativas, branding y producción de visuales para contenidos digitales.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia062",
+      "nombre": "Runway",
+      "descripcion": "Plataforma de herramientas creativas con IA centrada en generación y edición de vídeo, efectos visuales y manipulación de imágenes. Es una de las referencias en vídeo generativo profesional, con uso creciente en publicidad, cine y contenidos de marca.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia063",
+      "nombre": "Rytr",
+      "descripcion": "Herramienta de redacción con IA orientada a generar textos cortos y medianos para blogs, anuncios, emails y redes sociales. Destaca por su precio accesible y su interfaz sencilla, siendo una opción común para freelancers y pymes.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia064",
+      "nombre": "Seedance",
+      "descripcion": "Modelo de generación de vídeo con IA desarrollado por ByteDance, capaz de producir clips con buen control de movimiento y composición a partir de prompts. Se posiciona como alternativa en el ecosistema creciente de herramientas de vídeo generativo.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia065",
+      "nombre": "Sora",
+      "descripcion": "Modelo de generación de vídeo con IA de OpenAI capaz de producir clips de alta calidad con escenas complejas y buena coherencia temporal a partir de prompts. Se utiliza en casos creativos y publicitarios que buscan resultados cinematográficos con flujos generativos.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia066",
+      "nombre": "Suno",
+      "descripcion": "Plataforma de generación musical con IA que crea canciones completas (letra, voz, instrumentación) a partir de prompts de texto. Se emplea para crear jingles, sintonías, música original para contenidos y exploración creativa.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia067",
+      "nombre": "Synthesia",
+      "descripcion": "Plataforma de generación de vídeos con avatares IA orientada a contenidos corporativos, formación y comunicación interna. Permite crear vídeos multilingües a partir de texto con avatares realistas, reduciendo costes de producción audiovisual.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia068",
+      "nombre": "Tailor Brands",
+      "descripcion": "Plataforma de branding con IA que ofrece creación de logos, identidades visuales, tarjetas o sitios web. Está pensada como solución todo-en-uno para emprendedores que lanzan una marca desde cero.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia069",
+      "nombre": "TextCortex",
+      "descripcion": "Plataforma de IA para redacción y asistencia en texto con extensiones de navegador, integraciones y una personalización fuerte del tono de marca. Se orienta a equipos que necesitan asistencia de escritura directamente en sus herramientas de trabajo.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia070",
+      "nombre": "TopView",
+      "descripcion": "Herramienta de creación de vídeos publicitarios con IA que transforma URLs de producto o briefs en creatividades listas para ads en redes sociales. Está orientada a escalar la producción de creatividades para equipos de performance.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia071",
+      "nombre": "Veo 3",
+      "descripcion": "Modelo de generación de vídeo con IA de Google DeepMind capaz de producir clips con gran realismo, coherencia y control sobre cámara y estilo. Está integrado en productos como Gemini y herramientas creativas de Google para flujos de producción audiovisual.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia072",
+      "nombre": "Vercel v0",
+      "descripcion": "Generador de interfaces con IA de Vercel que produce componentes React y Tailwind listos para producción a partir de prompts. Se usa como puente entre diseño y desarrollo frontend, acelerando el prototipado de productos web.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia073",
+      "nombre": "Verdent",
+      "descripcion": "Entorno de desarrollo asistido por IA orientado a flujos de programación agénticos, con capacidades de planificación, edición y ejecución de tareas técnicas. Se enmarca en la nueva oleada de herramientas que combinan IDE e IA en un solo producto.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia074",
+      "nombre": "Vizard",
+      "descripcion": "Herramienta con IA que convierte vídeos largos en clips cortos para redes sociales, con reencuadre automático, subtítulos y detección de los mejores momentos. Es popular entre podcasters y creadores que quieren reformular contenido long-form.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia075",
+      "nombre": "Wan",
+      "descripcion": "Modelo de generación de vídeo con IA de Alibaba, con versiones open source que han impulsado numerosas herramientas creativas. Se utiliza para producir clips a partir de texto o imágenes en flujos de contenido visual generativo.",
+      "pagina_pdf": 257,
+      "pagina_libro": 252
+    },
+    {
+      "id": "k-ia076",
+      "nombre": "Weshop.ai",
+      "descripcion": "Plataforma de generación de visuales de producto con IA enfocada en e-commerce. Crea escenas, modelos y fondos personalizados para fichas de producto, permitiendo renovar catálogos sin sesiones fotográficas tradicionales.",
+      "pagina_pdf": 258,
+      "pagina_libro": 253
+    },
+    {
+      "id": "k-ia077",
+      "nombre": "Writesonic",
+      "descripcion": "Plataforma de generación de contenidos con IA que cubre artículos largos, anuncios, emails, landing pages y chatbots. Ofrece flujos específicos de SEO y productividad para equipos de marketing y agencias.",
+      "pagina_pdf": 258,
+      "pagina_libro": 253
+    }
+  ],
+  "control": {
+    "total_digitales": 260,
+    "total_ia": 77,
+    "total": 337,
+    "total_anunciado_libro": 337,
+    "discrepancias": [
+      "Recuento exacto: 260 entradas en '✐ Herramientas digitales' (págs. PDF 236–252) + 77 en '✐ Herramientas nativas IA' (págs. PDF 253–258) = 337, coincide con la cifra anunciada en el libro (cap. 16, pág. PDF 236, y contracubierta, pág. PDF 261).",
+      "Criterio de parseo: cada entrada comienza en una línea con sangría y 'Nombre: descripción'; las líneas de continuación no llevan sangría. Se eliminaron los pies de página ('— N —') y las marcas de página. No hay ninguna entrada partida entre páginas ni nombres sin descripción. El recuento preliminar de ~322 probablemente se debió a separar por ':' o por patrón de nombre (los nombres con paréntesis, p. ej. 'HubSpot (generador de buyer persona)', 'Bolt (bolt.new)', 'Codex (ChatGPT)', y los nombres de varias palabras como 'Biblioteca de anuncios de TikTok' rompen patrones simples).",
+      "No hay nombres duplicados exactos ni herramientas repetidas entre la lista digital y la de IA.",
+      "Entradas que son variantes o módulos de una misma marca y que el libro cuenta por separado (inflan el total si se cuentan 'marcas'): HubSpot / HubSpot (generador de buyer persona) / HubSpot (landing page creator) / HubSpot (Service Hub); Shopify / Shopify (generador de logos); Kolsquare / Kolculator (Kolsquare); Sprout / Sprout Social; Hootsuite / Hootsuite Insights; Brandwatch / Brandwatch Vizia; Adobe / Adobe Express / Adobe Spark (descrita como versión previa integrada en Adobe Express) / Adobe Lightroom / Adobe XD / Photoshop / Photoshop Express / Premiere Pro; Google Analytics (incluyendo GA4); ChatGPT / ChatGPT-Image / Codex (ChatGPT); Claude / Claude Code; Qwen / Qwen Image; Meta Ads Manager / Meta Business Suite / Biblioteca de anuncios de Meta.",
+      "Posible duplicado por errata: 'Inclusive' (k-d111, descrita como herramienta de monitorización y análisis de marca) y 'Onclusive' (k-d166) aparecen como entradas distintas; en el cap. 14 (bloque '✐ Herramientas de monitorización') figura 'Inclusive' y en '✐ Herramientas de análisis' 'Onclusive'. Probablemente 'Inclusive' es errata de 'Onclusive'. Se transcribe literal.",
+      "Herramientas citadas en bloques ✐ de capítulos que NO tienen entrada en el kit: Google Forms (cap. 2), XPro (cap. 8), SpyFu (cap. 10), Kustomer (cap. 13, '✐ Herramientas IA de generación y categorización de respuestas'), Manus AI (cap. 15, '✐ Herramientas IA de planificación y controlling'; también citada en el texto del cap. 15).",
+      "Herramientas citadas en capítulos con un nombre distinto al del kit (correspondencia por variante, no faltan): AdCreative→AdCreative.ai; Ads Transparency (de) Google→Google Ads Transparency; Ahrefs Content Explorer→Ahrefs; Audiense Insights→Audiense; Bolt / Bolt.new→Bolt (bolt.new); Brandwatch influencer→Brandwatch; Canva AI→Canva; Creatify→Creatify.ai; Emergent.sh→Emergent; Epidemic Sounds→Epidemic Sound; Frase→Frase.io; Hubspot CJM→HubSpot; Lightroom→Adobe Lightroom; MozPro→Moz Pro; Qualtrics XM / Qualtrix→Qualtrics; RockContent→RockContent (generador de buyer persona); SEMrush Advertising Research / Semrush Brand Monitoring→SEMrush; Sprinkler→Sprinklr; GA4→Google Analytics (incluyendo GA4); versiones de modelos (ChatGPT 5.2, Gemini 3.1 Pro, Claude 4.6 Sonnet/Opus, Grok 4.2)→ChatGPT, Gemini, Claude, Grok.",
+      "Entradas del kit cuyo nombre no aparece en el texto de los capítulos 1–15 (capa de texto; podrían figurar en imágenes del cap. 5 o no haberse citado): Autopilot, BrightEdge, Chatmeter, DesignMantic, Google Fonts, GraphicSprings, InVision (sí citado dentro de la descripción de Adobe XD en el propio kit), Joomla, Marketo Engage, Marvel App, Pardot, ReviewPush, Zapier. (Dondominio.com y Godaddy.com sí aparecen en el cap. 6 sin el '.com'.)",
+      "Orden alfabético: ambas listas respetan el orden alfabético (ignorando mayúsculas y tildes)."
+    ]
+  }
+}

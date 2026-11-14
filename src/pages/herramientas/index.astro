@@ -1,0 +1,52 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import AvisoVisibilidad from '../../components/AvisoVisibilidad.astro';
+import Icon from '../../components/Icon.astro';
+import { getHerramientas, bloquesHerramientas, categoriaDeCap, categorias } from '../../lib/datos';
+const hs = getHerramientas();
+const bloques = bloquesHerramientas();
+const nIa = hs.filter((h) => h.tipo === 'ia').length;
+const nDig = hs.length - nIa;
+---
+<Layout titulo="Herramientas" descripcion={`Directorio de ${hs.length} herramientas digitales y nativas de IA citadas en el libro «Desde cero hasta el éxito», filtrable por tipo, bloque y área del plan.`} migas={[{ nombre: 'Inicio', url: '/' }, { nombre: 'Herramientas' }]} ancho>
+  <header class="c-cabecera">
+    <div>
+      <p class="c-overline c-overline--primario">Kit del libro · capítulo 16 y bloques ✐</p>
+      <h1>Directorio de herramientas</h1>
+      <p class="c-lead">El kit del capítulo 16 y las herramientas que el libro recomienda en cada bloque ✐: {hs.length} herramientas digitales y nativas de IA.</p>
+    </div>
+    <ul class="c-stats" aria-label="Resumen del directorio">
+      <li><Icon nombre="herramientas" /><span><span class="c-stats__lbl">En el directorio</span> {hs.length} herramientas</span></li>
+      <li><Icon nombre="libro" /><span><span class="c-stats__lbl">Curaduría</span> Libro y laboratorio</span></li>
+    </ul>
+  </header>
+  <AvisoVisibilidad />
+  <div data-js="filtro" data-singular="herramienta" data-plural="herramientas">
+    <div class="c-card c-filtros-card">
+      <div class="c-filtros-card__fila">
+        <label class="c-buscador c-buscador--gris"><span class="sr-only">Buscar</span><Icon nombre="buscar" /><input type="search" data-filtro="texto" placeholder={`Busca entre ${hs.length} herramientas`} /></label>
+        <select data-filtro="tipo" class="sr-only" aria-hidden="true" tabindex="-1"><option value="">Todas</option><option value="ia">Nativas IA</option><option value="digital">Herramientas digitales</option></select>
+        <div class="c-chips" data-js="chips-filtro" data-para="tipo" role="group" aria-label="Tipo de herramienta">
+          <button type="button" data-valor="" aria-pressed="true">Todas <span class="c-chips__n">{hs.length}</span></button>
+          <button type="button" data-valor="ia" aria-pressed="false"><Icon nombre="chispa" />Nativas de IA <span class="c-chips__n">{nIa}</span></button>
+          <button type="button" data-valor="digital" aria-pressed="false">Digitales <span class="c-chips__n">{nDig}</span></button>
+        </div>
+      </div>
+      <div class="c-filtros-card__fila">
+        <label class="c-field c-field--inline"><span class="c-field__label">Bloque ✐ del libro</span><select data-filtro="bloque"><option value="">Todos</option>{bloques.map((b) => <option>{b}</option>)}</select></label>
+        <label class="c-field c-field--inline"><span class="c-field__label">Área del plan</span><select data-filtro="categoria"><option value="">Todas</option>{categorias.map((c) => <option>{c}</option>)}<option>Antes de empezar</option></select></label>
+      </div>
+    </div>
+    <div class="c-seccion__cab c-seccion"><h2 class="c-headline">Herramientas encontradas</h2><p class="c-chip c-chip--mono" data-js="recuento" aria-live="polite"></p></div>
+    <ul class="c-list-plain c-grid c-grid--3">
+      {hs.map((h) => (
+        <li data-js="item" data-tipo={h.tipo} data-bloque={h.bloques.join('|')} data-categoria={[...new Set(h.capitulos.map(categoriaDeCap).filter(Boolean))].join('|')} data-texto={`${h.nombre} ${h.descripcion ?? ''}`}>
+          <ToolCard nombre={h.nombre} slug={h.slug} tipo={h.tipo} url={h.url} bloque={h.bloques[0] ?? null} capitulos={[...h.capitulos].sort((a, b) => a - b).slice(0, 3)} descripcion={h.descripcion ?? h.menciones[0]?.descripcion} meta={h.capitulos.length ? null : 'Kit de herramientas (cap. 16)'} />
+        </li>
+      ))}
+    </ul>
+    <p class="c-estado-vacio" data-js="vacio" hidden>No encontramos <span data-js="vacio-q"></span>. <button type="button" class="c-btn c-btn--sec c-btn--peq" data-js="limpiar">Quitar filtros</button></p>
+  </div>
+  <script>import '../../client/filtro';</script>
+</Layout>
